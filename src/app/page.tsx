@@ -1,3 +1,5 @@
+import { WaitlistForm } from "@/app/components/WaitlistForm";
+
 export default function Home() {
   return (
     <main className="min-h-screen flex items-center justify-center px-6 py-16">
@@ -18,18 +20,25 @@ export default function Home() {
           A Swedish company built for those who think where your data lives matters.
         </p>
 
-        <div className="border-t border-[#8A9BA8]/30 pt-8">
-          <p className="text-sm text-[#8A9BA8] mb-2">
+        <div className="border-t border-[#8A9BA8]/30 pt-8 mb-12">
+          <p className="text-sm text-[#8A9BA8] mb-6">
             Launching August 2026
           </p>
+          <WaitlistForm />
+        </div>
+
+        <div className="border-t border-[#8A9BA8]/30 pt-8">
+          <p className="text-sm text-[#8A9BA8]">
+            Questions?{" "}
           <a
             href="mailto:hello@klyfta.eu"
-            className="text-base text-[#3B5F7F] hover:text-[#1A2332] transition-colors underline underline-offset-4 decoration-1"
-          >
+            className="text-[#3B5F7F] hover:text-[#1A2332] transition-colors underline underline-offset-4 decoration-1"
+            >
             hello@klyfta.eu
           </a>
-        </div>
+        </p>
       </div>
-    </main>
-  );
+    </div>
+</main>
+);
 }
