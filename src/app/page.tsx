@@ -5,15 +5,15 @@ export default function Home() {
     <main className="min-h-screen flex items-center justify-center px-6 py-16">
       <div className="max-w-xl w-full">
         <h1 className="text-4xl md:text-5xl font-medium tracking-tight text-[#1A2332] mb-12">
-          Klyfta
+          Verkio
         </h1>
 
         <p className="text-lg leading-relaxed text-[#1A2332] mb-6">
-          Klyfta is the email provider for European businesses that care about EU data residency.
+          Verkio is the work suite for European businesses that care about EU data residency.
         </p>
 
         <p className="text-lg leading-relaxed text-[#1A2332] mb-6">
-          Mail, calendar, and contacts hosted in the EU, encrypted at rest, GDPR-native by default.
+          Mail, calendar, and contacts hosted in the EU, encrypted at rest, GDPR-native by default. Even our DNS lookups stay in the EU.
         </p>
 
         <p className="text-lg leading-relaxed text-[#1A2332] mb-12">
@@ -31,10 +31,10 @@ export default function Home() {
           <p className="text-sm text-[#8A9BA8]">
             Questions?{" "}
           <a
-            href="mailto:hello@klyfta.eu"
+            href="mailto:hello@verkio.eu"
             className="text-[#3B5F7F] hover:text-[#1A2332] transition-colors underline underline-offset-4 decoration-1"
             >
-            hello@klyfta.eu
+            hello@verkio.eu
           </a>
         </p>
       </div>

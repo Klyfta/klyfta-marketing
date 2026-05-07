@@ -58,7 +58,7 @@ export async function joinWaitlist(formData: FormData): Promise<WaitlistResult> 
     console.error("Waitlist signup error:", error);
     return {
       success: false,
-      error: "Something went wrong. Please try again or email hello@klyfta.eu.",
+      error: "Something went wrong. Please try again or email hello@verkio.eu.",
     };
   }
 }

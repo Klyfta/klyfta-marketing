@@ -29,7 +29,7 @@ export function WaitlistForm() {
   if (state.status === "success") {
     return (
       <p className="text-base text-[#1A2332]">
-        Thanks. We&rsquo;ll be in touch when Klyfta opens in August.
+        Thanks. We&rsquo;ll be in touch when Verkio opens in August.
       </p>
     );
   }

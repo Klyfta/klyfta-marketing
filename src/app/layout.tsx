@@ -9,14 +9,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Klyfta — European email, EU-resident",
-  description: "Klyfta is the email provider for European businesses that care about EU data residency. Mail, calendar, and contacts hosted in the EU, encrypted at rest, GDPR-native by default.",
-  metadataBase: new URL("https://klyfta.eu"),
+  title: "Verkio — European work suite, EU-resident",
+  description: "Verkio is the work suite for European businesses that care about EU data residency. Mail, calendar, and contacts hosted in the EU, encrypted at rest, GDPR-native by default. Even our DNS lookups stay in the EU.",
+  metadataBase: new URL("https://verkio.eu"),
   openGraph: {
-    title: "Klyfta — European email, EU-resident",
-    description: "Premium European email for businesses that care about where their data lives.",
-    url: "https://klyfta.eu",
-    siteName: "Klyfta",
+    title: "Verkio — European work suite, EU-resident",
+    description: "Premium European work suite for businesses that care about where their data lives.",
+    url: "https://verkio.eu",
+    siteName: "Verkio",
     locale: "en_US",
     type: "website",
   },
