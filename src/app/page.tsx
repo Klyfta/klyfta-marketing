@@ -13,7 +13,7 @@ export default function Home() {
         </p>
 
         <p className="text-lg leading-relaxed text-[#1A2332] mb-6">
-          Mail, calendar, and contacts hosted in the EU, encrypted at rest, GDPR-native by default. Even our DNS lookups stay in the EU.
+          Mail, document storage, wikis, calendar, and contacts hosted in the EU, encrypted at rest, GDPR-native by default. Even our DNS lookups stay in the EU.
         </p>
 
         <p className="text-lg leading-relaxed text-[#1A2332] mb-12">
