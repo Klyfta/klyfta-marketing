@@ -1,0 +1,311 @@
+{
+  "_status": "draft — needs native review (Latvian uses 7 cases and grammatical gender; declension review essential)",
+  "metadata": {
+    "title": "Verkio — Eiropas darba komplekts, izvietots ES",
+    "description": "Verkio ir darba komplekts Eiropas uzņēmumiem, kuriem rūp datu atrašanās vieta ES. E-pasts, dokumentu glabātava, viki, kalendārs un kontakti — izvietoti ES, šifrēti miera stāvoklī, VDAR no pamata. Pat mūsu DNS pieprasījumi paliek ES.",
+    "ogDescription": "Eiropas premium darba komplekts uzņēmumiem, kuriem rūp, kur dzīvo viņu dati."
+  },
+  "nav": {
+    "suite": "Komplekts",
+    "residency": "Atrašanās",
+    "faqs": "BUJ",
+    "joinWaitlist": "Pievienoties sarakstam",
+    "language": "Valoda",
+    "roadmap": "Ceļvedis"
+  },
+  "hero": {
+    "eyebrow": "Atklāšana 2026. gada jūlijā",
+    "headline": "Eiropas e-pasta un darba komplekts.",
+    "body1": "Jūsu e-pasts un biznesa dati — izvietoti ES, šifrēti miera stāvoklī, VDAR no pamata.",
+    "body2": "Radīts tev, kurš uzskata, ka ir svarīgi, kur dzīvo tavi dati."
+  },
+  "suite": {
+    "eyebrow": "Komplekts",
+    "headline": "Viss, ko izmanto jūsu komanda. Vienā vietā, kur tas arī atrodas.",
+    "subhead": "Veidots uz atvērtiem standartiem. Izvietots ES. Bez piesaistes piegādātājam, bez pārsteigumiem.",
+    "items": {
+      "mail": {
+        "name": "E-pasts",
+        "description": "Personīgās un kopīgās iesūtnes. Izmantojiet tīmekļa lietotni vai jebkuru IMAP klientu. Ņemiet līdzi savu domēnu."
+      },
+      "calendar": {
+        "name": "Kalendārs",
+        "description": "Personīgie un komandas kalendāri. Standartos balstīts (CalDAV) — darbojas ar lietotnēm, ko jau izmantojat."
+      },
+      "contacts": {
+        "name": "Kontakti",
+        "description": "Personīgās un kopīgās adrešu grāmatas caur CardDAV. Sinhronizācija visur, bez piesaistes."
+      },
+      "documents": {
+        "name": "Dokumentu glabātava",
+        "description": "Faili un mapes ar koplietošanu, versiju vēsturi un detalizētām piekļuves tiesībām."
+      },
+      "wikis": {
+        "name": "Viki",
+        "description": "Strukturētas lapas komandas zināšanām ar pilnu rediģēšanas vēsturi un saitēm."
+      }
+    }
+  },
+  "residency": {
+    "eyebrow": "Atrašanās",
+    "headline": "Kur dzīvo jūsu dati.",
+    "subhead": "Bez pārsūtīšanas uz ASV. Bez pakļaušanas CLOUD Act. Bez neērtām atbildēm iepirkuma anketās.",
+    "items": {
+      "infrastructure": {
+        "name": "Eiropas īpašumā esoša infrastruktūra",
+        "description": "Glabāta, apstrādāta un rezervēta ES uz Eiropas īpašumā esošas infrastruktūras. Bez ASV hiperskaleriem — pat ne to ES reģionos."
+      },
+      "encryption": {
+        "name": "Šifrēti miera stāvoklī",
+        "description": "Atslēgas tiek pārvaldītas ES, mūsu kontrolē — nevis pie ASV hiperskalera."
+      },
+      "dns": {
+        "name": "DNS izšķirtspēja ES",
+        "description": "Pieprasījumi, kas jūs novirza uz mūsu serveriem, arī paliek Eiropā."
+      },
+      "jurisdiction": {
+        "name": "Eiropas jurisdikcija",
+        "description": "ES jurisdikcija, VDAR no pamata. Ārpus ASV CLOUD Act darbības jomas."
+      },
+      "subprocessors": {
+        "name": "Bez ASV apakšapstrādātājiem",
+        "description": "E-pasta piegāde, maksājumi, atbalsts — nekas datu ceļā nesaskaras ar piegādātāju, kura mītne ir ASV. Apakšapstrādātāju saraksts ir publicēts, izmaiņas tiek paziņotas iepriekš."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Salīdzinājums",
+    "headline": "Kā Verkio salīdzinājumā.",
+    "subhead": "Blakus diviem komplektiem, starp kuriem Eiropas uzņēmumi visbiežāk izvēlas.",
+    "columns": {
+      "verkio": "Verkio",
+      "google": "Google Workspace",
+      "microsoft": "Microsoft 365",
+      "info": "Info"
+    },
+    "rows": {
+      "infrastructure": {
+        "label": "Eiropas īpašumā esoša infrastruktūra",
+        "verkio": "Jā",
+        "google": "Nē (Google Cloud)",
+        "microsoft": "Nē (Microsoft Azure)",
+        "info": "Verkio darbojas uz ES mītnes nodrošinātāju pārvaldītas infrastruktūras — nekad uz AWS, Google Cloud vai Azure, pat ne to Eiropas reģioniem. Google Cloud un Microsoft Azure ir ASV hiperskaleri; to ES reģionus joprojām pārvalda ASV uzņēmumi."
+      },
+      "cloudAct": {
+        "label": "Ārpus ASV CLOUD Act",
+        "verkio": "Jā",
+        "google": "Nē (ASV mātesuzņēmums)",
+        "microsoft": "Nē (ASV mātesuzņēmums)",
+        "info": "ASV CLOUD Act liek ASV uzņēmumiem pēc pieprasījuma izsniegt klientu datus neatkarīgi no glabāšanas vietas. Google un Microsoft ir ASV korporācijas un tāpēc pakļauti. Verkio ir Eiropas uzņēmums un datu ceļā nav neviena ASV vienība."
+      },
+      "gdpr": {
+        "label": "VDAR no pamata",
+        "verkio": "Jā",
+        "google": "Atbilst caur DPA",
+        "microsoft": "Atbilst caur DPA",
+        "info": "VDAR ir iebūvēts Verkio datu modelī — datu samazināšana, juridiskā pamata izsekošana, kaskādes dzēšana, mašīnlasāms eksports. Google un Microsoft atbilst VDAR ar saviem datu apstrādes līgumiem, taču viņu produkti ir veidoti globālajam tirgum un VDAR uzskata par konfigurācijas slāni."
+      },
+      "keys": {
+        "label": "Klientu atslēgas pārvaldītas ES",
+        "verkio": "Jā, pēc noklusējuma",
+        "google": "Maksas papildinājums",
+        "microsoft": "Maksas papildinājums (E5)",
+        "info": "Verkio šifrēšanas atslēgas pēc noklusējuma atrodas ES teritorijā izvietotā KMS, ko mēs pārvaldām — bez augstāka līmeņa. Google Cloud CMEK un Microsoft Double Key Encryption ir maksas papildinājumi (Microsoft gadījumā E5), un pati atslēgu infrastruktūra bieži joprojām darbojas ASV mākoņos."
+      },
+      "standards": {
+        "label": "Atvērtie standarti (IMAP, CalDAV, CardDAV)",
+        "verkio": "Jā",
+        "google": "Ierobežots",
+        "microsoft": "Ierobežots",
+        "info": "Verkio atbalsta IMAP, SMTP, CalDAV un CardDAV kā pirmā līmeņa protokolus. Jebkurš standartiem atbilstošs klients (Thunderbird, Apple Mail, K-9, DAVx⁵) pieslēdzas tieši. Google un Microsoft tos tehniski atbalsta, bet ar ierobežotām funkcijām un obligātām lietotnes parolēm kontiem ar 2FA."
+      },
+      "dns": {
+        "label": "DNS izšķirtspēja ES",
+        "verkio": "Jā",
+        "google": "Globāla maršrutēšana",
+        "microsoft": "Globāla maršrutēšana",
+        "info": "verkio.eu autoritatīvais DNS tiek mitināts ES mītnes pakalpojumu sniedzējiem — nekad Route 53 (Amazon), Cloud DNS (Google) vai Azure DNS. Google un Microsoft parasti maršrutē DNS klientu domēniem globāli, tāpēc pieprasījumi var iet caur ASV pārvaldītiem nosaukumu serveriem."
+      }
+    },
+    "infoLabel": "Vairāk informācijas"
+  },
+  "faqs": {
+    "eyebrow": "BUJ",
+    "headline": "Biežāk uzdotie jautājumi",
+    "contactPrompt": "Kaut kā pietrūkst?",
+    "items": {
+      "hosting": {
+        "question": "Kur dati tiek faktiski izvietoti?",
+        "answer": "ES, punkts. Primārā glabāšana, rezerves kopijas un visa apstrāde notiek uz ES infrastruktūras. Neviena kopija nepamet Savienību."
+      },
+      "cloudAct": {
+        "question": "Kā ar ASV CLOUD Act?",
+        "answer": "Verkio ir Zviedrijas uzņēmums bez klātbūtnes ASV, tāpēc CLOUD Act mums nepiemērojams. Ārvalstu iestāžu piekļuves pieprasījumi tiek izskatīti caur Zviedrijas un Eiropas juridiskajiem kanāliem."
+      },
+      "clients": {
+        "question": "Vai tas darbojas ar Outlook, Apple Mail un Thunderbird?",
+        "answer": "Jā. Verkio ir balstīts standartos — IMAP, SMTP, CalDAV, CardDAV — jebkurš mūsdienīgs klients pievienojas tieši."
+      },
+      "launch": {
+        "question": "Kad Verkio tiek atklāts?",
+        "answer": "2026. gada jūlijā. Pievienojieties gaidīšanas sarakstam, un mēs sazināsimies, kad konti tiks atvērti."
+      },
+      "migration": {
+        "question": "Vai varu migrēt no Google Workspace vai Microsoft 365?",
+        "answer": "Jā. Migrācijas rīki e-pastam, kalendāram, kontaktiem un dokumentiem ir daļa no atklāšanas plāna."
+      },
+      "pricing": {
+        "question": "Kā ir strukturētas cenas?",
+        "answer": "Par lietotāju, mēneša vai gada abonements eiro, bez piemaksas par atsevišķām funkcijām. Detaļas pie atklāšanas."
+      },
+      "subprocessors": {
+        "question": "Vai izmantojat ASV apakšuzņēmējus?",
+        "answer": "Mūsu mērķis: nevienu datu ceļā. Atklāšanas brīdī publicēsim aktuālu apakšuzņēmēju sarakstu un par izmaiņām paziņosim laikus."
+      },
+      "leaving": {
+        "question": "Kas notiek ar maniem datiem, ja es aizeju?",
+        "answer": "Pilna eksportēšana standarta formātos. Bez piesaistes, bez izpirkuma izejot."
+      },
+      "openSource": {
+        "question": "Vai Verkio ir atvērtā koda?",
+        "answer": "Klienta puse balstīta uz atvērtiem standartiem, tāpēc darbojas jebkurš saderīgs rīks. Vairāk par aizmugurējo daļu pastāstīsim tuvāk atklāšanai."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Eiropas uzņēmums. Veidots ES. Izvietots ES.",
+    "copyright": "© {year} Verkio",
+    "productHeading": "Produkts",
+    "legalHeading": "Juridiski",
+    "contactHeading": "Kontakti",
+    "privacy": "Privātuma politika",
+    "terms": "Lietošanas noteikumi",
+    "allRightsReserved": "Visas tiesības aizsargātas"
+  },
+  "waitlist": {
+    "cardTitle": "Pievienoties gaidīšanas sarakstam",
+    "cardSubtitle": "Mēs sazināsimies, kad Verkio atvērsies.",
+    "emailLabel": "E-pasts",
+    "emailPlaceholder": "tu@tavsuznemums.lv",
+    "companyLabel": "Uzņēmums",
+    "companyOptional": "(neobligāti)",
+    "companyPlaceholder": "Acme SIA",
+    "submit": "Pievienoties",
+    "submitting": "Sūta…",
+    "successMessage": "Paldies. Mēs sazināsimies, kad Verkio atvērsies.",
+    "genericError": "Kaut kas nogāja greizi. Mēģiniet vēlreiz vai rakstiet uz hello@verkio.eu.",
+    "invalidEmail": "Lūdzu, ievadiet derīgu e-pasta adresi",
+    "invalidInput": "Nederīgs ievads"
+  },
+  "roadmap": {
+    "metaTitle": "Ceļvedis — Verkio",
+    "metaDescription": "Kas drīzumā Verkio.",
+    "eyebrow": "Ceļvedis",
+    "headline": "Kas drīzumā Verkio.",
+    "subhead": "Kurp dodamies tālāk.",
+    "backLink": "Atpakaļ uz sākumu",
+    "items": {
+      "wiki": {
+        "date": "2026. gada augusts",
+        "name": "Iekšējie viki",
+        "description": "Meklējamas, versiju kontroles telpas rokasgrāmatām, lēmumiem un institucionālajām zināšanām, ko komanda pieraksta sev pati."
+      },
+      "messaging": {
+        "date": "2026. gada oktobris",
+        "name": "Iekšējā ziņojumapmaiņa",
+        "description": "Kanāli, tiešās ziņas un sarakstes komandas sarunām — meklējams, ES izvietots un ārpus ASV tērzēšanas platformām."
+      },
+      "webmail": {
+        "date": "2026. gada decembris",
+        "name": "Tīmekļa pasta iesūtne",
+        "description": "Ātrs, uz tastatūru orientēts tīmekļa klients Verkio pastam — sarakste, meklēšana un etiķetes bez liekas slodzes."
+      }
+    }
+  },
+  "privacy": {
+    "metaTitle": "Privātuma politika — Verkio",
+    "metaDescription": "Kā Verkio rīkojas ar personas datiem vietnē verkio.eu, mūsu gaidītāju saraksta vietnē pirms palaišanas.",
+    "eyebrow": "Juridiski",
+    "headline": "Privātuma politika",
+    "lastUpdated": "Pēdējoreiz atjaunināts: 2026. gada 18. maijs",
+    "backLink": "Atpakaļ uz sākumlapu",
+    "intro": "Šis paziņojums apraksta, kā Verkio apstrādā personas datus vietnē verkio.eu, mūsu mārketinga un gaidītāju saraksta vietnē pirms palaišanas. Pēc produkta laišanas tirgū to aizstās atsevišķs, pilnīgāks privātuma paziņojums, kas attieksies uz pašu pakalpojumu.",
+    "sections": [
+      {
+        "heading": "Kas mēs esam",
+        "body": "Verkio ir Eiropas uzņēmums. Mēs darbojamies kā tālāk aprakstīto personas datu pārzinis.\n\nMūs varat sazināties pa hello@verkio.eu."
+      },
+      {
+        "heading": "Ko mēs vācam",
+        "body": "Gaidītāju saraksts: jūsu e-pasta adrese un pēc izvēles uzņēmuma nosaukums. Nekā vairāk.\n\nFunkcionālās sīkdatnes: maza NEXT_LOCALE sīkdatne, kas atceras jūsu valodas izvēli. Tā netiek izmantota izsekošanai.\n\nServera žurnāli: īsi pieprasījumu ieraksti (IP, lietotāja aģents, URL), lai droši darbinātu vietni. Glabājas īsu darbības laiku; netiek izmantoti profilēšanai.\n\nNav analītikas, nav mārketinga izsekotāju, nav trešo pušu reklāmas pikseļu."
+      },
+      {
+        "heading": "Kāpēc to vācam",
+        "body": "Lai paziņotu, kad Verkio sāks darboties, un lai uzturētu šo vietni.\n\nJuridiskais pamats saskaņā ar VDAR: leģitīma interese (6. panta 1. punkta f) apakšpunkts) gaidītāju sarakstam; nepieciešamība funkcionālajai sīkdatnei; leģitīma interese tīkla drošībā servera žurnāliem."
+      },
+      {
+        "heading": "Kur tie tiek glabāti",
+        "body": "Eiropas Savienībā, Eiropas īpašumā esošā infrastruktūrā. Nav ASV hiperskaleru un nav nodošanu ārpus ES."
+      },
+      {
+        "heading": "Cik ilgi tos glabājam",
+        "body": "Gaidītāju saraksta datus līdz produkta palaišanai un līdz brīdim, kad izvēlaties kļūt par klientu, vai agrāk, ja lūdzat tos dzēst. Servera žurnālus tikai īsu darbības laiku."
+      },
+      {
+        "heading": "Kopīgošana",
+        "body": "Mēs nepārdodam jūsu datus. Mēs tos neizpaužam reklāmdevējiem. Mēs neizmantojam trešo pušu izsekotājus. Piekļuve ir tikai Verkio darbiniekiem ar skaidru nepieciešamību."
+      },
+      {
+        "heading": "Jūsu tiesības",
+        "body": "Saskaņā ar VDAR jums ir tiesības piekļūt datiem, tos labot, dzēst, ierobežot apstrādi, iebilst pret to un pārnest datus. Varat arī atsaukt piekrišanu (ja tā ir pamats) un iesniegt sūdzību vietējai datu aizsardzības iestādei.\n\nLai izmantotu kādu no šīm tiesībām, rakstiet uz hello@verkio.eu. Mēs atbildam viena mēneša laikā."
+      },
+      {
+        "heading": "Atjauninājumi",
+        "body": "Kad šis paziņojums tiek mainīts, mēs atjaunināsim datumu augšā. Pēc produkta palaišanas tiks izdots pilnīgāks paziņojums, kas to aizstās."
+      },
+      {
+        "heading": "Kontakti",
+        "body": "Jautājumi par šo paziņojumu vai datu subjekta pieprasījumi: hello@verkio.eu."
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Lietošanas noteikumi — Verkio",
+    "metaDescription": "Noteikumi, kas regulē verkio.eu — Verkio mārketinga un gaidītāju saraksta vietnes pirms palaišanas — lietošanu.",
+    "eyebrow": "Juridiski",
+    "headline": "Lietošanas noteikumi",
+    "lastUpdated": "Pēdējoreiz atjaunināts: 2026. gada 18. maijs",
+    "backLink": "Atpakaļ uz sākumlapu",
+    "intro": "Šie noteikumi regulē jūsu verkio.eu, mūsu mārketinga un gaidītāju saraksta vietnes, lietošanu pirms palaišanas. Pēc produkta palaišanas pakalpojumu papildinās atsevišķi, pilnīgāki noteikumi.",
+    "sections": [
+      {
+        "heading": "Par mums",
+        "body": "Vietni verkio.eu pārvalda Verkio, Eiropas uzņēmums. Kontakti: hello@verkio.eu."
+      },
+      {
+        "heading": "Gaidītāju saraksts",
+        "body": "Norādot savu e-pastu, jūs pierakstāties, lai saņemtu ziņu, kad Verkio sāk darboties. Sarakstu varat atstāt jebkurā brīdī, rakstot mums. Jūsu datus izmantosim tikai ar palaišanu saistītai saziņai."
+      },
+      {
+        "heading": "Bez saistībām",
+        "body": "Pievienošanās gaidītāju sarakstam negarantē piekļuvi, nefiksē cenas un neveido pakalpojuma līgumu. Orientējoši palaišanas datumi ir tieši tādi — orientējoši."
+      },
+      {
+        "heading": "Saturs un preču zīmes",
+        "body": "Teksts, dizains un nosaukums Verkio pieder Verkio. Lūdzam tos nereproducēt un neizplatīt bez atļaujas."
+      },
+      {
+        "heading": "Atrunas",
+        "body": "Šī vietne tiek piedāvāta tāda, kāda tā ir. Mēs darām visu iespējamo, lai informācija būtu precīza, bet produkta detaļas pirms palaišanas var mainīties."
+      },
+      {
+        "heading": "Piemērojamie tiesību akti",
+        "body": "Šos noteikumus regulē Zviedrijas likumi. Strīdus risina Zviedrijas tiesas."
+      },
+      {
+        "heading": "Izmaiņas",
+        "body": "Šos noteikumus varam atjaunināt pirms palaišanas. Būtiskas izmaiņas tiks atspoguļotas datumā augšā. Turpinot lietot vietni, jūs piekrītat pašreizējai versijai."
+      }
+    ]
+  }
+}

@@ -1,16 +1,35 @@
 "use client";
 
 import { useState } from "react";
-import { joinWaitlist } from "@/app/actions/waitlist";
+import { useTranslations } from "next-intl";
+import {
+  joinWaitlist,
+  type WaitlistErrorKey,
+} from "@/app/actions/waitlist";
 
 type FormState =
   | { status: "idle" }
   | { status: "submitting" }
   | { status: "success" }
-  | { status: "error"; message: string };
+  | { status: "error"; errorKey: WaitlistErrorKey };
 
-export function WaitlistForm() {
+const inputClasses =
+  "block w-full appearance-none rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:border-brand-600 focus:outline-none focus:ring-1 focus:ring-brand-600 disabled:opacity-60 transition-colors";
+
+export function WaitlistForm({ onDark = false }: { onDark?: boolean }) {
+  const t = useTranslations("waitlist");
   const [state, setState] = useState<FormState>({ status: "idle" });
+
+  const labelClass = onDark
+    ? "mb-2 block text-sm font-medium text-white"
+    : "mb-2 block text-sm font-medium text-gray-900";
+
+  const buttonClass = onDark
+    ? "inline-flex w-full justify-center rounded-lg bg-white px-4 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-100 transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+    : "inline-flex w-full justify-center rounded-lg bg-gray-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800 transition-colors disabled:opacity-60 disabled:cursor-not-allowed";
+
+  const successClass = onDark ? "text-sm text-gray-300" : "text-sm text-gray-700";
+  const errorClass = onDark ? "text-sm text-red-300" : "text-sm text-red-700";
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -22,21 +41,16 @@ export function WaitlistForm() {
     if (result.success) {
       setState({ status: "success" });
     } else {
-      setState({ status: "error", message: result.error });
+      setState({ status: "error", errorKey: result.errorKey });
     }
   }
 
   if (state.status === "success") {
-    return (
-      <p className="text-base text-[#1A2332]">
-        Thanks. We&rsquo;ll be in touch when Verkio opens in August.
-      </p>
-    );
+    return <p className={successClass}>{t("successMessage")}</p>;
   }
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
-      {/* Honeypot — hidden from real users, bots fill it */}
       <div className="absolute left-[-9999px]" aria-hidden="true">
         <label htmlFor="website">Website</label>
         <input
@@ -49,11 +63,8 @@ export function WaitlistForm() {
       </div>
 
       <div>
-        <label
-          htmlFor="email"
-          className="block text-sm text-[#1A2332] mb-2"
-        >
-          Email address
+        <label htmlFor="email" className={labelClass}>
+          {t("emailLabel")}
         </label>
         <input
           type="email"
@@ -62,17 +73,23 @@ export function WaitlistForm() {
           required
           autoComplete="email"
           disabled={state.status === "submitting"}
-          className="w-full px-3 py-2 bg-white border border-[#8A9BA8]/30 rounded-sm text-[#1A2332] placeholder-[#8A9BA8]/60 focus:outline-none focus:border-[#3B5F7F] focus:ring-1 focus:ring-[#3B5F7F] transition-colors disabled:opacity-60"
-          placeholder="you@yourcompany.com"
+          className={inputClasses}
+          placeholder={t("emailPlaceholder")}
         />
       </div>
 
       <div>
-        <label
-          htmlFor="company"
-          className="block text-sm text-[#1A2332] mb-2"
-        >
-          Company <span className="text-[#8A9BA8]">(optional)</span>
+        <label htmlFor="company" className={labelClass}>
+          {t("companyLabel")}{" "}
+          <span
+            className={
+              onDark
+                ? "text-gray-400 font-normal"
+                : "text-gray-400 font-normal"
+            }
+          >
+            {t("companyOptional")}
+          </span>
         </label>
         <input
           type="text"
@@ -81,22 +98,22 @@ export function WaitlistForm() {
           autoComplete="organization"
           disabled={state.status === "submitting"}
           maxLength={255}
-          className="w-full px-3 py-2 bg-white border border-[#8A9BA8]/30 rounded-sm text-[#1A2332] placeholder-[#8A9BA8]/60 focus:outline-none focus:border-[#3B5F7F] focus:ring-1 focus:ring-[#3B5F7F] transition-colors disabled:opacity-60"
-          placeholder="Acme AB"
+          className={inputClasses}
+          placeholder={t("companyPlaceholder")}
         />
       </div>
 
       <button
         type="submit"
         disabled={state.status === "submitting"}
-        className="w-full px-4 py-2 bg-[#1A2332] text-[#FAFAF7] rounded-sm hover:bg-[#3B5F7F] transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+        className={buttonClass}
       >
-        {state.status === "submitting" ? "Joining..." : "Join the waitlist"}
+        {state.status === "submitting" ? t("submitting") : t("submit")}
       </button>
 
       {state.status === "error" && (
-        <p className="text-sm text-red-700" role="alert">
-          {state.message}
+        <p className={errorClass} role="alert">
+          {t(state.errorKey)}
         </p>
       )}
     </form>

@@ -5,15 +5,20 @@ import { waitlist } from "@/db/schema";
 import { z } from "zod";
 import { headers } from "next/headers";
 
-const waitlistSchema = z.object({
-  email: z.string().email("Please enter a valid email address"),
-  company: z.string().max(255).optional(),
-  honeypot: z.string().max(0, "Bot detected").optional(),
-});
+export type WaitlistErrorKey =
+  | "invalidEmail"
+  | "invalidInput"
+  | "genericError";
 
 export type WaitlistResult =
   | { success: true }
-  | { success: false; error: string };
+  | { success: false; errorKey: WaitlistErrorKey };
+
+const waitlistSchema = z.object({
+  email: z.string().email(),
+  company: z.string().max(255).optional(),
+  honeypot: z.string().max(0).optional(),
+});
 
 export async function joinWaitlist(formData: FormData): Promise<WaitlistResult> {
   const raw = {
@@ -24,9 +29,11 @@ export async function joinWaitlist(formData: FormData): Promise<WaitlistResult> 
 
   const parsed = waitlistSchema.safeParse(raw);
   if (!parsed.success) {
+    const firstIssue = parsed.error.issues[0];
+    const isEmailIssue = firstIssue?.path[0] === "email";
     return {
       success: false,
-      error: parsed.error.issues[0]?.message ?? "Invalid input",
+      errorKey: isEmailIssue ? "invalidEmail" : "invalidInput",
     };
   }
 
@@ -58,7 +65,7 @@ export async function joinWaitlist(formData: FormData): Promise<WaitlistResult> 
     console.error("Waitlist signup error:", error);
     return {
       success: false,
-      error: "Something went wrong. Please try again or email hello@verkio.eu.",
+      errorKey: "genericError",
     };
   }
 }

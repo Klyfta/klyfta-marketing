@@ -1,0 +1,311 @@
+{
+  "_status": "draft — needs native review (Lithuanian has 7 cases and complex declension; native review essential)",
+  "metadata": {
+    "title": "Verkio — Europinis darbo rinkinys, talpinamas ES",
+    "description": "Verkio yra darbo rinkinys Europos įmonėms, kurioms svarbu, kur saugomi duomenys ES. El. paštas, dokumentų saugykla, viki, kalendorius ir kontaktai — talpinami ES, šifruoti ramybės būsenoje, BDAR nuo pat pradžių. Net mūsų DNS užklausos lieka ES.",
+    "ogDescription": "Aukščiausios kokybės Europos darbo rinkinys įmonėms, kurioms svarbu, kur gyvena jų duomenys."
+  },
+  "nav": {
+    "suite": "Rinkinys",
+    "residency": "Vieta",
+    "faqs": "DUK",
+    "joinWaitlist": "Užsiregistruoti",
+    "language": "Kalba",
+    "roadmap": "Kelias"
+  },
+  "hero": {
+    "eyebrow": "Pristatymas 2026 m. liepą",
+    "headline": "Europinis pašto ir darbo rinkinys.",
+    "body1": "Jūsų paštas ir verslo duomenys — talpinami ES, šifruoti ramybės būsenoje, BDAR nuo pat pradžių.",
+    "body2": "Sukurta tiems, kuriems svarbu, kur gyvena jų duomenys."
+  },
+  "suite": {
+    "eyebrow": "Rinkinys",
+    "headline": "Viskas, ką naudoja jūsų komanda. Vienoje vietoje, kur tai ir saugoma.",
+    "subhead": "Sukurta naudojant atvirus standartus. Talpinama ES. Be priklausomybės nuo tiekėjo, be staigmenų.",
+    "items": {
+      "mail": {
+        "name": "El. paštas",
+        "description": "Asmeniniai ir bendri pašto dėžutės. Naudokite žiniatinklio programą arba bet kurį IMAP klientą. Atsineškite savo domeną."
+      },
+      "calendar": {
+        "name": "Kalendorius",
+        "description": "Asmeniniai ir komandos kalendoriai. Pagrįsta standartais (CalDAV) — veikia su programomis, kurias jau naudojate."
+      },
+      "contacts": {
+        "name": "Kontaktai",
+        "description": "Asmeninės ir bendros adresų knygos per CardDAV. Sinchronizacija visur, be priklausomybės."
+      },
+      "documents": {
+        "name": "Dokumentų saugykla",
+        "description": "Failai ir aplankai su dalijimusi, versijų istorija ir detalia prieigos kontrole."
+      },
+      "wikis": {
+        "name": "Viki",
+        "description": "Struktūrizuoti puslapiai komandos žinioms su pilna redagavimo istorija ir nuorodomis."
+      }
+    }
+  },
+  "residency": {
+    "eyebrow": "Vieta",
+    "headline": "Kur gyvena jūsų duomenys.",
+    "subhead": "Jokių perdavimų į JAV. Jokios sąsajos su CLOUD Act. Jokių nemalonių atsakymų pirkimų anketose.",
+    "items": {
+      "infrastructure": {
+        "name": "Europai priklausanti infrastruktūra",
+        "description": "Saugoma, apdorojama ir kuriamos atsarginės kopijos ES Europai priklausančioje infrastruktūroje. Jokių JAV hiperskalerių — net ne jų ES regionų."
+      },
+      "encryption": {
+        "name": "Šifruoti ramybės būsenoje",
+        "description": "Raktai valdomi ES, mūsų kontrolėje — ne pas JAV hiperskalerį."
+      },
+      "dns": {
+        "name": "DNS sprendimas ES",
+        "description": "Užklausos, kurios jus nukreipia į mūsų serverius, taip pat lieka Europoje."
+      },
+      "jurisdiction": {
+        "name": "Europos jurisdikcija",
+        "description": "ES jurisdikcija, BDAR nuo pat pradžių. Už JAV CLOUD Act įstatymo ribų."
+      },
+      "subprocessors": {
+        "name": "Jokių JAV subtvarkytojų",
+        "description": "El. pašto pristatymas, mokėjimai, palaikymas — niekas duomenų kelyje neliečia JAV įsteigto tiekėjo. Subtvarkytojų sąrašas skelbiamas viešai, o pakeitimai pranešami iš anksto."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Palyginimas",
+    "headline": "Kaip Verkio palygina.",
+    "subhead": "Greta dviejų rinkinių, kuriuos Europos įmonės dažniausiai renkasi.",
+    "columns": {
+      "verkio": "Verkio",
+      "google": "Google Workspace",
+      "microsoft": "Microsoft 365",
+      "info": "Info"
+    },
+    "rows": {
+      "infrastructure": {
+        "label": "Europai priklausanti infrastruktūra",
+        "verkio": "Taip",
+        "google": "Ne (Google Cloud)",
+        "microsoft": "Ne (Microsoft Azure)",
+        "info": "Verkio veikia ES įsteigtų tiekėjų valdomoje infrastruktūroje — niekada AWS, Google Cloud ar Azure, net ne jų Europos regionuose. Google Cloud ir Microsoft Azure yra JAV hiperskaleriai; jų ES regionus vis dar valdo JAV bendrovės."
+      },
+      "cloudAct": {
+        "label": "Už JAV CLOUD Act ribų",
+        "verkio": "Taip",
+        "google": "Ne (JAV patronuojanti įmonė)",
+        "microsoft": "Ne (JAV patronuojanti įmonė)",
+        "info": "JAV CLOUD Act įstatymas verčia JAV bendroves paprašius pateikti klientų duomenis, nepriklausomai nuo to, kur jie saugomi. Google ir Microsoft yra JAV korporacijos ir todėl patenka į šio įstatymo taikymo sritį. Verkio yra europinė, duomenų kelyje nėra jokios JAV organizacijos."
+      },
+      "gdpr": {
+        "label": "BDAR nuo pat pradžių",
+        "verkio": "Taip",
+        "google": "Atitinka per DPA",
+        "microsoft": "Atitinka per DPA",
+        "info": "BDAR yra įdiegtas į Verkio duomenų modelį — duomenų minimizavimas, teisinio pagrindo stebėjimas, kaskadinis šalinimas, mašininiu būdu nuskaitomas eksportas. Google ir Microsoft yra suderinami su BDAR per duomenų tvarkymo sutartis, bet jų produktai sukurti pasaulinei rinkai ir BDAR laikomas konfigūracijos sluoksniu."
+      },
+      "keys": {
+        "label": "Kliento raktai valdomi ES",
+        "verkio": "Taip, pagal numatytuosius",
+        "google": "Mokamas priedas",
+        "microsoft": "Mokamas priedas (E5)",
+        "info": "Verkio šifravimo raktai pagal numatytuosius nustatymus saugomi ES esančiame KMS, kurį valdome mes — be aukštesnio plano. Google Cloud CMEK ir Microsoft Double Key Encryption yra mokami priedai (Microsoft atveju E5), o pati raktų infrastruktūra dažnai vis dar veikia JAV debesyse."
+      },
+      "standards": {
+        "label": "Atviri standartai (IMAP, CalDAV, CardDAV)",
+        "verkio": "Taip",
+        "google": "Ribota",
+        "microsoft": "Ribota",
+        "info": "Verkio palaiko IMAP, SMTP, CalDAV ir CardDAV kaip pirmaeilius protokolus. Bet kuris standartams pritaikytas klientas (Thunderbird, Apple Mail, K-9, DAVx⁵) jungiasi tiesiogiai. Google ir Microsoft juos techniškai palaiko, bet su ribotomis funkcijomis ir privalomais programų slaptažodžiais paskyroms su 2FA."
+      },
+      "dns": {
+        "label": "DNS sprendimas ES",
+        "verkio": "Taip",
+        "google": "Globalus maršrutizavimas",
+        "microsoft": "Globalus maršrutizavimas",
+        "info": "Autoritetinis verkio.eu DNS yra prižiūrimas ES įsteigtų tiekėjų — niekada Route 53 (Amazon), Cloud DNS (Google) ar Azure DNS. Google ir Microsoft paprastai maršrutizuoja kliento domenų DNS visame pasaulyje, todėl užklausos gali eiti per JAV valdomus vardų serverius."
+      }
+    },
+    "infoLabel": "Daugiau informacijos"
+  },
+  "faqs": {
+    "eyebrow": "DUK",
+    "headline": "Dažniausiai užduodami klausimai",
+    "contactPrompt": "Ar ko nors trūksta?",
+    "items": {
+      "hosting": {
+        "question": "Kur duomenys iš tikrųjų talpinami?",
+        "answer": "ES, taškas. Pagrindinė saugykla, atsarginės kopijos ir visas apdorojimas vyksta ES infrastruktūroje. Jokia kopija neišeina iš Sąjungos."
+      },
+      "cloudAct": {
+        "question": "O kaip dėl JAV CLOUD Act?",
+        "answer": "Verkio yra Švedijos įmonė be biuro JAV, todėl CLOUD Act mums netaikomas. Užsienio institucijų prieigos prašymai sprendžiami per Švedijos ir Europos teisinius kanalus."
+      },
+      "clients": {
+        "question": "Ar veikia su Outlook, Apple Mail ir Thunderbird?",
+        "answer": "Taip. Verkio pagrįsta standartais — IMAP, SMTP, CalDAV, CardDAV — bet kuris šiuolaikinis klientas jungiasi tiesiogiai."
+      },
+      "launch": {
+        "question": "Kada Verkio bus pristatyta?",
+        "answer": "2026 m. liepą. Užsiregistruokite į laukimo sąrašą ir mes susisieksime, kai atsidarys paskyros."
+      },
+      "migration": {
+        "question": "Ar galiu migruoti iš Google Workspace arba Microsoft 365?",
+        "answer": "Taip. Migracijos įrankiai el. paštui, kalendoriui, kontaktams ir dokumentams yra pristatymo plano dalis."
+      },
+      "pricing": {
+        "question": "Kokia kainodaros struktūra?",
+        "answer": "Už naudotoją, mėnesinis arba metinis atsiskaitymas eurais, be priemokų už funkcijas. Detalės pristatymo metu."
+      },
+      "subprocessors": {
+        "question": "Ar naudojate JAV subrangovus?",
+        "answer": "Mūsų tikslas: nė vieno duomenų kelyje. Pristatymo metu paskelbsime aktualų subrangovų sąrašą ir apie pokyčius informuosime iš anksto."
+      },
+      "leaving": {
+        "question": "Kas atsitinka su mano duomenimis, jei išeinu?",
+        "answer": "Visiškas eksportas standartiniais formatais. Be priklausomybės, be išpirkos išeinant."
+      },
+      "openSource": {
+        "question": "Ar Verkio yra atvirojo kodo?",
+        "answer": "Kliento pusė sukurta naudojant atvirus standartus, todėl veikia bet koks suderinamas įrankis. Apie užpakalinę sistemą papasakosime arčiau pristatymo."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Europinė įmonė. Sukurta ES. Talpinama ES.",
+    "copyright": "© {year} Verkio",
+    "productHeading": "Produktas",
+    "legalHeading": "Teisinė informacija",
+    "contactHeading": "Kontaktai",
+    "privacy": "Privatumo politika",
+    "terms": "Naudojimosi sąlygos",
+    "allRightsReserved": "Visos teisės saugomos"
+  },
+  "waitlist": {
+    "cardTitle": "Užsiregistruoti į laukimo sąrašą",
+    "cardSubtitle": "Mes susisieksime, kai Verkio atsidarys.",
+    "emailLabel": "El. paštas",
+    "emailPlaceholder": "tu@tavoimone.lt",
+    "companyLabel": "Įmonė",
+    "companyOptional": "(neprivaloma)",
+    "companyPlaceholder": "Acme UAB",
+    "submit": "Užsiregistruoti",
+    "submitting": "Siunčiama…",
+    "successMessage": "Ačiū. Mes susisieksime, kai Verkio atsidarys.",
+    "genericError": "Kažkas nepavyko. Bandykite dar kartą arba rašykite į hello@verkio.eu.",
+    "invalidEmail": "Įveskite galiojantį el. pašto adresą",
+    "invalidInput": "Netinkama įvestis"
+  },
+  "roadmap": {
+    "metaTitle": "Kelias — Verkio",
+    "metaDescription": "Kas netrukus bus Verkio.",
+    "eyebrow": "Kelias",
+    "headline": "Kas netrukus bus Verkio.",
+    "subhead": "Kur einame toliau.",
+    "backLink": "Atgal į pradžią",
+    "items": {
+      "wiki": {
+        "date": "2026 m. rugpjūtis",
+        "name": "Vidiniai wiki",
+        "description": "Ieškomos, versijuojamos erdvės instrukcijoms, sprendimams ir institucinėms žinioms, kurias komanda rašo pati sau."
+      },
+      "messaging": {
+        "date": "2026 m. spalis",
+        "name": "Vidinė pranešimų sistema",
+        "description": "Kanalai, asmeninės žinutės ir gijos komandos pokalbiams — ieškoma, talpinama ES ir už JAV pokalbių platformų ribų."
+      },
+      "webmail": {
+        "date": "2026 m. gruodis",
+        "name": "Webmail dėžutė",
+        "description": "Greitas, klaviatūrai pritaikytas Verkio pašto žiniatinklio klientas — gijos, paieška ir etiketės be nereikalingo svorio."
+      }
+    }
+  },
+  "privacy": {
+    "metaTitle": "Privatumo politika — Verkio",
+    "metaDescription": "Kaip Verkio tvarko asmens duomenis verkio.eu — mūsų laukimo sąrašo svetainėje iki paleidimo.",
+    "eyebrow": "Teisinė informacija",
+    "headline": "Privatumo politika",
+    "lastUpdated": "Paskutinį kartą atnaujinta: 2026 m. gegužės 18 d.",
+    "backLink": "Atgal į pradžią",
+    "intro": "Šiame pranešime aprašoma, kaip Verkio tvarko asmens duomenis svetainėje verkio.eu, mūsų rinkodaros ir laukimo sąrašo svetainėje iki paleidimo. Paleidus produktą, šį pranešimą pakeis atskiras, išsamesnis privatumo pranešimas, apimantis pačią paslaugą.",
+    "sections": [
+      {
+        "heading": "Kas mes esame",
+        "body": "Verkio yra Europos įmonė. Mes esame toliau aprašytų asmens duomenų valdytojas.\n\nGalite susisiekti su mumis adresu hello@verkio.eu."
+      },
+      {
+        "heading": "Ką renkame",
+        "body": "Laukimo sąrašas: jūsų el. pašto adresas ir pasirinktinai įmonės pavadinimas. Daugiau nieko.\n\nFunkciniai slapukai: nedidelis NEXT_LOCALE slapukas, kuris įsimena jūsų kalbos pasirinkimą. Jis nenaudojamas sekimui.\n\nServerio žurnalai: trumpi užklausų įrašai (IP, naudotojo agentas, URL), kad svetainė veiktų saugiai. Saugomi trumpą eksploatacinį laikotarpį; nenaudojami profiliavimui.\n\nJokios analitikos, jokių rinkodaros sekiklių, jokių trečiųjų šalių reklamos pikselių."
+      },
+      {
+        "heading": "Kodėl juos renkame",
+        "body": "Kad praneštume jums, kai Verkio atsidarys, ir kad galėtume eksploatuoti šią svetainę.\n\nTeisinis pagrindas pagal BDAR: teisėtas interesas (6 str. 1 d. f p.) laukimo sąrašui; būtinybė funkciniam slapukui; teisėtas tinklo saugumo interesas serverio žurnalams."
+      },
+      {
+        "heading": "Kur jie saugomi",
+        "body": "Europos Sąjungoje, Europos nuosavybės infrastruktūroje. Jokių JAV hiperskalerių ir jokio perdavimo už ES ribų."
+      },
+      {
+        "heading": "Kiek laiko juos saugome",
+        "body": "Laukimo sąrašo duomenis iki produkto paleidimo ir kol nuspręsite tapti klientu arba anksčiau, jei paprašysite juos ištrinti. Serverio žurnalus tik trumpą eksploatacinį laikotarpį."
+      },
+      {
+        "heading": "Dalijimasis",
+        "body": "Mes neparduodame jūsų duomenų. Mes jais nesidalijame su reklamuotojais. Mes nenaudojame trečiųjų šalių sekiklių. Prieigą turi tik Verkio darbuotojai, turintys aiškų poreikį."
+      },
+      {
+        "heading": "Jūsų teisės",
+        "body": "Pagal BDAR turite teisę gauti duomenis, juos taisyti, ištrinti, apriboti, prieštarauti tvarkymui ir perkelti. Taip pat galite atšaukti sutikimą (kai tai yra pagrindas) ir pateikti skundą vietos duomenų apsaugos institucijai.\n\nNorėdami pasinaudoti bet kuria iš šių teisių, rašykite hello@verkio.eu. Atsakome per vieną mėnesį."
+      },
+      {
+        "heading": "Atnaujinimai",
+        "body": "Pasikeitus šiam pranešimui, atnaujinsime aukščiau nurodytą datą. Paleidus produktą bus paskelbtas išsamesnis pranešimas, kuris pakeis šį."
+      },
+      {
+        "heading": "Kontaktai",
+        "body": "Klausimai dėl šio pranešimo arba duomenų subjekto prašymai: hello@verkio.eu."
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Naudojimosi sąlygos — Verkio",
+    "metaDescription": "Sąlygos, reglamentuojančios verkio.eu — Verkio rinkodaros ir laukimo sąrašo svetainės iki paleidimo — naudojimą.",
+    "eyebrow": "Teisinė informacija",
+    "headline": "Naudojimosi sąlygos",
+    "lastUpdated": "Paskutinį kartą atnaujinta: 2026 m. gegužės 18 d.",
+    "backLink": "Atgal į pradžią",
+    "intro": "Šios sąlygos reglamentuoja jūsų verkio.eu, mūsų rinkodaros ir laukimo sąrašo svetainės iki paleidimo, naudojimą. Paleidus produktą atskiros, išsamesnės sąlygos lydės pačią paslaugą.",
+    "sections": [
+      {
+        "heading": "Apie",
+        "body": "verkio.eu valdo Verkio, Europos įmonė. Kontaktas: hello@verkio.eu."
+      },
+      {
+        "heading": "Laukimo sąrašas",
+        "body": "Pateikdami el. paštą užsiregistruojate, kad sužinotumėte, kai Verkio atsidarys. Iš sąrašo galite pasitraukti bet kada parašydami mums. Jūsų duomenis naudosime tik su paleidimu susijusiam kontaktui."
+      },
+      {
+        "heading": "Jokio įsipareigojimo",
+        "body": "Įsiregistravimas į laukimo sąrašą negarantuoja prieigos, nefiksuoja kainų ir nesudaro paslaugos sutarties. Orientacinės paleidimo datos yra būtent tokios — orientacinės."
+      },
+      {
+        "heading": "Turinys ir prekių ženklai",
+        "body": "Tekstas, dizainas ir pavadinimas Verkio priklauso Verkio. Prašome neplatinti ir neatkurti be leidimo."
+      },
+      {
+        "heading": "Atsakomybės apribojimai",
+        "body": "Ši svetainė pateikiama tokia, kokia yra. Stengiamės, kad informacija būtų tiksli, bet produkto detalės iki paleidimo gali keistis."
+      },
+      {
+        "heading": "Taikoma teisė",
+        "body": "Šios sąlygos taikomos pagal Švedijos teisę. Ginčai sprendžiami Švedijos teismuose."
+      },
+      {
+        "heading": "Pakeitimai",
+        "body": "Šias sąlygas galime atnaujinti prieš paleidimą. Esminiai pakeitimai atsispindės aukščiau nurodytoje datoje. Tęsdami naudojimąsi svetaine sutinkate su dabartine versija."
+      }
+    ]
+  }
+}

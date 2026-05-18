@@ -1,0 +1,311 @@
+{
+  "_status": "draft — needs native review (Czech has 7 cases and complex declension; native review essential)",
+  "metadata": {
+    "title": "Verkio — Evropský pracovní balíček hostovaný v EU",
+    "description": "Verkio je pracovní balíček pro evropské firmy, kterým záleží na lokalitě dat v EU. E-mail, úložiště dokumentů, wiki, kalendář a kontakty — hostováno v EU, šifrováno v klidu, GDPR od základu. I naše DNS dotazy zůstávají v EU.",
+    "ogDescription": "Prémiový evropský pracovní balíček pro firmy, kterým záleží na tom, kde žijí jejich data."
+  },
+  "nav": {
+    "suite": "Balíček",
+    "residency": "Lokalita",
+    "faqs": "FAQ",
+    "joinWaitlist": "Přidat se na seznam",
+    "language": "Jazyk",
+    "roadmap": "Plán"
+  },
+  "hero": {
+    "eyebrow": "Spuštění v červenci 2026",
+    "headline": "Evropský e-mailový a pracovní balíček.",
+    "body1": "Váš e-mail a firemní data — hostovaná v EU, šifrovaná v klidu, GDPR od základu.",
+    "body2": "Vytvořeno pro ty, kteří si myslí, že záleží na tom, kde vaše data žijí."
+  },
+  "suite": {
+    "eyebrow": "Balíček",
+    "headline": "Vše, co váš tým používá. Na jednom místě, kde to také žije.",
+    "subhead": "Postaveno na otevřených standardech. Hostováno v EU. Žádné uzamčení k dodavateli, žádná překvapení.",
+    "items": {
+      "mail": {
+        "name": "E-mail",
+        "description": "Osobní a sdílené schránky. Použijte webovou aplikaci nebo libovolného IMAP klienta. Přineste si vlastní doménu."
+      },
+      "calendar": {
+        "name": "Kalendář",
+        "description": "Osobní a týmové kalendáře. Založeno na standardech (CalDAV) — funguje s aplikacemi, které již používáte."
+      },
+      "contacts": {
+        "name": "Kontakty",
+        "description": "Osobní a sdílené adresáře přes CardDAV. Synchronizace všude, bez uzamčení."
+      },
+      "documents": {
+        "name": "Úložiště dokumentů",
+        "description": "Soubory a složky se sdílením, historií verzí a podrobnými přístupovými právy."
+      },
+      "wikis": {
+        "name": "Wiki",
+        "description": "Strukturované stránky pro znalosti týmu s plnou historií úprav a odkazy."
+      }
+    }
+  },
+  "residency": {
+    "eyebrow": "Lokalita",
+    "headline": "Kde žijí vaše data.",
+    "subhead": "Žádné přenosy do USA. Žádná expozice CLOUD Actu. Žádné trapné odpovědi v zadávacích formulářích.",
+    "items": {
+      "infrastructure": {
+        "name": "Infrastruktura v evropském vlastnictví",
+        "description": "Uložené, zpracovávané a zálohované v EU na infrastruktuře v evropském vlastnictví. Žádní američtí hyperscaleri — ani jejich EU regiony."
+      },
+      "encryption": {
+        "name": "Šifrováno v klidu",
+        "description": "Klíče jsou spravovány v EU, pod naší kontrolou — ne u amerického hyperscaleru."
+      },
+      "dns": {
+        "name": "DNS překlad v EU",
+        "description": "I dotazy, které vás směrují na naše servery, zůstávají v Evropě."
+      },
+      "jurisdiction": {
+        "name": "Evropská jurisdikce",
+        "description": "Jurisdikce EU, GDPR od základu. Mimo dosah amerického CLOUD Actu."
+      },
+      "subprocessors": {
+        "name": "Žádní američtí dílčí zpracovatelé",
+        "description": "Doručování e-mailů, platby, podpora — nic v datové cestě se nedotýká dodavatele se sídlem v USA. Seznam dílčích zpracovatelů zveřejňujeme a změny oznamujeme předem."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Srovnání",
+    "headline": "Jak Verkio obstojí ve srovnání.",
+    "subhead": "Bok po boku se dvěma balíčky, mezi nimiž evropské firmy nejčastěji vybírají.",
+    "columns": {
+      "verkio": "Verkio",
+      "google": "Google Workspace",
+      "microsoft": "Microsoft 365",
+      "info": "Info"
+    },
+    "rows": {
+      "infrastructure": {
+        "label": "Infrastruktura v evropském vlastnictví",
+        "verkio": "Ano",
+        "google": "Ne (Google Cloud)",
+        "microsoft": "Ne (Microsoft Azure)",
+        "info": "Verkio běží na infrastruktuře provozované poskytovateli se sídlem v EU — nikdy na AWS, Google Cloud ani Azure, ani v jejich evropských regionech. Google Cloud a Microsoft Azure jsou američtí hyperscaleři; jejich EU regiony jsou stále provozovány americkými společnostmi."
+      },
+      "cloudAct": {
+        "label": "Mimo americký CLOUD Act",
+        "verkio": "Ano",
+        "google": "Ne (americký mateřský koncern)",
+        "microsoft": "Ne (americký mateřský koncern)",
+        "info": "Americký CLOUD Act nutí americké společnosti vydat na vyžádání zákaznická data bez ohledu na to, kde jsou uložena. Google a Microsoft jsou americké korporace, a tedy vystaveny. Verkio je evropská a v cestě dat nemá žádný americký subjekt."
+      },
+      "gdpr": {
+        "label": "GDPR od základu",
+        "verkio": "Ano",
+        "google": "Splňuje přes DPA",
+        "microsoft": "Splňuje přes DPA",
+        "info": "GDPR je vestavěno do datového modelu Verkio — minimalizace, evidence právního základu, kaskádové mazání, strojově čitelný export. Google a Microsoft jsou v souladu s GDPR prostřednictvím svých smluv o zpracování dat, ale jejich produkty byly navrženy pro globální trh a GDPR berou jako konfigurační vrstvu."
+      },
+      "keys": {
+        "label": "Zákaznické klíče spravované v EU",
+        "verkio": "Ano, ve výchozím nastavení",
+        "google": "Placený doplněk",
+        "microsoft": "Placený doplněk (E5)",
+        "info": "Šifrovací klíče Verkio jsou ve výchozím nastavení v KMS umístěném v EU, který sami provozujeme — žádný vyšší tarif. Google Cloud CMEK a Microsoft Double Key Encryption jsou placené doplňky (E5 u Microsoftu) a samotná infrastruktura klíčů často stále běží v amerických cloudech."
+      },
+      "standards": {
+        "label": "Otevřené standardy (IMAP, CalDAV, CardDAV)",
+        "verkio": "Ano",
+        "google": "Omezeno",
+        "microsoft": "Omezeno",
+        "info": "Verkio podporuje IMAP, SMTP, CalDAV a CardDAV jako prvotřídní protokoly. Jakýkoli standardně kompatibilní klient (Thunderbird, Apple Mail, K-9, DAVx⁵) se připojí přímo. Google a Microsoft je technicky podporují, ale s omezenými funkcemi a povinnými hesly aplikací pro účty s 2FA."
+      },
+      "dns": {
+        "label": "DNS překlad v EU",
+        "verkio": "Ano",
+        "google": "Globální směrování",
+        "microsoft": "Globální směrování",
+        "info": "Autoritativní DNS pro verkio.eu je hostováno u poskytovatelů se sídlem v EU — nikdy Route 53 (Amazon), Cloud DNS (Google) ani Azure DNS. Google a Microsoft DNS pro tenantské domény obvykle směrují globálně, takže dotazy mohou procházet americky provozovanými nameservery."
+      }
+    },
+    "infoLabel": "Více informací"
+  },
+  "faqs": {
+    "eyebrow": "FAQ",
+    "headline": "Často kladené otázky",
+    "contactPrompt": "Něco chybí?",
+    "items": {
+      "hosting": {
+        "question": "Kde jsou data skutečně hostována?",
+        "answer": "V EU, tečka. Primární úložiště, zálohy a veškeré zpracování probíhá na infrastruktuře EU. Žádná replika neopouští Unii."
+      },
+      "cloudAct": {
+        "question": "A co americký CLOUD Act?",
+        "answer": "Verkio je švédská firma bez přítomnosti v USA, takže CLOUD Act se nás netýká. Žádosti zahraničních úřadů o přístup procházejí švédskými a evropskými právními kanály."
+      },
+      "clients": {
+        "question": "Funguje to s Outlookem, Apple Mailem a Thunderbirdem?",
+        "answer": "Ano. Verkio je založeno na standardech — IMAP, SMTP, CalDAV, CardDAV — jakýkoli moderní klient se připojí přímo."
+      },
+      "launch": {
+        "question": "Kdy se Verkio spustí?",
+        "answer": "V červenci 2026. Přidejte se na seznam zájemců a my se ozveme, jakmile se účty otevřou."
+      },
+      "migration": {
+        "question": "Mohu migrovat z Google Workspace nebo Microsoft 365?",
+        "answer": "Ano. Nástroje pro migraci e-mailu, kalendáře, kontaktů a dokumentů jsou součástí plánu spuštění."
+      },
+      "pricing": {
+        "question": "Jak je strukturováno cenotvorba?",
+        "answer": "Za uživatele, měsíční nebo roční fakturace v eurech, bez příplatků za funkce. Detaily při spuštění."
+      },
+      "subprocessors": {
+        "question": "Používáte americké subdodavatele?",
+        "answer": "Náš cíl: žádné v datové cestě. Při spuštění zveřejníme aktuální seznam subdodavatelů a změny oznámíme s předstihem."
+      },
+      "leaving": {
+        "question": "Co se stane s mými daty, když odejdu?",
+        "answer": "Úplný export ve standardních formátech. Žádné uzamčení, žádné výkupné na cestě ven."
+      },
+      "openSource": {
+        "question": "Je Verkio open source?",
+        "answer": "Klientská strana stojí na otevřených standardech, takže funguje jakýkoli kompatibilní nástroj. Více o backendu povíme blíže ke spuštění."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Evropská firma. Postavena v EU. Hostována v EU.",
+    "copyright": "© {year} Verkio",
+    "productHeading": "Produkt",
+    "legalHeading": "Právní",
+    "contactHeading": "Kontakt",
+    "privacy": "Zásady ochrany osobních údajů",
+    "terms": "Smluvní podmínky",
+    "allRightsReserved": "Všechna práva vyhrazena"
+  },
+  "waitlist": {
+    "cardTitle": "Přidat se na seznam zájemců",
+    "cardSubtitle": "Ozveme se, jakmile Verkio otevře.",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "vy@vasefirma.cz",
+    "companyLabel": "Firma",
+    "companyOptional": "(volitelné)",
+    "companyPlaceholder": "Acme s.r.o.",
+    "submit": "Přidat se",
+    "submitting": "Odesílá se…",
+    "successMessage": "Děkujeme. Ozveme se, jakmile Verkio otevře.",
+    "genericError": "Něco se pokazilo. Zkuste to znovu nebo napište na hello@verkio.eu.",
+    "invalidEmail": "Zadejte platnou e-mailovou adresu",
+    "invalidInput": "Neplatný vstup"
+  },
+  "roadmap": {
+    "metaTitle": "Plán — Verkio",
+    "metaDescription": "Co se chystá ve Verkio.",
+    "eyebrow": "Plán",
+    "headline": "Co se chystá ve Verkio.",
+    "subhead": "Kam směřujeme dál.",
+    "backLink": "Zpět na hlavní stránku",
+    "items": {
+      "wiki": {
+        "date": "Srpen 2026",
+        "name": "Interní wiki",
+        "description": "Vyhledatelné, verzované prostory pro runbooky, rozhodnutí a institucionální znalosti, které si tým píše sám pro sebe."
+      },
+      "messaging": {
+        "date": "Říjen 2026",
+        "name": "Interní komunikace",
+        "description": "Kanály, soukromé zprávy a vlákna pro týmovou komunikaci — vyhledatelné, hostované v EU a mimo americké chatovací platformy."
+      },
+      "webmail": {
+        "date": "Prosinec 2026",
+        "name": "Webmail schránka",
+        "description": "Rychlý webový klient pošty Verkio s důrazem na klávesnici — vlákna, vyhledávání a štítky bez zbytečné zátěže."
+      }
+    }
+  },
+  "privacy": {
+    "metaTitle": "Zásady ochrany osobních údajů — Verkio",
+    "metaDescription": "Jak Verkio zachází s osobními údaji na verkio.eu, našem webu s pořadníkem před spuštěním.",
+    "eyebrow": "Právní",
+    "headline": "Zásady ochrany osobních údajů",
+    "lastUpdated": "Naposledy aktualizováno: 18. května 2026",
+    "backLink": "Zpět na hlavní stránku",
+    "intro": "Toto oznámení popisuje, jak Verkio nakládá s osobními údaji na verkio.eu, našem marketingovém webu a pořadníku před spuštěním. Při spuštění produktu jej nahradí samostatné, podrobnější oznámení o ochraně osobních údajů, které pokryje samotnou službu.",
+    "sections": [
+      {
+        "heading": "Kdo jsme",
+        "body": "Verkio je evropská společnost. Vystupujeme jako správce osobních údajů popsaných níže.\n\nZastihnete nás na hello@verkio.eu."
+      },
+      {
+        "heading": "Co shromažďujeme",
+        "body": "Pořadník: vaši e-mailovou adresu a volitelně název společnosti. Nic víc.\n\nFunkční cookies: malou cookie NEXT_LOCALE, která si pamatuje vaši volbu jazyka. Není používána ke sledování.\n\nServerové logy: krátké záznamy požadavků (IP, user agent, URL) pro bezpečný provoz webu. Uchovávány po krátkou provozní dobu; nepoužívají se k profilování.\n\nŽádná analytika, žádné marketingové trackery, žádné reklamní pixely třetích stran."
+      },
+      {
+        "heading": "Proč je shromažďujeme",
+        "body": "Abychom vás informovali, až Verkio spustí provoz, a abychom provozovali tento web.\n\nPrávní základ podle GDPR: oprávněný zájem (čl. 6 odst. 1 písm. f)) pro pořadník; nezbytnost pro funkční cookie; oprávněný zájem na bezpečnosti sítě pro serverové logy."
+      },
+      {
+        "heading": "Kde jsou uloženy",
+        "body": "V rámci Evropské unie, na infrastruktuře v evropském vlastnictví. Žádní američtí hyperscaleři a žádné přenosy mimo EU."
+      },
+      {
+        "heading": "Jak dlouho je uchováváme",
+        "body": "Údaje z pořadníku do spuštění produktu a do okamžiku, kdy se rozhodnete stát se zákazníkem, nebo dříve, pokud nás požádáte o jejich smazání. Serverové logy pouze po krátkou provozní dobu."
+      },
+      {
+        "heading": "Sdílení",
+        "body": "Vaše údaje neprodáváme. Nesdílíme je s inzerenty. Nepoužíváme trackery třetích stran. Přístup mají pouze zaměstnanci Verkio s jasnou potřebou."
+      },
+      {
+        "heading": "Vaše práva",
+        "body": "Podle GDPR máte právo na přístup, opravu, výmaz, omezení, námitku a přenositelnost údajů. Můžete také odvolat souhlas (pokud je základem) a podat stížnost u místního dozorového úřadu.\n\nPro uplatnění kteréhokoli z těchto práv napište na hello@verkio.eu. Odpovídáme do jednoho měsíce."
+      },
+      {
+        "heading": "Aktualizace",
+        "body": "Pokud se toto oznámení změní, aktualizujeme datum výše. Spuštění produktu přinese podrobnější oznámení, které nahradí toto."
+      },
+      {
+        "heading": "Kontakt",
+        "body": "Dotazy k tomuto oznámení nebo žádosti subjektu údajů: hello@verkio.eu."
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Podmínky používání — Verkio",
+    "metaDescription": "Podmínky upravující používání verkio.eu — marketingového webu a pořadníku Verkio před spuštěním.",
+    "eyebrow": "Právní",
+    "headline": "Podmínky používání",
+    "lastUpdated": "Naposledy aktualizováno: 18. května 2026",
+    "backLink": "Zpět na hlavní stránku",
+    "intro": "Tyto podmínky upravují vaše používání verkio.eu, našeho marketingového webu a pořadníku před spuštěním. Při spuštění produktu budou samotnou službu doprovázet samostatné a podrobnější podmínky.",
+    "sections": [
+      {
+        "heading": "O nás",
+        "body": "verkio.eu provozuje Verkio, evropská společnost. Kontakt: hello@verkio.eu."
+      },
+      {
+        "heading": "Pořadník",
+        "body": "Zadáním e-mailu se hlásíte k odběru zprávy, až Verkio spustí provoz. Z pořadníku můžete kdykoli odejít e-mailem. Vaše údaje použijeme výhradně ke komunikaci spojené se spuštěním."
+      },
+      {
+        "heading": "Žádný závazek",
+        "body": "Přihlášení do pořadníku nezaručuje přístup, nestabilizuje ceny a netvoří smlouvu o poskytování služby. Orientační termíny spuštění jsou pouze orientační."
+      },
+      {
+        "heading": "Obsah a ochranné známky",
+        "body": "Text, design a název Verkio patří Verkio. Nereprodukujte ani je nešiřte bez svolení."
+      },
+      {
+        "heading": "Vyloučení odpovědnosti",
+        "body": "Tento web je poskytován tak, jak je. Děláme maximum pro přesné informace, ale podrobnosti produktu před spuštěním se mohou změnit."
+      },
+      {
+        "heading": "Rozhodné právo",
+        "body": "Tyto podmínky se řídí švédským právem. Spory budou řešeny u švédských soudů."
+      },
+      {
+        "heading": "Změny",
+        "body": "Tyto podmínky můžeme před spuštěním aktualizovat. Podstatné změny se projeví v datu výše. Další používání webu znamená přijetí aktuální verze."
+      }
+    ]
+  }
+}

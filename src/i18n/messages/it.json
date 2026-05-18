@@ -1,0 +1,311 @@
+{
+  "_status": "draft — needs native review",
+  "metadata": {
+    "title": "Verkio — Suite di lavoro europea, ospitata in UE",
+    "description": "Verkio è la suite di lavoro per le aziende europee che tengono alla residenza dei dati in UE. Email, archiviazione documenti, wiki, calendario e contatti — ospitati in UE, cifrati a riposo, GDPR per design. Persino le nostre risoluzioni DNS restano in UE.",
+    "ogDescription": "Suite di lavoro europea premium per aziende che si preoccupano di dove vivono i loro dati."
+  },
+  "nav": {
+    "suite": "La suite",
+    "residency": "Residenza",
+    "faqs": "FAQ",
+    "joinWaitlist": "Unisciti alla lista",
+    "language": "Lingua",
+    "roadmap": "Roadmap"
+  },
+  "hero": {
+    "eyebrow": "Lancio in luglio 2026",
+    "headline": "La suite europea per email e lavoro.",
+    "body1": "Le tue email e i tuoi dati aziendali — ospitati in UE, cifrati a riposo, GDPR per design.",
+    "body2": "Costruita per chi pensa che conti dove vivono i propri dati."
+  },
+  "suite": {
+    "eyebrow": "La suite",
+    "headline": "Tutto ciò che il tuo team usa. In un unico posto, dove vive anche.",
+    "subhead": "Costruita su standard aperti. Ospitata in UE. Nessun lock-in, nessuna sorpresa.",
+    "items": {
+      "mail": {
+        "name": "Email",
+        "description": "Caselle personali e condivise. Usa l'app web o un qualsiasi client IMAP. Porta il tuo dominio."
+      },
+      "calendar": {
+        "name": "Calendario",
+        "description": "Calendari personali e di team. Basato su standard (CalDAV) per funzionare con le app che già usi."
+      },
+      "contacts": {
+        "name": "Contatti",
+        "description": "Rubriche personali e condivise tramite CardDAV. Sincronizza ovunque, senza lock-in."
+      },
+      "documents": {
+        "name": "Archiviazione documenti",
+        "description": "File e cartelle con condivisione, cronologia delle versioni e permessi granulari."
+      },
+      "wikis": {
+        "name": "Wiki",
+        "description": "Pagine strutturate per la conoscenza del team, con cronologia completa delle modifiche e collegamenti."
+      }
+    }
+  },
+  "residency": {
+    "eyebrow": "Residenza",
+    "headline": "Dove vivono i tuoi dati.",
+    "subhead": "Nessun trasferimento verso gli Stati Uniti. Nessuna esposizione al CLOUD Act. Nessuna risposta imbarazzante nei moduli di gara.",
+    "items": {
+      "infrastructure": {
+        "name": "Infrastruttura di proprietà europea",
+        "description": "Archiviata, elaborata e salvata in UE su infrastruttura di proprietà europea. Nessun hyperscaler statunitense — nemmeno le loro regioni UE."
+      },
+      "encryption": {
+        "name": "Cifrati a riposo",
+        "description": "Le chiavi sono gestite in UE, sotto il nostro controllo — non presso un hyperscaler statunitense."
+      },
+      "dns": {
+        "name": "Risoluzione DNS in UE",
+        "description": "Anche le query che ti portano ai nostri server restano in Europa."
+      },
+      "jurisdiction": {
+        "name": "Giurisdizione europea",
+        "description": "Giurisdizione UE, GDPR per design. Fuori dalla portata del CLOUD Act statunitense."
+      },
+      "subprocessors": {
+        "name": "Nessun subresponsabile USA",
+        "description": "Invio email, pagamenti, supporto — niente nel percorso dei dati tocca un fornitore con sede negli USA. L'elenco dei subresponsabili è pubblicato e le modifiche sono annunciate in anticipo."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Confronto",
+    "headline": "Come si confronta Verkio.",
+    "subhead": "Affiancata alle due suite tra cui le aziende europee scelgono più spesso.",
+    "columns": {
+      "verkio": "Verkio",
+      "google": "Google Workspace",
+      "microsoft": "Microsoft 365",
+      "info": "Info"
+    },
+    "rows": {
+      "infrastructure": {
+        "label": "Infrastruttura di proprietà europea",
+        "verkio": "Sì",
+        "google": "No (Google Cloud)",
+        "microsoft": "No (Microsoft Azure)",
+        "info": "Verkio gira su infrastruttura gestita da fornitori con sede in UE — mai AWS, Google Cloud o Azure, nemmeno le loro regioni europee. Google Cloud e Microsoft Azure sono hyperscaler statunitensi; le loro regioni UE sono comunque gestite da società USA."
+      },
+      "cloudAct": {
+        "label": "Fuori dal CLOUD Act statunitense",
+        "verkio": "Sì",
+        "google": "No (capogruppo statunitense)",
+        "microsoft": "No (capogruppo statunitense)",
+        "info": "Il CLOUD Act statunitense obbliga le società statunitensi a consegnare i dati dei clienti su richiesta, indipendentemente da dove siano archiviati. Google e Microsoft sono società statunitensi e quindi esposte. Verkio è europea e non ha alcuna entità statunitense nel percorso dei dati."
+      },
+      "gdpr": {
+        "label": "GDPR per design",
+        "verkio": "Sì",
+        "google": "Conforme tramite DPA",
+        "microsoft": "Conforme tramite DPA",
+        "info": "Il GDPR è integrato nel modello dati di Verkio — minimizzazione, tracciamento della base giuridica, cancellazione a cascata, export leggibile dalle macchine. Google e Microsoft sono conformi al GDPR tramite i loro accordi sul trattamento dei dati, ma i loro prodotti sono stati progettati per un mercato globale e trattano il GDPR come livello di configurazione."
+      },
+      "keys": {
+        "label": "Chiavi del cliente gestite in UE",
+        "verkio": "Sì, di default",
+        "google": "Componente aggiuntivo a pagamento",
+        "microsoft": "Componente aggiuntivo a pagamento (E5)",
+        "info": "Le chiavi di cifratura di Verkio risiedono per impostazione predefinita in un KMS situato in UE che gestiamo — nessun piano superiore richiesto. Google Cloud CMEK e Microsoft Double Key Encryption sono componenti aggiuntivi a pagamento (E5 per Microsoft) e l'infrastruttura sottostante delle chiavi spesso gira ancora su cloud statunitensi."
+      },
+      "standards": {
+        "label": "Standard aperti (IMAP, CalDAV, CardDAV)",
+        "verkio": "Sì",
+        "google": "Limitato",
+        "microsoft": "Limitato",
+        "info": "Verkio supporta IMAP, SMTP, CalDAV e CardDAV come protocolli di prima classe. Qualsiasi client conforme agli standard (Thunderbird, Apple Mail, K-9, DAVx⁵) si connette direttamente. Google e Microsoft li supportano tecnicamente, ma con funzionalità limitate e password app obbligatorie per gli account con 2FA."
+      },
+      "dns": {
+        "label": "Risoluzione DNS in UE",
+        "verkio": "Sì",
+        "google": "Routing globale",
+        "microsoft": "Routing globale",
+        "info": "Il DNS autoritativo per verkio.eu è ospitato presso fornitori con sede in UE — mai Route 53 (Amazon), Cloud DNS (Google) o Azure DNS. Google e Microsoft di solito instradano il DNS dei domini tenant a livello globale, quindi le query possono transitare attraverso name server gestiti negli USA."
+      }
+    },
+    "infoLabel": "Maggiori informazioni"
+  },
+  "faqs": {
+    "eyebrow": "FAQ",
+    "headline": "Domande frequenti",
+    "contactPrompt": "Manca qualcosa?",
+    "items": {
+      "hosting": {
+        "question": "Dove sono effettivamente ospitati i dati?",
+        "answer": "Dentro l'UE, punto. Archiviazione primaria, backup e tutta l'elaborazione avvengono su infrastruttura UE. Nessuna replica lascia l'Unione."
+      },
+      "cloudAct": {
+        "question": "E il CLOUD Act statunitense?",
+        "answer": "Verkio è un'azienda svedese senza presenza negli Stati Uniti, quindi il CLOUD Act non ci si applica. Le richieste di accesso da autorità estere passano per canali legali svedesi ed europei."
+      },
+      "clients": {
+        "question": "Funziona con Outlook, Apple Mail e Thunderbird?",
+        "answer": "Sì. Verkio è basato su standard — IMAP, SMTP, CalDAV, CardDAV — qualsiasi client moderno si connette direttamente."
+      },
+      "launch": {
+        "question": "Quando viene lanciato Verkio?",
+        "answer": "Luglio 2026. Iscriviti alla lista d'attesa e ti contatteremo all'apertura degli account."
+      },
+      "migration": {
+        "question": "Posso migrare da Google Workspace o Microsoft 365?",
+        "answer": "Sì. Gli strumenti di migrazione per email, calendario, contatti e documenti fanno parte del piano di lancio."
+      },
+      "pricing": {
+        "question": "Com'è strutturato il prezzo?",
+        "answer": "Per postazione, fatturato mensilmente o annualmente in euro, senza supplementi per funzionalità. I dettagli arrivano al lancio."
+      },
+      "subprocessors": {
+        "question": "Usate sub-responsabili statunitensi?",
+        "answer": "Il nostro obiettivo: nessuno nel percorso dati. Al lancio pubblicheremo un elenco aggiornato dei sub-responsabili e annunceremo i cambiamenti in anticipo."
+      },
+      "leaving": {
+        "question": "Cosa succede ai miei dati se me ne vado?",
+        "answer": "Esportazione completa in formati standard. Nessun lock-in, nessun riscatto in uscita."
+      },
+      "openSource": {
+        "question": "Verkio è open source?",
+        "answer": "Il lato client è costruito su standard aperti, quindi qualsiasi strumento compatibile funziona. Condivideremo di più sul backend più vicino al lancio."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Un'azienda europea. Costruita in UE. Ospitata in UE.",
+    "copyright": "© {year} Verkio",
+    "productHeading": "Prodotto",
+    "legalHeading": "Legale",
+    "contactHeading": "Contatti",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini e condizioni",
+    "allRightsReserved": "Tutti i diritti riservati"
+  },
+  "waitlist": {
+    "cardTitle": "Unisciti alla lista d'attesa",
+    "cardSubtitle": "Ti contatteremo quando Verkio apre.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "tu@tuaazienda.it",
+    "companyLabel": "Azienda",
+    "companyOptional": "(facoltativo)",
+    "companyPlaceholder": "Acme S.r.l.",
+    "submit": "Unisciti alla lista",
+    "submitting": "Invio…",
+    "successMessage": "Grazie. Ti contatteremo quando Verkio apre.",
+    "genericError": "Qualcosa è andato storto. Riprova o scrivi a hello@verkio.eu.",
+    "invalidEmail": "Inserisci un indirizzo email valido",
+    "invalidInput": "Input non valido"
+  },
+  "roadmap": {
+    "metaTitle": "Roadmap — Verkio",
+    "metaDescription": "Cosa arriverà su Verkio.",
+    "eyebrow": "Roadmap",
+    "headline": "Cosa arriverà su Verkio.",
+    "subhead": "Dove stiamo andando.",
+    "backLink": "Torna alla home",
+    "items": {
+      "wiki": {
+        "date": "Agosto 2026",
+        "name": "Wiki interni",
+        "description": "Spazi ricercabili e versionati per runbook, decisioni e la conoscenza istituzionale che il tuo team scrive per sé."
+      },
+      "messaging": {
+        "date": "Ottobre 2026",
+        "name": "Messaggistica interna",
+        "description": "Canali, DM e thread per le conversazioni di team — ricercabile, ospitato in UE e fuori dalle piattaforme di chat statunitensi."
+      },
+      "webmail": {
+        "date": "Dicembre 2026",
+        "name": "Casella di webmail",
+        "description": "Un client web veloce e orientato alla tastiera per Verkio mail — thread, ricerca ed etichette senza fronzoli."
+      }
+    }
+  },
+  "privacy": {
+    "metaTitle": "Informativa sulla privacy — Verkio",
+    "metaDescription": "Come Verkio gestisce i dati personali su verkio.eu, il nostro sito di lista d'attesa pre-lancio.",
+    "eyebrow": "Legale",
+    "headline": "Informativa sulla privacy",
+    "lastUpdated": "Ultimo aggiornamento: 18 maggio 2026",
+    "backLink": "Torna alla home",
+    "intro": "Questa informativa descrive come Verkio tratta i dati personali su verkio.eu, il nostro sito di marketing e lista d'attesa pre-lancio. Al lancio del prodotto, un'informativa più completa sostituirà questa per coprire il servizio stesso.",
+    "sections": [
+      {
+        "heading": "Chi siamo",
+        "body": "Verkio è un'azienda europea. Agiamo come titolare del trattamento per i dati personali descritti di seguito.\n\nPuoi contattarci a hello@verkio.eu."
+      },
+      {
+        "heading": "Cosa raccogliamo",
+        "body": "Lista d'attesa: il tuo indirizzo email e, facoltativamente, un nome azienda. Nient'altro.\n\nCookie funzionali: un piccolo cookie NEXT_LOCALE che ricorda la lingua scelta. Non viene usato per il tracciamento.\n\nLog del server: brevi registrazioni delle richieste (IP, user agent, URL) per operare il sito in sicurezza. Conservati per un breve periodo operativo; non usati per profilarti.\n\nNessuna analitica, nessun tracker di marketing, nessun pixel pubblicitario di terze parti."
+      },
+      {
+        "heading": "Perché li raccogliamo",
+        "body": "Per avvisarti quando Verkio apre e per operare questo sito.\n\nBase giuridica ai sensi del GDPR: legittimo interesse (Art. 6, par. 1, lett. f)) per la lista d'attesa; necessità per il cookie funzionale; legittimo interesse alla sicurezza della rete per i log del server."
+      },
+      {
+        "heading": "Dove vengono archiviati",
+        "body": "All'interno dell'Unione Europea, su infrastruttura di proprietà europea. Nessun hyperscaler statunitense e nessun trasferimento fuori dall'UE."
+      },
+      {
+        "heading": "Per quanto tempo li conserviamo",
+        "body": "I dati della lista d'attesa fino al lancio del prodotto e finché non scegli di diventare cliente, o prima se ce ne chiedi la cancellazione. I log del server solo per un breve periodo operativo."
+      },
+      {
+        "heading": "Condivisione",
+        "body": "Non vendiamo i tuoi dati. Non li condividiamo con inserzionisti. Non usiamo tracker di terze parti. Solo il personale Verkio con un'esigenza chiara può accedervi."
+      },
+      {
+        "heading": "I tuoi diritti",
+        "body": "Ai sensi del GDPR hai diritti di accesso, rettifica, cancellazione, limitazione, opposizione e portabilità. Puoi anche revocare il consenso (quando è la base) e presentare reclamo all'autorità di protezione dati.\n\nPer esercitare uno di questi diritti, scrivi a hello@verkio.eu. Rispondiamo entro un mese."
+      },
+      {
+        "heading": "Aggiornamenti",
+        "body": "Quando questa informativa cambia, aggiorniamo la data sopra. Al lancio del prodotto verrà pubblicata un'informativa più completa che sostituirà questa."
+      },
+      {
+        "heading": "Contatto",
+        "body": "Domande su questa informativa o richieste dell'interessato: hello@verkio.eu."
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Termini e condizioni — Verkio",
+    "metaDescription": "Termini che regolano l'uso di verkio.eu, il sito di marketing e lista d'attesa pre-lancio di Verkio.",
+    "eyebrow": "Legale",
+    "headline": "Termini e condizioni",
+    "lastUpdated": "Ultimo aggiornamento: 18 maggio 2026",
+    "backLink": "Torna alla home",
+    "intro": "Questi termini regolano l'utilizzo di verkio.eu, il nostro sito di marketing e lista d'attesa prima del lancio. Al lancio del prodotto, termini separati e più completi accompagneranno il servizio stesso.",
+    "sections": [
+      {
+        "heading": "Chi siamo",
+        "body": "verkio.eu è gestito da Verkio, un'azienda europea. Contatto: hello@verkio.eu."
+      },
+      {
+        "heading": "Lista d'attesa",
+        "body": "Fornendo la tua email ti iscrivi per essere contattato quando Verkio apre. Puoi lasciare la lista in qualsiasi momento scrivendoci. Useremo i tuoi dati solo per comunicazioni relative al lancio."
+      },
+      {
+        "heading": "Nessun impegno",
+        "body": "L'iscrizione alla lista d'attesa non garantisce l'accesso, non blocca i prezzi e non costituisce un contratto di servizio. Le date di lancio indicative sono — indicative."
+      },
+      {
+        "heading": "Contenuto e marchi",
+        "body": "Testo, design e il nome Verkio appartengono a Verkio. Non riprodurli o ridistribuirli senza autorizzazione."
+      },
+      {
+        "heading": "Limitazioni",
+        "body": "Questo sito è fornito così com'è. Facciamo del nostro meglio per mantenere accurate le informazioni, ma i dettagli pre-lancio del prodotto possono cambiare."
+      },
+      {
+        "heading": "Legge applicabile",
+        "body": "Questi termini sono regolati dalla legge svedese. Le controversie saranno gestite dai tribunali svedesi."
+      },
+      {
+        "heading": "Modifiche",
+        "body": "Possiamo aggiornare questi termini prima del lancio. Le modifiche sostanziali saranno riflesse nella data sopra. L'uso continuato del sito significa accettazione della versione corrente."
+      }
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "_status": "draft — needs native review (Icelandic uses native compounds for tech terms; loanwords need careful review)",
+  "metadata": {
+    "title": "Verkio — Evrópsk vinnusvíta, geymd í ESB",
+    "description": "Verkio er vinnusvítan fyrir evrópsk fyrirtæki sem láta sig varða hvar gögnin þeirra eru geymd. Tölvupóstur, skjalageymsla, wikis, dagatal og tengiliðir — hýst í ESB, dulkóðuð í hvíld, GDPR-byggð frá grunni. Jafnvel DNS-uppflettingar okkar haldast innan ESB.",
+    "ogDescription": "Hágæða evrópsk vinnusvíta fyrir fyrirtæki sem láta sig varða hvar gögnin þeirra búa."
+  },
+  "nav": {
+    "suite": "Svítan",
+    "residency": "Geymslustaður",
+    "faqs": "Spurningar",
+    "joinWaitlist": "Skrá á biðlista",
+    "language": "Tungumál",
+    "roadmap": "Vegvísir"
+  },
+  "hero": {
+    "eyebrow": "Kemur út í júlí 2026",
+    "headline": "Evrópska tölvupósts- og vinnusvítan.",
+    "body1": "Tölvupósturinn þinn og fyrirtækjagögn — hýst í ESB, dulkóðuð í hvíld, GDPR-byggð frá grunni.",
+    "body2": "Búið til fyrir þig sem telur skipta máli hvar gögnin búa."
+  },
+  "suite": {
+    "eyebrow": "Svítan",
+    "headline": "Allt sem teymið þitt notar. Á einum stað þar sem það líka býr.",
+    "subhead": "Byggt á opnum stöðlum. Hýst í ESB. Engin innilokun, engar óvæntar uppákomur.",
+    "items": {
+      "mail": {
+        "name": "Tölvupóstur",
+        "description": "Persónulegir og samnýttir pósthólf. Notaðu vefviðmótið eða hvern sem er IMAP-biðlara. Notaðu þitt eigið lén."
+      },
+      "calendar": {
+        "name": "Dagatal",
+        "description": "Persónuleg og sameiginleg dagatöl. Staðlað (CalDAV) — virkar með forritunum sem þú notar nú þegar."
+      },
+      "contacts": {
+        "name": "Tengiliðir",
+        "description": "Persónulegar og samnýttar tengiliðabækur um CardDAV. Samstilling alls staðar, engin innilokun."
+      },
+      "documents": {
+        "name": "Skjalageymsla",
+        "description": "Skrár og möppur með deilingu, útgáfusögu og fínstilltum aðgangsréttindum."
+      },
+      "wikis": {
+        "name": "Wikis",
+        "description": "Skipulagðar síður fyrir þekkingu teymisins, með fullri breytingasögu og tengingum."
+      }
+    }
+  },
+  "residency": {
+    "eyebrow": "Geymslustaður",
+    "headline": "Hvar gögnin þín búa.",
+    "subhead": "Engir flutningar til Bandaríkjanna. Engin útsetning fyrir CLOUD Act. Engin vandræðaleg svör á útboðsskjölum.",
+    "items": {
+      "infrastructure": {
+        "name": "ESB-eign innviðir",
+        "description": "Geymt, unnið og afritað innan ESB á evrópskum innviðum. Engir bandarískir hyperscalerar — ekki einu sinni ESB-svæði þeirra."
+      },
+      "encryption": {
+        "name": "Dulkóðuð í hvíld",
+        "description": "Lyklar eru í umsjá okkar í ESB — ekki hjá bandarískum hyperscaler."
+      },
+      "dns": {
+        "name": "DNS-uppflettingar í ESB",
+        "description": "Uppflettingarnar sem beina þér að vefþjónum okkar haldast einnig í Evrópu."
+      },
+      "jurisdiction": {
+        "name": "Evrópsk lögsaga",
+        "description": "ESB-lögsaga, GDPR-byggð frá grunni. Utan seilingar bandarísku CLOUD-laganna."
+      },
+      "subprocessors": {
+        "name": "Engir bandarískir undirvinnsluaðilar",
+        "description": "Tölvupóstssending, greiðslur, þjónustuver — ekkert á gagnaleiðinni snertir söluaðila með aðsetur í Bandaríkjunum. Listi yfir undirvinnsluaðila er birtur og breytingar tilkynntar fyrirfram."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Samanburður",
+    "headline": "Hvernig Verkio stendur sig.",
+    "subhead": "Hlið við hlið með þeim tveimur svítum sem evrópsk fyrirtæki velja oftast á milli.",
+    "columns": {
+      "verkio": "Verkio",
+      "google": "Google Workspace",
+      "microsoft": "Microsoft 365",
+      "info": "Info"
+    },
+    "rows": {
+      "infrastructure": {
+        "label": "ESB-eign innviðir",
+        "verkio": "Já",
+        "google": "Nei (Google Cloud)",
+        "microsoft": "Nei (Microsoft Azure)",
+        "info": "Verkio keyrir á innviðum sem reknir eru af þjónustuveitendum með aðsetur í ESB — aldrei á AWS, Google Cloud eða Azure, ekki einu sinni evrópskum svæðum þeirra. Google Cloud og Microsoft Azure eru bandarísk hyperscalers; ESB-svæðin þeirra eru áfram rekin af bandarískum fyrirtækjum."
+      },
+      "cloudAct": {
+        "label": "Utan bandaríska CLOUD Act",
+        "verkio": "Já",
+        "google": "Nei (bandarískt móðurfyrirtæki)",
+        "microsoft": "Nei (bandarískt móðurfyrirtæki)",
+        "info": "Bandaríska CLOUD-lögin þvinga bandarísk fyrirtæki til að afhenda viðskiptavinagögn að beiðni, óháð því hvar þau eru geymd. Google og Microsoft eru bandarísk fyrirtæki og því útsett. Verkio er evrópskt og hefur enga bandaríska einingu á gagnaleiðinni."
+      },
+      "gdpr": {
+        "label": "GDPR frá grunni",
+        "verkio": "Já",
+        "google": "Uppfyllt í gegnum DPA",
+        "microsoft": "Uppfyllt í gegnum DPA",
+        "info": "GDPR er innbyggt í gagnalíkan Verkio — gagnalágmörkun, skráning lagaheimildar, ágengisleg eyðing, vélrænt læsileg útflutningur. Google og Microsoft eru GDPR-samhæfð í gegnum vinnsluaðilasamningana sína, en vörur þeirra voru hannaðar fyrir alþjóðlegan markað og líta á GDPR sem stillingarlag."
+      },
+      "keys": {
+        "label": "Viðskiptavinalyklar í umsjá ESB",
+        "verkio": "Já, sjálfgefið",
+        "google": "Greitt viðbót",
+        "microsoft": "Greitt viðbót (E5)",
+        "info": "Dulkóðunarlyklar Verkio eru sjálfgefið í KMS sem staðsett er innan ESB og við rekum — ekkert uppfærslustig. Google Cloud CMEK og Microsoft Double Key Encryption eru greidd viðbót (E5 hjá Microsoft), og undirliggjandi lyklainnviðir keyra oft enn á bandarískum skýjum."
+      },
+      "standards": {
+        "label": "Opnir staðlar (IMAP, CalDAV, CardDAV)",
+        "verkio": "Já",
+        "google": "Takmarkað",
+        "microsoft": "Takmarkað",
+        "info": "Verkio styður IMAP, SMTP, CalDAV og CardDAV sem fyrsta flokks staðla. Hver staðlasamhæfður biðlari (Thunderbird, Apple Mail, K-9, DAVx⁵) tengist beint. Google og Microsoft styðja þá tæknilega, en með takmörkuðum eiginleikum og skyldubundnum forrita-lykilorðum fyrir reikninga með 2FA."
+      },
+      "dns": {
+        "label": "DNS-uppflettingar í ESB",
+        "verkio": "Já",
+        "google": "Hnattræn umferð",
+        "microsoft": "Hnattræn umferð",
+        "info": "Heimildar-DNS fyrir verkio.eu er hýst hjá þjónustuveitendum með aðsetur í ESB — aldrei Route 53 (Amazon), Cloud DNS (Google) eða Azure DNS. Google og Microsoft beina venjulega DNS fyrir lén leigjenda á heimsvísu, svo uppflettingar geta farið um bandarískar nafnaþjónustur."
+      }
+    },
+    "infoLabel": "Nánari upplýsingar"
+  },
+  "faqs": {
+    "eyebrow": "Spurningar",
+    "headline": "Algengar spurningar",
+    "contactPrompt": "Vantar eitthvað?",
+    "items": {
+      "hosting": {
+        "question": "Hvar eru gögnin í raun hýst?",
+        "answer": "Innan ESB, punktur. Aðalgeymsla, afritanir og öll vinnsla fer fram á ESB-innviðum. Engar afritanir fara út fyrir sambandið."
+      },
+      "cloudAct": {
+        "question": "Hvað um bandarísku CLOUD Act?",
+        "answer": "Verkio er sænskt fyrirtæki án viðveru í Bandaríkjunum, svo CLOUD Act á ekki við okkur. Beiðnir um aðgang frá erlendum stjórnvöldum fara um sænskar og evrópskar réttarleiðir."
+      },
+      "clients": {
+        "question": "Virkar það með Outlook, Apple Mail og Thunderbird?",
+        "answer": "Já. Verkio er staðlað — IMAP, SMTP, CalDAV, CardDAV — svo allir nútíma biðlarar tengjast beint."
+      },
+      "launch": {
+        "question": "Hvenær kemur Verkio út?",
+        "answer": "Í júlí 2026. Skráðu þig á biðlistann og við höfum samband þegar reikningar opna."
+      },
+      "migration": {
+        "question": "Get ég flutt mig frá Google Workspace eða Microsoft 365?",
+        "answer": "Já. Flutningstól fyrir tölvupóst, dagatal, tengiliði og skjöl eru hluti af útgáfuáætluninni."
+      },
+      "pricing": {
+        "question": "Hvernig er verðskráin byggð upp?",
+        "answer": "Á notanda, mánaðar- eða ársreikningar í EUR, án viðbótargjalda fyrir einstaka eiginleika. Nánari upplýsingar koma við útgáfu."
+      },
+      "subprocessors": {
+        "question": "Notið þið bandaríska undirvinnsluaðila?",
+        "answer": "Markmið okkar er enga á gagnaleiðinni. Við birtum uppfærðan lista yfir undirvinnsluaðila við útgáfu og tilkynnum breytingar fyrirfram."
+      },
+      "leaving": {
+        "question": "Hvað gerist um gögnin mín ef ég fer?",
+        "answer": "Fullur útflutningur á stöðluðu sniði. Engin innilokun, ekkert lausnargjald á leiðinni út."
+      },
+      "openSource": {
+        "question": "Er Verkio opinn hugbúnaður?",
+        "answer": "Notendahlið byggir á opnum stöðlum, svo öll samhæf tól virka. Við segjum meira frá bakenda nær útgáfu."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Evrópskt fyrirtæki. Byggt í ESB. Hýst í ESB.",
+    "copyright": "© {year} Verkio",
+    "productHeading": "Vara",
+    "legalHeading": "Lagaupplýsingar",
+    "contactHeading": "Tengiliður",
+    "privacy": "Persónuverndarstefna",
+    "terms": "Skilmálar",
+    "allRightsReserved": "Allur réttur áskilinn"
+  },
+  "waitlist": {
+    "cardTitle": "Skráðu þig á biðlistann",
+    "cardSubtitle": "Við höfum samband þegar Verkio opnar.",
+    "emailLabel": "Netfang",
+    "emailPlaceholder": "thu@fyrirtaeki.is",
+    "companyLabel": "Fyrirtæki",
+    "companyOptional": "(valfrjálst)",
+    "companyPlaceholder": "Acme ehf.",
+    "submit": "Skráðu þig á biðlistann",
+    "submitting": "Sendi…",
+    "successMessage": "Takk. Við höfum samband þegar Verkio opnar.",
+    "genericError": "Eitthvað fór úrskeiðis. Reyndu aftur eða sendu póst á hello@verkio.eu.",
+    "invalidEmail": "Sláðu inn gilt netfang",
+    "invalidInput": "Ógild inntak"
+  },
+  "roadmap": {
+    "metaTitle": "Vegvísir — Verkio",
+    "metaDescription": "Hvað er á döfinni hjá Verkio.",
+    "eyebrow": "Vegvísir",
+    "headline": "Hvað er á döfinni hjá Verkio.",
+    "subhead": "Hvert við stefnum næst.",
+    "backLink": "Aftur á forsíðu",
+    "items": {
+      "wiki": {
+        "date": "Ágúst 2026",
+        "name": "Innri wikis",
+        "description": "Leitanleg, útgáfustýrð svæði fyrir verklagsreglur, ákvarðanir og þá þekkingu sem teymið skrifar handa sjálfu sér."
+      },
+      "messaging": {
+        "date": "Október 2026",
+        "name": "Innri skilaboð",
+        "description": "Rásir, einkaskilaboð og þræðir fyrir samtöl teymisins — leitanlegt, hýst í ESB og utan bandarískra spjallrása."
+      },
+      "webmail": {
+        "date": "Desember 2026",
+        "name": "Vefpósthólf",
+        "description": "Hraður, lyklaborðsmiðaður vefviðmót fyrir Verkio-tölvupóst — þræðir, leit og merkingar án óþarfa þyngsla."
+      }
+    }
+  },
+  "privacy": {
+    "metaTitle": "Persónuverndarstefna — Verkio",
+    "metaDescription": "Hvernig Verkio meðhöndlar persónuupplýsingar á verkio.eu, biðlistasíðunni okkar fyrir útgáfu.",
+    "eyebrow": "Lögfræði",
+    "headline": "Persónuverndarstefna",
+    "lastUpdated": "Síðast uppfært: 18. maí 2026",
+    "backLink": "Aftur á forsíðu",
+    "intro": "Þessi tilkynning lýsir því hvernig Verkio meðhöndlar persónuupplýsingar á verkio.eu, markaðs- og biðlistasíðunni okkar fyrir útgáfu. Þegar varan kemur út mun aðskilin, ítarlegri persónuverndarstefna koma í stað þessarar fyrir þjónustuna sjálfa.",
+    "sections": [
+      {
+        "heading": "Hver við erum",
+        "body": "Verkio er evrópskt fyrirtæki. Við erum ábyrgðaraðili persónuupplýsinga sem lýst er hér að neðan.\n\nÞú getur náð í okkur á hello@verkio.eu."
+      },
+      {
+        "heading": "Hverju við söfnum",
+        "body": "Biðlisti: tölvupóstfangið þitt og valfrjálst fyrirtækisnafn. Ekkert meira.\n\nNotkunarkökur: lítil NEXT_LOCALE-kaka sem man tungumálavalið þitt. Ekki notuð til eftirfylgni.\n\nÞjónsskrár: stuttar beiðnaskráningar (IP-tala, notendaumboð, URL) til að reka síðuna á öruggan hátt. Geymdar stuttan rekstrartíma; ekki notaðar til snið­gerðar.\n\nEngin greining, engir markaðs­fyrirfylgjarar, engir auglýsingapikslar frá þriðja aðila."
+      },
+      {
+        "heading": "Af hverju við söfnum því",
+        "body": "Til að láta þig vita þegar Verkio opnar og til að reka þessa síðu.\n\nLagaheimild samkvæmt GDPR: réttmætir hagsmunir (6. gr., 1. mgr., f-liður) fyrir biðlistann; nauðsyn fyrir notkunarkökuna; réttmætir hagsmunir í netöryggi fyrir þjónsskrár."
+      },
+      {
+        "heading": "Hvar það er geymt",
+        "body": "Innan Evrópusambandsins, á innviðum í evrópskri eigu. Engir bandarískir hyperscalers og engar flutningar út fyrir ESB."
+      },
+      {
+        "heading": "Hve lengi við geymum það",
+        "body": "Biðlistagögn þar til varan kemur út og þú ákveður að gerast viðskiptavinur, eða fyrr ef þú biður um eyðingu. Þjónsskrár aðeins stutta rekstrartíma."
+      },
+      {
+        "heading": "Deiling",
+        "body": "Við seljum ekki gögnin þín. Við deilum þeim ekki með auglýsendum. Við notum enga eftirfylgjara frá þriðja aðila. Aðeins starfsfólk Verkio með skýra þörf hefur aðgang."
+      },
+      {
+        "heading": "Réttindi þín",
+        "body": "Samkvæmt GDPR hefur þú rétt á aðgangi, leiðréttingu, eyðingu, takmörkun, andmælum og flutningi gagna. Þú getur einnig dregið samþykki til baka (þar sem það er grundvöllurinn) og kvartað til staðbundinnar persónuverndarstofnunar.\n\nTil að nýta einhver þessara réttinda, sendu á hello@verkio.eu. Við svörum innan eins mánaðar."
+      },
+      {
+        "heading": "Uppfærslur",
+        "body": "Þegar þessi tilkynning breytist uppfærum við dagsetninguna að ofan. Þegar varan kemur út verður gefin út ítarlegri tilkynning sem kemur í stað þessarar."
+      },
+      {
+        "heading": "Tengiliður",
+        "body": "Spurningar um þessa tilkynningu eða beiðnir skráðs aðila: hello@verkio.eu."
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Skilmálar — Verkio",
+    "metaDescription": "Skilmálar sem gilda um notkun verkio.eu, markaðs- og biðlistasíðu Verkio fyrir útgáfu.",
+    "eyebrow": "Lögfræði",
+    "headline": "Skilmálar",
+    "lastUpdated": "Síðast uppfært: 18. maí 2026",
+    "backLink": "Aftur á forsíðu",
+    "intro": "Þessir skilmálar gilda um notkun þína á verkio.eu, markaðs- og biðlistasíðu okkar fyrir útgáfu. Þegar varan kemur út munu sérstakir, ítarlegri skilmálar fylgja sjálfri þjónustunni.",
+    "sections": [
+      {
+        "heading": "Um",
+        "body": "verkio.eu er rekið af Verkio, evrópsku fyrirtæki. Tengiliður: hello@verkio.eu."
+      },
+      {
+        "heading": "Biðlisti",
+        "body": "Með því að gefa upp tölvupóstinn þinn skráir þú þig til að heyra frá okkur þegar Verkio opnar. Þú getur yfirgefið biðlistann hvenær sem er með því að senda okkur tölvupóst. Við notum upplýsingarnar þínar eingöngu til samskipta sem tengjast útgáfunni."
+      },
+      {
+        "heading": "Engin skuldbinding",
+        "body": "Að skrá sig á biðlistann tryggir ekki aðgang, læsir ekki verðlagningu og myndar ekki þjónustusamning. Áætlaðar útgáfudagsetningar eru einmitt það — áætlaðar."
+      },
+      {
+        "heading": "Efni og vörumerki",
+        "body": "Texti, hönnun og nafnið Verkio eru í eigu Verkio. Vinsamlegast endurframleiðið eða dreifið ekki án leyfis."
+      },
+      {
+        "heading": "Fyrirvarar",
+        "body": "Þessi síða er veitt eins og hún er. Við gerum okkar besta til að halda upplýsingum réttum, en upplýsingar um vöruna fyrir útgáfu geta breyst."
+      },
+      {
+        "heading": "Gildandi lög",
+        "body": "Þessir skilmálar lúta sænskum lögum. Deilur verða leystar fyrir sænskum dómstólum."
+      },
+      {
+        "heading": "Breytingar",
+        "body": "Við gætum uppfært þessa skilmála fyrir útgáfu. Verulegar breytingar verða endurspeglaðar í dagsetningu hér að ofan. Áframhaldandi notkun síðunnar þýðir að þú samþykkir núverandi útgáfu."
+      }
+    ]
+  }
+}

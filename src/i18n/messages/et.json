@@ -1,0 +1,311 @@
+{
+  "_status": "draft — needs native review (Estonian is Finno-Ugric with 14 cases; agglutinative forms need extra care)",
+  "metadata": {
+    "title": "Verkio — Euroopa tööpakett, majutatud ELis",
+    "description": "Verkio on tööpakett Euroopa ettevõtetele, kellele on oluline andmete asukoht ELis. E-post, dokumendihoidla, vikid, kalender ja kontaktid — majutatud ELis, krüpteeritud puhkeolekus, GDPR-iga algusest peale. Isegi meie DNS-päringud jäävad ELi.",
+    "ogDescription": "Premium-tasemel Euroopa tööpakett ettevõtetele, kellele on oluline, kus nende andmed elavad."
+  },
+  "nav": {
+    "suite": "Pakett",
+    "residency": "Asukoht",
+    "faqs": "KKK",
+    "joinWaitlist": "Liitu ootejärjekorraga",
+    "language": "Keel",
+    "roadmap": "Teekaart"
+  },
+  "hero": {
+    "eyebrow": "Avaldame juulis 2026",
+    "headline": "Euroopa e-posti ja töö pakett.",
+    "body1": "Sinu e-post ja ärilised andmed — majutatud ELis, krüpteeritud puhkeolekus, GDPR-iga algusest peale.",
+    "body2": "Loodud sulle, kelle arvates on oluline, kus su andmed elavad."
+  },
+  "suite": {
+    "eyebrow": "Pakett",
+    "headline": "Kõik, mida teie tiim kasutab. Ühes kohas, kus see ka asub.",
+    "subhead": "Üles ehitatud avatud standarditele. Majutatud ELis. Ei mingit lukustust, ei mingeid üllatusi.",
+    "items": {
+      "mail": {
+        "name": "E-post",
+        "description": "Isiklikud ja jagatud postkastid. Kasuta veebirakendust või suvalist IMAP-klienti. Too kaasa oma domeen."
+      },
+      "calendar": {
+        "name": "Kalender",
+        "description": "Isiklikud ja tiimi kalendrid. Standardipõhine (CalDAV) — töötab rakendustega, mida juba kasutate."
+      },
+      "contacts": {
+        "name": "Kontaktid",
+        "description": "Isiklikud ja jagatud aadressiraamatud CardDAV-i kaudu. Sünkroniseeri kõikjal, ilma lukustuseta."
+      },
+      "documents": {
+        "name": "Dokumendihoidla",
+        "description": "Failid ja kaustad jagamise, versiooniajaloo ja täpsete õigustega."
+      },
+      "wikis": {
+        "name": "Vikid",
+        "description": "Struktureeritud lehed tiimi teadmiste jaoks, täieliku muutmislooga ja linkidega."
+      }
+    }
+  },
+  "residency": {
+    "eyebrow": "Asukoht",
+    "headline": "Kus teie andmed elavad.",
+    "subhead": "Ei mingeid ülekandeid USA-sse. Ei mingit CLOUD Acti riski. Ei mingeid piinlikke vastuseid hankevormidel.",
+    "items": {
+      "infrastructure": {
+        "name": "Euroopa omanduses taristu",
+        "description": "Salvestatud, töödeldud ja varundatud ELis Euroopa omanduses taristul. Mitte ühtegi USA hyperscaler'it — isegi mitte nende EL piirkondi."
+      },
+      "encryption": {
+        "name": "Krüpteeritud puhkeolekus",
+        "description": "Võtmeid hallatakse ELis, meie kontrolli all — mitte USA hyperscaleri juures."
+      },
+      "dns": {
+        "name": "DNS-i lahendamine ELis",
+        "description": "Päringud, mis suunavad teid meie serveritesse, jäävad samuti Euroopasse."
+      },
+      "jurisdiction": {
+        "name": "Euroopa jurisdiktsioon",
+        "description": "ELi jurisdiktsioon, GDPR-iga algusest peale. Väljaspool USA CLOUD Acti ulatust."
+      },
+      "subprocessors": {
+        "name": "Ühtegi USA alltöötlejat",
+        "description": "E-posti edastamine, maksed, tugi — miski andmeteel ei puutu USA-s asuvasse tarnijasse. Alltöötlejate nimekiri on avaldatud ja muudatused teatatakse ette."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Võrdlus",
+    "headline": "Kuidas Verkio võrdluses on.",
+    "subhead": "Kõrvuti kahe paketiga, mille vahel Euroopa ettevõtted kõige sagedamini valivad.",
+    "columns": {
+      "verkio": "Verkio",
+      "google": "Google Workspace",
+      "microsoft": "Microsoft 365",
+      "info": "Info"
+    },
+    "rows": {
+      "infrastructure": {
+        "label": "Euroopa omanduses taristu",
+        "verkio": "Jah",
+        "google": "Ei (Google Cloud)",
+        "microsoft": "Ei (Microsoft Azure)",
+        "info": "Verkio töötab ELi-põhiste teenusepakkujate hallataval taristul — kunagi mitte AWSil, Google Cloudis ega Azuris, isegi mitte nende Euroopa regioonides. Google Cloud ja Microsoft Azure on USA hüperskaalarid; nende ELi piirkondi haldavad endiselt USA ettevõtted."
+      },
+      "cloudAct": {
+        "label": "Väljaspool USA CLOUD Acti",
+        "verkio": "Jah",
+        "google": "Ei (USA emaettevõte)",
+        "microsoft": "Ei (USA emaettevõte)",
+        "info": "USA CLOUD Act sunnib USA ettevõtteid kliendiandmeid taotluse korral välja andma, sõltumata hoiukohast. Google ja Microsoft on USA korporatsioonid ja seetõttu eksponeeritud. Verkio on euroopalik ja andmeteel pole USA üksust."
+      },
+      "gdpr": {
+        "label": "GDPR algusest peale",
+        "verkio": "Jah",
+        "google": "Vastab DPA kaudu",
+        "microsoft": "Vastab DPA kaudu",
+        "info": "GDPR on sisse ehitatud Verkio andmemudelisse — andmete minimeerimine, õigusliku aluse jälgimine, kaskaadne kustutamine, masinloetav eksport. Google ja Microsoft on GDPR-iga ühilduvad oma andmetöötluslepingute kaudu, kuid nende tooted on loodud globaalseks turuks ja käsitlevad GDPR-i konfiguratsioonikihina."
+      },
+      "keys": {
+        "label": "Kliendi võtmed ELis hallatud",
+        "verkio": "Jah, vaikimisi",
+        "google": "Tasuline lisa",
+        "microsoft": "Tasuline lisa (E5)",
+        "info": "Verkio krüpteerimisvõtmed asuvad vaikimisi meie hallatavas ELis paiknevas KMSis — täiendavat taset ei nõuta. Google Cloud CMEK ja Microsoft Double Key Encryption on tasulised lisad (E5 Microsofti puhul) ja võtmete aluspõhi töötab sageli endiselt USA pilvedes."
+      },
+      "standards": {
+        "label": "Avatud standardid (IMAP, CalDAV, CardDAV)",
+        "verkio": "Jah",
+        "google": "Piiratud",
+        "microsoft": "Piiratud",
+        "info": "Verkio toetab IMAPi, SMTPd, CalDAVi ja CardDAVi esmaklassiliste protokollidena. Iga standardiga ühilduv klient (Thunderbird, Apple Mail, K-9, DAVx⁵) ühendub otse. Google ja Microsoft toetavad neid tehniliselt, kuid piiratud funktsioonide ja kohustuslike rakenduseparoolidega 2FA kasutavate kontode jaoks."
+      },
+      "dns": {
+        "label": "DNS-i lahendamine ELis",
+        "verkio": "Jah",
+        "google": "Globaalne marsruutimine",
+        "microsoft": "Globaalne marsruutimine",
+        "info": "Verkio.eu autoriteetne DNS asub ELis asuvate teenusepakkujate juures — kunagi mitte Route 53 (Amazon), Cloud DNS (Google) ega Azure DNS. Google ja Microsoft tavaliselt suunavad rentnike domeenide DNS-i globaalselt, mistõttu päringud võivad läbida USA-s tegutsevaid nimeservereid."
+      }
+    },
+    "infoLabel": "Rohkem teavet"
+  },
+  "faqs": {
+    "eyebrow": "KKK",
+    "headline": "Korduma kippuvad küsimused",
+    "contactPrompt": "Kas midagi jääb puudu?",
+    "items": {
+      "hosting": {
+        "question": "Kus andmeid tegelikult majutatakse?",
+        "answer": "ELis, punkt. Põhihoidla, varukoopiad ja kogu töötlemine toimub ELi taristul. Ükski koopia ei lahku liidust."
+      },
+      "cloudAct": {
+        "question": "Aga USA CLOUD Act?",
+        "answer": "Verkio on Rootsi ettevõte ilma USA esindusteta, seega CLOUD Act meile ei laiene. Välismaiste asutuste juurdepääsutaotlused liiguvad Rootsi ja Euroopa õiguskanalite kaudu."
+      },
+      "clients": {
+        "question": "Kas see töötab Outlooki, Apple Maili ja Thunderbirdiga?",
+        "answer": "Jah. Verkio põhineb standarditel — IMAP, SMTP, CalDAV, CardDAV — iga kaasaegne klient ühendub otse."
+      },
+      "launch": {
+        "question": "Millal Verkio avaldatakse?",
+        "answer": "Juulis 2026. Liitu ootejärjekorraga ja võtame ühendust, kui kontod avanevad."
+      },
+      "migration": {
+        "question": "Kas saan migreeruda Google Workspace'ist või Microsoft 365-st?",
+        "answer": "Jah. Migreerimistööriistad e-postile, kalendrile, kontaktidele ja dokumentidele on osa avaldamisplaanist."
+      },
+      "pricing": {
+        "question": "Kuidas on hinnastamine üles ehitatud?",
+        "answer": "Kasutaja kohta, kuupõhise või aastapõhise arveldusega eurodes, ilma funktsioonipõhiste lisatasudeta. Detailid avaldamisel."
+      },
+      "subprocessors": {
+        "question": "Kas kasutate USA alltöövõtjaid?",
+        "answer": "Meie eesmärk: ükski andmevoo teel. Avaldame avaldamisel ajakohase alltöövõtjate nimekirja ja teatame muudatustest ette."
+      },
+      "leaving": {
+        "question": "Mis juhtub minu andmetega, kui ma lahkun?",
+        "answer": "Täielik eksport standardvormingutes. Ei mingit lukustust, ei mingit lunaraha lahkumisel."
+      },
+      "openSource": {
+        "question": "Kas Verkio on avatud lähtekoodiga?",
+        "answer": "Kliendi pool põhineb avatud standarditel, seega töötab iga ühilduv tööriist. Räägime taustasüsteemist rohkem avaldamise lähedal."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Euroopa ettevõte. Ehitatud ELis. Majutatud ELis.",
+    "copyright": "© {year} Verkio",
+    "productHeading": "Toode",
+    "legalHeading": "Õiguslik",
+    "contactHeading": "Kontakt",
+    "privacy": "Privaatsuspoliitika",
+    "terms": "Kasutustingimused",
+    "allRightsReserved": "Kõik õigused kaitstud"
+  },
+  "waitlist": {
+    "cardTitle": "Liitu ootejärjekorraga",
+    "cardSubtitle": "Võtame ühendust, kui Verkio avaneb.",
+    "emailLabel": "E-post",
+    "emailPlaceholder": "sina@sinuettevote.ee",
+    "companyLabel": "Ettevõte",
+    "companyOptional": "(valikuline)",
+    "companyPlaceholder": "Acme OÜ",
+    "submit": "Liitu ootejärjekorraga",
+    "submitting": "Saadan…",
+    "successMessage": "Aitäh. Võtame ühendust, kui Verkio avaneb.",
+    "genericError": "Midagi läks valesti. Proovi uuesti või kirjuta aadressile hello@verkio.eu.",
+    "invalidEmail": "Palun sisesta kehtiv e-posti aadress",
+    "invalidInput": "Vigane sisend"
+  },
+  "roadmap": {
+    "metaTitle": "Teekaart — Verkio",
+    "metaDescription": "Mis Verkios tuleb.",
+    "eyebrow": "Teekaart",
+    "headline": "Mis Verkios tuleb.",
+    "subhead": "Kuhu järgmiseks suundume.",
+    "backLink": "Tagasi avalehele",
+    "items": {
+      "wiki": {
+        "date": "August 2026",
+        "name": "Sisemised vikid",
+        "description": "Otsitavad, versioonidega ruumid töökorralduste, otsuste ja institutsioonilise teadmise jaoks, mille tiim ise endale kirjutab."
+      },
+      "messaging": {
+        "date": "Oktoober 2026",
+        "name": "Sisemine sõnumside",
+        "description": "Kanalid, otsesõnumid ja lõimed tiimi vestlusteks — otsitav, ELis majutatud ja väljaspool USA vestlusplatvorme."
+      },
+      "webmail": {
+        "date": "Detsember 2026",
+        "name": "Veebipostkast",
+        "description": "Kiire, klaviatuurile keskendunud veebiklient Verkio meilile — lõimed, otsing ja sildid ilma ülearuse koormata."
+      }
+    }
+  },
+  "privacy": {
+    "metaTitle": "Privaatsuspoliitika — Verkio",
+    "metaDescription": "Kuidas Verkio käitleb isikuandmeid saidil verkio.eu, meie ooteloo eelvaate saidil.",
+    "eyebrow": "Õiguslik",
+    "headline": "Privaatsuspoliitika",
+    "lastUpdated": "Viimati uuendatud: 18. mai 2026",
+    "backLink": "Tagasi avalehele",
+    "intro": "See teade kirjeldab, kuidas Verkio käitleb isikuandmeid saidil verkio.eu, meie turundus- ja ooteloo saidil enne käivitamist. Toote käivitamisel asendab seda eraldi, põhjalikum privaatsusteade, mis hõlmab teenust ennast.",
+    "sections": [
+      {
+        "heading": "Kes me oleme",
+        "body": "Verkio on Euroopa ettevõte. Tegutseme allpool kirjeldatud isikuandmete vastutava töötlejana.\n\nMeid saab kätte aadressil hello@verkio.eu."
+      },
+      {
+        "heading": "Mida kogume",
+        "body": "Ootejärjekord: teie e-posti aadress ja valikuliselt ettevõtte nimi. Rohkem ei midagi.\n\nFunktsionaalsed küpsised: väike NEXT_LOCALE-küpsis, mis mäletab teie keelevalikut. Seda ei kasutata jälgimiseks.\n\nServeri logid: lühikesed päringukirjed (IP, kasutajaagent, URL) saidi turvaliseks haldamiseks. Säilitatakse lühikest aega; ei kasutata profileerimiseks.\n\nEi analüütikat, ei turundusjälgijaid, ei kolmandate osapoolte reklaampiksleid."
+      },
+      {
+        "heading": "Miks me neid kogume",
+        "body": "Et anda teile teada, kui Verkio avab uksed, ja selle saidi haldamiseks.\n\nÕiguslik alus GDPR-i kohaselt: õigustatud huvi (Art. 6 lg 1 p f) ootejärjekorra puhul; vajadus funktsionaalse küpsise puhul; õigustatud huvi võrgu turvalisuse vastu serveri logide puhul."
+      },
+      {
+        "heading": "Kus neid hoitakse",
+        "body": "Euroopa Liidu sees, Euroopa omandis oleval taristul. Ei USA hüperskaalareid ega ülekandeid väljapoole EL-i."
+      },
+      {
+        "heading": "Kui kaua neid säilitame",
+        "body": "Ootejärjekorra andmeid kuni toote käivitamiseni ja kuni otsustate kliendiks saada, või varem, kui palute need kustutada. Serveri logisid vaid lühikese aja."
+      },
+      {
+        "heading": "Jagamine",
+        "body": "Me ei müü teie andmeid. Me ei jaga neid reklaamijatega. Me ei kasuta kolmandate osapoolte jälgijaid. Juurdepääs on ainult selgelt vajadustega Verkio töötajatel."
+      },
+      {
+        "heading": "Teie õigused",
+        "body": "GDPR-i kohaselt on teil õigus andmetega tutvuda, neid parandada, kustutada, töötlemist piirata, sellele vastu vaielda ja andmeid üle kanda. Saate ka nõusoleku tagasi võtta (kui see on alus) ja esitada kaebuse kohalikule andmekaitseasutusele.\n\nMis tahes nende õiguste kasutamiseks kirjutage aadressile hello@verkio.eu. Vastame ühe kuu jooksul."
+      },
+      {
+        "heading": "Uuendused",
+        "body": "Kui see teade muutub, uuendame ülaltoodud kuupäeva. Toote käivitamisel antakse välja põhjalikum teade, mis selle asendab."
+      },
+      {
+        "heading": "Kontakt",
+        "body": "Selle teate või andmesubjekti taotluse kohta: hello@verkio.eu."
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Kasutustingimused — Verkio",
+    "metaDescription": "Tingimused, mis reguleerivad verkio.eu — Verkio eelvaate turundus- ja ooteloo saidi — kasutamist.",
+    "eyebrow": "Õiguslik",
+    "headline": "Kasutustingimused",
+    "lastUpdated": "Viimati uuendatud: 18. mai 2026",
+    "backLink": "Tagasi avalehele",
+    "intro": "Need tingimused reguleerivad teie verkio.eu, meie turundus- ja ooteloo saidi, kasutamist enne käivitamist. Toote käivitamisel kaasnevad teenusega eraldi ja põhjalikumad tingimused.",
+    "sections": [
+      {
+        "heading": "Meist",
+        "body": "verkio.eu haldab Verkio, Euroopa ettevõte. Kontakt: hello@verkio.eu."
+      },
+      {
+        "heading": "Ootejärjekord",
+        "body": "E-posti aadressi esitades registreerute, et saada meilt teateid, kui Verkio avab uksed. Ootejärjekorrast saate igal ajal lahkuda, saates meile e-kirja. Kasutame teie andmeid ainult käivitamisega seotud suhtluseks."
+      },
+      {
+        "heading": "Ei mingit kohustust",
+        "body": "Ootejärjekorda liitumine ei garanteeri juurdepääsu, ei kinnita hindu ega moodusta teenuselepingut. Suunavad käivitamiskuupäevad on täpselt seda — suunavad."
+      },
+      {
+        "heading": "Sisu ja kaubamärgid",
+        "body": "Tekst, kujundus ja nimi Verkio kuuluvad Verkiole. Palun ärge taasesitage ega levitage neid ilma loata."
+      },
+      {
+        "heading": "Vastutusest loobumine",
+        "body": "See sait pakutakse nii nagu on. Püüame hoida teabe täpse, kuid toote üksikasjad enne käivitamist võivad muutuda."
+      },
+      {
+        "heading": "Kohaldatav õigus",
+        "body": "Nendele tingimustele kohaldatakse Rootsi õigust. Vaidlused lahendatakse Rootsi kohtutes."
+      },
+      {
+        "heading": "Muudatused",
+        "body": "Võime neid tingimusi enne käivitamist uuendada. Olulised muudatused kajastuvad ülaltoodud kuupäevas. Saidi jätkuv kasutamine tähendab praeguse versiooni aktsepteerimist."
+      }
+    ]
+  }
+}

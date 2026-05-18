@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--max-old-space-size=8192' next dev --webpack",
+    "dev:turbo": "NODE_OPTIONS='--max-old-space-size=16384' next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -12,6 +13,7 @@
     "@neondatabase/serverless": "^1.1.0",
     "drizzle-orm": "^0.45.2",
     "next": "16.2.4",
+    "next-intl": "^4.12.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "zod": "^4.3.6"

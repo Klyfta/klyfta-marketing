@@ -1,0 +1,311 @@
+{
+  "_status": "draft — needs native review",
+  "metadata": {
+    "title": "Verkio — Europese werksuite, gehost in de EU",
+    "description": "Verkio is de werksuite voor Europese bedrijven die geven om dataresidentie binnen de EU. E-mail, documentopslag, wiki's, agenda en contacten — gehost in de EU, versleuteld in rust, AVG-native vanaf de basis. Zelfs onze DNS-lookups blijven in de EU.",
+    "ogDescription": "Premium Europese werksuite voor bedrijven die geven om waar hun gegevens staan."
+  },
+  "nav": {
+    "suite": "De suite",
+    "residency": "Dataresidentie",
+    "faqs": "FAQ",
+    "joinWaitlist": "Inschrijven",
+    "language": "Taal",
+    "roadmap": "Roadmap"
+  },
+  "hero": {
+    "eyebrow": "Lancering in juli 2026",
+    "headline": "De Europese mail- en werksuite.",
+    "body1": "Uw e-mail en bedrijfsgegevens — gehost in de EU, versleuteld in rust, AVG-native vanaf de basis.",
+    "body2": "Gemaakt voor wie vindt dat het uitmaakt waar je gegevens staan."
+  },
+  "suite": {
+    "eyebrow": "De suite",
+    "headline": "Alles wat jouw team gebruikt. Op één plek waar het ook staat.",
+    "subhead": "Gebouwd op open standaarden. Gehost in de EU. Geen vendor lock-in, geen verrassingen.",
+    "items": {
+      "mail": {
+        "name": "E-mail",
+        "description": "Persoonlijke en gedeelde inboxen. Gebruik de web-app of een willekeurige IMAP-client. Neem je eigen domein mee."
+      },
+      "calendar": {
+        "name": "Agenda",
+        "description": "Persoonlijke en team-agenda's. Standaardgebaseerd (CalDAV), dus het werkt met de apps die je al gebruikt."
+      },
+      "contacts": {
+        "name": "Contacten",
+        "description": "Persoonlijke en gedeelde adresboeken via CardDAV. Overal synchroniseren, zonder lock-in."
+      },
+      "documents": {
+        "name": "Documentopslag",
+        "description": "Bestanden en mappen met deling, versiegeschiedenis en fijnmazige toegangsrechten."
+      },
+      "wikis": {
+        "name": "Wiki's",
+        "description": "Gestructureerde pagina's voor teamkennis, met volledige bewerkingsgeschiedenis en verwijzingen."
+      }
+    }
+  },
+  "residency": {
+    "eyebrow": "Dataresidentie",
+    "headline": "Waar je gegevens staan.",
+    "subhead": "Geen overdrachten naar de VS. Geen blootstelling aan de CLOUD Act. Geen ongemakkelijke antwoorden op inkoopformulieren.",
+    "items": {
+      "infrastructure": {
+        "name": "Infrastructuur in Europees eigendom",
+        "description": "Opgeslagen, verwerkt en geback-upt binnen de EU op infrastructuur in Europees eigendom. Geen Amerikaanse hyperscalers — ook niet in hun EU-regio's."
+      },
+      "encryption": {
+        "name": "Versleuteld in rust",
+        "description": "Sleutels worden in de EU beheerd, onder onze controle — niet bij een Amerikaanse hyperscaler."
+      },
+      "dns": {
+        "name": "DNS-resolving in de EU",
+        "description": "Ook de lookups die je naar onze servers leiden, blijven in Europa."
+      },
+      "jurisdiction": {
+        "name": "Europese rechtsmacht",
+        "description": "EU-jurisdictie, AVG-native vanaf de basis. Buiten het bereik van de Amerikaanse CLOUD Act."
+      },
+      "subprocessors": {
+        "name": "Geen Amerikaanse subverwerkers",
+        "description": "E-maillevering, betalingen, support — niets in het datapad raakt een in de VS gevestigde leverancier. De lijst met subverwerkers is gepubliceerd, met wijzigingen vooraf aangekondigd."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Vergelijking",
+    "headline": "Hoe Verkio zich verhoudt.",
+    "subhead": "Naast de twee suites waar Europese bedrijven het vaakst uit kiezen.",
+    "columns": {
+      "verkio": "Verkio",
+      "google": "Google Workspace",
+      "microsoft": "Microsoft 365",
+      "info": "Info"
+    },
+    "rows": {
+      "infrastructure": {
+        "label": "Infrastructuur in Europees eigendom",
+        "verkio": "Ja",
+        "google": "Nee (Google Cloud)",
+        "microsoft": "Nee (Microsoft Azure)",
+        "info": "Verkio draait op infrastructuur van in de EU gevestigde aanbieders — nooit op AWS, Google Cloud of Azure, zelfs niet in hun Europese regio's. Google Cloud en Microsoft Azure zijn Amerikaanse hyperscalers; hun EU-regio's worden nog steeds beheerd door Amerikaanse bedrijven."
+      },
+      "cloudAct": {
+        "label": "Buiten de Amerikaanse CLOUD Act",
+        "verkio": "Ja",
+        "google": "Nee (Amerikaans moederbedrijf)",
+        "microsoft": "Nee (Amerikaans moederbedrijf)",
+        "info": "De Amerikaanse CLOUD Act verplicht Amerikaanse bedrijven om klantgegevens op verzoek te verstrekken, ongeacht waar deze zijn opgeslagen. Google en Microsoft zijn Amerikaanse bedrijven en dus blootgesteld. Verkio is Europees en heeft geen Amerikaanse entiteit in het datapad."
+      },
+      "gdpr": {
+        "label": "AVG vanaf de basis",
+        "verkio": "Ja",
+        "google": "Conform via DPA",
+        "microsoft": "Conform via DPA",
+        "info": "AVG is verweven met Verkio's datamodel — dataminimalisatie, registratie van rechtsgrondslag, cascadering bij verwijdering, machinaal leesbare export. Google en Microsoft zijn AVG-conform via hun verwerkersovereenkomsten, maar hun producten zijn ontworpen voor een wereldwijde markt en behandelen de AVG als een configuratielaag."
+      },
+      "keys": {
+        "label": "Klantsleutels beheerd in de EU",
+        "verkio": "Ja, standaard",
+        "google": "Betaalde add-on",
+        "microsoft": "Betaalde add-on (E5)",
+        "info": "Verkio's versleutelingssleutels staan standaard in een in de EU gehost KMS dat wij beheren — geen upgrade-tier. Google Cloud CMEK en Microsoft Double Key Encryption zijn betaalde add-ons (E5 voor Microsoft), en de onderliggende sleutelinfrastructuur draait vaak nog op Amerikaanse clouds."
+      },
+      "standards": {
+        "label": "Open standaarden (IMAP, CalDAV, CardDAV)",
+        "verkio": "Ja",
+        "google": "Beperkt",
+        "microsoft": "Beperkt",
+        "info": "Verkio ondersteunt IMAP, SMTP, CalDAV en CardDAV als first-class protocollen. Elke standaardconforme client (Thunderbird, Apple Mail, K-9, DAVx⁵) maakt direct verbinding. Google en Microsoft ondersteunen ze technisch, maar met beperkte functies en verplichte app-wachtwoorden voor accounts met 2FA."
+      },
+      "dns": {
+        "label": "DNS-resolving in de EU",
+        "verkio": "Ja",
+        "google": "Globale routing",
+        "microsoft": "Globale routing",
+        "info": "Het authoritative DNS voor verkio.eu wordt gehost bij in de EU gevestigde providers — nooit Route 53 (Amazon), Cloud DNS (Google) of Azure DNS. Google en Microsoft routeren DNS voor tenantdomeinen meestal wereldwijd, waardoor lookups via Amerikaanse nameservers kunnen lopen."
+      }
+    },
+    "infoLabel": "Meer info"
+  },
+  "faqs": {
+    "eyebrow": "FAQ",
+    "headline": "Veelgestelde vragen",
+    "contactPrompt": "Iets gemist?",
+    "items": {
+      "hosting": {
+        "question": "Waar worden de gegevens daadwerkelijk gehost?",
+        "answer": "Binnen de EU, punt. Primaire opslag, back-ups en alle verwerking vinden plaats op EU-infrastructuur. Geen replica's verlaten de Unie."
+      },
+      "cloudAct": {
+        "question": "Wat met de Amerikaanse CLOUD Act?",
+        "answer": "Verkio is een Zweeds bedrijf zonder aanwezigheid in de VS, dus de CLOUD Act is niet op ons van toepassing. Verzoeken om toegang van buitenlandse autoriteiten lopen via Zweedse en Europese juridische kanalen."
+      },
+      "clients": {
+        "question": "Werkt het met Outlook, Apple Mail en Thunderbird?",
+        "answer": "Ja. Verkio is standaardgebaseerd — IMAP, SMTP, CalDAV, CardDAV — elke moderne client maakt direct verbinding."
+      },
+      "launch": {
+        "question": "Wanneer wordt Verkio gelanceerd?",
+        "answer": "Juli 2026. Schrijf je in op de wachtlijst, dan horen we van je zodra accounts openen."
+      },
+      "migration": {
+        "question": "Kan ik migreren vanaf Google Workspace of Microsoft 365?",
+        "answer": "Ja. Migratietools voor e-mail, agenda, contacten en documenten horen bij de lanceringsplanning."
+      },
+      "pricing": {
+        "question": "Hoe is de prijsstructuur?",
+        "answer": "Per gebruiker, maandelijks of jaarlijks in euro's, zonder toeslagen per functie. Details volgen bij de lancering."
+      },
+      "subprocessors": {
+        "question": "Gebruiken jullie Amerikaanse subverwerkers?",
+        "answer": "Ons doel: geen in het datapad. We publiceren bij de lancering een actuele subverwerkerslijst en kondigen wijzigingen vooraf aan."
+      },
+      "leaving": {
+        "question": "Wat gebeurt er met mijn gegevens als ik vertrek?",
+        "answer": "Volledige export in standaardformaten. Geen lock-in, geen losgeld op weg naar buiten."
+      },
+      "openSource": {
+        "question": "Is Verkio open source?",
+        "answer": "De client-kant is gebouwd op open standaarden, dus elke compatibele tool werkt. Meer over de backend volgt dichter bij de lancering."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Een Europees bedrijf. Gebouwd in de EU. Gehost in de EU.",
+    "copyright": "© {year} Verkio",
+    "productHeading": "Product",
+    "legalHeading": "Juridisch",
+    "contactHeading": "Contact",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene voorwaarden",
+    "allRightsReserved": "Alle rechten voorbehouden"
+  },
+  "waitlist": {
+    "cardTitle": "Inschrijven op de wachtlijst",
+    "cardSubtitle": "We horen van je zodra Verkio opent.",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "jij@jouwbedrijf.nl",
+    "companyLabel": "Bedrijf",
+    "companyOptional": "(optioneel)",
+    "companyPlaceholder": "Acme B.V.",
+    "submit": "Inschrijven",
+    "submitting": "Versturen…",
+    "successMessage": "Bedankt. We horen van je zodra Verkio opent.",
+    "genericError": "Er ging iets mis. Probeer het opnieuw of mail naar hello@verkio.eu.",
+    "invalidEmail": "Voer een geldig e-mailadres in",
+    "invalidInput": "Ongeldige invoer"
+  },
+  "roadmap": {
+    "metaTitle": "Roadmap — Verkio",
+    "metaDescription": "Wat eraan komt bij Verkio.",
+    "eyebrow": "Roadmap",
+    "headline": "Wat eraan komt bij Verkio.",
+    "subhead": "Waar we naartoe gaan.",
+    "backLink": "Terug naar home",
+    "items": {
+      "wiki": {
+        "date": "Augustus 2026",
+        "name": "Interne wiki's",
+        "description": "Doorzoekbare, geversioneerde ruimtes voor runbooks, beslissingen en de institutionele kennis die je team voor zichzelf opschrijft."
+      },
+      "messaging": {
+        "date": "Oktober 2026",
+        "name": "Interne berichten",
+        "description": "Kanalen, DM's en threads voor teamgesprekken — doorzoekbaar, EU-gehost en weg van Amerikaanse chatplatforms."
+      },
+      "webmail": {
+        "date": "December 2026",
+        "name": "Webmail-inbox",
+        "description": "Een snelle, toetsenbord-eerst webclient voor Verkio-mail — threading, zoeken en labels zonder ballast."
+      }
+    }
+  },
+  "privacy": {
+    "metaTitle": "Privacybeleid — Verkio",
+    "metaDescription": "Hoe Verkio omgaat met persoonsgegevens op verkio.eu, onze pre-launch wachtlijstsite.",
+    "eyebrow": "Juridisch",
+    "headline": "Privacybeleid",
+    "lastUpdated": "Laatst bijgewerkt: 18 mei 2026",
+    "backLink": "Terug naar home",
+    "intro": "Deze verklaring beschrijft hoe Verkio omgaat met persoonsgegevens op verkio.eu, onze marketing- en wachtlijstsite vóór de lancering. Bij de productlancering vervangt een afzonderlijke, uitgebreidere privacyverklaring deze om de dienst zelf te dekken.",
+    "sections": [
+      {
+        "heading": "Wie we zijn",
+        "body": "Verkio is een Europees bedrijf. Wij treden op als verwerkingsverantwoordelijke voor de hieronder beschreven persoonsgegevens.\n\nU kunt ons bereiken op hello@verkio.eu."
+      },
+      {
+        "heading": "Wat we verzamelen",
+        "body": "Wachtlijst: uw e-mailadres en eventueel een bedrijfsnaam. Meer niet.\n\nFunctionele cookies: een kleine NEXT_LOCALE-cookie die uw taalkeuze onthoudt. Wordt niet gebruikt voor tracking.\n\nServerlogs: korte verzoekregistraties (IP, user agent, URL) om de site veilig te houden. Kort bewaard en niet gebruikt voor profilering.\n\nGeen analytics, geen marketingtrackers, geen advertentiepixels van derden."
+      },
+      {
+        "heading": "Waarom we het verzamelen",
+        "body": "Om u te informeren wanneer Verkio opent, en om deze site te exploiteren.\n\nRechtsgrond onder de AVG: gerechtvaardigd belang (Art. 6 lid 1 sub f) voor de wachtlijst; noodzaak voor de functionele cookie; gerechtvaardigd belang in netwerkbeveiliging voor serverlogs."
+      },
+      {
+        "heading": "Waar het wordt opgeslagen",
+        "body": "Binnen de Europese Unie, op infrastructuur in Europese handen. Geen Amerikaanse hyperscalers en geen overdrachten buiten de EU."
+      },
+      {
+        "heading": "Hoe lang we het bewaren",
+        "body": "Wachtlijstgegevens tot de productlancering en tot u besluit klant te worden, of eerder als u ons om verwijdering vraagt. Serverlogs alleen voor een korte operationele periode."
+      },
+      {
+        "heading": "Delen",
+        "body": "We verkopen uw gegevens niet. We delen ze niet met adverteerders. We gebruiken geen trackers van derden. Alleen Verkio-medewerkers met een duidelijke noodzaak kunnen ze inzien."
+      },
+      {
+        "heading": "Uw rechten",
+        "body": "Onder de AVG heeft u recht op inzage, rectificatie, wissing, beperking, bezwaar en overdraagbaarheid van uw gegevens. U kunt ook toestemming intrekken (waar die de basis is) en een klacht indienen bij uw lokale toezichthouder.\n\nMail hello@verkio.eu om een van deze rechten uit te oefenen. We reageren binnen een maand."
+      },
+      {
+        "heading": "Updates",
+        "body": "Wanneer deze verklaring wijzigt, werken we de datum hierboven bij. De productlancering komt met een uitgebreidere verklaring die deze vervangt."
+      },
+      {
+        "heading": "Contact",
+        "body": "Vragen over deze verklaring of een verzoek betreffende uw rechten: hello@verkio.eu."
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Algemene voorwaarden — Verkio",
+    "metaDescription": "Voorwaarden voor het gebruik van verkio.eu, Verkio's pre-launch marketing- en wachtlijstsite.",
+    "eyebrow": "Juridisch",
+    "headline": "Algemene voorwaarden",
+    "lastUpdated": "Laatst bijgewerkt: 18 mei 2026",
+    "backLink": "Terug naar home",
+    "intro": "Deze voorwaarden regelen uw gebruik van verkio.eu, onze marketing- en wachtlijstsite voor de lancering. Afzonderlijke, uitgebreidere voorwaarden zullen bij de productlancering verschijnen.",
+    "sections": [
+      {
+        "heading": "Over ons",
+        "body": "verkio.eu wordt beheerd door Verkio, een Europees bedrijf. Contact: hello@verkio.eu."
+      },
+      {
+        "heading": "Wachtlijst",
+        "body": "Door uw e-mail op te geven, meldt u zich aan om gecontacteerd te worden als Verkio opent. U kunt de wachtlijst altijd verlaten door ons te mailen. Wij gebruiken uw gegevens uitsluitend voor lancering­gerelateerd contact."
+      },
+      {
+        "heading": "Geen verplichting",
+        "body": "Aanmelden voor de wachtlijst garandeert geen toegang, blokkeert geen prijzen en vormt geen dienstencontract. Indicatieve lanceringsdata zijn precies dat — indicatief."
+      },
+      {
+        "heading": "Inhoud & merken",
+        "body": "Tekst, ontwerp en de naam Verkio zijn eigendom van Verkio. Niet reproduceren of herverdelen zonder toestemming."
+      },
+      {
+        "heading": "Disclaimers",
+        "body": "Deze site wordt aangeboden zoals hij is. We doen ons best om informatie accuraat te houden, maar productdetails vóór de lancering kunnen veranderen."
+      },
+      {
+        "heading": "Toepasselijk recht",
+        "body": "Deze voorwaarden worden beheerst door het recht van Zweden. Geschillen worden voorgelegd aan Zweedse rechtbanken."
+      },
+      {
+        "heading": "Wijzigingen",
+        "body": "We kunnen deze voorwaarden voor de lancering bijwerken. Materiële wijzigingen worden weerspiegeld in de datum hierboven. Verder gebruik van de site betekent acceptatie van de huidige versie."
+      }
+    ]
+  }
+}

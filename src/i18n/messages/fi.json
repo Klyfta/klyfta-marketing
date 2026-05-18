@@ -1,0 +1,311 @@
+{
+  "_status": "draft — needs native review (Finnish grammar differs substantially from other locales; extra care needed)",
+  "metadata": {
+    "title": "Verkio — Eurooppalainen työkalupaketti, EU:ssa sijaitseva",
+    "description": "Verkio on työkalupaketti eurooppalaisille yrityksille, jotka välittävät EU-tietosijainnista. Sähköposti, tiedostotallennus, wikit, kalenteri ja yhteystiedot — isännöity EU:ssa, salattu lepotilassa, GDPR-rakenteinen alusta asti. Jopa DNS-kyselymme pysyvät EU:ssa.",
+    "ogDescription": "Eurooppalainen työkalupaketti yrityksille, jotka välittävät siitä, missä heidän tietonsa sijaitsevat."
+  },
+  "nav": {
+    "suite": "Paketti",
+    "residency": "Tietosijainti",
+    "faqs": "UKK",
+    "joinWaitlist": "Liity jonotuslistalle",
+    "language": "Kieli",
+    "roadmap": "Tiekartta"
+  },
+  "hero": {
+    "eyebrow": "Julkaistaan heinäkuussa 2026",
+    "headline": "Eurooppalainen sähköposti- ja työkalupaketti.",
+    "body1": "Sähköpostisi ja yritystietosi — isännöity EU:ssa, salattu lepotilassa, GDPR-rakenteinen alusta asti.",
+    "body2": "Rakennettu sinulle, jonka mielestä tiedon sijainnilla on merkitystä."
+  },
+  "suite": {
+    "eyebrow": "Paketti",
+    "headline": "Kaikki mitä tiimisi käyttää. Yhdessä paikassa, jossa se myös sijaitsee.",
+    "subhead": "Rakennettu avoimille standardeille. Isännöity EU:ssa. Ei lukkiutumista, ei yllätyksiä.",
+    "items": {
+      "mail": {
+        "name": "Sähköposti",
+        "description": "Henkilökohtaiset ja jaetut postilaatikot. Käytä verkkosovellusta tai mitä tahansa IMAP-asiakasta. Tuo oma verkkotunnuksesi."
+      },
+      "calendar": {
+        "name": "Kalenteri",
+        "description": "Henkilökohtaiset ja jaetut tiimikalenterit. Standardipohjainen (CalDAV) — toimii käyttämiesi sovellusten kanssa."
+      },
+      "contacts": {
+        "name": "Yhteystiedot",
+        "description": "Henkilökohtaiset ja jaetut osoitekirjat CardDAV:n kautta. Synkronoi kaikkialla, ilman lukkiutumista."
+      },
+      "documents": {
+        "name": "Tiedostotallennus",
+        "description": "Tiedostot ja kansiot jakamisella, versiohistorialla ja tarkennetuilla käyttöoikeuksilla."
+      },
+      "wikis": {
+        "name": "Wikit",
+        "description": "Jäsennellyt sivut tiimin tiedolle, täydellä muokkaushistorialla ja linkityksellä."
+      }
+    }
+  },
+  "residency": {
+    "eyebrow": "Tietosijainti",
+    "headline": "Missä tietosi sijaitsevat.",
+    "subhead": "Ei siirtoja Yhdysvaltoihin. Ei CLOUD Act -altistumista. Ei kiusallisia vastauksia hankintalomakkeissa.",
+    "items": {
+      "infrastructure": {
+        "name": "EU-omisteinen infrastruktuuri",
+        "description": "Tallennetaan, käsitellään ja varmuuskopioidaan EU:ssa eurooppalaisomistuksessa olevalla infrastruktuurilla. Ei yhdysvaltalaisia hyperscalereita — ei edes heidän EU-alueitaan."
+      },
+      "encryption": {
+        "name": "Salattu lepotilassa",
+        "description": "Avaimia hallitaan EU:ssa hallinnassamme — ei yhdysvaltalaisen hyperscalerin tiloissa."
+      },
+      "dns": {
+        "name": "DNS-kyselyt EU:ssa",
+        "description": "Kyselyt, jotka ohjaavat sinut palvelimillemme, pysyvät myös Euroopassa."
+      },
+      "jurisdiction": {
+        "name": "Eurooppalainen lainkäyttöalue",
+        "description": "EU-toimivalta, GDPR-rakenteinen alusta asti. Yhdysvaltain CLOUD Act -lain ulottumattomissa."
+      },
+      "subprocessors": {
+        "name": "Ei yhdysvaltalaisia alikäsittelijöitä",
+        "description": "Sähköpostin lähetys, maksut, tuki — mikään tietopolulla ei kosketa Yhdysvaltoihin sijoittautunutta toimittajaa. Alikäsittelijöiden lista on julkinen, ja muutoksista ilmoitetaan etukäteen."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Vertailu",
+    "headline": "Näin Verkio vertailussa.",
+    "subhead": "Rinnakkain kahden työkalupaketin kanssa, joista eurooppalaiset yritykset yleisimmin valitsevat.",
+    "columns": {
+      "verkio": "Verkio",
+      "google": "Google Workspace",
+      "microsoft": "Microsoft 365",
+      "info": "Info"
+    },
+    "rows": {
+      "infrastructure": {
+        "label": "EU-omisteinen infrastruktuuri",
+        "verkio": "Kyllä",
+        "google": "Ei (Google Cloud)",
+        "microsoft": "Ei (Microsoft Azure)",
+        "info": "Verkio toimii EU:hun sijoittautuneiden palveluntarjoajien infrastruktuurissa — ei koskaan AWS:llä, Google Cloudilla tai Azurella, ei edes niiden eurooppalaisilla alueilla. Google Cloud ja Microsoft Azure ovat yhdysvaltalaisia hyperskaalareita; niiden EU-alueita käyttävät edelleen yhdysvaltalaiset yritykset."
+      },
+      "cloudAct": {
+        "label": "Yhdysvaltain CLOUD Actin ulkopuolella",
+        "verkio": "Kyllä",
+        "google": "Ei (yhdysvaltalainen emoyhtiö)",
+        "microsoft": "Ei (yhdysvaltalainen emoyhtiö)",
+        "info": "Yhdysvaltain CLOUD Act velvoittaa yhdysvaltalaiset yritykset luovuttamaan asiakastiedot pyynnöstä riippumatta siitä, missä ne on tallennettu. Google ja Microsoft ovat yhdysvaltalaisia ja siksi alttiina. Verkio on eurooppalainen eikä sen datapolulla ole yhtään yhdysvaltalaista yksikköä."
+      },
+      "gdpr": {
+        "label": "GDPR alusta asti",
+        "verkio": "Kyllä",
+        "google": "Täyttyy DPA:n kautta",
+        "microsoft": "Täyttyy DPA:n kautta",
+        "info": "GDPR on rakennettu Verkion tietomalliin — tietojen minimointi, oikeusperusteen kirjaaminen, kaskadinen poisto, koneluettava vienti. Google ja Microsoft ovat GDPR-yhteensopivia tietojenkäsittelysopimustensa kautta, mutta heidän tuotteensa on suunniteltu globaaleille markkinoille ja kohtelevat GDPR:ää konfigurointikerroksena."
+      },
+      "keys": {
+        "label": "Asiakkaan avaimet EU:ssa hallinnoituna",
+        "verkio": "Kyllä, oletuksena",
+        "google": "Maksullinen lisäosa",
+        "microsoft": "Maksullinen lisäosa (E5)",
+        "info": "Verkion salausavaimet sijaitsevat oletuksena EU:ssa olevassa KMS:ssä, jota ylläpidämme — ei korkeampaa tasoa. Google Cloud CMEK ja Microsoft Double Key Encryption ovat maksullisia lisäosia (E5 Microsoftilla), ja itse avaininfrastruktuuri toimii usein edelleen yhdysvaltalaisissa pilvissä."
+      },
+      "standards": {
+        "label": "Avoimet standardit (IMAP, CalDAV, CardDAV)",
+        "verkio": "Kyllä",
+        "google": "Rajoitettu",
+        "microsoft": "Rajoitettu",
+        "info": "Verkio tukee IMAPia, SMTP:tä, CalDAVia ja CardDAVia ensiluokkaisina protokollina. Mikä tahansa standardin mukainen asiakassovellus (Thunderbird, Apple Mail, K-9, DAVx⁵) yhdistyy suoraan. Google ja Microsoft tukevat niitä teknisesti, mutta rajatuilla ominaisuuksilla ja pakollisilla sovellussalasanoilla, kun käytössä on 2FA."
+      },
+      "dns": {
+        "label": "DNS-kyselyt EU:ssa",
+        "verkio": "Kyllä",
+        "google": "Globaali reititys",
+        "microsoft": "Globaali reititys",
+        "info": "Verkio.eu:n auktoritatiivinen DNS isännöidään EU:hun sijoittautuneilla palveluntarjoajilla — ei koskaan Route 53:lla (Amazon), Cloud DNS:llä (Google) tai Azure DNS:llä. Google ja Microsoft reitittävät yleensä asiakas­domeenien DNS:n globaalisti, joten kyselyt voivat kulkea yhdysvaltalaisten nimi­palvelimien kautta."
+      }
+    },
+    "infoLabel": "Lisätietoja"
+  },
+  "faqs": {
+    "eyebrow": "UKK",
+    "headline": "Usein kysytyt kysymykset",
+    "contactPrompt": "Puuttuuko jokin?",
+    "items": {
+      "hosting": {
+        "question": "Missä tiedot todella sijaitsevat?",
+        "answer": "EU:ssa, piste. Ensisijainen tallennus, varmuuskopiot ja kaikki käsittely tapahtuvat EU-infrastruktuurissa. Yhtään kopiota ei poistu unionista."
+      },
+      "cloudAct": {
+        "question": "Entä Yhdysvaltain CLOUD Act?",
+        "answer": "Verkio on ruotsalainen yritys, jolla ei ole läsnäoloa Yhdysvalloissa, joten CLOUD Act ei koske meitä. Ulkomaiset tiedonsaantipyynnöt käsitellään Ruotsin ja EU:n oikeuskanavien kautta."
+      },
+      "clients": {
+        "question": "Toimiiko se Outlookin, Apple Mailin ja Thunderbirdin kanssa?",
+        "answer": "Kyllä. Verkio on standardipohjainen — IMAP, SMTP, CalDAV, CardDAV — joten kaikki nykyaikaiset asiakkaat kytkeytyvät suoraan."
+      },
+      "launch": {
+        "question": "Milloin Verkio julkaistaan?",
+        "answer": "Heinäkuussa 2026. Liity jonotuslistalle, niin otamme yhteyttä, kun tilit avataan."
+      },
+      "migration": {
+        "question": "Voinko siirtyä Google Workspacesta tai Microsoft 365:stä?",
+        "answer": "Kyllä. Siirtotyökalut sähköpostille, kalenterille, yhteystiedoille ja tiedostoille kuuluvat julkaisusuunnitelmaan."
+      },
+      "pricing": {
+        "question": "Miten hinnoittelu on rakennettu?",
+        "answer": "Käyttäjäkohtainen kuukausi- tai vuosilaskutus euroina, ilman ominaisuuskohtaisia lisämaksuja. Yksityiskohdat julkaisun yhteydessä."
+      },
+      "subprocessors": {
+        "question": "Käytättekö yhdysvaltalaisia alikäsittelijöitä?",
+        "answer": "Tavoitteemme on, ettei niitä ole tietopolulla. Julkaisemme ajantasaisen alikäsittelijälistan julkaisun yhteydessä ja ilmoitamme muutoksista etukäteen."
+      },
+      "leaving": {
+        "question": "Mitä tiedoilleni tapahtuu, jos lähden?",
+        "answer": "Täysi vienti vakiomuodoissa. Ei lukkiutumista, ei lunnaita lähtiessä."
+      },
+      "openSource": {
+        "question": "Onko Verkio avointa lähdekoodia?",
+        "answer": "Asiakaspuoli rakentuu avoimille standardeille, joten kaikki yhteensopivat työkalut toimivat. Kerromme palvelinpuolesta lisää lähempänä julkaisua."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Eurooppalainen yritys. Rakennettu EU:ssa. Isännöity EU:ssa.",
+    "copyright": "© {year} Verkio",
+    "productHeading": "Tuote",
+    "legalHeading": "Lakitiedot",
+    "contactHeading": "Yhteystiedot",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "allRightsReserved": "Kaikki oikeudet pidätetään"
+  },
+  "waitlist": {
+    "cardTitle": "Liity jonotuslistalle",
+    "cardSubtitle": "Otamme yhteyttä, kun Verkio avautuu.",
+    "emailLabel": "Sähköposti",
+    "emailPlaceholder": "sinä@yrityksesi.fi",
+    "companyLabel": "Yritys",
+    "companyOptional": "(valinnainen)",
+    "companyPlaceholder": "Acme Oy",
+    "submit": "Liity jonotuslistalle",
+    "submitting": "Lähetetään…",
+    "successMessage": "Kiitos. Otamme yhteyttä, kun Verkio avautuu.",
+    "genericError": "Jotain meni pieleen. Yritä uudelleen tai lähetä viesti osoitteeseen hello@verkio.eu.",
+    "invalidEmail": "Syötä kelvollinen sähköpostiosoite",
+    "invalidInput": "Virheellinen syöte"
+  },
+  "roadmap": {
+    "metaTitle": "Tiekartta — Verkio",
+    "metaDescription": "Mitä Verkioon tulee.",
+    "eyebrow": "Tiekartta",
+    "headline": "Mitä Verkioon tulee.",
+    "subhead": "Minne suuntaamme seuraavaksi.",
+    "backLink": "Takaisin etusivulle",
+    "items": {
+      "wiki": {
+        "date": "Elokuu 2026",
+        "name": "Sisäiset wikit",
+        "description": "Hakukelpoisia, versioituja tiloja työohjeille, päätöksille ja institutionaaliselle tiedolle, jonka tiimi kirjoittaa itselleen."
+      },
+      "messaging": {
+        "date": "Lokakuu 2026",
+        "name": "Sisäinen viestintä",
+        "description": "Kanavat, yksityisviestit ja keskustelut tiimin viestintään — hakukelpoiset, EU:ssa isännöity ja yhdysvaltalaisten chat-alustojen ulkopuolella."
+      },
+      "webmail": {
+        "date": "Joulukuu 2026",
+        "name": "Webmail-postilaatikko",
+        "description": "Nopea, näppäimistöä suosiva verkkosovellus Verkion sähköpostille — keskustelut, haku ja merkinnät ilman turhaa painolastia."
+      }
+    }
+  },
+  "privacy": {
+    "metaTitle": "Tietosuojaseloste — Verkio",
+    "metaDescription": "Kuinka Verkio käsittelee henkilötietoja sivustolla verkio.eu, esijulkaisuvaiheen jonotuslistasivustolla.",
+    "eyebrow": "Oikeudellinen",
+    "headline": "Tietosuojaseloste",
+    "lastUpdated": "Päivitetty viimeksi: 18. toukokuuta 2026",
+    "backLink": "Takaisin etusivulle",
+    "intro": "Tässä selosteessa kuvataan, kuinka Verkio käsittelee henkilötietoja sivustolla verkio.eu, esijulkaisuvaiheen markkinointi- ja jonotuslistasivustolla. Tuotteen julkaisun yhteydessä erillinen, kattavampi tietosuojaseloste korvaa tämän kattaakseen itse palvelun.",
+    "sections": [
+      {
+        "heading": "Keitä olemme",
+        "body": "Verkio on eurooppalainen yritys. Toimimme alla kuvattujen henkilötietojen rekisterinpitäjänä.\n\nTavoitat meidät osoitteesta hello@verkio.eu."
+      },
+      {
+        "heading": "Mitä keräämme",
+        "body": "Jonotuslista: sähköpostiosoitteesi ja valinnaisesti yrityksen nimi. Siinä kaikki.\n\nToiminnalliset evästeet: pieni NEXT_LOCALE-eväste, joka muistaa kielivalintasi. Sitä ei käytetä seurantaan.\n\nPalvelimen lokit: lyhyet pyyntömerkinnät (IP, käyttäjäagentti, URL) sivuston turvalliseen ylläpitoon. Säilytetään lyhyen aikaa; ei käytetä profilointiin.\n\nEi analytiikkaa, ei markkinointiseurantaa, ei kolmansien osapuolten mainospikseleitä."
+      },
+      {
+        "heading": "Miksi keräämme niitä",
+        "body": "Ilmoittaaksemme sinulle, kun Verkio avautuu, ja ylläpitääksemme tätä sivustoa.\n\nOikeusperuste GDPR:n mukaan: oikeutettu etu (Art. 6(1)(f)) jonotuslistalle; tarpeellisuus toiminnalliselle evästeelle; oikeutettu etu verkon turvallisuuteen palvelinlokeille."
+      },
+      {
+        "heading": "Missä niitä säilytetään",
+        "body": "Euroopan unionin alueella, eurooppalaisessa omistuksessa olevalla infrastruktuurilla. Ei yhdysvaltalaisia hyperskaalareita eikä siirtoja EU:n ulkopuolelle."
+      },
+      {
+        "heading": "Kuinka kauan niitä säilytämme",
+        "body": "Jonotuslistan tietoja tuotteen julkaisuun saakka ja kunnes päätät ryhtyä asiakkaaksi, tai aikaisemmin, jos pyydät poistamaan ne. Palvelimen lokeja vain lyhyen toiminta-ajan."
+      },
+      {
+        "heading": "Jakaminen",
+        "body": "Emme myy tietojasi. Emme jaa niitä mainostajille. Emme käytä kolmansien osapuolten seurantaa. Vain Verkion työntekijät, joilla on selkeä tarve, pääsevät niihin käsiksi."
+      },
+      {
+        "heading": "Oikeutesi",
+        "body": "GDPR:n mukaan sinulla on oikeus tarkastaa, oikaista, poistaa, rajoittaa ja vastustaa käsittelyä sekä siirtää tietosi. Voit myös peruuttaa suostumuksen (kun se on peruste) ja tehdä valituksen paikalliselle tietosuojaviranomaiselle.\n\nLähetä sähköpostia osoitteeseen hello@verkio.eu käyttääksesi mitä tahansa näistä oikeuksista. Vastaamme kuukauden kuluessa."
+      },
+      {
+        "heading": "Päivitykset",
+        "body": "Kun tämä seloste muuttuu, päivitämme yllä olevan päivämäärän. Tuotteen julkaisun yhteydessä julkaistaan kattavampi seloste, joka korvaa tämän."
+      },
+      {
+        "heading": "Yhteystiedot",
+        "body": "Tätä selostetta tai rekisteröidyn oikeuksia koskevat tiedustelut: hello@verkio.eu."
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Käyttöehdot — Verkio",
+    "metaDescription": "Sivuston verkio.eu — Verkion esijulkaisuvaiheen markkinointi- ja jonotuslistasivuston — käyttöehdot.",
+    "eyebrow": "Oikeudellinen",
+    "headline": "Käyttöehdot",
+    "lastUpdated": "Päivitetty viimeksi: 18. toukokuuta 2026",
+    "backLink": "Takaisin etusivulle",
+    "intro": "Nämä ehdot säätelevät sivuston verkio.eu, esijulkaisuvaiheen markkinointi- ja jonotuslistasivuston, käyttöäsi. Tuotteen julkaisun yhteydessä erilliset, kattavammat ehdot saatetaan itse palveluun.",
+    "sections": [
+      {
+        "heading": "Tietoja",
+        "body": "verkio.eu-sivustoa hallinnoi Verkio, eurooppalainen yritys. Yhteystieto: hello@verkio.eu."
+      },
+      {
+        "heading": "Jonotuslista",
+        "body": "Antamalla sähköpostiosoitteesi ilmoittaudut kuullaksesi meiltä, kun Verkio avautuu. Voit poistua jonotuslistalta milloin tahansa lähettämällä meille viestin. Käytämme tietojasi vain julkaisuun liittyvään yhteydenpitoon."
+      },
+      {
+        "heading": "Ei sitoumusta",
+        "body": "Jonotuslistalle liittyminen ei takaa pääsyä, ei lukitse hintoja eikä muodosta palvelusopimusta. Suuntaa-antavat julkaisupäivät ovat juuri sitä — suuntaa-antavia."
+      },
+      {
+        "heading": "Sisältö ja tavaramerkit",
+        "body": "Teksti, suunnittelu ja Verkio-nimi kuuluvat Verkiolle. Älä jäljennä tai jaa niitä ilman lupaa."
+      },
+      {
+        "heading": "Vastuuvapaus",
+        "body": "Tämä sivusto tarjotaan sellaisenaan. Pidämme tiedon mahdollisimman tarkkana, mutta tuotetiedot voivat muuttua ennen julkaisua."
+      },
+      {
+        "heading": "Sovellettava laki",
+        "body": "Näihin ehtoihin sovelletaan Ruotsin lakia. Riidat käsitellään Ruotsin tuomioistuimissa."
+      },
+      {
+        "heading": "Muutokset",
+        "body": "Voimme päivittää näitä ehtoja ennen julkaisua. Olennaiset muutokset näkyvät yllä olevassa päivämäärässä. Sivuston käytön jatkaminen tarkoittaa, että hyväksyt nykyisen version."
+      }
+    ]
+  }
+}

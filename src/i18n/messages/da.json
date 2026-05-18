@@ -1,0 +1,311 @@
+{
+  "_status": "draft — needs native review",
+  "metadata": {
+    "title": "Verkio — Europæisk arbejdssuite, hostet i EU",
+    "description": "Verkio er arbejdssuiten for europæiske virksomheder, der går op i, hvor data opbevares. Mail, dokumentlagring, wikis, kalender og kontakter — hostet i EU, krypteret i hvile, GDPR-bygget fra bunden. Selv vores DNS-opslag bliver i EU.",
+    "ogDescription": "Premium europæisk arbejdssuite til virksomheder, der bekymrer sig om, hvor deres data ligger."
+  },
+  "nav": {
+    "suite": "Suiten",
+    "residency": "Datalagring",
+    "faqs": "Spørgsmål",
+    "joinWaitlist": "Tilmeld venteliste",
+    "language": "Sprog",
+    "roadmap": "Roadmap"
+  },
+  "hero": {
+    "eyebrow": "Lancering i juli 2026",
+    "headline": "Den europæiske mail- og arbejdssuite.",
+    "body1": "Din mail og virksomhedsdata — hostet i EU, krypteret i hvile, GDPR-bygget fra bunden.",
+    "body2": "Bygget til dig, der mener, det betyder noget, hvor data ligger."
+  },
+  "suite": {
+    "eyebrow": "Suiten",
+    "headline": "Alt det dit team bruger. Ét sted, hvor det ligger.",
+    "subhead": "Bygget på åbne standarder. Hostet i EU. Ingen lock-in, ingen overraskelser.",
+    "items": {
+      "mail": {
+        "name": "Mail",
+        "description": "Personlige og delte indbakker. Brug webappen eller en hvilken som helst IMAP-klient. Brug dit eget domæne."
+      },
+      "calendar": {
+        "name": "Kalender",
+        "description": "Personlige og fælles kalendere. Standardbaseret (CalDAV), så det virker med de apps, du allerede bruger."
+      },
+      "contacts": {
+        "name": "Kontakter",
+        "description": "Personlige og delte adressebøger over CardDAV. Synkronisér overalt, uden lock-in."
+      },
+      "documents": {
+        "name": "Dokumentlagring",
+        "description": "Filer og mapper med deling, versionshistorik og finkornede rettigheder."
+      },
+      "wikis": {
+        "name": "Wikis",
+        "description": "Strukturerede sider til teamets viden, med fuld redigeringshistorik og links."
+      }
+    }
+  },
+  "residency": {
+    "eyebrow": "Datalagring",
+    "headline": "Hvor dine data ligger.",
+    "subhead": "Ingen overførsler til USA. Ingen CLOUD Act-eksponering. Ingen pinlige svar på udbudsskemaer.",
+    "items": {
+      "infrastructure": {
+        "name": "EU-ejet infrastruktur",
+        "description": "Lagres, behandles og sikkerhedskopieres inde i EU på europæisk-ejet infrastruktur. Ingen amerikanske hyperscalers — heller ikke deres EU-regioner."
+      },
+      "encryption": {
+        "name": "Krypteret i hvile",
+        "description": "Nøglerne styres i EU, under vores kontrol — ikke hos en amerikansk hyperscaler."
+      },
+      "dns": {
+        "name": "DNS-opslag i EU",
+        "description": "Opslagene, der fører dig til vores servere, bliver også i Europa."
+      },
+      "jurisdiction": {
+        "name": "Europæisk jurisdiktion",
+        "description": "EU-jurisdiktion, GDPR-bygget fra bunden. Uden for rækkevidde af den amerikanske CLOUD Act."
+      },
+      "subprocessors": {
+        "name": "Ingen amerikanske underdatabehandlere",
+        "description": "E-maillevering, betalinger, support — intet i datastien passerer en leverandør med hjemsted i USA. Underdatabehandlerlisten offentliggøres, og ændringer varsles på forhånd."
+      }
+    }
+  },
+  "comparison": {
+    "eyebrow": "Sammenligning",
+    "headline": "Sådan klarer Verkio sig.",
+    "subhead": "Side om side med de to suiter, europæiske virksomheder oftest vælger mellem.",
+    "columns": {
+      "verkio": "Verkio",
+      "google": "Google Workspace",
+      "microsoft": "Microsoft 365",
+      "info": "Info"
+    },
+    "rows": {
+      "infrastructure": {
+        "label": "EU-ejet infrastruktur",
+        "verkio": "Ja",
+        "google": "Nej (Google Cloud)",
+        "microsoft": "Nej (Microsoft Azure)",
+        "info": "Verkio kører på infrastruktur drevet af EU-baserede udbydere — aldrig AWS, Google Cloud eller Azure, end ikke deres europæiske regioner. Google Cloud og Microsoft Azure er amerikanske hyperscalers; deres EU-regioner drives stadig af amerikanske virksomheder."
+      },
+      "cloudAct": {
+        "label": "Uden for amerikansk CLOUD Act",
+        "verkio": "Ja",
+        "google": "Nej (amerikansk moderselskab)",
+        "microsoft": "Nej (amerikansk moderselskab)",
+        "info": "Den amerikanske CLOUD Act tvinger amerikanske virksomheder til at udlevere kundedata på anmodning, uanset hvor de er lagret. Google og Microsoft er amerikanske selskaber og derfor eksponerede. Verkio er europæisk og har ingen amerikansk enhed i datastien."
+      },
+      "gdpr": {
+        "label": "GDPR fra bunden",
+        "verkio": "Ja",
+        "google": "Overholdes via DPA",
+        "microsoft": "Overholdes via DPA",
+        "info": "GDPR er indbygget i Verkios datamodel — dataminimering, sporing af retsgrundlag, kaskaderende sletning, maskinlæsbar eksport. Google og Microsoft er GDPR-kompatible gennem deres databehandleraftaler, men deres produkter er designet til et globalt marked og behandler GDPR som et konfigurationslag."
+      },
+      "keys": {
+        "label": "Kundenøgler styret i EU",
+        "verkio": "Ja, som standard",
+        "google": "Betalt tilkøb",
+        "microsoft": "Betalt tilkøb (E5)",
+        "info": "Verkios krypteringsnøgler ligger som standard i en EU-placeret KMS, vi selv driver — ingen opgraderingsniveau. Google Cloud CMEK og Microsoft Double Key Encryption er betalte tilkøb (E5 hos Microsoft), og selve nøgleinfrastrukturen kører ofte stadig i amerikanske skyer."
+      },
+      "standards": {
+        "label": "Åbne standarder (IMAP, CalDAV, CardDAV)",
+        "verkio": "Ja",
+        "google": "Begrænset",
+        "microsoft": "Begrænset",
+        "info": "Verkio understøtter IMAP, SMTP, CalDAV og CardDAV som førsteklasses protokoller. Enhver standardkompatibel klient (Thunderbird, Apple Mail, K-9, DAVx⁵) forbinder direkte. Google og Microsoft understøtter dem teknisk, men med begrænsede funktioner og obligatoriske app-adgangskoder for konti med 2FA."
+      },
+      "dns": {
+        "label": "DNS-opslag i EU",
+        "verkio": "Ja",
+        "google": "Global routing",
+        "microsoft": "Global routing",
+        "info": "Den autoritative DNS for verkio.eu hostes hos EU-baserede udbydere — aldrig Route 53 (Amazon), Cloud DNS (Google) eller Azure DNS. Google og Microsoft router typisk DNS for tenant-domæner globalt, så opslag kan passere amerikansk drevne navneservere."
+      }
+    },
+    "infoLabel": "Mere info"
+  },
+  "faqs": {
+    "eyebrow": "Spørgsmål",
+    "headline": "Ofte stillede spørgsmål",
+    "contactPrompt": "Mangler du noget?",
+    "items": {
+      "hosting": {
+        "question": "Hvor bliver data egentlig hostet?",
+        "answer": "Inde i EU, punktum. Primær lagring, sikkerhedskopier og al behandling foregår på EU-infrastruktur. Ingen replikaer forlader unionen."
+      },
+      "cloudAct": {
+        "question": "Hvad med den amerikanske CLOUD Act?",
+        "answer": "Verkio er en svensk virksomhed uden tilstedeværelse i USA, så CLOUD Act gælder ikke os. Anmodninger om adgang fra udenlandske myndigheder går gennem svenske og europæiske retskanaler."
+      },
+      "clients": {
+        "question": "Virker det med Outlook, Apple Mail og Thunderbird?",
+        "answer": "Ja. Verkio er standardbaseret — IMAP, SMTP, CalDAV, CardDAV — så enhver moderne klient kan koble direkte på."
+      },
+      "launch": {
+        "question": "Hvornår lanceres Verkio?",
+        "answer": "Juli 2026. Tilmeld dig ventelisten, så hører vi fra os, når konti åbner."
+      },
+      "migration": {
+        "question": "Kan jeg migrere fra Google Workspace eller Microsoft 365?",
+        "answer": "Ja. Migreringsværktøjer til mail, kalender, kontakter og dokumenter er en del af lanceringsplanen."
+      },
+      "pricing": {
+        "question": "Hvordan er prisstrukturen?",
+        "answer": "Per bruger, månedligt eller årligt i EUR, uden tillæg per funktion. Detaljer kommer ved lancering."
+      },
+      "subprocessors": {
+        "question": "Bruger I amerikanske underdatabehandlere?",
+        "answer": "Vores mål er ingen i datavejen. Vi udgiver en aktuel liste over underdatabehandlere ved lancering og varsler ændringer på forhånd."
+      },
+      "leaving": {
+        "question": "Hvad sker der med mine data, hvis jeg forlader Verkio?",
+        "answer": "Fuld eksport i standardformater. Ingen lock-in, ingen løsesum på vejen ud."
+      },
+      "openSource": {
+        "question": "Er Verkio open source?",
+        "answer": "Klientsiden bygger på åbne standarder, så enhver kompatibel klient virker. Vi deler mere om backend tættere på lancering."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "En europæisk virksomhed. Bygget i EU. Hostet i EU.",
+    "copyright": "© {year} Verkio",
+    "productHeading": "Produkt",
+    "legalHeading": "Juridisk",
+    "contactHeading": "Kontakt",
+    "privacy": "Privatlivspolitik",
+    "terms": "Vilkår og betingelser",
+    "allRightsReserved": "Alle rettigheder forbeholdes"
+  },
+  "waitlist": {
+    "cardTitle": "Tilmeld ventelisten",
+    "cardSubtitle": "Vi hører fra os, når Verkio åbner.",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "dig@ditfirma.dk",
+    "companyLabel": "Virksomhed",
+    "companyOptional": "(valgfri)",
+    "companyPlaceholder": "Acme A/S",
+    "submit": "Tilmeld ventelisten",
+    "submitting": "Sender…",
+    "successMessage": "Tak. Vi hører fra os, når Verkio åbner.",
+    "genericError": "Noget gik galt. Prøv igen eller skriv til hello@verkio.eu.",
+    "invalidEmail": "Indtast en gyldig e-mailadresse",
+    "invalidInput": "Ugyldigt input"
+  },
+  "roadmap": {
+    "metaTitle": "Roadmap — Verkio",
+    "metaDescription": "Hvad der er på vej i Verkio.",
+    "eyebrow": "Roadmap",
+    "headline": "Hvad der er på vej i Verkio.",
+    "subhead": "Hvor vi er på vej hen.",
+    "backLink": "Tilbage til forsiden",
+    "items": {
+      "wiki": {
+        "date": "August 2026",
+        "name": "Interne wikis",
+        "description": "Søgbare, versionsstyrede rum til runbooks, beslutninger og den institutionelle viden, teamet skriver til sig selv."
+      },
+      "messaging": {
+        "date": "Oktober 2026",
+        "name": "Intern beskedtjeneste",
+        "description": "Kanaler, DM'er og tråde til teamsamtaler — søgbart, EU-hostet og uden for amerikanske chatplatforme."
+      },
+      "webmail": {
+        "date": "December 2026",
+        "name": "Webmail-indbakke",
+        "description": "En hurtig, tastaturfokuseret webklient til Verkio-mail — tråde, søgning og etiketter uden overflødig oppustning."
+      }
+    }
+  },
+  "privacy": {
+    "metaTitle": "Privatlivspolitik — Verkio",
+    "metaDescription": "Hvordan Verkio håndterer personoplysninger på verkio.eu, vores ventelisteside før lancering.",
+    "eyebrow": "Juridisk",
+    "headline": "Privatlivspolitik",
+    "lastUpdated": "Sidst opdateret: 18. maj 2026",
+    "backLink": "Tilbage til forsiden",
+    "intro": "Denne meddelelse beskriver, hvordan Verkio håndterer personoplysninger på verkio.eu, vores marketing- og ventelisteside før lancering. Når produktet lanceres, vil en særskilt, mere fyldestgørende privatlivsmeddelelse erstatte denne for at dække selve tjenesten.",
+    "sections": [
+      {
+        "heading": "Hvem vi er",
+        "body": "Verkio er en europæisk virksomhed. Vi er dataansvarlig for de personoplysninger, der beskrives nedenfor.\n\nDu kan kontakte os på hello@verkio.eu."
+      },
+      {
+        "heading": "Hvad vi indsamler",
+        "body": "Venteliste: din e-mailadresse og eventuelt et firmanavn. Ikke mere.\n\nFunktionelle cookies: en lille NEXT_LOCALE-cookie, der husker dit sprogvalg. Bruges ikke til sporing.\n\nServerlogs: korte anmodningsregistreringer (IP, user agent, URL) til sikker drift af siden. Opbevares i en kort driftsperiode; bruges ikke til profilering.\n\nIngen analyse, ingen marketingtrackere, ingen reklamepixels fra tredjepart."
+      },
+      {
+        "heading": "Hvorfor vi indsamler det",
+        "body": "For at give dig besked, når Verkio åbner, og for at drive denne side.\n\nRetsgrundlag i henhold til GDPR: legitim interesse (Art. 6, stk. 1, litra f)) for ventelisten; nødvendighed for den funktionelle cookie; legitim interesse i netværkssikkerhed for serverlogs."
+      },
+      {
+        "heading": "Hvor det opbevares",
+        "body": "Inden for Den Europæiske Union, på europæisk ejet infrastruktur. Ingen amerikanske hyperscalers og ingen overførsler ud af EU."
+      },
+      {
+        "heading": "Hvor længe vi opbevarer det",
+        "body": "Ventelistedata indtil produktlanceringen, og indtil du vælger at blive kunde, eller tidligere hvis du beder os slette dem. Serverlogs kun i en kort driftsperiode."
+      },
+      {
+        "heading": "Deling",
+        "body": "Vi sælger ikke dine data. Vi deler dem ikke med annoncører. Vi bruger ikke tredjepartstrackere. Kun Verkio-medarbejdere med klart behov har adgang."
+      },
+      {
+        "heading": "Dine rettigheder",
+        "body": "I henhold til GDPR har du ret til indsigt, berigtigelse, sletning, begrænsning, indsigelse og dataportabilitet. Du kan også tilbagekalde samtykke (når det er grundlaget) og klage til din lokale tilsynsmyndighed.\n\nSkriv til hello@verkio.eu for at gøre brug af en af disse rettigheder. Vi svarer inden for én måned."
+      },
+      {
+        "heading": "Opdateringer",
+        "body": "Når denne meddelelse ændres, opdaterer vi datoen ovenfor. Ved produktlanceringen udsteder vi en mere fyldestgørende meddelelse, der erstatter denne."
+      },
+      {
+        "heading": "Kontakt",
+        "body": "Spørgsmål om denne meddelelse eller anmodninger fra registrerede: hello@verkio.eu."
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Vilkår og betingelser — Verkio",
+    "metaDescription": "Vilkår, der regulerer din brug af verkio.eu, Verkios marketing- og ventelisteside før lancering.",
+    "eyebrow": "Juridisk",
+    "headline": "Vilkår og betingelser",
+    "lastUpdated": "Sidst opdateret: 18. maj 2026",
+    "backLink": "Tilbage til forsiden",
+    "intro": "Disse vilkår regulerer din brug af verkio.eu, vores marketing- og ventelisteside før lancering. Ved produktlanceringen vil særskilte, mere udførlige vilkår ledsage selve tjenesten.",
+    "sections": [
+      {
+        "heading": "Om",
+        "body": "verkio.eu drives af Verkio, en europæisk virksomhed. Kontakt: hello@verkio.eu."
+      },
+      {
+        "heading": "Venteliste",
+        "body": "Når du angiver din e-mail, skriver du dig op til at høre fra os, når Verkio åbner. Du kan forlade ventelisten når som helst ved at skrive til os. Vi bruger dine oplysninger udelukkende til lanceringsrelateret kontakt."
+      },
+      {
+        "heading": "Ingen forpligtelse",
+        "body": "At tilmelde sig ventelisten garanterer ikke adgang, fastlåser ikke priser og udgør ikke en serviceaftale. Indikative lanceringsdatoer er præcis det — indikative."
+      },
+      {
+        "heading": "Indhold og varemærker",
+        "body": "Tekst, design og navnet Verkio tilhører Verkio. Du må ikke gengive eller videredistribuere uden tilladelse."
+      },
+      {
+        "heading": "Ansvarsfraskrivelser",
+        "body": "Denne side leveres som den er. Vi gør vores bedste for at holde informationen korrekt, men produktdetaljer før lancering kan ændre sig."
+      },
+      {
+        "heading": "Lovvalg",
+        "body": "Disse vilkår er underlagt svensk lov. Tvister behandles ved svenske domstole."
+      },
+      {
+        "heading": "Ændringer",
+        "body": "Vi kan opdatere disse vilkår før lancering. Væsentlige ændringer afspejles i datoen ovenfor. Fortsat brug af siden betyder, at du accepterer den aktuelle version."
+      }
+    ]
+  }
+}
