@@ -10,13 +10,14 @@
     "faqs": "FAQs",
     "joinWaitlist": "Join waitlist",
     "language": "Language",
-    "roadmap": "Roadmap"
+    "roadmap": "Roadmap",
+    "articles": "Articles"
   },
   "hero": {
     "eyebrow": "Launching July 2026",
-    "headline": "The European mail and work suite.",
-    "body1": "Your mail and business data — hosted in the EU, encrypted at rest, GDPR-native by default.",
-    "body2": "Built for you who think where your data lives matters."
+    "headline": "Fast, focused, European.",
+    "body1": "Mail, calendar, contacts, docs, and wikis — one unified suite that respects your time, not your attention.",
+    "body2": "Hosted in the EU, encrypted at rest, GDPR-native by default."
   },
   "suite": {
     "eyebrow": "The suite",
@@ -42,6 +43,29 @@
       "wikis": {
         "name": "Wikis",
         "description": "Structured pages for team knowledge, with full edit history and linking."
+      }
+    }
+  },
+  "principles": {
+    "eyebrow": "Why Verkio",
+    "headline": "Built with taste.",
+    "subhead": "Residency is the floor. Product is what makes you keep using it.",
+    "items": {
+      "standards": {
+        "name": "Standards-first.",
+        "description": "IMAP, SMTP, CalDAV, CardDAV from day one. Use Thunderbird, Apple Mail, Outlook, k-9, or DAVx⁵ — we don't lock you into our app."
+      },
+      "quiet": {
+        "name": "Quiet.",
+        "description": "No AI features scanning your mail. No engagement notifications. No 'you might be interested in' upsell. We don't compete for your attention — we get out of your way."
+      },
+      "unified": {
+        "name": "One suite, one address book.",
+        "description": "Mail, calendar, contacts, docs, wikis — one login, one address book, one bill. Not five products bolted together with single sign-on."
+      },
+      "leave": {
+        "name": "Yours to leave.",
+        "description": "Full export in open formats anytime. GDPR Article 20 made real, not a support-ticket process. No ransom on the way out."
       }
     }
   },
@@ -125,6 +149,20 @@
         "google": "Global routing",
         "microsoft": "Global routing",
         "info": "Authoritative DNS for verkio.eu is hosted on EU-owned providers — never Route 53 (Amazon), Cloud DNS (Google), or Azure DNS. Google and Microsoft typically route DNS for tenant domains globally, so lookups may transit US-operated nameservers."
+      },
+      "ai": {
+        "label": "AI bundled into the suite by default",
+        "verkio": "None",
+        "google": "Yes (Gemini)",
+        "microsoft": "Yes (Copilot)",
+        "info": "Verkio doesn't ship AI features that summarise your mail, scan your calendar, or train on your data. Google and Microsoft increasingly bundle AI (Gemini, Copilot) into their core suites — with opt-out controls that vary by tier and admin policy."
+      },
+      "unifiedSearch": {
+        "label": "Unified search across the suite",
+        "verkio": "Yes",
+        "google": "Partial",
+        "microsoft": "Partial",
+        "info": "Search in Verkio returns results from every part of the suite at once: mail, calendar, contacts, documents, and wikis appear in the same results. Google and Microsoft offer search across some surfaces but coverage is inconsistent — e.g., Outlook search doesn't find OneDrive docs without leaving Outlook."
       }
     }
   },
@@ -175,6 +213,7 @@
     "tagline": "A European company. Built in the EU. Hosted in the EU.",
     "copyright": "© {year} Verkio",
     "productHeading": "Product",
+    "resourcesHeading": "Resources",
     "legalHeading": "Legal",
     "contactHeading": "Contact",
     "privacy": "Privacy Policy",
@@ -304,6 +343,92 @@
         "date": "December 2026",
         "name": "Webmail inbox",
         "description": "A fast, keyboard-first web client for Verkio mail — threading, search, and labels without the bloat."
+      },
+      "domainAutoSetup": {
+        "date": "September 2026",
+        "name": "Domain auto-setup",
+        "description": "Add your domain and we configure MX, SPF, DKIM, DMARC, and autoconfig records for you. No manual DNS work."
+      },
+      "migration": {
+        "date": "Q1 2027",
+        "name": "Migration from Google Workspace and Microsoft 365",
+        "description": "One-click import of mail, calendar, contacts, and Drive or OneDrive files. With status, retries, and a side-by-side switch-over period."
+      },
+      "ssoScim": {
+        "date": "Q1 2027",
+        "name": "SSO and SCIM provisioning",
+        "description": "SAML and OIDC sign-on. SCIM auto-provisions and de-provisions users via Okta, Entra ID, or any standard identity provider."
+      },
+      "emailAliases": {
+        "date": "July 2026",
+        "name": "Email aliases and catch-all",
+        "description": "Unlimited* aliases per user. Catch-all on your domain so you never miss a misspelled address. Pairs with bring-your-own-domain.",
+        "note": "Subject to reasonable use"
+      },
+      "schedule": {
+        "date": "Q1 2027",
+        "name": "Verkio Schedule",
+        "description": "Public scheduling links from your calendar. Like Calendly, but EU-resident, no tracking, and built into the suite."
+      },
+      "auditLog": {
+        "date": "Q2 2027",
+        "name": "Audit log",
+        "description": "Who-accessed-what-when, exposed as both a UI and an API. Stream to your SIEM if you need to."
+      },
+      "publicApi": {
+        "date": "Q2 2027",
+        "name": "Public API and webhooks",
+        "description": "Build on top of Verkio: HTTP API for mail, calendar, contacts, docs, and wikis. Webhooks for incoming events. OAuth 2 and token auth."
+      },
+      "eidasSigning": {
+        "date": "Q2 2027",
+        "name": "eIDAS document signing",
+        "description": "Legally-binding electronic signatures under eIDAS 2.0. Sign PDFs and documents directly from your document storage."
+      },
+      "calendarPolls": {
+        "date": "Q2 2027",
+        "name": "Calendar polls",
+        "description": "Find a time that works for everyone without a Doodle link. Propose multiple slots inside the invite, recipients vote, calendar resolves."
+      },
+      "mobileApps": {
+        "date": "Q3 2027",
+        "name": "Native mobile apps",
+        "description": "First-party iOS and Android apps. Mail, calendar, contacts, docs, and wikis in your pocket — the same keyboard-friendly speed as the web."
+      },
+      "sharedMailbox": {
+        "date": "Q3 2027",
+        "name": "Shared mailbox workflow",
+        "description": "Assign-to-teammate, internal notes, status tracking, and conversation views for support@, hello@, and other shared inboxes."
+      },
+      "sendLaterSnooze": {
+        "date": "Q3 2027",
+        "name": "Send later, snooze, undo send",
+        "description": "Schedule a message for tomorrow at 9am. Snooze a thread until Friday. A 30-second grace period to pull back a send."
+      },
+      "compliance": {
+        "date": "H2 2027",
+        "name": "SOC 2 Type II and ISO 27001",
+        "description": "Compliance attestations buyers ask for. Rolling commitment with auditor-ready documentation."
+      },
+      "realtimeDocs": {
+        "date": "Q4 2027",
+        "name": "Real-time document collaboration",
+        "description": "Live multi-cursor editing across documents and wikis. Comments, suggestions, version history — built on open formats."
+      },
+      "transactionalEmail": {
+        "date": "Q4 2027",
+        "name": "EU-resident transactional email API",
+        "description": "Send your application's emails through Verkio instead of Sendgrid. Same no-US-subprocessor posture, extended to your own product."
+      },
+      "sieveFilters": {
+        "date": "Q4 2027",
+        "name": "Server-side rules (Sieve)",
+        "description": "Sort, label, forward, and reply automatically on the server, so your filters work the same in every client."
+      },
+      "ediscovery": {
+        "date": "Early 2028",
+        "name": "eDiscovery and legal hold",
+        "description": "Place users or mailboxes under hold; search and export across the suite for compliance and legal-discovery workflows."
       }
     }
   }

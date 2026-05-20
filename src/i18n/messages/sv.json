@@ -11,13 +11,14 @@
     "faqs": "Vanliga frågor",
     "joinWaitlist": "Gå med i väntelistan",
     "language": "Språk",
-    "roadmap": "Färdplan"
+    "roadmap": "Färdplan",
+    "articles": "Artiklar"
   },
   "hero": {
     "eyebrow": "Lanseras i juli 2026",
-    "headline": "Den europeiska mail- och arbetssviten.",
-    "body1": "Din e-post och företagsdata — driftade i EU, krypterade i vila, GDPR-anpassade från grunden.",
-    "body2": "Byggd för dig som tycker att det spelar roll var data lagras."
+    "headline": "Snabb, fokuserad, europeisk.",
+    "body1": "E-post, kalender, kontakter, dokument och wikis — en enhetlig svit som respekterar din tid, inte din uppmärksamhet.",
+    "body2": "Driftad i EU, krypterad i vila, GDPR-anpassad från grunden."
   },
   "suite": {
     "eyebrow": "Sviten",
@@ -43,6 +44,29 @@
       "wikis": {
         "name": "Wikis",
         "description": "Strukturerade sidor för teamets kunskap, med full redigeringshistorik och länkning."
+      }
+    }
+  },
+  "principles": {
+    "eyebrow": "Varför Verkio",
+    "headline": "Byggd med smak.",
+    "subhead": "Dataplats är golvet. Produkten är det som får dig att fortsätta använda den.",
+    "items": {
+      "standards": {
+        "name": "Standarder först.",
+        "description": "IMAP, SMTP, CalDAV, CardDAV från första dagen. Använd Thunderbird, Apple Mail, Outlook, K-9 eller DAVx⁵ — vi låser dig inte in i vår app."
+      },
+      "quiet": {
+        "name": "Tyst.",
+        "description": "Inga AI-funktioner som skannar din e-post. Inga engagemangsnotiser. Ingen \"detta kanske intresserar dig\"-upsell. Vi tävlar inte om din uppmärksamhet — vi går ur vägen."
+      },
+      "unified": {
+        "name": "En svit, en adressbok.",
+        "description": "E-post, kalender, kontakter, dokument, wikis — en inloggning, en adressbok, en faktura. Inte fem produkter ihopskruvade med SSO."
+      },
+      "leave": {
+        "name": "Fri att lämna.",
+        "description": "Fullständig export i öppna format när som helst. GDPR artikel 20 på riktigt, inte en supportärende-process. Ingen lösensumma på vägen ut."
       }
     }
   },
@@ -125,6 +149,20 @@
         "google": "Global routing",
         "microsoft": "Global routing",
         "info": "Auktoritativ DNS för verkio.eu finns hos EU-baserade leverantörer — aldrig Route 53 (Amazon), Cloud DNS (Google) eller Azure DNS. Google och Microsoft brukar routa DNS för tenantdomäner globalt, så uppslag kan passera amerikanska namnservrar."
+      },
+      "ai": {
+        "label": "AI inbyggd i sviten som standard",
+        "verkio": "Ingen",
+        "google": "Ja (Gemini)",
+        "microsoft": "Ja (Copilot)",
+        "info": "Verkio levererar inga AI-funktioner som sammanfattar din e-post, skannar din kalender eller tränar på dina data. Google och Microsoft bygger allt oftare in AI (Gemini, Copilot) i sina kärnviter — med opt-out som varierar med nivå och adminpolicy."
+      },
+      "unifiedSearch": {
+        "label": "Enhetlig sökning över hela sviten",
+        "verkio": "Ja",
+        "google": "Delvis",
+        "microsoft": "Delvis",
+        "info": "Sökning i Verkio returnerar resultat från varje del av sviten samtidigt: e-post, kalender, kontakter, dokument och wikis visas i samma resultat. Google och Microsoft erbjuder söktäckning mellan vissa ytor men inkonsekvent — Outlook-sökning hittar inte OneDrive-dokument utan att lämna Outlook."
       }
     },
     "infoLabel": "Mer info"
@@ -176,6 +214,7 @@
     "tagline": "Ett europeiskt företag. Byggt i EU. Driftat i EU.",
     "copyright": "© {year} Verkio",
     "productHeading": "Produkt",
+    "resourcesHeading": "Resurser",
     "legalHeading": "Juridik",
     "contactHeading": "Kontakt",
     "privacy": "Integritetspolicy",
@@ -219,6 +258,92 @@
         "date": "December 2026",
         "name": "Webbmejl-inkorg",
         "description": "En snabb, tangentbordsfokuserad webbklient för Verkio-mejl — trådar, sökning och etiketter utan onödig vikt."
+      },
+      "domainAutoSetup": {
+        "date": "September 2026",
+        "name": "Automatisk domänkonfiguration",
+        "description": "Lägg till din domän så konfigurerar vi MX-, SPF-, DKIM-, DMARC- och autoconfig-poster åt dig. Inget manuellt DNS-arbete."
+      },
+      "migration": {
+        "date": "Q1 2027",
+        "name": "Migrering från Google Workspace och Microsoft 365",
+        "description": "Enkelklicksimport av e-post, kalender, kontakter och Drive- eller OneDrive-filer. Med status, omförsök och en parallell övergångsperiod."
+      },
+      "ssoScim": {
+        "date": "Q1 2027",
+        "name": "SSO och SCIM-provisionering",
+        "description": "SAML- och OIDC-inloggning. SCIM provisionerar och avprovisionerar användare automatiskt via Okta, Entra ID eller valfri standard-IdP."
+      },
+      "emailAliases": {
+        "date": "Juli 2026",
+        "name": "E-postalias och catch-all",
+        "description": "Obegränsade* alias per användare. Catch-all på din domän så du aldrig missar en felskriven adress. Passar med ta-med-egen-domän.",
+        "note": "Med förbehåll för rimlig användning"
+      },
+      "schedule": {
+        "date": "Q1 2027",
+        "name": "Verkio Schedule",
+        "description": "Publika tidsbokningslänkar från din kalender. Som Calendly, men EU-baserat, utan spårning och inbyggt i sviten."
+      },
+      "auditLog": {
+        "date": "Q2 2027",
+        "name": "Granskningslogg",
+        "description": "Vem-har-åtkomst-till-vad-när, exponerat både som UI och API. Strömma till ditt SIEM om du behöver."
+      },
+      "publicApi": {
+        "date": "Q2 2027",
+        "name": "Publikt API och webhooks",
+        "description": "Bygg ovanpå Verkio: HTTP-API för e-post, kalender, kontakter, dokument och wikis. Webhooks för inkommande händelser. OAuth 2 och token-autentisering."
+      },
+      "eidasSigning": {
+        "date": "Q2 2027",
+        "name": "eIDAS-dokumentsignering",
+        "description": "Juridiskt bindande elektroniska signaturer enligt eIDAS 2.0. Signera PDF:er och dokument direkt från ditt dokumentlager."
+      },
+      "calendarPolls": {
+        "date": "Q2 2027",
+        "name": "Kalenderomröstningar",
+        "description": "Hitta en tid som passar alla utan Doodle-länk. Föreslå flera tider i inbjudan, mottagarna röstar, kalendern löser."
+      },
+      "mobileApps": {
+        "date": "Q3 2027",
+        "name": "Native mobilappar",
+        "description": "Egna iOS- och Android-appar. E-post, kalender, kontakter, dokument och wikis i fickan — samma tangentbordsvänliga snabbhet som på webben."
+      },
+      "sharedMailbox": {
+        "date": "Q3 2027",
+        "name": "Arbetsflöde för delade brevlådor",
+        "description": "Tilldela-till-kollega, interna anteckningar, statusspårning och konversationsvyer för support@, hello@ och andra delade brevlådor."
+      },
+      "sendLaterSnooze": {
+        "date": "Q3 2027",
+        "name": "Skicka senare, snooza, ångra skickat",
+        "description": "Schemalägg ett meddelande till imorgon klockan 9. Snooza en tråd till fredag. 30-sekunders frist för att dra tillbaka ett skickat meddelande."
+      },
+      "compliance": {
+        "date": "H2 2027",
+        "name": "SOC 2 Type II och ISO 27001",
+        "description": "Efterlevnadsintyg som köpare frågar efter. Löpande åtagande med revisorsklar dokumentation."
+      },
+      "realtimeDocs": {
+        "date": "Q4 2027",
+        "name": "Realtidssamarbete i dokument",
+        "description": "Live-redigering med flera markörer i dokument och wikis. Kommentarer, förslag, versionshistorik — byggt på öppna format."
+      },
+      "transactionalEmail": {
+        "date": "Q4 2027",
+        "name": "EU-baserat API för transaktionsmail",
+        "description": "Skicka din applikations mejl via Verkio i stället för Sendgrid. Samma inga-amerikanska-underbiträden-hållning, utökad till din egen produkt."
+      },
+      "sieveFilters": {
+        "date": "Q4 2027",
+        "name": "Regler på serversidan (Sieve)",
+        "description": "Sortera, etikettera, vidarebefordra och svara automatiskt på servern, så att dina filter fungerar lika i varje klient."
+      },
+      "ediscovery": {
+        "date": "Början 2028",
+        "name": "eDiscovery och legal hold",
+        "description": "Sätt användare eller brevlådor under hold; sök och exportera över hela sviten för efterlevnads- och legal discovery-flöden."
       }
     }
   },

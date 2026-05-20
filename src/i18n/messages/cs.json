@@ -11,13 +11,14 @@
     "faqs": "FAQ",
     "joinWaitlist": "Přidat se na seznam",
     "language": "Jazyk",
-    "roadmap": "Plán"
+    "roadmap": "Plán",
+    "articles": "Články"
   },
   "hero": {
     "eyebrow": "Spuštění v červenci 2026",
-    "headline": "Evropský e-mailový a pracovní balíček.",
-    "body1": "Váš e-mail a firemní data — hostovaná v EU, šifrovaná v klidu, GDPR od základu.",
-    "body2": "Vytvořeno pro ty, kteří si myslí, že záleží na tom, kde vaše data žijí."
+    "headline": "Rychlý, soustředěný, evropský.",
+    "body1": "E-mail, kalendář, kontakty, dokumenty a wiki — jeden sjednocený balíček, který respektuje váš čas, ne vaši pozornost.",
+    "body2": "Hostováno v EU, šifrováno v klidu, GDPR od základu."
   },
   "suite": {
     "eyebrow": "Balíček",
@@ -43,6 +44,29 @@
       "wikis": {
         "name": "Wiki",
         "description": "Strukturované stránky pro znalosti týmu s plnou historií úprav a odkazy."
+      }
+    }
+  },
+  "principles": {
+    "eyebrow": "Proč Verkio",
+    "headline": "Postaveno se vkusem.",
+    "subhead": "Datová rezidence je podlaha. Produkt je to, co vás u něj udrží.",
+    "items": {
+      "standards": {
+        "name": "Standardy na prvním místě.",
+        "description": "IMAP, SMTP, CalDAV, CardDAV od prvního dne. Použijte Thunderbird, Apple Mail, Outlook, K-9 nebo DAVx⁵ — nezavíráme vás do naší aplikace."
+      },
+      "quiet": {
+        "name": "Tichý.",
+        "description": "Žádné AI funkce skenující vaši poštu. Žádná oznámení pro zapojení. Žádný upsell „mohlo by vás zajímat\". Nesoupeříme o vaši pozornost — jdeme vám z cesty."
+      },
+      "unified": {
+        "name": "Jeden balíček, jeden adresář.",
+        "description": "E-mail, kalendář, kontakty, dokumenty, wiki — jedno přihlášení, jeden adresář, jedna faktura. Ne pět produktů sešroubovaných přes SSO."
+      },
+      "leave": {
+        "name": "Volní odejít.",
+        "description": "Úplný export v otevřených formátech kdykoli. Článek 20 GDPR uskutečněný v praxi, ne proces přes podporu. Žádné výkupné při odchodu."
       }
     }
   },
@@ -125,6 +149,20 @@
         "google": "Globální směrování",
         "microsoft": "Globální směrování",
         "info": "Autoritativní DNS pro verkio.eu je hostováno u poskytovatelů se sídlem v EU — nikdy Route 53 (Amazon), Cloud DNS (Google) ani Azure DNS. Google a Microsoft DNS pro tenantské domény obvykle směrují globálně, takže dotazy mohou procházet americky provozovanými nameservery."
+      },
+      "ai": {
+        "label": "AI ve výchozím stavu integrované do balíčku",
+        "verkio": "Žádné",
+        "google": "Ano (Gemini)",
+        "microsoft": "Ano (Copilot)",
+        "info": "Verkio nedodává AI funkce, které shrnují vaši poštu, prohledávají kalendář nebo trénují na vašich datech. Google a Microsoft stále více integrují AI (Gemini, Copilot) do svých základních balíčků — s ovládáním odhlášení, které se liší podle úrovně a admin politiky."
+      },
+      "unifiedSearch": {
+        "label": "Jednotné vyhledávání v celém balíčku",
+        "verkio": "Ano",
+        "google": "Částečné",
+        "microsoft": "Částečné",
+        "info": "Vyhledávání ve Verkio vrací výsledky ze všech částí balíčku najednou: pošta, kalendář, kontakty, dokumenty a wiki se zobrazují ve stejných výsledcích. Google a Microsoft nabízejí vyhledávání mezi nástroji, ale pokrytí je nekonzistentní — vyhledávání v Outlooku nenajde dokumenty na OneDrive bez opuštění Outlooku."
       }
     },
     "infoLabel": "Více informací"
@@ -176,6 +214,7 @@
     "tagline": "Evropská firma. Postavena v EU. Hostována v EU.",
     "copyright": "© {year} Verkio",
     "productHeading": "Produkt",
+    "resourcesHeading": "Zdroje",
     "legalHeading": "Právní",
     "contactHeading": "Kontakt",
     "privacy": "Zásady ochrany osobních údajů",
@@ -219,6 +258,92 @@
         "date": "Prosinec 2026",
         "name": "Webmail schránka",
         "description": "Rychlý webový klient pošty Verkio s důrazem na klávesnici — vlákna, vyhledávání a štítky bez zbytečné zátěže."
+      },
+      "domainAutoSetup": {
+        "date": "Září 2026",
+        "name": "Automatické nastavení domény",
+        "description": "Přidejte svou doménu a my za vás nastavíme MX, SPF, DKIM, DMARC a autoconfig záznamy. Žádná ruční práce s DNS."
+      },
+      "migration": {
+        "date": "Q1 2027",
+        "name": "Migrace z Google Workspace a Microsoft 365",
+        "description": "Import pošty, kalendáře, kontaktů a souborů Drive nebo OneDrive jedním kliknutím. Se statusem, opakováním a obdobím paralelního přechodu."
+      },
+      "ssoScim": {
+        "date": "Q1 2027",
+        "name": "SSO a poskytování SCIM",
+        "description": "Přihlášení SAML a OIDC. SCIM automaticky zakládá a deaktivuje uživatele přes Okta, Entra ID nebo libovolného standardního poskytovatele identit."
+      },
+      "emailAliases": {
+        "date": "Červenec 2026",
+        "name": "E-mailové aliasy a catch-all",
+        "description": "Neomezené* aliasy na uživatele. Catch-all na vaší doméně, abyste nikdy nezmeškali špatně napsanou adresu. Spojuje se s vlastní doménou.",
+        "note": "S výhradou přiměřeného použití"
+      },
+      "schedule": {
+        "date": "Q1 2027",
+        "name": "Verkio Schedule",
+        "description": "Veřejné rezervační odkazy z vašeho kalendáře. Jako Calendly, ale v EU, bez sledování a integrované do balíčku."
+      },
+      "auditLog": {
+        "date": "Q2 2027",
+        "name": "Audit log",
+        "description": "Kdo-co-kdy-přistoupil, dostupné jako UI i API. Streamujte do svého SIEM, pokud potřebujete."
+      },
+      "publicApi": {
+        "date": "Q2 2027",
+        "name": "Veřejné API a webhooky",
+        "description": "Stavte na Verkio: HTTP API pro poštu, kalendář, kontakty, dokumenty a wiki. Webhooky pro příchozí události. OAuth 2 a autentizace tokenem."
+      },
+      "eidasSigning": {
+        "date": "Q2 2027",
+        "name": "Podepisování dokumentů eIDAS",
+        "description": "Právně závazné elektronické podpisy podle eIDAS 2.0. Podepisujte PDF a dokumenty přímo z úložiště dokumentů."
+      },
+      "calendarPolls": {
+        "date": "Q2 2027",
+        "name": "Ankety v kalendáři",
+        "description": "Najděte čas, který vyhovuje všem, bez Doodle odkazu. Navrhněte více termínů v pozvánce, příjemci hlasují, kalendář vyhodnotí."
+      },
+      "mobileApps": {
+        "date": "Q3 2027",
+        "name": "Nativní mobilní aplikace",
+        "description": "Vlastní iOS a Android aplikace. Pošta, kalendář, kontakty, dokumenty a wiki v kapse — stejná rychlost přátelská ke klávesnici jako na webu."
+      },
+      "sharedMailbox": {
+        "date": "Q3 2027",
+        "name": "Workflow sdílené schránky",
+        "description": "Přiřazení člena týmu, interní poznámky, sledování stavu a konverzační pohledy pro support@, hello@ a další sdílené schránky."
+      },
+      "sendLaterSnooze": {
+        "date": "Q3 2027",
+        "name": "Odeslat později, odložit, vrátit odeslání",
+        "description": "Naplánujte zprávu na zítra v 9. Odložte vlákno do pátku. 30sekundový čas na stažení odeslání."
+      },
+      "compliance": {
+        "date": "H2 2027",
+        "name": "SOC 2 Type II a ISO 27001",
+        "description": "Osvědčení o shodě, na která se kupující ptají. Průběžný závazek s dokumentací připravenou k auditu."
+      },
+      "realtimeDocs": {
+        "date": "Q4 2027",
+        "name": "Spolupráce na dokumentech v reálném čase",
+        "description": "Živá úprava s více kurzory v dokumentech a wiki. Komentáře, návrhy, historie verzí — postavené na otevřených formátech."
+      },
+      "transactionalEmail": {
+        "date": "Q4 2027",
+        "name": "API pro transakční e-maily s EU rezidencí",
+        "description": "Odesílejte e-maily své aplikace přes Verkio místo Sendgrid. Stejný postoj bez amerických zpracovatelů, rozšířený na váš vlastní produkt."
+      },
+      "sieveFilters": {
+        "date": "Q4 2027",
+        "name": "Pravidla na straně serveru (Sieve)",
+        "description": "Třiďte, označujte, předávejte a odpovídejte automaticky na serveru, aby vaše filtry fungovaly stejně v každém klientovi."
+      },
+      "ediscovery": {
+        "date": "Začátek 2028",
+        "name": "eDiscovery a právní hold",
+        "description": "Uveďte uživatele nebo schránky do holdu; hledejte a exportujte napříč balíčkem pro workflow shody a právního zjišťování."
       }
     }
   },

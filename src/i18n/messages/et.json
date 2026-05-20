@@ -11,13 +11,14 @@
     "faqs": "KKK",
     "joinWaitlist": "Liitu ootejärjekorraga",
     "language": "Keel",
-    "roadmap": "Teekaart"
+    "roadmap": "Teekaart",
+    "articles": "Artiklid"
   },
   "hero": {
     "eyebrow": "Avaldame juulis 2026",
-    "headline": "Euroopa e-posti ja töö pakett.",
-    "body1": "Sinu e-post ja ärilised andmed — majutatud ELis, krüpteeritud puhkeolekus, GDPR-iga algusest peale.",
-    "body2": "Loodud sulle, kelle arvates on oluline, kus su andmed elavad."
+    "headline": "Kiire, keskendunud, euroopalik.",
+    "body1": "E-post, kalender, kontaktid, dokumendid ja vikid — üks ühtne pakett, mis austab sinu aega, mitte tähelepanu.",
+    "body2": "Majutatud ELis, krüpteeritud puhkeolekus, GDPR-iga algusest peale."
   },
   "suite": {
     "eyebrow": "Pakett",
@@ -43,6 +44,29 @@
       "wikis": {
         "name": "Vikid",
         "description": "Struktureeritud lehed tiimi teadmiste jaoks, täieliku muutmislooga ja linkidega."
+      }
+    }
+  },
+  "principles": {
+    "eyebrow": "Miks Verkio",
+    "headline": "Maitsega ehitatud.",
+    "subhead": "Andmete asukoht on põrand. Toode on see, mis paneb sind seda kasutama.",
+    "items": {
+      "standards": {
+        "name": "Standardid esikohale.",
+        "description": "IMAP, SMTP, CalDAV, CardDAV alates esimesest päevast. Kasuta Thunderbirdi, Apple Maili, Outlooki, K-9 või DAVx⁵ — me ei lukusta sind oma rakendusse."
+      },
+      "quiet": {
+        "name": "Vaikne.",
+        "description": "Mitte ühtegi tehisintellekti funktsiooni, mis skannib su e-kirju. Mitte ühtegi kaasamise teavitust. Mitte ühtegi „võiks sind huvitada\" lisamüügi pakkumist. Me ei võistle su tähelepanu pärast — me astume kõrvale."
+      },
+      "unified": {
+        "name": "Üks pakett, üks aadressiraamat.",
+        "description": "E-post, kalender, kontaktid, dokumendid, vikid — üks sisselogimine, üks aadressiraamat, üks arve. Mitte viis SSO-ga kokku keeratud toodet."
+      },
+      "leave": {
+        "name": "Vaba lahkuma.",
+        "description": "Täielik eksport avatud vormingutes igal ajal. GDPR-i artikkel 20 päriselt teostatud, mitte tugipileti protsess. Mitte mingit lunaraha lahkudes."
       }
     }
   },
@@ -125,6 +149,20 @@
         "google": "Globaalne marsruutimine",
         "microsoft": "Globaalne marsruutimine",
         "info": "Verkio.eu autoriteetne DNS asub ELis asuvate teenusepakkujate juures — kunagi mitte Route 53 (Amazon), Cloud DNS (Google) ega Azure DNS. Google ja Microsoft tavaliselt suunavad rentnike domeenide DNS-i globaalselt, mistõttu päringud võivad läbida USA-s tegutsevaid nimeservereid."
+      },
+      "ai": {
+        "label": "Tehisintellekt paketti vaikimisi sisseehitatud",
+        "verkio": "Puudub",
+        "google": "Jah (Gemini)",
+        "microsoft": "Jah (Copilot)",
+        "info": "Verkio ei paku tehisintellekti funktsioone, mis võtavad kokku su e-kirju, skannivad kalendrit või treenivad sinu andmetel. Google ja Microsoft lõimivad üha enam tehisintellekti (Gemini, Copilot) oma põhipakettidesse — loobumisjuhtimine erineb taseme ja administraatori reeglite järgi."
+      },
+      "unifiedSearch": {
+        "label": "Ühtne otsing kogu paketis",
+        "verkio": "Jah",
+        "google": "Osaline",
+        "microsoft": "Osaline",
+        "info": "Verkio otsing tagastab tulemused korraga igast paketi osast: e-post, kalender, kontaktid, dokumendid ja vikid ilmuvad samades tulemustes. Google ja Microsoft pakuvad mõnedel pindadel ristotsingut, kuid katvus on ebaühtlane — Outlooki otsing ei leia OneDrive'i dokumente Outlookist lahkumata."
       }
     },
     "infoLabel": "Rohkem teavet"
@@ -176,6 +214,7 @@
     "tagline": "Euroopa ettevõte. Ehitatud ELis. Majutatud ELis.",
     "copyright": "© {year} Verkio",
     "productHeading": "Toode",
+    "resourcesHeading": "Ressursid",
     "legalHeading": "Õiguslik",
     "contactHeading": "Kontakt",
     "privacy": "Privaatsuspoliitika",
@@ -219,6 +258,92 @@
         "date": "Detsember 2026",
         "name": "Veebipostkast",
         "description": "Kiire, klaviatuurile keskendunud veebiklient Verkio meilile — lõimed, otsing ja sildid ilma ülearuse koormata."
+      },
+      "domainAutoSetup": {
+        "date": "September 2026",
+        "name": "Automaatne domeeni seadistus",
+        "description": "Lisa oma domeen ja seadistame MX-, SPF-, DKIM-, DMARC- ja autoconfig-kirjed sinu eest. Käsitsi DNS-tööd pole vaja."
+      },
+      "migration": {
+        "date": "Q1 2027",
+        "name": "Migratsioon Google Workspace'ist ja Microsoft 365-st",
+        "description": "Ühe klõpsuga e-posti, kalendri, kontaktide ning Drive'i või OneDrive'i failide import. Olekuga, kordustega ja paralleelse üleminekuperioodiga."
+      },
+      "ssoScim": {
+        "date": "Q1 2027",
+        "name": "SSO ja SCIM-provisioning",
+        "description": "SAML- ja OIDC-sisselogimine. SCIM lisab ja eemaldab kasutajaid automaatselt Okta, Entra ID või ükskõik millise standardse identiteedipakkujaga."
+      },
+      "emailAliases": {
+        "date": "Juuli 2026",
+        "name": "E-posti aliased ja catch-all",
+        "description": "Piiramatu* arv aliaseid kasutaja kohta. Catch-all sinu domeenis, et sa ei jätaks kunagi vahele valesti kirjutatud aadressi. Sobib oma domeeni kasutamisega.",
+        "note": "Mõistliku kasutamise tingimustel"
+      },
+      "schedule": {
+        "date": "Q1 2027",
+        "name": "Verkio Schedule",
+        "description": "Avalikud broneerimislingid sinu kalendrist. Nagu Calendly, kuid ELi-põhine, jälgimiseta ja paketti sisseehitatud."
+      },
+      "auditLog": {
+        "date": "Q2 2027",
+        "name": "Auditlogi",
+        "description": "Kes-pääses-millele-millal, esitatud nii kasutajaliideses kui ka APIs. Striimi oma SIEMi, kui vajalik."
+      },
+      "publicApi": {
+        "date": "Q2 2027",
+        "name": "Avalik API ja webhookid",
+        "description": "Ehita Verkio peale: HTTP API e-postile, kalendrile, kontaktidele, dokumentidele ja vikidele. Webhookid sissetulevatele sündmustele. OAuth 2 ja token-autentimine."
+      },
+      "eidasSigning": {
+        "date": "Q2 2027",
+        "name": "eIDAS-dokumendi allkirjastamine",
+        "description": "Juriidiliselt siduvad elektroonilised allkirjad eIDAS 2.0 alusel. Allkirjasta PDF-id ja dokumendid otse dokumendihoidlast."
+      },
+      "calendarPolls": {
+        "date": "Q2 2027",
+        "name": "Kalendri küsitlused",
+        "description": "Leia aeg, mis sobib kõigile, ilma Doodle lingita. Paku kutses mitu pesa, saajad hääletavad, kalender lahendab."
+      },
+      "mobileApps": {
+        "date": "Q3 2027",
+        "name": "Natiivsed mobiilirakendused",
+        "description": "Omad iOS- ja Android-rakendused. E-post, kalender, kontaktid, dokumendid ja vikid taskus — sama klaviatuurisõbralik kiirus kui veebis."
+      },
+      "sharedMailbox": {
+        "date": "Q3 2027",
+        "name": "Jagatud postkasti töövoog",
+        "description": "Määramine-meeskonnaliikmele, sisemised märkmed, oleku jälgimine ja vestlusvaated support@, hello@ ja teistele jagatud postkastidele."
+      },
+      "sendLaterSnooze": {
+        "date": "Q3 2027",
+        "name": "Saada hiljem, edasi lükata, võta saatmine tagasi",
+        "description": "Plaani sõnum homme kell 9. Lükka lõim reedeni edasi. 30-sekundiline aeg saatmise tagasivõtmiseks."
+      },
+      "compliance": {
+        "date": "H2 2027",
+        "name": "SOC 2 Type II ja ISO 27001",
+        "description": "Vastavustõendid, mida ostjad küsivad. Jätkuv kohustus auditiks valmis dokumentatsiooniga."
+      },
+      "realtimeDocs": {
+        "date": "Q4 2027",
+        "name": "Reaalajas dokumendikoostöö",
+        "description": "Reaalajas mitme kursoriga redigeerimine dokumentides ja vikides. Kommentaarid, ettepanekud, versiooniajalugu — ehitatud avatud vormingutele."
+      },
+      "transactionalEmail": {
+        "date": "Q4 2027",
+        "name": "ELi-põhine tehingute e-posti API",
+        "description": "Saada oma rakenduse e-kirjad Verkio kaudu Sendgrid'i asemel. Sama USA-alltöötlejateta hoiak, laiendatud sinu enda tootele."
+      },
+      "sieveFilters": {
+        "date": "Q4 2027",
+        "name": "Serveripoolne reeglistik (Sieve)",
+        "description": "Sorteeri, märgista, suuna ja vasta automaatselt serveris, et su filtrid töötaksid igas kliendis ühtemoodi."
+      },
+      "ediscovery": {
+        "date": "2028 algus",
+        "name": "eDiscovery ja õiguslik säilitus",
+        "description": "Pane kasutajad või postkastid hoiu alla; otsi ja ekspordi kogu paketi ulatuses vastavus- ja juriidiliste avastamistöövoogude jaoks."
       }
     }
   },

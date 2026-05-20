@@ -11,13 +11,14 @@
     "faqs": "UKK",
     "joinWaitlist": "Liity jonotuslistalle",
     "language": "Kieli",
-    "roadmap": "Tiekartta"
+    "roadmap": "Tiekartta",
+    "articles": "Artikkelit"
   },
   "hero": {
     "eyebrow": "Julkaistaan heinäkuussa 2026",
-    "headline": "Eurooppalainen sähköposti- ja työkalupaketti.",
-    "body1": "Sähköpostisi ja yritystietosi — isännöity EU:ssa, salattu lepotilassa, GDPR-rakenteinen alusta asti.",
-    "body2": "Rakennettu sinulle, jonka mielestä tiedon sijainnilla on merkitystä."
+    "headline": "Nopea, keskittynyt, eurooppalainen.",
+    "body1": "Sähköposti, kalenteri, yhteystiedot, dokumentit ja wikit — yksi yhtenäinen paketti, joka kunnioittaa aikaasi eikä huomiotasi.",
+    "body2": "Isännöity EU:ssa, salattu lepotilassa, GDPR-rakenteinen alusta asti."
   },
   "suite": {
     "eyebrow": "Paketti",
@@ -43,6 +44,29 @@
       "wikis": {
         "name": "Wikit",
         "description": "Jäsennellyt sivut tiimin tiedolle, täydellä muokkaushistorialla ja linkityksellä."
+      }
+    }
+  },
+  "principles": {
+    "eyebrow": "Miksi Verkio",
+    "headline": "Rakennettu maulla.",
+    "subhead": "Datan sijainti on lattia. Tuote on se, mikä saa sinut jatkamaan käyttöä.",
+    "items": {
+      "standards": {
+        "name": "Standardit ensin.",
+        "description": "IMAP, SMTP, CalDAV, CardDAV ensimmäisestä päivästä lähtien. Käytä Thunderbirdia, Apple Mailia, Outlookia, K-9:ää tai DAVx⁵:tä — emme lukitse sinua sovellukseemme."
+      },
+      "quiet": {
+        "name": "Hiljainen.",
+        "description": "Ei tekoälyominaisuuksia, jotka skannaavat sähköpostiasi. Ei sitouttamis­ilmoituksia. Ei „saatat olla kiinnostunut\"-lisämyyntiä. Emme kilpaile huomiostasi — väistämme tieltäsi."
+      },
+      "unified": {
+        "name": "Yksi paketti, yksi osoitekirja.",
+        "description": "Sähköposti, kalenteri, yhteystiedot, dokumentit, wikit — yksi kirjautuminen, yksi osoitekirja, yksi lasku. Ei viittä tuotetta SSO:lla yhteen ruuvattuna."
+      },
+      "leave": {
+        "name": "Vapaa lähtemään.",
+        "description": "Täysi vienti avoimissa muodoissa milloin tahansa. GDPR:n 20 artikla toteutettu oikeasti, ei tukipyyntöprosessina. Ei lunnaita lähtiessä."
       }
     }
   },
@@ -125,6 +149,20 @@
         "google": "Globaali reititys",
         "microsoft": "Globaali reititys",
         "info": "Verkio.eu:n auktoritatiivinen DNS isännöidään EU:hun sijoittautuneilla palveluntarjoajilla — ei koskaan Route 53:lla (Amazon), Cloud DNS:llä (Google) tai Azure DNS:llä. Google ja Microsoft reitittävät yleensä asiakas­domeenien DNS:n globaalisti, joten kyselyt voivat kulkea yhdysvaltalaisten nimi­palvelimien kautta."
+      },
+      "ai": {
+        "label": "Tekoäly oletuksena pakettiin sisällytetty",
+        "verkio": "Ei lainkaan",
+        "google": "Kyllä (Gemini)",
+        "microsoft": "Kyllä (Copilot)",
+        "info": "Verkio ei toimita tekoälyominaisuuksia, jotka tekevät yhteenvetoa sähköpostistasi, käyvät läpi kalenteriasi tai kouluttautuvat datallasi. Google ja Microsoft sisällyttävät yhä enemmän tekoälyä (Gemini, Copilot) ydinpaketteihinsa — opt-out-ohjaimet vaihtelevat tason ja järjestelmänvalvoja-asetusten mukaan."
+      },
+      "unifiedSearch": {
+        "label": "Yhtenäinen haku koko paketissa",
+        "verkio": "Kyllä",
+        "google": "Osittainen",
+        "microsoft": "Osittainen",
+        "info": "Verkion haku palauttaa tulokset jokaisesta paketin osasta samanaikaisesti: sähköposti, kalenteri, yhteystiedot, dokumentit ja wikit näkyvät samoissa tuloksissa. Google ja Microsoft tarjoavat ristikkäishakua joillakin pinnoilla, mutta kattavuus on epäjohdonmukainen — Outlookin haku ei löydä OneDrive-dokumentteja ilman Outlookista poistumista."
       }
     },
     "infoLabel": "Lisätietoja"
@@ -176,6 +214,7 @@
     "tagline": "Eurooppalainen yritys. Rakennettu EU:ssa. Isännöity EU:ssa.",
     "copyright": "© {year} Verkio",
     "productHeading": "Tuote",
+    "resourcesHeading": "Resurssit",
     "legalHeading": "Lakitiedot",
     "contactHeading": "Yhteystiedot",
     "privacy": "Tietosuojakäytäntö",
@@ -219,6 +258,92 @@
         "date": "Joulukuu 2026",
         "name": "Webmail-postilaatikko",
         "description": "Nopea, näppäimistöä suosiva verkkosovellus Verkion sähköpostille — keskustelut, haku ja merkinnät ilman turhaa painolastia."
+      },
+      "domainAutoSetup": {
+        "date": "Syyskuu 2026",
+        "name": "Automaattinen verkkotunnuksen määritys",
+        "description": "Lisää verkkotunnuksesi, niin määritämme MX-, SPF-, DKIM-, DMARC- ja autoconfig-tietueet puolestasi. Ei manuaalista DNS-työtä."
+      },
+      "migration": {
+        "date": "Q1 2027",
+        "name": "Siirto Google Workspacesta ja Microsoft 365:stä",
+        "description": "Yhden napsautuksen tuonti sähköpostille, kalenterille, yhteystiedoille ja Drive- tai OneDrive-tiedostoille. Tilan seurannan, uudelleenyritysten ja rinnakkaisen siirtymäjakson kanssa."
+      },
+      "ssoScim": {
+        "date": "Q1 2027",
+        "name": "SSO ja SCIM-provisiointi",
+        "description": "SAML- ja OIDC-kirjautuminen. SCIM provisioi ja deprovisioi käyttäjät automaattisesti Oktan, Entra ID:n tai minkä tahansa standardin identiteetin tarjoajan kautta."
+      },
+      "emailAliases": {
+        "date": "Heinäkuu 2026",
+        "name": "Sähköpostialiakset ja catch-all",
+        "description": "Rajoittamaton* määrä aliaksia käyttäjää kohden. Catch-all verkkotunnuksessasi, jotta et koskaan menetä väärin kirjoitettua osoitetta. Yhdistyy oman verkkotunnuksen kanssa.",
+        "note": "Kohtuullisen käytön ehdoin"
+      },
+      "schedule": {
+        "date": "Q1 2027",
+        "name": "Verkio Schedule",
+        "description": "Julkiset ajanvarauslinkit kalenteristasi. Kuten Calendly, mutta EU:ssa, ilman seurantaa ja integroituna pakettiin."
+      },
+      "auditLog": {
+        "date": "Q2 2027",
+        "name": "Tarkastusloki",
+        "description": "Kuka-käytti-mitä-milloin, käytettävissä sekä käyttöliittymänä että rajapintana. Striimaa SIEM-järjestelmääsi tarvittaessa."
+      },
+      "publicApi": {
+        "date": "Q2 2027",
+        "name": "Julkinen API ja webhookit",
+        "description": "Rakenna Verkion päälle: HTTP-API sähköpostille, kalenterille, yhteystiedoille, dokumenteille ja wikeille. Webhookit saapuville tapahtumille. OAuth 2 ja token-tunnistus."
+      },
+      "eidasSigning": {
+        "date": "Q2 2027",
+        "name": "eIDAS-dokumenttien allekirjoitus",
+        "description": "Oikeudellisesti sitovat sähköiset allekirjoitukset eIDAS 2.0:n alla. Allekirjoita PDF:t ja dokumentit suoraan dokumenttitallennuksesta."
+      },
+      "calendarPolls": {
+        "date": "Q2 2027",
+        "name": "Kalenterikyselyt",
+        "description": "Löydä aika, joka sopii kaikille ilman Doodle-linkkiä. Ehdota useita aikoja kutsussa, vastaanottajat äänestävät, kalenteri ratkaisee."
+      },
+      "mobileApps": {
+        "date": "Q3 2027",
+        "name": "Natiivit mobiilisovellukset",
+        "description": "Omat iOS- ja Android-sovellukset. Sähköposti, kalenteri, yhteystiedot, dokumentit ja wikit taskussa — sama näppäimistöystävällinen nopeus kuin webissä."
+      },
+      "sharedMailbox": {
+        "date": "Q3 2027",
+        "name": "Jaetun postilaatikon työnkulku",
+        "description": "Määritä-tiimiläiselle, sisäiset muistiinpanot, tilan seuranta ja keskustelunäkymät support@-, hello@- ja muille jaetuille postilaatikoille."
+      },
+      "sendLaterSnooze": {
+        "date": "Q3 2027",
+        "name": "Lähetä myöhemmin, torkku, peruuta lähetys",
+        "description": "Ajasta viesti huomiseksi klo 9. Torku säikeen perjantaihin. 30 sekunnin armoaika vetää lähetys takaisin."
+      },
+      "compliance": {
+        "date": "H2 2027",
+        "name": "SOC 2 Type II ja ISO 27001",
+        "description": "Vaatimustenmukaisuussertifikaatit, joita ostajat kysyvät. Jatkuva sitoumus tarkastusvalmiin dokumentaation kanssa."
+      },
+      "realtimeDocs": {
+        "date": "Q4 2027",
+        "name": "Reaaliaikainen yhteistyö dokumenteissa",
+        "description": "Reaaliaikainen monikursorimuokkaus dokumenteissa ja wikeissä. Kommentit, ehdotukset, versiohistoria — rakennettu avoimille formaateille."
+      },
+      "transactionalEmail": {
+        "date": "Q4 2027",
+        "name": "EU:hun sijoitettu tapahtumasähköpostin API",
+        "description": "Lähetä sovelluksesi sähköpostit Verkion kautta Sendgridin sijaan. Sama ei-yhdysvaltalaiset alikäsittelijät -asenne, laajennettuna omaan tuotteeseesi."
+      },
+      "sieveFilters": {
+        "date": "Q4 2027",
+        "name": "Palvelinpuolen säännöt (Sieve)",
+        "description": "Lajittele, merkitse, välitä ja vastaa automaattisesti palvelimella, jotta suodattimesi toimivat samalla tavalla jokaisessa asiakkaassa."
+      },
+      "ediscovery": {
+        "date": "Alkuvuosi 2028",
+        "name": "eDiscovery ja oikeudellinen pidätys",
+        "description": "Aseta käyttäjät tai postilaatikot pidätykseen; hae ja vie tietoja koko paketin yli vaatimustenmukaisuus- ja oikeudellisen löytämisen työnkulkuihin."
       }
     }
   },

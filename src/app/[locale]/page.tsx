@@ -1,9 +1,61 @@
-import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { WaitlistForm } from "@/app/components/WaitlistForm";
 import { Comparison } from "./components/Comparison";
 import { Container, Footer, Header } from "./components/Layout";
+
+const faqKeys = [
+  "hosting",
+  "cloudAct",
+  "clients",
+  "launch",
+  "migration",
+  "pricing",
+  "subprocessors",
+  "leaving",
+  "openSource",
+] as const;
+
+async function StructuredData({ locale }: { locale: string }) {
+  const tMeta = await getTranslations({ locale, namespace: "metadata" });
+  const tFaqs = await getTranslations({ locale, namespace: "faqs" });
+
+  const organization = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Verkio",
+    url: `https://verkio.eu/${locale}`,
+    logo: "https://verkio.eu/og-image.png",
+    description: tMeta("description"),
+    sameAs: [],
+  };
+
+  const faqPage = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqKeys.map((key) => ({
+      "@type": "Question",
+      name: tFaqs(`items.${key}.question`),
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: tFaqs(`items.${key}.answer`),
+      },
+    })),
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPage) }}
+      />
+    </>
+  );
+}
 
 function Hero() {
   const t = useTranslations("hero");
@@ -22,16 +74,51 @@ function Hero() {
             <p className="mt-4 text-base text-gray-600">{t("body2")}</p>
           </div>
           <div className="hidden lg:block lg:col-span-7 lg:col-start-6 lg:-ml-4 xl:-ml-12">
-            <Image
-              src="/images/draft.png"
-              alt=""
-              width={1400}
-              height={1400}
-              priority
+            <video
+              src="/images/euro-map.webm"
+              autoPlay
+              loop
+              muted
+              playsInline
+              aria-hidden="true"
               className="w-full h-auto scale-110 origin-right"
             />
           </div>
         </div>
+      </Container>
+    </section>
+  );
+}
+
+const principleKeys = ["standards", "quiet", "unified", "leave"] as const;
+
+function Principles() {
+  const t = useTranslations("principles");
+  return (
+    <section className="border-t border-gray-200 py-20 sm:py-32">
+      <Container>
+        <div>
+          <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>
+          <h2 className="mt-3 text-3xl font-medium tracking-tight text-gray-900">
+            {t("headline")}
+          </h2>
+          <p className="mt-4 text-lg text-gray-600">{t("subhead")}</p>
+        </div>
+        <dl className="mt-16 grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+          {principleKeys.map((key, idx) => (
+            <div key={key}>
+              <p className="text-xs font-mono uppercase tracking-wider text-gray-400">
+                {String(idx + 1).padStart(2, "0")}
+              </p>
+              <dt className="mt-3 text-xl font-medium text-gray-900">
+                {t(`items.${key}.name`)}
+              </dt>
+              <dd className="mt-3 text-base text-gray-600 leading-relaxed">
+                {t(`items.${key}.description`)}
+              </dd>
+            </div>
+          ))}
+        </dl>
       </Container>
     </section>
   );
@@ -299,14 +386,14 @@ const residencyIcons = {
 function Residency() {
   const t = useTranslations("residency");
   return (
-    <section id="residency" className="border-t border-gray-200 py-20 sm:py-32">
+    <section id="residency" className="bg-gray-900 py-20 sm:py-32">
       <Container>
         <div>
-          <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>
-          <h2 className="mt-3 text-3xl font-medium tracking-tight text-gray-900">
+          <p className="text-sm font-semibold text-brand-300">{t("eyebrow")}</p>
+          <h2 className="mt-3 text-3xl font-medium tracking-tight text-white">
             {t("headline")}
           </h2>
-          <p className="mt-4 text-lg text-gray-600">{t("subhead")}</p>
+          <p className="mt-4 text-lg text-gray-400">{t("subhead")}</p>
         </div>
         <ul
           role="list"
@@ -316,11 +403,11 @@ function Residency() {
             const Icon = residencyIcons[key];
             return (
               <li key={key} className="flex flex-col items-center text-center p-8">
-                <Icon className="h-20 w-20 text-brand-600" />
-                <h3 className="mt-6 text-base font-semibold text-gray-900">
+                <Icon className="h-20 w-20 text-brand-300" />
+                <h3 className="mt-6 text-base font-semibold text-white">
                   {t(`items.${key}.name`)}
                 </h3>
-                <p className="mt-2 text-sm text-gray-600">
+                <p className="mt-2 text-sm text-gray-400">
                   {t(`items.${key}.description`)}
                 </p>
               </li>
@@ -341,18 +428,18 @@ const faqColumns = [
 function Faqs() {
   const t = useTranslations("faqs");
   return (
-    <section id="faqs" className="border-t border-gray-200 py-20 sm:py-32">
+    <section id="faqs" className="bg-gray-900 py-20 sm:py-32">
       <Container>
         <div className="max-w-2xl lg:mx-0">
-          <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>
-          <h2 className="mt-3 text-3xl font-medium tracking-tight text-gray-900">
+          <p className="text-sm font-semibold text-brand-300">{t("eyebrow")}</p>
+          <h2 className="mt-3 text-3xl font-medium tracking-tight text-white">
             {t("headline")}
           </h2>
-          <p className="mt-4 text-lg text-gray-600">
+          <p className="mt-4 text-lg text-gray-400">
             {t("contactPrompt")}{" "}
             <a
               href="mailto:hello@verkio.eu"
-              className="text-gray-900 underline underline-offset-4 decoration-1 hover:decoration-2"
+              className="text-white underline underline-offset-4 decoration-1 hover:decoration-2"
             >
               hello@verkio.eu
             </a>
@@ -367,10 +454,10 @@ function Faqs() {
               <ul role="list" className="space-y-10">
                 {column.map((key) => (
                   <li key={key}>
-                    <h3 className="text-base font-semibold text-gray-900 leading-snug">
+                    <h3 className="text-base font-semibold text-white leading-snug">
                       {t(`items.${key}.question`)}
                     </h3>
-                    <p className="mt-3 text-sm text-gray-600 leading-relaxed">
+                    <p className="mt-3 text-sm text-gray-400 leading-relaxed">
                       {t(`items.${key}.answer`)}
                     </p>
                   </li>
@@ -388,19 +475,19 @@ function WaitlistCta() {
   const t = useTranslations("waitlist");
   const tHero = useTranslations("hero");
   return (
-    <section id="waitlist" className="bg-gray-900 py-20 sm:py-32">
+    <section id="waitlist" className="border-t border-gray-200 py-20 sm:py-32">
       <Container>
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold text-brand-300">
+          <p className="text-sm font-semibold text-brand-600">
             {tHero("eyebrow")}
           </p>
-          <h2 className="mt-3 text-3xl md:text-4xl font-medium tracking-tight text-white">
+          <h2 className="mt-3 text-3xl md:text-4xl font-medium tracking-tight text-gray-900">
             {t("cardTitle")}
           </h2>
-          <p className="mt-4 text-lg text-gray-400">{t("cardSubtitle")}</p>
+          <p className="mt-4 text-lg text-gray-600">{t("cardSubtitle")}</p>
         </div>
         <div className="mx-auto mt-12 max-w-md">
-          <WaitlistForm onDark />
+          <WaitlistForm />
         </div>
       </Container>
     </section>
@@ -416,10 +503,12 @@ export default async function Home({
   setRequestLocale(locale);
   return (
     <>
+      <StructuredData locale={locale} />
       <Header />
       <main>
         <Hero />
         <Suite />
+        <Principles />
         <Residency />
         <Comparison />
         <Faqs />

@@ -11,13 +11,14 @@
     "faqs": "DUK",
     "joinWaitlist": "Užsiregistruoti",
     "language": "Kalba",
-    "roadmap": "Kelias"
+    "roadmap": "Kelias",
+    "articles": "Straipsniai"
   },
   "hero": {
     "eyebrow": "Pristatymas 2026 m. liepą",
-    "headline": "Europinis pašto ir darbo rinkinys.",
-    "body1": "Jūsų paštas ir verslo duomenys — talpinami ES, šifruoti ramybės būsenoje, BDAR nuo pat pradžių.",
-    "body2": "Sukurta tiems, kuriems svarbu, kur gyvena jų duomenys."
+    "headline": "Greitas, sutelktas, europinis.",
+    "body1": "Paštas, kalendorius, kontaktai, dokumentai ir viki — vienas suvienytas rinkinys, gerbiantis tavo laiką, o ne dėmesį.",
+    "body2": "Talpinamas ES, šifruotas ramybės būsenoje, BDAR nuo pat pradžių."
   },
   "suite": {
     "eyebrow": "Rinkinys",
@@ -43,6 +44,29 @@
       "wikis": {
         "name": "Viki",
         "description": "Struktūrizuoti puslapiai komandos žinioms su pilna redagavimo istorija ir nuorodomis."
+      }
+    }
+  },
+  "principles": {
+    "eyebrow": "Kodėl Verkio",
+    "headline": "Sukurta su skoniu.",
+    "subhead": "Duomenų vieta — tai apatinė riba. Produktas — tai, kas verčia tave juo naudotis toliau.",
+    "items": {
+      "standards": {
+        "name": "Standartai pirmiausia.",
+        "description": "IMAP, SMTP, CalDAV, CardDAV nuo pirmosios dienos. Naudokite Thunderbird, Apple Mail, Outlook, K-9 arba DAVx⁵ — mes jūsų neuždarome savo programėlėje."
+      },
+      "quiet": {
+        "name": "Tylus.",
+        "description": "Jokių DI funkcijų, skenuojančių jūsų paštą. Jokių įtraukimo pranešimų. Jokio „galbūt jus domins\" papildomo pardavimo. Mes nekonkuruojame dėl jūsų dėmesio — mes pasitraukiame iš kelio."
+      },
+      "unified": {
+        "name": "Vienas rinkinys, viena adresų knyga.",
+        "description": "Paštas, kalendorius, kontaktai, dokumentai, viki — vienas prisijungimas, viena adresų knyga, viena sąskaita. Ne penki produktai, sukabinti SSO."
+      },
+      "leave": {
+        "name": "Laisvas išeiti.",
+        "description": "Visiškas eksportas atvirais formatais bet kada. BDAR 20 straipsnis tikrai įgyvendintas, o ne palaikymo bilieto procesas. Jokios išpirkos išeinant."
       }
     }
   },
@@ -125,6 +149,20 @@
         "google": "Globalus maršrutizavimas",
         "microsoft": "Globalus maršrutizavimas",
         "info": "Autoritetinis verkio.eu DNS yra prižiūrimas ES įsteigtų tiekėjų — niekada Route 53 (Amazon), Cloud DNS (Google) ar Azure DNS. Google ir Microsoft paprastai maršrutizuoja kliento domenų DNS visame pasaulyje, todėl užklausos gali eiti per JAV valdomus vardų serverius."
+      },
+      "ai": {
+        "label": "DI numatytuoju būdu integruotas į rinkinį",
+        "verkio": "Nėra",
+        "google": "Taip (Gemini)",
+        "microsoft": "Taip (Copilot)",
+        "info": "Verkio nesiūlo DI funkcijų, kurios apibendrintų jūsų paštą, skenuotų kalendorių ar mokytųsi iš jūsų duomenų. Google ir Microsoft vis dažniau įtraukia DI (Gemini, Copilot) į savo pagrindinius rinkinius — atsisakymo galimybės skiriasi priklausomai nuo plano ir administratoriaus politikos."
+      },
+      "unifiedSearch": {
+        "label": "Vieninga paieška visame rinkinyje",
+        "verkio": "Taip",
+        "google": "Dalinė",
+        "microsoft": "Dalinė",
+        "info": "Paieška Verkio vienu metu pateikia rezultatus iš kiekvienos rinkinio dalies: paštas, kalendorius, kontaktai, dokumentai ir viki rodomi tuose pačiuose rezultatuose. Google ir Microsoft siūlo paiešką tarp tam tikrų produktų, bet aprėptis nenuosekli — Outlook paieška neranda OneDrive dokumentų, neišėjus iš Outlook."
       }
     },
     "infoLabel": "Daugiau informacijos"
@@ -176,6 +214,7 @@
     "tagline": "Europinė įmonė. Sukurta ES. Talpinama ES.",
     "copyright": "© {year} Verkio",
     "productHeading": "Produktas",
+    "resourcesHeading": "Ištekliai",
     "legalHeading": "Teisinė informacija",
     "contactHeading": "Kontaktai",
     "privacy": "Privatumo politika",
@@ -219,6 +258,92 @@
         "date": "2026 m. gruodis",
         "name": "Webmail dėžutė",
         "description": "Greitas, klaviatūrai pritaikytas Verkio pašto žiniatinklio klientas — gijos, paieška ir etiketės be nereikalingo svorio."
+      },
+      "domainAutoSetup": {
+        "date": "2026 m. rugsėjis",
+        "name": "Automatinė domeno sąranka",
+        "description": "Pridėk savo domeną ir mes sukonfigūruosime MX, SPF, DKIM, DMARC bei autoconfig įrašus už tave. Jokio rankinio DNS darbo."
+      },
+      "migration": {
+        "date": "Q1 2027",
+        "name": "Migracija iš Google Workspace ir Microsoft 365",
+        "description": "Vieno paspaudimo pašto, kalendoriaus, kontaktų ir Drive ar OneDrive failų importas. Su būsena, pakartojimais ir lygiagrečiu perėjimo laikotarpiu."
+      },
+      "ssoScim": {
+        "date": "Q1 2027",
+        "name": "SSO ir SCIM aprūpinimas",
+        "description": "SAML ir OIDC prisijungimas. SCIM automatiškai sukuria ir pašalina vartotojus per Okta, Entra ID ar bet kurį standartinį tapatybės teikėją."
+      },
+      "emailAliases": {
+        "date": "2026 m. liepa",
+        "name": "El. pašto antrai ir catch-all",
+        "description": "Neribotai* antrų vienam vartotojui. Catch-all tavo domene, kad niekada nepraleistum klaidingai parašyto adreso. Dera su savo domenu.",
+        "note": "Esant pagrįstam naudojimui"
+      },
+      "schedule": {
+        "date": "Q1 2027",
+        "name": "Verkio Schedule",
+        "description": "Vieši rezervacijos saitai iš tavo kalendoriaus. Kaip Calendly, bet talpinama ES, be sekimo ir integruota į rinkinį."
+      },
+      "auditLog": {
+        "date": "Q2 2027",
+        "name": "Audito žurnalas",
+        "description": "Kas-prieigą-prie-ko-ir-kada, pateikta tiek kaip sąsaja, tiek kaip API. Srautink į savo SIEM, jei reikia."
+      },
+      "publicApi": {
+        "date": "Q2 2027",
+        "name": "Vieša API ir webhook'ai",
+        "description": "Statyk ant Verkio: HTTP API paštui, kalendoriui, kontaktams, dokumentams ir vikiams. Webhook'ai įeinantiems įvykiams. OAuth 2 ir žetonų autentifikavimas."
+      },
+      "eidasSigning": {
+        "date": "Q2 2027",
+        "name": "eIDAS dokumentų pasirašymas",
+        "description": "Teisiškai įpareigojantys elektroniniai parašai pagal eIDAS 2.0. Pasirašyk PDF ir dokumentus tiesiai iš savo dokumentų saugyklos."
+      },
+      "calendarPolls": {
+        "date": "Q2 2027",
+        "name": "Kalendoriaus apklausos",
+        "description": "Rask laiką, tinkantį visiems, be Doodle saito. Pasiūlyk kelis laikus kvietime, gavėjai balsuoja, kalendorius išsprendžia."
+      },
+      "mobileApps": {
+        "date": "Q3 2027",
+        "name": "Vietinės mobiliosios programėlės",
+        "description": "Savos iOS ir Android programėlės. Paštas, kalendorius, kontaktai, dokumentai ir viki kišenėje — toks pat klaviatūrai draugiškas greitis kaip žiniatinklyje."
+      },
+      "sharedMailbox": {
+        "date": "Q3 2027",
+        "name": "Bendros pašto dėžės darbo eiga",
+        "description": "Priskirti-komandos-nariui, vidiniai užrašai, būsenos sekimas ir pokalbių vaizdai support@, hello@ ir kitoms bendroms pašto dėžėms."
+      },
+      "sendLaterSnooze": {
+        "date": "Q3 2027",
+        "name": "Siųsti vėliau, atidėti, atšaukti siuntimą",
+        "description": "Suplanuok pranešimą rytojui 9 val. Atidėk giją iki penktadienio. 30 sekundžių malonės laikas atšaukti siuntimą."
+      },
+      "compliance": {
+        "date": "H2 2027",
+        "name": "SOC 2 Type II ir ISO 27001",
+        "description": "Atitikties patvirtinimai, kurių prašo pirkėjai. Tęstinis įsipareigojimas su audito parengta dokumentacija."
+      },
+      "realtimeDocs": {
+        "date": "Q4 2027",
+        "name": "Realaus laiko bendradarbiavimas dokumentuose",
+        "description": "Tiesioginis daugiakursorinis redagavimas dokumentuose ir vikiuose. Komentarai, pasiūlymai, versijų istorija — sukurta naudojant atvirus formatus."
+      },
+      "transactionalEmail": {
+        "date": "Q4 2027",
+        "name": "ES talpinama tranzakcinio el. pašto API",
+        "description": "Siųsk savo programos el. laiškus per Verkio vietoj Sendgrid. Tokia pati pozicija be JAV subtvarkytojų, išplėsta į tavo produktą."
+      },
+      "sieveFilters": {
+        "date": "Q4 2027",
+        "name": "Serverio pusės taisyklės (Sieve)",
+        "description": "Rūšiuok, žymėk, persiųsk ir atsakyk automatiškai serveryje, kad tavo filtrai veiktų vienodai kiekviename kliente."
+      },
+      "ediscovery": {
+        "date": "2028 m. pradžia",
+        "name": "eDiscovery ir teisinis saugojimas",
+        "description": "Įdėk vartotojus ar pašto dėžes į saugojimą; ieškok ir eksportuok visame rinkinyje atitikties ir teisinio atskleidimo darbo eigoms."
       }
     }
   },

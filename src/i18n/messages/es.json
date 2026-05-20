@@ -11,13 +11,14 @@
     "faqs": "FAQ",
     "joinWaitlist": "Unirse a la lista",
     "language": "Idioma",
-    "roadmap": "Hoja de ruta"
+    "roadmap": "Hoja de ruta",
+    "articles": "Artículos"
   },
   "hero": {
     "eyebrow": "Lanzamiento en julio de 2026",
-    "headline": "La suite europea de correo y trabajo.",
-    "body1": "Tu correo y datos de empresa — alojados en la UE, cifrados en reposo, conformes al RGPD desde el diseño.",
-    "body2": "Hecha para quienes creen que el lugar donde viven sus datos importa."
+    "headline": "Rápida, enfocada, europea.",
+    "body1": "Correo, calendario, contactos, documentos y wikis — una suite unificada que respeta tu tiempo, no tu atención.",
+    "body2": "Alojada en la UE, cifrada en reposo, conforme al RGPD desde el diseño."
   },
   "suite": {
     "eyebrow": "La suite",
@@ -43,6 +44,29 @@
       "wikis": {
         "name": "Wikis",
         "description": "Páginas estructuradas para el conocimiento del equipo, con historial completo de ediciones y enlaces."
+      }
+    }
+  },
+  "principles": {
+    "eyebrow": "Por qué Verkio",
+    "headline": "Hecha con gusto.",
+    "subhead": "La residencia de datos es el suelo. El producto es lo que hace que sigas usándola.",
+    "items": {
+      "standards": {
+        "name": "Estándares primero.",
+        "description": "IMAP, SMTP, CalDAV, CardDAV desde el primer día. Usa Thunderbird, Apple Mail, Outlook, K-9 o DAVx⁵ — no te encerramos en nuestra app."
+      },
+      "quiet": {
+        "name": "Silenciosa.",
+        "description": "Sin funciones de IA que escaneen tu correo. Sin notificaciones de engagement. Sin upsell de «quizás te interese». No competimos por tu atención — nos quitamos de tu camino."
+      },
+      "unified": {
+        "name": "Una suite, una libreta.",
+        "description": "Correo, calendario, contactos, documentos, wikis — un inicio de sesión, una libreta de direcciones, una factura. No cinco productos atornillados con SSO."
+      },
+      "leave": {
+        "name": "Libre de irte.",
+        "description": "Exportación completa en formatos abiertos cuando quieras. El artículo 20 del RGPD hecho realidad, no un proceso de ticket de soporte. Sin rescate a la salida."
       }
     }
   },
@@ -125,6 +149,20 @@
         "google": "Enrutamiento global",
         "microsoft": "Enrutamiento global",
         "info": "El DNS autoritativo para verkio.eu se aloja en proveedores europeos — nunca Route 53 (Amazon), Cloud DNS (Google) ni Azure DNS. Google y Microsoft suelen enrutar el DNS de los dominios de inquilino de forma global, por lo que las consultas pueden transitar por servidores de nombres operados en EE. UU."
+      },
+      "ai": {
+        "label": "IA integrada por defecto en la suite",
+        "verkio": "Ninguna",
+        "google": "Sí (Gemini)",
+        "microsoft": "Sí (Copilot)",
+        "info": "Verkio no incluye funciones de IA que resuman tu correo, analicen tu calendario o entrenen con tus datos. Google y Microsoft están integrando cada vez más IA (Gemini, Copilot) en sus suites principales — con controles de exclusión que varían según el nivel y la política del administrador."
+      },
+      "unifiedSearch": {
+        "label": "Búsqueda unificada en toda la suite",
+        "verkio": "Sí",
+        "google": "Parcial",
+        "microsoft": "Parcial",
+        "info": "La búsqueda en Verkio devuelve resultados de cada parte de la suite a la vez: correo, calendario, contactos, documentos y wikis aparecen en los mismos resultados. Google y Microsoft ofrecen búsqueda cruzada en algunas superficies pero la cobertura es inconsistente — la búsqueda de Outlook no encuentra documentos de OneDrive sin salir de Outlook."
       }
     },
     "infoLabel": "Más información"
@@ -176,6 +214,7 @@
     "tagline": "Una empresa europea. Construida en la UE. Alojada en la UE.",
     "copyright": "© {year} Verkio",
     "productHeading": "Producto",
+    "resourcesHeading": "Recursos",
     "legalHeading": "Legal",
     "contactHeading": "Contacto",
     "privacy": "Política de privacidad",
@@ -219,6 +258,92 @@
         "date": "Diciembre de 2026",
         "name": "Bandeja de webmail",
         "description": "Un cliente web rápido y orientado al teclado para Verkio mail — hilos, búsqueda y etiquetas sin sobrecarga."
+      },
+      "domainAutoSetup": {
+        "date": "Septiembre de 2026",
+        "name": "Configuración automática del dominio",
+        "description": "Añade tu dominio y configuramos los registros MX, SPF, DKIM, DMARC y autoconfig por ti. Sin DNS manual."
+      },
+      "migration": {
+        "date": "Q1 2027",
+        "name": "Migración desde Google Workspace y Microsoft 365",
+        "description": "Importación en un clic de correo, calendario, contactos y archivos de Drive o OneDrive. Con estado, reintentos y un período de transición en paralelo."
+      },
+      "ssoScim": {
+        "date": "Q1 2027",
+        "name": "SSO y aprovisionamiento SCIM",
+        "description": "Inicio de sesión SAML y OIDC. SCIM aprovisiona y desaprovisiona usuarios automáticamente vía Okta, Entra ID o cualquier IdP estándar."
+      },
+      "emailAliases": {
+        "date": "Julio de 2026",
+        "name": "Alias de correo y catch-all",
+        "description": "Alias ilimitados* por usuario. Catch-all en tu dominio para no perder nunca una dirección mal escrita. Combina con tu propio dominio.",
+        "note": "Sujeto a un uso razonable"
+      },
+      "schedule": {
+        "date": "Q1 2027",
+        "name": "Verkio Schedule",
+        "description": "Enlaces públicos de agenda desde tu calendario. Como Calendly, pero alojado en la UE, sin tracking, e integrado en la suite."
+      },
+      "auditLog": {
+        "date": "Q2 2027",
+        "name": "Registro de auditoría",
+        "description": "Quién-accedió-a-qué-cuándo, expuesto como UI y como API. Transmite a tu SIEM si lo necesitas."
+      },
+      "publicApi": {
+        "date": "Q2 2027",
+        "name": "API pública y webhooks",
+        "description": "Construye sobre Verkio: API HTTP para correo, calendario, contactos, documentos y wikis. Webhooks para eventos entrantes. OAuth 2 y autenticación por token."
+      },
+      "eidasSigning": {
+        "date": "Q2 2027",
+        "name": "Firma de documentos eIDAS",
+        "description": "Firmas electrónicas legalmente vinculantes bajo eIDAS 2.0. Firma PDFs y documentos directamente desde tu almacenamiento de documentos."
+      },
+      "calendarPolls": {
+        "date": "Q2 2027",
+        "name": "Encuestas de calendario",
+        "description": "Encuentra una hora que funcione para todos sin un enlace Doodle. Propón varias franjas en la invitación, los destinatarios votan, el calendario resuelve."
+      },
+      "mobileApps": {
+        "date": "Q3 2027",
+        "name": "Aplicaciones móviles nativas",
+        "description": "Aplicaciones iOS y Android propias. Correo, calendario, contactos, documentos y wikis en tu bolsillo — la misma velocidad orientada al teclado que en la web."
+      },
+      "sharedMailbox": {
+        "date": "Q3 2027",
+        "name": "Flujo de buzón compartido",
+        "description": "Asignar-a-compañero, notas internas, seguimiento de estado y vistas de conversación para support@, hello@ y otros buzones compartidos."
+      },
+      "sendLaterSnooze": {
+        "date": "Q3 2027",
+        "name": "Envío programado, pausar, deshacer envío",
+        "description": "Programa un mensaje para mañana a las 9:00. Pausa un hilo hasta el viernes. 30 segundos de gracia para recuperar un envío."
+      },
+      "compliance": {
+        "date": "H2 2027",
+        "name": "SOC 2 Tipo II e ISO 27001",
+        "description": "Atestaciones de cumplimiento que los compradores piden. Compromiso continuo con documentación lista para auditoría."
+      },
+      "realtimeDocs": {
+        "date": "Q4 2027",
+        "name": "Colaboración en documentos en tiempo real",
+        "description": "Edición en vivo con varios cursores en documentos y wikis. Comentarios, sugerencias, historial de versiones — basado en formatos abiertos."
+      },
+      "transactionalEmail": {
+        "date": "Q4 2027",
+        "name": "API de correo transaccional alojada en la UE",
+        "description": "Envía los correos de tu aplicación a través de Verkio en lugar de Sendgrid. Misma postura sin subprocesadores de EE. UU., extendida a tu propio producto."
+      },
+      "sieveFilters": {
+        "date": "Q4 2027",
+        "name": "Reglas del lado del servidor (Sieve)",
+        "description": "Ordena, etiqueta, reenvía y responde automáticamente en el servidor, para que tus filtros funcionen igual en cualquier cliente."
+      },
+      "ediscovery": {
+        "date": "Principios de 2028",
+        "name": "eDiscovery y retención legal",
+        "description": "Pon a usuarios o buzones en retención; busca y exporta en toda la suite para flujos de cumplimiento y descubrimiento legal."
       }
     }
   },

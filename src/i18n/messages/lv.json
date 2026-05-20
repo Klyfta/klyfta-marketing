@@ -11,13 +11,14 @@
     "faqs": "BUJ",
     "joinWaitlist": "Pievienoties sarakstam",
     "language": "Valoda",
-    "roadmap": "Ceļvedis"
+    "roadmap": "Ceļvedis",
+    "articles": "Raksti"
   },
   "hero": {
     "eyebrow": "Atklāšana 2026. gada jūlijā",
-    "headline": "Eiropas e-pasta un darba komplekts.",
-    "body1": "Jūsu e-pasts un biznesa dati — izvietoti ES, šifrēti miera stāvoklī, VDAR no pamata.",
-    "body2": "Radīts tev, kurš uzskata, ka ir svarīgi, kur dzīvo tavi dati."
+    "headline": "Ātrs, koncentrēts, eiropeisks.",
+    "body1": "E-pasts, kalendārs, kontakti, dokumenti un viki — viens vienots komplekts, kas ciena tavu laiku, nevis uzmanību.",
+    "body2": "Izvietots ES, šifrēts miera stāvoklī, VDAR no pamata."
   },
   "suite": {
     "eyebrow": "Komplekts",
@@ -43,6 +44,29 @@
       "wikis": {
         "name": "Viki",
         "description": "Strukturētas lapas komandas zināšanām ar pilnu rediģēšanas vēsturi un saitēm."
+      }
+    }
+  },
+  "principles": {
+    "eyebrow": "Kāpēc Verkio",
+    "headline": "Veidots ar gaumi.",
+    "subhead": "Datu atrašanās vieta ir grīda. Produkts ir tas, kas liek tev to turpināt lietot.",
+    "items": {
+      "standards": {
+        "name": "Standartiem priekšroka.",
+        "description": "IMAP, SMTP, CalDAV, CardDAV no pirmās dienas. Lieto Thunderbird, Apple Mail, Outlook, K-9 vai DAVx⁵ — mēs tevi neieslēdzam savā lietotnē."
+      },
+      "quiet": {
+        "name": "Kluss.",
+        "description": "Bez MI funkcijām, kas skenē tavu e-pastu. Bez iesaistes paziņojumiem. Bez „varētu tevi interesēt\" papildpārdošanas. Mēs nesacenšamies par tavu uzmanību — mēs ejam no ceļa."
+      },
+      "unified": {
+        "name": "Viens komplekts, viena adrešu grāmata.",
+        "description": "E-pasts, kalendārs, kontakti, dokumenti, viki — viens pieslēgums, viena adrešu grāmata, viens rēķins. Nevis pieci produkti, kas saskrūvēti ar SSO."
+      },
+      "leave": {
+        "name": "Brīvs aiziet.",
+        "description": "Pilnīgs eksports atvērtos formātos jebkurā brīdī. VDAR 20. pants īstenots patiesi, nevis kā atbalsta pieprasījuma process. Bez izpirkuma iziešanas brīdī."
       }
     }
   },
@@ -125,6 +149,20 @@
         "google": "Globāla maršrutēšana",
         "microsoft": "Globāla maršrutēšana",
         "info": "verkio.eu autoritatīvais DNS tiek mitināts ES mītnes pakalpojumu sniedzējiem — nekad Route 53 (Amazon), Cloud DNS (Google) vai Azure DNS. Google un Microsoft parasti maršrutē DNS klientu domēniem globāli, tāpēc pieprasījumi var iet caur ASV pārvaldītiem nosaukumu serveriem."
+      },
+      "ai": {
+        "label": "MI pēc noklusējuma iebūvēta komplektā",
+        "verkio": "Nav",
+        "google": "Jā (Gemini)",
+        "microsoft": "Jā (Copilot)",
+        "info": "Verkio nepiedāvā MI funkcijas, kas apkopo tavu e-pastu, skenē kalendāru vai trenējas uz taviem datiem. Google un Microsoft arvien vairāk iekļauj MI (Gemini, Copilot) savos pamatkomplektos — atteikšanās iespējas atšķiras pēc līmeņa un administratora politikas."
+      },
+      "unifiedSearch": {
+        "label": "Vienota meklēšana visā komplektā",
+        "verkio": "Jā",
+        "google": "Daļēja",
+        "microsoft": "Daļēja",
+        "info": "Meklēšana Verkio vienlaikus atgriež rezultātus no katras komplekta daļas: e-pasts, kalendārs, kontakti, dokumenti un viki parādās tajos pašos rezultātos. Google un Microsoft piedāvā meklēšanu starp produktiem dažās vietās, bet pārklājums ir nekonsekvents — Outlook meklēšana neatrod OneDrive dokumentus, neizejot no Outlook."
       }
     },
     "infoLabel": "Vairāk informācijas"
@@ -176,6 +214,7 @@
     "tagline": "Eiropas uzņēmums. Veidots ES. Izvietots ES.",
     "copyright": "© {year} Verkio",
     "productHeading": "Produkts",
+    "resourcesHeading": "Resursi",
     "legalHeading": "Juridiski",
     "contactHeading": "Kontakti",
     "privacy": "Privātuma politika",
@@ -219,6 +258,92 @@
         "date": "2026. gada decembris",
         "name": "Tīmekļa pasta iesūtne",
         "description": "Ātrs, uz tastatūru orientēts tīmekļa klients Verkio pastam — sarakste, meklēšana un etiķetes bez liekas slodzes."
+      },
+      "domainAutoSetup": {
+        "date": "2026. gada septembris",
+        "name": "Automātiska domēna iestatīšana",
+        "description": "Pievieno savu domēnu un mēs konfigurēsim MX, SPF, DKIM, DMARC un autoconfig ierakstus tavā vietā. Bez manuālas DNS darbības."
+      },
+      "migration": {
+        "date": "Q1 2027",
+        "name": "Migrācija no Google Workspace un Microsoft 365",
+        "description": "Viena klikšķa imports e-pastam, kalendāram, kontaktiem un Drive vai OneDrive failiem. Ar statusu, atkārtojumiem un paralēlu pārejas periodu."
+      },
+      "ssoScim": {
+        "date": "Q1 2027",
+        "name": "SSO un SCIM nodrošināšana",
+        "description": "SAML un OIDC pierakstīšanās. SCIM automātiski izveido un atspējo lietotājus, izmantojot Okta, Entra ID vai jebkuru standarta identitātes pakalpojumu sniedzēju."
+      },
+      "emailAliases": {
+        "date": "2026. gada jūlijs",
+        "name": "E-pasta aizstājvārdi un catch-all",
+        "description": "Neierobežoti* aizstājvārdi katram lietotājam. Catch-all uz tava domēna, lai tu nekad nepalaistu garām nepareizi uzrakstītu adresi. Saderīgs ar paša domēnu.",
+        "note": "Atbilstoši saprātīgai izmantošanai"
+      },
+      "schedule": {
+        "date": "Q1 2027",
+        "name": "Verkio Schedule",
+        "description": "Publiskas tikšanās saites no tava kalendāra. Tāpat kā Calendly, bet izvietots ES, bez izsekošanas un iebūvēts komplektā."
+      },
+      "auditLog": {
+        "date": "Q2 2027",
+        "name": "Audita žurnāls",
+        "description": "Kurš-piekļuva-kam-kad, pieejams gan kā saskarne, gan kā API. Straumē uz savu SIEM, ja nepieciešams."
+      },
+      "publicApi": {
+        "date": "Q2 2027",
+        "name": "Publisks API un webhook",
+        "description": "Veido virs Verkio: HTTP API e-pastam, kalendāram, kontaktiem, dokumentiem un vikiem. Webhook ienākošajiem notikumiem. OAuth 2 un token autentifikācija."
+      },
+      "eidasSigning": {
+        "date": "Q2 2027",
+        "name": "eIDAS dokumentu parakstīšana",
+        "description": "Juridiski saistoši elektroniskie paraksti saskaņā ar eIDAS 2.0. Paraksti PDF un dokumentus tieši no dokumentu glabātuves."
+      },
+      "calendarPolls": {
+        "date": "Q2 2027",
+        "name": "Kalendāra aptaujas",
+        "description": "Atrodi laiku, kas der visiem, bez Doodle saites. Piedāvā vairākus laikus uzaicinājumā, saņēmēji balso, kalendārs atrisina."
+      },
+      "mobileApps": {
+        "date": "Q3 2027",
+        "name": "Vietējās mobilās lietotnes",
+        "description": "Pašu iOS un Android lietotnes. E-pasts, kalendārs, kontakti, dokumenti un viki kabatā — tāds pats tastatūrai draudzīgs ātrums kā tīmeklī."
+      },
+      "sharedMailbox": {
+        "date": "Q3 2027",
+        "name": "Koplietojamas pastkastītes darbplūsma",
+        "description": "Piešķirt-komandas-biedram, iekšējās piezīmes, statusa izsekošana un sarunu skati support@, hello@ un citām koplietojamām pastkastītēm."
+      },
+      "sendLaterSnooze": {
+        "date": "Q3 2027",
+        "name": "Sūtīt vēlāk, snauda, atcelt sūtīšanu",
+        "description": "Ieplāno ziņu rītdienai pulksten 9. Snaud pavedienu līdz piektdienai. 30 sekunžu žēlastības periods, lai atvilktu sūtījumu."
+      },
+      "compliance": {
+        "date": "H2 2027",
+        "name": "SOC 2 Type II un ISO 27001",
+        "description": "Atbilstības apliecinājumi, kurus pircēji prasa. Pastāvīga apņemšanās ar audita gatavu dokumentāciju."
+      },
+      "realtimeDocs": {
+        "date": "Q4 2027",
+        "name": "Reāllaika sadarbība dokumentos",
+        "description": "Tiešraides daudzkursoru rediģēšana dokumentos un vikos. Komentāri, ieteikumi, versiju vēsture — veidots uz atvērtiem formātiem."
+      },
+      "transactionalEmail": {
+        "date": "Q4 2027",
+        "name": "ES izvietota transakciju e-pasta API",
+        "description": "Sūti savas lietojumprogrammas e-pastus caur Verkio nevis Sendgrid. Tāda pati nostāja bez ASV apakšapstrādātājiem, paplašināta uz tavu produktu."
+      },
+      "sieveFilters": {
+        "date": "Q4 2027",
+        "name": "Servera puses noteikumi (Sieve)",
+        "description": "Šķiro, marķē, pārsūti un atbildi automātiski uz servera, lai tavi filtri darbotos vienādi katrā klientā."
+      },
+      "ediscovery": {
+        "date": "2028. gada sākums",
+        "name": "eDiscovery un juridiska saglabāšana",
+        "description": "Novieto lietotājus vai pastkastītes saglabāšanā; meklē un eksportē visā komplektā atbilstības un juridiskās atklāšanas darbplūsmām."
       }
     }
   },

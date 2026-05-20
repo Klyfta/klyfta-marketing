@@ -27,9 +27,12 @@ export async function generateMetadata({
     description: t("metaDescription"),
     alternates: {
       canonical: url,
-      languages: Object.fromEntries(
-        routing.locales.map((l) => [l, `https://verkio.eu/${l}/privacy`]),
-      ),
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((l) => [l, `https://verkio.eu/${l}/privacy`]),
+        ),
+        "x-default": `https://verkio.eu/${routing.defaultLocale}/privacy`,
+      },
     },
   };
 }

@@ -52,9 +52,12 @@ export async function generateMetadata({
     metadataBase: new URL("https://verkio.eu"),
     alternates: {
       canonical: url,
-      languages: Object.fromEntries(
-        routing.locales.map((l) => [l, `https://verkio.eu/${l}`]),
-      ),
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((l) => [l, `https://verkio.eu/${l}`]),
+        ),
+        "x-default": `https://verkio.eu/${routing.defaultLocale}`,
+      },
     },
     openGraph: {
       title: t("title"),
@@ -64,8 +67,17 @@ export async function generateMetadata({
       locale: ogLocaleMap[locale] ?? "en_US",
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("ogDescription"),
+    },
   };
 }
+
+export const viewport = {
+  themeColor: "#3b5f7f",
+};
 
 export default async function LocaleLayout({
   children,

@@ -27,14 +27,40 @@ export async function generateMetadata({
     description: t("metaDescription"),
     alternates: {
       canonical: url,
-      languages: Object.fromEntries(
-        routing.locales.map((l) => [l, `https://verkio.eu/${l}/roadmap`]),
-      ),
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((l) => [l, `https://verkio.eu/${l}/roadmap`]),
+        ),
+        "x-default": `https://verkio.eu/${routing.defaultLocale}/roadmap`,
+      },
     },
   };
 }
 
-const roadmapItems = ["wiki", "messaging", "webmail"] as const;
+type RoadmapSize = "major" | "minor";
+
+const roadmapItems: { key: string; size: RoadmapSize }[] = [
+  { key: "emailAliases", size: "minor" },
+  { key: "wiki", size: "major" },
+  { key: "domainAutoSetup", size: "minor" },
+  { key: "messaging", size: "major" },
+  { key: "webmail", size: "major" },
+  { key: "migration", size: "major" },
+  { key: "ssoScim", size: "major" },
+  { key: "schedule", size: "minor" },
+  { key: "auditLog", size: "minor" },
+  { key: "publicApi", size: "major" },
+  { key: "eidasSigning", size: "major" },
+  { key: "calendarPolls", size: "minor" },
+  { key: "mobileApps", size: "major" },
+  { key: "sharedMailbox", size: "major" },
+  { key: "sendLaterSnooze", size: "minor" },
+  { key: "compliance", size: "major" },
+  { key: "realtimeDocs", size: "major" },
+  { key: "transactionalEmail", size: "major" },
+  { key: "sieveFilters", size: "minor" },
+  { key: "ediscovery", size: "major" },
+];
 
 function RoadmapList() {
   const t = useTranslations("roadmap");
@@ -52,25 +78,53 @@ function RoadmapList() {
         </div>
 
         <ol className="mt-16 max-w-2xl">
-          {roadmapItems.map((key, idx) => (
-            <li
-              key={key}
-              className={`relative pl-10 pb-12 ${
-                idx === roadmapItems.length - 1 ? "" : "border-l border-gray-200"
-              } ${idx > 0 ? "" : ""}`}
-            >
-              <span className="absolute left-0 top-1 -translate-x-1/2 flex h-3 w-3 rounded-full bg-brand-600 ring-4 ring-white" />
-              <div className="text-xs font-mono uppercase tracking-wider text-brand-600">
-                {t(`items.${key}.date`)}
-              </div>
-              <h2 className="mt-2 text-xl font-medium text-gray-900">
-                {t(`items.${key}.name`)}
-              </h2>
-              <p className="mt-3 text-base text-gray-600 leading-relaxed max-w-xl">
-                {t(`items.${key}.description`)}
-              </p>
-            </li>
-          ))}
+          {roadmapItems.map(({ key, size }, idx) => {
+            const isMajor = size === "major";
+            const isLast = idx === roadmapItems.length - 1;
+            const note = t.has(`items.${key}.note`)
+              ? t(`items.${key}.note`)
+              : null;
+            return (
+              <li
+                key={key}
+                className={`relative pl-10 ${isLast ? "" : "border-l border-gray-200"} ${
+                  isMajor ? "pb-12" : "pb-8"
+                }`}
+              >
+                {isMajor ? (
+                  <span className="absolute left-0 top-1 -translate-x-1/2 flex h-3 w-3 rounded-full bg-brand-600 ring-4 ring-white" />
+                ) : (
+                  <span className="absolute left-0 top-2 -translate-x-1/2 flex h-2 w-2 rounded-full border-2 border-brand-300 bg-white ring-4 ring-white" />
+                )}
+                <div
+                  className={`font-mono uppercase tracking-wider ${
+                    isMajor ? "text-xs text-brand-600" : "text-[10px] text-gray-400"
+                  }`}
+                >
+                  {t(`items.${key}.date`)}
+                </div>
+                <h2
+                  className={`mt-2 font-medium text-gray-900 ${
+                    isMajor ? "text-xl" : "text-base"
+                  }`}
+                >
+                  {t(`items.${key}.name`)}
+                </h2>
+                <p
+                  className={`mt-3 leading-relaxed max-w-xl ${
+                    isMajor ? "text-base text-gray-600" : "text-sm text-gray-500"
+                  }`}
+                >
+                  {t(`items.${key}.description`)}
+                </p>
+                {note && (
+                  <p className="mt-2 text-xs text-gray-400 max-w-xl">
+                    * {note}
+                  </p>
+                )}
+              </li>
+            );
+          })}
         </ol>
 
         <div className="mt-12">

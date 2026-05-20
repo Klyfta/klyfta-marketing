@@ -11,13 +11,14 @@
     "faqs": "Spurningar",
     "joinWaitlist": "Skrá á biðlista",
     "language": "Tungumál",
-    "roadmap": "Vegvísir"
+    "roadmap": "Vegvísir",
+    "articles": "Greinar"
   },
   "hero": {
     "eyebrow": "Kemur út í júlí 2026",
-    "headline": "Evrópska tölvupósts- og vinnusvítan.",
-    "body1": "Tölvupósturinn þinn og fyrirtækjagögn — hýst í ESB, dulkóðuð í hvíld, GDPR-byggð frá grunni.",
-    "body2": "Búið til fyrir þig sem telur skipta máli hvar gögnin búa."
+    "headline": "Hröð, einbeitt, evrópsk.",
+    "body1": "Tölvupóstur, dagatal, tengiliðir, skjöl og wikis — ein sameinuð svíta sem virðir tíma þinn, ekki athygli þína.",
+    "body2": "Hýst í ESB, dulkóðuð í hvíld, GDPR-byggð frá grunni."
   },
   "suite": {
     "eyebrow": "Svítan",
@@ -43,6 +44,29 @@
       "wikis": {
         "name": "Wikis",
         "description": "Skipulagðar síður fyrir þekkingu teymisins, með fullri breytingasögu og tengingum."
+      }
+    }
+  },
+  "principles": {
+    "eyebrow": "Af hverju Verkio",
+    "headline": "Byggð með smekk.",
+    "subhead": "Gagnastaður er gólfið. Varan er það sem fær þig til að halda áfram að nota hana.",
+    "items": {
+      "standards": {
+        "name": "Staðlar fyrst.",
+        "description": "IMAP, SMTP, CalDAV, CardDAV frá fyrsta degi. Notaðu Thunderbird, Apple Mail, Outlook, K-9 eða DAVx⁵ — við læsum þig ekki inni í forritinu okkar."
+      },
+      "quiet": {
+        "name": "Hljóð.",
+        "description": "Engir gervigreindareiginleikar sem skanna tölvupóstinn þinn. Engar þátttökutilkynningar. Engar „þú gætir haft áhuga á\" uppselja. Við keppum ekki um athygli þína — við förum úr vegi."
+      },
+      "unified": {
+        "name": "Ein svíta, ein tengiliðabók.",
+        "description": "Tölvupóstur, dagatal, tengiliðir, skjöl, wikis — ein innskráning, ein tengiliðabók, einn reikningur. Ekki fimm vörur skrúfaðar saman með SSO."
+      },
+      "leave": {
+        "name": "Frjáls að fara.",
+        "description": "Fullur útflutningur á opnum sniðum hvenær sem er. 20. grein GDPR raunverulega framkvæmd, ekki þjónustubeiðnaferli. Engin lausnargjöld á leiðinni út."
       }
     }
   },
@@ -125,6 +149,20 @@
         "google": "Hnattræn umferð",
         "microsoft": "Hnattræn umferð",
         "info": "Heimildar-DNS fyrir verkio.eu er hýst hjá þjónustuveitendum með aðsetur í ESB — aldrei Route 53 (Amazon), Cloud DNS (Google) eða Azure DNS. Google og Microsoft beina venjulega DNS fyrir lén leigjenda á heimsvísu, svo uppflettingar geta farið um bandarískar nafnaþjónustur."
+      },
+      "ai": {
+        "label": "Gervigreind sjálfgefið innbyggð í svítuna",
+        "verkio": "Engin",
+        "google": "Já (Gemini)",
+        "microsoft": "Já (Copilot)",
+        "info": "Verkio býður ekki upp á gervigreindareiginleika sem draga saman tölvupóst þinn, skanna dagatalið eða þjálfa sig á gögnum þínum. Google og Microsoft fella í auknum mæli gervigreind (Gemini, Copilot) inn í kjarna­svítur sínar — afþökkunarstýringar eru breytilegar eftir áskriftarstigi og stjórnandareglum."
+      },
+      "unifiedSearch": {
+        "label": "Sameinuð leit yfir alla svítuna",
+        "verkio": "Já",
+        "google": "Að hluta",
+        "microsoft": "Að hluta",
+        "info": "Leit í Verkio skilar niðurstöðum úr öllum hlutum svítunnar samtímis: tölvupóstur, dagatal, tengiliðir, skjöl og wikis birtast í sömu niðurstöðum. Google og Microsoft bjóða upp á leit milli nokkurra flata en þekjan er ósamræmd — Outlook-leit finnur ekki OneDrive-skjöl án þess að fara úr Outlook."
       }
     },
     "infoLabel": "Nánari upplýsingar"
@@ -176,6 +214,7 @@
     "tagline": "Evrópskt fyrirtæki. Byggt í ESB. Hýst í ESB.",
     "copyright": "© {year} Verkio",
     "productHeading": "Vara",
+    "resourcesHeading": "Tilföng",
     "legalHeading": "Lagaupplýsingar",
     "contactHeading": "Tengiliður",
     "privacy": "Persónuverndarstefna",
@@ -219,6 +258,92 @@
         "date": "Desember 2026",
         "name": "Vefpósthólf",
         "description": "Hraður, lyklaborðsmiðaður vefviðmót fyrir Verkio-tölvupóst — þræðir, leit og merkingar án óþarfa þyngsla."
+      },
+      "domainAutoSetup": {
+        "date": "September 2026",
+        "name": "Sjálfvirk uppsetning léns",
+        "description": "Bættu við léninu þínu og við stillum MX-, SPF-, DKIM-, DMARC- og autoconfig-færslur fyrir þig. Engin handvirk DNS-vinna."
+      },
+      "migration": {
+        "date": "Q1 2027",
+        "name": "Yfirfærsla frá Google Workspace og Microsoft 365",
+        "description": "Eins-smella innflutningur á tölvupósti, dagatali, tengiliðum og skrám úr Drive eða OneDrive. Með stöðu, endurtekningum og samhliða umskiptatímabili."
+      },
+      "ssoScim": {
+        "date": "Q1 2027",
+        "name": "SSO og SCIM-úthlutun",
+        "description": "SAML- og OIDC-innskráning. SCIM úthlutar og fjarlægir notendur sjálfvirkt í gegnum Okta, Entra ID eða hvaða staðlaðan auðkennisveitanda sem er."
+      },
+      "emailAliases": {
+        "date": "Júlí 2026",
+        "name": "Tölvupósts-samheiti og catch-all",
+        "description": "Ótakmörkuð* samheiti á hvern notanda. Catch-all á léninu þínu svo þú missir aldrei af rangskrifuðu netfangi. Passar með komdu-með-þitt-eigið-lén.",
+        "note": "Háð sanngjarnri notkun"
+      },
+      "schedule": {
+        "date": "Q1 2027",
+        "name": "Verkio Schedule",
+        "description": "Opinberir bókunarhlekkir úr dagatalinu þínu. Eins og Calendly, en hýst í ESB, án rakningar og innbyggt í svítuna."
+      },
+      "auditLog": {
+        "date": "Q2 2027",
+        "name": "Endurskoðunarskrá",
+        "description": "Hver-fékk-aðgang-að-hverju-hvenær, í boði bæði sem viðmót og API. Streymdu í SIEM-kerfið þitt ef þú þarft."
+      },
+      "publicApi": {
+        "date": "Q2 2027",
+        "name": "Opinbert API og webhooks",
+        "description": "Byggðu ofan á Verkio: HTTP-API fyrir tölvupóst, dagatal, tengiliði, skjöl og wikis. Webhooks fyrir innkomna atburði. OAuth 2 og token-auðkenning."
+      },
+      "eidasSigning": {
+        "date": "Q2 2027",
+        "name": "eIDAS-skjalaundirskrift",
+        "description": "Lögbindandi rafrænar undirskriftir samkvæmt eIDAS 2.0. Skrifaðu undir PDF og skjöl beint úr skjalageymslunni þinni."
+      },
+      "calendarPolls": {
+        "date": "Q2 2027",
+        "name": "Dagatalskannanir",
+        "description": "Finndu tíma sem hentar öllum án Doodle-tengils. Stingdu upp á mörgum tímum í boðinu, viðtakendur kjósa, dagatal leysir."
+      },
+      "mobileApps": {
+        "date": "Q3 2027",
+        "name": "Innfædd farsímaforrit",
+        "description": "Eigin iOS- og Android-forrit. Tölvupóstur, dagatal, tengiliðir, skjöl og wikis í vasanum — sami lyklaborðsvænn hraði og á vefnum."
+      },
+      "sharedMailbox": {
+        "date": "Q3 2027",
+        "name": "Vinnuferli sameiginlegs pósthólfs",
+        "description": "Úthluta-til-liðsfélaga, innri minnispunktar, stöðurakning og samtalsýn fyrir support@, hello@ og önnur sameiginleg pósthólf."
+      },
+      "sendLaterSnooze": {
+        "date": "Q3 2027",
+        "name": "Senda síðar, blunda, afturkalla sendingu",
+        "description": "Tímasettu skilaboð fyrir morgundaginn kl. 9. Settu þráð á blund til föstudags. 30 sekúndna svigrúm til að draga til baka sendingu."
+      },
+      "compliance": {
+        "date": "H2 2027",
+        "name": "SOC 2 Type II og ISO 27001",
+        "description": "Vottanir um samræmi sem kaupendur spyrja um. Stöðug skuldbinding með skjölum tilbúnum fyrir endurskoðun."
+      },
+      "realtimeDocs": {
+        "date": "Q4 2027",
+        "name": "Rauntíma skjalasamstarf",
+        "description": "Lifandi marg-bendilsritun yfir skjöl og wikis. Athugasemdir, tillögur, útgáfusaga — byggt á opnum sniðum."
+      },
+      "transactionalEmail": {
+        "date": "Q4 2027",
+        "name": "ESB-hýst API fyrir viðskiptapóst",
+        "description": "Sendu tölvupósta forritsins þíns gegnum Verkio í stað Sendgrid. Sama enga-bandaríska-undirvinnsluaðila-staða, útvíkkuð til þíns eigin vörunnar."
+      },
+      "sieveFilters": {
+        "date": "Q4 2027",
+        "name": "Reglur server-megin (Sieve)",
+        "description": "Flokkaðu, merktu, sendu áfram og svaraðu sjálfkrafa á servernum, svo síurnar þínar virki eins í öllum biðlurum."
+      },
+      "ediscovery": {
+        "date": "Snemma 2028",
+        "name": "eDiscovery og lagaleg varðveisla",
+        "description": "Settu notendur eða pósthólf í varðveislu; leitaðu og fluttu út yfir svítuna fyrir samræmis- og lagalega-uppgötvunarferli."
       }
     }
   },

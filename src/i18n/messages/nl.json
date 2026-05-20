@@ -11,13 +11,14 @@
     "faqs": "FAQ",
     "joinWaitlist": "Inschrijven",
     "language": "Taal",
-    "roadmap": "Roadmap"
+    "roadmap": "Roadmap",
+    "articles": "Artikelen"
   },
   "hero": {
     "eyebrow": "Lancering in juli 2026",
-    "headline": "De Europese mail- en werksuite.",
-    "body1": "Uw e-mail en bedrijfsgegevens — gehost in de EU, versleuteld in rust, AVG-native vanaf de basis.",
-    "body2": "Gemaakt voor wie vindt dat het uitmaakt waar je gegevens staan."
+    "headline": "Snel, gefocust, Europees.",
+    "body1": "E-mail, agenda, contacten, documenten en wiki's — één gebundelde suite die uw tijd respecteert, niet uw aandacht.",
+    "body2": "Gehost in de EU, versleuteld in rust, AVG-native vanaf de basis."
   },
   "suite": {
     "eyebrow": "De suite",
@@ -43,6 +44,29 @@
       "wikis": {
         "name": "Wiki's",
         "description": "Gestructureerde pagina's voor teamkennis, met volledige bewerkingsgeschiedenis en verwijzingen."
+      }
+    }
+  },
+  "principles": {
+    "eyebrow": "Waarom Verkio",
+    "headline": "Met smaak gebouwd.",
+    "subhead": "Dataresidentie is de bodem. Het product is wat ervoor zorgt dat u blijft.",
+    "items": {
+      "standards": {
+        "name": "Standaarden eerst.",
+        "description": "IMAP, SMTP, CalDAV, CardDAV vanaf dag één. Gebruik Thunderbird, Apple Mail, Outlook, K-9 of DAVx⁵ — we sluiten u niet op in onze app."
+      },
+      "quiet": {
+        "name": "Stil.",
+        "description": "Geen AI-functies die uw mail scannen. Geen betrokkenheids­notificaties. Geen 'wellicht interessant'-upsell. We strijden niet om uw aandacht — we gaan u uit de weg."
+      },
+      "unified": {
+        "name": "Eén suite, één adresboek.",
+        "description": "E-mail, agenda, contacten, documenten, wiki's — één login, één adresboek, één factuur. Niet vijf producten met SSO aan elkaar geschroefd."
+      },
+      "leave": {
+        "name": "Vrij om te vertrekken.",
+        "description": "Volledige export in open formaten op elk moment. AVG-artikel 20 echt waargemaakt, geen support-ticket-procedure. Geen losgeld bij vertrek."
       }
     }
   },
@@ -125,6 +149,20 @@
         "google": "Globale routing",
         "microsoft": "Globale routing",
         "info": "Het authoritative DNS voor verkio.eu wordt gehost bij in de EU gevestigde providers — nooit Route 53 (Amazon), Cloud DNS (Google) of Azure DNS. Google en Microsoft routeren DNS voor tenantdomeinen meestal wereldwijd, waardoor lookups via Amerikaanse nameservers kunnen lopen."
+      },
+      "ai": {
+        "label": "AI standaard in de suite ingebouwd",
+        "verkio": "Geen",
+        "google": "Ja (Gemini)",
+        "microsoft": "Ja (Copilot)",
+        "info": "Verkio levert geen AI-functies die uw e-mail samenvatten, uw agenda scannen of op uw data trainen. Google en Microsoft bundelen AI (Gemini, Copilot) steeds vaker in hun kernsuites — met opt-out-instellingen die per tier en beheerdersbeleid verschillen."
+      },
+      "unifiedSearch": {
+        "label": "Geünificeerd zoeken over de hele suite",
+        "verkio": "Ja",
+        "google": "Gedeeltelijk",
+        "microsoft": "Gedeeltelijk",
+        "info": "Zoeken in Verkio levert tegelijk resultaten uit elk deel van de suite: e-mail, agenda, contacten, documenten en wiki's verschijnen in dezelfde resultaten. Google en Microsoft bieden gedeeltelijk overkoepelend zoeken maar dekking is inconsistent — Outlook-zoeken vindt OneDrive-documenten niet zonder Outlook te verlaten."
       }
     },
     "infoLabel": "Meer info"
@@ -176,6 +214,7 @@
     "tagline": "Een Europees bedrijf. Gebouwd in de EU. Gehost in de EU.",
     "copyright": "© {year} Verkio",
     "productHeading": "Product",
+    "resourcesHeading": "Bronnen",
     "legalHeading": "Juridisch",
     "contactHeading": "Contact",
     "privacy": "Privacybeleid",
@@ -219,6 +258,92 @@
         "date": "December 2026",
         "name": "Webmail-inbox",
         "description": "Een snelle, toetsenbord-eerst webclient voor Verkio-mail — threading, zoeken en labels zonder ballast."
+      },
+      "domainAutoSetup": {
+        "date": "September 2026",
+        "name": "Automatische domeininstelling",
+        "description": "Voeg uw domein toe en wij configureren MX-, SPF-, DKIM-, DMARC- en autoconfig-records voor u. Geen handmatig DNS-werk."
+      },
+      "migration": {
+        "date": "Q1 2027",
+        "name": "Migratie van Google Workspace en Microsoft 365",
+        "description": "Eén-klik-import van e-mail, agenda, contacten en Drive- of OneDrive-bestanden. Met status, herhalingen en een naast-elkaar overschakelperiode."
+      },
+      "ssoScim": {
+        "date": "Q1 2027",
+        "name": "SSO en SCIM-provisioning",
+        "description": "SAML- en OIDC-aanmelding. SCIM provisioneert en deprovisioneert gebruikers automatisch via Okta, Entra ID of elke standaard-IdP."
+      },
+      "emailAliases": {
+        "date": "Juli 2026",
+        "name": "E-mailaliassen en catch-all",
+        "description": "Onbeperkte* aliassen per gebruiker. Catch-all op uw domein zodat u nooit een verkeerd gespeld adres mist. Past bij bring-your-own-domain.",
+        "note": "Onder voorbehoud van redelijk gebruik"
+      },
+      "schedule": {
+        "date": "Q1 2027",
+        "name": "Verkio Schedule",
+        "description": "Publieke afsprakenlinks vanuit uw agenda. Net als Calendly, maar EU-gehost, zonder tracking, en in de suite ingebouwd."
+      },
+      "auditLog": {
+        "date": "Q2 2027",
+        "name": "Auditlog",
+        "description": "Wie-heeft-wat-wanneer-bekeken, blootgesteld als zowel UI als API. Stream naar uw SIEM indien nodig."
+      },
+      "publicApi": {
+        "date": "Q2 2027",
+        "name": "Publieke API en webhooks",
+        "description": "Bouw bovenop Verkio: HTTP-API voor mail, agenda, contacten, documenten en wiki's. Webhooks voor inkomende events. OAuth 2 en token-auth."
+      },
+      "eidasSigning": {
+        "date": "Q2 2027",
+        "name": "eIDAS-documentondertekening",
+        "description": "Juridisch bindende elektronische handtekeningen onder eIDAS 2.0. Onderteken PDF's en documenten direct vanuit uw documentopslag."
+      },
+      "calendarPolls": {
+        "date": "Q2 2027",
+        "name": "Agenda-polls",
+        "description": "Vind een tijd die voor iedereen werkt zonder Doodle-link. Stel meerdere slots voor in de uitnodiging, ontvangers stemmen, agenda lost op."
+      },
+      "mobileApps": {
+        "date": "Q3 2027",
+        "name": "Native mobiele apps",
+        "description": "Eigen iOS- en Android-apps. E-mail, agenda, contacten, documenten en wiki's in uw zak — dezelfde toetsenbordvriendelijke snelheid als op het web."
+      },
+      "sharedMailbox": {
+        "date": "Q3 2027",
+        "name": "Workflow voor gedeelde mailboxen",
+        "description": "Toewijzen-aan-teamlid, interne notities, statustracking en gespreksweergaven voor support@, hello@ en andere gedeelde mailboxen."
+      },
+      "sendLaterSnooze": {
+        "date": "Q3 2027",
+        "name": "Later verzenden, sluimer, verzending ongedaan maken",
+        "description": "Plan een bericht voor morgen 9 uur. Sluimer een thread tot vrijdag. 30 seconden coulance om een verzending terug te halen."
+      },
+      "compliance": {
+        "date": "H2 2027",
+        "name": "SOC 2 Type II en ISO 27001",
+        "description": "Compliance-attestaties waar kopers naar vragen. Doorlopende verbintenis met audit-klare documentatie."
+      },
+      "realtimeDocs": {
+        "date": "Q4 2027",
+        "name": "Realtime documentsamenwerking",
+        "description": "Live multi-cursorbewerking in documenten en wiki's. Opmerkingen, suggesties, versiegeschiedenis — gebouwd op open formaten."
+      },
+      "transactionalEmail": {
+        "date": "Q4 2027",
+        "name": "EU-gehoste API voor transactionele e-mail",
+        "description": "Verstuur de e-mails van uw applicatie via Verkio in plaats van Sendgrid. Dezelfde geen-Amerikaanse-subverwerker-houding, uitgebreid naar uw eigen product."
+      },
+      "sieveFilters": {
+        "date": "Q4 2027",
+        "name": "Serverregels (Sieve)",
+        "description": "Sorteren, labelen, doorsturen en automatisch beantwoorden op de server, zodat uw filters in elke client hetzelfde werken."
+      },
+      "ediscovery": {
+        "date": "Begin 2028",
+        "name": "eDiscovery en juridische hold",
+        "description": "Plaats gebruikers of mailboxen onder hold; zoek en exporteer door de hele suite voor compliance- en juridische-discovery-workflows."
       }
     }
   },

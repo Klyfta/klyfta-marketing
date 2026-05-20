@@ -96,7 +96,7 @@ export function Footer() {
               {tFooter("tagline")}
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
             <div>
               <h2 className="mb-4 text-xs font-semibold text-gray-900 uppercase tracking-wider">
                 {tFooter("productHeading")}
@@ -117,9 +117,24 @@ export function Footer() {
                     {tNav("faqs")}
                   </Link>
                 </li>
+              </ul>
+            </div>
+            <div>
+              <h2 className="mb-4 text-xs font-semibold text-gray-900 uppercase tracking-wider">
+                {tFooter("resourcesHeading")}
+              </h2>
+              <ul className="text-sm text-gray-600 space-y-3">
                 <li>
                   <Link href="/roadmap" className="hover:text-gray-900 transition-colors">
                     {tNav("roadmap")}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/articles"
+                    className="hover:text-gray-900 transition-colors"
+                  >
+                    {tNav("articles")}
                   </Link>
                 </li>
               </ul>
