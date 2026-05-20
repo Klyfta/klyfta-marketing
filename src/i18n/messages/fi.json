@@ -219,6 +219,7 @@
     "contactHeading": "Yhteystiedot",
     "privacy": "Tietosuojakäytäntö",
     "terms": "Käyttöehdot",
+    "subprocessors": "Alikäsittelijät",
     "allRightsReserved": "Kaikki oikeudet pidätetään"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Tätä selostetta tai rekisteröidyn oikeuksia koskevat tiedustelut: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Alikäsittelijät — Verkio",
+    "metaDescription": "Kolmannet osapuolet, joita Verkio käyttää tuotteen tarjoamiseen. Jokaisen kanssa on tehty tietojenkäsittelysopimus.",
+    "eyebrow": "Lakiasiat",
+    "headline": "Alikäsittelijät",
+    "lastUpdated": "Viimeksi päivitetty: 20. toukokuuta 2026",
+    "backLink": "Takaisin etusivulle",
+    "intro": "Nämä ovat kolmannet osapuolet, joita Verkio käyttää tuotteen tarjoamiseen. Jokaisen kanssa on voimassa tietojenkäsittelysopimus (DPA). Ilmoitamme 30 päivää etukäteen, ennen kuin lisäämme tai korvaamme alikäsittelijän.",
+    "columns": {
+      "vendor": "Toimittaja",
+      "purpose": "Tarkoitus",
+      "country": "Maa",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Pilvipalvelimet, Storage Box varmuuskopioille",
+      "mollie": "Tilauslaskutus, maksujen käsittely, asiakasportaali"
+    },
+    "dpaLink": "Linkki",
+    "noticeHeading": "Ilmoitus muutoksista",
+    "noticeBody": "Saat ilmoituksen tämän listan muutoksista lähettämällä viestin osoitteeseen <email>subprocessors@verkio.eu</email> ja pyytämällä lisäämistä ilmoituslistalle."
   },
   "terms": {
     "metaTitle": "Käyttöehdot — Verkio",

@@ -219,6 +219,7 @@
     "contactHeading": "Kontakt",
     "privacy": "Polityka prywatności",
     "terms": "Regulamin",
+    "subprocessors": "Podwykonawcy",
     "allRightsReserved": "Wszelkie prawa zastrzeżone"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Pytania dotyczące tej informacji lub żądania osób, których dane dotyczą: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Podwykonawcy — Verkio",
+    "metaDescription": "Usługi zewnętrzne, z których Verkio korzysta przy świadczeniu produktu. Z każdym podpisana jest umowa powierzenia przetwarzania danych.",
+    "eyebrow": "Prawne",
+    "headline": "Podwykonawcy",
+    "lastUpdated": "Ostatnia aktualizacja: 20 maja 2026",
+    "backLink": "Powrót do strony głównej",
+    "intro": "Oto usługi zewnętrzne, z których Verkio korzysta przy świadczeniu produktu. Z każdym podpisana jest umowa powierzenia przetwarzania danych (DPA). Z 30-dniowym wyprzedzeniem informujemy o dodaniu lub zmianie podwykonawcy.",
+    "columns": {
+      "vendor": "Dostawca",
+      "purpose": "Cel",
+      "country": "Kraj",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Serwery w chmurze, Storage Box do kopii zapasowych",
+      "mollie": "Rozliczanie subskrypcji, przetwarzanie płatności, portal klienta"
+    },
+    "dpaLink": "Link",
+    "noticeHeading": "Powiadomienie o zmianach",
+    "noticeBody": "Aby otrzymywać powiadomienia o zmianach na tej liście, napisz na <email>subprocessors@verkio.eu</email> i poproś o dodanie do listy powiadomień."
   },
   "terms": {
     "metaTitle": "Regulamin — Verkio",

@@ -219,6 +219,7 @@
     "contactHeading": "Kontakt",
     "privacy": "Personvern",
     "terms": "Vilkår",
+    "subprocessors": "Underdatabehandlere",
     "allRightsReserved": "Alle rettigheter reservert"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Spørsmål om denne erklæringen eller forespørsel fra registrert: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Underdatabehandlere — Verkio",
+    "metaDescription": "Tredjepartstjenester som Verkio bruker for å levere produktet. Med hver enkelt er det inngått en databehandleravtale.",
+    "eyebrow": "Juridisk",
+    "headline": "Underdatabehandlere",
+    "lastUpdated": "Sist oppdatert: 20. mai 2026",
+    "backLink": "Tilbake til forsiden",
+    "intro": "Dette er tredjepartstjenestene som Verkio bruker for å levere produktet. Med hver enkelt er det inngått en databehandleravtale (DPA). Vi varsler 30 dager i forveien før vi legger til eller bytter ut en underdatabehandler.",
+    "columns": {
+      "vendor": "Leverandør",
+      "purpose": "Formål",
+      "country": "Land",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Skyservere, Storage Box for sikkerhetskopier",
+      "mollie": "Abonnementsfakturering, betalingsbehandling, kundeportal"
+    },
+    "dpaLink": "Lenke",
+    "noticeHeading": "Varsel om endringer",
+    "noticeBody": "For å motta varsel når denne listen endres, send e-post til <email>subprocessors@verkio.eu</email> og be om å bli lagt til på varslingslisten."
   },
   "terms": {
     "metaTitle": "Vilkår og betingelser — Verkio",

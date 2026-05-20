@@ -219,6 +219,7 @@
     "contactHeading": "Kontakt",
     "privacy": "Zásady ochrany osobních údajů",
     "terms": "Smluvní podmínky",
+    "subprocessors": "Subzpracovatelé",
     "allRightsReserved": "Všechna práva vyhrazena"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Dotazy k tomuto oznámení nebo žádosti subjektu údajů: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Subzpracovatelé — Verkio",
+    "metaDescription": "Externí služby, které Verkio využívá k poskytování produktu. S každou je uzavřena smlouva o zpracování osobních údajů.",
+    "eyebrow": "Právní",
+    "headline": "Subzpracovatelé",
+    "lastUpdated": "Naposledy aktualizováno: 20. května 2026",
+    "backLink": "Zpět na úvod",
+    "intro": "Toto jsou externí služby, které Verkio využívá k poskytování produktu. S každou je uzavřena smlouva o zpracování osobních údajů (DPA). O přidání nebo nahrazení subzpracovatele informujeme s 30denním předstihem.",
+    "columns": {
+      "vendor": "Dodavatel",
+      "purpose": "Účel",
+      "country": "Země",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Cloudové servery, Storage Box pro zálohy",
+      "mollie": "Fakturace předplatného, zpracování plateb, zákaznický portál"
+    },
+    "dpaLink": "Odkaz",
+    "noticeHeading": "Oznámení o změnách",
+    "noticeBody": "Pokud chcete dostávat oznámení o změnách v tomto seznamu, napište na <email>subprocessors@verkio.eu</email> a požádejte o zařazení do seznamu oznámení."
   },
   "terms": {
     "metaTitle": "Podmínky používání — Verkio",

@@ -219,6 +219,7 @@
     "contactHeading": "Kontakt",
     "privacy": "Datenschutz",
     "terms": "AGB",
+    "subprocessors": "Auftragsverarbeiter",
     "allRightsReserved": "Alle Rechte vorbehalten"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Fragen zu dieser Erklärung oder ein Betroffenenrecht: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Auftragsverarbeiter — Verkio",
+    "metaDescription": "Dritte Dienste, die Verkio zur Bereitstellung des Produkts nutzt. Für jeden besteht ein Auftragsverarbeitungsvertrag.",
+    "eyebrow": "Recht",
+    "headline": "Auftragsverarbeiter",
+    "lastUpdated": "Zuletzt aktualisiert: 20. Mai 2026",
+    "backLink": "Zurück zur Startseite",
+    "intro": "Dies sind die Drittanbieter, die Verkio zur Bereitstellung des Produkts einsetzt. Mit jedem besteht ein Auftragsverarbeitungsvertrag (AVV). Vor Hinzufügen oder Ersetzen eines Auftragsverarbeiters informieren wir mit 30 Tagen Vorlauf.",
+    "columns": {
+      "vendor": "Anbieter",
+      "purpose": "Zweck",
+      "country": "Land",
+      "dpa": "AVV"
+    },
+    "purposes": {
+      "hetzner": "Cloud-Server, Storage Box für Backups",
+      "mollie": "Abonnementabrechnung, Zahlungsabwicklung, Kundenportal"
+    },
+    "dpaLink": "Link",
+    "noticeHeading": "Mitteilung über Änderungen",
+    "noticeBody": "Um benachrichtigt zu werden, wenn sich diese Liste ändert, schreiben Sie an <email>subprocessors@verkio.eu</email> und bitten Sie um Aufnahme in die Änderungsliste."
   },
   "terms": {
     "metaTitle": "Nutzungsbedingungen — Verkio",

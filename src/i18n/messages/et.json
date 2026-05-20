@@ -219,6 +219,7 @@
     "contactHeading": "Kontakt",
     "privacy": "Privaatsuspoliitika",
     "terms": "Kasutustingimused",
+    "subprocessors": "Allvolitatud töötlejad",
     "allRightsReserved": "Kõik õigused kaitstud"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Selle teate või andmesubjekti taotluse kohta: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Allvolitatud töötlejad — Verkio",
+    "metaDescription": "Kolmandate osapoolte teenused, mida Verkio toote pakkumiseks kasutab. Igaühega on sõlmitud andmetöötlusleping.",
+    "eyebrow": "Õiguslik",
+    "headline": "Allvolitatud töötlejad",
+    "lastUpdated": "Viimati uuendatud: 20. mai 2026",
+    "backLink": "Tagasi avalehele",
+    "intro": "Need on kolmanda osapoole teenused, mida Verkio toote pakkumiseks kasutab. Igaühega on sõlmitud andmetöötlusleping (DPA). Anname 30-päevase etteteatamise enne allvolitatud töötleja lisamist või asendamist.",
+    "columns": {
+      "vendor": "Pakkuja",
+      "purpose": "Eesmärk",
+      "country": "Riik",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Pilveserverid, Storage Box varukoopiate jaoks",
+      "mollie": "Tellimuste arveldamine, maksete töötlemine, kliendiportaal"
+    },
+    "dpaLink": "Link",
+    "noticeHeading": "Muudatustest teavitamine",
+    "noticeBody": "Kui soovite saada teavitusi selle nimekirja muudatustest, kirjutage aadressile <email>subprocessors@verkio.eu</email> ja paluge end teavitusnimekirja lisada."
   },
   "terms": {
     "metaTitle": "Kasutustingimused — Verkio",

@@ -219,6 +219,7 @@
     "contactHeading": "Tengiliður",
     "privacy": "Persónuverndarstefna",
     "terms": "Skilmálar",
+    "subprocessors": "Undirvinnsluaðilar",
     "allRightsReserved": "Allur réttur áskilinn"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Spurningar um þessa tilkynningu eða beiðnir skráðs aðila: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Undirvinnsluaðilar — Verkio",
+    "metaDescription": "Þriðju aðila þjónustur sem Verkio notar til að afhenda vöruna. Við hverja er gerð samningur um vinnslu persónuupplýsinga.",
+    "eyebrow": "Lögfræði",
+    "headline": "Undirvinnsluaðilar",
+    "lastUpdated": "Síðast uppfært: 20. maí 2026",
+    "backLink": "Til baka á forsíðu",
+    "intro": "Þetta eru þriðju aðila þjónustur sem Verkio notar til að afhenda vöruna. Við hverja er í gildi samningur um vinnslu persónuupplýsinga (DPA). Við tilkynnum með 30 daga fyrirvara áður en við bætum við eða skiptum um undirvinnsluaðila.",
+    "columns": {
+      "vendor": "Þjónustuaðili",
+      "purpose": "Tilgangur",
+      "country": "Land",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Skýjaþjónar, Storage Box fyrir öryggisafrit",
+      "mollie": "Reikningsfærsla áskrifta, greiðsluvinnsla, viðskiptavinasvæði"
+    },
+    "dpaLink": "Hlekkur",
+    "noticeHeading": "Tilkynning um breytingar",
+    "noticeBody": "Til að fá tilkynningar þegar þessi listi breytist, sendu tölvupóst á <email>subprocessors@verkio.eu</email> og biddu um að vera bætt á tilkynningalistann."
   },
   "terms": {
     "metaTitle": "Skilmálar — Verkio",

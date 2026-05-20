@@ -219,6 +219,7 @@
     "contactHeading": "Contatti",
     "privacy": "Informativa sulla privacy",
     "terms": "Termini e condizioni",
+    "subprocessors": "Subresponsabili",
     "allRightsReserved": "Tutti i diritti riservati"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Domande su questa informativa o richieste dell'interessato: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Subresponsabili — Verkio",
+    "metaDescription": "Servizi di terze parti utilizzati da Verkio per fornire il prodotto. Per ciascuno è presente un accordo di trattamento dei dati.",
+    "eyebrow": "Legale",
+    "headline": "Subresponsabili del trattamento",
+    "lastUpdated": "Ultimo aggiornamento: 20 maggio 2026",
+    "backLink": "Torna alla home",
+    "intro": "Questi sono i servizi di terze parti che Verkio utilizza per fornire il prodotto. Per ciascuno è in vigore un Accordo sul Trattamento dei Dati (DPA). Diamo un preavviso di 30 giorni prima di aggiungere o sostituire un subresponsabile.",
+    "columns": {
+      "vendor": "Fornitore",
+      "purpose": "Finalità",
+      "country": "Paese",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Server cloud, Storage Box per i backup",
+      "mollie": "Fatturazione abbonamenti, elaborazione pagamenti, portale clienti"
+    },
+    "dpaLink": "Collegamento",
+    "noticeHeading": "Comunicazione delle modifiche",
+    "noticeBody": "Per ricevere notifiche quando questo elenco cambia, scrivi a <email>subprocessors@verkio.eu</email> e chiedi di essere aggiunto all'elenco delle notifiche."
   },
   "terms": {
     "metaTitle": "Termini e condizioni — Verkio",

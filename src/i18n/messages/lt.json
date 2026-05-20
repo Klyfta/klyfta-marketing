@@ -219,6 +219,7 @@
     "contactHeading": "Kontaktai",
     "privacy": "Privatumo politika",
     "terms": "Naudojimosi sąlygos",
+    "subprocessors": "Tvarkytojai",
     "allRightsReserved": "Visos teisės saugomos"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Klausimai dėl šio pranešimo arba duomenų subjekto prašymai: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Tvarkytojai — Verkio",
+    "metaDescription": "Trečiųjų šalių paslaugos, kurias Verkio naudoja produktui teikti. Su kiekviena yra sudaryta duomenų tvarkymo sutartis.",
+    "eyebrow": "Teisinė informacija",
+    "headline": "Duomenų tvarkytojai",
+    "lastUpdated": "Paskutinį kartą atnaujinta: 2026 m. gegužės 20 d.",
+    "backLink": "Atgal į pradžią",
+    "intro": "Tai trečiųjų šalių paslaugos, kurias Verkio naudoja produktui teikti. Su kiekviena galioja duomenų tvarkymo sutartis (DPA). Apie naujo tvarkytojo pridėjimą ar pakeitimą įspėjame prieš 30 dienų.",
+    "columns": {
+      "vendor": "Tiekėjas",
+      "purpose": "Tikslas",
+      "country": "Šalis",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Debesų serveriai, Storage Box atsarginėms kopijoms",
+      "mollie": "Prenumeratos sąskaitos, mokėjimų apdorojimas, klientų portalas"
+    },
+    "dpaLink": "Nuoroda",
+    "noticeHeading": "Pranešimas apie pakeitimus",
+    "noticeBody": "Norėdami gauti pranešimus, kai šis sąrašas pasikeis, rašykite <email>subprocessors@verkio.eu</email> ir paprašykite, kad būtumėte įtraukti į pranešimų sąrašą."
   },
   "terms": {
     "metaTitle": "Naudojimosi sąlygos — Verkio",

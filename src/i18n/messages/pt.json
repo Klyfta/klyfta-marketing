@@ -219,6 +219,7 @@
     "contactHeading": "Contacto",
     "privacy": "Política de privacidade",
     "terms": "Termos e condições",
+    "subprocessors": "Subcontratantes",
     "allRightsReserved": "Todos os direitos reservados"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Perguntas sobre este aviso ou pedidos do titular dos dados: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Subcontratantes — Verkio",
+    "metaDescription": "Serviços de terceiros que a Verkio utiliza para fornecer o produto. Cada um tem um Acordo de Tratamento de Dados em vigor.",
+    "eyebrow": "Jurídico",
+    "headline": "Subcontratantes",
+    "lastUpdated": "Última atualização: 20 de maio de 2026",
+    "backLink": "Voltar ao início",
+    "intro": "Estes são os serviços de terceiros que a Verkio utiliza para fornecer o produto. Cada um tem um Acordo de Tratamento de Dados (DPA) em vigor. Damos um aviso de 30 dias antes de adicionar ou substituir um subcontratante.",
+    "columns": {
+      "vendor": "Fornecedor",
+      "purpose": "Finalidade",
+      "country": "País",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Servidores cloud, Storage Box para backups",
+      "mollie": "Faturação de subscrições, processamento de pagamentos, portal do cliente"
+    },
+    "dpaLink": "Ligação",
+    "noticeHeading": "Notificação de alterações",
+    "noticeBody": "Para receber notificações quando esta lista mudar, envie um email para <email>subprocessors@verkio.eu</email> e peça para ser adicionado à lista de notificações."
   },
   "terms": {
     "metaTitle": "Termos e condições — Verkio",

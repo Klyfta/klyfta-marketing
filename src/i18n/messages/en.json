@@ -218,6 +218,7 @@
     "contactHeading": "Contact",
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions",
+    "subprocessors": "Subprocessors",
     "allRightsReserved": "All Rights Reserved"
   },
   "waitlist": {
@@ -281,6 +282,28 @@
         "body": "Questions about this notice or a data-subject request: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Subprocessors — Verkio",
+    "metaDescription": "Third-party services Verkio uses to deliver the product. Each has a Data Processing Agreement on file.",
+    "eyebrow": "Legal",
+    "headline": "Subprocessors",
+    "lastUpdated": "Last updated: 20 May 2026",
+    "backLink": "Back to home",
+    "intro": "These are the third-party services Verkio uses to deliver the product. Each has a Data Processing Agreement on file. We give 30 days' notice before adding or replacing a subprocessor.",
+    "columns": {
+      "vendor": "Vendor",
+      "purpose": "Purpose",
+      "country": "Country",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Cloud servers, Storage Box for backups",
+      "mollie": "Subscription billing, payment processing, customer portal"
+    },
+    "dpaLink": "Link",
+    "noticeHeading": "Notice of changes",
+    "noticeBody": "To receive notifications when this list changes, email <email>subprocessors@verkio.eu</email> and ask to be added to the subprocessor change list."
   },
   "terms": {
     "metaTitle": "Terms & Conditions — Verkio",

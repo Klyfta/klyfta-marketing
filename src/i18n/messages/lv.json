@@ -219,6 +219,7 @@
     "contactHeading": "Kontakti",
     "privacy": "Privātuma politika",
     "terms": "Lietošanas noteikumi",
+    "subprocessors": "Apakšapstrādātāji",
     "allRightsReserved": "Visas tiesības aizsargātas"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Jautājumi par šo paziņojumu vai datu subjekta pieprasījumi: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Apakšapstrādātāji — Verkio",
+    "metaDescription": "Trešās puses pakalpojumi, ko Verkio izmanto produkta nodrošināšanai. Ar katru ir noslēgts datu apstrādes līgums.",
+    "eyebrow": "Juridiski",
+    "headline": "Apakšapstrādātāji",
+    "lastUpdated": "Pēdējoreiz atjaunināts: 2026. gada 20. maijā",
+    "backLink": "Atpakaļ uz sākumu",
+    "intro": "Šie ir trešās puses pakalpojumi, ko Verkio izmanto produkta nodrošināšanai. Ar katru ir spēkā datu apstrādes līgums (DPA). Mēs paziņojam 30 dienas iepriekš par apakšapstrādātāja pievienošanu vai aizstāšanu.",
+    "columns": {
+      "vendor": "Piegādātājs",
+      "purpose": "Mērķis",
+      "country": "Valsts",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Mākoņa serveri, Storage Box dublējumkopijām",
+      "mollie": "Abonementu rēķini, maksājumu apstrāde, klientu portāls"
+    },
+    "dpaLink": "Saite",
+    "noticeHeading": "Paziņojums par izmaiņām",
+    "noticeBody": "Lai saņemtu paziņojumus, kad šis saraksts mainās, rakstiet uz <email>subprocessors@verkio.eu</email> un lūdziet pievienot jūs paziņojumu sarakstam."
   },
   "terms": {
     "metaTitle": "Lietošanas noteikumi — Verkio",

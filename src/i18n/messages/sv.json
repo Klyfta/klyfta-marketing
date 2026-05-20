@@ -219,6 +219,7 @@
     "contactHeading": "Kontakt",
     "privacy": "Integritetspolicy",
     "terms": "Användarvillkor",
+    "subprocessors": "Underbiträden",
     "allRightsReserved": "Alla rättigheter förbehållna"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Frågor om detta meddelande eller begäran från registrerad: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Underbiträden — Verkio",
+    "metaDescription": "Tredjepartstjänster som Verkio använder för att leverera produkten. Med var och en finns ett databehandlingsavtal.",
+    "eyebrow": "Juridik",
+    "headline": "Underbiträden",
+    "lastUpdated": "Senast uppdaterad: 20 maj 2026",
+    "backLink": "Tillbaka till start",
+    "intro": "Detta är de tredjepartstjänster som Verkio använder för att leverera produkten. Med varje finns ett databehandlingsavtal (DPA). Vi ger 30 dagars förvarning innan vi lägger till eller byter ut ett underbiträde.",
+    "columns": {
+      "vendor": "Leverantör",
+      "purpose": "Syfte",
+      "country": "Land",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Molnservrar, Storage Box för säkerhetskopior",
+      "mollie": "Abonnemangsfakturering, betalningshantering, kundportal"
+    },
+    "dpaLink": "Länk",
+    "noticeHeading": "Information om ändringar",
+    "noticeBody": "Mejla <email>subprocessors@verkio.eu</email> och be om att läggas till på listan om du vill få besked när listan ändras."
   },
   "terms": {
     "metaTitle": "Användarvillkor — Verkio",

@@ -219,6 +219,7 @@
     "contactHeading": "Contact",
     "privacy": "Privacybeleid",
     "terms": "Algemene voorwaarden",
+    "subprocessors": "Subverwerkers",
     "allRightsReserved": "Alle rechten voorbehouden"
   },
   "waitlist": {
@@ -393,6 +394,28 @@
         "body": "Vragen over deze verklaring of een verzoek betreffende uw rechten: hello@verkio.eu."
       }
     ]
+  },
+  "subprocessors": {
+    "metaTitle": "Subverwerkers — Verkio",
+    "metaDescription": "Externe diensten die Verkio gebruikt om het product te leveren. Met elke partij is een verwerkersovereenkomst gesloten.",
+    "eyebrow": "Juridisch",
+    "headline": "Subverwerkers",
+    "lastUpdated": "Laatst bijgewerkt: 20 mei 2026",
+    "backLink": "Terug naar home",
+    "intro": "Dit zijn de externe diensten die Verkio gebruikt om het product te leveren. Met elke partij is een verwerkersovereenkomst gesloten. We geven 30 dagen kennisgeving voordat we een subverwerker toevoegen of vervangen.",
+    "columns": {
+      "vendor": "Leverancier",
+      "purpose": "Doel",
+      "country": "Land",
+      "dpa": "DPA"
+    },
+    "purposes": {
+      "hetzner": "Cloudservers, Storage Box voor back-ups",
+      "mollie": "Abonnementsfacturatie, betalingsverwerking, klantportaal"
+    },
+    "dpaLink": "Link",
+    "noticeHeading": "Kennisgeving van wijzigingen",
+    "noticeBody": "Om meldingen te ontvangen wanneer deze lijst wijzigt, e-mail <email>subprocessors@verkio.eu</email> en vraag om toegevoegd te worden aan de meldingslijst."
   },
   "terms": {
     "metaTitle": "Algemene voorwaarden — Verkio",

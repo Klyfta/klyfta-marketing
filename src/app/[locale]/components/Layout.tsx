@@ -186,6 +186,14 @@ export function Footer() {
                     {tFooter("terms")}
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/subprocessors"
+                    className="hover:text-gray-900 transition-colors"
+                  >
+                    {tFooter("subprocessors")}
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
