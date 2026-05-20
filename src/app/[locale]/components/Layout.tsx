@@ -15,11 +15,43 @@ export function Container({
   );
 }
 
-export function Logo({ className = "" }: { className?: string }) {
+export function Logo({
+  className = "",
+  size = "md",
+}: {
+  className?: string;
+  size?: "sm" | "md";
+}) {
+  const markClass = size === "sm" ? "h-6 w-auto" : "h-8 w-auto";
+  const textClass =
+    size === "sm"
+      ? "text-lg font-semibold tracking-tight leading-none"
+      : "text-2xl font-semibold tracking-tight leading-none";
   return (
-    <span className={`text-lg font-semibold tracking-tight ${className}`}>
-      Verkio
+    <span className={`inline-flex items-center gap-x-2 ${className}`}>
+      <VerkioMark className={markClass} />
+      <span className={textClass}>Verkio</span>
     </span>
+  );
+}
+
+export function VerkioMark({ className = "" }: { className?: string }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 858.320694 586.538568"
+      preserveAspectRatio="xMidYMid meet"
+      aria-hidden="true"
+      className={className}
+    >
+      <g
+        transform="translate(-0.179576,586.554711) scale(0.100000,-0.100000)"
+        fill="currentColor"
+        stroke="none"
+      >
+        <path d="M3365 5859 c-449 -36 -750 -108 -1050 -253 -720 -347 -1175 -967 -1276 -1741 -29 -222 -6 -602 51 -841 11 -47 20 -89 20 -93 0 -4 -42 -20 -92 -36 -410 -122 -755 -443 -906 -840 -134 -350 -146 -715 -36 -1060 29 -90 109 -264 157 -340 206 -327 523 -547 917 -635 83 -19 167 -20 2933 -20 3035 0 2937 -1 3182 46 337 65 623 213 851 439 212 211 344 462 417 796 53 236 52 218 52 1659 0 1464 1 1424 -57 1675 -148 641 -583 1060 -1248 1205 -200 44 -162 43 -2035 45 -979 2 -1825 -1 -1880 -6z m3645 -504 c149 -18 235 -36 345 -76 170 -60 281 -127 392 -237 193 -190 297 -437 333 -791 16 -167 13 -2525 -4 -2671 -64 -534 -301 -851 -746 -1001 -167 -56 -274 -70 -575 -75 l-270 -5 55 53 c320 308 506 659 579 1088 28 164 35 322 22 480 -39 455 -199 859 -474 1197 l-67 82 433 334 c237 184 446 350 463 368 52 55 68 97 68 169 0 78 -21 127 -77 182 -71 69 -202 87 -283 39 -18 -11 -250 -187 -515 -392 l-481 -372 -36 22 c-137 83 -407 194 -524 216 -34 6 -39 11 -48 49 -84 322 -163 524 -294 748 -106 182 -202 306 -361 466 l-142 142 1046 0 c833 -1 1069 -3 1161 -15z m-3301 -29 c612 -114 1063 -491 1299 -1086 30 -76 94 -272 89 -275 -1 -1 -43 -14 -93 -28 -111 -32 -262 -96 -308 -131 -50 -38 -89 -124 -89 -195 2 -135 111 -245 243 -244 40 1 83 12 160 43 140 56 235 80 350 87 83 5 107 2 192 -21 245 -67 447 -187 641 -380 418 -417 569 -1103 363 -1649 -163 -434 -560 -786 -1027 -912 -210 -56 -156 -55 -2223 -55 -2109 0 -1991 -4 -2184 65 -293 105 -514 356 -595 675 -29 117 -31 376 -3 495 42 182 119 324 248 459 106 112 220 186 356 232 256 88 443 82 700 -22 144 -59 200 -62 280 -19 140 76 176 257 74 376 -62 73 -301 172 -480 201 l-81 12 -21 79 c-240 887 80 1662 860 2084 193 105 526 208 685 213 28 0 68 5 90 10 60 13 377 4 474 -14z" />
+      </g>
+    </svg>
   );
 }
 
@@ -29,8 +61,8 @@ export function Header() {
     <header className="sticky top-0 z-40 bg-white">
       <Container>
         <nav className="flex items-center justify-between py-6">
-          <Link href="/" aria-label="Verkio">
-            <Logo className="text-gray-900" />
+          <Link href="/" aria-label="Verkio" className="text-gray-900">
+            <Logo />
           </Link>
           <div className="flex items-center gap-x-6 sm:gap-x-8">
             <Link
@@ -64,14 +96,6 @@ export function Header() {
   );
 }
 
-function XIcon(props: React.ComponentPropsWithoutRef<"svg">) {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
-      <path d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z" />
-    </svg>
-  );
-}
-
 function LinkedInIcon(props: React.ComponentPropsWithoutRef<"svg">) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
@@ -89,8 +113,10 @@ export function Footer() {
       <Container className="py-12 lg:py-16">
         <div className="md:flex md:justify-between">
           <div className="mb-10 md:mb-0">
-            <Link href="/" className="flex items-center" aria-label="Verkio">
-              <Logo className="text-gray-900" />
+            <Link href="/" aria-label="Verkio" className="text-gray-900">
+              <span className="text-lg font-semibold tracking-tight">
+                Verkio
+              </span>
             </Link>
             <p className="mt-4 text-sm text-gray-600 max-w-sm">
               {tFooter("tagline")}
@@ -194,18 +220,13 @@ export function Footer() {
           </p>
           <div className="flex mt-4 sm:mt-0 gap-5">
             <a
-              href="#"
+              href="https://www.linkedin.com/company/verkio/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-500 hover:text-gray-900 transition-colors"
               aria-label="LinkedIn"
             >
               <LinkedInIcon className="h-5 w-5" />
-            </a>
-            <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 transition-colors"
-              aria-label="X"
-            >
-              <XIcon className="h-5 w-5" />
             </a>
           </div>
         </div>
