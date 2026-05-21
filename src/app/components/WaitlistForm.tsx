@@ -28,7 +28,9 @@ export function WaitlistForm({ onDark = false }: { onDark?: boolean }) {
     ? "inline-flex w-full justify-center rounded-lg bg-white px-4 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-100 transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
     : "inline-flex w-full justify-center rounded-lg bg-gray-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800 transition-colors disabled:opacity-60 disabled:cursor-not-allowed";
 
-  const successClass = onDark ? "text-sm text-gray-300" : "text-sm text-gray-700";
+  const successClass = onDark
+    ? "text-sm text-gray-300 text-center"
+    : "text-sm text-gray-700 text-center";
   const errorClass = onDark ? "text-sm text-red-300" : "text-sm text-red-700";
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
