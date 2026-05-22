@@ -244,6 +244,25 @@
     "headline": "Mis Verkios tuleb.",
     "subhead": "Kuhu järgmiseks suundume.",
     "backLink": "Tagasi avalehele",
+    "statusImplemented": "Rakendatud",
+    "suggestFeature": "Soovita funktsioon",
+    "requestForm": {
+      "title": "Kas on midagi lisada?",
+      "description": "Öelge meile, mida soovite, et Verkio teeks. Loeme iga soovi ja arvestame seda tulevastes versioonides.",
+      "requestLabel": "Mida sooviksite näha?",
+      "requestPlaceholder": "Lühike kirjeldus funktsioonist, integratsioonist või käitumisest, mida soovite.",
+      "emailLabel": "E-post",
+      "emailOptional": "(valikuline, et saaksime tagasi vastata)",
+      "emailPlaceholder": "sina@sinufirma.ee",
+      "submit": "Saada soov",
+      "submitting": "Saadetakse…",
+      "successMessage": "Aitäh. Teie soov on registreeritud.",
+      "close": "Sulge",
+      "invalidRequest": "Palun lisage veidi rohkem detaile (vähemalt 10 tähemärki).",
+      "invalidEmail": "Sisestage kehtiv e-posti aadress.",
+      "invalidInput": "Vigane sisend.",
+      "genericError": "Midagi läks valesti. Proovige uuesti või kirjutage hello@verkio.eu."
+    },
     "items": {
       "wiki": {
         "date": "August 2026",

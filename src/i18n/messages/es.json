@@ -244,6 +244,25 @@
     "headline": "Lo que viene en Verkio.",
     "subhead": "Hacia dónde vamos.",
     "backLink": "Volver al inicio",
+    "statusImplemented": "Implementado",
+    "suggestFeature": "Sugerir función",
+    "requestForm": {
+      "title": "¿Algo que añadir?",
+      "description": "Dinos qué te gustaría que hiciera Verkio. Leemos cada solicitud y la valoramos para futuras versiones.",
+      "requestLabel": "¿Qué te gustaría ver?",
+      "requestPlaceholder": "Una breve descripción de la función, integración o comportamiento que te gustaría.",
+      "emailLabel": "Correo electrónico",
+      "emailOptional": "(opcional, para poder hacer seguimiento)",
+      "emailPlaceholder": "tu@tuempresa.com",
+      "submit": "Enviar solicitud",
+      "submitting": "Enviando…",
+      "successMessage": "Gracias. Hemos registrado tu solicitud.",
+      "close": "Cerrar",
+      "invalidRequest": "Añade un poco más de detalle (al menos 10 caracteres).",
+      "invalidEmail": "Introduce una dirección de correo electrónico válida.",
+      "invalidInput": "Entrada no válida.",
+      "genericError": "Algo salió mal. Inténtalo de nuevo o escríbenos a hello@verkio.eu."
+    },
     "items": {
       "wiki": {
         "date": "Agosto de 2026",

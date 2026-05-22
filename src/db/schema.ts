@@ -12,3 +12,15 @@ export const waitlist = pgTable("waitlist", {
 
 export type Waitlist = typeof waitlist.$inferSelect;
 export type NewWaitlist = typeof waitlist.$inferInsert;
+
+export const roadmapRequests = pgTable("roadmap_requests", {
+  id: serial("id").primaryKey(),
+  request: text("request").notNull(),
+  email: varchar("email", { length: 255 }),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  ipAddress: varchar("ip_address", { length: 64 }),
+  userAgent: text("user_agent"),
+});
+
+export type RoadmapRequest = typeof roadmapRequests.$inferSelect;
+export type NewRoadmapRequest = typeof roadmapRequests.$inferInsert;

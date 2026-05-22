@@ -244,6 +244,25 @@
     "headline": "Kas netrukus bus Verkio.",
     "subhead": "Kur einame toliau.",
     "backLink": "Atgal į pradžią",
+    "statusImplemented": "Įdiegta",
+    "suggestFeature": "Pasiūlyti funkciją",
+    "requestForm": {
+      "title": "Norite ko nors pridėti?",
+      "description": "Papasakokite, ką norėtumėte, kad Verkio darytų. Mes perskaitome kiekvieną prašymą ir svarstome jį būsimose versijose.",
+      "requestLabel": "Ką norėtumėte pamatyti?",
+      "requestPlaceholder": "Trumpas funkcijos, integracijos ar elgsenos, kurios pageidaujate, aprašymas.",
+      "emailLabel": "El. paštas",
+      "emailOptional": "(neprivaloma, kad galėtume atsakyti)",
+      "emailPlaceholder": "tu@tavokompanija.lt",
+      "submit": "Pateikti prašymą",
+      "submitting": "Siunčiama…",
+      "successMessage": "Ačiū. Jūsų prašymas užregistruotas.",
+      "close": "Uždaryti",
+      "invalidRequest": "Pridėkite šiek tiek daugiau detalių (bent 10 simbolių).",
+      "invalidEmail": "Įveskite galiojantį el. pašto adresą.",
+      "invalidInput": "Netinkama įvestis.",
+      "genericError": "Kažkas nepavyko. Pabandykite dar kartą arba rašykite hello@verkio.eu."
+    },
     "items": {
       "wiki": {
         "date": "2026 m. rugpjūtis",

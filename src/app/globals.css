@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+    scrollbar-gutter: stable;
+}
+
 @theme {
     --text-*: initial;
     --text-xs: 0.75rem;

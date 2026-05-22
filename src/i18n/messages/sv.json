@@ -244,6 +244,25 @@
     "headline": "Vad som är på gång i Verkio.",
     "subhead": "Vart vi är på väg härnäst.",
     "backLink": "Tillbaka till startsidan",
+    "statusImplemented": "Implementerat",
+    "suggestFeature": "Föreslå funktion",
+    "requestForm": {
+      "title": "Något att lägga till?",
+      "description": "Berätta vad du vill att Verkio ska göra. Vi läser varje förfrågan och tar hänsyn till den i framtida släpp.",
+      "requestLabel": "Vad skulle du vilja se?",
+      "requestPlaceholder": "En kort beskrivning av funktionen, integrationen eller beteendet du vill ha.",
+      "emailLabel": "E-post",
+      "emailOptional": "(valfritt, så vi kan höra av oss)",
+      "emailPlaceholder": "du@dittforetag.se",
+      "submit": "Skicka förfrågan",
+      "submitting": "Skickar…",
+      "successMessage": "Tack. Vi har tagit emot din förfrågan.",
+      "close": "Stäng",
+      "invalidRequest": "Lägg gärna till lite mer detaljer (minst 10 tecken).",
+      "invalidEmail": "Ange en giltig e-postadress.",
+      "invalidInput": "Ogiltig inmatning.",
+      "genericError": "Något gick fel. Försök igen eller mejla hello@verkio.eu."
+    },
     "items": {
       "wiki": {
         "date": "Augusti 2026",

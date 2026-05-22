@@ -244,6 +244,25 @@
     "headline": "Hvad der er på vej i Verkio.",
     "subhead": "Hvor vi er på vej hen.",
     "backLink": "Tilbage til forsiden",
+    "statusImplemented": "Implementeret",
+    "suggestFeature": "Foreslå funktion",
+    "requestForm": {
+      "title": "Noget at tilføje?",
+      "description": "Fortæl os, hvad du vil have Verkio til. Vi læser alle henvendelser og overvejer dem til kommende udgivelser.",
+      "requestLabel": "Hvad kunne du tænke dig?",
+      "requestPlaceholder": "En kort beskrivelse af den funktion, integration eller adfærd, du ønsker.",
+      "emailLabel": "E-mail",
+      "emailOptional": "(valgfri, så vi kan følge op)",
+      "emailPlaceholder": "du@ditfirma.dk",
+      "submit": "Send anmodning",
+      "submitting": "Sender…",
+      "successMessage": "Tak. Vi har modtaget din anmodning.",
+      "close": "Luk",
+      "invalidRequest": "Tilføj gerne lidt flere detaljer (mindst 10 tegn).",
+      "invalidEmail": "Indtast en gyldig e-mailadresse.",
+      "invalidInput": "Ugyldigt input.",
+      "genericError": "Noget gik galt. Prøv igen eller skriv til hello@verkio.eu."
+    },
     "items": {
       "wiki": {
         "date": "August 2026",

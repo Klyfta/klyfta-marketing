@@ -244,6 +244,25 @@
     "headline": "Co dopiero nadchodzi w Verkio.",
     "subhead": "Dokąd zmierzamy dalej.",
     "backLink": "Powrót do strony głównej",
+    "statusImplemented": "Wdrożone",
+    "suggestFeature": "Zaproponuj funkcję",
+    "requestForm": {
+      "title": "Masz coś do dodania?",
+      "description": "Powiedz nam, co Verkio powinno robić. Czytamy każde zgłoszenie i rozważamy je w kolejnych wydaniach.",
+      "requestLabel": "Co chciałbyś zobaczyć?",
+      "requestPlaceholder": "Krótki opis funkcji, integracji lub zachowania, które chciałbyś mieć.",
+      "emailLabel": "E-mail",
+      "emailOptional": "(opcjonalnie, abyśmy mogli się odezwać)",
+      "emailPlaceholder": "ty@twojafirma.com",
+      "submit": "Wyślij zgłoszenie",
+      "submitting": "Wysyłanie…",
+      "successMessage": "Dziękujemy. Twoje zgłoszenie zostało zapisane.",
+      "close": "Zamknij",
+      "invalidRequest": "Dodaj nieco więcej szczegółów (co najmniej 10 znaków).",
+      "invalidEmail": "Wprowadź prawidłowy adres e-mail.",
+      "invalidInput": "Nieprawidłowe dane.",
+      "genericError": "Coś poszło nie tak. Spróbuj ponownie lub napisz na hello@verkio.eu."
+    },
     "items": {
       "wiki": {
         "date": "Sierpień 2026",

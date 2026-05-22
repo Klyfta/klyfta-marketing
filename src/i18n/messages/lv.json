@@ -244,6 +244,25 @@
     "headline": "Kas drīzumā Verkio.",
     "subhead": "Kurp dodamies tālāk.",
     "backLink": "Atpakaļ uz sākumu",
+    "statusImplemented": "Ieviests",
+    "suggestFeature": "Ieteikt funkciju",
+    "requestForm": {
+      "title": "Vai ir kas pievienojams?",
+      "description": "Pastāstiet mums, ko vēlaties, lai Verkio darītu. Mēs lasām katru pieprasījumu un ņemam to vērā nākotnes laidienos.",
+      "requestLabel": "Ko jūs vēlētos redzēt?",
+      "requestPlaceholder": "Īss apraksts par funkciju, integrāciju vai uzvedību, ko vēlaties.",
+      "emailLabel": "E-pasts",
+      "emailOptional": "(neobligāts, lai varētu atbildēt)",
+      "emailPlaceholder": "tu@tavauznemums.lv",
+      "submit": "Iesniegt pieprasījumu",
+      "submitting": "Iesniedz…",
+      "successMessage": "Paldies. Jūsu pieprasījums ir reģistrēts.",
+      "close": "Aizvērt",
+      "invalidRequest": "Lūdzu, pievienojiet nedaudz vairāk informācijas (vismaz 10 rakstzīmes).",
+      "invalidEmail": "Lūdzu, ievadiet derīgu e-pasta adresi.",
+      "invalidInput": "Nederīga ievade.",
+      "genericError": "Kaut kas nogāja greizi. Mēģiniet vēlreiz vai rakstiet uz hello@verkio.eu."
+    },
     "items": {
       "wiki": {
         "date": "2026. gada augusts",

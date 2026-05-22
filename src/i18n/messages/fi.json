@@ -244,6 +244,25 @@
     "headline": "Mitä Verkioon tulee.",
     "subhead": "Minne suuntaamme seuraavaksi.",
     "backLink": "Takaisin etusivulle",
+    "statusImplemented": "Toteutettu",
+    "suggestFeature": "Ehdota ominaisuutta",
+    "requestForm": {
+      "title": "Onko jotain lisättävää?",
+      "description": "Kerro, mitä haluaisit Verkion tekevän. Luemme jokaisen pyynnön ja huomioimme sen tulevissa julkaisuissa.",
+      "requestLabel": "Mitä haluaisit nähdä?",
+      "requestPlaceholder": "Lyhyt kuvaus ominaisuudesta, integraatiosta tai toiminnasta, jonka haluaisit.",
+      "emailLabel": "Sähköposti",
+      "emailOptional": "(valinnainen, jotta voimme palata asiaan)",
+      "emailPlaceholder": "sina@yrityksesi.fi",
+      "submit": "Lähetä pyyntö",
+      "submitting": "Lähetetään…",
+      "successMessage": "Kiitos. Pyyntösi on kirjattu.",
+      "close": "Sulje",
+      "invalidRequest": "Lisää hieman lisätietoja (vähintään 10 merkkiä).",
+      "invalidEmail": "Anna kelvollinen sähköpostiosoite.",
+      "invalidInput": "Virheellinen syöte.",
+      "genericError": "Jokin meni pieleen. Yritä uudelleen tai lähetä viesti osoitteeseen hello@verkio.eu."
+    },
     "items": {
       "wiki": {
         "date": "Elokuu 2026",

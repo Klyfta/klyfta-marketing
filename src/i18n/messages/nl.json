@@ -244,6 +244,25 @@
     "headline": "Wat eraan komt bij Verkio.",
     "subhead": "Waar we naartoe gaan.",
     "backLink": "Terug naar home",
+    "statusImplemented": "Geïmplementeerd",
+    "suggestFeature": "Functie voorstellen",
+    "requestForm": {
+      "title": "Iets toe te voegen?",
+      "description": "Vertel ons wat Verkio zou moeten kunnen. We lezen elk verzoek en overwegen het voor toekomstige releases.",
+      "requestLabel": "Wat zou je willen zien?",
+      "requestPlaceholder": "Een korte beschrijving van de functie, integratie of het gedrag dat je zou willen.",
+      "emailLabel": "E-mail",
+      "emailOptional": "(optioneel, zodat we kunnen terugkomen)",
+      "emailPlaceholder": "jij@jouwbedrijf.com",
+      "submit": "Verzoek indienen",
+      "submitting": "Bezig met indienen…",
+      "successMessage": "Bedankt. Je verzoek is geregistreerd.",
+      "close": "Sluiten",
+      "invalidRequest": "Voeg iets meer detail toe (minstens 10 tekens).",
+      "invalidEmail": "Voer een geldig e-mailadres in.",
+      "invalidInput": "Ongeldige invoer.",
+      "genericError": "Er ging iets mis. Probeer het opnieuw of mail hello@verkio.eu."
+    },
     "items": {
       "wiki": {
         "date": "Augustus 2026",

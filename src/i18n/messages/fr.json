@@ -244,6 +244,25 @@
     "headline": "Ce qui arrive sur Verkio.",
     "subhead": "Où nous allons ensuite.",
     "backLink": "Retour à l'accueil",
+    "statusImplemented": "Implémenté",
+    "suggestFeature": "Suggérer une fonctionnalité",
+    "requestForm": {
+      "title": "Quelque chose à ajouter ?",
+      "description": "Dites-nous ce que vous aimeriez que Verkio fasse. Nous lisons chaque demande et l'examinons pour les futures versions.",
+      "requestLabel": "Que souhaiteriez-vous voir ?",
+      "requestPlaceholder": "Une brève description de la fonctionnalité, de l'intégration ou du comportement souhaité.",
+      "emailLabel": "E-mail",
+      "emailOptional": "(facultatif, pour qu'on puisse vous recontacter)",
+      "emailPlaceholder": "vous@votreentreprise.com",
+      "submit": "Envoyer la demande",
+      "submitting": "Envoi en cours…",
+      "successMessage": "Merci. Votre demande est enregistrée.",
+      "close": "Fermer",
+      "invalidRequest": "Veuillez ajouter un peu plus de détails (au moins 10 caractères).",
+      "invalidEmail": "Veuillez saisir une adresse e-mail valide.",
+      "invalidInput": "Entrée invalide.",
+      "genericError": "Une erreur est survenue. Réessayez ou écrivez à hello@verkio.eu."
+    },
     "items": {
       "wiki": {
         "date": "Août 2026",

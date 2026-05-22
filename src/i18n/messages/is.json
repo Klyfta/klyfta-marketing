@@ -244,6 +244,25 @@
     "headline": "Hvað er á döfinni hjá Verkio.",
     "subhead": "Hvert við stefnum næst.",
     "backLink": "Aftur á forsíðu",
+    "statusImplemented": "Útfært",
+    "suggestFeature": "Stinga upp á eiginleika",
+    "requestForm": {
+      "title": "Eitthvað til að bæta við?",
+      "description": "Segðu okkur hvað þú vilt að Verkio geri. Við lesum hverja beiðni og íhugum hana fyrir framtíðarútgáfur.",
+      "requestLabel": "Hvað vildir þú sjá?",
+      "requestPlaceholder": "Stutt lýsing á eiginleikanum, samþættingunni eða hegðuninni sem þú vilt.",
+      "emailLabel": "Tölvupóstur",
+      "emailOptional": "(valfrjálst, svo við getum svarað)",
+      "emailPlaceholder": "thu@thittfyrirtaeki.is",
+      "submit": "Senda beiðni",
+      "submitting": "Sendi…",
+      "successMessage": "Takk. Beiðnin þín er skráð.",
+      "close": "Loka",
+      "invalidRequest": "Bættu við aðeins meiri smáatriðum (að minnsta kosti 10 stafir).",
+      "invalidEmail": "Sláðu inn gilt netfang.",
+      "invalidInput": "Ógild inntak.",
+      "genericError": "Eitthvað fór úrskeiðis. Reyndu aftur eða sendu á hello@verkio.eu."
+    },
     "items": {
       "wiki": {
         "date": "Ágúst 2026",

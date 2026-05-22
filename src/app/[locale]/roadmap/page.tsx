@@ -8,6 +8,7 @@ import {
   Footer,
   Header,
 } from "@/app/[locale]/components/Layout";
+import { RoadmapRequestModal } from "@/app/components/RoadmapRequestModal";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -38,9 +39,10 @@ export async function generateMetadata({
 }
 
 type RoadmapSize = "major" | "minor";
+type RoadmapStatus = "implemented";
 
-const roadmapItems: { key: string; size: RoadmapSize }[] = [
-  { key: "emailAliases", size: "minor" },
+const roadmapItems: { key: string; size: RoadmapSize; status?: RoadmapStatus }[] = [
+  { key: "emailAliases", size: "minor", status: "implemented" },
   { key: "wiki", size: "major" },
   { key: "domainAutoSetup", size: "minor" },
   { key: "messaging", size: "major" },
@@ -75,12 +77,16 @@ function RoadmapList() {
             {t("headline")}
           </h1>
           <p className="mt-4 text-lg text-gray-600">{t("subhead")}</p>
+          <div className="mt-8">
+            <RoadmapRequestModal />
+          </div>
         </div>
 
         <ol className="mt-16 max-w-2xl">
-          {roadmapItems.map(({ key, size }, idx) => {
+          {roadmapItems.map(({ key, size, status }, idx) => {
             const isMajor = size === "major";
             const isLast = idx === roadmapItems.length - 1;
+            const isImplemented = status === "implemented";
             const note = t.has(`items.${key}.note`)
               ? t(`items.${key}.note`)
               : null;
@@ -89,19 +95,39 @@ function RoadmapList() {
                 key={key}
                 className={`relative pl-10 ${isLast ? "" : "border-l border-gray-200"} ${
                   isMajor ? "pb-12" : "pb-8"
-                }`}
+                } ${isImplemented ? "opacity-50" : ""}`}
               >
-                {isMajor ? (
+                {isImplemented ? (
+                  <span className="absolute left-0 top-0.5 -translate-x-1/2 flex h-4 w-4 items-center justify-center rounded-full bg-green-600 ring-4 ring-white">
+                    <svg
+                      viewBox="0 0 12 12"
+                      className="h-3 w-3 text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M2.5 6.5l2.5 2.5 4.5-5" />
+                    </svg>
+                  </span>
+                ) : isMajor ? (
                   <span className="absolute left-0 top-1 -translate-x-1/2 flex h-3 w-3 rounded-full bg-brand-600 ring-4 ring-white" />
                 ) : (
                   <span className="absolute left-0 top-2 -translate-x-1/2 flex h-2 w-2 rounded-full border-2 border-brand-300 bg-white ring-4 ring-white" />
                 )}
                 <div
-                  className={`font-mono uppercase tracking-wider ${
+                  className={`font-mono uppercase tracking-wider flex items-center gap-2 ${
                     isMajor ? "text-xs text-brand-600" : "text-[10px] text-gray-400"
                   }`}
                 >
-                  {t(`items.${key}.date`)}
+                  <span>{t(`items.${key}.date`)}</span>
+                  {isImplemented && (
+                    <span className="text-[10px] text-green-700">
+                      · {t("statusImplemented")}
+                    </span>
+                  )}
                 </div>
                 <h2
                   className={`mt-2 font-medium text-gray-900 ${
