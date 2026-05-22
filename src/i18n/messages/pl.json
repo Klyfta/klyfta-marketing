@@ -73,15 +73,15 @@
   "residency": {
     "eyebrow": "Lokalizacja",
     "headline": "Gdzie znajdują się Twoje dane.",
-    "subhead": "Brak transferów do USA. Brak ekspozycji na CLOUD Act. Brak niewygodnych odpowiedzi w formularzach przetargowych.",
+    "subhead": "Każda warstwa stosu — pamięć, klucze, DNS, dostawcy — znajduje się w UE.",
     "items": {
       "infrastructure": {
-        "name": "Infrastruktura w europejskim posiadaniu",
-        "description": "Przechowywane, przetwarzane i archiwizowane w UE na infrastrukturze w europejskim posiadaniu. Żadnych amerykańskich hyperscalerów — nawet ich regionów UE."
+        "name": "Infrastruktura należąca do UE",
+        "description": "Przechowywane, przetwarzane i archiwizowane w UE, na infrastrukturze należącej do europejskich firm i przez nie obsługiwanej."
       },
       "encryption": {
-        "name": "Szyfrowane w spoczynku",
-        "description": "Klucze zarządzane są w UE, pod naszą kontrolą — nie u amerykańskiego hyperscalera."
+        "name": "Zaszyfrowane w spoczynku",
+        "description": "Klucze szyfrujące znajdują się w KMS w UE, który obsługujemy my, domyślnie — nie jako wyższy plan."
       },
       "dns": {
         "name": "Rozwiązywanie DNS w UE",
@@ -89,11 +89,11 @@
       },
       "jurisdiction": {
         "name": "Jurysdykcja europejska",
-        "description": "Jurysdykcja UE, RODO od podstaw. Poza zasięgiem amerykańskiej ustawy CLOUD Act."
+        "description": "Jurysdykcja UE, RODO-natywne z założenia. Wnioski o dostęp przebiegają europejskimi kanałami prawnymi."
       },
       "subprocessors": {
-        "name": "Brak amerykańskich podprocesorów",
-        "description": "Wysyłka e-maili, płatności, wsparcie — nic w ścieżce danych nie trafia do dostawcy z siedzibą w USA. Lista podprocesorów jest publikowana, a zmiany ogłaszane z wyprzedzeniem."
+        "name": "Europejscy podprzetwarzający",
+        "description": "Dostarczanie e-maili, płatności, wsparcie — każdy dostawca w ścieżce danych ma siedzibę w UE. Lista jest publiczna; zmiany zapowiadane są z 30-dniowym wyprzedzeniem."
       }
     }
   },
@@ -272,7 +272,7 @@
       "messaging": {
         "date": "Październik 2026",
         "name": "Wewnętrzny komunikator",
-        "description": "Kanały, wiadomości prywatne i wątki na rozmowy zespołowe — przeszukiwalne, hostowane w UE i poza amerykańskimi platformami czatu."
+        "description": "Kanały, wiadomości prywatne i wątki do rozmów zespołowych — z wyszukiwaniem, w wątkach i wbudowane w ten sam pakiet co Twoja poczta i dokumenty."
       },
       "webmail": {
         "date": "Grudzień 2026",
@@ -353,7 +353,7 @@
       "transactionalEmail": {
         "date": "Q4 2027",
         "name": "API poczty transakcyjnej hostowane w UE",
-        "description": "Wysyłaj e-maile swojej aplikacji przez Verkio zamiast Sendgrid. Ta sama postawa „brak amerykańskich podprocesorów\", rozszerzona na Twój produkt."
+        "description": "Interfejs API HTTP do wysyłania e-maili Twojej aplikacji przez Verkio. Ta sama pozycja rezydencji w UE co Twoja skrzynka odbiorcza, rozszerzona na Twój produkt."
       },
       "sieveFilters": {
         "date": "Q4 2027",
@@ -433,6 +433,32 @@
       "mollie": "Rozliczanie subskrypcji, przetwarzanie płatności, portal klienta"
     },
     "dpaLink": "Link",
+    "customerHeading": "Integracje dostarczone przez klienta",
+    "customerBody1": "Niektóre funkcje produktu pozwalają na podłączenie wybranej przez Ciebie usługi zewnętrznej. Te strony trzecie <strong>nie są</strong> podprzetwarzającymi Verkio: pozostajesz administratorem tej relacji, a dostawca działa na podstawie umowy zawartej bezpośrednio z Tobą. Verkio działa na Twoje polecenie (zapisane dane uwierzytelniające), aby wykonać pracę, o którą poprosiłeś.",
+    "customerCategoriesIntro": "Gdzie ma to zastosowanie:",
+    "customerCategories": {
+      "dns": {
+        "name": "Dostawcy DNS",
+        "description": "Automatyczna konfiguracja domeny zapisuje rekordy przez API Twojego dostawcy. Dostarczasz token API (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 itd.); my publikujemy rekordy, o które prosiłeś."
+      },
+      "idp": {
+        "name": "Dostawcy tożsamości (SSO/SCIM)",
+        "description": "Gdy pojawi się jednokrotne logowanie, przynosisz własnego IdP (Okta, Entra ID, Google Workspace itd.). Uwierzytelnianie i cykl życia użytkownika żyją w Twoim środowisku, nie w naszym."
+      },
+      "webhooks": {
+        "name": "Punkty końcowe webhook",
+        "description": "Publiczne API wysyła zdarzenia pod wybrane przez Ciebie URL-e. Te punkty końcowe obsługujesz Ty lub wybrany przez Ciebie odbiorca."
+      },
+      "forwarding": {
+        "name": "Zewnętrzne przekazywanie poczty",
+        "description": "Jeśli skonfigurujesz regułę przekazywania na adres spoza Verkio, docelowy serwer poczty obsługuje przekazaną wiadomość zgodnie z Twoją relacją z nim."
+      },
+      "siem": {
+        "name": "SIEM i strumieniowanie logów",
+        "description": "Strumieniowanie dziennika audytu wysyła zdarzenia do miejsca docelowego, które kontrolujesz — własnego kolektora, Datadog, Splunk lub dowolnego zgodnego punktu końcowego."
+      }
+    },
+    "customerBody2": "Tam, gdzie oferujemy wybór dostawcy domyślnego, domyślnie wybieramy opcje należące do UE, zgodnie z naszą postawą infrastrukturalną. Obsługiwani są również dostawcy z siedzibą w USA, ale dopiero po wyraźnym potwierdzeniu na poziomie organizacji, że dostawca ma siedzibę w USA, a relacja wykracza poza infrastrukturę należącą do UE. Potwierdzenie i zapisanie danych uwierzytelniających są niezależnie rejestrowane w dzienniku audytu.",
     "noticeHeading": "Powiadomienie o zmianach",
     "noticeBody": "Aby otrzymywać powiadomienia o zmianach na tej liście, napisz na <email>subprocessors@verkio.eu</email> i poproś o dodanie do listy powiadomień."
   },

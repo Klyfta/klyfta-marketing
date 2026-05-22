@@ -73,15 +73,15 @@
   "residency": {
     "eyebrow": "Résidence",
     "headline": "Où vivent vos données.",
-    "subhead": "Aucun transfert vers les États-Unis. Aucune exposition au CLOUD Act. Aucune réponse gênante sur les formulaires d'appel d'offres.",
+    "subhead": "Chaque couche de la stack — stockage, clés, DNS, prestataires — se trouve dans l'UE.",
     "items": {
       "infrastructure": {
-        "name": "Infrastructure à capitaux européens",
-        "description": "Stockée, traitée et sauvegardée dans l'UE sur une infrastructure à capitaux européens. Aucun hyperscaler américain — pas même leurs régions UE."
+        "name": "Infrastructure détenue dans l'UE",
+        "description": "Stocké, traité et sauvegardé dans l'UE, sur une infrastructure détenue et exploitée par des entreprises européennes."
       },
       "encryption": {
-        "name": "Chiffrées au repos",
-        "description": "Les clés sont gérées dans l'UE, sous notre contrôle — pas chez un hyperscaler américain."
+        "name": "Chiffré au repos",
+        "description": "Les clés de chiffrement vivent dans un KMS situé dans l'UE que nous exploitons, inclus par défaut — pas un palier supérieur."
       },
       "dns": {
         "name": "Résolution DNS dans l'UE",
@@ -89,11 +89,11 @@
       },
       "jurisdiction": {
         "name": "Juridiction européenne",
-        "description": "Juridiction de l'UE, conforme au RGPD dès la conception. Hors d'atteinte du CLOUD Act américain."
+        "description": "Juridiction de l'UE, RGPD-natif dès la conception. Les demandes d'accès passent par les canaux juridiques européens."
       },
       "subprocessors": {
-        "name": "Aucun sous-traitant américain",
-        "description": "Envoi d'e-mails, paiements, support — rien dans le chemin des données ne touche un fournisseur domicilié aux États-Unis. Liste des sous-traitants publiée, changements annoncés à l'avance."
+        "name": "Sous-traitants européens",
+        "description": "Livraison d'e-mails, paiements, support — chaque prestataire dans le chemin des données est domicilié dans l'UE. La liste est publiée ; les changements sont annoncés 30 jours à l'avance."
       }
     }
   },
@@ -272,7 +272,7 @@
       "messaging": {
         "date": "Octobre 2026",
         "name": "Messagerie interne",
-        "description": "Canaux, MP et fils de discussion pour les échanges d'équipe — recherchable, hébergé dans l'UE et hors des plateformes de chat américaines."
+        "description": "Canaux, messages privés et fils de discussion pour les conversations d'équipe — consultables, organisés en fils et intégrés à la même suite que votre messagerie et vos documents."
       },
       "webmail": {
         "date": "Décembre 2026",
@@ -353,7 +353,7 @@
       "transactionalEmail": {
         "date": "Q4 2027",
         "name": "API d'e-mails transactionnels hébergée dans l'UE",
-        "description": "Envoyez les e-mails de votre application via Verkio plutôt que Sendgrid. Même posture sans sous-traitant américain, étendue à votre propre produit."
+        "description": "Une API HTTP pour envoyer les e-mails de votre application via Verkio. La même posture résidente dans l'UE que votre boîte de réception, étendue à votre produit."
       },
       "sieveFilters": {
         "date": "Q4 2027",
@@ -390,7 +390,7 @@
       },
       {
         "heading": "Où elles sont stockées",
-        "body": "Dans l'Union européenne, sur une infrastructure détenue en Europe. Aucun hyperscaler américain et aucun transfert hors de l'UE."
+        "body": "À l'intérieur de l'Union européenne, sur une infrastructure détenue dans l'UE. Aucun transfert hors UE."
       },
       {
         "heading": "Combien de temps nous les conservons",
@@ -433,6 +433,32 @@
       "mollie": "Facturation par abonnement, traitement des paiements, portail client"
     },
     "dpaLink": "Lien",
+    "customerHeading": "Intégrations fournies par le client",
+    "customerBody1": "Certaines fonctionnalités du produit vous permettent de connecter un service tiers de votre choix. Ces tiers <strong>ne sont pas</strong> des sous-traitants de Verkio : vous restez le responsable de cette relation, et le prestataire opère selon l'accord que vous avez directement avec lui. Verkio agit sur votre instruction (l'identifiant enregistré) pour effectuer le travail que vous nous avez demandé.",
+    "customerCategoriesIntro": "Cas d'application :",
+    "customerCategories": {
+      "dns": {
+        "name": "Fournisseurs DNS",
+        "description": "La configuration automatique du domaine écrit des enregistrements via l'API de votre fournisseur. Vous fournissez un jeton d'API (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53, etc.) ; nous publions les enregistrements que vous nous avez demandés."
+      },
+      "idp": {
+        "name": "Fournisseurs d'identité (SSO/SCIM)",
+        "description": "Lorsque l'authentification unique sera disponible, vous apportez votre propre IdP (Okta, Entra ID, Google Workspace, etc.). L'authentification et le cycle de vie utilisateur vivent chez vous, pas chez nous."
+      },
+      "webhooks": {
+        "name": "Points de terminaison webhook",
+        "description": "L'API publique pousse les événements vers les URL que vous choisissez. Ces points de terminaison sont opérés par vous ou par un destinataire que vous avez sélectionné."
+      },
+      "forwarding": {
+        "name": "Transfert e-mail externe",
+        "description": "Si vous configurez une règle de transfert vers une adresse hors de Verkio, le serveur de mail de destination traite le message transféré selon votre relation avec lui."
+      },
+      "siem": {
+        "name": "SIEM et streaming de logs",
+        "description": "Le streaming du journal d'audit pousse les événements vers une destination que vous contrôlez — votre propre collecteur, Datadog, Splunk ou tout point de terminaison compatible."
+      }
+    },
+    "customerBody2": "Lorsque nous proposons un choix de prestataire par défaut, nous optons par défaut pour des options détenues dans l'UE afin de correspondre à notre posture d'infrastructure. Les prestataires domiciliés aux États-Unis sont également pris en charge, mais seulement après une reconnaissance explicite, propre à l'organisation, que le prestataire est domicilié aux États-Unis et que la relation sort de l'infrastructure détenue dans l'UE. La reconnaissance et l'enregistrement de l'identifiant sont audités de manière indépendante.",
     "noticeHeading": "Notification des changements",
     "noticeBody": "Pour être notifié des changements de cette liste, écrivez à <email>subprocessors@verkio.eu</email> et demandez à être ajouté à la liste de notification."
   },

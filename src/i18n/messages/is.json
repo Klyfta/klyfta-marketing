@@ -73,15 +73,15 @@
   "residency": {
     "eyebrow": "Geymslustaður",
     "headline": "Hvar gögnin þín búa.",
-    "subhead": "Engir flutningar til Bandaríkjanna. Engin útsetning fyrir CLOUD Act. Engin vandræðaleg svör á útboðsskjölum.",
+    "subhead": "Hvert lag staflans — geymsla, lyklar, DNS, birgjar — er innan ESB.",
     "items": {
       "infrastructure": {
-        "name": "ESB-eign innviðir",
-        "description": "Geymt, unnið og afritað innan ESB á evrópskum innviðum. Engir bandarískir hyperscalerar — ekki einu sinni ESB-svæði þeirra."
+        "name": "Innviðir í eigu ESB",
+        "description": "Geymt, unnið og afrit tekið innan ESB, á innviðum sem evrópsk fyrirtæki eiga og reka."
       },
       "encryption": {
-        "name": "Dulkóðuð í hvíld",
-        "description": "Lyklar eru í umsjá okkar í ESB — ekki hjá bandarískum hyperscaler."
+        "name": "Dulkóðað í hvíld",
+        "description": "Dulkóðunarlyklar búa í KMS innan ESB sem við rekum, innifaldir sjálfgefið — ekki uppfærslupakki."
       },
       "dns": {
         "name": "DNS-uppflettingar í ESB",
@@ -89,11 +89,11 @@
       },
       "jurisdiction": {
         "name": "Evrópsk lögsaga",
-        "description": "ESB-lögsaga, GDPR-byggð frá grunni. Utan seilingar bandarísku CLOUD-laganna."
+        "description": "ESB-lögsaga, GDPR-innbyggt frá byrjun. Aðgangsbeiðnir fara um evrópskar lagaleiðir."
       },
       "subprocessors": {
-        "name": "Engir bandarískir undirvinnsluaðilar",
-        "description": "Tölvupóstssending, greiðslur, þjónustuver — ekkert á gagnaleiðinni snertir söluaðila með aðsetur í Bandaríkjunum. Listi yfir undirvinnsluaðila er birtur og breytingar tilkynntar fyrirfram."
+        "name": "Evrópskir undirvinnsluaðilar",
+        "description": "Tölvupóstsending, greiðslur, þjónusta — hver birgi á gagnaleið er með heimilisfang innan ESB. Listinn er birtur; breytingar tilkynntar með 30 daga fyrirvara."
       }
     }
   },
@@ -272,7 +272,7 @@
       "messaging": {
         "date": "Október 2026",
         "name": "Innri skilaboð",
-        "description": "Rásir, einkaskilaboð og þræðir fyrir samtöl teymisins — leitanlegt, hýst í ESB og utan bandarískra spjallrása."
+        "description": "Rásir, einkaskilaboð og þræðir fyrir teymisspjall — leitanleg, í þráðum og innbyggð í sömu pakka og pósturinn og skjölin þín."
       },
       "webmail": {
         "date": "Desember 2026",
@@ -353,7 +353,7 @@
       "transactionalEmail": {
         "date": "Q4 2027",
         "name": "ESB-hýst API fyrir viðskiptapóst",
-        "description": "Sendu tölvupósta forritsins þíns gegnum Verkio í stað Sendgrid. Sama enga-bandaríska-undirvinnsluaðila-staða, útvíkkuð til þíns eigin vörunnar."
+        "description": "HTTP-API til að senda tölvupóst forritsins þíns í gegnum Verkio. Sama ESB-heimilisstöðu og pósthólfið þitt, útfærð fyrir vöruna þína."
       },
       "sieveFilters": {
         "date": "Q4 2027",
@@ -390,7 +390,7 @@
       },
       {
         "heading": "Hvar það er geymt",
-        "body": "Innan Evrópusambandsins, á innviðum í evrópskri eigu. Engir bandarískir hyperscalers og engar flutningar út fyrir ESB."
+        "body": "Innan Evrópusambandsins, á innviðum í eigu ESB. Engar flutningar út fyrir ESB."
       },
       {
         "heading": "Hve lengi við geymum það",
@@ -433,6 +433,32 @@
       "mollie": "Reikningsfærsla áskrifta, greiðsluvinnsla, viðskiptavinasvæði"
     },
     "dpaLink": "Hlekkur",
+    "customerHeading": "Samþættingar veittar af viðskiptavini",
+    "customerBody1": "Sumar vörueiginleikar leyfa þér að tengja þriðja aðila þjónustu að eigin vali. Þessir þriðju aðilar eru <strong>ekki</strong> undirvinnsluaðilar Verkio: þú ert áfram ábyrgðaraðili þess sambands, og þjónustuveitandinn starfar samkvæmt þeim samningi sem þú hefur við hann beint. Verkio bregst við fyrirmælum þínum (vistuðum aðgangslykli) til að framkvæma þá vinnu sem þú hefur beðið okkur um.",
+    "customerCategoriesIntro": "Þar sem þetta á við:",
+    "customerCategories": {
+      "dns": {
+        "name": "DNS-þjónustuveitendur",
+        "description": "Sjálfvirk uppsetning léns skrifar færslur í gegnum API þjónustuveitanda þíns. Þú leggur til API-aðgangslykil (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 o.s.frv.); við birtum þær færslur sem þú hefur beðið um."
+      },
+      "idp": {
+        "name": "Auðkennisveitendur (SSO/SCIM)",
+        "description": "Þegar einföld innskráning birtist, kemur þú með þinn eigin IdP (Okta, Entra ID, Google Workspace o.s.frv.). Auðkenning og notendalíftími eru í þínu umhverfi, ekki okkar."
+      },
+      "webhooks": {
+        "name": "Webhook-endapunktar",
+        "description": "Almenna API-ið sendir atburði á URL sem þú velur. Þessir endapunktar eru reknir af þér eða viðtakanda sem þú hefur valið."
+      },
+      "forwarding": {
+        "name": "Ytri tölvupóstsáframsending",
+        "description": "Ef þú stillir inn áframsendingarreglu á netfang utan Verkio, meðhöndlar viðtökupósthýsill skilaboðin samkvæmt sambandi þínu við hann."
+      },
+      "siem": {
+        "name": "SIEM og logg-straumur",
+        "description": "Logg-straumur úttektar sendir atburði á áfangastað sem þú stjórnar — þinn eigin safnari, Datadog, Splunk eða samhæfður endapunktur."
+      }
+    },
+    "customerBody2": "Þar sem við bjóðum upp á val um sjálfgefinn þjónustuveitanda, kjósum við sjálfgefið valkosti í eigu ESB til að samræmast innviðastefnu okkar. Þjónustuveitendur með heimilisfang í Bandaríkjunum eru einnig studdir, en aðeins eftir skýra staðfestingu á sviði stofnunar þess efnis að aðilinn sé með heimilisfang í Bandaríkjunum og sambandið yfirgefi innviði í eigu ESB. Staðfesting og vistun aðgangslykils eru sjálfstætt skráðar í úttektarlog.",
     "noticeHeading": "Tilkynning um breytingar",
     "noticeBody": "Til að fá tilkynningar þegar þessi listi breytist, sendu tölvupóst á <email>subprocessors@verkio.eu</email> og biddu um að vera bætt á tilkynningalistann."
   },

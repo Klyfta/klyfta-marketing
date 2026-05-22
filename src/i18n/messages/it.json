@@ -73,15 +73,15 @@
   "residency": {
     "eyebrow": "Residenza",
     "headline": "Dove vivono i tuoi dati.",
-    "subhead": "Nessun trasferimento verso gli Stati Uniti. Nessuna esposizione al CLOUD Act. Nessuna risposta imbarazzante nei moduli di gara.",
+    "subhead": "Ogni livello dello stack — archiviazione, chiavi, DNS, fornitori — risiede nell'UE.",
     "items": {
       "infrastructure": {
-        "name": "Infrastruttura di proprietà europea",
-        "description": "Archiviata, elaborata e salvata in UE su infrastruttura di proprietà europea. Nessun hyperscaler statunitense — nemmeno le loro regioni UE."
+        "name": "Infrastruttura di proprietà UE",
+        "description": "Archiviato, elaborato e sottoposto a backup all'interno dell'UE, su infrastruttura di proprietà e gestita da società europee."
       },
       "encryption": {
-        "name": "Cifrati a riposo",
-        "description": "Le chiavi sono gestite in UE, sotto il nostro controllo — non presso un hyperscaler statunitense."
+        "name": "Crittografato a riposo",
+        "description": "Le chiavi di crittografia vivono in un KMS situato nell'UE che gestiamo noi, incluso per impostazione predefinita — non un piano superiore."
       },
       "dns": {
         "name": "Risoluzione DNS in UE",
@@ -89,11 +89,11 @@
       },
       "jurisdiction": {
         "name": "Giurisdizione europea",
-        "description": "Giurisdizione UE, GDPR per design. Fuori dalla portata del CLOUD Act statunitense."
+        "description": "Giurisdizione UE, GDPR-nativo per progettazione. Le richieste di accesso passano per i canali legali europei."
       },
       "subprocessors": {
-        "name": "Nessun subresponsabile USA",
-        "description": "Invio email, pagamenti, supporto — niente nel percorso dei dati tocca un fornitore con sede negli USA. L'elenco dei subresponsabili è pubblicato e le modifiche sono annunciate in anticipo."
+        "name": "Sub-incaricati europei",
+        "description": "Consegna delle e-mail, pagamenti, supporto — ogni fornitore nel percorso dei dati ha sede nell'UE. L'elenco è pubblico; le modifiche sono annunciate con 30 giorni di preavviso."
       }
     }
   },
@@ -272,7 +272,7 @@
       "messaging": {
         "date": "Ottobre 2026",
         "name": "Messaggistica interna",
-        "description": "Canali, DM e thread per le conversazioni di team — ricercabile, ospitato in UE e fuori dalle piattaforme di chat statunitensi."
+        "description": "Canali, messaggi diretti e thread per le conversazioni di team — ricercabili, organizzati in thread e integrati nella stessa suite della tua posta e dei tuoi documenti."
       },
       "webmail": {
         "date": "Dicembre 2026",
@@ -353,7 +353,7 @@
       "transactionalEmail": {
         "date": "Q4 2027",
         "name": "API per email transazionali con residenza UE",
-        "description": "Invia le email della tua applicazione tramite Verkio invece di Sendgrid. Stessa postura senza sub-responsabili USA, estesa al tuo prodotto."
+        "description": "Un'API HTTP per inviare le e-mail della tua applicazione tramite Verkio. La stessa posizione residente nell'UE della tua casella di posta, estesa al tuo prodotto."
       },
       "sieveFilters": {
         "date": "Q4 2027",
@@ -390,7 +390,7 @@
       },
       {
         "heading": "Dove vengono archiviati",
-        "body": "All'interno dell'Unione Europea, su infrastruttura di proprietà europea. Nessun hyperscaler statunitense e nessun trasferimento fuori dall'UE."
+        "body": "All'interno dell'Unione Europea, su infrastruttura di proprietà UE. Nessun trasferimento fuori dall'UE."
       },
       {
         "heading": "Per quanto tempo li conserviamo",
@@ -433,6 +433,32 @@
       "mollie": "Fatturazione abbonamenti, elaborazione pagamenti, portale clienti"
     },
     "dpaLink": "Collegamento",
+    "customerHeading": "Integrazioni fornite dal cliente",
+    "customerBody1": "Alcune funzionalità del prodotto ti permettono di collegare un servizio di terze parti a tua scelta. Quelle terze parti <strong>non sono</strong> sub-incaricati di Verkio: tu rimani il titolare di quel rapporto, e il fornitore opera in base all'accordo che hai direttamente con loro. Verkio agisce su tua istruzione (la credenziale salvata) per eseguire il lavoro che ci hai chiesto.",
+    "customerCategoriesIntro": "Dove si applica:",
+    "customerCategories": {
+      "dns": {
+        "name": "Fornitori DNS",
+        "description": "La configurazione automatica del dominio scrive record tramite l'API del tuo fornitore. Fornisci un token API (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53, ecc.); noi pubblichiamo i record che ci hai chiesto."
+      },
+      "idp": {
+        "name": "Fornitori di identità (SSO/SCIM)",
+        "description": "Quando arriverà il single sign-on, porti il tuo IdP (Okta, Entra ID, Google Workspace, ecc.). L'autenticazione e il ciclo di vita degli utenti vivono nel tuo tenant, non nel nostro."
+      },
+      "webhooks": {
+        "name": "Endpoint webhook",
+        "description": "L'API pubblica invia gli eventi agli URL che scegli. Quegli endpoint sono gestiti da te o da un destinatario da te selezionato."
+      },
+      "forwarding": {
+        "name": "Inoltro e-mail esterno",
+        "description": "Se imposti una regola di inoltro verso un indirizzo esterno a Verkio, il server di posta di destinazione gestisce il messaggio inoltrato in base al tuo rapporto con loro."
+      },
+      "siem": {
+        "name": "SIEM e streaming dei log",
+        "description": "Lo streaming del log di audit invia gli eventi a una destinazione che controlli — il tuo collector, Datadog, Splunk o qualsiasi endpoint compatibile."
+      }
+    },
+    "customerBody2": "Quando offriamo una scelta di fornitore predefinito, scegliamo per impostazione predefinita opzioni di proprietà UE per allinearci con la nostra postura infrastrutturale. Sono supportati anche fornitori con sede negli Stati Uniti, ma solo dopo una conferma esplicita a livello di organizzazione che il fornitore ha sede negli Stati Uniti e che il rapporto esce dall'infrastruttura di proprietà UE. La conferma e il salvataggio della credenziale sono registrati nell'audit log in modo indipendente.",
     "noticeHeading": "Comunicazione delle modifiche",
     "noticeBody": "Per ricevere notifiche quando questo elenco cambia, scrivi a <email>subprocessors@verkio.eu</email> e chiedi di essere aggiunto all'elenco delle notifiche."
   },

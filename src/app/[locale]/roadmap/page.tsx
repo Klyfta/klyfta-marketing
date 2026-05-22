@@ -44,7 +44,7 @@ type RoadmapStatus = "implemented";
 const roadmapItems: { key: string; size: RoadmapSize; status?: RoadmapStatus }[] = [
   { key: "emailAliases", size: "minor", status: "implemented" },
   { key: "wiki", size: "major" },
-  { key: "domainAutoSetup", size: "minor" },
+  { key: "domainAutoSetup", size: "minor", status: "implemented" },
   { key: "messaging", size: "major" },
   { key: "webmail", size: "major" },
   { key: "migration", size: "major" },

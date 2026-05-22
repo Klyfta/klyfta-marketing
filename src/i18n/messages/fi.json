@@ -73,15 +73,15 @@
   "residency": {
     "eyebrow": "Tietosijainti",
     "headline": "Missä tietosi sijaitsevat.",
-    "subhead": "Ei siirtoja Yhdysvaltoihin. Ei CLOUD Act -altistumista. Ei kiusallisia vastauksia hankintalomakkeissa.",
+    "subhead": "Jokainen pinon kerros — tallennus, avaimet, DNS, toimittajat — sijaitsee EU:n sisällä.",
     "items": {
       "infrastructure": {
-        "name": "EU-omisteinen infrastruktuuri",
-        "description": "Tallennetaan, käsitellään ja varmuuskopioidaan EU:ssa eurooppalaisomistuksessa olevalla infrastruktuurilla. Ei yhdysvaltalaisia hyperscalereita — ei edes heidän EU-alueitaan."
+        "name": "EU-omistuksessa oleva infrastruktuuri",
+        "description": "Tallennettu, käsitelty ja varmuuskopioitu EU:n sisällä, eurooppalaisten yritysten omistamassa ja operoimassa infrastruktuurissa."
       },
       "encryption": {
         "name": "Salattu lepotilassa",
-        "description": "Avaimia hallitaan EU:ssa hallinnassamme — ei yhdysvaltalaisen hyperscalerin tiloissa."
+        "description": "Salausavaimet sijaitsevat EU:ssa toimivassa KMS-järjestelmässä, jota me operoimme, vakiona — ei lisämaksullinen taso."
       },
       "dns": {
         "name": "DNS-kyselyt EU:ssa",
@@ -89,11 +89,11 @@
       },
       "jurisdiction": {
         "name": "Eurooppalainen lainkäyttöalue",
-        "description": "EU-toimivalta, GDPR-rakenteinen alusta asti. Yhdysvaltain CLOUD Act -lain ulottumattomissa."
+        "description": "EU:n lainkäyttö, GDPR-perustainen alusta lähtien. Tietopyynnöt kulkevat eurooppalaisten oikeuskanavien kautta."
       },
       "subprocessors": {
-        "name": "Ei yhdysvaltalaisia alikäsittelijöitä",
-        "description": "Sähköpostin lähetys, maksut, tuki — mikään tietopolulla ei kosketa Yhdysvaltoihin sijoittautunutta toimittajaa. Alikäsittelijöiden lista on julkinen, ja muutoksista ilmoitetaan etukäteen."
+        "name": "Eurooppalaiset alikäsittelijät",
+        "description": "Sähköpostin toimitus, maksut, tuki — jokainen tietopolun toimittaja on EU:ssa rekisteröity. Lista on julkinen; muutoksista ilmoitetaan 30 päivää etukäteen."
       }
     }
   },
@@ -272,7 +272,7 @@
       "messaging": {
         "date": "Lokakuu 2026",
         "name": "Sisäinen viestintä",
-        "description": "Kanavat, yksityisviestit ja keskustelut tiimin viestintään — hakukelpoiset, EU:ssa isännöity ja yhdysvaltalaisten chat-alustojen ulkopuolella."
+        "description": "Kanavat, yksityisviestit ja ketjut tiimikeskusteluihin — haettavissa, ketjutettuja ja sisäänrakennettu samaan pakettiin postin ja dokumenttien kanssa."
       },
       "webmail": {
         "date": "Joulukuu 2026",
@@ -353,7 +353,7 @@
       "transactionalEmail": {
         "date": "Q4 2027",
         "name": "EU:hun sijoitettu tapahtumasähköpostin API",
-        "description": "Lähetä sovelluksesi sähköpostit Verkion kautta Sendgridin sijaan. Sama ei-yhdysvaltalaiset alikäsittelijät -asenne, laajennettuna omaan tuotteeseesi."
+        "description": "HTTP-API sovelluksesi sähköpostien lähettämiseen Verkion kautta. Sama EU-residenttinen asema kuin postilaatikollasi, laajennettuna tuotteeseesi."
       },
       "sieveFilters": {
         "date": "Q4 2027",
@@ -433,6 +433,32 @@
       "mollie": "Tilauslaskutus, maksujen käsittely, asiakasportaali"
     },
     "dpaLink": "Linkki",
+    "customerHeading": "Asiakkaan toimittamat integraatiot",
+    "customerBody1": "Jotkin tuotetoiminnot antavat sinun yhdistää valitsemasi kolmannen osapuolen palvelun. Nämä kolmannet osapuolet <strong>eivät</strong> ole Verkion alikäsittelijöitä: sinä pysyt suhteen rekisterinpitäjänä, ja palveluntarjoaja toimii sen sopimuksen mukaisesti, joka sinulla on suoraan heidän kanssaan. Verkio toimii ohjeesi (tallennetun tunnuksen) perusteella tehdäkseen pyytämäsi työn.",
+    "customerCategoriesIntro": "Missä tämä koskee:",
+    "customerCategories": {
+      "dns": {
+        "name": "DNS-palveluntarjoajat",
+        "description": "Verkkotunnuksen automaattinen asennus kirjoittaa tietueet palveluntarjoajasi API:in kautta. Annat API-tunnuksen (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 jne.); me julkaisemme pyytämäsi tietueet."
+      },
+      "idp": {
+        "name": "Identiteettipalvelut (SSO/SCIM)",
+        "description": "Kun kertakirjautuminen julkaistaan, tuot oman IdP:si (Okta, Entra ID, Google Workspace jne.). Tunnistautuminen ja käyttäjän elinkaari ovat sinun ympäristössäsi, ei meidän."
+      },
+      "webhooks": {
+        "name": "Webhook-päätepisteet",
+        "description": "Julkinen API lähettää tapahtumat valitsemiisi URL-osoitteisiin. Näitä päätepisteitä ylläpidät sinä tai valitsemasi vastaanottaja."
+      },
+      "forwarding": {
+        "name": "Ulkoinen sähköpostin edelleenlähetys",
+        "description": "Jos asetat edelleenlähetyssäännön Verkion ulkopuoliseen osoitteeseen, kohdepalvelin käsittelee edelleenlähetetyn viestin sinun suhteesi mukaan heidän kanssaan."
+      },
+      "siem": {
+        "name": "SIEM ja lokien suoratoisto",
+        "description": "Auditlokin suoratoisto lähettää tapahtumat hallitsemaasi kohteeseen — omaan keräimeesi, Datadogiin, Splunkiin tai mihin tahansa yhteensopivaan päätepisteeseen."
+      }
+    },
+    "customerBody2": "Kun tarjoamme oletuspalveluntarjoajan vaihtoehtoja, valitsemme oletuksena EU-omistuksessa olevia vaihtoehtoja infrastruktuurilinjamme mukaisesti. Yhdysvalloissa rekisteröityjä palveluntarjoajia tuetaan myös, mutta vain organisaatiokohtaisen nimenomaisen hyväksynnän jälkeen siitä, että palveluntarjoaja on Yhdysvalloissa rekisteröity ja että suhde poistuu EU-omistuksessa olevasta infrastruktuurista. Hyväksyntä ja tunnusten tallennus kirjataan auditlokiin erikseen.",
     "noticeHeading": "Ilmoitus muutoksista",
     "noticeBody": "Saat ilmoituksen tämän listan muutoksista lähettämällä viestin osoitteeseen <email>subprocessors@verkio.eu</email> ja pyytämällä lisäämistä ilmoituslistalle."
   },

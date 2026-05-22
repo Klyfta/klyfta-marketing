@@ -73,15 +73,15 @@
   "residency": {
     "eyebrow": "Vieta",
     "headline": "Kur gyvena jūsų duomenys.",
-    "subhead": "Jokių perdavimų į JAV. Jokios sąsajos su CLOUD Act. Jokių nemalonių atsakymų pirkimų anketose.",
+    "subhead": "Kiekvienas paketo sluoksnis — saugykla, raktai, DNS, tiekėjai — yra ES viduje.",
     "items": {
       "infrastructure": {
-        "name": "Europai priklausanti infrastruktūra",
-        "description": "Saugoma, apdorojama ir kuriamos atsarginės kopijos ES Europai priklausančioje infrastruktūroje. Jokių JAV hiperskalerių — net ne jų ES regionų."
+        "name": "ES priklausanti infrastruktūra",
+        "description": "Saugoma, apdorojama ir atsarginės kopijos kuriamos ES viduje, Europos įmonėms priklausančioje ir jų valdomoje infrastruktūroje."
       },
       "encryption": {
-        "name": "Šifruoti ramybės būsenoje",
-        "description": "Raktai valdomi ES, mūsų kontrolėje — ne pas JAV hiperskalerį."
+        "name": "Šifruota ramybės būsenoje",
+        "description": "Šifravimo raktai laikomi ES esančiame KMS, kurį valdome mes, įtraukti pagal numatytuosius nustatymus — ne aukštesnė pakopa."
       },
       "dns": {
         "name": "DNS sprendimas ES",
@@ -89,11 +89,11 @@
       },
       "jurisdiction": {
         "name": "Europos jurisdikcija",
-        "description": "ES jurisdikcija, BDAR nuo pat pradžių. Už JAV CLOUD Act įstatymo ribų."
+        "description": "ES jurisdikcija, BDAR-natyvi nuo sumanymo. Prieigos prašymai vyksta per Europos teisės kanalus."
       },
       "subprocessors": {
-        "name": "Jokių JAV subtvarkytojų",
-        "description": "El. pašto pristatymas, mokėjimai, palaikymas — niekas duomenų kelyje neliečia JAV įsteigto tiekėjo. Subtvarkytojų sąrašas skelbiamas viešai, o pakeitimai pranešami iš anksto."
+        "name": "Europos subtvarkytojai",
+        "description": "El. laiškų pristatymas, mokėjimai, palaikymas — kiekvienas duomenų kelio tiekėjas registruotas ES. Sąrašas yra paskelbtas; pakeitimai pranešami prieš 30 dienų."
       }
     }
   },
@@ -272,7 +272,7 @@
       "messaging": {
         "date": "2026 m. spalis",
         "name": "Vidinė pranešimų sistema",
-        "description": "Kanalai, asmeninės žinutės ir gijos komandos pokalbiams — ieškoma, talpinama ES ir už JAV pokalbių platformų ribų."
+        "description": "Kanalai, asmeniniai pranešimai ir gijos komandos pokalbiams — paieškomi, sutvarkyti į gijas ir integruoti į tą patį paketą kaip jūsų paštas ir dokumentai."
       },
       "webmail": {
         "date": "2026 m. gruodis",
@@ -353,7 +353,7 @@
       "transactionalEmail": {
         "date": "Q4 2027",
         "name": "ES talpinama tranzakcinio el. pašto API",
-        "description": "Siųsk savo programos el. laiškus per Verkio vietoj Sendgrid. Tokia pati pozicija be JAV subtvarkytojų, išplėsta į tavo produktą."
+        "description": "HTTP API jūsų programos el. laiškams siųsti per Verkio. Ta pati ES rezidento pozicija kaip jūsų pašto dėžutė, išplėsta jūsų produktui."
       },
       "sieveFilters": {
         "date": "Q4 2027",
@@ -433,6 +433,32 @@
       "mollie": "Prenumeratos sąskaitos, mokėjimų apdorojimas, klientų portalas"
     },
     "dpaLink": "Nuoroda",
+    "customerHeading": "Kliento pateiktos integracijos",
+    "customerBody1": "Kai kurios produkto funkcijos leidžia prijungti pasirinktą trečiosios šalies paslaugą. Tos trečiosios šalys <strong>nėra</strong> Verkio subtvarkytojai: jūs liekate to santykio valdytojas, o tiekėjas veikia pagal sutartį, kurią turite su juo tiesiogiai. Verkio veikia pagal jūsų nurodymą (išsaugotą kredencialą) ir atlieka darbą, kurio jūs paprašėte.",
+    "customerCategoriesIntro": "Kur tai taikoma:",
+    "customerCategories": {
+      "dns": {
+        "name": "DNS tiekėjai",
+        "description": "Automatinis domeno nustatymas rašo įrašus per jūsų tiekėjo API. Jūs pateikiate API tokenį (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 ir t. t.); mes paskelbiame įrašus, kurių paprašėte."
+      },
+      "idp": {
+        "name": "Tapatybės tiekėjai (SSO/SCIM)",
+        "description": "Kai bus įdiegtas vieningas prisijungimas, atsineški savo IdP (Okta, Entra ID, Google Workspace ir t. t.). Autentifikacija ir vartotojo gyvavimo ciklas yra jūsų nuomininke, ne mūsų."
+      },
+      "webhooks": {
+        "name": "Webhook galiniai taškai",
+        "description": "Vieša API siunčia įvykius į pasirinktus URL. Tuos galinius taškus valdo jūs arba pasirinktas gavėjas."
+      },
+      "forwarding": {
+        "name": "Išorinis pašto persiuntimas",
+        "description": "Jei nustatote persiuntimo taisyklę į adresą už Verkio ribų, paskirties pašto serveris tvarko persiųstą pranešimą pagal jūsų santykį su juo."
+      },
+      "siem": {
+        "name": "SIEM ir žurnalų srautas",
+        "description": "Audito žurnalo srautas siunčia įvykius į jūsų valdomą paskirties vietą — savo paties kolektorių, Datadog, Splunk ar bet kurį suderinamą galinį tašką."
+      }
+    },
+    "customerBody2": "Kai siūlome numatytojo tiekėjo pasirinkimą, pagal numatytuosius nustatymus renkamės ES priklausančias parinktis, atitinkančias mūsų infrastruktūros poziciją. JAV registruoti tiekėjai taip pat palaikomi, bet tik po aiškaus organizacinio patvirtinimo, kad tiekėjas yra registruotas JAV ir kad santykis išeina už ES priklausančios infrastruktūros ribų. Patvirtinimas ir kredencialo išsaugojimas registruojami audito žurnale atskirai.",
     "noticeHeading": "Pranešimas apie pakeitimus",
     "noticeBody": "Norėdami gauti pranešimus, kai šis sąrašas pasikeis, rašykite <email>subprocessors@verkio.eu</email> ir paprašykite, kad būtumėte įtraukti į pranešimų sąrašą."
   },

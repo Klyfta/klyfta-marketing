@@ -72,15 +72,15 @@
   "residency": {
     "eyebrow": "Residency",
     "headline": "Where your data lives.",
-    "subhead": "No US transfers. No CLOUD Act exposure. No awkward answers on procurement forms.",
+    "subhead": "Every layer of the stack — storage, keys, DNS, vendors — sits inside the EU.",
     "items": {
       "infrastructure": {
         "name": "EU-owned infrastructure",
-        "description": "Stored, processed, and backed up inside the EU on European-owned infrastructure. No US hyperscalers — not even their EU regions."
+        "description": "Stored, processed, and backed up inside the EU, on infrastructure owned and operated by European companies."
       },
       "encryption": {
         "name": "Encrypted at rest",
-        "description": "Keys are managed in the EU, under our control — not a US hyperscaler's."
+        "description": "Encryption keys live in an EU-located KMS we operate, included by default — not an upgrade tier."
       },
       "dns": {
         "name": "EU-resolving DNS",
@@ -88,11 +88,11 @@
       },
       "jurisdiction": {
         "name": "European jurisdiction",
-        "description": "EU jurisdiction, GDPR-native by design. Outside the reach of the US CLOUD Act."
+        "description": "EU jurisdiction, GDPR-native by design. Access requests run through European legal channels."
       },
       "subprocessors": {
-        "name": "No US subprocessors",
-        "description": "Email delivery, payments, support — nothing in the data path touches a US-domiciled vendor. Subprocessor list is published, with changes announced ahead of time."
+        "name": "European subprocessors",
+        "description": "Email delivery, payments, support — every vendor in the data path is EU-domiciled. The list is published; changes get 30 days' notice."
       }
     }
   },
@@ -259,7 +259,7 @@
       },
       {
         "heading": "Where it's stored",
-        "body": "Inside the European Union, on EU-owned infrastructure. No US hyperscalers and no transfers outside the EU."
+        "body": "Inside the European Union, on EU-owned infrastructure. No transfers outside the EU."
       },
       {
         "heading": "How long we keep it",
@@ -302,6 +302,32 @@
       "mollie": "Subscription billing, payment processing, customer portal"
     },
     "dpaLink": "Link",
+    "customerHeading": "Customer-provided integrations",
+    "customerBody1": "Some product features let you connect a third-party service of your choice. Those third parties are <strong>not</strong> Verkio subprocessors: you remain the controller of that relationship, and the provider operates under whatever agreement you have with them directly. Verkio acts on your instruction (the saved credential) to do the work you've asked us to do.",
+    "customerCategoriesIntro": "Where this applies:",
+    "customerCategories": {
+      "dns": {
+        "name": "DNS providers",
+        "description": "Domain auto-setup writes records via your provider's API. You supply an API token (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53, etc.); we publish the records you've asked us to."
+      },
+      "idp": {
+        "name": "Identity providers (SSO/SCIM)",
+        "description": "When single sign-on ships, you bring your own IdP (Okta, Entra ID, Google Workspace, etc.). Authentication and user lifecycle live in your tenant, not ours."
+      },
+      "webhooks": {
+        "name": "Webhook endpoints",
+        "description": "The public API pushes events to URLs you choose. Those endpoints are operated by you or by a recipient you've selected."
+      },
+      "forwarding": {
+        "name": "External mail forwarding",
+        "description": "If you set up a forwarding rule to an address outside Verkio, the destination mail server handles the forwarded message under your relationship with them."
+      },
+      "siem": {
+        "name": "SIEM and log streaming",
+        "description": "Audit log streaming pushes events to a destination you control — your own collector, Datadog, Splunk, or any compatible endpoint."
+      }
+    },
+    "customerBody2": "Where we offer a choice of default provider, we default to EU-owned options to match our infrastructure posture. US-domiciled providers are also supported, but only after an explicit per-organisation acknowledgment that the provider is US-domiciled and the relationship leaves EU-owned infrastructure. Acknowledgment and credential save are independently audit-logged.",
     "noticeHeading": "Notice of changes",
     "noticeBody": "To receive notifications when this list changes, email <email>subprocessors@verkio.eu</email> and ask to be added to the subprocessor change list."
   },
@@ -379,7 +405,7 @@
       "messaging": {
         "date": "October 2026",
         "name": "Internal messaging",
-        "description": "Channels, DMs, and threads for team conversations — searchable, EU-hosted, and out of US chat platforms."
+        "description": "Channels, DMs, and threads for team conversations — searchable, threaded, and built into the same suite as your mail and docs."
       },
       "webmail": {
         "date": "December 2026",
@@ -460,7 +486,7 @@
       "transactionalEmail": {
         "date": "Q4 2027",
         "name": "EU-resident transactional email API",
-        "description": "Send your application's emails through Verkio instead of Sendgrid. Same no-US-subprocessor posture, extended to your own product."
+        "description": "An HTTP API to send your application's emails through Verkio. The same EU-resident posture as your inbox, extended to your product."
       },
       "sieveFilters": {
         "date": "Q4 2027",

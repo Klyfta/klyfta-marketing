@@ -62,6 +62,14 @@ const ROWS: Row[] = [
   },
 ];
 
+const CUSTOMER_CATEGORIES = [
+  "dns",
+  "idp",
+  "webhooks",
+  "forwarding",
+  "siem",
+] as const;
+
 function SubprocessorsContent() {
   const t = useTranslations("subprocessors");
 
@@ -125,6 +133,37 @@ function SubprocessorsContent() {
               ))}
             </tbody>
           </table>
+        </div>
+
+        <div className="mt-16 max-w-2xl">
+          <h2 className="text-xl font-medium text-gray-900">
+            {t("customerHeading")}
+          </h2>
+          <p className="mt-4 text-base text-gray-600 leading-relaxed">
+            {t.rich("customerBody1", {
+              strong: (chunks) => (
+                <strong className="font-semibold text-gray-900">
+                  {chunks}
+                </strong>
+              ),
+            })}
+          </p>
+          <p className="mt-6 text-sm font-medium text-gray-900">
+            {t("customerCategoriesIntro")}
+          </p>
+          <ul className="mt-3 space-y-3">
+            {CUSTOMER_CATEGORIES.map((key) => (
+              <li key={key} className="text-base text-gray-600 leading-relaxed">
+                <span className="font-medium text-gray-900">
+                  {t(`customerCategories.${key}.name`)}
+                </span>{" "}
+                — {t(`customerCategories.${key}.description`)}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 text-base text-gray-600 leading-relaxed">
+            {t("customerBody2")}
+          </p>
         </div>
 
         <div className="mt-16 max-w-2xl">

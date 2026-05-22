@@ -73,15 +73,15 @@
   "residency": {
     "eyebrow": "Asukoht",
     "headline": "Kus teie andmed elavad.",
-    "subhead": "Ei mingeid ülekandeid USA-sse. Ei mingit CLOUD Acti riski. Ei mingeid piinlikke vastuseid hankevormidel.",
+    "subhead": "Iga kihi stack — salvestus, võtmed, DNS, tarnijad — asub EL piires.",
     "items": {
       "infrastructure": {
-        "name": "Euroopa omanduses taristu",
-        "description": "Salvestatud, töödeldud ja varundatud ELis Euroopa omanduses taristul. Mitte ühtegi USA hyperscaler'it — isegi mitte nende EL piirkondi."
+        "name": "ELi omandis taristu",
+        "description": "Salvestatud, töödeldud ja varundatud ELi piires, Euroopa ettevõtete omandis ja juhitud taristul."
       },
       "encryption": {
         "name": "Krüpteeritud puhkeolekus",
-        "description": "Võtmeid hallatakse ELis, meie kontrolli all — mitte USA hyperscaleri juures."
+        "description": "Krüpteerimisvõtmed asuvad meie hallatavas ELi KMS-is, vaikimisi kaasatud — mitte täiendava taseme funktsioon."
       },
       "dns": {
         "name": "DNS-i lahendamine ELis",
@@ -89,11 +89,11 @@
       },
       "jurisdiction": {
         "name": "Euroopa jurisdiktsioon",
-        "description": "ELi jurisdiktsioon, GDPR-iga algusest peale. Väljaspool USA CLOUD Acti ulatust."
+        "description": "ELi jurisdiktsioon, GDPR-natiivne. Juurdepääsutaotlused liiguvad Euroopa õiguskanalite kaudu."
       },
       "subprocessors": {
-        "name": "Ühtegi USA alltöötlejat",
-        "description": "E-posti edastamine, maksed, tugi — miski andmeteel ei puutu USA-s asuvasse tarnijasse. Alltöötlejate nimekiri on avaldatud ja muudatused teatatakse ette."
+        "name": "Euroopa alltöövõtjad",
+        "description": "Meilide kohaletoimetamine, maksed, tugi — kõik andmevoo tarnijad asuvad ELis. Loend on avaldatud; muudatustest teatatakse 30 päeva ette."
       }
     }
   },
@@ -272,7 +272,7 @@
       "messaging": {
         "date": "Oktoober 2026",
         "name": "Sisemine sõnumside",
-        "description": "Kanalid, otsesõnumid ja lõimed tiimi vestlusteks — otsitav, ELis majutatud ja väljaspool USA vestlusplatvorme."
+        "description": "Kanalid, vahetussõnumid ja lõimed meeskonna vestlusteks — otsitavad, lõimedena korraldatud ja sisseehitatud samasse paketti kui sinu post ja dokumendid."
       },
       "webmail": {
         "date": "Detsember 2026",
@@ -353,7 +353,7 @@
       "transactionalEmail": {
         "date": "Q4 2027",
         "name": "ELi-põhine tehingute e-posti API",
-        "description": "Saada oma rakenduse e-kirjad Verkio kaudu Sendgrid'i asemel. Sama USA-alltöötlejateta hoiak, laiendatud sinu enda tootele."
+        "description": "HTTP-API rakenduse e-kirjade saatmiseks Verkio kaudu. Sama ELi-residentne hoiak nagu sinu postkast, laiendatud sinu tootele."
       },
       "sieveFilters": {
         "date": "Q4 2027",
@@ -433,6 +433,32 @@
       "mollie": "Tellimuste arveldamine, maksete töötlemine, kliendiportaal"
     },
     "dpaLink": "Link",
+    "customerHeading": "Kliendi pakutavad integratsioonid",
+    "customerBody1": "Mõned tootefunktsioonid lasevad sul ühendada enda valitud kolmanda osapoole teenuse. Need kolmandad osapooled <strong>ei ole</strong> Verkio alltöövõtjad: sina jääd selle suhte vastutavaks töötlejaks ja pakkuja tegutseb selle lepingu alusel, mis sul temaga otseselt on. Verkio tegutseb sinu juhise (salvestatud mandaat) alusel, et teha sinu palutud tööd.",
+    "customerCategoriesIntro": "Kus see kehtib:",
+    "customerCategories": {
+      "dns": {
+        "name": "DNS-pakkujad",
+        "description": "Domeeni automaatne seadistamine kirjutab kirjeid sinu pakkuja API kaudu. Sina annad API-mandaadi (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 jne); meie avaldame kirjed, mille avaldamist oled palunud."
+      },
+      "idp": {
+        "name": "Identiteedipakkujad (SSO/SCIM)",
+        "description": "Kui ühekordne sisselogimine valmib, toode sa enda IdP (Okta, Entra ID, Google Workspace jne). Autentimine ja kasutaja elutsükkel elavad sinu kasutaja juures, mitte meil."
+      },
+      "webhooks": {
+        "name": "Webhooki lõpp-punktid",
+        "description": "Avalik API saadab sündmused sinu valitud URL-idele. Neid lõpp-punkte haldab sina või sinu valitud vastuvõtja."
+      },
+      "forwarding": {
+        "name": "Väline meili edastamine",
+        "description": "Kui seadistad edastusreegli Verkio väliselt aadressile, käsitleb sihtmeiliserver edastatud sõnumit sinu suhte kohaselt temaga."
+      },
+      "siem": {
+        "name": "SIEM ja logide voogedastus",
+        "description": "Auditilogi voogedastus saadab sündmused sinu kontrollitavasse sihtkohta — sinu enda kogujasse, Datadogi, Splunki või muudesse ühilduvatesse lõpp-punktidesse."
+      }
+    },
+    "customerBody2": "Kui pakume vaikepakkuja valikut, valime vaikimisi ELi omandis pakkujaid, et see vastaks meie infrastruktuuri hoiakule. Toetatud on ka USAs registreeritud pakkujad, kuid alles pärast organisatsioonipõhist sõnaselget kinnitust, et pakkuja on USAs registreeritud ning suhe väljub ELi omandis infrastruktuurist. Kinnitus ja mandaadi salvestamine logitakse auditisse eraldi.",
     "noticeHeading": "Muudatustest teavitamine",
     "noticeBody": "Kui soovite saada teavitusi selle nimekirja muudatustest, kirjutage aadressile <email>subprocessors@verkio.eu</email> ja paluge end teavitusnimekirja lisada."
   },

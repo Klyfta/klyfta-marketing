@@ -73,15 +73,15 @@
   "residency": {
     "eyebrow": "Atrašanās",
     "headline": "Kur dzīvo jūsu dati.",
-    "subhead": "Bez pārsūtīšanas uz ASV. Bez pakļaušanas CLOUD Act. Bez neērtām atbildēm iepirkuma anketās.",
+    "subhead": "Katrs steka slānis — krātuve, atslēgas, DNS, piegādātāji — atrodas ES iekšienē.",
     "items": {
       "infrastructure": {
-        "name": "Eiropas īpašumā esoša infrastruktūra",
-        "description": "Glabāta, apstrādāta un rezervēta ES uz Eiropas īpašumā esošas infrastruktūras. Bez ASV hiperskaleriem — pat ne to ES reģionos."
+        "name": "ES īpašumā esoša infrastruktūra",
+        "description": "Saglabāts, apstrādāts un dublēts ES iekšienē, infrastruktūrā, kas pieder un kuru pārvalda Eiropas uzņēmumi."
       },
       "encryption": {
-        "name": "Šifrēti miera stāvoklī",
-        "description": "Atslēgas tiek pārvaldītas ES, mūsu kontrolē — nevis pie ASV hiperskalera."
+        "name": "Šifrēts miera stāvoklī",
+        "description": "Šifrēšanas atslēgas atrodas mūsu pārvaldītā ES KMS, iekļauts pēc noklusējuma — nevis augstākā līmeņa funkcija."
       },
       "dns": {
         "name": "DNS izšķirtspēja ES",
@@ -89,11 +89,11 @@
       },
       "jurisdiction": {
         "name": "Eiropas jurisdikcija",
-        "description": "ES jurisdikcija, VDAR no pamata. Ārpus ASV CLOUD Act darbības jomas."
+        "description": "ES jurisdikcija, VDAR-vietējais no pamatiem. Piekļuves pieprasījumi notiek caur Eiropas tiesiskajiem kanāliem."
       },
       "subprocessors": {
-        "name": "Bez ASV apakšapstrādātājiem",
-        "description": "E-pasta piegāde, maksājumi, atbalsts — nekas datu ceļā nesaskaras ar piegādātāju, kura mītne ir ASV. Apakšapstrādātāju saraksts ir publicēts, izmaiņas tiek paziņotas iepriekš."
+        "name": "Eiropas apakšapstrādātāji",
+        "description": "E-pasta piegāde, maksājumi, atbalsts — katrs datu ceļa piegādātājs ir reģistrēts ES. Saraksts ir publicēts; izmaiņas paziņotas 30 dienas iepriekš."
       }
     }
   },
@@ -272,7 +272,7 @@
       "messaging": {
         "date": "2026. gada oktobris",
         "name": "Iekšējā ziņojumapmaiņa",
-        "description": "Kanāli, tiešās ziņas un sarakstes komandas sarunām — meklējams, ES izvietots un ārpus ASV tērzēšanas platformām."
+        "description": "Kanāli, privātās ziņas un pavedieni komandas sarunām — meklējami, pavedienos un iebūvēti tajā pašā komplektā kā jūsu pasts un dokumenti."
       },
       "webmail": {
         "date": "2026. gada decembris",
@@ -353,7 +353,7 @@
       "transactionalEmail": {
         "date": "Q4 2027",
         "name": "ES izvietota transakciju e-pasta API",
-        "description": "Sūti savas lietojumprogrammas e-pastus caur Verkio nevis Sendgrid. Tāda pati nostāja bez ASV apakšapstrādātājiem, paplašināta uz tavu produktu."
+        "description": "HTTP API, lai sūtītu jūsu lietojumprogrammas e-pastus caur Verkio. Tāda pati ES rezidenta nostāja kā jūsu iesūtne, paplašināta uz jūsu produktu."
       },
       "sieveFilters": {
         "date": "Q4 2027",
@@ -433,6 +433,32 @@
       "mollie": "Abonementu rēķini, maksājumu apstrāde, klientu portāls"
     },
     "dpaLink": "Saite",
+    "customerHeading": "Klienta nodrošinātās integrācijas",
+    "customerBody1": "Dažas produkta funkcijas ļauj jums pieslēgt jūsu izvēlētu trešās puses pakalpojumu. Šīs trešās puses <strong>nav</strong> Verkio apakšapstrādātāji: jūs paliekat šī sadarbības posma pārzinis, un pakalpojumu sniedzējs darbojas saskaņā ar to līgumu, kuru esat tieši noslēdzis ar viņu. Verkio rīkojas pēc jūsu norādījumiem (saglabātajiem akreditācijas datiem), lai veiktu darbu, ko esat lūdzis.",
+    "customerCategoriesIntro": "Kur tas attiecas:",
+    "customerCategories": {
+      "dns": {
+        "name": "DNS pakalpojumu sniedzēji",
+        "description": "Domēna automātiskā iestatīšana raksta ierakstus caur jūsu pakalpojumu sniedzēja API. Jūs piegādājat API tokenu (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 utt.); mēs publicējam ierakstus, ko esat lūdzis."
+      },
+      "idp": {
+        "name": "Identitātes pakalpojumu sniedzēji (SSO/SCIM)",
+        "description": "Kad tiks ieviesta vienreizēja pierakstīšanās, jūs paši nesat savu IdP (Okta, Entra ID, Google Workspace utt.). Autentifikācija un lietotāja dzīves cikls dzīvo jūsu vidē, nevis mūsējā."
+      },
+      "webhooks": {
+        "name": "Webhook galapunkti",
+        "description": "Publiskā API sūta notikumus uz URL, ko izvēlaties. Šos galapunktus apkalpo jūs vai jūsu izvēlēts saņēmējs."
+      },
+      "forwarding": {
+        "name": "Ārēja e-pasta pārsūtīšana",
+        "description": "Ja iestatāt pārsūtīšanas noteikumu uz adresi ārpus Verkio, mērķa pasta serveris apstrādā pārsūtīto ziņojumu saskaņā ar jūsu attiecībām ar to."
+      },
+      "siem": {
+        "name": "SIEM un žurnālu straumēšana",
+        "description": "Audita žurnāla straumēšana sūta notikumus uz galamērķi, ko jūs kontrolējat — savu kolektoru, Datadog, Splunk vai jebkuru saderīgu galapunktu."
+      }
+    },
+    "customerBody2": "Tur, kur piedāvājam noklusējuma pakalpojumu sniedzēja izvēli, pēc noklusējuma izvēlamies ES īpašumā esošas iespējas, kas atbilst mūsu infrastruktūras nostājai. Atbalstīti tiek arī ASV reģistrēti pakalpojumu sniedzēji, bet tikai pēc skaidra organizācijas līmeņa apstiprinājuma, ka pakalpojumu sniedzējs ir reģistrēts ASV un sadarbības posms iziet ārpus ES īpašumā esošās infrastruktūras. Apstiprinājums un akreditācijas datu saglabāšana tiek neatkarīgi reģistrēti audita žurnālā.",
     "noticeHeading": "Paziņojums par izmaiņām",
     "noticeBody": "Lai saņemtu paziņojumus, kad šis saraksts mainās, rakstiet uz <email>subprocessors@verkio.eu</email> un lūdziet pievienot jūs paziņojumu sarakstam."
   },

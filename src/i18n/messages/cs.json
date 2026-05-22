@@ -73,15 +73,15 @@
   "residency": {
     "eyebrow": "Lokalita",
     "headline": "Kde žijí vaše data.",
-    "subhead": "Žádné přenosy do USA. Žádná expozice CLOUD Actu. Žádné trapné odpovědi v zadávacích formulářích.",
+    "subhead": "Každá vrstva platformy — úložiště, klíče, DNS, dodavatelé — leží uvnitř EU.",
     "items": {
       "infrastructure": {
-        "name": "Infrastruktura v evropském vlastnictví",
-        "description": "Uložené, zpracovávané a zálohované v EU na infrastruktuře v evropském vlastnictví. Žádní američtí hyperscaleri — ani jejich EU regiony."
+        "name": "Infrastruktura ve vlastnictví EU",
+        "description": "Uloženo, zpracováno a zálohováno uvnitř EU, na infrastruktuře vlastněné a provozované evropskými společnostmi."
       },
       "encryption": {
         "name": "Šifrováno v klidu",
-        "description": "Klíče jsou spravovány v EU, pod naší kontrolou — ne u amerického hyperscaleru."
+        "description": "Šifrovací klíče žijí v KMS v EU, který provozujeme my, ve výchozím nastavení — žádný vyšší tarif."
       },
       "dns": {
         "name": "DNS překlad v EU",
@@ -89,11 +89,11 @@
       },
       "jurisdiction": {
         "name": "Evropská jurisdikce",
-        "description": "Jurisdikce EU, GDPR od základu. Mimo dosah amerického CLOUD Actu."
+        "description": "Jurisdikce EU, navrženo přímo podle GDPR. Žádosti o přístup procházejí evropskými právními kanály."
       },
       "subprocessors": {
-        "name": "Žádní američtí dílčí zpracovatelé",
-        "description": "Doručování e-mailů, platby, podpora — nic v datové cestě se nedotýká dodavatele se sídlem v USA. Seznam dílčích zpracovatelů zveřejňujeme a změny oznamujeme předem."
+        "name": "Evropští zpracovatelé",
+        "description": "Doručování e‑mailů, platby, podpora — každý dodavatel v datové cestě sídlí v EU. Seznam je zveřejněn; změny jsou ohlášeny s 30denním předstihem."
       }
     }
   },
@@ -272,7 +272,7 @@
       "messaging": {
         "date": "Říjen 2026",
         "name": "Interní komunikace",
-        "description": "Kanály, soukromé zprávy a vlákna pro týmovou komunikaci — vyhledatelné, hostované v EU a mimo americké chatovací platformy."
+        "description": "Kanály, soukromé zprávy a vlákna pro týmovou komunikaci — prohledatelné, vláknové, integrované do stejné sady jako vaše pošta a dokumenty."
       },
       "webmail": {
         "date": "Prosinec 2026",
@@ -353,7 +353,7 @@
       "transactionalEmail": {
         "date": "Q4 2027",
         "name": "API pro transakční e-maily s EU rezidencí",
-        "description": "Odesílejte e-maily své aplikace přes Verkio místo Sendgrid. Stejný postoj bez amerických zpracovatelů, rozšířený na váš vlastní produkt."
+        "description": "HTTP API pro odesílání e‑mailů vaší aplikace přes Verkio. Stejná EU‑rezidentní pozice jako vaše schránka, rozšířená na váš produkt."
       },
       "sieveFilters": {
         "date": "Q4 2027",
@@ -433,6 +433,32 @@
       "mollie": "Fakturace předplatného, zpracování plateb, zákaznický portál"
     },
     "dpaLink": "Odkaz",
+    "customerHeading": "Integrace poskytované zákazníkem",
+    "customerBody1": "Některé funkce produktu vám umožňují připojit službu třetí strany dle vašeho výběru. Tyto třetí strany <strong>nejsou</strong> zpracovatelé Verkio: zůstáváte správcem tohoto vztahu a poskytovatel funguje podle jakékoliv smlouvy, kterou s ním máte přímo. Verkio jedná na váš pokyn (uložený přístupový klíč) a provádí práci, o kterou jste nás požádali.",
+    "customerCategoriesIntro": "Kde to platí:",
+    "customerCategories": {
+      "dns": {
+        "name": "Poskytovatelé DNS",
+        "description": "Automatické nastavení domény zapisuje záznamy přes API vašeho poskytovatele. Poskytnete API token (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 atd.); my publikujeme záznamy, o které jste nás požádali."
+      },
+      "idp": {
+        "name": "Poskytovatelé identity (SSO/SCIM)",
+        "description": "Až bude single sign-on k dispozici, přinesete si vlastního poskytovatele identity (Okta, Entra ID, Google Workspace atd.). Autentizace a životní cyklus uživatelů zůstávají ve vašem prostředí, ne v našem."
+      },
+      "webhooks": {
+        "name": "Webhook endpointy",
+        "description": "Veřejné API odesílá události na URL, které si vyberete. Tyto endpointy provozujete vy nebo příjemce, kterého jste si vybrali."
+      },
+      "forwarding": {
+        "name": "Externí přeposílání pošty",
+        "description": "Pokud nastavíte pravidlo přeposílání na adresu mimo Verkio, cílový poštovní server zachází s přeposlanou zprávou podle vašeho vztahu s ním."
+      },
+      "siem": {
+        "name": "SIEM a streamování logů",
+        "description": "Streamování auditního logu odesílá události do cíle, který ovládáte — váš vlastní kolektor, Datadog, Splunk nebo jakýkoli kompatibilní endpoint."
+      }
+    },
+    "customerBody2": "Tam, kde nabízíme volbu výchozího poskytovatele, standardně volíme možnosti se sídlem v EU, aby to odpovídalo naší infrastrukturní pozici. Poskytovatelé se sídlem v USA jsou rovněž podporováni, ale pouze po výslovném potvrzení na úrovni organizace, že poskytovatel sídlí v USA a vztah opouští infrastrukturu vlastněnou v EU. Potvrzení i uložení přihlašovacích údajů jsou samostatně zaznamenány do auditního protokolu.",
     "noticeHeading": "Oznámení o změnách",
     "noticeBody": "Pokud chcete dostávat oznámení o změnách v tomto seznamu, napište na <email>subprocessors@verkio.eu</email> a požádejte o zařazení do seznamu oznámení."
   },

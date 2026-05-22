@@ -73,15 +73,15 @@
   "residency": {
     "eyebrow": "Datalagring",
     "headline": "Hvor dine data ligger.",
-    "subhead": "Ingen overførsler til USA. Ingen CLOUD Act-eksponering. Ingen pinlige svar på udbudsskemaer.",
+    "subhead": "Hvert lag i stakken — opbevaring, nøgler, DNS, leverandører — ligger inde i EU.",
     "items": {
       "infrastructure": {
         "name": "EU-ejet infrastruktur",
-        "description": "Lagres, behandles og sikkerhedskopieres inde i EU på europæisk-ejet infrastruktur. Ingen amerikanske hyperscalers — heller ikke deres EU-regioner."
+        "description": "Lagret, behandlet og sikkerhedskopieret inde i EU på infrastruktur ejet og drevet af europæiske virksomheder."
       },
       "encryption": {
         "name": "Krypteret i hvile",
-        "description": "Nøglerne styres i EU, under vores kontrol — ikke hos en amerikansk hyperscaler."
+        "description": "Krypteringsnøgler bor i et EU-baseret KMS, som vi driver, inkluderet som standard — ikke et opgraderingsniveau."
       },
       "dns": {
         "name": "DNS-opslag i EU",
@@ -89,11 +89,11 @@
       },
       "jurisdiction": {
         "name": "Europæisk jurisdiktion",
-        "description": "EU-jurisdiktion, GDPR-bygget fra bunden. Uden for rækkevidde af den amerikanske CLOUD Act."
+        "description": "EU-jurisdiktion, GDPR-indbygget fra start. Anmodninger om adgang går gennem europæiske retskanaler."
       },
       "subprocessors": {
-        "name": "Ingen amerikanske underdatabehandlere",
-        "description": "E-maillevering, betalinger, support — intet i datastien passerer en leverandør med hjemsted i USA. Underdatabehandlerlisten offentliggøres, og ændringer varsles på forhånd."
+        "name": "Europæiske underdatabehandlere",
+        "description": "E-maillevering, betalinger, support — hver leverandør i datastien er hjemmehørende i EU. Listen er offentlig; ændringer varsles 30 dage i forvejen."
       }
     }
   },
@@ -272,7 +272,7 @@
       "messaging": {
         "date": "Oktober 2026",
         "name": "Intern beskedtjeneste",
-        "description": "Kanaler, DM'er og tråde til teamsamtaler — søgbart, EU-hostet og uden for amerikanske chatplatforme."
+        "description": "Kanaler, DM'er og tråde til teamkommunikation — søgbare, trådede og indbygget i samme suite som din mail og dine dokumenter."
       },
       "webmail": {
         "date": "December 2026",
@@ -353,7 +353,7 @@
       "transactionalEmail": {
         "date": "Q4 2027",
         "name": "EU-hostet API til transaktionsmail",
-        "description": "Send din applikations mails gennem Verkio i stedet for Sendgrid. Samme ingen-amerikanske-underdatabehandlere-holdning, udvidet til dit eget produkt."
+        "description": "Et HTTP-API til at sende dit programs e-mails gennem Verkio. Samme EU-residente position som din indbakke, udvidet til dit produkt."
       },
       "sieveFilters": {
         "date": "Q4 2027",
@@ -390,7 +390,7 @@
       },
       {
         "heading": "Hvor det opbevares",
-        "body": "Inden for Den Europæiske Union, på europæisk ejet infrastruktur. Ingen amerikanske hyperscalers og ingen overførsler ud af EU."
+        "body": "Inde i Den Europæiske Union, på EU-ejet infrastruktur. Ingen overførsler ud af EU."
       },
       {
         "heading": "Hvor længe vi opbevarer det",
@@ -433,6 +433,32 @@
       "mollie": "Abonnementsfakturering, betalingsbehandling, kundeportal"
     },
     "dpaLink": "Link",
+    "customerHeading": "Kundeleverede integrationer",
+    "customerBody1": "Nogle produktfunktioner lader dig forbinde en tredjepartstjeneste efter eget valg. Disse tredjeparter er <strong>ikke</strong> Verkios underdatabehandlere: du forbliver controller for det forhold, og udbyderen handler under den aftale, du har med dem direkte. Verkio handler på din instruks (den gemte legitimation) for at udføre det arbejde, du har bedt os om.",
+    "customerCategoriesIntro": "Hvor dette gælder:",
+    "customerCategories": {
+      "dns": {
+        "name": "DNS-udbydere",
+        "description": "Domæne-auto-opsætning skriver poster via din udbyders API. Du leverer et API-token (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 osv.); vi publicerer de poster, du har bedt os om."
+      },
+      "idp": {
+        "name": "Identitetsudbydere (SSO/SCIM)",
+        "description": "Når single sign-on lanceres, medbringer du din egen IdP (Okta, Entra ID, Google Workspace osv.). Autentificering og brugerens livscyklus bor i din tenant, ikke vores."
+      },
+      "webhooks": {
+        "name": "Webhook-endepunkter",
+        "description": "Det offentlige API pusher hændelser til URL'er, du vælger. Disse endepunkter drives af dig eller af en modtager, du har valgt."
+      },
+      "forwarding": {
+        "name": "Ekstern e-mailviderestilling",
+        "description": "Hvis du opsætter en videresendelsesregel til en adresse uden for Verkio, håndterer destinationsmailserveren den videresendte besked under dit forhold til dem."
+      },
+      "siem": {
+        "name": "SIEM- og logstreaming",
+        "description": "Auditlogstreaming pusher hændelser til en destination, du styrer — din egen collector, Datadog, Splunk eller et kompatibelt endepunkt."
+      }
+    },
+    "customerBody2": "Hvor vi tilbyder et valg af standardudbyder, vælger vi som standard EU-ejede muligheder for at matche vores infrastrukturholdning. US-domicilerede udbydere understøttes også, men kun efter en eksplicit organisationsspecifik bekræftelse på, at udbyderen er US-domicileret, og at forholdet forlader EU-ejet infrastruktur. Bekræftelse og legitimationsgemning auditlogges hver for sig.",
     "noticeHeading": "Meddelelse om ændringer",
     "noticeBody": "For at modtage besked, når denne liste ændres, skriv til <email>subprocessors@verkio.eu</email> og bed om at blive føjet til meddelelseslisten."
   },

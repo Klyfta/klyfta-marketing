@@ -73,27 +73,27 @@
   "residency": {
     "eyebrow": "Datenhaltung",
     "headline": "Wo Ihre Daten liegen.",
-    "subhead": "Keine Übertragungen in die USA. Keine Exposition gegenüber dem CLOUD Act. Keine unangenehmen Antworten in Ausschreibungen.",
+    "subhead": "Jede Schicht des Stacks — Speicher, Schlüssel, DNS, Anbieter — liegt innerhalb der EU.",
     "items": {
       "infrastructure": {
-        "name": "Europäisch betriebene Infrastruktur",
-        "description": "Gespeichert, verarbeitet und gesichert in der EU auf europäisch betriebener Infrastruktur. Keine US-Hyperscaler — auch nicht in deren EU-Regionen."
+        "name": "EU-eigene Infrastruktur",
+        "description": "Gespeichert, verarbeitet und gesichert innerhalb der EU, auf Infrastruktur, die europäischen Unternehmen gehört und von ihnen betrieben wird."
       },
       "encryption": {
-        "name": "Im Ruhezustand verschlüsselt",
-        "description": "Schlüssel werden in der EU verwaltet, unter unserer Kontrolle — nicht bei einem US-Hyperscaler."
+        "name": "Verschlüsselt im Ruhezustand",
+        "description": "Verschlüsselungsschlüssel liegen in einem EU-basierten KMS, das wir betreiben, standardmäßig inbegriffen — kein Upgrade-Tier."
       },
       "dns": {
         "name": "DNS-Auflösung in der EU",
         "description": "Auch die Anfragen, die Sie zu unseren Servern leiten, bleiben in Europa."
       },
       "jurisdiction": {
-        "name": "Europäische Rechtsprechung",
-        "description": "EU-Zuständigkeit, von Grund auf DSGVO-konform. Außerhalb der Reichweite des US CLOUD Act."
+        "name": "Europäische Gerichtsbarkeit",
+        "description": "EU-Gerichtsbarkeit, DSGVO von Grund auf. Auskunftsersuchen laufen über europäische Rechtswege."
       },
       "subprocessors": {
-        "name": "Keine US-Unterauftragsverarbeiter",
-        "description": "E-Mail-Versand, Zahlungen, Support — nichts im Datenpfad berührt einen in den USA ansässigen Anbieter. Die Liste der Unterauftragsverarbeiter ist veröffentlicht, Änderungen werden vorab angekündigt."
+        "name": "Europäische Unterauftragsverarbeiter",
+        "description": "E-Mail-Zustellung, Zahlungen, Support — jeder Anbieter im Datenpfad hat seinen Sitz in der EU. Die Liste ist veröffentlicht; Änderungen werden 30 Tage im Voraus angekündigt."
       }
     }
   },
@@ -272,7 +272,7 @@
       "messaging": {
         "date": "Oktober 2026",
         "name": "Interner Messenger",
-        "description": "Kanäle, DMs und Threads für Team-Gespräche — durchsuchbar, in der EU gehostet und außerhalb US-amerikanischer Chat-Plattformen."
+        "description": "Kanäle, DMs und Threads für Teamgespräche — durchsuchbar, in Threads organisiert und in dieselbe Suite wie Mail und Dokumente integriert."
       },
       "webmail": {
         "date": "Dezember 2026",
@@ -353,7 +353,7 @@
       "transactionalEmail": {
         "date": "Q4 2027",
         "name": "EU-ansässige API für transaktionale E-Mails",
-        "description": "Versenden Sie die E-Mails Ihrer Anwendung über Verkio statt Sendgrid. Gleiche Keine-US-Unterauftragsverarbeiter-Haltung, auf Ihr eigenes Produkt ausgeweitet."
+        "description": "Eine HTTP-API, um die E-Mails deiner Anwendung über Verkio zu versenden. Dieselbe EU-residente Haltung wie dein Postfach, ausgeweitet auf dein Produkt."
       },
       "sieveFilters": {
         "date": "Q4 2027",
@@ -390,7 +390,7 @@
       },
       {
         "heading": "Wo sie gespeichert werden",
-        "body": "Innerhalb der Europäischen Union, auf in europäischem Besitz befindlicher Infrastruktur. Keine US-Hyperscaler und keine Übermittlungen außerhalb der EU."
+        "body": "Innerhalb der Europäischen Union, auf EU-eigener Infrastruktur. Keine Übertragungen außerhalb der EU."
       },
       {
         "heading": "Wie lange wir sie speichern",
@@ -433,6 +433,32 @@
       "mollie": "Abonnementabrechnung, Zahlungsabwicklung, Kundenportal"
     },
     "dpaLink": "Link",
+    "customerHeading": "Vom Kunden bereitgestellte Integrationen",
+    "customerBody1": "Einige Produktfunktionen erlauben es dir, einen Drittanbieterdienst deiner Wahl anzubinden. Diese Dritten sind <strong>keine</strong> Verkio-Unterauftragsverarbeiter: du bleibst Verantwortlicher dieser Beziehung, und der Anbieter handelt unter dem Vertrag, den du direkt mit ihm hast. Verkio handelt auf deine Anweisung (die gespeicherte Anmeldeinformation), um die Arbeit zu verrichten, die du uns aufgetragen hast.",
+    "customerCategoriesIntro": "Wo das gilt:",
+    "customerCategories": {
+      "dns": {
+        "name": "DNS-Anbieter",
+        "description": "Die Domain-Auto-Einrichtung schreibt Einträge über die API deines Anbieters. Du lieferst ein API-Token (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 usw.); wir veröffentlichen die Einträge, um die du uns gebeten hast."
+      },
+      "idp": {
+        "name": "Identitätsanbieter (SSO/SCIM)",
+        "description": "Wenn Single Sign-on erscheint, bringst du deinen eigenen IdP mit (Okta, Entra ID, Google Workspace usw.). Authentifizierung und Benutzer-Lebenszyklus liegen in deinem Tenant, nicht in unserem."
+      },
+      "webhooks": {
+        "name": "Webhook-Endpunkte",
+        "description": "Die öffentliche API sendet Ereignisse an URLs, die du auswählst. Diese Endpunkte werden von dir oder einem von dir gewählten Empfänger betrieben."
+      },
+      "forwarding": {
+        "name": "Externe Mail-Weiterleitung",
+        "description": "Wenn du eine Weiterleitungsregel an eine Adresse außerhalb von Verkio einrichtest, behandelt der Ziel-Mailserver die weitergeleitete Nachricht im Rahmen deiner Beziehung zu ihm."
+      },
+      "siem": {
+        "name": "SIEM- und Log-Streaming",
+        "description": "Audit-Log-Streaming sendet Ereignisse an ein Ziel, das du kontrollierst — deinen eigenen Collector, Datadog, Splunk oder jeden kompatiblen Endpunkt."
+      }
+    },
+    "customerBody2": "Wo wir eine Wahl des Standardanbieters anbieten, wählen wir standardmäßig EU-eigene Optionen, passend zu unserer Infrastrukturhaltung. US-ansässige Anbieter werden ebenfalls unterstützt, aber nur nach einer ausdrücklichen organisationsbezogenen Bestätigung, dass der Anbieter in den USA ansässig ist und die Beziehung die EU-eigene Infrastruktur verlässt. Bestätigung und Anmeldeinformationsspeicherung werden unabhängig im Audit-Log erfasst.",
     "noticeHeading": "Mitteilung über Änderungen",
     "noticeBody": "Um benachrichtigt zu werden, wenn sich diese Liste ändert, schreiben Sie an <email>subprocessors@verkio.eu</email> und bitten Sie um Aufnahme in die Änderungsliste."
   },
