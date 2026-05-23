@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Delte postkasser",
+        "description": "Teampostkasser til delte adresser som support@ og hello@. Flerbrugeradgang, fuld IMAP/SMTP-understøttelse, alt registreret i revisionsloggen."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Arbejdsgang for delte mailbokse",
         "description": "Tildel-til-teammedlem, interne noter, statussporing og samtalevisninger for support@, hello@ og andre delte mailbokse."
       },

@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Sameiginleg pósthólf",
+        "description": "Hópapósthólf fyrir samnýtt netföng eins og support@ og hello@. Aðgangur margra notenda, fullur IMAP/SMTP stuðningur, allar aðgerðir skráðar í úttektarskránni."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Vinnuferli sameiginlegs pósthólfs",
         "description": "Úthluta-til-liðsfélaga, innri minnispunktar, stöðurakning og samtalsýn fyrir support@, hello@ og önnur sameiginleg pósthólf."
       },

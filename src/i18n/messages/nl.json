@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Gedeelde mailboxen",
+        "description": "Teampostvakken voor gedeelde adressen zoals support@ en hello@. Toegang voor meerdere gebruikers, volledige IMAP/SMTP-ondersteuning, elke actie vastgelegd in het auditlog."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Workflow voor gedeelde mailboxen",
         "description": "Toewijzen-aan-teamlid, interne notities, statustracking en gespreksweergaven voor support@, hello@ en andere gedeelde mailboxen."
       },

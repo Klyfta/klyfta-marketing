@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Boîtes partagées",
+        "description": "Boîtes d'équipe pour les adresses partagées comme support@ et hello@. Accès multi-utilisateurs, support IMAP/SMTP complet, chaque action enregistrée dans le journal d'audit."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Workflow pour boîtes partagées",
         "description": "Affectation à un coéquipier, notes internes, suivi de statut et vues conversation pour support@, hello@ et autres boîtes partagées."
       },
