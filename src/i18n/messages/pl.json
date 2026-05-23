@@ -312,7 +312,7 @@
       },
       "publicApi": {
         "date": "Q2 2027",
-        "name": "Publiczne API i webhooki",
+        "name": "Publiczne API",
         "description": "Buduj na Verkio: HTTP API dla poczty, kalendarza, kontaktów, dokumentów i wiki. Webhooki dla zdarzeń przychodzących. OAuth 2 i uwierzytelnianie tokenem."
       },
       "eidasSigning": {

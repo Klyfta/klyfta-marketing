@@ -312,7 +312,7 @@
       },
       "publicApi": {
         "date": "Q2 2027",
-        "name": "Publisks API un webhook",
+        "name": "Publisks API",
         "description": "Veido virs Verkio: HTTP API e-pastam, kalendāram, kontaktiem, dokumentiem un vikiem. Webhook ienākošajiem notikumiem. OAuth 2 un token autentifikācija."
       },
       "eidasSigning": {

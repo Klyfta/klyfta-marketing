@@ -312,7 +312,7 @@
       },
       "publicApi": {
         "date": "Q2 2027",
-        "name": "Offentlig API og webhooks",
+        "name": "Offentlig API",
         "description": "Bygg på Verkio: HTTP-API for e-post, kalender, kontakter, dokumenter og wikier. Webhooks for innkommende hendelser. OAuth 2 og token-autentisering."
       },
       "eidasSigning": {
