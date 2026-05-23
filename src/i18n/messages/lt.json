@@ -312,7 +312,7 @@
       },
       "publicApi": {
         "date": "Q2 2027",
-        "name": "Vieša API ir webhook'ai",
+        "name": "Vieša API",
         "description": "Statyk ant Verkio: HTTP API paštui, kalendoriui, kontaktams, dokumentams ir vikiams. Webhook'ai įeinantiems įvykiams. OAuth 2 ir žetonų autentifikavimas."
       },
       "eidasSigning": {

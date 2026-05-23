@@ -312,7 +312,7 @@
       },
       "publicApi": {
         "date": "Q2 2027",
-        "name": "Avalik API ja webhookid",
+        "name": "Avalik API",
         "description": "Ehita Verkio peale: HTTP API e-postile, kalendrile, kontaktidele, dokumentidele ja vikidele. Webhookid sissetulevatele sündmustele. OAuth 2 ja token-autentimine."
       },
       "eidasSigning": {

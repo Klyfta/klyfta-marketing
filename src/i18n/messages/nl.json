@@ -312,7 +312,7 @@
       },
       "publicApi": {
         "date": "Q2 2027",
-        "name": "Publieke API en webhooks",
+        "name": "Publieke API",
         "description": "Bouw bovenop Verkio: HTTP-API voor mail, agenda, contacten, documenten en wiki's. Webhooks voor inkomende events. OAuth 2 en token-auth."
       },
       "eidasSigning": {

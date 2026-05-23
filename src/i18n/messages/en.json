@@ -445,8 +445,9 @@
       },
       "publicApi": {
         "date": "Q2 2027",
-        "name": "Public API and webhooks",
-        "description": "Build on top of Verkio: HTTP API for mail, calendar, contacts, docs, and wikis. Webhooks for incoming events. OAuth 2 and token auth."
+        "name": "Public API",
+        "description": "REST API with bearer-token auth and SIEM-friendly audit-log export. Argon2id-hashed keys, per-key rate limits, OpenAPI 3.1 spec — point your codegen tool at /api/v1/openapi.json or browse the interactive reference at /developers.",
+        "note": "Webhooks, mailbox/domain CRUD, JMAP passthrough, and OAuth 2 still to come."
       },
       "eidasSigning": {
         "date": "Q2 2027",

@@ -312,7 +312,7 @@
       },
       "publicApi": {
         "date": "Q2 2027",
-        "name": "Öffentliche API und Webhooks",
+        "name": "Öffentliche API",
         "description": "Bauen Sie auf Verkio auf: HTTP-API für Mail, Kalender, Kontakte, Dokumente und Wikis. Webhooks für eingehende Ereignisse. OAuth 2 und Token-Authentifizierung."
       },
       "eidasSigning": {

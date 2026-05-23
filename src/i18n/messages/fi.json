@@ -312,7 +312,7 @@
       },
       "publicApi": {
         "date": "Q2 2027",
-        "name": "Julkinen API ja webhookit",
+        "name": "Julkinen API",
         "description": "Rakenna Verkion päälle: HTTP-API sähköpostille, kalenterille, yhteystiedoille, dokumenteille ja wikeille. Webhookit saapuville tapahtumille. OAuth 2 ja token-tunnistus."
       },
       "eidasSigning": {

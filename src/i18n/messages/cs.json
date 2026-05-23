@@ -312,7 +312,7 @@
       },
       "publicApi": {
         "date": "Q2 2027",
-        "name": "Veřejné API a webhooky",
+        "name": "Veřejné API",
         "description": "Stavte na Verkio: HTTP API pro poštu, kalendář, kontakty, dokumenty a wiki. Webhooky pro příchozí události. OAuth 2 a autentizace tokenem."
       },
       "eidasSigning": {
