@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Caselle condivise",
+        "description": "Caselle di team per indirizzi condivisi come support@ e hello@. Accesso multi-utente, supporto IMAP/SMTP completo, ogni azione registrata nel registro di audit."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Flusso di lavoro per caselle condivise",
         "description": "Assegna-a-compagno, note interne, tracciamento dello stato e viste conversazione per support@, hello@ e altre caselle condivise."
       },

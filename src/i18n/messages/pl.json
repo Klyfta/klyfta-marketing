@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Współdzielone skrzynki",
+        "description": "Skrzynki zespołowe dla wspólnych adresów jak support@ i hello@. Dostęp wielu użytkowników, pełna obsługa IMAP/SMTP, każda akcja zapisywana w dzienniku audytu."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Workflow współdzielonej skrzynki",
         "description": "Przypisz-do-członka-zespołu, notatki wewnętrzne, śledzenie statusu i widoki konwersacji dla support@, hello@ i innych wspólnych skrzynek."
       },

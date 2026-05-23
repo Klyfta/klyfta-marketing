@@ -466,6 +466,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Shared mailboxes",
+        "description": "Team inboxes for shared addresses like support@ and hello@. Multi-user access, full IMAP/SMTP support, every action recorded in the audit log."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Shared mailbox workflow",
         "description": "Assign-to-teammate, internal notes, status tracking, and conversation views for support@, hello@, and other shared inboxes."
       },

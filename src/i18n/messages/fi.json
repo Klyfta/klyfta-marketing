@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Jaetut postilaatikot",
+        "description": "Tiimipostilaatikot jaetuille osoitteille kuten support@ ja hello@. Monikäyttäjäpääsy, täysi IMAP/SMTP-tuki, kaikki toiminnot tallennetaan auditointilokiin."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Jaetun postilaatikon työnkulku",
         "description": "Määritä-tiimiläiselle, sisäiset muistiinpanot, tilan seuranta ja keskustelunäkymät support@-, hello@- ja muille jaetuille postilaatikoille."
       },

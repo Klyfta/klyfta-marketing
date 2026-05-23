@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Sdílené schránky",
+        "description": "Týmové schránky pro sdílené adresy jako support@ a hello@. Víceuživatelský přístup, plná podpora IMAP/SMTP, vše zaznamenáváno do auditního protokolu."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Workflow sdílené schránky",
         "description": "Přiřazení člena týmu, interní poznámky, sledování stavu a konverzační pohledy pro support@, hello@ a další sdílené schránky."
       },

@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Delade brevlådor",
+        "description": "Teamlådor för delade adresser som support@ och hello@. Flera användare, fullt IMAP/SMTP-stöd, alla åtgärder loggas i granskningsloggen."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Arbetsflöde för delade brevlådor",
         "description": "Tilldela-till-kollega, interna anteckningar, statusspårning och konversationsvyer för support@, hello@ och andra delade brevlådor."
       },

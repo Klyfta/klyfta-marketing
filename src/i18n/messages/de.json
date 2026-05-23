@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Geteilte Postfächer",
+        "description": "Team-Postfächer für gemeinsame Adressen wie support@ und hello@. Mehrbenutzerzugriff, vollständige IMAP/SMTP-Unterstützung, alles im Audit-Log protokolliert."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Workflow für geteilte Postfächer",
         "description": "Zuweisen-an-Teammitglied, interne Notizen, Statusverfolgung und Konversationsansichten für support@, hello@ und andere geteilte Postfächer."
       },

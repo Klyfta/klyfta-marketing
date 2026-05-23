@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Bendros pašto dėžės",
+        "description": "Komandos pašto dėžutės bendriems adresams kaip support@ ir hello@. Daugelio vartotojų prieiga, pilnas IMAP/SMTP palaikymas, visi veiksmai įrašomi į audito žurnalą."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Bendros pašto dėžės darbo eiga",
         "description": "Priskirti-komandos-nariui, vidiniai užrašai, būsenos sekimas ir pokalbių vaizdai support@, hello@ ir kitoms bendroms pašto dėžėms."
       },

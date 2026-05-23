@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Caixas de correio partilhadas",
+        "description": "Caixas de equipa para endereços partilhados como support@ e hello@. Acesso multi-utilizador, suporte IMAP/SMTP completo, todas as ações registadas no registo de auditoria."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Fluxo de caixa de correio partilhada",
         "description": "Atribuir-a-colega, notas internas, seguimento de estado e vistas de conversação para support@, hello@ e outras caixas partilhadas."
       },

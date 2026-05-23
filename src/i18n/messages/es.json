@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Buzones compartidos",
+        "description": "Buzones de equipo para direcciones compartidas como support@ y hello@. Acceso multiusuario, compatibilidad completa con IMAP/SMTP, todo registrado en el registro de auditoría."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Flujo de buzón compartido",
         "description": "Asignar-a-compañero, notas internas, seguimiento de estado y vistas de conversación para support@, hello@ y otros buzones compartidos."
       },

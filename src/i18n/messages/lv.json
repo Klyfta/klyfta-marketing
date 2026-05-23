@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Koplietojamas pastkastītes",
+        "description": "Komandas pastkastes koplietotām adresēm kā support@ un hello@. Vairāku lietotāju piekļuve, pilns IMAP/SMTP atbalsts, visas darbības tiek reģistrētas audita žurnālā."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Koplietojamas pastkastītes darbplūsma",
         "description": "Piešķirt-komandas-biedram, iekšējās piezīmes, statusa izsekošana un sarunu skati support@, hello@ un citām koplietojamām pastkastītēm."
       },

@@ -332,6 +332,11 @@
       },
       "sharedMailbox": {
         "date": "Q3 2027",
+        "name": "Jagatud postkastid",
+        "description": "Meeskonna postkastid jagatud aadressidele nagu support@ ja hello@. Mitme kasutaja juurdepääs, täielik IMAP/SMTP tugi, kõik tegevused salvestatakse audititegevuse logisse."
+      },
+      "sharedMailboxWorkflow": {
+        "date": "Q3 2027",
         "name": "Jagatud postkasti töövoog",
         "description": "Määramine-meeskonnaliikmele, sisemised märkmed, oleku jälgimine ja vestlusvaated support@, hello@ ja teistele jagatud postkastidele."
       },
