@@ -275,12 +275,12 @@
         "description": "Kanalen, DM's en threads voor teamgesprekken — doorzoekbaar, met threads en ingebouwd in dezelfde suite als je e-mail en documenten."
       },
       "webmail": {
-        "date": "December 2026",
+        "date": "Juli 2026",
         "name": "Webmail-inbox",
         "description": "Een snelle, toetsenbord-eerst webclient voor Verkio-mail — threading, zoeken en labels zonder ballast."
       },
       "domainAutoSetup": {
-        "date": "September 2026",
+        "date": "Juni 2026",
         "name": "Automatische domeininstelling",
         "description": "Voeg uw domein toe en wij configureren MX-, SPF-, DKIM-, DMARC- en autoconfig-records voor u. Geen handmatig DNS-werk."
       },
@@ -295,7 +295,7 @@
         "description": "SAML- en OIDC-aanmelding. SCIM provisioneert en deprovisioneert gebruikers automatisch via Okta, Entra ID of elke standaard-IdP."
       },
       "emailAliases": {
-        "date": "Juli 2026",
+        "date": "Mei 2026",
         "name": "E-mailaliassen en catch-all",
         "description": "Onbeperkte* aliassen per gebruiker. Catch-all op uw domein zodat u nooit een verkeerd gespeld adres mist. Past bij bring-your-own-domain.",
         "note": "Onder voorbehoud van redelijk gebruik"
@@ -306,12 +306,12 @@
         "description": "Publieke afsprakenlinks vanuit uw agenda. Net als Calendly, maar EU-gehost, zonder tracking, en in de suite ingebouwd."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Februari 2026",
         "name": "Auditlog",
         "description": "Wie-heeft-wat-wanneer-bekeken, blootgesteld als zowel UI als API. Stream naar uw SIEM indien nodig."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Maart 2026",
         "name": "Publieke API",
         "description": "Bouw bovenop Verkio: HTTP-API voor mail, agenda, contacten, documenten en wiki's. Webhooks voor inkomende events. OAuth 2 en token-auth."
       },
@@ -331,7 +331,7 @@
         "description": "Eigen iOS- en Android-apps. E-mail, agenda, contacten, documenten en wiki's in uw zak — dezelfde toetsenbordvriendelijke snelheid als op het web."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "April 2026",
         "name": "Gedeelde mailboxen",
         "description": "Teampostvakken voor gedeelde adressen zoals support@ en hello@. Toegang voor meerdere gebruikers, volledige IMAP/SMTP-ondersteuning, elke actie vastgelegd in het auditlog."
       },

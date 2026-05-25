@@ -275,12 +275,12 @@
         "description": "Kanaler, DM:s och trådar för teamkonversationer — sökbara, i trådar och inbyggda i samma svit som din e-post och dina dokument."
       },
       "webmail": {
-        "date": "December 2026",
+        "date": "Juli 2026",
         "name": "Webbmejl-inkorg",
         "description": "En snabb, tangentbordsfokuserad webbklient för Verkio-mejl — trådar, sökning och etiketter utan onödig vikt."
       },
       "domainAutoSetup": {
-        "date": "September 2026",
+        "date": "Juni 2026",
         "name": "Automatisk domänkonfiguration",
         "description": "Lägg till din domän så konfigurerar vi MX-, SPF-, DKIM-, DMARC- och autoconfig-poster åt dig. Inget manuellt DNS-arbete."
       },
@@ -295,7 +295,7 @@
         "description": "SAML- och OIDC-inloggning. SCIM provisionerar och avprovisionerar användare automatiskt via Okta, Entra ID eller valfri standard-IdP."
       },
       "emailAliases": {
-        "date": "Juli 2026",
+        "date": "Maj 2026",
         "name": "E-postalias och catch-all",
         "description": "Obegränsade* alias per användare. Catch-all på din domän så du aldrig missar en felskriven adress. Passar med ta-med-egen-domän.",
         "note": "Med förbehåll för rimlig användning"
@@ -306,12 +306,12 @@
         "description": "Publika tidsbokningslänkar från din kalender. Som Calendly, men EU-baserat, utan spårning och inbyggt i sviten."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Februari 2026",
         "name": "Granskningslogg",
         "description": "Vem-har-åtkomst-till-vad-när, exponerat både som UI och API. Strömma till ditt SIEM om du behöver."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Mars 2026",
         "name": "Publikt API",
         "description": "Bygg ovanpå Verkio: HTTP-API för e-post, kalender, kontakter, dokument och wikis. Webhooks för inkommande händelser. OAuth 2 och token-autentisering."
       },
@@ -331,7 +331,7 @@
         "description": "Egna iOS- och Android-appar. E-post, kalender, kontakter, dokument och wikis i fickan — samma tangentbordsvänliga snabbhet som på webben."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "April 2026",
         "name": "Delade brevlådor",
         "description": "Teamlådor för delade adresser som support@ och hello@. Flera användare, fullt IMAP/SMTP-stöd, alla åtgärder loggas i granskningsloggen."
       },

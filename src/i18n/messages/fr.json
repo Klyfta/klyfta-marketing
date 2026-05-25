@@ -275,12 +275,12 @@
         "description": "Canaux, messages privés et fils de discussion pour les conversations d'équipe — consultables, organisés en fils et intégrés à la même suite que votre messagerie et vos documents."
       },
       "webmail": {
-        "date": "Décembre 2026",
+        "date": "Juillet 2026",
         "name": "Boîte de réception webmail",
         "description": "Un client web rapide et axé clavier pour Verkio mail — threads, recherche et étiquettes, sans lourdeur."
       },
       "domainAutoSetup": {
-        "date": "Septembre 2026",
+        "date": "Juin 2026",
         "name": "Configuration automatique du domaine",
         "description": "Ajoutez votre domaine et nous configurons les enregistrements MX, SPF, DKIM, DMARC et autoconfig pour vous. Pas de DNS à régler à la main."
       },
@@ -295,7 +295,7 @@
         "description": "Connexion SAML et OIDC. SCIM provisionne et déprovisionne automatiquement les utilisateurs via Okta, Entra ID ou tout fournisseur d'identité standard."
       },
       "emailAliases": {
-        "date": "Juillet 2026",
+        "date": "Mai 2026",
         "name": "Alias e-mail et catch-all",
         "description": "Alias illimités* par utilisateur. Catch-all sur votre domaine pour ne jamais manquer une adresse mal écrite. Va de pair avec l'apport de votre propre domaine.",
         "note": "Sous réserve d'un usage raisonnable"
@@ -306,12 +306,12 @@
         "description": "Liens de prise de rendez-vous publics depuis votre agenda. Comme Calendly, mais hébergé dans l'UE, sans tracking, et intégré à la suite."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Février 2026",
         "name": "Journal d'audit",
         "description": "Qui a accédé à quoi et quand, exposé en interface et en API. Streamez vers votre SIEM si besoin."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Mars 2026",
         "name": "API publique",
         "description": "Construisez sur Verkio : API HTTP pour mail, agenda, contacts, documents et wikis. Webhooks pour les événements entrants. OAuth 2 et auth par jeton."
       },
@@ -331,7 +331,7 @@
         "description": "Applications iOS et Android maison. Mail, agenda, contacts, documents et wikis dans votre poche — la même rapidité orientée clavier que sur le web."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "Avril 2026",
         "name": "Boîtes partagées",
         "description": "Boîtes d'équipe pour les adresses partagées comme support@ et hello@. Accès multi-utilisateurs, support IMAP/SMTP complet, chaque action enregistrée dans le journal d'audit."
       },

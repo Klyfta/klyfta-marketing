@@ -275,12 +275,12 @@
         "description": "Kanaler, DM'er og tråde til teamkommunikation — søgbare, trådede og indbygget i samme suite som din mail og dine dokumenter."
       },
       "webmail": {
-        "date": "December 2026",
+        "date": "Juli 2026",
         "name": "Webmail-indbakke",
         "description": "En hurtig, tastaturfokuseret webklient til Verkio-mail — tråde, søgning og etiketter uden overflødig oppustning."
       },
       "domainAutoSetup": {
-        "date": "September 2026",
+        "date": "Juni 2026",
         "name": "Automatisk domæneopsætning",
         "description": "Tilføj dit domæne, og vi konfigurerer MX-, SPF-, DKIM-, DMARC- og autoconfig-poster for dig. Intet manuelt DNS-arbejde."
       },
@@ -295,7 +295,7 @@
         "description": "SAML- og OIDC-login. SCIM provisionerer og afprovisionerer brugere automatisk via Okta, Entra ID eller en hvilken som helst standard-IdP."
       },
       "emailAliases": {
-        "date": "Juli 2026",
+        "date": "Maj 2026",
         "name": "E-mail-aliasser og catch-all",
         "description": "Ubegrænsede* aliasser pr. bruger. Catch-all på dit domæne, så du aldrig går glip af en stavet forkert adresse. Passer med medbring-eget-domæne.",
         "note": "Med forbehold for rimelig brug"
@@ -306,12 +306,12 @@
         "description": "Offentlige bookinglinks fra din kalender. Som Calendly, men EU-hostet, uden sporing og indbygget i suiten."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Februar 2026",
         "name": "Auditlog",
         "description": "Hvem-tilgik-hvad-hvornår, eksponeret som både UI og API. Stream til dit SIEM, hvis du har brug for det."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Marts 2026",
         "name": "Offentligt API",
         "description": "Byg oven på Verkio: HTTP-API til mail, kalender, kontakter, dokumenter og wikis. Webhooks til indgående hændelser. OAuth 2 og token-godkendelse."
       },
@@ -331,7 +331,7 @@
         "description": "Egne iOS- og Android-apps. Mail, kalender, kontakter, dokumenter og wikis i lommen — samme tastaturvenlige hastighed som på nettet."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "April 2026",
         "name": "Delte postkasser",
         "description": "Teampostkasser til delte adresser som support@ og hello@. Flerbrugeradgang, fuld IMAP/SMTP-understøttelse, alt registreret i revisionsloggen."
       },

@@ -275,12 +275,12 @@
         "description": "Kanalai, asmeniniai pranešimai ir gijos komandos pokalbiams — paieškomi, sutvarkyti į gijas ir integruoti į tą patį paketą kaip jūsų paštas ir dokumentai."
       },
       "webmail": {
-        "date": "2026 m. gruodis",
+        "date": "Liepa 2026",
         "name": "Webmail dėžutė",
         "description": "Greitas, klaviatūrai pritaikytas Verkio pašto žiniatinklio klientas — gijos, paieška ir etiketės be nereikalingo svorio."
       },
       "domainAutoSetup": {
-        "date": "2026 m. rugsėjis",
+        "date": "Birželis 2026",
         "name": "Automatinė domeno sąranka",
         "description": "Pridėk savo domeną ir mes sukonfigūruosime MX, SPF, DKIM, DMARC bei autoconfig įrašus už tave. Jokio rankinio DNS darbo."
       },
@@ -295,7 +295,7 @@
         "description": "SAML ir OIDC prisijungimas. SCIM automatiškai sukuria ir pašalina vartotojus per Okta, Entra ID ar bet kurį standartinį tapatybės teikėją."
       },
       "emailAliases": {
-        "date": "2026 m. liepa",
+        "date": "Gegužė 2026",
         "name": "El. pašto antrai ir catch-all",
         "description": "Neribotai* antrų vienam vartotojui. Catch-all tavo domene, kad niekada nepraleistum klaidingai parašyto adreso. Dera su savo domenu.",
         "note": "Esant pagrįstam naudojimui"
@@ -306,12 +306,12 @@
         "description": "Vieši rezervacijos saitai iš tavo kalendoriaus. Kaip Calendly, bet talpinama ES, be sekimo ir integruota į rinkinį."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Vasaris 2026",
         "name": "Audito žurnalas",
         "description": "Kas-prieigą-prie-ko-ir-kada, pateikta tiek kaip sąsaja, tiek kaip API. Srautink į savo SIEM, jei reikia."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Kovas 2026",
         "name": "Vieša API",
         "description": "Statyk ant Verkio: HTTP API paštui, kalendoriui, kontaktams, dokumentams ir vikiams. Webhook'ai įeinantiems įvykiams. OAuth 2 ir žetonų autentifikavimas."
       },
@@ -331,7 +331,7 @@
         "description": "Savos iOS ir Android programėlės. Paštas, kalendorius, kontaktai, dokumentai ir viki kišenėje — toks pat klaviatūrai draugiškas greitis kaip žiniatinklyje."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "Balandis 2026",
         "name": "Bendros pašto dėžės",
         "description": "Komandos pašto dėžutės bendriems adresams kaip support@ ir hello@. Daugelio vartotojų prieiga, pilnas IMAP/SMTP palaikymas, visi veiksmai įrašomi į audito žurnalą."
       },

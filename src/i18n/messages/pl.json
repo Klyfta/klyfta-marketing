@@ -275,12 +275,12 @@
         "description": "Kanały, wiadomości prywatne i wątki do rozmów zespołowych — z wyszukiwaniem, w wątkach i wbudowane w ten sam pakiet co Twoja poczta i dokumenty."
       },
       "webmail": {
-        "date": "Grudzień 2026",
+        "date": "Lipiec 2026",
         "name": "Skrzynka webmail",
         "description": "Szybki, zorientowany na klawiaturę klient webowy poczty Verkio — wątki, wyszukiwanie i etykiety bez zbędnego balastu."
       },
       "domainAutoSetup": {
-        "date": "Wrzesień 2026",
+        "date": "Czerwiec 2026",
         "name": "Automatyczna konfiguracja domeny",
         "description": "Dodaj swoją domenę, a my skonfigurujemy za Ciebie rekordy MX, SPF, DKIM, DMARC i autoconfig. Bez ręcznej pracy z DNS."
       },
@@ -295,7 +295,7 @@
         "description": "Logowanie SAML i OIDC. SCIM automatycznie tworzy i wyłącza użytkowników przez Okta, Entra ID lub dowolnego standardowego dostawcę tożsamości."
       },
       "emailAliases": {
-        "date": "Lipiec 2026",
+        "date": "Maj 2026",
         "name": "Aliasy e-mail i catch-all",
         "description": "Nieograniczone* aliasy na użytkownika. Catch-all na Twojej domenie, byś nigdy nie pominął źle wpisanego adresu. Łączy się z własną domeną.",
         "note": "Z zastrzeżeniem rozsądnego użytkowania"
@@ -306,12 +306,12 @@
         "description": "Publiczne linki rezerwacji z Twojego kalendarza. Jak Calendly, ale hostowane w UE, bez śledzenia i wbudowane w pakiet."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Luty 2026",
         "name": "Dziennik audytu",
         "description": "Kto-co-kiedy-otworzył, udostępniony jako UI i jako API. Streamuj do swojego SIEM, jeśli potrzebujesz."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Marzec 2026",
         "name": "Publiczne API",
         "description": "Buduj na Verkio: HTTP API dla poczty, kalendarza, kontaktów, dokumentów i wiki. Webhooki dla zdarzeń przychodzących. OAuth 2 i uwierzytelnianie tokenem."
       },
@@ -331,7 +331,7 @@
         "description": "Własne aplikacje iOS i Android. Poczta, kalendarz, kontakty, dokumenty i wiki w kieszeni — ta sama wygoda klawiatury co w wersji webowej."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "Kwiecień 2026",
         "name": "Współdzielone skrzynki",
         "description": "Skrzynki zespołowe dla wspólnych adresów jak support@ i hello@. Dostęp wielu użytkowników, pełna obsługa IMAP/SMTP, każda akcja zapisywana w dzienniku audytu."
       },

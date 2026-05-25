@@ -275,12 +275,12 @@
         "description": "Canali, messaggi diretti e thread per le conversazioni di team — ricercabili, organizzati in thread e integrati nella stessa suite della tua posta e dei tuoi documenti."
       },
       "webmail": {
-        "date": "Dicembre 2026",
+        "date": "Luglio 2026",
         "name": "Casella di webmail",
         "description": "Un client web veloce e orientato alla tastiera per Verkio mail — thread, ricerca ed etichette senza fronzoli."
       },
       "domainAutoSetup": {
-        "date": "Settembre 2026",
+        "date": "Giugno 2026",
         "name": "Configurazione automatica del dominio",
         "description": "Aggiungi il tuo dominio e configuriamo per te i record MX, SPF, DKIM, DMARC e autoconfig. Niente DNS manuale."
       },
@@ -295,7 +295,7 @@
         "description": "Accesso SAML e OIDC. SCIM provvede e revoca automaticamente gli utenti via Okta, Entra ID o qualsiasi IdP standard."
       },
       "emailAliases": {
-        "date": "Luglio 2026",
+        "date": "Maggio 2026",
         "name": "Alias email e catch-all",
         "description": "Alias illimitati* per utente. Catch-all sul tuo dominio per non perdere mai un indirizzo scritto male. Si abbina al porta-il-tuo-dominio.",
         "note": "Soggetto a uso ragionevole"
@@ -306,12 +306,12 @@
         "description": "Link pubblici di prenotazione dal tuo calendario. Come Calendly, ma con residenza UE, senza tracking, e integrato nella suite."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Febbraio 2026",
         "name": "Log di audit",
         "description": "Chi-ha-acceduto-a-cosa-e-quando, esposto sia come UI sia come API. Trasmettilo al tuo SIEM se necessario."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Marzo 2026",
         "name": "API pubblica",
         "description": "Costruisci su Verkio: API HTTP per email, calendario, contatti, documenti e wiki. Webhook per eventi in entrata. OAuth 2 e autenticazione token."
       },
@@ -331,7 +331,7 @@
         "description": "App iOS e Android proprietarie. Email, calendario, contatti, documenti e wiki in tasca — stessa velocità orientata alla tastiera che sul web."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "Aprile 2026",
         "name": "Caselle condivise",
         "description": "Caselle di team per indirizzi condivisi come support@ e hello@. Accesso multi-utente, supporto IMAP/SMTP completo, ogni azione registrata nel registro di audit."
       },

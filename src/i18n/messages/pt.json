@@ -275,12 +275,12 @@
         "description": "Canais, DMs e tópicos para conversas de equipa — pesquisáveis, em tópicos e integrados na mesma suite que o seu e-mail e os seus documentos."
       },
       "webmail": {
-        "date": "Dezembro de 2026",
+        "date": "Julho 2026",
         "name": "Caixa de webmail",
         "description": "Um cliente web rápido e centrado no teclado para o e-mail Verkio — tópicos, pesquisa e etiquetas sem excessos."
       },
       "domainAutoSetup": {
-        "date": "Setembro de 2026",
+        "date": "Junho 2026",
         "name": "Configuração automática do domínio",
         "description": "Adicione o seu domínio e configuramos os registos MX, SPF, DKIM, DMARC e autoconfig por si. Sem trabalho manual de DNS."
       },
@@ -295,7 +295,7 @@
         "description": "Início de sessão SAML e OIDC. SCIM aprovisiona e desativa utilizadores automaticamente via Okta, Entra ID ou qualquer IdP padrão."
       },
       "emailAliases": {
-        "date": "Julho de 2026",
+        "date": "Maio 2026",
         "name": "Aliases de e-mail e catch-all",
         "description": "Aliases ilimitados* por utilizador. Catch-all no seu domínio para nunca perder um endereço mal escrito. Combina com traga o seu próprio domínio.",
         "note": "Sujeito a uso razoável"
@@ -306,12 +306,12 @@
         "description": "Links públicos de agendamento a partir do seu calendário. Como Calendly, mas alojado na UE, sem rastreio, e integrado na suite."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Fevereiro 2026",
         "name": "Registo de auditoria",
         "description": "Quem-acedeu-a-quê-quando, exposto como UI e como API. Faça streaming para o seu SIEM se precisar."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Março 2026",
         "name": "API pública",
         "description": "Construa sobre a Verkio: API HTTP para e-mail, calendário, contactos, documentos e wikis. Webhooks para eventos recebidos. OAuth 2 e autenticação por token."
       },
@@ -331,7 +331,7 @@
         "description": "Aplicações iOS e Android próprias. E-mail, calendário, contactos, documentos e wikis no bolso — a mesma velocidade orientada para o teclado que na web."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "Abril 2026",
         "name": "Caixas de correio partilhadas",
         "description": "Caixas de equipa para endereços partilhados como support@ e hello@. Acesso multi-utilizador, suporte IMAP/SMTP completo, todas as ações registadas no registo de auditoria."
       },

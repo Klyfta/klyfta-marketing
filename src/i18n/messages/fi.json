@@ -275,12 +275,12 @@
         "description": "Kanavat, yksityisviestit ja ketjut tiimikeskusteluihin — haettavissa, ketjutettuja ja sisäänrakennettu samaan pakettiin postin ja dokumenttien kanssa."
       },
       "webmail": {
-        "date": "Joulukuu 2026",
+        "date": "Heinäkuu 2026",
         "name": "Webmail-postilaatikko",
         "description": "Nopea, näppäimistöä suosiva verkkosovellus Verkion sähköpostille — keskustelut, haku ja merkinnät ilman turhaa painolastia."
       },
       "domainAutoSetup": {
-        "date": "Syyskuu 2026",
+        "date": "Kesäkuu 2026",
         "name": "Automaattinen verkkotunnuksen määritys",
         "description": "Lisää verkkotunnuksesi, niin määritämme MX-, SPF-, DKIM-, DMARC- ja autoconfig-tietueet puolestasi. Ei manuaalista DNS-työtä."
       },
@@ -295,7 +295,7 @@
         "description": "SAML- ja OIDC-kirjautuminen. SCIM provisioi ja deprovisioi käyttäjät automaattisesti Oktan, Entra ID:n tai minkä tahansa standardin identiteetin tarjoajan kautta."
       },
       "emailAliases": {
-        "date": "Heinäkuu 2026",
+        "date": "Toukokuu 2026",
         "name": "Sähköpostialiakset ja catch-all",
         "description": "Rajoittamaton* määrä aliaksia käyttäjää kohden. Catch-all verkkotunnuksessasi, jotta et koskaan menetä väärin kirjoitettua osoitetta. Yhdistyy oman verkkotunnuksen kanssa.",
         "note": "Kohtuullisen käytön ehdoin"
@@ -306,12 +306,12 @@
         "description": "Julkiset ajanvarauslinkit kalenteristasi. Kuten Calendly, mutta EU:ssa, ilman seurantaa ja integroituna pakettiin."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Helmikuu 2026",
         "name": "Tarkastusloki",
         "description": "Kuka-käytti-mitä-milloin, käytettävissä sekä käyttöliittymänä että rajapintana. Striimaa SIEM-järjestelmääsi tarvittaessa."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Maaliskuu 2026",
         "name": "Julkinen API",
         "description": "Rakenna Verkion päälle: HTTP-API sähköpostille, kalenterille, yhteystiedoille, dokumenteille ja wikeille. Webhookit saapuville tapahtumille. OAuth 2 ja token-tunnistus."
       },
@@ -331,7 +331,7 @@
         "description": "Omat iOS- ja Android-sovellukset. Sähköposti, kalenteri, yhteystiedot, dokumentit ja wikit taskussa — sama näppäimistöystävällinen nopeus kuin webissä."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "Huhtikuu 2026",
         "name": "Jaetut postilaatikot",
         "description": "Tiimipostilaatikot jaetuille osoitteille kuten support@ ja hello@. Monikäyttäjäpääsy, täysi IMAP/SMTP-tuki, kaikki toiminnot tallennetaan auditointilokiin."
       },

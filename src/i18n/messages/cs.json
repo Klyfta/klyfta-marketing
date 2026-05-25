@@ -275,12 +275,12 @@
         "description": "Kanály, soukromé zprávy a vlákna pro týmovou komunikaci — prohledatelné, vláknové, integrované do stejné sady jako vaše pošta a dokumenty."
       },
       "webmail": {
-        "date": "Prosinec 2026",
+        "date": "Červenec 2026",
         "name": "Webmail schránka",
         "description": "Rychlý webový klient pošty Verkio s důrazem na klávesnici — vlákna, vyhledávání a štítky bez zbytečné zátěže."
       },
       "domainAutoSetup": {
-        "date": "Září 2026",
+        "date": "Červen 2026",
         "name": "Automatické nastavení domény",
         "description": "Přidejte svou doménu a my za vás nastavíme MX, SPF, DKIM, DMARC a autoconfig záznamy. Žádná ruční práce s DNS."
       },
@@ -295,7 +295,7 @@
         "description": "Přihlášení SAML a OIDC. SCIM automaticky zakládá a deaktivuje uživatele přes Okta, Entra ID nebo libovolného standardního poskytovatele identit."
       },
       "emailAliases": {
-        "date": "Červenec 2026",
+        "date": "Květen 2026",
         "name": "E-mailové aliasy a catch-all",
         "description": "Neomezené* aliasy na uživatele. Catch-all na vaší doméně, abyste nikdy nezmeškali špatně napsanou adresu. Spojuje se s vlastní doménou.",
         "note": "S výhradou přiměřeného použití"
@@ -306,12 +306,12 @@
         "description": "Veřejné rezervační odkazy z vašeho kalendáře. Jako Calendly, ale v EU, bez sledování a integrované do balíčku."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Únor 2026",
         "name": "Audit log",
         "description": "Kdo-co-kdy-přistoupil, dostupné jako UI i API. Streamujte do svého SIEM, pokud potřebujete."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Březen 2026",
         "name": "Veřejné API",
         "description": "Stavte na Verkio: HTTP API pro poštu, kalendář, kontakty, dokumenty a wiki. Webhooky pro příchozí události. OAuth 2 a autentizace tokenem."
       },
@@ -331,7 +331,7 @@
         "description": "Vlastní iOS a Android aplikace. Pošta, kalendář, kontakty, dokumenty a wiki v kapse — stejná rychlost přátelská ke klávesnici jako na webu."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "Duben 2026",
         "name": "Sdílené schránky",
         "description": "Týmové schránky pro sdílené adresy jako support@ a hello@. Víceuživatelský přístup, plná podpora IMAP/SMTP, vše zaznamenáváno do auditního protokolu."
       },

@@ -275,12 +275,12 @@
         "description": "Kanäle, DMs und Threads für Teamgespräche — durchsuchbar, in Threads organisiert und in dieselbe Suite wie Mail und Dokumente integriert."
       },
       "webmail": {
-        "date": "Dezember 2026",
+        "date": "Juli 2026",
         "name": "Webmail-Posteingang",
         "description": "Ein schneller, tastaturorientierter Web-Client für Verkio-Mail — Threading, Suche und Labels ohne Ballast."
       },
       "domainAutoSetup": {
-        "date": "September 2026",
+        "date": "Juni 2026",
         "name": "Automatische Domain-Einrichtung",
         "description": "Fügen Sie Ihre Domain hinzu und wir konfigurieren MX-, SPF-, DKIM-, DMARC- und Autoconfig-Einträge für Sie. Keine manuelle DNS-Arbeit."
       },
@@ -295,7 +295,7 @@
         "description": "SAML- und OIDC-Anmeldung. SCIM stellt Benutzer automatisch über Okta, Entra ID oder einen beliebigen Standard-Identitätsanbieter bereit und ab."
       },
       "emailAliases": {
-        "date": "Juli 2026",
+        "date": "Mai 2026",
         "name": "E-Mail-Aliase und Catch-all",
         "description": "Unbegrenzte* Aliase pro Benutzer. Catch-all auf Ihrer Domain, damit Sie keine falsch geschriebene Adresse verpassen. Passt zu Bring-your-own-domain.",
         "note": "Vorbehaltlich angemessener Nutzung"
@@ -306,12 +306,12 @@
         "description": "Öffentliche Terminbuchungslinks aus Ihrem Kalender. Wie Calendly, aber EU-ansässig, ohne Tracking und in die Suite integriert."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Februar 2026",
         "name": "Audit-Log",
         "description": "Wer-hat-was-wann-zugegriffen, sowohl als UI als auch als API. An Ihr SIEM streamen, wenn nötig."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "März 2026",
         "name": "Öffentliche API",
         "description": "Bauen Sie auf Verkio auf: HTTP-API für Mail, Kalender, Kontakte, Dokumente und Wikis. Webhooks für eingehende Ereignisse. OAuth 2 und Token-Authentifizierung."
       },
@@ -331,7 +331,7 @@
         "description": "Eigene iOS- und Android-Apps. Mail, Kalender, Kontakte, Dokumente und Wikis in der Hosentasche — die gleiche tastaturfreundliche Geschwindigkeit wie im Web."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "April 2026",
         "name": "Geteilte Postfächer",
         "description": "Team-Postfächer für gemeinsame Adressen wie support@ und hello@. Mehrbenutzerzugriff, vollständige IMAP/SMTP-Unterstützung, alles im Audit-Log protokolliert."
       },

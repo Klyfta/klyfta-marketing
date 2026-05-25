@@ -275,12 +275,12 @@
         "description": "Rásir, einkaskilaboð og þræðir fyrir teymisspjall — leitanleg, í þráðum og innbyggð í sömu pakka og pósturinn og skjölin þín."
       },
       "webmail": {
-        "date": "Desember 2026",
+        "date": "Júlí 2026",
         "name": "Vefpósthólf",
         "description": "Hraður, lyklaborðsmiðaður vefviðmót fyrir Verkio-tölvupóst — þræðir, leit og merkingar án óþarfa þyngsla."
       },
       "domainAutoSetup": {
-        "date": "September 2026",
+        "date": "Júní 2026",
         "name": "Sjálfvirk uppsetning léns",
         "description": "Bættu við léninu þínu og við stillum MX-, SPF-, DKIM-, DMARC- og autoconfig-færslur fyrir þig. Engin handvirk DNS-vinna."
       },
@@ -295,7 +295,7 @@
         "description": "SAML- og OIDC-innskráning. SCIM úthlutar og fjarlægir notendur sjálfvirkt í gegnum Okta, Entra ID eða hvaða staðlaðan auðkennisveitanda sem er."
       },
       "emailAliases": {
-        "date": "Júlí 2026",
+        "date": "Maí 2026",
         "name": "Tölvupósts-samheiti og catch-all",
         "description": "Ótakmörkuð* samheiti á hvern notanda. Catch-all á léninu þínu svo þú missir aldrei af rangskrifuðu netfangi. Passar með komdu-með-þitt-eigið-lén.",
         "note": "Háð sanngjarnri notkun"
@@ -306,12 +306,12 @@
         "description": "Opinberir bókunarhlekkir úr dagatalinu þínu. Eins og Calendly, en hýst í ESB, án rakningar og innbyggt í svítuna."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Febrúar 2026",
         "name": "Endurskoðunarskrá",
         "description": "Hver-fékk-aðgang-að-hverju-hvenær, í boði bæði sem viðmót og API. Streymdu í SIEM-kerfið þitt ef þú þarft."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Mars 2026",
         "name": "Opinbert API",
         "description": "Byggðu ofan á Verkio: HTTP-API fyrir tölvupóst, dagatal, tengiliði, skjöl og wikis. Webhooks fyrir innkomna atburði. OAuth 2 og token-auðkenning."
       },
@@ -331,7 +331,7 @@
         "description": "Eigin iOS- og Android-forrit. Tölvupóstur, dagatal, tengiliðir, skjöl og wikis í vasanum — sami lyklaborðsvænn hraði og á vefnum."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "Apríl 2026",
         "name": "Sameiginleg pósthólf",
         "description": "Hópapósthólf fyrir samnýtt netföng eins og support@ og hello@. Aðgangur margra notenda, fullur IMAP/SMTP stuðningur, allar aðgerðir skráðar í úttektarskránni."
       },

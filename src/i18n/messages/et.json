@@ -275,12 +275,12 @@
         "description": "Kanalid, vahetussõnumid ja lõimed meeskonna vestlusteks — otsitavad, lõimedena korraldatud ja sisseehitatud samasse paketti kui sinu post ja dokumendid."
       },
       "webmail": {
-        "date": "Detsember 2026",
+        "date": "Juuli 2026",
         "name": "Veebipostkast",
         "description": "Kiire, klaviatuurile keskendunud veebiklient Verkio meilile — lõimed, otsing ja sildid ilma ülearuse koormata."
       },
       "domainAutoSetup": {
-        "date": "September 2026",
+        "date": "Juuni 2026",
         "name": "Automaatne domeeni seadistus",
         "description": "Lisa oma domeen ja seadistame MX-, SPF-, DKIM-, DMARC- ja autoconfig-kirjed sinu eest. Käsitsi DNS-tööd pole vaja."
       },
@@ -295,7 +295,7 @@
         "description": "SAML- ja OIDC-sisselogimine. SCIM lisab ja eemaldab kasutajaid automaatselt Okta, Entra ID või ükskõik millise standardse identiteedipakkujaga."
       },
       "emailAliases": {
-        "date": "Juuli 2026",
+        "date": "Mai 2026",
         "name": "E-posti aliased ja catch-all",
         "description": "Piiramatu* arv aliaseid kasutaja kohta. Catch-all sinu domeenis, et sa ei jätaks kunagi vahele valesti kirjutatud aadressi. Sobib oma domeeni kasutamisega.",
         "note": "Mõistliku kasutamise tingimustel"
@@ -306,12 +306,12 @@
         "description": "Avalikud broneerimislingid sinu kalendrist. Nagu Calendly, kuid ELi-põhine, jälgimiseta ja paketti sisseehitatud."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Veebruar 2026",
         "name": "Auditlogi",
         "description": "Kes-pääses-millele-millal, esitatud nii kasutajaliideses kui ka APIs. Striimi oma SIEMi, kui vajalik."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Märts 2026",
         "name": "Avalik API",
         "description": "Ehita Verkio peale: HTTP API e-postile, kalendrile, kontaktidele, dokumentidele ja vikidele. Webhookid sissetulevatele sündmustele. OAuth 2 ja token-autentimine."
       },
@@ -331,7 +331,7 @@
         "description": "Omad iOS- ja Android-rakendused. E-post, kalender, kontaktid, dokumendid ja vikid taskus — sama klaviatuurisõbralik kiirus kui veebis."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "Aprill 2026",
         "name": "Jagatud postkastid",
         "description": "Meeskonna postkastid jagatud aadressidele nagu support@ ja hello@. Mitme kasutaja juurdepääs, täielik IMAP/SMTP tugi, kõik tegevused salvestatakse audititegevuse logisse."
       },

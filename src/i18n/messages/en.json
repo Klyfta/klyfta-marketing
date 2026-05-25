@@ -408,12 +408,12 @@
         "description": "Channels, DMs, and threads for team conversations — searchable, threaded, and built into the same suite as your mail and docs."
       },
       "webmail": {
-        "date": "December 2026",
+        "date": "July 2026",
         "name": "Webmail inbox",
         "description": "A fast, keyboard-first web client for Verkio mail — threading, search, and labels without the bloat."
       },
       "domainAutoSetup": {
-        "date": "September 2026",
+        "date": "June 2026",
         "name": "Domain auto-setup",
         "description": "Add your domain and we configure MX, SPF, DKIM, DMARC, and autoconfig records for you. No manual DNS work."
       },
@@ -428,7 +428,7 @@
         "description": "SAML and OIDC sign-on. SCIM auto-provisions and de-provisions users via Okta, Entra ID, or any standard identity provider."
       },
       "emailAliases": {
-        "date": "July 2026",
+        "date": "May 2026",
         "name": "Email aliases and catch-all",
         "description": "Unlimited* aliases per user. Catch-all on your domain so you never miss a misspelled address. Pairs with bring-your-own-domain.",
         "note": "Subject to reasonable use"
@@ -439,12 +439,12 @@
         "description": "Public scheduling links from your calendar. Like Calendly, but EU-resident, no tracking, and built into the suite."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "February 2026",
         "name": "Audit log",
         "description": "Who-accessed-what-when, exposed as both a UI and an API. Stream to your SIEM if you need to."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "March 2026",
         "name": "Public API",
         "description": "REST API with bearer-token auth and SIEM-friendly audit-log export. Argon2id-hashed keys, per-key rate limits, OpenAPI 3.1 spec — point your codegen tool at /api/v1/openapi.json or browse the interactive reference at /developers.",
         "note": "Webhooks, mailbox/domain CRUD, JMAP passthrough, and OAuth 2 still to come."
@@ -465,7 +465,7 @@
         "description": "First-party iOS and Android apps. Mail, calendar, contacts, docs, and wikis in your pocket — the same keyboard-friendly speed as the web."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "April 2026",
         "name": "Shared mailboxes",
         "description": "Team inboxes for shared addresses like support@ and hello@. Multi-user access, full IMAP/SMTP support, every action recorded in the audit log."
       },

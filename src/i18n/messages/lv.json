@@ -275,12 +275,12 @@
         "description": "Kanāli, privātās ziņas un pavedieni komandas sarunām — meklējami, pavedienos un iebūvēti tajā pašā komplektā kā jūsu pasts un dokumenti."
       },
       "webmail": {
-        "date": "2026. gada decembris",
+        "date": "Jūlijs 2026",
         "name": "Tīmekļa pasta iesūtne",
         "description": "Ātrs, uz tastatūru orientēts tīmekļa klients Verkio pastam — sarakste, meklēšana un etiķetes bez liekas slodzes."
       },
       "domainAutoSetup": {
-        "date": "2026. gada septembris",
+        "date": "Jūnijs 2026",
         "name": "Automātiska domēna iestatīšana",
         "description": "Pievieno savu domēnu un mēs konfigurēsim MX, SPF, DKIM, DMARC un autoconfig ierakstus tavā vietā. Bez manuālas DNS darbības."
       },
@@ -295,7 +295,7 @@
         "description": "SAML un OIDC pierakstīšanās. SCIM automātiski izveido un atspējo lietotājus, izmantojot Okta, Entra ID vai jebkuru standarta identitātes pakalpojumu sniedzēju."
       },
       "emailAliases": {
-        "date": "2026. gada jūlijs",
+        "date": "Maijs 2026",
         "name": "E-pasta aizstājvārdi un catch-all",
         "description": "Neierobežoti* aizstājvārdi katram lietotājam. Catch-all uz tava domēna, lai tu nekad nepalaistu garām nepareizi uzrakstītu adresi. Saderīgs ar paša domēnu.",
         "note": "Atbilstoši saprātīgai izmantošanai"
@@ -306,12 +306,12 @@
         "description": "Publiskas tikšanās saites no tava kalendāra. Tāpat kā Calendly, bet izvietots ES, bez izsekošanas un iebūvēts komplektā."
       },
       "auditLog": {
-        "date": "Q2 2027",
+        "date": "Februāris 2026",
         "name": "Audita žurnāls",
         "description": "Kurš-piekļuva-kam-kad, pieejams gan kā saskarne, gan kā API. Straumē uz savu SIEM, ja nepieciešams."
       },
       "publicApi": {
-        "date": "Q2 2027",
+        "date": "Marts 2026",
         "name": "Publisks API",
         "description": "Veido virs Verkio: HTTP API e-pastam, kalendāram, kontaktiem, dokumentiem un vikiem. Webhook ienākošajiem notikumiem. OAuth 2 un token autentifikācija."
       },
@@ -331,7 +331,7 @@
         "description": "Pašu iOS un Android lietotnes. E-pasts, kalendārs, kontakti, dokumenti un viki kabatā — tāds pats tastatūrai draudzīgs ātrums kā tīmeklī."
       },
       "sharedMailbox": {
-        "date": "Q3 2027",
+        "date": "Aprīlis 2026",
         "name": "Koplietojamas pastkastītes",
         "description": "Komandas pastkastes koplietotām adresēm kā support@ un hello@. Vairāku lietotāju piekļuve, pilns IMAP/SMTP atbalsts, visas darbības tiek reģistrētas audita žurnālā."
       },
