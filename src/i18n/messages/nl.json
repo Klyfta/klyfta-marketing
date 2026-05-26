@@ -336,9 +336,9 @@
         "description": "Teampostvakken voor gedeelde adressen zoals support@ en hello@. Toegang voor meerdere gebruikers, volledige IMAP/SMTP-ondersteuning, elke actie vastgelegd in het auditlog."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Mei 2026",
         "name": "Workflow voor gedeelde mailboxen",
-        "description": "Toewijzen-aan-teamlid, interne notities, statustracking en gespreksweergaven voor support@, hello@ en andere gedeelde mailboxen."
+        "description": "Team-inboxweergave voor gedeelde postvakken: wijs gesprekken toe aan teamleden, stel status in (open / wachtend / gesloten), plaats interne notities die alleen het team ziet. Dezelfde status verschijnt als standaard IMAP-trefwoorden — zichtbaar in Apple Mail / Thunderbird / K-9. Realtime-tracking van inkomende berichten; heropent gesloten gesprekken automatisch bij klantantwoorden."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "Begin 2028",
         "name": "eDiscovery en juridische hold",
         "description": "Plaats gebruikers of mailboxen onder hold; zoek en exporteer door de hele suite voor compliance- en juridische-discovery-workflows."
+      },
+      "fileStorage": {
+        "date": "Mei 2026",
+        "name": "Cloud-bestandsopslag",
+        "description": "Persoonlijke + gedeelde opslag met mappen, openbare deellinks, per-bestand ACL, hervatbare uploads van meerdere GB en 30-dagen Prullenbak — alles versleuteld met EU-beheerde sleutels."
       }
     }
   },

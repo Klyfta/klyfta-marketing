@@ -46,6 +46,8 @@ const roadmapItems: { key: string; size: RoadmapSize; status?: RoadmapStatus }[]
   { key: "publicApi", size: "major", status: "implemented" },
   { key: "sharedMailbox", size: "major", status: "implemented" },
   { key: "emailAliases", size: "minor", status: "implemented" },
+  { key: "fileStorage", size: "major", status: "implemented" },
+  { key: "sharedMailboxWorkflow", size: "major", status: "implemented" },
   { key: "domainAutoSetup", size: "minor", status: "implemented" },
   { key: "webmail", size: "major", status: "implemented" },
   { key: "wiki", size: "major" },

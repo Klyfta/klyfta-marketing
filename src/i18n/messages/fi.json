@@ -336,9 +336,9 @@
         "description": "Tiimipostilaatikot jaetuille osoitteille kuten support@ ja hello@. Monikäyttäjäpääsy, täysi IMAP/SMTP-tuki, kaikki toiminnot tallennetaan auditointilokiin."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Toukokuu 2026",
         "name": "Jaetun postilaatikon työnkulku",
-        "description": "Määritä-tiimiläiselle, sisäiset muistiinpanot, tilan seuranta ja keskustelunäkymät support@-, hello@- ja muille jaetuille postilaatikoille."
+        "description": "Tiimi-postilaatikkonäkymä jaetuille postilaatikoille: osoita keskusteluja tiimikavereille, aseta tila (avoin / odottava / suljettu), jätä vain tiimille näkyviä sisäisiä muistiinpanoja. Sama tila näkyy tavallisina IMAP-avainsanoina — Apple Mail / Thunderbird / K-9 -ohjelmissa. Reaaliaikainen saapuvien viestien seuranta; avaa suljetut säikeet automaattisesti asiakkaan vastatessa."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "Alkuvuosi 2028",
         "name": "eDiscovery ja oikeudellinen pidätys",
         "description": "Aseta käyttäjät tai postilaatikot pidätykseen; hae ja vie tietoja koko paketin yli vaatimustenmukaisuus- ja oikeudellisen löytämisen työnkulkuihin."
+      },
+      "fileStorage": {
+        "date": "Toukokuu 2026",
+        "name": "Pilvitiedostotallennus",
+        "description": "Yksityinen + organisaation kanssa jaettu tallennus, kansiot, julkiset jakolinkit, tiedostokohtainen ACL, jatkettavat multi-GB-lataukset ja 30 päivän roskakori — kaikki salattu EU-hallinnoiduilla avaimilla."
       }
     }
   },

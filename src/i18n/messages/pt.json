@@ -336,9 +336,9 @@
         "description": "Caixas de equipa para endereços partilhados como support@ e hello@. Acesso multi-utilizador, suporte IMAP/SMTP completo, todas as ações registadas no registo de auditoria."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Maio 2026",
         "name": "Fluxo de caixa de correio partilhada",
-        "description": "Atribuir-a-colega, notas internas, seguimento de estado e vistas de conversação para support@, hello@ e outras caixas partilhadas."
+        "description": "Vista de caixa de equipa para caixas partilhadas: atribua conversas a colegas, defina o estado (aberto / pendente / fechado), deixe notas internas visíveis apenas para a equipa. O mesmo estado é exposto como palavras-chave IMAP padrão — visíveis em Apple Mail / Thunderbird / K-9. Rastreio em tempo real de mensagens recebidas; reabre automaticamente conversas fechadas quando os clientes respondem."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "Início de 2028",
         "name": "eDiscovery e retenção legal",
         "description": "Coloque utilizadores ou caixas de correio sob retenção; pesquise e exporte em toda a suite para fluxos de conformidade e descoberta legal."
+      },
+      "fileStorage": {
+        "date": "Maio 2026",
+        "name": "Armazenamento de ficheiros na nuvem",
+        "description": "Armazenamento privado + partilhado com pastas, links públicos, ACL por ficheiro, uploads retomáveis de vários GB e Reciclagem de 30 dias — tudo cifrado com chaves geridas na UE."
       }
     }
   },

@@ -470,9 +470,9 @@
         "description": "Team inboxes for shared addresses like support@ and hello@. Multi-user access, full IMAP/SMTP support, every action recorded in the audit log."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "May 2026",
         "name": "Shared mailbox workflow",
-        "description": "Assign-to-teammate, internal notes, status tracking, and conversation views for support@, hello@, and other shared inboxes."
+        "description": "Team-inbox view for shared mailboxes: assign conversations to teammates, set status (open / pending / closed), and leave internal notes visible only to the team. Same state is exposed as standard IMAP keywords so Apple Mail / Thunderbird / K-9 power users see assignments + status from their existing client. Real-time inbound tracking auto-creates conversations on every new message; auto-reopens closed threads when customers reply."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -503,6 +503,11 @@
         "date": "Early 2028",
         "name": "eDiscovery and legal hold",
         "description": "Place users or mailboxes under hold; search and export across the suite for compliance and legal-discovery workflows."
+      },
+      "fileStorage": {
+        "date": "May 2026",
+        "name": "Cloud file storage",
+        "description": "Private + org-shared file storage with folders, public share links, per-file ACL, multi-GB resumable uploads, and 30-day Trash recovery — all encrypted at rest with EU-managed keys."
       }
     }
   }

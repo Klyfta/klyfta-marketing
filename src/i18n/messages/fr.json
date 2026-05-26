@@ -336,9 +336,9 @@
         "description": "Boîtes d'équipe pour les adresses partagées comme support@ et hello@. Accès multi-utilisateurs, support IMAP/SMTP complet, chaque action enregistrée dans le journal d'audit."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Mai 2026",
         "name": "Workflow pour boîtes partagées",
-        "description": "Affectation à un coéquipier, notes internes, suivi de statut et vues conversation pour support@, hello@ et autres boîtes partagées."
+        "description": "Vue boîte d'équipe pour les boîtes partagées : attribuez les conversations aux coéquipiers, définissez le statut (ouverte / en attente / fermée) et laissez des notes internes visibles seulement par l'équipe. Le même état est exposé sous forme de mots-clés IMAP standards — visibles dans Apple Mail / Thunderbird / K-9. Suivi en temps réel des messages entrants ; réouverture automatique des conversations fermées sur réponse client."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "Début 2028",
         "name": "eDiscovery et conservation légale",
         "description": "Placez des utilisateurs ou boîtes sous conservation ; recherchez et exportez à travers la suite pour les workflows de conformité et de découverte légale."
+      },
+      "fileStorage": {
+        "date": "Mai 2026",
+        "name": "Stockage de fichiers cloud",
+        "description": "Stockage de fichiers privé + partagé avec dossiers, liens publics, ACL par fichier, téléversements multi-Go reprenables et corbeille 30 jours — tout chiffré avec des clés gérées en UE."
       }
     }
   },
