@@ -325,11 +325,6 @@
         "name": "Sondages d'agenda",
         "description": "Trouvez un créneau qui convient à tous sans lien Doodle. Proposez plusieurs créneaux dans l'invitation, les destinataires votent, l'agenda résout."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Applications mobiles natives",
-        "description": "Applications iOS et Android maison. Mail, agenda, contacts, documents et wikis dans votre poche — la même rapidité orientée clavier que sur le web."
-      },
       "sharedMailbox": {
         "date": "Avril 2026",
         "name": "Boîtes partagées",
@@ -374,6 +369,16 @@
         "date": "Mai 2026",
         "name": "Stockage de fichiers cloud",
         "description": "Stockage de fichiers privé + partagé avec dossiers, liens publics, ACL par fichier, téléversements multi-Go reprenables et corbeille 30 jours — tout chiffré avec des clés gérées en UE."
+      },
+      "sharedMailboxAcls": {
+        "date": "Mai 2026",
+        "name": "Contrôles d'accès par dossier dans les boîtes partagées",
+        "description": "Accordez aux lecteurs, répondeurs ou administrateurs un accès par dossier dans une boîte partagée à l'aide des jeux de lettres ACL RFC 4314. Les propriétaires et administrateurs peuvent limiter un stagiaire à la lecture seule, un senior à la gestion des étiquettes ou un manager au droit de suppression — dossier par dossier ou sur toute la boîte."
+      },
+      "externalForwarding": {
+        "date": "Mai 2026",
+        "name": "Redirection d'e-mails externe",
+        "description": "Redirigez une copie de chaque message entrant vers une adresse chez un autre fournisseur — Gmail, Fastmail, votre boîte personnelle. La destination doit confirmer en cliquant sur un lien avant le démarrage de la redirection ; jusqu'à 3 redirections par boîte personnelle ; chaque modification est enregistrée dans le journal d'audit."
       }
     }
   },

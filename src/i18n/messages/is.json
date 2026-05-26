@@ -325,11 +325,6 @@
         "name": "Dagatalskannanir",
         "description": "Finndu tíma sem hentar öllum án Doodle-tengils. Stingdu upp á mörgum tímum í boðinu, viðtakendur kjósa, dagatal leysir."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Innfædd farsímaforrit",
-        "description": "Eigin iOS- og Android-forrit. Tölvupóstur, dagatal, tengiliðir, skjöl og wikis í vasanum — sami lyklaborðsvænn hraði og á vefnum."
-      },
       "sharedMailbox": {
         "date": "Apríl 2026",
         "name": "Sameiginleg pósthólf",
@@ -374,6 +369,16 @@
         "date": "Maí 2026",
         "name": "Skýjaskráageymsla",
         "description": "Einkaeign + samdeild geymsla með möppum, opinberum deilingartenglum, ACL á hvert skrá, endurræsanlegum multi-GB hleðslum og 30 daga ruslakörfu — allt dulkóðað með ESB-stýrðum lyklum."
+      },
+      "sharedMailboxAcls": {
+        "date": "Maí 2026",
+        "name": "Aðgangsstýringar á möppu í sameiginlegu pósthólfi",
+        "description": "Veittu lesendum, svörurum eða stjórnendum möppu-bundinn aðgang innan sameiginlegs pósthólfs með RFC 4314 ACL-bókstafasamsetningum. Eigendur og stjórnendur geta takmarkað nemanda við lesaðgang, sérfræðing við merkjastjórnun eða stjórnanda við eyðingarrétt — möppu fyrir möppu eða á öllu pósthólfinu."
+      },
+      "externalForwarding": {
+        "date": "Maí 2026",
+        "name": "Áframsending tölvupósts út fyrir kerfið",
+        "description": "Áframsendu afrit af hverju innkomnu skeyti á netfang hjá öðrum þjónustuveitanda — Gmail, Fastmail, einkapósthólfið þitt. Áfangastaðurinn verður að staðfesta með því að smella á tengil áður en áframsending hefst; allt að 3 áframsendingar á hvert einkapósthólf; hver breyting er skráð í úttektarskrána."
       }
     }
   },

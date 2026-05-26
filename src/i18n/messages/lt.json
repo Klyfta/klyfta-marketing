@@ -325,11 +325,6 @@
         "name": "Kalendoriaus apklausos",
         "description": "Rask laiką, tinkantį visiems, be Doodle saito. Pasiūlyk kelis laikus kvietime, gavėjai balsuoja, kalendorius išsprendžia."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Vietinės mobiliosios programėlės",
-        "description": "Savos iOS ir Android programėlės. Paštas, kalendorius, kontaktai, dokumentai ir viki kišenėje — toks pat klaviatūrai draugiškas greitis kaip žiniatinklyje."
-      },
       "sharedMailbox": {
         "date": "Balandis 2026",
         "name": "Bendros pašto dėžės",
@@ -374,6 +369,16 @@
         "date": "Gegužė 2026",
         "name": "Debesinė failų saugykla",
         "description": "Privati + organizacijos bendrinama saugykla su aplankais, viešosiomis nuorodomis, failo ACL, atnaujinamais multi-GB įkėlimais ir 30 dienų Šiukšlinę — viskas šifruota ES valdomais raktais."
+      },
+      "sharedMailboxAcls": {
+        "date": "Gegužė 2026",
+        "name": "Bendros pašto dėžės aplanko prieigos valdikliai",
+        "description": "Suteik skaitytojams, atsakinėjantiems ar administratoriams aplankų prieigą bendroje pašto dėžėje naudodamas RFC 4314 ACL raidžių rinkinius. Savininkai ir administratoriai gali apriboti praktikantą tik skaitymu, vyresnįjį – etikečių valdymu, vadovą – trynimo teisėmis — aplankas po aplanko arba visoje dėžėje."
+      },
+      "externalForwarding": {
+        "date": "Gegužė 2026",
+        "name": "Išorinis el. pašto persiuntimas",
+        "description": "Persiųsk kiekvieno gaunamo pranešimo kopiją kito tiekėjo adresu — Gmail, Fastmail, savo asmeniniam pašto adresui. Paskirties vieta turi patvirtinti spustelėjusi nuorodą, kad persiuntimas prasidėtų; iki 3 persiuntimų vienai asmeninei dėžei; kiekvienas pakeitimas registruojamas audito žurnale."
       }
     }
   },

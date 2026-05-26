@@ -325,11 +325,6 @@
         "name": "Ankiety w kalendarzu",
         "description": "Znajdź godzinę pasującą wszystkim bez linku Doodle. Zaproponuj wiele terminów w zaproszeniu, odbiorcy głosują, kalendarz rozstrzyga."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Natywne aplikacje mobilne",
-        "description": "Własne aplikacje iOS i Android. Poczta, kalendarz, kontakty, dokumenty i wiki w kieszeni — ta sama wygoda klawiatury co w wersji webowej."
-      },
       "sharedMailbox": {
         "date": "Kwiecień 2026",
         "name": "Współdzielone skrzynki",
@@ -374,6 +369,16 @@
         "date": "Maj 2026",
         "name": "Chmurowe przechowywanie plików",
         "description": "Prywatne + udostępniane w organizacji przechowywanie z folderami, publicznymi linkami, ACL na plik, wznawialnymi przesyłaniami multi-GB i 30-dniowym koszem — wszystko szyfrowane kluczami zarządzanymi w UE."
+      },
+      "sharedMailboxAcls": {
+        "date": "Maj 2026",
+        "name": "Kontrola dostępu do folderów w skrzynce współdzielonej",
+        "description": "Przyznawaj czytelnikom, odpowiadającym lub administratorom dostęp do folderów w skrzynce współdzielonej przy użyciu zestawów liter ACL RFC 4314. Właściciele i administratorzy mogą ograniczyć stażystę do tylko-do-odczytu, seniora do zarządzania etykietami, a menedżera do prawa usuwania — folder po folderze lub w całej skrzynce."
+      },
+      "externalForwarding": {
+        "date": "Maj 2026",
+        "name": "Zewnętrzne przekierowanie poczty",
+        "description": "Przekazuj kopię każdej przychodzącej wiadomości na adres u innego dostawcy — Gmail, Fastmail, twoją osobistą skrzynkę. Cel musi potwierdzić, klikając w link, zanim przekierowanie się rozpocznie; do 3 przekierowań na osobistą skrzynkę; każda zmiana jest zapisywana w dzienniku audytu."
       }
     }
   },

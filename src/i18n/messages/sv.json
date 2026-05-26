@@ -325,11 +325,6 @@
         "name": "Kalenderomröstningar",
         "description": "Hitta en tid som passar alla utan Doodle-länk. Föreslå flera tider i inbjudan, mottagarna röstar, kalendern löser."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Native mobilappar",
-        "description": "Egna iOS- och Android-appar. E-post, kalender, kontakter, dokument och wikis i fickan — samma tangentbordsvänliga snabbhet som på webben."
-      },
       "sharedMailbox": {
         "date": "April 2026",
         "name": "Delade brevlådor",
@@ -374,6 +369,16 @@
         "date": "Maj 2026",
         "name": "Molnfillagring",
         "description": "Privat + organisationsdelad fillagring med mappar, publika delningslänkar, ACL per fil, återupptagbara multi-GB-uppladdningar och 30-dagars Papperskorg — allt krypterat med EU-hanterade nycklar."
+      },
+      "sharedMailboxAcls": {
+        "date": "Maj 2026",
+        "name": "Behörigheter per mapp i delade brevlådor",
+        "description": "Ge läsare, svarare eller administratörer behörighet per mapp i en delad brevlåda med RFC 4314-ACL-bokstavsuppsättningar. Ägare och administratörer kan begränsa en praktikant till endast läsning, en senior till etiketthantering eller en chef till raderingsrättigheter — mapp för mapp eller för hela brevlådan."
+      },
+      "externalForwarding": {
+        "date": "Maj 2026",
+        "name": "Extern e-postvidarebefordran",
+        "description": "Vidarebefordra en kopia av varje inkommande meddelande till en adress hos en annan leverantör — Gmail, Fastmail, din personliga inkorg. Destinationen måste bekräfta genom att klicka på en länk innan vidarebefordran startar; upp till 3 vidarebefordringar per personlig brevlåda; varje ändring loggas i granskningsloggen."
       }
     }
   },

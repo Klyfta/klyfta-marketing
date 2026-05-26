@@ -325,11 +325,6 @@
         "name": "Kalendāra aptaujas",
         "description": "Atrodi laiku, kas der visiem, bez Doodle saites. Piedāvā vairākus laikus uzaicinājumā, saņēmēji balso, kalendārs atrisina."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Vietējās mobilās lietotnes",
-        "description": "Pašu iOS un Android lietotnes. E-pasts, kalendārs, kontakti, dokumenti un viki kabatā — tāds pats tastatūrai draudzīgs ātrums kā tīmeklī."
-      },
       "sharedMailbox": {
         "date": "Aprīlis 2026",
         "name": "Koplietojamas pastkastītes",
@@ -374,6 +369,16 @@
         "date": "Maijs 2026",
         "name": "Mākoņa failu krātuve",
         "description": "Privāta + organizācijai koplietota failu krātuve ar mapēm, publiskām saitēm, ACL katram failam, atjaunojamām multi-GB augšupielādēm un 30 dienu Atkritni — viss šifrēts ar ES pārvaldītām atslēgām."
+      },
+      "sharedMailboxAcls": {
+        "date": "Maijs 2026",
+        "name": "Koplietojamas pastkastītes piekļuves vadība pa mapēm",
+        "description": "Piešķir lasītājiem, atbildētājiem vai administratoriem piekļuvi pa mapēm koplietojamā pastkastītē, izmantojot RFC 4314 ACL burtu kopas. Īpašnieki un administratori var ierobežot praktikantu līdz tikai lasīšanai, vecāko speciālistu līdz iezīmju pārvaldībai vai vadītāju līdz dzēšanas tiesībām — mapi pa mapei vai visā pastkastītē."
+      },
+      "externalForwarding": {
+        "date": "Maijs 2026",
+        "name": "Ārējā e-pasta pārsūtīšana",
+        "description": "Pārsūti katras ienākošās ziņas kopiju uz adresi pie cita pakalpojumu sniedzēja — Gmail, Fastmail, tava personīgā iesūtne. Mērķim jāapstiprina, noklikšķinot uz saites, pirms pārsūtīšana sākas; līdz 3 pārsūtīšanām uz personīgo pastkastīti; katras izmaiņas tiek reģistrētas audita žurnālā."
       }
     }
   },

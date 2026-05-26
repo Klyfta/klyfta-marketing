@@ -325,11 +325,6 @@
         "name": "Kalenderavstemninger",
         "description": "Finn en tid som passer alle uten Doodle-lenke. Foreslå flere tider i invitasjonen, mottakerne stemmer, kalenderen løser."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Native mobilapper",
-        "description": "Egne iOS- og Android-apper. E-post, kalender, kontakter, dokumenter og wikier i lommen — samme tastaturvennlige hastighet som på nettet."
-      },
       "sharedMailbox": {
         "date": "April 2026",
         "name": "Delte postbokser",
@@ -374,6 +369,16 @@
         "date": "Mai 2026",
         "name": "Skyfillagring",
         "description": "Privat + delt fillagring med mapper, offentlige delelinker, ACL per fil, gjenopptakbare multi-GB-opplastinger og 30-dagers Papirkurv — alt kryptert med EU-styrte nøkler."
+      },
+      "sharedMailboxAcls": {
+        "date": "Mai 2026",
+        "name": "Tilgangskontroll per mappe i delte postbokser",
+        "description": "Gi lesere, svarere eller administratorer mappebasert tilgang i en delt postboks via RFC 4314 ACL-bokstavsett. Eiere og administratorer kan begrense en praktikant til kun lesing, en senior til etikettforvaltning eller en leder til sletterett — mappe for mappe eller for hele postboksen."
+      },
+      "externalForwarding": {
+        "date": "Mai 2026",
+        "name": "Ekstern e-postvideresending",
+        "description": "Videresend en kopi av hver innkommende melding til en adresse hos en annen leverandør — Gmail, Fastmail, din personlige innboks. Mottakeren må bekrefte ved å klikke på en lenke før videresending starter; opptil 3 videresendinger per personlig postboks; hver endring registreres i revisjonsloggen."
       }
     }
   },
