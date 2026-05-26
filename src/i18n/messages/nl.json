@@ -361,9 +361,9 @@
         "description": "Een HTTP-API om de e-mails van je applicatie via Verkio te verzenden. Dezelfde EU-residente houding als je inbox, uitgebreid naar je product."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Mei 2026",
         "name": "Serverregels (Sieve)",
-        "description": "Sorteren, labelen, doorsturen en automatisch beantwoorden op de server, zodat uw filters in elke client hetzelfde werken."
+        "description": "Server-side mailfilters (Sieve, RFC 5228) die je in het dashboard bouwt. Verplaats nieuwsbrieven naar een map, dem rumoerige lijsten, routeer projectmail — toegepast bij aflevering, dus de regels werken in elke mailclient. Vijf sjablonen om te starten; tot 50 regels per postvak."
       },
       "ediscovery": {
         "date": "Begin 2028",

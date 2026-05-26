@@ -361,9 +361,9 @@
         "description": "HTTP API pro odesílání e‑mailů vaší aplikace přes Verkio. Stejná EU‑rezidentní pozice jako vaše schránka, rozšířená na váš produkt."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Květen 2026",
         "name": "Pravidla na straně serveru (Sieve)",
-        "description": "Třiďte, označujte, předávejte a odpovídejte automaticky na serveru, aby vaše filtry fungovaly stejně v každém klientovi."
+        "description": "Serverové filtry e-mailů (Sieve, RFC 5228) sestavované v dashboardu. Přesouvejte newslettery do složky, ztišujte hlučné seznamy, směrujte projektovou poštu — aplikováno při doručení, takže pravidla fungují ve všech klientech. Pět šablon pro start; až 50 pravidel na schránku."
       },
       "ediscovery": {
         "date": "Začátek 2028",

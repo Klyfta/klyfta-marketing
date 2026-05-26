@@ -495,9 +495,9 @@
         "description": "An HTTP API to send your application's emails through Verkio. The same EU-resident posture as your inbox, extended to your product."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "May 2026",
         "name": "Server-side rules (Sieve)",
-        "description": "Sort, label, forward, and reply automatically on the server, so your filters work the same in every client."
+        "description": "Server-side mail filters (Sieve, RFC 5228) you build in the dashboard. Move newsletters to a folder, mute noisy lists, route project mail to the right place — applied at delivery, so the rules fire in every mail client. Five pre-built templates to start from; up to 50 rules per mailbox."
       },
       "ediscovery": {
         "date": "Early 2028",

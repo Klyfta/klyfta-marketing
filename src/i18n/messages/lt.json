@@ -361,9 +361,9 @@
         "description": "HTTP API jūsų programos el. laiškams siųsti per Verkio. Ta pati ES rezidento pozicija kaip jūsų pašto dėžutė, išplėsta jūsų produktui."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Gegužė 2026",
         "name": "Serverio pusės taisyklės (Sieve)",
-        "description": "Rūšiuok, žymėk, persiųsk ir atsakyk automatiškai serveryje, kad tavo filtrai veiktų vienodai kiekviename kliente."
+        "description": "Serverio pusės pašto filtrai (Sieve, RFC 5228), kuriuos kuri valdymo pulte. Perkelti naujienlaiškius į aplanką, nutildyti triukšmingus sąrašus, nukreipti projekto paštą — taikomi pristatymo metu, taigi taisyklės veikia kiekvienoje pašto programoje. Penki šablonai pradžiai; iki 50 taisyklių dėžutei."
       },
       "ediscovery": {
         "date": "2028 m. pradžia",

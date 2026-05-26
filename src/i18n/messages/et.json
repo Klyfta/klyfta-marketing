@@ -361,9 +361,9 @@
         "description": "HTTP-API rakenduse e-kirjade saatmiseks Verkio kaudu. Sama ELi-residentne hoiak nagu sinu postkast, laiendatud sinu tootele."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Mai 2026",
         "name": "Serveripoolne reeglistik (Sieve)",
-        "description": "Sorteeri, märgista, suuna ja vasta automaatselt serveris, et su filtrid töötaksid igas kliendis ühtemoodi."
+        "description": "Serveripoolsed meilifiltrid (Sieve, RFC 5228), mille saad ehitada armatuurlauas. Liiguta uudiskirju kausta, summuta lärmakaid loendeid, suuna projektipostid õigesse kohta — rakendatakse kohaletoimetamisel, seega reeglid töötavad igas e-posti kliendis. Viis malli alustamiseks; kuni 50 reeglit postkasti kohta."
       },
       "ediscovery": {
         "date": "2028 algus",

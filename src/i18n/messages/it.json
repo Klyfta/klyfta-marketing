@@ -361,9 +361,9 @@
         "description": "Un'API HTTP per inviare le e-mail della tua applicazione tramite Verkio. La stessa posizione residente nell'UE della tua casella di posta, estesa al tuo prodotto."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Maggio 2026",
         "name": "Regole lato server (Sieve)",
-        "description": "Ordina, etichetta, inoltra e rispondi automaticamente sul server, così i tuoi filtri funzionano allo stesso modo in ogni client."
+        "description": "Filtri mail lato server (Sieve, RFC 5228) costruiti nella dashboard. Sposta newsletter in una cartella, silenzia liste rumorose, instrada email di progetto — applicati alla consegna, quindi le regole agiscono in ogni client mail. Cinque template per iniziare; fino a 50 regole per casella."
       },
       "ediscovery": {
         "date": "Inizio 2028",

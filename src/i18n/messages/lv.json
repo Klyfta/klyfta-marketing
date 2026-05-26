@@ -361,9 +361,9 @@
         "description": "HTTP API, lai sūtītu jūsu lietojumprogrammas e-pastus caur Verkio. Tāda pati ES rezidenta nostāja kā jūsu iesūtne, paplašināta uz jūsu produktu."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Maijs 2026",
         "name": "Servera puses noteikumi (Sieve)",
-        "description": "Šķiro, marķē, pārsūti un atbildi automātiski uz servera, lai tavi filtri darbotos vienādi katrā klientā."
+        "description": "Servera puses pasta filtri (Sieve, RFC 5228), ko izveido informācijas panelī. Pārvieto biļetenus uz mapi, apklusini trokšņainus sarakstus, novirzi projekta pastu — tiek lietoti piegādes laikā, tāpēc noteikumi darbojas katrā pasta klientā. Pieci sākuma šabloni; līdz 50 noteikumiem uz pastkasti."
       },
       "ediscovery": {
         "date": "2028. gada sākums",

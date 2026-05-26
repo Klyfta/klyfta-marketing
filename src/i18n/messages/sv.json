@@ -361,9 +361,9 @@
         "description": "Ett HTTP-API för att skicka din applikations e-post via Verkio. Samma EU-residenta hållning som din inkorg, utökad till din produkt."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Maj 2026",
         "name": "Regler på serversidan (Sieve)",
-        "description": "Sortera, etikettera, vidarebefordra och svara automatiskt på servern, så att dina filter fungerar lika i varje klient."
+        "description": "Server-side e-postfilter (Sieve, RFC 5228) som du bygger i instrumentpanelen. Flytta nyhetsbrev till en mapp, tysta bullriga listor, dirigera projektmail — tillämpas vid leverans, så reglerna fungerar i varje e-postklient. Fem mallar att börja från; upp till 50 regler per brevlåda."
       },
       "ediscovery": {
         "date": "Början 2028",

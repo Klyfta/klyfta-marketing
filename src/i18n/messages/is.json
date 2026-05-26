@@ -361,9 +361,9 @@
         "description": "HTTP-API til að senda tölvupóst forritsins þíns í gegnum Verkio. Sama ESB-heimilisstöðu og pósthólfið þitt, útfærð fyrir vöruna þína."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Maí 2026",
         "name": "Reglur server-megin (Sieve)",
-        "description": "Flokkaðu, merktu, sendu áfram og svaraðu sjálfkrafa á servernum, svo síurnar þínar virki eins í öllum biðlurum."
+        "description": "Síubundnar póstsíur (Sieve, RFC 5228) sem þú byggir í stjórnborðinu. Færa fréttabréf í möppu, þagga niður í hávær listum, beina verkefnispósti — beitt við afhendingu, þannig að reglurnar virka í hverjum póstforriti. Fimm sniðmát til að byrja á; allt að 50 reglur á hvert pósthólf."
       },
       "ediscovery": {
         "date": "Snemma 2028",

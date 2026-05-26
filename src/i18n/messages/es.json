@@ -361,9 +361,9 @@
         "description": "Una API HTTP para enviar los correos de tu aplicación a través de Verkio. La misma postura residente en la UE que tu bandeja de entrada, extendida a tu producto."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Mayo 2026",
         "name": "Reglas del lado del servidor (Sieve)",
-        "description": "Ordena, etiqueta, reenvía y responde automáticamente en el servidor, para que tus filtros funcionen igual en cualquier cliente."
+        "description": "Filtros de correo en servidor (Sieve, RFC 5228) construidos desde el panel. Mueve boletines a una carpeta, silencia listas ruidosas, encamina el correo de proyectos — aplicados en la entrega, así las reglas funcionan en todos los clientes. Cinco plantillas para empezar; hasta 50 reglas por buzón."
       },
       "ediscovery": {
         "date": "Principios de 2028",
