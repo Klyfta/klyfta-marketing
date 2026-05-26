@@ -336,9 +336,9 @@
         "description": "Meeskonna postkastid jagatud aadressidele nagu support@ ja hello@. Mitme kasutaja juurdepääs, täielik IMAP/SMTP tugi, kõik tegevused salvestatakse audititegevuse logisse."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Mai 2026",
         "name": "Jagatud postkasti töövoog",
-        "description": "Määramine-meeskonnaliikmele, sisemised märkmed, oleku jälgimine ja vestlusvaated support@, hello@ ja teistele jagatud postkastidele."
+        "description": "Meeskonna postkasti vaade jagatud postkastidele: määra vestlusi meeskonnaliikmetele, sea staatus (avatud / ootel / suletud), jäta sisemisi märkmeid mis on nähtavad ainult meeskonnale. Sama staatus on avaldatud standardsete IMAP võtmesõnadena — nähtav Apple Mail / Thunderbird / K-9 rakendustes. Sissetulevate sõnumite reaalajas jälgimine; suletud lõimed avanevad automaatselt kui klient vastab."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "2028 algus",
         "name": "eDiscovery ja õiguslik säilitus",
         "description": "Pane kasutajad või postkastid hoiu alla; otsi ja ekspordi kogu paketi ulatuses vastavus- ja juriidiliste avastamistöövoogude jaoks."
+      },
+      "fileStorage": {
+        "date": "Mai 2026",
+        "name": "Pilve failihoidla",
+        "description": "Privaatne + organisatsiooniga jagatud failihoidla kaustadega, avalike jagamislinkidega, failipõhise ACL-iga, jätkatavate multi-GB üleslaadimistega ja 30-päevase Prügikastiga — kõik krüpteeritud ELi hallatud võtmetega."
       }
     }
   },

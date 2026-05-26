@@ -336,9 +336,9 @@
         "description": "Týmové schránky pro sdílené adresy jako support@ a hello@. Víceuživatelský přístup, plná podpora IMAP/SMTP, vše zaznamenáváno do auditního protokolu."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Květen 2026",
         "name": "Workflow sdílené schránky",
-        "description": "Přiřazení člena týmu, interní poznámky, sledování stavu a konverzační pohledy pro support@, hello@ a další sdílené schránky."
+        "description": "Pohled týmové schránky pro sdílené schránky: přiřazujte konverzace spolupracovníkům, nastavujte stav (otevřené / čekající / zavřené), zanechávejte interní poznámky viditelné jen pro tým. Stejný stav je vystaven jako standardní IMAP klíčová slova — viditelné v Apple Mail / Thunderbird / K-9. Sledování příchozích zpráv v reálném čase; automatické znovuotevírání uzavřených vláken při odpovědi zákazníka."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "Začátek 2028",
         "name": "eDiscovery a právní hold",
         "description": "Uveďte uživatele nebo schránky do holdu; hledejte a exportujte napříč balíčkem pro workflow shody a právního zjišťování."
+      },
+      "fileStorage": {
+        "date": "Květen 2026",
+        "name": "Cloudové úložiště souborů",
+        "description": "Soukromé + organizační úložiště se složkami, veřejnými odkazy, ACL pro každý soubor, obnovitelnými multi-GB nahráváními a 30denním Košem — vše šifrované klíči spravovanými v EU."
       }
     }
   },

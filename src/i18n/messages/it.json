@@ -336,9 +336,9 @@
         "description": "Caselle di team per indirizzi condivisi come support@ e hello@. Accesso multi-utente, supporto IMAP/SMTP completo, ogni azione registrata nel registro di audit."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Maggio 2026",
         "name": "Flusso di lavoro per caselle condivise",
-        "description": "Assegna-a-compagno, note interne, tracciamento dello stato e viste conversazione per support@, hello@ e altre caselle condivise."
+        "description": "Vista casella del team per caselle condivise: assegna conversazioni ai compagni, imposta lo stato (aperto / in attesa / chiuso), lascia note interne visibili solo al team. Lo stesso stato è esposto come keyword IMAP standard — visibili in Apple Mail / Thunderbird / K-9. Tracciamento in tempo reale dei messaggi in arrivo; riapertura automatica delle conversazioni chiuse al risposto del cliente."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "Inizio 2028",
         "name": "eDiscovery e legal hold",
         "description": "Metti utenti o caselle in hold; cerca ed esporta nell'intera suite per flussi di compliance e discovery legale."
+      },
+      "fileStorage": {
+        "date": "Maggio 2026",
+        "name": "Archiviazione file cloud",
+        "description": "Archivio privato + condiviso con cartelle, link pubblici, ACL per file, upload multi-GB ripristinabili e Cestino a 30 giorni — tutto cifrato con chiavi gestite in UE."
       }
     }
   },

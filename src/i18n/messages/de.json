@@ -336,9 +336,9 @@
         "description": "Team-Postfächer für gemeinsame Adressen wie support@ und hello@. Mehrbenutzerzugriff, vollständige IMAP/SMTP-Unterstützung, alles im Audit-Log protokolliert."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Mai 2026",
         "name": "Workflow für geteilte Postfächer",
-        "description": "Zuweisen-an-Teammitglied, interne Notizen, Statusverfolgung und Konversationsansichten für support@, hello@ und andere geteilte Postfächer."
+        "description": "Team-Posteingangsansicht für geteilte Postfächer: Konversationen Teammitgliedern zuweisen, Status setzen (offen / wartend / geschlossen), interne Notizen hinterlassen die nur das Team sieht. Derselbe Status wird als Standard-IMAP-Schlüsselwort exponiert — sichtbar in Apple Mail / Thunderbird / K-9. Echtzeit-Empfangsverfolgung erstellt automatisch Konversationen für jede neue Nachricht; öffnet geschlossene Threads automatisch wieder bei Kunden-Antworten."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "Anfang 2028",
         "name": "eDiscovery und Legal Hold",
         "description": "Setzen Sie Benutzer oder Postfächer unter Hold; durchsuchen und exportieren Sie die gesamte Suite für Compliance- und Legal-Discovery-Workflows."
+      },
+      "fileStorage": {
+        "date": "Mai 2026",
+        "name": "Cloud-Dateispeicher",
+        "description": "Privater + org-weiter Dateispeicher mit Ordnern, öffentlichen Freigabelinks, ACL pro Datei, Multi-GB-fortsetzbarem Upload und 30-Tage-Papierkorb — alles verschlüsselt mit EU-verwalteten Schlüsseln."
       }
     }
   },

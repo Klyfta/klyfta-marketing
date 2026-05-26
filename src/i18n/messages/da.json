@@ -336,9 +336,9 @@
         "description": "Teampostkasser til delte adresser som support@ og hello@. Flerbrugeradgang, fuld IMAP/SMTP-understøttelse, alt registreret i revisionsloggen."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Maj 2026",
         "name": "Arbejdsgang for delte mailbokse",
-        "description": "Tildel-til-teammedlem, interne noter, statussporing og samtalevisninger for support@, hello@ og andre delte mailbokse."
+        "description": "Holdindbakkevisning for delte indbakker: tildel samtaler til teammedlemmer, sæt status (åben / afventer / lukket), efterlad interne noter synlige kun for teamet. Samme status eksponeres som standard IMAP-nøgleord — synlig i Apple Mail / Thunderbird / K-9. Realtid sporing af indgående beskeder; genåbner lukkede tråde automatisk ved kundesvar."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "Start 2028",
         "name": "eDiscovery og legal hold",
         "description": "Sæt brugere eller mailbokse under hold; søg og eksporter på tværs af suiten til compliance- og legal-discovery-arbejdsgange."
+      },
+      "fileStorage": {
+        "date": "Maj 2026",
+        "name": "Cloud-fillager",
+        "description": "Privat + organisationsdelt fillager med mapper, offentlige delingslinks, ACL pr. fil, genoptagelige multi-GB-uploads og 30-dages Papirkurv — alt krypteret med EU-administrerede nøgler."
       }
     }
   },

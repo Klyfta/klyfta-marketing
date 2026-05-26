@@ -336,9 +336,9 @@
         "description": "Komandos pašto dėžutės bendriems adresams kaip support@ ir hello@. Daugelio vartotojų prieiga, pilnas IMAP/SMTP palaikymas, visi veiksmai įrašomi į audito žurnalą."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Gegužė 2026",
         "name": "Bendros pašto dėžės darbo eiga",
-        "description": "Priskirti-komandos-nariui, vidiniai užrašai, būsenos sekimas ir pokalbių vaizdai support@, hello@ ir kitoms bendroms pašto dėžėms."
+        "description": "Komandos pašto dėžutės rodinys bendrinamoms dėžutėms: priskirk pokalbius komandos nariams, nustatyk būseną (atvira / laukianti / uždaryta), palikti vidines pastabas matomas tik komandai. Ta pati būsena eksponuojama kaip standartiniai IMAP raktažodžiai — matomi Apple Mail / Thunderbird / K-9. Realiojo laiko gaunamų pranešimų sekimas; uždari pokalbiai automatiškai atsidaro kai klientas atsako."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "2028 m. pradžia",
         "name": "eDiscovery ir teisinis saugojimas",
         "description": "Įdėk vartotojus ar pašto dėžes į saugojimą; ieškok ir eksportuok visame rinkinyje atitikties ir teisinio atskleidimo darbo eigoms."
+      },
+      "fileStorage": {
+        "date": "Gegužė 2026",
+        "name": "Debesinė failų saugykla",
+        "description": "Privati + organizacijos bendrinama saugykla su aplankais, viešosiomis nuorodomis, failo ACL, atnaujinamais multi-GB įkėlimais ir 30 dienų Šiukšlinę — viskas šifruota ES valdomais raktais."
       }
     }
   },

@@ -336,9 +336,9 @@
         "description": "Buzones de equipo para direcciones compartidas como support@ y hello@. Acceso multiusuario, compatibilidad completa con IMAP/SMTP, todo registrado en el registro de auditoría."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Mayo 2026",
         "name": "Flujo de buzón compartido",
-        "description": "Asignar-a-compañero, notas internas, seguimiento de estado y vistas de conversación para support@, hello@ y otros buzones compartidos."
+        "description": "Vista de bandeja de equipo para buzones compartidos: asigna conversaciones a compañeros, marca el estado (abierto / pendiente / cerrado) y deja notas internas visibles solo para el equipo. El mismo estado se expone como palabras clave IMAP estándar — visibles en Apple Mail / Thunderbird / K-9. Seguimiento de mensajes entrantes en tiempo real; reapertura automática de conversaciones cerradas cuando los clientes responden."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "Principios de 2028",
         "name": "eDiscovery y retención legal",
         "description": "Pon a usuarios o buzones en retención; busca y exporta en toda la suite para flujos de cumplimiento y descubrimiento legal."
+      },
+      "fileStorage": {
+        "date": "Mayo 2026",
+        "name": "Almacenamiento de archivos en la nube",
+        "description": "Almacenamiento privado + compartido con carpetas, enlaces públicos, ACL por archivo, subidas reanudables de varios GB y Papelera con 30 días — todo cifrado con claves gestionadas en la UE."
       }
     }
   },

@@ -336,9 +336,9 @@
         "description": "Teamlådor för delade adresser som support@ och hello@. Flera användare, fullt IMAP/SMTP-stöd, alla åtgärder loggas i granskningsloggen."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Maj 2026",
         "name": "Arbetsflöde för delade brevlådor",
-        "description": "Tilldela-till-kollega, interna anteckningar, statusspårning och konversationsvyer för support@, hello@ och andra delade brevlådor."
+        "description": "Lag-inkorgsvy för delade brevlådor: tilldela konversationer till lagkamrater, sätt status (öppen / väntande / stängd), lämna interna anteckningar synliga endast för laget. Samma status visas som standard-IMAP-nyckelord — synliga i Apple Mail / Thunderbird / K-9. Realtidsspårning av inkommande meddelanden; återöppnar stängda samtal automatiskt vid kundsvar."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "Början 2028",
         "name": "eDiscovery och legal hold",
         "description": "Sätt användare eller brevlådor under hold; sök och exportera över hela sviten för efterlevnads- och legal discovery-flöden."
+      },
+      "fileStorage": {
+        "date": "Maj 2026",
+        "name": "Molnfillagring",
+        "description": "Privat + organisationsdelad fillagring med mappar, publika delningslänkar, ACL per fil, återupptagbara multi-GB-uppladdningar och 30-dagars Papperskorg — allt krypterat med EU-hanterade nycklar."
       }
     }
   },

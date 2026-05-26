@@ -336,9 +336,9 @@
         "description": "Hópapósthólf fyrir samnýtt netföng eins og support@ og hello@. Aðgangur margra notenda, fullur IMAP/SMTP stuðningur, allar aðgerðir skráðar í úttektarskránni."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Maí 2026",
         "name": "Vinnuferli sameiginlegs pósthólfs",
-        "description": "Úthluta-til-liðsfélaga, innri minnispunktar, stöðurakning og samtalsýn fyrir support@, hello@ og önnur sameiginleg pósthólf."
+        "description": "Liðs-pósthólfssýn fyrir deild pósthólf: úthlutaðu samræðum til liðsfélaga, settu stöðu (opin / bíður / lokuð), skildu eftir innri minnispunkta sem aðeins liðið sér. Sama staða er sýnd sem stöðluð IMAP-lykilorð — sýnileg í Apple Mail / Thunderbird / K-9. Rauntíma rakning innkomandi skeyti; opnar lokaðar samræður sjálfkrafa þegar viðskiptavinir svara."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "Snemma 2028",
         "name": "eDiscovery og lagaleg varðveisla",
         "description": "Settu notendur eða pósthólf í varðveislu; leitaðu og fluttu út yfir svítuna fyrir samræmis- og lagalega-uppgötvunarferli."
+      },
+      "fileStorage": {
+        "date": "Maí 2026",
+        "name": "Skýjaskráageymsla",
+        "description": "Einkaeign + samdeild geymsla með möppum, opinberum deilingartenglum, ACL á hvert skrá, endurræsanlegum multi-GB hleðslum og 30 daga ruslakörfu — allt dulkóðað með ESB-stýrðum lyklum."
       }
     }
   },

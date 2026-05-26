@@ -336,9 +336,9 @@
         "description": "Skrzynki zespołowe dla wspólnych adresów jak support@ i hello@. Dostęp wielu użytkowników, pełna obsługa IMAP/SMTP, każda akcja zapisywana w dzienniku audytu."
       },
       "sharedMailboxWorkflow": {
-        "date": "Q3 2027",
+        "date": "Maj 2026",
         "name": "Workflow współdzielonej skrzynki",
-        "description": "Przypisz-do-członka-zespołu, notatki wewnętrzne, śledzenie statusu i widoki konwersacji dla support@, hello@ i innych wspólnych skrzynek."
+        "description": "Widok skrzynki zespołu dla skrzynek współdzielonych: przypisuj konwersacje członkom zespołu, ustawiaj status (otwarte / oczekujące / zamknięte), zostawiaj wewnętrzne notatki widoczne tylko dla zespołu. Ten sam stan jest udostępniany jako standardowe słowa kluczowe IMAP — widoczne w Apple Mail / Thunderbird / K-9. Śledzenie w czasie rzeczywistym wiadomości przychodzących; automatyczne otwieranie zamkniętych wątków przy odpowiedziach klientów."
       },
       "sendLaterSnooze": {
         "date": "Q3 2027",
@@ -369,6 +369,11 @@
         "date": "Początek 2028",
         "name": "eDiscovery i blokada prawna",
         "description": "Obejmij użytkowników lub skrzynki blokadą; przeszukuj i eksportuj w całym pakiecie na potrzeby zgodności i odkrywania prawnego."
+      },
+      "fileStorage": {
+        "date": "Maj 2026",
+        "name": "Chmurowe przechowywanie plików",
+        "description": "Prywatne + udostępniane w organizacji przechowywanie z folderami, publicznymi linkami, ACL na plik, wznawialnymi przesyłaniami multi-GB i 30-dniowym koszem — wszystko szyfrowane kluczami zarządzanymi w UE."
       }
     }
   },
