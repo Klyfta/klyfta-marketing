@@ -325,11 +325,6 @@
         "name": "Ankety v kalendáři",
         "description": "Najděte čas, který vyhovuje všem, bez Doodle odkazu. Navrhněte více termínů v pozvánce, příjemci hlasují, kalendář vyhodnotí."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Nativní mobilní aplikace",
-        "description": "Vlastní iOS a Android aplikace. Pošta, kalendář, kontakty, dokumenty a wiki v kapse — stejná rychlost přátelská ke klávesnici jako na webu."
-      },
       "sharedMailbox": {
         "date": "Duben 2026",
         "name": "Sdílené schránky",
@@ -374,6 +369,16 @@
         "date": "Květen 2026",
         "name": "Cloudové úložiště souborů",
         "description": "Soukromé + organizační úložiště se složkami, veřejnými odkazy, ACL pro každý soubor, obnovitelnými multi-GB nahráváními a 30denním Košem — vše šifrované klíči spravovanými v EU."
+      },
+      "sharedMailboxAcls": {
+        "date": "Květen 2026",
+        "name": "Řízení přístupu na složku ve sdílené schránce",
+        "description": "Udělte čtenářům, odpovídajícím nebo administrátorům přístup k jednotlivým složkám ve sdílené schránce pomocí písmenných sad ACL podle RFC 4314. Vlastníci a administrátoři mohou stážistu omezit pouze na čtení, seniora pověřit správou štítků nebo manažerovi přidělit právo mazat — složku po složce nebo pro celou schránku."
+      },
+      "externalForwarding": {
+        "date": "Květen 2026",
+        "name": "Externí přeposílání e-mailů",
+        "description": "Přeposílejte kopii každé příchozí zprávy na adresu u jiného poskytovatele — Gmail, Fastmail, vaši osobní schránku. Cíl musí potvrdit kliknutím na odkaz, než přeposílání začne; až 3 přeposlání na osobní schránku; každá změna se zaznamenává do auditního protokolu."
       }
     }
   },

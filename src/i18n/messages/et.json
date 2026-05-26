@@ -325,11 +325,6 @@
         "name": "Kalendri küsitlused",
         "description": "Leia aeg, mis sobib kõigile, ilma Doodle lingita. Paku kutses mitu pesa, saajad hääletavad, kalender lahendab."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Natiivsed mobiilirakendused",
-        "description": "Omad iOS- ja Android-rakendused. E-post, kalender, kontaktid, dokumendid ja vikid taskus — sama klaviatuurisõbralik kiirus kui veebis."
-      },
       "sharedMailbox": {
         "date": "Aprill 2026",
         "name": "Jagatud postkastid",
@@ -374,6 +369,16 @@
         "date": "Mai 2026",
         "name": "Pilve failihoidla",
         "description": "Privaatne + organisatsiooniga jagatud failihoidla kaustadega, avalike jagamislinkidega, failipõhise ACL-iga, jätkatavate multi-GB üleslaadimistega ja 30-päevase Prügikastiga — kõik krüpteeritud ELi hallatud võtmetega."
+      },
+      "sharedMailboxAcls": {
+        "date": "Mai 2026",
+        "name": "Jagatud postkasti kaustapõhine juurdepääsuhaldus",
+        "description": "Anna lugejatele, vastajatele või administraatoritele kaustapõhine juurdepääs jagatud postkastis, kasutades RFC 4314 ACL-tähekomplekte. Omanikud ja administraatorid saavad piirata praktikandi ainult lugemisõigusele, vanemtöötaja siltide haldamisele või juhi kustutamisõigusele — kaust kausta haaval või kogu postkasti ulatuses."
+      },
+      "externalForwarding": {
+        "date": "Mai 2026",
+        "name": "Väline e-posti edasisuunamine",
+        "description": "Edasta iga sissetuleva sõnumi koopia teise teenuse aadressile — Gmail, Fastmail, sinu isiklik postkast. Sihtaadress peab enne edasisuunamise alustamist kinnitama lingile klõpsates; kuni 3 edasisuunamist isikliku postkasti kohta; iga muudatus salvestatakse auditilogisse."
       }
     }
   },

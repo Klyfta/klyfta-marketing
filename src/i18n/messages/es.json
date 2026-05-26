@@ -325,11 +325,6 @@
         "name": "Encuestas de calendario",
         "description": "Encuentra una hora que funcione para todos sin un enlace Doodle. Propón varias franjas en la invitación, los destinatarios votan, el calendario resuelve."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Aplicaciones móviles nativas",
-        "description": "Aplicaciones iOS y Android propias. Correo, calendario, contactos, documentos y wikis en tu bolsillo — la misma velocidad orientada al teclado que en la web."
-      },
       "sharedMailbox": {
         "date": "Abril 2026",
         "name": "Buzones compartidos",
@@ -374,6 +369,16 @@
         "date": "Mayo 2026",
         "name": "Almacenamiento de archivos en la nube",
         "description": "Almacenamiento privado + compartido con carpetas, enlaces públicos, ACL por archivo, subidas reanudables de varios GB y Papelera con 30 días — todo cifrado con claves gestionadas en la UE."
+      },
+      "sharedMailboxAcls": {
+        "date": "Mayo 2026",
+        "name": "Controles de acceso por carpeta en buzones compartidos",
+        "description": "Concede a lectores, contestadores o administradores acceso por carpeta dentro de un buzón compartido mediante los juegos de letras ACL de RFC 4314. Propietarios y administradores pueden limitar a un becario a solo lectura, a un senior a gestión de etiquetas o a un gerente a permisos de borrado — carpeta por carpeta o en todo el buzón."
+      },
+      "externalForwarding": {
+        "date": "Mayo 2026",
+        "name": "Reenvío externo de correo",
+        "description": "Reenvía una copia de cada mensaje entrante a una dirección en otro proveedor — Gmail, Fastmail, tu bandeja personal. El destino debe confirmar haciendo clic en un enlace antes de que comience el reenvío; hasta 3 reenvíos por buzón personal; cada cambio queda registrado en el registro de auditoría."
       }
     }
   },

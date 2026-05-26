@@ -325,11 +325,6 @@
         "name": "Sondaggi nel calendario",
         "description": "Trova un orario che funzioni per tutti senza un link Doodle. Proponi più slot nell'invito, i destinatari votano, il calendario risolve."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "App mobili native",
-        "description": "App iOS e Android proprietarie. Email, calendario, contatti, documenti e wiki in tasca — stessa velocità orientata alla tastiera che sul web."
-      },
       "sharedMailbox": {
         "date": "Aprile 2026",
         "name": "Caselle condivise",
@@ -374,6 +369,16 @@
         "date": "Maggio 2026",
         "name": "Archiviazione file cloud",
         "description": "Archivio privato + condiviso con cartelle, link pubblici, ACL per file, upload multi-GB ripristinabili e Cestino a 30 giorni — tutto cifrato con chiavi gestite in UE."
+      },
+      "sharedMailboxAcls": {
+        "date": "Maggio 2026",
+        "name": "Controlli di accesso per cartella nelle caselle condivise",
+        "description": "Concedi a lettori, rispondenti o amministratori accesso per cartella all'interno di una casella condivisa tramite i set di lettere ACL RFC 4314. Proprietari e amministratori possono limitare uno stagista alla sola lettura, un senior alla gestione delle etichette o un manager al diritto di eliminare — cartella per cartella o sull'intera casella."
+      },
+      "externalForwarding": {
+        "date": "Maggio 2026",
+        "name": "Inoltro email esterno",
+        "description": "Inoltra una copia di ogni messaggio in arrivo a un indirizzo presso un altro provider — Gmail, Fastmail, la tua casella personale. La destinazione deve confermare cliccando su un link prima che l'inoltro inizi; fino a 3 inoltri per casella personale; ogni modifica è registrata nel registro di audit."
       }
     }
   },

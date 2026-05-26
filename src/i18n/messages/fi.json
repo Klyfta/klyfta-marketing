@@ -325,11 +325,6 @@
         "name": "Kalenterikyselyt",
         "description": "Löydä aika, joka sopii kaikille ilman Doodle-linkkiä. Ehdota useita aikoja kutsussa, vastaanottajat äänestävät, kalenteri ratkaisee."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Natiivit mobiilisovellukset",
-        "description": "Omat iOS- ja Android-sovellukset. Sähköposti, kalenteri, yhteystiedot, dokumentit ja wikit taskussa — sama näppäimistöystävällinen nopeus kuin webissä."
-      },
       "sharedMailbox": {
         "date": "Huhtikuu 2026",
         "name": "Jaetut postilaatikot",
@@ -374,6 +369,16 @@
         "date": "Toukokuu 2026",
         "name": "Pilvitiedostotallennus",
         "description": "Yksityinen + organisaation kanssa jaettu tallennus, kansiot, julkiset jakolinkit, tiedostokohtainen ACL, jatkettavat multi-GB-lataukset ja 30 päivän roskakori — kaikki salattu EU-hallinnoiduilla avaimilla."
+      },
+      "sharedMailboxAcls": {
+        "date": "Toukokuu 2026",
+        "name": "Jaetun postilaatikon kansiokohtaiset käyttöoikeudet",
+        "description": "Anna lukijoille, vastaajille tai järjestelmänvalvojille kansiokohtainen pääsy jaetussa postilaatikossa RFC 4314 -ACL-kirjainjoukkojen avulla. Omistajat ja järjestelmänvalvojat voivat rajata harjoittelijan vain-luku-oikeuksiin, vanhemman tekijän tunnistehallintaan tai esimiehen poisto-oikeuksiin — kansio kerrallaan tai koko postilaatikossa."
+      },
+      "externalForwarding": {
+        "date": "Toukokuu 2026",
+        "name": "Ulkoinen sähköpostin edelleenlähetys",
+        "description": "Edelleenlähetä kopio jokaisesta saapuvasta viestistä toisen palvelun osoitteeseen — Gmail, Fastmail, henkilökohtainen postilaatikkosi. Kohteen on vahvistettava napsauttamalla linkkiä ennen edelleenlähetyksen alkamista; enintään 3 edelleenlähetystä henkilökohtaista postilaatikkoa kohti; jokainen muutos kirjataan auditointilokiin."
       }
     }
   },

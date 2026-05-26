@@ -325,11 +325,6 @@
         "name": "Agenda-polls",
         "description": "Vind een tijd die voor iedereen werkt zonder Doodle-link. Stel meerdere slots voor in de uitnodiging, ontvangers stemmen, agenda lost op."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Native mobiele apps",
-        "description": "Eigen iOS- en Android-apps. E-mail, agenda, contacten, documenten en wiki's in uw zak — dezelfde toetsenbordvriendelijke snelheid als op het web."
-      },
       "sharedMailbox": {
         "date": "April 2026",
         "name": "Gedeelde mailboxen",
@@ -374,6 +369,16 @@
         "date": "Mei 2026",
         "name": "Cloud-bestandsopslag",
         "description": "Persoonlijke + gedeelde opslag met mappen, openbare deellinks, per-bestand ACL, hervatbare uploads van meerdere GB en 30-dagen Prullenbak — alles versleuteld met EU-beheerde sleutels."
+      },
+      "sharedMailboxAcls": {
+        "date": "Mei 2026",
+        "name": "Toegangscontroles per map in gedeelde mailboxen",
+        "description": "Verleen lezers, beantwoorders of beheerders toegang per map binnen een gedeelde mailbox via RFC 4314 ACL-lettersets. Eigenaren en beheerders kunnen een stagiair beperken tot alleen-lezen, een senior tot labelbeheer of een manager tot verwijderrechten — map voor map of voor de hele mailbox."
+      },
+      "externalForwarding": {
+        "date": "Mei 2026",
+        "name": "Externe e-mail doorsturen",
+        "description": "Stuur een kopie van elk inkomend bericht door naar een adres bij een andere provider — Gmail, Fastmail, je persoonlijke inbox. De bestemming moet bevestigen door op een link te klikken voordat het doorsturen begint; tot 3 doorzendregels per persoonlijke mailbox; elke wijziging wordt vastgelegd in het auditlog."
       }
     }
   },

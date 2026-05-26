@@ -325,11 +325,6 @@
         "name": "Sondagens de calendário",
         "description": "Encontre um horário que sirva a todos sem um link Doodle. Proponha vários horários no convite, os destinatários votam, o calendário resolve."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Aplicações móveis nativas",
-        "description": "Aplicações iOS e Android próprias. E-mail, calendário, contactos, documentos e wikis no bolso — a mesma velocidade orientada para o teclado que na web."
-      },
       "sharedMailbox": {
         "date": "Abril 2026",
         "name": "Caixas de correio partilhadas",
@@ -374,6 +369,16 @@
         "date": "Maio 2026",
         "name": "Armazenamento de ficheiros na nuvem",
         "description": "Armazenamento privado + partilhado com pastas, links públicos, ACL por ficheiro, uploads retomáveis de vários GB e Reciclagem de 30 dias — tudo cifrado com chaves geridas na UE."
+      },
+      "sharedMailboxAcls": {
+        "date": "Maio 2026",
+        "name": "Controlos de acesso por pasta em caixas partilhadas",
+        "description": "Concede a leitores, respondedores ou administradores acesso por pasta dentro de uma caixa partilhada através dos conjuntos de letras ACL RFC 4314. Proprietários e administradores podem limitar um estagiário a apenas leitura, um sénior à gestão de etiquetas ou um gestor a direitos de eliminação — pasta a pasta ou em toda a caixa."
+      },
+      "externalForwarding": {
+        "date": "Maio 2026",
+        "name": "Reencaminhamento externo de e-mail",
+        "description": "Reencaminha uma cópia de cada mensagem recebida para um endereço noutro fornecedor — Gmail, Fastmail, a tua caixa pessoal. O destino tem de confirmar clicando num link antes do reencaminhamento começar; até 3 reencaminhamentos por caixa pessoal; cada alteração é registada no registo de auditoria."
       }
     }
   },

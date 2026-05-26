@@ -459,11 +459,6 @@
         "name": "Calendar polls",
         "description": "Find a time that works for everyone without a Doodle link. Propose multiple slots inside the invite, recipients vote, calendar resolves."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Native mobile apps",
-        "description": "First-party iOS and Android apps. Mail, calendar, contacts, docs, and wikis in your pocket — the same keyboard-friendly speed as the web."
-      },
       "sharedMailbox": {
         "date": "April 2026",
         "name": "Shared mailboxes",
@@ -508,6 +503,16 @@
         "date": "May 2026",
         "name": "Cloud file storage",
         "description": "Private + org-shared file storage with folders, public share links, per-file ACL, multi-GB resumable uploads, and 30-day Trash recovery — all encrypted at rest with EU-managed keys."
+      },
+      "sharedMailboxAcls": {
+        "date": "May 2026",
+        "name": "Shared-mailbox per-folder access controls",
+        "description": "Grant readers, repliers, or admins per-folder access inside a shared mailbox using RFC 4314 ACL letter sets. Owners and admins can scope an intern to read-only, a senior to label management, or a manager to delete rights — folder by folder or mailbox-wide."
+      },
+      "externalForwarding": {
+        "date": "May 2026",
+        "name": "External email forwarding",
+        "description": "Forward a copy of every inbound message to an address at another provider — Gmail, Fastmail, your personal inbox. The destination must confirm by clicking a link before forwarding starts; up to 3 forwards per personal mailbox; every change is recorded in the audit log."
       }
     }
   }

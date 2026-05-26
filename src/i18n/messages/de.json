@@ -325,11 +325,6 @@
         "name": "Kalender-Umfragen",
         "description": "Finden Sie eine Zeit, die für alle passt, ohne Doodle-Link. Schlagen Sie mehrere Slots in der Einladung vor, Empfänger stimmen ab, Kalender löst auf."
       },
-      "mobileApps": {
-        "date": "Q3 2027",
-        "name": "Native Mobile-Apps",
-        "description": "Eigene iOS- und Android-Apps. Mail, Kalender, Kontakte, Dokumente und Wikis in der Hosentasche — die gleiche tastaturfreundliche Geschwindigkeit wie im Web."
-      },
       "sharedMailbox": {
         "date": "April 2026",
         "name": "Geteilte Postfächer",
@@ -374,6 +369,16 @@
         "date": "Mai 2026",
         "name": "Cloud-Dateispeicher",
         "description": "Privater + org-weiter Dateispeicher mit Ordnern, öffentlichen Freigabelinks, ACL pro Datei, Multi-GB-fortsetzbarem Upload und 30-Tage-Papierkorb — alles verschlüsselt mit EU-verwalteten Schlüsseln."
+      },
+      "sharedMailboxAcls": {
+        "date": "Mai 2026",
+        "name": "Zugriffsrechte pro Ordner in geteilten Postfächern",
+        "description": "Vergeben Sie Lese-, Antwort- oder Admin-Rechte pro Ordner innerhalb eines geteilten Postfachs über RFC-4314-ACL-Buchstabensets. Eigentümer und Admins können einen Praktikanten auf Nur-Lesen beschränken, einen Senior auf Label-Verwaltung oder einer Managerin Lösch-Rechte einräumen — Ordner für Ordner oder postfachweit."
+      },
+      "externalForwarding": {
+        "date": "Mai 2026",
+        "name": "Externe E-Mail-Weiterleitung",
+        "description": "Leiten Sie eine Kopie jeder eingehenden Nachricht an eine Adresse bei einem anderen Anbieter weiter — Gmail, Fastmail, Ihr persönliches Postfach. Das Ziel muss per Link-Klick bestätigen, bevor die Weiterleitung startet; bis zu 3 Weiterleitungen pro persönlichem Postfach; jede Änderung wird im Audit-Log protokolliert."
       }
     }
   },
