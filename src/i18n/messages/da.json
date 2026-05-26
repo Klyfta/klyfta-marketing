@@ -361,9 +361,9 @@
         "description": "Et HTTP-API til at sende dit programs e-mails gennem Verkio. Samme EU-residente position som din indbakke, udvidet til dit produkt."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Maj 2026",
         "name": "Regler på serversiden (Sieve)",
-        "description": "Sorter, mærk, videresend og svar automatisk på serveren, så dine filtre virker ens i hver klient."
+        "description": "Server-side mailfiltre (Sieve, RFC 5228) du bygger i dashboardet. Flyt nyhedsbreve til en mappe, dæmp støjende lister, dirigér projektmail — anvendes ved levering, så reglerne fungerer i enhver mailklient. Fem skabeloner at starte fra; op til 50 regler pr. indbakke."
       },
       "ediscovery": {
         "date": "Start 2028",

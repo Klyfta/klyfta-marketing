@@ -361,9 +361,9 @@
         "description": "Interfejs API HTTP do wysyłania e-maili Twojej aplikacji przez Verkio. Ta sama pozycja rezydencji w UE co Twoja skrzynka odbiorcza, rozszerzona na Twój produkt."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Maj 2026",
         "name": "Reguły po stronie serwera (Sieve)",
-        "description": "Sortuj, etykietuj, przekazuj i odpowiadaj automatycznie na serwerze, by Twoje filtry działały tak samo w każdym kliencie."
+        "description": "Serwerowe filtry e-mail (Sieve, RFC 5228) budowane w panelu. Przenoś newslettery do folderu, wyciszaj hałaśliwe listy, kieruj pocztą projektową — stosowane przy dostawie, więc reguły działają w każdym kliencie. Pięć szablonów na start; do 50 reguł na skrzynkę."
       },
       "ediscovery": {
         "date": "Początek 2028",

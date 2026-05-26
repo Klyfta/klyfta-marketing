@@ -361,9 +361,9 @@
         "description": "Eine HTTP-API, um die E-Mails deiner Anwendung über Verkio zu versenden. Dieselbe EU-residente Haltung wie dein Postfach, ausgeweitet auf dein Produkt."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Mai 2026",
         "name": "Serverseitige Regeln (Sieve)",
-        "description": "Sortieren, beschriften, weiterleiten und automatisch beantworten auf dem Server, damit Ihre Filter in jedem Client gleich funktionieren."
+        "description": "Serverseitige Mail-Filter (Sieve, RFC 5228), die Sie im Dashboard erstellen. Newsletter in einen Ordner verschieben, laute Listen stummschalten, Projekt-Mails an den richtigen Ort lenken — bei der Zustellung angewendet, also feuern die Regeln in jedem Mail-Client. Fünf Vorlagen zum Einstieg; bis zu 50 Regeln pro Postfach."
       },
       "ediscovery": {
         "date": "Anfang 2028",

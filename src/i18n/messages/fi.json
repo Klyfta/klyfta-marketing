@@ -361,9 +361,9 @@
         "description": "HTTP-API sovelluksesi sähköpostien lähettämiseen Verkion kautta. Sama EU-residenttinen asema kuin postilaatikollasi, laajennettuna tuotteeseesi."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Toukokuu 2026",
         "name": "Palvelinpuolen säännöt (Sieve)",
-        "description": "Lajittele, merkitse, välitä ja vastaa automaattisesti palvelimella, jotta suodattimesi toimivat samalla tavalla jokaisessa asiakkaassa."
+        "description": "Palvelinpuolen sähköpostisuodattimet (Sieve, RFC 5228), jotka rakennat hallintapaneelissa. Siirrä uutiskirjeet kansioon, vaienna meluisat listat, ohjaa projektipostit — sovelletaan toimituksen yhteydessä, joten säännöt toimivat jokaisessa sähköpostiohjelmassa. Viisi mallia aloitukseen; enintään 50 sääntöä postilaatikkoa kohti."
       },
       "ediscovery": {
         "date": "Alkuvuosi 2028",

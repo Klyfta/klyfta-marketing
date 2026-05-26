@@ -361,9 +361,9 @@
         "description": "Une API HTTP pour envoyer les e-mails de votre application via Verkio. La même posture résidente dans l'UE que votre boîte de réception, étendue à votre produit."
       },
       "sieveFilters": {
-        "date": "Q4 2027",
+        "date": "Mai 2026",
         "name": "Règles côté serveur (Sieve)",
-        "description": "Trier, étiqueter, transférer et répondre automatiquement côté serveur, pour que vos filtres fonctionnent pareil dans tous les clients."
+        "description": "Filtres mail côté serveur (Sieve, RFC 5228) construits dans le tableau de bord. Déplacez les newsletters vers un dossier, faites taire les listes bruyantes, routez les mails de projet — appliqués à la livraison, donc les règles s'exécutent dans tous les clients mail. Cinq modèles pour démarrer ; jusqu'à 50 règles par boîte."
       },
       "ediscovery": {
         "date": "Début 2028",
