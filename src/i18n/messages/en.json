@@ -12,18 +12,20 @@
     "joinWaitlist": "Join waitlist",
     "language": "Language",
     "roadmap": "Roadmap",
-    "articles": "Articles"
+    "articles": "Articles",
+    "product": "Product",
+    "whyVerkio": "Why Verkio"
   },
   "hero": {
     "eyebrow": "Launching July 2026",
-    "headline": "Fast, focused, European.",
-    "body1": "Mail, calendar, contacts, docs, and wikis — one unified suite that respects your time, not your attention.",
-    "body2": "Hosted in the EU, encrypted at rest, GDPR-native by default."
+    "headline": "The work suite without the noise.",
+    "body1": "Mail, calendar, contacts, files, wikis, and messaging. One suite for the actual work, without the bloat or the noise.",
+    "body2": "Built on open standards. Hosted in Europe. Yours to leave, anytime."
   },
   "suite": {
     "eyebrow": "The suite",
-    "headline": "Everything your team uses. One place where it lives.",
-    "subhead": "Built on open standards. Hosted in the EU. No lock-in, no surprises.",
+    "headline": "Everything your team uses, in one place.",
+    "subhead": "One login, one address book, one bill. Built on open standards so you're never locked in.",
     "items": {
       "mail": {
         "name": "Mail",
@@ -159,7 +161,7 @@
   "comparison": {
     "eyebrow": "Comparison",
     "headline": "How Verkio compares.",
-    "subhead": "Side-by-side with the two suites European businesses are most often choosing from.",
+    "subhead": "Side-by-side with the two suites most teams default to today.",
     "infoLabel": "More info",
     "columns": {
       "verkio": "Verkio",
@@ -270,7 +272,7 @@
     }
   },
   "footer": {
-    "tagline": "A European company. Built in the EU. Hosted in the EU.",
+    "tagline": "A European company. Open standards. Yours to leave.",
     "copyright": "© {year} Verkio",
     "productHeading": "Product",
     "resourcesHeading": "Resources",
@@ -574,6 +576,28 @@
         "name": "External email forwarding",
         "description": "Forward a copy of every inbound message to an address at another provider — Gmail, Fastmail, your personal inbox. The destination must confirm by clicking a link before forwarding starts; up to 3 forwards per personal mailbox; every change is recorded in the audit log."
       }
+    }
+  },
+  "product": {
+    "metaTitle": "Product — Verkio",
+    "metaDescription": "The Verkio product: mail, calendar, contacts, files, wikis, and messaging. Plus the capabilities behind each one."
+  },
+  "whyVerkio": {
+    "metaTitle": "Why Verkio — Verkio",
+    "metaDescription": "Why teams choose Verkio: quiet software, open standards, EU residency, no lock-in."
+  },
+  "homeTeasers": {
+    "product": {
+      "eyebrow": "Product",
+      "headline": "Mail, calendar, contacts, files, wikis, and messaging.",
+      "body": "One suite. Built on open standards so you're never locked in.",
+      "link": "Explore the product"
+    },
+    "whyVerkio": {
+      "eyebrow": "Why Verkio",
+      "headline": "Quiet software, EU-resident by default.",
+      "body": "Open standards, calm defaults, full export anytime.",
+      "link": "Why teams choose Verkio"
     }
   }
 }

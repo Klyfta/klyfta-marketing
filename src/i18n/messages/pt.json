@@ -13,18 +13,20 @@
     "joinWaitlist": "Entrar na lista",
     "language": "Idioma",
     "roadmap": "Roteiro",
-    "articles": "Artigos"
+    "articles": "Artigos",
+    "product": "Produto",
+    "whyVerkio": "Porquê Verkio"
   },
   "hero": {
     "eyebrow": "Lançamento em julho de 2026",
-    "headline": "Rápida, focada, europeia.",
-    "body1": "E-mail, calendário, contactos, documentos e wikis — uma suite unificada que respeita o seu tempo, não a sua atenção.",
-    "body2": "Alojada na UE, cifrada em repouso, conforme com o RGPD desde a conceção."
+    "headline": "A suite de trabalho sem ruído.",
+    "body1": "Correio, calendário, contactos, ficheiros, wikis e mensagens. Uma suite para o trabalho a sério, sem inchaço ou ruído.",
+    "body2": "Construída sobre padrões abertos. Alojada na Europa. Tua para sair, a qualquer momento."
   },
   "suite": {
     "eyebrow": "A suite",
-    "headline": "Tudo o que a tua equipa usa. Num só sítio onde também reside.",
-    "subhead": "Construída em padrões abertos. Alojada na UE. Sem dependência do fornecedor, sem surpresas.",
+    "headline": "Tudo o que a tua equipa usa, num só sítio.",
+    "subhead": "Um login, um livro de endereços, uma fatura. Construída sobre padrões abertos para que nunca fiques preso.",
     "items": {
       "mail": {
         "name": "E-mail",
@@ -160,7 +162,7 @@
   "comparison": {
     "eyebrow": "Comparação",
     "headline": "Como a Verkio se compara.",
-    "subhead": "Lado a lado com as duas suites entre as quais as empresas europeias mais escolhem.",
+    "subhead": "Lado a lado com as duas suites para as quais a maioria das equipas hoje recorre por defeito.",
     "columns": {
       "verkio": "Verkio",
       "google": "Google Workspace",
@@ -271,7 +273,7 @@
     }
   },
   "footer": {
-    "tagline": "Uma empresa europeia. Construída na UE. Alojada na UE.",
+    "tagline": "Uma empresa europeia. Padrões abertos. Tua para sair.",
     "copyright": "© {year} Verkio",
     "productHeading": "Produto",
     "resourcesHeading": "Recursos",
@@ -575,5 +577,27 @@
         "body": "Podemos atualizar estes termos antes do lançamento. Mudanças materiais serão refletidas na data acima. A continuação de uso do site significa aceitação da versão atual."
       }
     ]
+  },
+  "product": {
+    "metaTitle": "Produto — Verkio",
+    "metaDescription": "O produto Verkio: correio, calendário, contactos, ficheiros, wikis e mensagens. Mais as capacidades por trás de cada um."
+  },
+  "whyVerkio": {
+    "metaTitle": "Porquê Verkio — Verkio",
+    "metaDescription": "Porque é que as equipas escolhem o Verkio: software tranquilo, padrões abertos, residência na UE, sem bloqueio."
+  },
+  "homeTeasers": {
+    "product": {
+      "eyebrow": "Produto",
+      "headline": "Correio, calendário, contactos, ficheiros, wikis e mensagens.",
+      "body": "Uma suite. Construída sobre padrões abertos para que nunca fiques preso.",
+      "link": "Explora o produto"
+    },
+    "whyVerkio": {
+      "eyebrow": "Porquê Verkio",
+      "headline": "Software tranquilo, residência na UE por defeito.",
+      "body": "Padrões abertos, predefinições tranquilas, exportação completa a qualquer momento.",
+      "link": "Porque é que as equipas escolhem o Verkio"
+    }
   }
 }

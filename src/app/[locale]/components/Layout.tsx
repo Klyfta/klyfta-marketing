@@ -66,28 +66,16 @@ export function Header() {
           </Link>
           <div className="flex items-center gap-x-6 sm:gap-x-8">
             <Link
-              href="/#suite"
+              href="/product"
               className="hidden sm:inline text-sm text-gray-600 hover:text-gray-900 transition-colors"
             >
-              {t("suite")}
+              {t("product")}
             </Link>
             <Link
-              href="/#capabilities"
-              className="hidden md:inline text-sm text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              {t("capabilities")}
-            </Link>
-            <Link
-              href="/#residency"
+              href="/why-verkio"
               className="hidden sm:inline text-sm text-gray-600 hover:text-gray-900 transition-colors"
             >
-              {t("residency")}
-            </Link>
-            <Link
-              href="/#faqs"
-              className="hidden sm:inline text-sm text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              {t("faqs")}
+              {t("whyVerkio")}
             </Link>
             <Link
               href="/#waitlist"
@@ -135,23 +123,13 @@ export function Footer() {
               </h2>
               <ul className="text-sm text-gray-600 space-y-3">
                 <li>
-                  <Link href="/#suite" className="hover:text-gray-900 transition-colors">
-                    {tNav("suite")}
+                  <Link href="/product" className="hover:text-gray-900 transition-colors">
+                    {tNav("product")}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/#capabilities" className="hover:text-gray-900 transition-colors">
-                    {tNav("capabilities")}
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/#residency" className="hover:text-gray-900 transition-colors">
-                    {tNav("residency")}
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/#faqs" className="hover:text-gray-900 transition-colors">
-                    {tNav("faqs")}
+                  <Link href="/why-verkio" className="hover:text-gray-900 transition-colors">
+                    {tNav("whyVerkio")}
                   </Link>
                 </li>
               </ul>

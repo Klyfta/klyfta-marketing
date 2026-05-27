@@ -13,18 +13,20 @@
     "joinWaitlist": "Liitu ootejärjekorraga",
     "language": "Keel",
     "roadmap": "Teekaart",
-    "articles": "Artiklid"
+    "articles": "Artiklid",
+    "product": "Toode",
+    "whyVerkio": "Miks Verkio"
   },
   "hero": {
     "eyebrow": "Avaldame juulis 2026",
-    "headline": "Kiire, keskendunud, euroopalik.",
-    "body1": "E-post, kalender, kontaktid, dokumendid ja vikid — üks ühtne pakett, mis austab sinu aega, mitte tähelepanu.",
-    "body2": "Majutatud ELis, krüpteeritud puhkeolekus, GDPR-iga algusest peale."
+    "headline": "Töökomplekt ilma müraita.",
+    "body1": "Meil, kalender, kontaktid, failid, vikid ja sõnumid. Üks komplekt päris töö jaoks, ilma paisutamise või müraita.",
+    "body2": "Ehitatud avatud standarditele. Majutatud Euroopas. Sinu oma lahkuda, igal ajal."
   },
   "suite": {
     "eyebrow": "Pakett",
-    "headline": "Kõik, mida teie tiim kasutab. Ühes kohas, kus see ka asub.",
-    "subhead": "Üles ehitatud avatud standarditele. Majutatud ELis. Ei mingit lukustust, ei mingeid üllatusi.",
+    "headline": "Kõik, mida sinu meeskond kasutab, ühes kohas.",
+    "subhead": "Üks sisselogimine, üks aadressiraamat, üks arve. Ehitatud avatud standarditele, et sa kunagi ei oleks lukus.",
     "items": {
       "mail": {
         "name": "E-post",
@@ -160,7 +162,7 @@
   "comparison": {
     "eyebrow": "Võrdlus",
     "headline": "Kuidas Verkio võrdluses on.",
-    "subhead": "Kõrvuti kahe paketiga, mille vahel Euroopa ettevõtted kõige sagedamini valivad.",
+    "subhead": "Kõrvuti kahe komplektiga, mille enamik meeskondi täna vaikimisi valib.",
     "columns": {
       "verkio": "Verkio",
       "google": "Google Workspace",
@@ -271,7 +273,7 @@
     }
   },
   "footer": {
-    "tagline": "Euroopa ettevõte. Ehitatud ELis. Majutatud ELis.",
+    "tagline": "Euroopa ettevõte. Avatud standardid. Sinu oma lahkuda.",
     "copyright": "© {year} Verkio",
     "productHeading": "Toode",
     "resourcesHeading": "Ressursid",
@@ -575,5 +577,27 @@
         "body": "Võime neid tingimusi enne käivitamist uuendada. Olulised muudatused kajastuvad ülaltoodud kuupäevas. Saidi jätkuv kasutamine tähendab praeguse versiooni aktsepteerimist."
       }
     ]
+  },
+  "product": {
+    "metaTitle": "Toode — Verkio",
+    "metaDescription": "Verkio toode: meil, kalender, kontaktid, failid, vikid ja sõnumid. Pluss iga taga peituvad võimalused."
+  },
+  "whyVerkio": {
+    "metaTitle": "Miks Verkio — Verkio",
+    "metaDescription": "Miks meeskonnad valivad Verkio: vaikne tarkvara, avatud standardid, EL-i residentsus, ei lukustust."
+  },
+  "homeTeasers": {
+    "product": {
+      "eyebrow": "Toode",
+      "headline": "Meil, kalender, kontaktid, failid, vikid ja sõnumid.",
+      "body": "Üks komplekt. Ehitatud avatud standarditele, et sa kunagi ei oleks lukus.",
+      "link": "Tutvu tootega"
+    },
+    "whyVerkio": {
+      "eyebrow": "Miks Verkio",
+      "headline": "Vaikne tarkvara, EL-i residentsus vaikimisi.",
+      "body": "Avatud standardid, rahulikud vaikeväärtused, täielik eksport igal ajal.",
+      "link": "Miks meeskonnad valivad Verkio"
+    }
   }
 }

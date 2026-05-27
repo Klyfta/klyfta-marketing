@@ -13,18 +13,20 @@
     "joinWaitlist": "Zapisz się",
     "language": "Język",
     "roadmap": "Plan rozwoju",
-    "articles": "Artykuły"
+    "articles": "Artykuły",
+    "product": "Produkt",
+    "whyVerkio": "Dlaczego Verkio"
   },
   "hero": {
     "eyebrow": "Premiera w lipcu 2026",
-    "headline": "Szybki, skupiony, europejski.",
-    "body1": "Poczta, kalendarz, kontakty, dokumenty i wiki — jeden ujednolicony pakiet, który szanuje Twój czas, a nie uwagę.",
-    "body2": "Hostowany w UE, szyfrowany w spoczynku, RODO od podstaw."
+    "headline": "Pakiet do pracy bez hałasu.",
+    "body1": "Poczta, kalendarz, kontakty, pliki, wiki i wiadomości. Jeden pakiet do prawdziwej pracy, bez puchnięcia ani hałasu.",
+    "body2": "Zbudowane na otwartych standardach. Hostowane w Europie. Twoje do opuszczenia, w każdej chwili."
   },
   "suite": {
     "eyebrow": "Pakiet",
-    "headline": "Wszystko, czego używa Twój zespół. W jednym miejscu, gdzie też się znajduje.",
-    "subhead": "Zbudowany na otwartych standardach. Hostowany w UE. Bez uzależnienia od dostawcy, bez niespodzianek.",
+    "headline": "Wszystko, czego używa twój zespół, w jednym miejscu.",
+    "subhead": "Jedno logowanie, jedna książka adresowa, jeden rachunek. Zbudowane na otwartych standardach, więc nigdy nie jesteś uwięziony.",
     "items": {
       "mail": {
         "name": "Poczta",
@@ -160,7 +162,7 @@
   "comparison": {
     "eyebrow": "Porównanie",
     "headline": "Jak Verkio wypada na tle innych.",
-    "subhead": "Obok dwóch pakietów, między którymi europejskie firmy najczęściej wybierają.",
+    "subhead": "Obok dwóch pakietów, do których większość zespołów dziś domyślnie sięga.",
     "columns": {
       "verkio": "Verkio",
       "google": "Google Workspace",
@@ -271,7 +273,7 @@
     }
   },
   "footer": {
-    "tagline": "Europejska firma. Zbudowana w UE. Hostowana w UE.",
+    "tagline": "Europejska firma. Otwarte standardy. Twoje do opuszczenia.",
     "copyright": "© {year} Verkio",
     "productHeading": "Produkt",
     "resourcesHeading": "Zasoby",
@@ -575,5 +577,27 @@
         "body": "Możemy zaktualizować ten regulamin przed premierą. Istotne zmiany będą widoczne w dacie powyżej. Dalsze korzystanie z witryny oznacza akceptację aktualnej wersji."
       }
     ]
+  },
+  "product": {
+    "metaTitle": "Produkt — Verkio",
+    "metaDescription": "Produkt Verkio: poczta, kalendarz, kontakty, pliki, wiki i wiadomości. Plus możliwości stojące za każdym z nich."
+  },
+  "whyVerkio": {
+    "metaTitle": "Dlaczego Verkio — Verkio",
+    "metaDescription": "Dlaczego zespoły wybierają Verkio: spokojne oprogramowanie, otwarte standardy, rezydencja w UE, brak uwięzienia."
+  },
+  "homeTeasers": {
+    "product": {
+      "eyebrow": "Produkt",
+      "headline": "Poczta, kalendarz, kontakty, pliki, wiki i wiadomości.",
+      "body": "Jeden pakiet. Zbudowany na otwartych standardach, więc nigdy nie jesteś uwięziony.",
+      "link": "Poznaj produkt"
+    },
+    "whyVerkio": {
+      "eyebrow": "Dlaczego Verkio",
+      "headline": "Spokojne oprogramowanie, rezydencja w UE domyślnie.",
+      "body": "Otwarte standardy, spokojne ustawienia domyślne, pełny eksport w każdej chwili.",
+      "link": "Dlaczego zespoły wybierają Verkio"
+    }
   }
 }

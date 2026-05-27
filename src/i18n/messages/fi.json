@@ -13,18 +13,20 @@
     "joinWaitlist": "Liity jonotuslistalle",
     "language": "Kieli",
     "roadmap": "Tiekartta",
-    "articles": "Artikkelit"
+    "articles": "Artikkelit",
+    "product": "Tuote",
+    "whyVerkio": "Miksi Verkio"
   },
   "hero": {
     "eyebrow": "Julkaistaan heinäkuussa 2026",
-    "headline": "Nopea, keskittynyt, eurooppalainen.",
-    "body1": "Sähköposti, kalenteri, yhteystiedot, dokumentit ja wikit — yksi yhtenäinen paketti, joka kunnioittaa aikaasi eikä huomiotasi.",
-    "body2": "Isännöity EU:ssa, salattu lepotilassa, GDPR-rakenteinen alusta asti."
+    "headline": "Työpaketti ilman melua.",
+    "body1": "Sähköposti, kalenteri, yhteystiedot, tiedostot, wikit ja viestit. Yksi paketti todelliseen työhön, ilman täytettä tai melua.",
+    "body2": "Rakennettu avoimille standardeille. Hostattu Euroopassa. Sinun lähteä, milloin tahansa."
   },
   "suite": {
     "eyebrow": "Paketti",
-    "headline": "Kaikki mitä tiimisi käyttää. Yhdessä paikassa, jossa se myös sijaitsee.",
-    "subhead": "Rakennettu avoimille standardeille. Isännöity EU:ssa. Ei lukkiutumista, ei yllätyksiä.",
+    "headline": "Kaikki mitä tiimisi käyttää, samassa paikassa.",
+    "subhead": "Yksi kirjautuminen, yksi osoitekirja, yksi lasku. Rakennettu avoimille standardeille, jotta et koskaan ole lukittu.",
     "items": {
       "mail": {
         "name": "Sähköposti",
@@ -160,7 +162,7 @@
   "comparison": {
     "eyebrow": "Vertailu",
     "headline": "Näin Verkio vertailussa.",
-    "subhead": "Rinnakkain kahden työkalupaketin kanssa, joista eurooppalaiset yritykset yleisimmin valitsevat.",
+    "subhead": "Rinta rinnan kahden paketin kanssa, joihin useimmat tiimit oletuksena nykyään päätyvät.",
     "columns": {
       "verkio": "Verkio",
       "google": "Google Workspace",
@@ -271,7 +273,7 @@
     }
   },
   "footer": {
-    "tagline": "Eurooppalainen yritys. Rakennettu EU:ssa. Isännöity EU:ssa.",
+    "tagline": "Eurooppalainen yritys. Avoimet standardit. Sinun lähteä.",
     "copyright": "© {year} Verkio",
     "productHeading": "Tuote",
     "resourcesHeading": "Resurssit",
@@ -575,5 +577,27 @@
         "body": "Voimme päivittää näitä ehtoja ennen julkaisua. Olennaiset muutokset näkyvät yllä olevassa päivämäärässä. Sivuston käytön jatkaminen tarkoittaa, että hyväksyt nykyisen version."
       }
     ]
+  },
+  "product": {
+    "metaTitle": "Tuote — Verkio",
+    "metaDescription": "Verkio-tuote: sähköposti, kalenteri, yhteystiedot, tiedostot, wikit ja viestit. Plus jokaisen taustalla olevat ominaisuudet."
+  },
+  "whyVerkio": {
+    "metaTitle": "Miksi Verkio — Verkio",
+    "metaDescription": "Miksi tiimit valitsevat Verkion: hiljainen ohjelmisto, avoimet standardit, EU-asuinpaikka, ei lukitusta."
+  },
+  "homeTeasers": {
+    "product": {
+      "eyebrow": "Tuote",
+      "headline": "Sähköposti, kalenteri, yhteystiedot, tiedostot, wikit ja viestit.",
+      "body": "Yksi paketti. Rakennettu avoimille standardeille, jotta et koskaan ole lukittu.",
+      "link": "Tutustu tuotteeseen"
+    },
+    "whyVerkio": {
+      "eyebrow": "Miksi Verkio",
+      "headline": "Hiljainen ohjelmisto, EU-asuinpaikka oletuksena.",
+      "body": "Avoimet standardit, rauhalliset oletukset, täysi vienti milloin tahansa.",
+      "link": "Miksi tiimit valitsevat Verkion"
+    }
   }
 }

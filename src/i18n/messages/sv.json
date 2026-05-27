@@ -13,18 +13,20 @@
     "joinWaitlist": "Gå med i väntelistan",
     "language": "Språk",
     "roadmap": "Färdplan",
-    "articles": "Artiklar"
+    "articles": "Artiklar",
+    "product": "Produkt",
+    "whyVerkio": "Varför Verkio"
   },
   "hero": {
     "eyebrow": "Lanseras i juli 2026",
-    "headline": "Snabb, fokuserad, europeisk.",
-    "body1": "E-post, kalender, kontakter, dokument och wikis — en enhetlig svit som respekterar din tid, inte din uppmärksamhet.",
-    "body2": "Driftad i EU, krypterad i vila, GDPR-anpassad från grunden."
+    "headline": "Arbetspaketet utan brus.",
+    "body1": "Mail, kalender, kontakter, filer, wikis och meddelanden. Ett paket för det faktiska arbetet, utan svallande eller brus.",
+    "body2": "Byggt på öppna standarder. Hostat i Europa. Ditt att lämna, när som helst."
   },
   "suite": {
     "eyebrow": "Sviten",
-    "headline": "Allt ditt team använder. På ett ställe där allt också lagras.",
-    "subhead": "Byggt på öppna standarder. Driftat i EU. Ingen inlåsning, inga överraskningar.",
+    "headline": "Allt ditt team använder, på ett ställe.",
+    "subhead": "En inloggning, en adressbok, en faktura. Byggt på öppna standarder så att du aldrig är inlåst.",
     "items": {
       "mail": {
         "name": "E-post",
@@ -160,7 +162,7 @@
   "comparison": {
     "eyebrow": "Jämförelse",
     "headline": "Så jämför sig Verkio.",
-    "subhead": "Sida vid sida med de två sviter som europeiska företag oftast väljer mellan.",
+    "subhead": "Sida vid sida med de två paket de flesta team väljer som standard idag.",
     "columns": {
       "verkio": "Verkio",
       "google": "Google Workspace",
@@ -271,7 +273,7 @@
     }
   },
   "footer": {
-    "tagline": "Ett europeiskt företag. Byggt i EU. Driftat i EU.",
+    "tagline": "Ett europeiskt företag. Öppna standarder. Ditt att lämna.",
     "copyright": "© {year} Verkio",
     "productHeading": "Produkt",
     "resourcesHeading": "Resurser",
@@ -575,5 +577,27 @@
         "body": "Vi kan uppdatera dessa villkor före lansering. Väsentliga ändringar speglas i datumet ovan. Fortsatt användning av sajten innebär att du godkänner den aktuella versionen."
       }
     ]
+  },
+  "product": {
+    "metaTitle": "Produkt — Verkio",
+    "metaDescription": "Verkio-produkten: mail, kalender, kontakter, filer, wikis och meddelanden. Plus kapabiliteten bakom varje del."
+  },
+  "whyVerkio": {
+    "metaTitle": "Varför Verkio — Verkio",
+    "metaDescription": "Varför team väljer Verkio: tyst mjukvara, öppna standarder, EU-residens, ingen inlåsning."
+  },
+  "homeTeasers": {
+    "product": {
+      "eyebrow": "Produkt",
+      "headline": "Mail, kalender, kontakter, filer, wikis och meddelanden.",
+      "body": "Ett paket. Byggt på öppna standarder så att du aldrig är inlåst.",
+      "link": "Utforska produkten"
+    },
+    "whyVerkio": {
+      "eyebrow": "Varför Verkio",
+      "headline": "Tyst mjukvara, EU-residens som standard.",
+      "body": "Öppna standarder, lugna defaulter, full export när som helst.",
+      "link": "Varför team väljer Verkio"
+    }
   }
 }
