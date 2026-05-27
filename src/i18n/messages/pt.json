@@ -21,7 +21,12 @@
     "eyebrow": "Lançamento em julho de 2026",
     "headline": "A suite de trabalho sem ruído.",
     "body1": "Correio, calendário, contactos, ficheiros, wikis e mensagens. Uma suite para o trabalho a sério, sem inchaço ou ruído.",
-    "body2": "Construída sobre padrões abertos. Alojada na Europa. Tua para sair, a qualquer momento."
+    "body2": "Construída sobre padrões abertos. Alojada na Europa. Tua para sair, a qualquer momento.",
+    "headlinePrefix": "A suite de trabalho sem ",
+    "rotatingWords": [
+      "ruído"
+    ],
+    "headlineSuffix": "."
   },
   "suite": {
     "eyebrow": "A suite",
@@ -269,6 +274,10 @@
       "openSource": {
         "question": "A Verkio é open source?",
         "answer": "O lado cliente assenta em padrões abertos, qualquer ferramenta compatível funciona. Partilhamos mais sobre o backend perto do lançamento."
+      },
+      "ai": {
+        "question": "Do you have AI features?",
+        "answer": "No. We have features."
       }
     }
   },
@@ -599,5 +608,29 @@
       "body": "Padrões abertos, predefinições tranquilas, exportação completa a qualquer momento.",
       "link": "Porque é que as equipas escolhem o Verkio"
     }
+  },
+  "whatWeDontHave": {
+    "eyebrow": "Negative space",
+    "headline": "Things we deliberately don't have.",
+    "subhead": "Verkio is defined as much by what we leave out.",
+    "items": [
+      "AI features that quietly read your mail.",
+      "Engagement metrics counting how addicted you are.",
+      "Read receipts that work differently in every client.",
+      "A 'team activity' feed nobody asked for.",
+      "'Smart' inbox categorisation hiding your mail.",
+      "Data brokers anywhere in the subprocessor list."
+    ]
+  },
+  "founderNote": {
+    "eyebrow": "From the founder",
+    "body": "Hi, I'm Benji. I built Verkio because every time Gmail rolled out a new AI feature my IT-admin friends sighed a little harder. I think email should be boring, yours, and built to last decades — and that the only sustainable way to build that is from inside the EU, on open standards, by a small company that doesn't need to grow forever. If that resonates, join the waitlist.",
+    "signature": "— Benji, founder"
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "headline": "You've reached an address that doesn't exist.",
+    "body": "Like a Gmail label, basically. Let's get you back home.",
+    "backLink": "Back to verkio.eu"
   }
 }

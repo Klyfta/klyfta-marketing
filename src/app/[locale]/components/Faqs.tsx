@@ -12,12 +12,13 @@ export const faqKeys = [
   "subprocessors",
   "leaving",
   "openSource",
+  "ai",
 ] as const;
 
 const faqColumns = [
   ["hosting", "cloudAct", "clients"],
   ["launch", "migration", "pricing"],
-  ["subprocessors", "leaving", "openSource"],
+  ["subprocessors", "leaving", "openSource", "ai"],
 ] as const;
 
 export function Faqs() {
