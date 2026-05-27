@@ -39,7 +39,6 @@ function Hero() {
             <h1 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-medium tracking-tight text-gray-900 leading-[1.1]">
               {t("headlinePrefix")}
               <RotatingWord words={words} />
-              {t("headlineSuffix")}
             </h1>
             <p className="mt-6 text-base text-gray-600">{t("body1")}</p>
             <p className="mt-4 text-base text-gray-600">{t("body2")}</p>
