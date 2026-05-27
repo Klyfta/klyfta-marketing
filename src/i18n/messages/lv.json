@@ -13,18 +13,20 @@
     "joinWaitlist": "Pievienoties sarakstam",
     "language": "Valoda",
     "roadmap": "Ceļvedis",
-    "articles": "Raksti"
+    "articles": "Raksti",
+    "product": "Produkts",
+    "whyVerkio": "Kāpēc Verkio"
   },
   "hero": {
     "eyebrow": "Atklāšana 2026. gada jūlijā",
-    "headline": "Ātrs, koncentrēts, eiropeisks.",
-    "body1": "E-pasts, kalendārs, kontakti, dokumenti un viki — viens vienots komplekts, kas ciena tavu laiku, nevis uzmanību.",
-    "body2": "Izvietots ES, šifrēts miera stāvoklī, VDAR no pamata."
+    "headline": "Darba pakete bez trokšņa.",
+    "body1": "Pasts, kalendārs, kontakti, faili, wiki un ziņojumi. Viena pakete īstam darbam, bez piepūšanas vai trokšņa.",
+    "body2": "Veidots uz atklātajiem standartiem. Mitināts Eiropā. Tavs, lai pamestu, jebkurā brīdī."
   },
   "suite": {
     "eyebrow": "Komplekts",
-    "headline": "Viss, ko izmanto jūsu komanda. Vienā vietā, kur tas arī atrodas.",
-    "subhead": "Veidots uz atvērtiem standartiem. Izvietots ES. Bez piesaistes piegādātājam, bez pārsteigumiem.",
+    "headline": "Viss, ko tava komanda izmanto, vienā vietā.",
+    "subhead": "Viena pieteikšanās, viena adrešu grāmata, viens rēķins. Veidots uz atklātajiem standartiem, lai tu nekad nebūtu ieslodzīts.",
     "items": {
       "mail": {
         "name": "E-pasts",
@@ -160,7 +162,7 @@
   "comparison": {
     "eyebrow": "Salīdzinājums",
     "headline": "Kā Verkio salīdzinājumā.",
-    "subhead": "Blakus diviem komplektiem, starp kuriem Eiropas uzņēmumi visbiežāk izvēlas.",
+    "subhead": "Blakus divām paketēm, pie kurām vairums komandu šodien pēc noklusējuma vēršas.",
     "columns": {
       "verkio": "Verkio",
       "google": "Google Workspace",
@@ -271,7 +273,7 @@
     }
   },
   "footer": {
-    "tagline": "Eiropas uzņēmums. Veidots ES. Izvietots ES.",
+    "tagline": "Eiropas uzņēmums. Atklātie standarti. Tavs, lai pamestu.",
     "copyright": "© {year} Verkio",
     "productHeading": "Produkts",
     "resourcesHeading": "Resursi",
@@ -575,5 +577,27 @@
         "body": "Šos noteikumus varam atjaunināt pirms palaišanas. Būtiskas izmaiņas tiks atspoguļotas datumā augšā. Turpinot lietot vietni, jūs piekrītat pašreizējai versijai."
       }
     ]
+  },
+  "product": {
+    "metaTitle": "Produkts — Verkio",
+    "metaDescription": "Verkio produkts: pasts, kalendārs, kontakti, faili, wiki un ziņojumi. Plus iespējas, kas slēpjas aiz katra."
+  },
+  "whyVerkio": {
+    "metaTitle": "Kāpēc Verkio — Verkio",
+    "metaDescription": "Kāpēc komandas izvēlas Verkio: kluss programmatūra, atklātie standarti, ES rezidence, nekādas ieslodzīšanas."
+  },
+  "homeTeasers": {
+    "product": {
+      "eyebrow": "Produkts",
+      "headline": "Pasts, kalendārs, kontakti, faili, wiki un ziņojumi.",
+      "body": "Viena pakete. Veidota uz atklātajiem standartiem, lai tu nekad nebūtu ieslodzīts.",
+      "link": "Izpēti produktu"
+    },
+    "whyVerkio": {
+      "eyebrow": "Kāpēc Verkio",
+      "headline": "Kluss programmatūra, ES rezidence pēc noklusējuma.",
+      "body": "Atklātie standarti, mierīgi noklusējumi, pilns eksports jebkurā brīdī.",
+      "link": "Kāpēc komandas izvēlas Verkio"
+    }
   }
 }

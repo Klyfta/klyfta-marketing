@@ -13,18 +13,20 @@
     "joinWaitlist": "Inschrijven",
     "language": "Taal",
     "roadmap": "Roadmap",
-    "articles": "Artikelen"
+    "articles": "Artikelen",
+    "product": "Product",
+    "whyVerkio": "Waarom Verkio"
   },
   "hero": {
     "eyebrow": "Lancering in juli 2026",
-    "headline": "Snel, gefocust, Europees.",
-    "body1": "E-mail, agenda, contacten, documenten en wiki's — één gebundelde suite die uw tijd respecteert, niet uw aandacht.",
-    "body2": "Gehost in de EU, versleuteld in rust, AVG-native vanaf de basis."
+    "headline": "De werksuite zonder ruis.",
+    "body1": "Mail, agenda, contacten, bestanden, wiki's en berichten. Eén suite voor het echte werk, zonder opgeblazen rommel of ruis.",
+    "body2": "Gebouwd op open standaarden. Gehost in Europa. Van jou om te vertrekken, op elk moment."
   },
   "suite": {
     "eyebrow": "De suite",
-    "headline": "Alles wat jouw team gebruikt. Op één plek waar het ook staat.",
-    "subhead": "Gebouwd op open standaarden. Gehost in de EU. Geen vendor lock-in, geen verrassingen.",
+    "headline": "Alles wat je team gebruikt, op één plek.",
+    "subhead": "Eén login, één adresboek, één rekening. Gebouwd op open standaarden, zodat je nooit vastzit.",
     "items": {
       "mail": {
         "name": "E-mail",
@@ -160,7 +162,7 @@
   "comparison": {
     "eyebrow": "Vergelijking",
     "headline": "Hoe Verkio zich verhoudt.",
-    "subhead": "Naast de twee suites waar Europese bedrijven het vaakst uit kiezen.",
+    "subhead": "Naast de twee suites waar de meeste teams vandaag standaard voor kiezen.",
     "columns": {
       "verkio": "Verkio",
       "google": "Google Workspace",
@@ -271,7 +273,7 @@
     }
   },
   "footer": {
-    "tagline": "Een Europees bedrijf. Gebouwd in de EU. Gehost in de EU.",
+    "tagline": "Een Europees bedrijf. Open standaarden. Van jou om te vertrekken.",
     "copyright": "© {year} Verkio",
     "productHeading": "Product",
     "resourcesHeading": "Bronnen",
@@ -575,5 +577,27 @@
         "body": "We kunnen deze voorwaarden voor de lancering bijwerken. Materiële wijzigingen worden weerspiegeld in de datum hierboven. Verder gebruik van de site betekent acceptatie van de huidige versie."
       }
     ]
+  },
+  "product": {
+    "metaTitle": "Product — Verkio",
+    "metaDescription": "Het Verkio-product: mail, agenda, contacten, bestanden, wiki's en berichten. Plus de mogelijkheden achter elk daarvan."
+  },
+  "whyVerkio": {
+    "metaTitle": "Waarom Verkio — Verkio",
+    "metaDescription": "Waarom teams voor Verkio kiezen: rustige software, open standaarden, EU-residentie, geen vendor lock-in."
+  },
+  "homeTeasers": {
+    "product": {
+      "eyebrow": "Product",
+      "headline": "Mail, agenda, contacten, bestanden, wiki's en berichten.",
+      "body": "Eén suite. Gebouwd op open standaarden, zodat je nooit vastzit.",
+      "link": "Verken het product"
+    },
+    "whyVerkio": {
+      "eyebrow": "Waarom Verkio",
+      "headline": "Rustige software, EU-residentie standaard.",
+      "body": "Open standaarden, kalme standaardinstellingen, volledige export wanneer dan ook.",
+      "link": "Waarom teams voor Verkio kiezen"
+    }
   }
 }

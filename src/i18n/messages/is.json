@@ -13,18 +13,20 @@
     "joinWaitlist": "Skrá á biðlista",
     "language": "Tungumál",
     "roadmap": "Vegvísir",
-    "articles": "Greinar"
+    "articles": "Greinar",
+    "product": "Vara",
+    "whyVerkio": "Hvers vegna Verkio"
   },
   "hero": {
     "eyebrow": "Kemur út í júlí 2026",
-    "headline": "Hröð, einbeitt, evrópsk.",
-    "body1": "Tölvupóstur, dagatal, tengiliðir, skjöl og wikis — ein sameinuð svíta sem virðir tíma þinn, ekki athygli þína.",
-    "body2": "Hýst í ESB, dulkóðuð í hvíld, GDPR-byggð frá grunni."
+    "headline": "Vinnusvíta án hávaða.",
+    "body1": "Póstur, dagatal, tengiliðir, skrár, wikiar og skilaboð. Ein svíta fyrir alvöru vinnu, án þenslu eða hávaða.",
+    "body2": "Smíðað á opnum stöðlum. Hýst í Evrópu. Þitt að yfirgefa, hvenær sem er."
   },
   "suite": {
     "eyebrow": "Svítan",
-    "headline": "Allt sem teymið þitt notar. Á einum stað þar sem það líka býr.",
-    "subhead": "Byggt á opnum stöðlum. Hýst í ESB. Engin innilokun, engar óvæntar uppákomur.",
+    "headline": "Allt sem teymið þitt notar, á einum stað.",
+    "subhead": "Ein innskráning, ein nafnaskrá, einn reikningur. Smíðað á opnum stöðlum svo þú sért aldrei læstur inni.",
     "items": {
       "mail": {
         "name": "Tölvupóstur",
@@ -160,7 +162,7 @@
   "comparison": {
     "eyebrow": "Samanburður",
     "headline": "Hvernig Verkio stendur sig.",
-    "subhead": "Hlið við hlið með þeim tveimur svítum sem evrópsk fyrirtæki velja oftast á milli.",
+    "subhead": "Hlið við hlið með tveimur svítum sem flest teymi velja sjálfgefið í dag.",
     "columns": {
       "verkio": "Verkio",
       "google": "Google Workspace",
@@ -271,7 +273,7 @@
     }
   },
   "footer": {
-    "tagline": "Evrópskt fyrirtæki. Byggt í ESB. Hýst í ESB.",
+    "tagline": "Evrópskt fyrirtæki. Opnir staðlar. Þitt að yfirgefa.",
     "copyright": "© {year} Verkio",
     "productHeading": "Vara",
     "resourcesHeading": "Tilföng",
@@ -575,5 +577,27 @@
         "body": "Við gætum uppfært þessa skilmála fyrir útgáfu. Verulegar breytingar verða endurspeglaðar í dagsetningu hér að ofan. Áframhaldandi notkun síðunnar þýðir að þú samþykkir núverandi útgáfu."
       }
     ]
+  },
+  "product": {
+    "metaTitle": "Vara — Verkio",
+    "metaDescription": "Verkio varan: póstur, dagatal, tengiliðir, skrár, wikiar og skilaboð. Auk getunnar á bak við hvert og eitt."
+  },
+  "whyVerkio": {
+    "metaTitle": "Hvers vegna Verkio — Verkio",
+    "metaDescription": "Hvers vegna teymi velja Verkio: rólegt hugbúnaður, opnir staðlar, ESB-búseta, engin innilokun."
+  },
+  "homeTeasers": {
+    "product": {
+      "eyebrow": "Vara",
+      "headline": "Póstur, dagatal, tengiliðir, skrár, wikiar og skilaboð.",
+      "body": "Ein svíta. Smíðuð á opnum stöðlum svo þú sért aldrei læstur inni.",
+      "link": "Skoða vöruna"
+    },
+    "whyVerkio": {
+      "eyebrow": "Hvers vegna Verkio",
+      "headline": "Rólegt hugbúnaður, ESB-búseta sjálfgefið.",
+      "body": "Opnir staðlar, róleg sjálfgefin gildi, full útflutningur hvenær sem er.",
+      "link": "Hvers vegna teymi velja Verkio"
+    }
   }
 }

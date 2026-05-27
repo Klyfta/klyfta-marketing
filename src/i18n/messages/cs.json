@@ -13,18 +13,20 @@
     "joinWaitlist": "Přidat se na seznam",
     "language": "Jazyk",
     "roadmap": "Plán",
-    "articles": "Články"
+    "articles": "Články",
+    "product": "Produkt",
+    "whyVerkio": "Proč Verkio"
   },
   "hero": {
     "eyebrow": "Spuštění v červenci 2026",
-    "headline": "Rychlý, soustředěný, evropský.",
-    "body1": "E-mail, kalendář, kontakty, dokumenty a wiki — jeden sjednocený balíček, který respektuje váš čas, ne vaši pozornost.",
-    "body2": "Hostováno v EU, šifrováno v klidu, GDPR od základu."
+    "headline": "Pracovní sada bez hluku.",
+    "body1": "Pošta, kalendář, kontakty, soubory, wiki a zprávy. Jedna sada pro skutečnou práci, bez nafouknutí a hluku.",
+    "body2": "Postaveno na otevřených standardech. Hostováno v Evropě. Vaše k odchodu, kdykoliv."
   },
   "suite": {
     "eyebrow": "Balíček",
-    "headline": "Vše, co váš tým používá. Na jednom místě, kde to také žije.",
-    "subhead": "Postaveno na otevřených standardech. Hostováno v EU. Žádné uzamčení k dodavateli, žádná překvapení.",
+    "headline": "Vše, co váš tým používá, na jednom místě.",
+    "subhead": "Jedno přihlášení, jeden adresář, jedna faktura. Postaveno na otevřených standardech, takže nikdy nejste uzamčeni.",
     "items": {
       "mail": {
         "name": "E-mail",
@@ -160,7 +162,7 @@
   "comparison": {
     "eyebrow": "Srovnání",
     "headline": "Jak Verkio obstojí ve srovnání.",
-    "subhead": "Bok po boku se dvěma balíčky, mezi nimiž evropské firmy nejčastěji vybírají.",
+    "subhead": "Bok po boku se dvěma sadami, ke kterým se většina týmů dnes ve výchozím nastavení uchyluje.",
     "columns": {
       "verkio": "Verkio",
       "google": "Google Workspace",
@@ -271,7 +273,7 @@
     }
   },
   "footer": {
-    "tagline": "Evropská firma. Postavena v EU. Hostována v EU.",
+    "tagline": "Evropská společnost. Otevřené standardy. Vaše k odchodu.",
     "copyright": "© {year} Verkio",
     "productHeading": "Produkt",
     "resourcesHeading": "Zdroje",
@@ -575,5 +577,27 @@
         "body": "Tyto podmínky můžeme před spuštěním aktualizovat. Podstatné změny se projeví v datu výše. Další používání webu znamená přijetí aktuální verze."
       }
     ]
+  },
+  "product": {
+    "metaTitle": "Produkt — Verkio",
+    "metaDescription": "Produkt Verkio: pošta, kalendář, kontakty, soubory, wiki a zprávy. Plus schopnosti za každým z nich."
+  },
+  "whyVerkio": {
+    "metaTitle": "Proč Verkio — Verkio",
+    "metaDescription": "Proč si týmy vybírají Verkio: tichý software, otevřené standardy, EU rezidence, žádné uzamčení."
+  },
+  "homeTeasers": {
+    "product": {
+      "eyebrow": "Produkt",
+      "headline": "Pošta, kalendář, kontakty, soubory, wiki a zprávy.",
+      "body": "Jedna sada. Postavená na otevřených standardech, takže nikdy nejste uzamčeni.",
+      "link": "Prozkoumat produkt"
+    },
+    "whyVerkio": {
+      "eyebrow": "Proč Verkio",
+      "headline": "Tichý software, EU rezidence ve výchozím nastavení.",
+      "body": "Otevřené standardy, klidné výchozí hodnoty, plný export kdykoliv.",
+      "link": "Proč si týmy vybírají Verkio"
+    }
   }
 }

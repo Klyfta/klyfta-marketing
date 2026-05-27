@@ -13,18 +13,20 @@
     "joinWaitlist": "Užsiregistruoti",
     "language": "Kalba",
     "roadmap": "Kelias",
-    "articles": "Straipsniai"
+    "articles": "Straipsniai",
+    "product": "Produktas",
+    "whyVerkio": "Kodėl Verkio"
   },
   "hero": {
     "eyebrow": "Pristatymas 2026 m. liepą",
-    "headline": "Greitas, sutelktas, europinis.",
-    "body1": "Paštas, kalendorius, kontaktai, dokumentai ir viki — vienas suvienytas rinkinys, gerbiantis tavo laiką, o ne dėmesį.",
-    "body2": "Talpinamas ES, šifruotas ramybės būsenoje, BDAR nuo pat pradžių."
+    "headline": "Darbo rinkinys be triukšmo.",
+    "body1": "Paštas, kalendorius, kontaktai, failai, vikiai ir žinutės. Vienas rinkinys tikram darbui, be išpūtimo ar triukšmo.",
+    "body2": "Sukurta atvirais standartais. Talpinama Europoje. Tavo, kad pasitrauktum, bet kada."
   },
   "suite": {
     "eyebrow": "Rinkinys",
-    "headline": "Viskas, ką naudoja jūsų komanda. Vienoje vietoje, kur tai ir saugoma.",
-    "subhead": "Sukurta naudojant atvirus standartus. Talpinama ES. Be priklausomybės nuo tiekėjo, be staigmenų.",
+    "headline": "Viskas, ką tavo komanda naudoja, vienoje vietoje.",
+    "subhead": "Vienas prisijungimas, viena adresų knyga, viena sąskaita. Sukurta atvirais standartais, kad niekada nebūtum uždarytas.",
     "items": {
       "mail": {
         "name": "El. paštas",
@@ -160,7 +162,7 @@
   "comparison": {
     "eyebrow": "Palyginimas",
     "headline": "Kaip Verkio palygina.",
-    "subhead": "Greta dviejų rinkinių, kuriuos Europos įmonės dažniausiai renkasi.",
+    "subhead": "Greta dviejų rinkinių, prie kurių dauguma komandų šiandien pagal numatytuosius nustatymus grįžta.",
     "columns": {
       "verkio": "Verkio",
       "google": "Google Workspace",
@@ -271,7 +273,7 @@
     }
   },
   "footer": {
-    "tagline": "Europinė įmonė. Sukurta ES. Talpinama ES.",
+    "tagline": "Europos kompanija. Atviri standartai. Tavo, kad pasitrauktum.",
     "copyright": "© {year} Verkio",
     "productHeading": "Produktas",
     "resourcesHeading": "Ištekliai",
@@ -575,5 +577,27 @@
         "body": "Šias sąlygas galime atnaujinti prieš paleidimą. Esminiai pakeitimai atsispindės aukščiau nurodytoje datoje. Tęsdami naudojimąsi svetaine sutinkate su dabartine versija."
       }
     ]
+  },
+  "product": {
+    "metaTitle": "Produktas — Verkio",
+    "metaDescription": "Verkio produktas: paštas, kalendorius, kontaktai, failai, vikiai ir žinutės. Plius galimybės už kiekvieno iš jų."
+  },
+  "whyVerkio": {
+    "metaTitle": "Kodėl Verkio — Verkio",
+    "metaDescription": "Kodėl komandos renkasi Verkio: rami programinė įranga, atviri standartai, ES rezidencija, jokio uždarymo."
+  },
+  "homeTeasers": {
+    "product": {
+      "eyebrow": "Produktas",
+      "headline": "Paštas, kalendorius, kontaktai, failai, vikiai ir žinutės.",
+      "body": "Vienas rinkinys. Sukurtas atvirais standartais, kad niekada nebūtum uždarytas.",
+      "link": "Susipažink su produktu"
+    },
+    "whyVerkio": {
+      "eyebrow": "Kodėl Verkio",
+      "headline": "Rami programinė įranga, ES rezidencija pagal numatytuosius.",
+      "body": "Atviri standartai, ramūs numatytieji nustatymai, pilnas eksportas bet kada.",
+      "link": "Kodėl komandos renkasi Verkio"
+    }
   }
 }

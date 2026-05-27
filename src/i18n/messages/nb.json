@@ -13,18 +13,20 @@
     "joinWaitlist": "Bli med på ventelisten",
     "language": "Språk",
     "roadmap": "Veikart",
-    "articles": "Artikler"
+    "articles": "Artikler",
+    "product": "Produkt",
+    "whyVerkio": "Hvorfor Verkio"
   },
   "hero": {
     "eyebrow": "Lanseres i juli 2026",
-    "headline": "Rask, fokusert, europeisk.",
-    "body1": "E-post, kalender, kontakter, dokumenter og wikier — én samlet suite som respekterer tiden din, ikke oppmerksomheten din.",
-    "body2": "Hostet i EU, kryptert i hvile, GDPR-bygget fra grunnen."
+    "headline": "Arbeidssuiten uten støy.",
+    "body1": "E-post, kalender, kontakter, filer, wikier og meldinger. Én suite for det faktiske arbeidet, uten oppblåsthet eller støy.",
+    "body2": "Bygd på åpne standarder. Driftet i Europa. Ditt å forlate, når som helst."
   },
   "suite": {
     "eyebrow": "Suiten",
-    "headline": "Alt teamet ditt bruker. Ett sted hvor det også ligger.",
-    "subhead": "Bygget på åpne standarder. Hostet i EU. Ingen innelåsing, ingen overraskelser.",
+    "headline": "Alt teamet ditt bruker, på ett sted.",
+    "subhead": "Én innlogging, én adressebok, én faktura. Bygd på åpne standarder så du aldri blir låst inne.",
     "items": {
       "mail": {
         "name": "E-post",
@@ -160,7 +162,7 @@
   "comparison": {
     "eyebrow": "Sammenligning",
     "headline": "Slik sammenligner Verkio seg.",
-    "subhead": "Side om side med de to suitene europeiske bedrifter oftest velger mellom.",
+    "subhead": "Side om side med de to suitene de fleste team velger som standard i dag.",
     "columns": {
       "verkio": "Verkio",
       "google": "Google Workspace",
@@ -271,7 +273,7 @@
     }
   },
   "footer": {
-    "tagline": "Et europeisk selskap. Bygget i EU. Hostet i EU.",
+    "tagline": "Et europeisk selskap. Åpne standarder. Ditt å forlate.",
     "copyright": "© {year} Verkio",
     "productHeading": "Produkt",
     "resourcesHeading": "Ressurser",
@@ -575,5 +577,27 @@
         "body": "Vi kan oppdatere disse vilkårene før lansering. Vesentlige endringer reflekteres i datoen over. Fortsatt bruk av nettstedet betyr at du godtar gjeldende versjon."
       }
     ]
+  },
+  "product": {
+    "metaTitle": "Produkt — Verkio",
+    "metaDescription": "Verkio-produktet: e-post, kalender, kontakter, filer, wikier og meldinger. Pluss kapabilitetene bak hver enkelt."
+  },
+  "whyVerkio": {
+    "metaTitle": "Hvorfor Verkio — Verkio",
+    "metaDescription": "Hvorfor team velger Verkio: rolig programvare, åpne standarder, EU-residens, ingen innlåsing."
+  },
+  "homeTeasers": {
+    "product": {
+      "eyebrow": "Produkt",
+      "headline": "E-post, kalender, kontakter, filer, wikier og meldinger.",
+      "body": "Én suite. Bygd på åpne standarder så du aldri blir låst inne.",
+      "link": "Utforsk produktet"
+    },
+    "whyVerkio": {
+      "eyebrow": "Hvorfor Verkio",
+      "headline": "Rolig programvare, EU-residens som standard.",
+      "body": "Åpne standarder, rolige defaulter, full eksport når som helst.",
+      "link": "Hvorfor team velger Verkio"
+    }
   }
 }
