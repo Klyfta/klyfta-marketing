@@ -123,14 +123,14 @@ const suiteIcons = {
 export function Suite() {
   const t = useTranslations("suite");
   return (
-    <section id="suite" className="bg-gray-900 py-20 sm:py-32">
+    <section id="suite" className="border-t border-gray-200 py-20 sm:py-32">
       <Container>
         <div>
-          <p className="text-sm font-semibold text-brand-300">{t("eyebrow")}</p>
-          <h2 className="mt-3 text-3xl font-medium tracking-tight text-white">
+          <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>
+          <h2 className="mt-3 text-3xl font-medium tracking-tight text-gray-900">
             {t("headline")}
           </h2>
-          <p className="mt-4 text-lg text-gray-400">{t("subhead")}</p>
+          <p className="mt-4 text-lg text-gray-600">{t("subhead")}</p>
         </div>
         <ul
           role="list"
@@ -143,11 +143,11 @@ export function Suite() {
                 key={key}
                 className="flex flex-col items-center text-center p-8"
               >
-                <Icon className="h-20 w-20 text-brand-300" />
-                <h3 className="mt-6 text-base font-semibold text-white">
+                <Icon className="h-20 w-20 text-brand-600" />
+                <h3 className="mt-6 text-base font-semibold text-gray-900">
                   {t(`items.${key}.name`)}
                 </h3>
-                <p className="mt-2 text-sm text-gray-400">
+                <p className="mt-2 text-sm text-gray-600">
                   {t(`items.${key}.description`)}
                 </p>
               </li>
