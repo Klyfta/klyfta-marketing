@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import { Container } from "./Layout";
-import { EuMapPlaceholder } from "./EuMapPlaceholder";
 
 function LockIcon(props: React.ComponentPropsWithoutRef<"svg">) {
   return (
@@ -139,9 +138,6 @@ export function Residency() {
             );
           })}
         </ul>
-        <div className="mt-16">
-          <EuMapPlaceholder />
-        </div>
       </Container>
     </section>
   );

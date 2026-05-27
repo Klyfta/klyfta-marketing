@@ -73,15 +73,16 @@ function WikiIcon(props: React.ComponentPropsWithoutRef<"svg">) {
   return (
     <svg
       viewBox="0 0 24 24"
+      fill="none"
       stroke="currentColor"
       strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
       {...props}
     >
-      <rect x="2" y="2" width="11" height="14" rx="1.5" fill="rgb(17 24 39)" />
-      <rect x="6" y="5" width="11" height="14" rx="1.5" fill="rgb(17 24 39)" />
-      <rect x="10" y="8" width="11" height="14" rx="1.5" fill="rgb(17 24 39)" />
+      <rect x="2" y="2" width="11" height="14" rx="1.5" />
+      <rect x="6" y="5" width="11" height="14" rx="1.5" />
+      <rect x="10" y="8" width="11" height="14" rx="1.5" />
     </svg>
   );
 }

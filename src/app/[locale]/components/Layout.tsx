@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { StatusDot } from "./StatusDot";
 
 export function Container({
   className = "",
@@ -62,13 +61,8 @@ export function Header() {
     <header className="sticky top-0 z-40 bg-white">
       <Container>
         <nav className="flex items-center justify-between py-6">
-          <Link
-            href="/"
-            aria-label="Verkio"
-            className="flex items-center gap-x-3 text-gray-900"
-          >
+          <Link href="/" aria-label="Verkio" className="text-gray-900">
             <Logo />
-            <StatusDot />
           </Link>
           <div className="flex items-center gap-x-6 sm:gap-x-8">
             <Link
