@@ -6,6 +6,7 @@
   },
   "nav": {
     "suite": "Suite",
+    "capabilities": "Capabilities",
     "residency": "Residency",
     "faqs": "FAQs",
     "joinWaitlist": "Join waitlist",
@@ -43,6 +44,65 @@
       "wikis": {
         "name": "Wikis",
         "description": "Structured pages for team knowledge, with full edit history and linking."
+      },
+      "messaging": {
+        "name": "Messaging",
+        "description": "Channels, DMs, and threads for team conversations. Searchable, in the same suite as your mail."
+      }
+    }
+  },
+  "capabilities": {
+    "eyebrow": "Capabilities",
+    "headline": "Built for the real work.",
+    "subhead": "The features teams actually need — not a list designed to look long on a slide.",
+    "items": {
+      "webmail": {
+        "name": "Webmail that gets out of the way.",
+        "description": "A fast, keyboard-first web client — threading, search, labels, three-pane layout. Built to read, write, and archive without the bloat. The webmail you wish Gmail still was."
+      },
+      "files": {
+        "name": "Files with keys you control.",
+        "description": "Private and shared folders, granular ACLs, password- and expiry-protected share links. Every file is encrypted at rest with its own AES-256-GCM key on EU object storage — no master key sitting in a US bucket."
+      },
+      "calendar": {
+        "name": "A calendar that fits the way you already work.",
+        "description": "Full CalDAV under the hood, with a web app supporting month, week, and day views, recurring events, iMIP invitations, and free-busy lookup across teams. Sync to Apple Calendar, Thunderbird, or your phone — no proprietary plug-in to install."
+      },
+      "contacts": {
+        "name": "Contacts that move with you.",
+        "description": "Personal and shared address books over CardDAV. vCard import and export, group support, no proprietary contact format you have to migrate off of later. Your address book is yours."
+      },
+      "filters": {
+        "name": "Mail filters without a manual.",
+        "description": "A visual rule builder that compiles to standard Sieve under the hood. Pre-built templates for the rules you actually want, plus guardrails that stop you from building a forward loop at 2 a.m."
+      },
+      "sharedMailbox": {
+        "name": "Shared mailboxes for real teams.",
+        "description": "A team inbox with assignees, status, and internal notes — projected as IMAP keywords, so it still works in every mail client without a proprietary app. Helpdesk workflow without buying a helpdesk product."
+      },
+      "messaging": {
+        "name": "Team messaging without the noise.",
+        "description": "Channels for ongoing work, DMs for one-on-one threads, search across both. In the same suite as your mail and docs — one login, one search, one place to look. No engagement metrics, no upsells, no 'is anyone available?' theatre."
+      },
+      "api": {
+        "name": "A public API and signed webhooks.",
+        "description": "Scoped bearer tokens, HMAC-signed webhook delivery with a dead-letter queue, an OpenAPI spec, and a JMAP passthrough. Wire Verkio into the CRM, CI, or back-office you already have — no screen-scraping."
+      },
+      "auditLog": {
+        "name": "Every admin action, on the record.",
+        "description": "A customer-facing audit log with search, before/after values, and seven-year retention by default — matching Swedish bokföringslagen. Stream events to Splunk, Datadog, or any SIEM, or export to CSV or JSONL."
+      },
+      "offboarding": {
+        "name": "Offboarding without the cliff edge.",
+        "description": "When someone leaves the org, their inbox stays accessible for thirty days and can forward to a designated owner — so a customer reply on day fourteen still lands somewhere useful. Anti-loop guards built in, audit-logged, cascade-clear if the owner moves on too."
+      },
+      "domains": {
+        "name": "Domains and devices configured in minutes.",
+        "description": "Add a domain, verify DNS, set a catch-all. We generate Thunderbird XML and Apple .mobileconfig profiles, and host-header autoconfig just works. DNS verification supports ten EU providers including Hetzner, OVH, IONOS, deSEC, Scaleway, and Glesys."
+      },
+      "migration": {
+        "name": "Bring your inbox with you.",
+        "description": "Migrate from Gmail, Outlook, or any IMAP provider in one flow — folders, flags, and threads preserved. We pull, you watch the progress bar. No 'export your mbox and pray' weekend project."
       }
     }
   },
@@ -398,12 +458,12 @@
     },
     "items": {
       "wiki": {
-        "date": "August 2026",
+        "date": "July 2026",
         "name": "Internal wikis",
         "description": "Searchable, versioned spaces for runbooks, decisions, and the institutional knowledge your team writes for itself."
       },
       "messaging": {
-        "date": "October 2026",
+        "date": "July 2026",
         "name": "Internal messaging",
         "description": "Channels, DMs, and threads for team conversations — searchable, threaded, and built into the same suite as your mail and docs."
       },

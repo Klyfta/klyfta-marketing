@@ -7,6 +7,7 @@
   },
   "nav": {
     "suite": "Svítan",
+    "capabilities": "Eiginleikar",
     "residency": "Geymslustaður",
     "faqs": "Spurningar",
     "joinWaitlist": "Skrá á biðlista",
@@ -44,6 +45,65 @@
       "wikis": {
         "name": "Wikis",
         "description": "Skipulagðar síður fyrir þekkingu teymisins, með fullri breytingasögu og tengingum."
+      },
+      "messaging": {
+        "name": "Skilaboð",
+        "description": "Rásir, DM og þræðir fyrir teymisspjall. Leitarbært, í sömu svítu og pósturinn þinn."
+      }
+    }
+  },
+  "capabilities": {
+    "eyebrow": "Eiginleikar",
+    "headline": "Smíðað fyrir alvöru vinnu.",
+    "subhead": "Eiginleikarnir sem teymi þurfa raunverulega — ekki listi hannaður til að líta langur út á glæru.",
+    "items": {
+      "webmail": {
+        "name": "Vefpóstur sem heldur sig til hlés.",
+        "description": "Hraður, lyklaborðs-fyrst vefþjónn — þræðir, leit, merkimiðar, þriggja-spjalda útlit. Smíðaður til að lesa, skrifa og geyma án þenslu. Vefpósturinn sem þú vildir að Gmail væri enn."
+      },
+      "files": {
+        "name": "Skrár með lyklum sem þú stjórnar.",
+        "description": "Einkamöppur og samnýttar möppur, fínkornótt ACL, deilingartenglar varðir með lykilorði og fyrningardegi. Hver skrá er dulkóðuð í hvíld með eigin AES-256-GCM lykli á ESB hlutargeymslu — enginn aðallykill í bandarískum bucket."
+      },
+      "calendar": {
+        "name": "Dagatal sem passar við hvernig þú vinnur nú þegar.",
+        "description": "Fullt CalDAV undir hlífinni, með vefappi sem styður mánaðar-, viku- og dagsýni, endurteknar færslur, iMIP boð og laus/upptekinn flettingu á milli teyma. Samstilltu við Apple Dagatal, Thunderbird eða símann þinn — engin sérvarin plug-in til að setja upp."
+      },
+      "contacts": {
+        "name": "Tengiliðir sem fylgja þér.",
+        "description": "Persónulegar og samnýttar póstskrár yfir CardDAV. vCard inn- og útflutningur, hópastuðningur, ekkert sérvarið tengiliðasnið sem þú þarft að flytja síðar. Póstskráin þín er þín."
+      },
+      "filters": {
+        "name": "Póstsíur án handbókar.",
+        "description": "Sjónrænn reglubyggjari sem þýðir í staðlað Sieve undir hlífinni. Tilbúin sniðmát fyrir reglurnar sem þú raunverulega vilt, auk varnargrinda sem hindra þig í að byggja áframsendingarlykkju klukkan 2 að nóttu."
+      },
+      "sharedMailbox": {
+        "name": "Samnýtt pósthólf fyrir alvöru teymi.",
+        "description": "Teymisinnhólf með úthlutuðum, stöðu og innri athugasemdum — varpað sem IMAP lyklum, þannig að það virkar áfram í hverjum póstbiðlara án sérvarinnar app. Helpdesk verkflæði án þess að kaupa helpdesk vöru."
+      },
+      "messaging": {
+        "name": "Teymisskilaboð án hávaða.",
+        "description": "Rásir fyrir áframhaldandi vinnu, DM fyrir einn-á-einn þræði, leit yfir bæði. Í sömu svítu og pósturinn og skjölin þín — ein innskráning, ein leit, einn staður til að leita. Engar þátttökumælingar, engin uppsala, ekkert 'er einhver tiltækur?' leikhús."
+      },
+      "api": {
+        "name": "Opinbert API og undirritaðir webhooks.",
+        "description": "Bearer-tokens með umfangi, HMAC-undirrituð webhook-afhending með dead-letter biðröð, OpenAPI lýsing og JMAP passthrough. Tengdu Verkio við CRM, CI eða back-office sem þú hefur þegar — án screen-scraping."
+      },
+      "auditLog": {
+        "name": "Hver kerfisstjóraaðgerð, skráð.",
+        "description": "Endurskoðunarlog sem snýr að viðskiptavinum með leit, gildum fyrir/eftir og sjö ára varðveislu sjálfgefið — í samræmi við sænska bokföringslag. Streymdu atburðum í Splunk, Datadog eða hvaða SIEM sem er, eða fluttu út í CSV eða JSONL."
+      },
+      "offboarding": {
+        "name": "Brottfararferli án klettsbrúnar.",
+        "description": "Þegar einhver yfirgefur fyrirtækið helst pósthólfið hans aðgengilegt í þrjátíu daga og getur áframsent á tilnefndan eiganda — svo svar viðskiptavinar á degi fjórtán lendi enn einhvers staðar gagnlegt. Anti-lykkjuvörn innbyggð, skráð í endurskoðun, kaskaða-hreinsun ef eigandinn fer líka."
+      },
+      "domains": {
+        "name": "Lén og tæki stillt á mínútum.",
+        "description": "Bættu við léni, staðfestu DNS, stilltu catch-all. Við myndum Thunderbird XML og Apple .mobileconfig snið, og autoconfig um host-header bara virkar. DNS staðfesting styður tíu ESB veitur þar á meðal Hetzner, OVH, IONOS, deSEC, Scaleway og Glesys."
+      },
+      "migration": {
+        "name": "Taktu innhólfið með þér.",
+        "description": "Fluttu frá Gmail, Outlook eða hvaða IMAP-veitu sem er í einu flæði — möppur, fánar og þræðir varðveitt. Við sækjum, þú horfir á framvinduslá. Engin 'flyttu út mbox og biðjið' helgarverkefni."
       }
     }
   },
@@ -265,12 +325,12 @@
     },
     "items": {
       "wiki": {
-        "date": "Ágúst 2026",
+        "date": "July 2026",
         "name": "Innri wikis",
         "description": "Leitanleg, útgáfustýrð svæði fyrir verklagsreglur, ákvarðanir og þá þekkingu sem teymið skrifar handa sjálfu sér."
       },
       "messaging": {
-        "date": "Október 2026",
+        "date": "July 2026",
         "name": "Innri skilaboð",
         "description": "Rásir, einkaskilaboð og þræðir fyrir teymisspjall — leitanleg, í þráðum og innbyggð í sömu pakka og pósturinn og skjölin þín."
       },

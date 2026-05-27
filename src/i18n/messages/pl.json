@@ -7,6 +7,7 @@
   },
   "nav": {
     "suite": "Pakiet",
+    "capabilities": "Możliwości",
     "residency": "Lokalizacja",
     "faqs": "FAQ",
     "joinWaitlist": "Zapisz się",
@@ -44,6 +45,65 @@
       "wikis": {
         "name": "Wiki",
         "description": "Strukturyzowane strony dla wiedzy zespołu, z pełną historią edycji i odsyłaczami."
+      },
+      "messaging": {
+        "name": "Wiadomości",
+        "description": "Kanały, wiadomości prywatne i wątki do rozmów zespołowych. Wyszukiwalne, w tym samym pakiecie co twoja poczta."
+      }
+    }
+  },
+  "capabilities": {
+    "eyebrow": "Możliwości",
+    "headline": "Zbudowane do prawdziwej pracy.",
+    "subhead": "Funkcje, których zespoły naprawdę potrzebują — nie lista zaprojektowana, by wyglądać długo na slajdzie.",
+    "items": {
+      "webmail": {
+        "name": "Webmail, który schodzi z drogi.",
+        "description": "Szybki, sterowany klawiaturą klient webowy — wątkowanie, wyszukiwanie, etykiety, układ trzypanelowy. Zbudowany do czytania, pisania i archiwizowania bez puchnięcia. Webmail, jakim chciałbyś, żeby Gmail nadal był."
+      },
+      "files": {
+        "name": "Pliki z kluczami, które kontrolujesz.",
+        "description": "Foldery prywatne i współdzielone, drobnoziarniste ACL, linki udostępniania chronione hasłem i datą wygaśnięcia. Każdy plik jest szyfrowany w spoczynku własnym kluczem AES-256-GCM w pamięci obiektowej w UE — żadnego klucza głównego w amerykańskim buckecie."
+      },
+      "calendar": {
+        "name": "Kalendarz dopasowany do tego, jak już pracujesz.",
+        "description": "Pełne CalDAV pod maską, z aplikacją webową obsługującą widoki miesiąca, tygodnia i dnia, zdarzenia cykliczne, zaproszenia iMIP i wyszukiwanie wolny/zajęty między zespołami. Synchronizuj z Apple Kalendarzem, Thunderbirdem lub telefonem — bez własnościowej wtyczki do instalacji."
+      },
+      "contacts": {
+        "name": "Kontakty, które chodzą za tobą.",
+        "description": "Osobiste i współdzielone książki adresowe przez CardDAV. Import i eksport vCard, wsparcie grup, żadnego własnościowego formatu kontaktów, od którego musisz później migrować. Twoja książka jest twoja."
+      },
+      "filters": {
+        "name": "Filtry poczty bez instrukcji.",
+        "description": "Wizualny kreator reguł, który pod maską kompiluje się do standardowego Sieve. Gotowe szablony dla reguł, których naprawdę chcesz, plus zabezpieczenia, które uniemożliwią ci zbudowanie pętli przekierowania o 2 w nocy."
+      },
+      "sharedMailbox": {
+        "name": "Współdzielone skrzynki dla prawdziwych zespołów.",
+        "description": "Skrzynka zespołowa z osobami przypisanymi, statusem i notatkami wewnętrznymi — projektowana jako słowa kluczowe IMAP, więc nadal działa w każdym kliencie pocztowym bez aplikacji własnościowej. Przepływ helpdesku bez kupowania produktu helpdeskowego."
+      },
+      "messaging": {
+        "name": "Wiadomości zespołowe bez hałasu.",
+        "description": "Kanały do bieżącej pracy, prywatne wiadomości do rozmów jeden-na-jeden, wyszukiwanie w obu. W tym samym pakiecie co twoja poczta i dokumenty — jedno logowanie, jedno wyszukiwanie, jedno miejsce do sprawdzenia. Bez metryk zaangażowania, bez sprzedaży dodatkowej, bez teatru 'czy ktoś dostępny?'."
+      },
+      "api": {
+        "name": "Publiczne API i podpisane webhooki.",
+        "description": "Tokeny bearer z zakresem, dostarczanie webhooków podpisanych HMAC z kolejką dead-letter, specyfikacja OpenAPI i passthrough JMAP. Podłącz Verkio do CRM, CI lub back-office, które już masz — bez screen-scrapingu."
+      },
+      "auditLog": {
+        "name": "Każda akcja administratora, na protokole.",
+        "description": "Klient-skierowany dziennik audytu z wyszukiwaniem, wartościami przed/po i siedmioletnią retencją domyślnie — zgodnie ze szwedzkim bokföringslag. Strumieniuj zdarzenia do Splunk, Datadog lub dowolnego SIEM, lub eksportuj do CSV lub JSONL."
+      },
+      "offboarding": {
+        "name": "Offboarding bez urwiska.",
+        "description": "Gdy ktoś opuszcza organizację, jego skrzynka pozostaje dostępna przez trzydzieści dni i może być przekierowana do wyznaczonego właściciela — żeby odpowiedź klienta czternastego dnia nadal trafiała gdzieś użytecznie. Zabezpieczenia anti-loop wbudowane, zapisane w audycie, kaskadowe czyszczenie jeśli właściciel też odejdzie."
+      },
+      "domains": {
+        "name": "Domeny i urządzenia skonfigurowane w kilka minut.",
+        "description": "Dodaj domenę, zweryfikuj DNS, ustaw catch-all. Generujemy profile Thunderbird XML i Apple .mobileconfig, a autoconfig przez host-header po prostu działa. Weryfikacja DNS obsługuje dziesięciu dostawców UE, w tym Hetzner, OVH, IONOS, deSEC, Scaleway i Glesys."
+      },
+      "migration": {
+        "name": "Weź swoją skrzynkę ze sobą.",
+        "description": "Migruj z Gmaila, Outlooka lub dowolnego dostawcy IMAP w jednym przepływie — foldery, flagi i wątki zachowane. My pobieramy, ty patrzysz na pasek postępu. Żadnego weekendowego projektu typu 'eksportuj mbox i módl się'."
       }
     }
   },
@@ -265,12 +325,12 @@
     },
     "items": {
       "wiki": {
-        "date": "Sierpień 2026",
+        "date": "July 2026",
         "name": "Wewnętrzne wiki",
         "description": "Przeszukiwalne, wersjonowane przestrzenie na runbooki, decyzje i wiedzę instytucjonalną, którą zespół pisze dla siebie."
       },
       "messaging": {
-        "date": "Październik 2026",
+        "date": "July 2026",
         "name": "Wewnętrzny komunikator",
         "description": "Kanały, wiadomości prywatne i wątki do rozmów zespołowych — z wyszukiwaniem, w wątkach i wbudowane w ten sam pakiet co Twoja poczta i dokumenty."
       },

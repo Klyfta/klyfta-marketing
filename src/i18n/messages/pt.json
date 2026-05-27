@@ -7,6 +7,7 @@
   },
   "nav": {
     "suite": "A suite",
+    "capabilities": "Capacidades",
     "residency": "Residência",
     "faqs": "FAQ",
     "joinWaitlist": "Entrar na lista",
@@ -44,6 +45,65 @@
       "wikis": {
         "name": "Wikis",
         "description": "Páginas estruturadas para o conhecimento da equipa, com histórico completo de edições e ligações."
+      },
+      "messaging": {
+        "name": "Mensagens",
+        "description": "Canais, DMs e threads para conversas de equipa. Pesquisável, na mesma suite que o teu correio."
+      }
+    }
+  },
+  "capabilities": {
+    "eyebrow": "Capacidades",
+    "headline": "Construído para o trabalho real.",
+    "subhead": "As funcionalidades de que as equipas realmente precisam — não uma lista desenhada para parecer longa num slide.",
+    "items": {
+      "webmail": {
+        "name": "Webmail que sai do caminho.",
+        "description": "Um cliente web rápido, pensado para o teclado — threading, pesquisa, etiquetas, layout em três painéis. Feito para ler, escrever e arquivar sem inchaço. O webmail que gostarias que o Gmail ainda fosse."
+      },
+      "files": {
+        "name": "Ficheiros com chaves que tu controlas.",
+        "description": "Pastas privadas e partilhadas, ACL granulares, ligações de partilha protegidas por palavra-passe e expiração. Cada ficheiro é cifrado em repouso com a sua própria chave AES-256-GCM em armazenamento de objetos na UE — sem chave-mestra num bucket americano."
+      },
+      "calendar": {
+        "name": "Um calendário que se adapta à tua forma de trabalhar.",
+        "description": "CalDAV completo por baixo do capô, com uma webapp que suporta vistas de mês, semana e dia, eventos recorrentes, convites iMIP e consulta livre/ocupado entre equipas. Sincroniza com Apple Calendar, Thunderbird ou o teu telemóvel — sem plug-in proprietário para instalar."
+      },
+      "contacts": {
+        "name": "Contactos que vão contigo.",
+        "description": "Livros de endereços pessoais e partilhados via CardDAV. Importação e exportação vCard, suporte de grupos, nenhum formato de contactos proprietário do qual tenhas de migrar depois. O teu livro é teu."
+      },
+      "filters": {
+        "name": "Filtros de correio sem manual.",
+        "description": "Um construtor visual de regras que compila em Sieve padrão por baixo do capô. Modelos pré-feitos para as regras que realmente queres, mais grades de proteção que te impedem de construir um ciclo de reencaminhamento às 2 da manhã."
+      },
+      "sharedMailbox": {
+        "name": "Caixas partilhadas para equipas reais.",
+        "description": "Uma caixa de equipa com responsáveis, estado e notas internas — projetada como palavras-chave IMAP, para continuar a funcionar em qualquer cliente de correio sem uma app proprietária. Fluxo de helpdesk sem comprar um produto de helpdesk."
+      },
+      "messaging": {
+        "name": "Mensagens de equipa sem ruído.",
+        "description": "Canais para trabalho em curso, DMs para conversas um-para-um, pesquisa em ambos. Na mesma suite que o teu correio e os teus documentos — um login, uma pesquisa, um único lugar para procurar. Sem métricas de envolvimento, sem upsell, sem teatro do 'alguém disponível?'."
+      },
+      "api": {
+        "name": "Uma API pública e webhooks assinados.",
+        "description": "Tokens bearer com âmbito, entrega de webhooks assinados com HMAC com fila dead-letter, uma especificação OpenAPI e um passthrough JMAP. Liga o Verkio ao CRM, CI ou back-office que já tens — sem screen-scraping."
+      },
+      "auditLog": {
+        "name": "Cada ação de administrador, registada.",
+        "description": "Um registo de auditoria voltado para o cliente com pesquisa, valores antes/depois e sete anos de retenção por defeito — em linha com a bokföringslag sueca. Transmite eventos para o Splunk, Datadog ou qualquer SIEM, ou exporta para CSV ou JSONL."
+      },
+      "offboarding": {
+        "name": "Offboarding sem queda a pique.",
+        "description": "Quando alguém sai da organização, a caixa fica acessível durante trinta dias e pode ser reencaminhada para um proprietário designado — para que uma resposta de cliente no dia catorze ainda chegue a algum lugar útil. Anti-loop integrado, auditado, limpeza em cascata se o proprietário também sair."
+      },
+      "domains": {
+        "name": "Domínios e dispositivos configurados em minutos.",
+        "description": "Adiciona um domínio, verifica DNS, define um catch-all. Geramos perfis Thunderbird XML e Apple .mobileconfig, e a autoconfig por host-header simplesmente funciona. A verificação DNS suporta dez fornecedores da UE, incluindo Hetzner, OVH, IONOS, deSEC, Scaleway e Glesys."
+      },
+      "migration": {
+        "name": "Leva a tua caixa contigo.",
+        "description": "Migra do Gmail, Outlook ou qualquer fornecedor IMAP num único fluxo — pastas, sinalizações e threads preservados. Nós puxamos, tu vês a barra de progresso. Sem projeto de fim de semana do tipo 'exporta o teu mbox e reza'."
       }
     }
   },
@@ -265,12 +325,12 @@
     },
     "items": {
       "wiki": {
-        "date": "Agosto de 2026",
+        "date": "July 2026",
         "name": "Wikis internos",
         "description": "Espaços pesquisáveis e versionados para runbooks, decisões e o conhecimento institucional que a tua equipa escreve para si própria."
       },
       "messaging": {
-        "date": "Outubro de 2026",
+        "date": "July 2026",
         "name": "Mensagens internas",
         "description": "Canais, DMs e tópicos para conversas de equipa — pesquisáveis, em tópicos e integrados na mesma suite que o seu e-mail e os seus documentos."
       },

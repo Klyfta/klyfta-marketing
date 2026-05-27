@@ -7,6 +7,7 @@
   },
   "nav": {
     "suite": "La suite",
+    "capabilities": "Fonctionnalités",
     "residency": "Résidence",
     "faqs": "FAQ",
     "joinWaitlist": "Rejoindre la liste",
@@ -44,6 +45,65 @@
       "wikis": {
         "name": "Wikis",
         "description": "Pages structurées pour la connaissance de l'équipe, avec historique complet des modifications et liens."
+      },
+      "messaging": {
+        "name": "Messagerie",
+        "description": "Canaux, DM et fils pour les conversations d'équipe. Recherchable, dans la même suite que votre courrier."
+      }
+    }
+  },
+  "capabilities": {
+    "eyebrow": "Fonctionnalités",
+    "headline": "Conçu pour le vrai travail.",
+    "subhead": "Les fonctionnalités dont les équipes ont réellement besoin — pas une liste conçue pour paraître longue sur une diapo.",
+    "items": {
+      "webmail": {
+        "name": "Un webmail qui s'efface.",
+        "description": "Un client web rapide, pensé clavier d'abord — fils de discussion, recherche, étiquettes, mise en page trois colonnes. Conçu pour lire, écrire, archiver, sans surcharge. Le webmail que vous regrettez chez Gmail."
+      },
+      "files": {
+        "name": "Des fichiers avec des clés que vous contrôlez.",
+        "description": "Dossiers privés et partagés, ACL granulaires, liens de partage protégés par mot de passe et expiration. Chaque fichier est chiffré au repos avec sa propre clé AES-256-GCM sur un stockage d'objets dans l'UE — aucune clé maître dans un bucket américain."
+      },
+      "calendar": {
+        "name": "Un calendrier qui s'adapte à votre façon de travailler.",
+        "description": "Du CalDAV complet sous le capot, avec une application web qui prend en charge les vues mois, semaine et jour, les événements récurrents, les invitations iMIP et la consultation libre/occupé entre équipes. Synchronisez avec Apple Calendrier, Thunderbird ou votre téléphone — aucun plug-in propriétaire à installer."
+      },
+      "contacts": {
+        "name": "Des contacts qui vous suivent.",
+        "description": "Carnets d'adresses personnels et partagés via CardDAV. Import et export vCard, support des groupes, aucun format de contact propriétaire à migrer plus tard. Votre carnet est à vous."
+      },
+      "filters": {
+        "name": "Filtres de courrier sans manuel.",
+        "description": "Un éditeur de règles visuel qui compile en Sieve standard sous le capot. Modèles prêts à l'emploi pour les règles que vous voulez vraiment, plus des garde-fous qui vous empêchent de construire une boucle de transfert à 2 h du matin."
+      },
+      "sharedMailbox": {
+        "name": "Boîtes partagées pour de vraies équipes.",
+        "description": "Une boîte d'équipe avec assignés, statut et notes internes — projetée en mots-clés IMAP, pour que ça continue de fonctionner dans tout client mail sans application propriétaire. Workflow de helpdesk sans acheter un produit de helpdesk."
+      },
+      "messaging": {
+        "name": "Messagerie d'équipe sans bruit.",
+        "description": "Canaux pour le travail en cours, DM pour les fils en tête-à-tête, recherche sur les deux. Dans la même suite que vos courriers et documents — un identifiant, une recherche, un seul endroit où chercher. Pas de métriques d'engagement, pas de vente additionnelle, pas de théâtre du 'quelqu'un de disponible ?'."
+      },
+      "api": {
+        "name": "Une API publique et des webhooks signés.",
+        "description": "Jetons bearer scopés, livraison de webhooks signés HMAC avec dead-letter queue, une spec OpenAPI et un passthrough JMAP. Branchez Verkio au CRM, à la CI ou au back-office que vous avez déjà — sans screen-scraping."
+      },
+      "auditLog": {
+        "name": "Chaque action admin, consignée.",
+        "description": "Un journal d'audit côté client avec recherche, valeurs avant/après et sept ans de rétention par défaut — en accord avec le bokföringslag suédois. Diffusez les événements vers Splunk, Datadog ou n'importe quel SIEM, ou exportez en CSV ou JSONL."
+      },
+      "offboarding": {
+        "name": "Un départ sans rupture brutale.",
+        "description": "Quand quelqu'un quitte l'équipe, sa boîte reste accessible trente jours et peut être redirigée vers un responsable désigné — ainsi une réponse client au quatorzième jour atterrit toujours quelque part d'utile. Garde-fous anti-boucle intégrés, journalisé en audit, nettoyage en cascade si le responsable s'en va aussi."
+      },
+      "domains": {
+        "name": "Domaines et appareils configurés en quelques minutes.",
+        "description": "Ajoutez un domaine, vérifiez le DNS, définissez un catch-all. Nous générons des profils Thunderbird XML et Apple .mobileconfig, et l'autoconfig par host-header fonctionne tout simplement. La vérification DNS prend en charge dix fournisseurs européens dont Hetzner, OVH, IONOS, deSEC, Scaleway et Glesys."
+      },
+      "migration": {
+        "name": "Emportez votre boîte de réception.",
+        "description": "Migrez depuis Gmail, Outlook ou n'importe quel fournisseur IMAP en un seul flux — dossiers, drapeaux et fils de discussion préservés. On tire, vous regardez la barre de progression. Pas de projet de week-end 'exportez votre mbox et priez'."
       }
     }
   },
@@ -265,12 +325,12 @@
     },
     "items": {
       "wiki": {
-        "date": "Août 2026",
+        "date": "July 2026",
         "name": "Wikis internes",
         "description": "Des espaces recherchables et versionnés pour les runbooks, les décisions et la connaissance institutionnelle que votre équipe écrit pour elle-même."
       },
       "messaging": {
-        "date": "Octobre 2026",
+        "date": "July 2026",
         "name": "Messagerie interne",
         "description": "Canaux, messages privés et fils de discussion pour les conversations d'équipe — consultables, organisés en fils et intégrés à la même suite que votre messagerie et vos documents."
       },

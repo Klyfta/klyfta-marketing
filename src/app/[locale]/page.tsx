@@ -90,6 +90,53 @@ function Hero() {
   );
 }
 
+const capabilityKeys = [
+  "webmail",
+  "files",
+  "calendar",
+  "contacts",
+  "filters",
+  "sharedMailbox",
+  "messaging",
+  "api",
+  "auditLog",
+  "offboarding",
+  "domains",
+  "migration",
+] as const;
+
+function Capabilities() {
+  const t = useTranslations("capabilities");
+  return (
+    <section
+      id="capabilities"
+      className="border-t border-gray-200 py-20 sm:py-32"
+    >
+      <Container>
+        <div>
+          <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>
+          <h2 className="mt-3 text-3xl font-medium tracking-tight text-gray-900">
+            {t("headline")}
+          </h2>
+          <p className="mt-4 text-lg text-gray-600">{t("subhead")}</p>
+        </div>
+        <dl className="mt-16 grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+          {capabilityKeys.map((key) => (
+            <div key={key}>
+              <dt className="text-xl font-medium text-gray-900">
+                {t(`items.${key}.name`)}
+              </dt>
+              <dd className="mt-3 text-base text-gray-600 leading-relaxed">
+                {t(`items.${key}.description`)}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      </Container>
+    </section>
+  );
+}
+
 const principleKeys = ["standards", "quiet", "unified", "leave"] as const;
 
 function Principles() {
@@ -230,12 +277,29 @@ function WikiIcon(props: React.ComponentPropsWithoutRef<"svg">) {
   );
 }
 
+function MessagingIcon(props: React.ComponentPropsWithoutRef<"svg">) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <path d="M21 11.5a8.38 8.38 0 0 1-9.08 8.4 8.5 8.5 0 0 1-3.42-.7L3 21l1.9-5.5a8.38 8.38 0 0 1-.9-3.93C4 7.4 7.4 4 11.5 4s8.5 3.4 8.5 7.5z" />
+    </svg>
+  );
+}
+
 const suiteKeys = [
   "mail",
   "calendar",
   "contacts",
   "documents",
   "wikis",
+  "messaging",
 ] as const;
 const suiteIcons = {
   mail: MailIcon,
@@ -243,6 +307,7 @@ const suiteIcons = {
   contacts: ContactsIcon,
   documents: DocumentIcon,
   wikis: WikiIcon,
+  messaging: MessagingIcon,
 };
 
 function Suite() {
@@ -259,7 +324,7 @@ function Suite() {
         </div>
         <ul
           role="list"
-          className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5"
+          className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6"
         >
           {suiteKeys.map((key) => {
             const Icon = suiteIcons[key];
@@ -508,6 +573,7 @@ export default async function Home({
       <main>
         <Hero />
         <Suite />
+        <Capabilities />
         <Principles />
         <Residency />
         <Comparison />

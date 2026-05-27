@@ -72,6 +72,12 @@ export function Header() {
               {t("suite")}
             </Link>
             <Link
+              href="/#capabilities"
+              className="hidden md:inline text-sm text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              {t("capabilities")}
+            </Link>
+            <Link
               href="/#residency"
               className="hidden sm:inline text-sm text-gray-600 hover:text-gray-900 transition-colors"
             >
@@ -131,6 +137,11 @@ export function Footer() {
                 <li>
                   <Link href="/#suite" className="hover:text-gray-900 transition-colors">
                     {tNav("suite")}
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/#capabilities" className="hover:text-gray-900 transition-colors">
+                    {tNav("capabilities")}
                   </Link>
                 </li>
                 <li>

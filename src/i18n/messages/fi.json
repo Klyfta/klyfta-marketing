@@ -7,6 +7,7 @@
   },
   "nav": {
     "suite": "Paketti",
+    "capabilities": "Ominaisuudet",
     "residency": "Tietosijainti",
     "faqs": "UKK",
     "joinWaitlist": "Liity jonotuslistalle",
@@ -44,6 +45,65 @@
       "wikis": {
         "name": "Wikit",
         "description": "Jäsennellyt sivut tiimin tiedolle, täydellä muokkaushistorialla ja linkityksellä."
+      },
+      "messaging": {
+        "name": "Viestit",
+        "description": "Kanavat, DM:t ja säikeet tiimikeskusteluille. Haettavissa, samassa paketissa kuin sähköpostisi."
+      }
+    }
+  },
+  "capabilities": {
+    "eyebrow": "Ominaisuudet",
+    "headline": "Tehty oikeaa työtä varten.",
+    "subhead": "Ominaisuudet, joita tiimit todella tarvitsevat — ei lista, joka on suunniteltu näyttämään pitkältä diaesityksessä.",
+    "items": {
+      "webmail": {
+        "name": "Webmail, joka pysyttelee taka-alalla.",
+        "description": "Nopea, näppäimistöpainotteinen verkkoasiakas — säikeistys, haku, etiketit, kolmen paneelin asettelu. Rakennettu lukemiseen, kirjoittamiseen ja arkistointiin ilman täytettä. Webmail jollainen toivoisit Gmailin yhä olevan."
+      },
+      "files": {
+        "name": "Tiedostot avaimilla, joita hallitset.",
+        "description": "Yksityiset ja jaetut kansiot, hienojakoinen ACL, salasanalla ja vanhentumisajalla suojatut jakolinkit. Jokainen tiedosto salataan levossa omalla AES-256-GCM-avaimellaan EU-pohjaisessa objektivarastoinnissa — ei pääavainta yhdysvaltalaisessa bucketissa."
+      },
+      "calendar": {
+        "name": "Kalenteri, joka sopii tapaasi jo nyt työskennellä.",
+        "description": "Täysi CalDAV konepellin alla, ja verkkosovellus, joka tukee kuukausi-, viikko- ja päivänäkymiä, toistuvia tapahtumia, iMIP-kutsuja ja vapaa/varattu-hakuja tiimien välillä. Synkronoi Apple Kalenteriin, Thunderbirdiin tai puhelimeesi — ei omistettua liitännäistä asennettavaksi."
+      },
+      "contacts": {
+        "name": "Yhteystiedot, jotka kulkevat mukanasi.",
+        "description": "Henkilökohtaiset ja jaetut osoitekirjat CardDAV:n yli. vCardin tuonti ja vienti, ryhmätuki, ei omistettua yhteystietomuotoa, josta sinun pitäisi myöhemmin migroitua pois. Osoitekirjasi on sinun."
+      },
+      "filters": {
+        "name": "Sähköpostisuodattimet ilman ohjekirjaa.",
+        "description": "Visuaalinen sääntörakentaja, joka kääntyy standardiksi Sieveksi konepellin alla. Valmiit mallit säännöille, joita todella haluat, sekä suojakaiteet, jotka estävät sinua rakentamasta välitysloopin klo 02.00."
+      },
+      "sharedMailbox": {
+        "name": "Jaetut postilaatikot oikeille tiimeille.",
+        "description": "Tiimin postilaatikko vastuuhenkilöillä, statuksilla ja sisäisillä muistiinpanoilla — heijastetaan IMAP-avainsanoiksi, joten se toimii edelleen jokaisessa sähköpostiohjelmassa ilman omistettua sovellusta. Tukityönkulku ilman tukijärjestelmän ostamista."
+      },
+      "messaging": {
+        "name": "Tiimiviestintä ilman melua.",
+        "description": "Kanavat jatkuvalle työlle, DM:t kahdenkeskisille ketjuille, haku molempien yli. Samassa paketissa kuin sähköpostisi ja dokumenttisi — yksi kirjautuminen, yksi haku, yksi paikka katsoa. Ei sitoutumismittareita, ei lisämyyntiä, ei 'onko joku vapaana?' -teatteria."
+      },
+      "api": {
+        "name": "Julkinen API ja allekirjoitetut webhookit.",
+        "description": "Rajatut bearer-tokenit, HMAC-allekirjoitettu webhook-toimitus dead-letter-jonolla, OpenAPI-spec ja JMAP-läpivienti. Liitä Verkio CRM:ään, CI:hin tai back-officeen, joka sinulla jo on — ilman näytön kaapintaa."
+      },
+      "auditLog": {
+        "name": "Jokainen ylläpitäjän toiminto, dokumentoituna.",
+        "description": "Asiakasrajapinnan auditloki haulla, ennen/jälkeen-arvoilla ja seitsemän vuoden säilytyksellä oletuksena — Ruotsin bokföringslagin mukaisesti. Suoratoista tapahtumia Splunkiin, Datadogiin tai mihin tahansa SIEMiin, tai vie CSV:hen tai JSONL:ään."
+      },
+      "offboarding": {
+        "name": "Off-boarding ilman jyrkkää pudotusta.",
+        "description": "Kun joku poistuu organisaatiosta, hänen postilaatikkonsa pysyy käytettävissä kolmenkymmenen päivän ajan ja voidaan välittää nimetylle omistajalle — jolloin asiakkaan vastaus päivänä neljätoista löytää silti hyödyllisen kohteen. Anti-loop-suojaukset, audit-lokitettu, kaskadi-tyhjennys jos omistajakin lähtee."
+      },
+      "domains": {
+        "name": "Verkkotunnukset ja laitteet konfiguroitu minuuteissa.",
+        "description": "Lisää verkkotunnus, vahvista DNS, aseta catch-all. Generoimme Thunderbird XML- ja Apple .mobileconfig-profiilit, ja host-header-pohjainen autoconfig vain toimii. DNS-vahvistus tukee kymmentä EU-palveluntarjoajaa, mukaan lukien Hetzner, OVH, IONOS, deSEC, Scaleway ja Glesys."
+      },
+      "migration": {
+        "name": "Ota postilaatikkosi mukaasi.",
+        "description": "Migroi Gmailista, Outlookista tai mistä tahansa IMAP-palveluntarjoajasta yhdessä virrassa — kansiot, liput ja säikeet säilyvät. Me haemme, sinä katsot edistymispalkkia. Ei 'vie mbox ja toivo parasta' -viikonloppuprojektia."
       }
     }
   },
@@ -265,12 +325,12 @@
     },
     "items": {
       "wiki": {
-        "date": "Elokuu 2026",
+        "date": "July 2026",
         "name": "Sisäiset wikit",
         "description": "Hakukelpoisia, versioituja tiloja työohjeille, päätöksille ja institutionaaliselle tiedolle, jonka tiimi kirjoittaa itselleen."
       },
       "messaging": {
-        "date": "Lokakuu 2026",
+        "date": "July 2026",
         "name": "Sisäinen viestintä",
         "description": "Kanavat, yksityisviestit ja ketjut tiimikeskusteluihin — haettavissa, ketjutettuja ja sisäänrakennettu samaan pakettiin postin ja dokumenttien kanssa."
       },

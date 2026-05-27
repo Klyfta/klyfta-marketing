@@ -7,6 +7,7 @@
   },
   "nav": {
     "suite": "Komplekts",
+    "capabilities": "Iespējas",
     "residency": "Atrašanās",
     "faqs": "BUJ",
     "joinWaitlist": "Pievienoties sarakstam",
@@ -44,6 +45,65 @@
       "wikis": {
         "name": "Viki",
         "description": "Strukturētas lapas komandas zināšanām ar pilnu rediģēšanas vēsturi un saitēm."
+      },
+      "messaging": {
+        "name": "Ziņojumi",
+        "description": "Kanāli, DM un pavedieni komandas sarunām. Meklējams, tajā pašā paketē kā tavs pasts."
+      }
+    }
+  },
+  "capabilities": {
+    "eyebrow": "Iespējas",
+    "headline": "Veidots īstam darbam.",
+    "subhead": "Funkcijas, kas komandām patiešām vajadzīgas — nevis saraksts, kas veidots, lai izskatītos garš slaidā.",
+    "items": {
+      "webmail": {
+        "name": "Webmail, kas neuzbāžas.",
+        "description": "Ātrs, ar tastatūru darbināms tīmekļa klients — pavedieni, meklēšana, etiķetes, trīs paneļu izkārtojums. Veidots, lai lasītu, rakstītu un arhivētu bez piepūšanas. Webmail, kas tev gribētos, lai Gmail vēl būtu."
+      },
+      "files": {
+        "name": "Faili ar atslēgām, kuras tu kontrolē.",
+        "description": "Privātās un kopīgotās mapes, smalkgraudaina ACL, ar paroli un derīguma termiņu aizsargātas dalīšanās saites. Katrs fails miera stāvoklī tiek šifrēts ar savu AES-256-GCM atslēgu ES objektu krātuvē — bez galvenās atslēgas ASV bucket'ā."
+      },
+      "calendar": {
+        "name": "Kalendārs, kas der tam, kā tu jau strādā.",
+        "description": "Pilns CalDAV zem motora, ar tīmekļa lietotni, kas atbalsta mēneša, nedēļas un dienas skatus, atkārtotus notikumus, iMIP ielūgumus un brīvs/aizņemts meklēšanu komandu starpā. Sinhronizē ar Apple Kalendāru, Thunderbird vai telefonu — nekāda patentēta spraudņa instalēšanai."
+      },
+      "contacts": {
+        "name": "Kontakti, kas ceļo līdzi tev.",
+        "description": "Personīgās un kopīgotās adrešu grāmatas caur CardDAV. vCard imports un eksports, grupu atbalsts, nekāda patentēta kontaktu formāta, no kura vēlāk jāmigrē. Tava adrešu grāmata pieder tev."
+      },
+      "filters": {
+        "name": "Pasta filtri bez rokasgrāmatas.",
+        "description": "Vizuāls noteikumu veidotājs, kas zem motora pārveidojas par standarta Sieve. Iepriekš sagatavotas veidnes noteikumiem, kurus patiešām vēlies, plus drošības margas, kas neļauj tev būvēt pārsūtīšanas cilpu pulksten 2 naktī."
+      },
+      "sharedMailbox": {
+        "name": "Kopīgotas pastkastītes īstām komandām.",
+        "description": "Komandas iesūtne ar piešķirtajiem, statusu un iekšējām piezīmēm — projektēta kā IMAP atslēgvārdi, tāpēc tā joprojām darbojas katrā pasta klientā bez patentētas lietotnes. Helpdesk darbplūsma bez helpdesk produkta iegādes."
+      },
+      "messaging": {
+        "name": "Komandas ziņojumi bez trokšņa.",
+        "description": "Kanāli notiekošajam darbam, DM viens-pret-vienu pavedieniem, meklēšana abos. Tajā pašā paketē kā tavs pasts un dokumenti — viena pieteikšanās, viena meklēšana, viena vieta, kur meklēt. Nekādu iesaistes rādītāju, nekādas papildu pārdošanas, nekāda 'vai kāds ir pieejams?' teātra."
+      },
+      "api": {
+        "name": "Publisks API un parakstīti webhooks.",
+        "description": "Tvēruma bearer tokeni, HMAC-parakstīta webhook piegāde ar dead-letter rindu, OpenAPI specifikācija un JMAP passthrough. Pievieno Verkio CRM, CI vai back-office, kas tev jau ir — bez screen-scraping."
+      },
+      "auditLog": {
+        "name": "Katra administratora darbība, ierakstā.",
+        "description": "Klientam pieejams audita žurnāls ar meklēšanu, vērtībām pirms/pēc un septiņu gadu glabāšanu pēc noklusējuma — saskaņā ar Zviedrijas bokföringslag. Straumē notikumus uz Splunk, Datadog vai jebkuru SIEM, vai eksportē uz CSV vai JSONL."
+      },
+      "offboarding": {
+        "name": "Atvadīšanās bez stāvas nokrišanas.",
+        "description": "Kad kāds pamet organizāciju, viņa iesūtne paliek pieejama trīsdesmit dienas un var pārsūtīt uz norādītu īpašnieku — tā klienta atbilde četrpadsmitajā dienā joprojām nokļūst kaut kur noderīgi. Anti-cilpas aizsardzība iebūvēta, audita žurnālā, kaskāde tīrīšana, ja īpašnieks arī aiziet."
+      },
+      "domains": {
+        "name": "Domēni un ierīces konfigurēti dažās minūtēs.",
+        "description": "Pievieno domēnu, pārbaudi DNS, iestati catch-all. Mēs ģenerējam Thunderbird XML un Apple .mobileconfig profilus, un host-header autoconfig vienkārši darbojas. DNS pārbaude atbalsta desmit ES piegādātājus, ieskaitot Hetzner, OVH, IONOS, deSEC, Scaleway un Glesys."
+      },
+      "migration": {
+        "name": "Paņem savu iesūtni līdzi.",
+        "description": "Migrē no Gmail, Outlook vai jebkura IMAP piegādātāja vienā plūsmā — mapes, karodziņi un pavedieni saglabāti. Mēs velkam, tu skatās uz progresa joslu. Nekāda nedēļas nogales projekta veidā 'eksportē mbox un lūdz'."
       }
     }
   },
@@ -265,12 +325,12 @@
     },
     "items": {
       "wiki": {
-        "date": "2026. gada augusts",
+        "date": "July 2026",
         "name": "Iekšējie viki",
         "description": "Meklējamas, versiju kontroles telpas rokasgrāmatām, lēmumiem un institucionālajām zināšanām, ko komanda pieraksta sev pati."
       },
       "messaging": {
-        "date": "2026. gada oktobris",
+        "date": "July 2026",
         "name": "Iekšējā ziņojumapmaiņa",
         "description": "Kanāli, privātās ziņas un pavedieni komandas sarunām — meklējami, pavedienos un iebūvēti tajā pašā komplektā kā jūsu pasts un dokumenti."
       },

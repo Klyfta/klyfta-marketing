@@ -7,6 +7,7 @@
   },
   "nav": {
     "suite": "Sviten",
+    "capabilities": "Funktioner",
     "residency": "Datalagring",
     "faqs": "Vanliga frågor",
     "joinWaitlist": "Gå med i väntelistan",
@@ -44,6 +45,65 @@
       "wikis": {
         "name": "Wikis",
         "description": "Strukturerade sidor för teamets kunskap, med full redigeringshistorik och länkning."
+      },
+      "messaging": {
+        "name": "Meddelanden",
+        "description": "Kanaler, DM och trådar för team-konversationer. Sökbart, i samma svit som din mail."
+      }
+    }
+  },
+  "capabilities": {
+    "eyebrow": "Funktioner",
+    "headline": "Byggt för riktigt arbete.",
+    "subhead": "Funktionerna som team faktiskt behöver — inte en lista designad för att se lång ut i en presentation.",
+    "items": {
+      "webmail": {
+        "name": "Webbpost som håller sig ur vägen.",
+        "description": "En snabb, tangentbordsfokuserad webbklient — trådning, sökning, etiketter, trepanellayout. Byggd för att läsa, skriva och arkivera utan svallande. Webbposten du önskar att Gmail fortfarande var."
+      },
+      "files": {
+        "name": "Filer med nycklar du kontrollerar.",
+        "description": "Privata och delade mappar, finkornig ACL, lösenords- och utgångsskyddade delningslänkar. Varje fil krypteras vid lagring med sin egen AES-256-GCM-nyckel på EU-baserad objektlagring — ingen huvudnyckel som ligger i en amerikansk bucket."
+      },
+      "calendar": {
+        "name": "En kalender som passar hur du redan arbetar.",
+        "description": "Full CalDAV under huven, med en webbapp som stöder månads-, vecko- och dagsvy, återkommande händelser, iMIP-inbjudningar och ledig/upptagen-uppslag mellan team. Synka till Apple Kalender, Thunderbird eller din telefon — ingen proprietär plug-in att installera."
+      },
+      "contacts": {
+        "name": "Kontakter som följer med dig.",
+        "description": "Personliga och delade adressböcker över CardDAV. vCard-import och -export, gruppstöd, inget proprietärt kontaktformat som du måste migrera bort från senare. Din adressbok är din."
+      },
+      "filters": {
+        "name": "Mailfilter utan manual.",
+        "description": "En visuell regelbyggare som kompileras till standard-Sieve under huven. Färdiga mallar för reglerna du faktiskt vill ha, plus skyddsräcken som hindrar dig från att bygga en vidarebefordringsloop klockan 02:00."
+      },
+      "sharedMailbox": {
+        "name": "Delade brevlådor för riktiga team.",
+        "description": "En teaminkorg med ansvariga, status och interna anteckningar — projicerat som IMAP-nyckelord, så det fungerar i varje mailklient utan en proprietär app. Helpdesk-arbetsflöde utan att köpa en helpdesk-produkt."
+      },
+      "messaging": {
+        "name": "Teammeddelanden utan brus.",
+        "description": "Kanaler för pågående arbete, DM:s för enskilda trådar, sökning över båda. I samma svit som din mail och dina dokument — en inloggning, en sökning, ett ställe att leta på. Inga engagemangsmått, ingen merförsäljning, ingen 'är någon ledig?'-teater."
+      },
+      "api": {
+        "name": "Ett publikt API och signerade webhooks.",
+        "description": "Scopade bearer-tokens, HMAC-signerad webhook-leverans med dead-letter queue, en OpenAPI-spec och en JMAP-passthrough. Koppla in Verkio i det CRM, CI eller back-office du redan har — utan screen-scraping."
+      },
+      "auditLog": {
+        "name": "Varje administratörsåtgärd, dokumenterad.",
+        "description": "En kundvänd granskningslogg med sökning, före/efter-värden och sju års lagring som standard — i linje med svensk bokföringslag. Strömma händelser till Splunk, Datadog eller vilken SIEM som helst, eller exportera till CSV eller JSONL."
+      },
+      "offboarding": {
+        "name": "Off-boarding utan branta stup.",
+        "description": "När någon lämnar organisationen är inkorgen tillgänglig i trettio dagar och kan vidarebefordras till en utsedd ägare — så att ett kundsvar dag fjorton fortfarande landar någonstans nyttigt. Anti-loop-skydd inbyggt, granskningsloggat, kaskadrensning om ägaren också flyttar vidare."
+      },
+      "domains": {
+        "name": "Domäner och enheter konfigurerade på minuter.",
+        "description": "Lägg till en domän, verifiera DNS, sätt en catch-all. Vi genererar Thunderbird XML och Apple .mobileconfig-profiler, och autoconfig via värdrubrik fungerar bara. DNS-verifiering stöder tio EU-leverantörer inklusive Hetzner, OVH, IONOS, deSEC, Scaleway och Glesys."
+      },
+      "migration": {
+        "name": "Ta med din inkorg.",
+        "description": "Migrera från Gmail, Outlook eller vilken IMAP-leverantör som helst i ett flöde — mappar, flaggor och trådar bevaras. Vi hämtar, du tittar på förloppsmätaren. Inget 'exportera din mbox och hoppas på det bästa' helgprojekt."
       }
     }
   },
@@ -265,12 +325,12 @@
     },
     "items": {
       "wiki": {
-        "date": "Augusti 2026",
+        "date": "July 2026",
         "name": "Interna wikis",
         "description": "Sökbara, versionshanterade utrymmen för rutiner, beslut och den institutionella kunskap teamet skriver åt sig självt."
       },
       "messaging": {
-        "date": "Oktober 2026",
+        "date": "July 2026",
         "name": "Intern meddelandetjänst",
         "description": "Kanaler, DM:s och trådar för teamkonversationer — sökbara, i trådar och inbyggda i samma svit som din e-post och dina dokument."
       },

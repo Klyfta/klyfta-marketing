@@ -7,6 +7,7 @@
   },
   "nav": {
     "suite": "Rinkinys",
+    "capabilities": "Galimybės",
     "residency": "Vieta",
     "faqs": "DUK",
     "joinWaitlist": "Užsiregistruoti",
@@ -44,6 +45,65 @@
       "wikis": {
         "name": "Viki",
         "description": "Struktūrizuoti puslapiai komandos žinioms su pilna redagavimo istorija ir nuorodomis."
+      },
+      "messaging": {
+        "name": "Žinutės",
+        "description": "Kanalai, asmeninės žinutės ir gijos komandos pokalbiams. Ieškoma, tame pačiame rinkinyje kaip tavo paštas."
+      }
+    }
+  },
+  "capabilities": {
+    "eyebrow": "Galimybės",
+    "headline": "Sukurta tikram darbui.",
+    "subhead": "Funkcijos, kurių komandoms iš tikrųjų reikia — ne sąrašas, sukurtas atrodyti ilgas skaidrėje.",
+    "items": {
+      "webmail": {
+        "name": "Webmail, kuris nepainioja po kojomis.",
+        "description": "Greitas, klaviatūra valdomas žiniatinklio klientas — gijos, paieška, etiketės, trijų skydelių išdėstymas. Sukurtas skaityti, rašyti ir archyvuoti be išpūtimo. Webmail, kuriuo norėtumei, kad Gmail vis dar būtų."
+      },
+      "files": {
+        "name": "Failai su raktais, kuriuos kontroliuoji.",
+        "description": "Privatūs ir bendrinami aplankai, smulkios ACL, slaptažodžiu ir galiojimu apsaugotos bendrinimo nuorodos. Kiekvienas failas šifruojamas ramybės būsenoje savo AES-256-GCM raktu ES objektų saugykloje — jokio pagrindinio rakto JAV bucket'e."
+      },
+      "calendar": {
+        "name": "Kalendorius, kuris dera su tuo, kaip jau dirbi.",
+        "description": "Pilnas CalDAV po gaubtu, su žiniatinklio programa, palaikančia mėnesio, savaitės ir dienos rodinius, pasikartojančius įvykius, iMIP kvietimus ir laisvas/užimtas paiešką tarp komandų. Sinchronizuok su Apple Kalendoriumi, Thunderbird ar telefonu — jokio nuosavybinio įskiepio diegti."
+      },
+      "contacts": {
+        "name": "Kontaktai, kurie keliauja su tavimi.",
+        "description": "Asmeniniai ir bendrinami adresų sąrašai per CardDAV. vCard importas ir eksportas, grupių palaikymas, jokio nuosavybinio kontaktų formato, nuo kurio vėliau reikėtų migruoti. Tavo adresų sąrašas yra tavo."
+      },
+      "filters": {
+        "name": "Pašto filtrai be vadovo.",
+        "description": "Vizualus taisyklių kūrėjas, kuris po gaubtu kompiliuoja į standartinį Sieve. Iš anksto paruošti šablonai taisyklėms, kurių iš tikrųjų nori, plius apsauginiai turėklai, kurie neleis tau sukurti persiuntimo kilpos 2 nakties."
+      },
+      "sharedMailbox": {
+        "name": "Bendrinamos pašto dėžutės tikroms komandoms.",
+        "description": "Komandos gautųjų dėžutė su priskirtaisiais, būsena ir vidinėmis pastabomis — projektuojama kaip IMAP raktažodžiai, taigi vis dar veikia kiekviename pašto kliente be nuosavybinės programėlės. Helpdesk darbo eiga be helpdesk produkto pirkimo."
+      },
+      "messaging": {
+        "name": "Komandos žinutės be triukšmo.",
+        "description": "Kanalai vykstančiam darbui, asmeninės žinutės dviese pokalbiams, paieška abiejuose. Tame pačiame rinkinyje kaip tavo paštas ir dokumentai — vienas prisijungimas, viena paieška, viena vieta ieškoti. Jokių įsitraukimo rodiklių, jokio papildomo pardavimo, jokio teatro 'ar kas nors laisvas?'."
+      },
+      "api": {
+        "name": "Vieša API ir pasirašyti webhooks.",
+        "description": "Apriboti bearer tokenai, HMAC-pasirašytas webhook'ų pristatymas su dead-letter eile, OpenAPI specifikacija ir JMAP passthrough. Prijunk Verkio prie CRM, CI ar back-office, kuriuos jau turi — be screen-scrapingo."
+      },
+      "auditLog": {
+        "name": "Kiekvienas administratoriaus veiksmas, užfiksuotas.",
+        "description": "Klientui skirtas audito žurnalas su paieška, reikšmėmis prieš/po ir septynerių metų saugojimo trukme pagal numatytuosius nustatymus — atitinka Švedijos bokföringslag. Transliuok įvykius į Splunk, Datadog ar bet kokią SIEM, arba eksportuok į CSV ar JSONL."
+      },
+      "offboarding": {
+        "name": "Atleidimas be skardžio.",
+        "description": "Kai kažkas išeina iš organizacijos, jo pašto dėžutė lieka prieinama trisdešimt dienų ir gali būti persiunčiama paskirtam savininkui — kad kliento atsakymas keturioliktą dieną vis dar nukristų į ką nors naudingo. Anti-kilpos apsaugos įdiegtos, audituojama, kaskadinis valymas, jei ir savininkas išeina."
+      },
+      "domains": {
+        "name": "Domenai ir įrenginiai sukonfigūruoti per minutes.",
+        "description": "Pridėk domeną, patikrink DNS, nustatyk catch-all. Generuojame Thunderbird XML ir Apple .mobileconfig profilius, o host-header autoconfig tiesiog veikia. DNS patikrinimas palaiko dešimt ES tiekėjų, įskaitant Hetzner, OVH, IONOS, deSEC, Scaleway ir Glesys."
+      },
+      "migration": {
+        "name": "Pasiimk savo gautas su savimi.",
+        "description": "Migruok iš Gmail, Outlook ar bet kokio IMAP tiekėjo vienu srautu — aplankai, vėliavėlės ir gijos išsaugomos. Mes traukiame, tu žiūri į progreso juostą. Jokio savaitgalio projekto tipo 'eksportuok mbox ir melskis'."
       }
     }
   },
@@ -265,12 +325,12 @@
     },
     "items": {
       "wiki": {
-        "date": "2026 m. rugpjūtis",
+        "date": "July 2026",
         "name": "Vidiniai wiki",
         "description": "Ieškomos, versijuojamos erdvės instrukcijoms, sprendimams ir institucinėms žinioms, kurias komanda rašo pati sau."
       },
       "messaging": {
-        "date": "2026 m. spalis",
+        "date": "July 2026",
         "name": "Vidinė pranešimų sistema",
         "description": "Kanalai, asmeniniai pranešimai ir gijos komandos pokalbiams — paieškomi, sutvarkyti į gijas ir integruoti į tą patį paketą kaip jūsų paštas ir dokumentai."
       },
