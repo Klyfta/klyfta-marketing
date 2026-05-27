@@ -6,7 +6,7 @@ const principleKeys = ["standards", "quiet", "unified", "leave"] as const;
 export function Principles() {
   const t = useTranslations("principles");
   return (
-    <section className="border-t border-gray-200 py-20 sm:py-32">
+    <section className="py-20 sm:py-32">
       <Container>
         <div>
           <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>

@@ -124,7 +124,7 @@ const suiteIcons = {
 export function Suite() {
   const t = useTranslations("suite");
   return (
-    <section id="suite" className="border-t border-gray-200 py-20 sm:py-32">
+    <section id="suite" className="py-20 sm:py-32">
       <Container>
         <div>
           <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>
