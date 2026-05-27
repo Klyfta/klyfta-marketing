@@ -324,7 +324,7 @@ function Suite() {
         </div>
         <ul
           role="list"
-          className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6"
+          className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
         >
           {suiteKeys.map((key) => {
             const Icon = suiteIcons[key];
