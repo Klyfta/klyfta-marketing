@@ -449,6 +449,31 @@
         "date": "Mei 2026",
         "name": "Externe e-mail doorsturen",
         "description": "Stuur een kopie van elk inkomend bericht door naar een adres bij een andere provider — Gmail, Fastmail, je persoonlijke inbox. De bestemming moet bevestigen door op een link te klikken voordat het doorsturen begint; tot 3 doorzendregels per persoonlijke mailbox; elke wijziging wordt vastgelegd in het auditlog."
+      },
+      "calendar": {
+        "date": "Juli 2026",
+        "name": "Agenda",
+        "description": "Gedeelde agenda's, uitnodigingen, herinneringen en vrij/bezet-status door de hele suite. Open CalDAV onder de motorkap — koppel Apple Calendar, Thunderbird of DAVx⁵ vanaf dag één en houd elke gebeurtenis gesynchroniseerd."
+      },
+      "contacts": {
+        "date": "Juli 2026",
+        "name": "Contacten",
+        "description": "Persoonlijke en met het team gedeelde adresboeken, met CardDAV-toegang vanuit elke standaardconforme client. Contacten worden automatisch gevuld vanuit e-mail en agenda-uitnodigingen — geen handmatige invoer, geen platform-lock-in."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Installeerbare webapp (PWA)",
+        "description": "Installeer Verkio op je startscherm op telefoon of desktop. Offline-shell voor de inbox, pushmeldingen en een echt app-gevoel — zonder een native app store ertussen."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "AVG-artikel 20-portabiliteitsexport",
+        "description": "Eén-klik export van je hele werkruimte in interoperabele open formaten — e-mail als standaard mbox, agenda's als ICS, contacten als vCard, bestanden in hun oorspronkelijke formaten. Neem het mee naar elke andere provider. Geen lock-in, nooit."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "End-to-end-versleutelde e-mail (PGP en S/MIME)",
+        "description": "OpenPGP en S/MIME in de webmail, met standaardheaders zodat versleutelde e-mail probleemloos werkt tussen Verkio-mailboxen en elke andere PGP- of S/MIME-compatibele client. Sleutels die jij beheert, nooit in bewaring."
       }
     }
   },

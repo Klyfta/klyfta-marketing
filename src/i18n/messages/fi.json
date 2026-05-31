@@ -449,6 +449,31 @@
         "date": "Toukokuu 2026",
         "name": "Ulkoinen sähköpostin edelleenlähetys",
         "description": "Edelleenlähetä kopio jokaisesta saapuvasta viestistä toisen palvelun osoitteeseen — Gmail, Fastmail, henkilökohtainen postilaatikkosi. Kohteen on vahvistettava napsauttamalla linkkiä ennen edelleenlähetyksen alkamista; enintään 3 edelleenlähetystä henkilökohtaista postilaatikkoa kohti; jokainen muutos kirjataan auditointilokiin."
+      },
+      "calendar": {
+        "date": "Heinäkuu 2026",
+        "name": "Kalenteri",
+        "description": "Jaetut kalenterit, kutsut, muistutukset ja vapaa/varattu-tieto koko paketin yli. Avoin CalDAV konepellin alla — yhdistä Apple Calendar, Thunderbird tai DAVx⁵ ensimmäisestä päivästä lähtien ja pidä jokainen tapahtuma synkronoituna."
+      },
+      "contacts": {
+        "date": "Heinäkuu 2026",
+        "name": "Yhteystiedot",
+        "description": "Henkilökohtaiset ja tiimin jakamat osoitekirjat, CardDAV-pääsy mistä tahansa standardinmukaisesta asiakasohjelmasta. Yhteystiedot täyttyvät automaattisesti sähköposteista ja kalenterikutsuista — ei manuaalista syöttöä, ei alustasidonnaisuutta."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Asennettava verkkosovellus (PWA)",
+        "description": "Asenna Verkio puhelimen tai työpöydän aloitusnäytölle. Offline-kuori postilaatikolle, push-ilmoitukset ja oikean sovelluksen tuntu — ilman natiivia sovelluskauppaa välissä."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "GDPR:n 20 artiklan siirrettävyysvienti",
+        "description": "Yhden klikkauksen vienti koko työtilastasi yhteentoimivissa avoimissa muodoissa — sähköposti vakiomuotoisena mboxina, kalenterit ICS-tiedostoina, yhteystiedot vCard-muodossa, tiedostot alkuperäisissä muodoissaan. Vie se mille tahansa toiselle palveluntarjoajalle. Ei lukitusta, koskaan."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Päästä päähän -salattu sähköposti (PGP ja S/MIME)",
+        "description": "OpenPGP ja S/MIME webmailissa, vakio-otsikoilla, joten salattu sähköposti toimii saumattomasti Verkio-postilaatikoiden ja kaikkien muiden PGP- tai S/MIME-yhteensopivien asiakasohjelmien välillä. Avaimet ovat sinun hallinnassasi, eivät koskaan talletuksessa."
       }
     }
   },

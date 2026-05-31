@@ -449,6 +449,31 @@
         "date": "Gegužė 2026",
         "name": "Išorinis el. pašto persiuntimas",
         "description": "Persiųsk kiekvieno gaunamo pranešimo kopiją kito tiekėjo adresu — Gmail, Fastmail, savo asmeniniam pašto adresui. Paskirties vieta turi patvirtinti spustelėjusi nuorodą, kad persiuntimas prasidėtų; iki 3 persiuntimų vienai asmeninei dėžei; kiekvienas pakeitimas registruojamas audito žurnale."
+      },
+      "calendar": {
+        "date": "Liepa 2026",
+        "name": "Kalendorius",
+        "description": "Bendrinami kalendoriai, kvietimai, priminimai ir laisvo/užimto laiko būsena visoje paketo aplinkoje. Atviras CalDAV po gaubtu — prijunk Apple Calendar, Thunderbird ar DAVx⁵ nuo pirmos dienos ir laikyk kiekvieną įvykį sinchronizuotą."
+      },
+      "contacts": {
+        "date": "Liepa 2026",
+        "name": "Kontaktai",
+        "description": "Asmeninės ir komandai bendrinamos adresų knygos su CardDAV prieiga iš bet kurio standartus atitinkančio kliento. Kontaktai automatiškai užpildomi iš pašto ir kalendoriaus kvietimų — jokio rankinio įvedimo, jokio platformos pririšimo."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Įdiegiama žiniatinklio programa (PWA)",
+        "description": "Įdiek Verkio į pradžios ekraną telefone ar kompiuteryje. Pašto dėžės offline apvalkalas, push pranešimai ir tikros programos pojūtis — be natyviosios programų parduotuvės tarp tavęs ir mūsų."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "BDAR 20 straipsnio duomenų perkeliamumo eksportas",
+        "description": "Vieno paspaudimo eksportas viso tavo darbo erdvės atvirais sąveikiais formatais — paštas kaip standartinis mbox, kalendoriai kaip ICS, kontaktai kaip vCard, failai originaliais formatais. Nusinešk juos bet kuriam kitam tiekėjui. Jokio pririšimo, niekada."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Visapusiškai (end-to-end) šifruotas paštas (PGP ir S/MIME)",
+        "description": "OpenPGP ir S/MIME žiniatinklio pašte su standartinėmis antraštėmis — šifruotas paštas sklandžiai veikia tarp Verkio pašto dėžių ir bet kurio kito kliento, palaikančio PGP ar S/MIME. Raktus valdai tu, jie niekada nesaugomi pas mus."
       }
     }
   },

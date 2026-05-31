@@ -449,6 +449,31 @@
         "date": "Maggio 2026",
         "name": "Inoltro email esterno",
         "description": "Inoltra una copia di ogni messaggio in arrivo a un indirizzo presso un altro provider — Gmail, Fastmail, la tua casella personale. La destinazione deve confermare cliccando su un link prima che l'inoltro inizi; fino a 3 inoltri per casella personale; ogni modifica è registrata nel registro di audit."
+      },
+      "calendar": {
+        "date": "Luglio 2026",
+        "name": "Calendario",
+        "description": "Calendari condivisi, inviti, promemoria e libero/occupato in tutta la suite. CalDAV aperto sotto il cofano — collega Apple Calendar, Thunderbird o DAVx⁵ dal primo giorno e mantieni ogni evento sincronizzato."
+      },
+      "contacts": {
+        "date": "Luglio 2026",
+        "name": "Contatti",
+        "description": "Rubriche personali e condivise con il team, con accesso CardDAV da qualsiasi client conforme agli standard. I contatti si popolano automaticamente da email e inviti del calendario — nessun inserimento manuale, nessun vincolo di piattaforma."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Web app installabile (PWA)",
+        "description": "Installa Verkio nella schermata principale del telefono o del desktop. Shell offline per la casella, notifiche push e una vera esperienza app — senza uno store nativo nel mezzo."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Export di portabilità ai sensi dell'articolo 20 del GDPR",
+        "description": "Export con un clic dell'intero spazio di lavoro in formati aperti interoperabili — email come mbox standard, calendari come ICS, contatti come vCard, file nei loro formati originali. Portali presso qualsiasi altro provider. Nessun vincolo, mai."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Email cifrata end-to-end (PGP e S/MIME)",
+        "description": "OpenPGP e S/MIME nel webmail, con header standard, così l'email cifrata funziona senza problemi tra caselle Verkio e qualsiasi altro client che supporti PGP o S/MIME. Chiavi che controlli tu, mai in deposito."
       }
     }
   },

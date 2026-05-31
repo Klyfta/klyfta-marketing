@@ -449,6 +449,31 @@
         "date": "Mai 2026",
         "name": "Externe E-Mail-Weiterleitung",
         "description": "Leiten Sie eine Kopie jeder eingehenden Nachricht an eine Adresse bei einem anderen Anbieter weiter — Gmail, Fastmail, Ihr persönliches Postfach. Das Ziel muss per Link-Klick bestätigen, bevor die Weiterleitung startet; bis zu 3 Weiterleitungen pro persönlichem Postfach; jede Änderung wird im Audit-Log protokolliert."
+      },
+      "calendar": {
+        "date": "Juli 2026",
+        "name": "Kalender",
+        "description": "Geteilte Kalender, Einladungen, Erinnerungen und Frei/Gebucht-Status über die gesamte Suite hinweg. Offenes CalDAV unter der Haube — verbinden Sie Apple Calendar, Thunderbird oder DAVx⁵ vom ersten Tag an und halten Sie jeden Termin synchron."
+      },
+      "contacts": {
+        "date": "Juli 2026",
+        "name": "Kontakte",
+        "description": "Persönliche und teamweit geteilte Adressbücher mit CardDAV-Zugriff aus jedem standardkonformen Client. Kontakte werden automatisch aus E-Mails und Kalendereinladungen befüllt — keine manuelle Eingabe, keine Plattformbindung."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Installierbare Web-App (PWA)",
+        "description": "Installieren Sie Verkio auf dem Startbildschirm Ihres Smartphones oder Desktops. Offline-Shell für den Posteingang, Push-Benachrichtigungen und das Gefühl einer echten App — ohne nativen App-Store dazwischen."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Datenportabilitäts-Export nach Artikel 20 DSGVO",
+        "description": "Ein-Klick-Export Ihres gesamten Arbeitsbereichs in interoperablen offenen Formaten — E-Mails als Standard-mbox, Kalender als ICS, Kontakte als vCard, Dateien in ihren ursprünglichen Formaten. Nehmen Sie alles zu einem beliebigen anderen Anbieter mit. Kein Lock-in, niemals."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Ende-zu-Ende-verschlüsselte E-Mail (PGP und S/MIME)",
+        "description": "OpenPGP und S/MIME in der Webmail, mit Standard-Headern, sodass verschlüsselte E-Mail zwischen Verkio-Postfächern und jedem anderen PGP- oder S/MIME-fähigen Client einfach funktioniert. Schlüssel, die Sie kontrollieren, niemals in Verwahrung."
       }
     }
   },

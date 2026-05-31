@@ -449,6 +449,31 @@
         "date": "Maí 2026",
         "name": "Áframsending tölvupósts út fyrir kerfið",
         "description": "Áframsendu afrit af hverju innkomnu skeyti á netfang hjá öðrum þjónustuveitanda — Gmail, Fastmail, einkapósthólfið þitt. Áfangastaðurinn verður að staðfesta með því að smella á tengil áður en áframsending hefst; allt að 3 áframsendingar á hvert einkapósthólf; hver breyting er skráð í úttektarskrána."
+      },
+      "calendar": {
+        "date": "Júlí 2026",
+        "name": "Dagatal",
+        "description": "Sameiginleg dagatöl, boð, áminningar og laus/upptekinn staða þvert á svítuna. Opið CalDAV undir húddinu — tengdu Apple Calendar, Thunderbird eða DAVx⁵ frá fyrsta degi og haltu öllum atburðum samstilltum."
+      },
+      "contacts": {
+        "date": "Júlí 2026",
+        "name": "Tengiliðir",
+        "description": "Persónulegar og hópdeildar nafnaskrár, með CardDAV-aðgangi frá hvaða stöðluðum biðlara sem er. Tengiliðir fyllast sjálfkrafa út frá pósti og dagatalsboðum — engin handvirk innsláttur, engin læsing við vettvang."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Uppsetjanlegt vefforrit (PWA)",
+        "description": "Settu Verkio upp á heimaskjáinn í síma eða tölvu. Ónettengt skel fyrir innhólfið, ýti-tilkynningar og raunveruleg forritsupplifun — án innfædds forritamarkaðar í miðjunni."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Útflutningur gagnaflytjanleika skv. 20. grein GDPR",
+        "description": "Einsmellsútflutningur á öllu vinnusvæðinu þínu á samvirkum opnum sniðum — póstur sem staðlað mbox, dagatöl sem ICS, tengiliðir sem vCard, skrár á upprunalegu sniði sínu. Taktu þetta með þér til hvaða annars þjónustuveitanda sem er. Engin læsing, nokkurn tíma."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Endi-til-enda dulkóðaður póstur (PGP og S/MIME)",
+        "description": "OpenPGP og S/MIME í vefpóstinum, með stöðluðum hausum þannig að dulkóðaður póstur virkar áreynslulaust milli Verkio-pósthólfa og hvers annars PGP- eða S/MIME-tækra biðlara. Lyklar sem þú stýrir sjálf(ur), aldrei í vörslu þriðja aðila."
       }
     }
   },

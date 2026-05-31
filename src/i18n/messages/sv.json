@@ -449,6 +449,31 @@
         "date": "Maj 2026",
         "name": "Extern e-postvidarebefordran",
         "description": "Vidarebefordra en kopia av varje inkommande meddelande till en adress hos en annan leverantör — Gmail, Fastmail, din personliga inkorg. Destinationen måste bekräfta genom att klicka på en länk innan vidarebefordran startar; upp till 3 vidarebefordringar per personlig brevlåda; varje ändring loggas i granskningsloggen."
+      },
+      "calendar": {
+        "date": "Juli 2026",
+        "name": "Kalender",
+        "description": "Delade kalendrar, inbjudningar, påminnelser och ledig/upptagen-status över hela sviten. Öppen CalDAV under huven — anslut Apple Calendar, Thunderbird eller DAVx⁵ från dag ett och håll varje händelse synkroniserad."
+      },
+      "contacts": {
+        "date": "Juli 2026",
+        "name": "Kontakter",
+        "description": "Personliga och teamdelade adressböcker, med CardDAV-åtkomst från valfri standardkompatibel klient. Kontakter fylls i automatiskt från e-post och kalenderinbjudningar — ingen manuell inmatning, ingen plattformsinlåsning."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Installerbar webbapp (PWA)",
+        "description": "Installera Verkio på hemskärmen i mobilen eller på skrivbordet. Offline-skal för inkorgen, push-notiser och en riktig appkänsla — utan en nativ appbutik i mellan."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Dataportabilitetsexport enligt GDPR artikel 20",
+        "description": "Ett-klicks-export av hela din arbetsyta i interoperabla öppna format — e-post som standard mbox, kalendrar som ICS, kontakter som vCard, filer i sina ursprungliga format. Ta med det till valfri annan leverantör. Ingen inlåsning, aldrig."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Totalsträckskrypterad e-post (PGP och S/MIME)",
+        "description": "OpenPGP och S/MIME i webbmailen, med standardrubriker så att krypterad e-post bara fungerar mellan Verkio-brevlådor och valfri annan PGP- eller S/MIME-kompatibel klient. Nycklar som du själv kontrollerar, aldrig i deposition."
       }
     }
   },

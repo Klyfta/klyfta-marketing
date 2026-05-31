@@ -449,6 +449,31 @@
         "date": "Květen 2026",
         "name": "Externí přeposílání e-mailů",
         "description": "Přeposílejte kopii každé příchozí zprávy na adresu u jiného poskytovatele — Gmail, Fastmail, vaši osobní schránku. Cíl musí potvrdit kliknutím na odkaz, než přeposílání začne; až 3 přeposlání na osobní schránku; každá změna se zaznamenává do auditního protokolu."
+      },
+      "calendar": {
+        "date": "Červenec 2026",
+        "name": "Kalendář",
+        "description": "Sdílené kalendáře, pozvánky, připomenutí a free/busy napříč balíčkem. Otevřený CalDAV pod kapotou — připojte Apple Calendar, Thunderbird nebo DAVx⁵ od prvního dne a udržujte každou událost v synchronizaci."
+      },
+      "contacts": {
+        "date": "Červenec 2026",
+        "name": "Kontakty",
+        "description": "Osobní a týmově sdílené adresáře s přístupem CardDAV z libovolného klienta odpovídajícího standardům. Kontakty se automaticky doplňují z pošty a kalendářových pozvánek — žádné ruční zadávání, žádné uvíznutí v platformě."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Instalovatelná webová aplikace (PWA)",
+        "description": "Nainstalujte si Verkio na domovskou obrazovku telefonu nebo počítače. Offline obal pro schránku, push notifikace a pocit skutečné aplikace — bez nativního obchodu s aplikacemi mezi vámi a námi."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Export přenositelnosti podle článku 20 GDPR",
+        "description": "Jednokliknutý export celého pracovního prostoru v interoperabilních otevřených formátech — pošta jako standardní mbox, kalendáře jako ICS, kontakty jako vCard, soubory v původních formátech. Vezměte si je k libovolnému jinému poskytovateli. Žádné uvíznutí, nikdy."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "End-to-end šifrovaná pošta (PGP a S/MIME)",
+        "description": "OpenPGP a S/MIME ve webové poště se standardními hlavičkami, takže šifrovaná pošta funguje bez problémů mezi schránkami Verkio a libovolným jiným klientem s podporou PGP nebo S/MIME. Klíče máte pod kontrolou vy, nikdy nejsou v úschově."
       }
     }
   },

@@ -449,6 +449,31 @@
         "date": "Maijs 2026",
         "name": "Ārējā e-pasta pārsūtīšana",
         "description": "Pārsūti katras ienākošās ziņas kopiju uz adresi pie cita pakalpojumu sniedzēja — Gmail, Fastmail, tava personīgā iesūtne. Mērķim jāapstiprina, noklikšķinot uz saites, pirms pārsūtīšana sākas; līdz 3 pārsūtīšanām uz personīgo pastkastīti; katras izmaiņas tiek reģistrētas audita žurnālā."
+      },
+      "calendar": {
+        "date": "Jūlijs 2026",
+        "name": "Kalendārs",
+        "description": "Koplietoti kalendāri, ielūgumi, atgādinājumi un brīvs/aizņemts statuss visā komplektā. Atvērts CalDAV zem pārsega — pievieno Apple Calendar, Thunderbird vai DAVx⁵ jau no pirmās dienas un saglabā katru notikumu sinhronizētu."
+      },
+      "contacts": {
+        "date": "Jūlijs 2026",
+        "name": "Kontakti",
+        "description": "Personīgas un komandas koplietotas adrešu grāmatas ar CardDAV piekļuvi no jebkura standartiem atbilstoša klienta. Kontakti automātiski aizpildās no e-pasta un kalendāra ielūgumiem — bez manuālas ievades, bez piesaistes platformai."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Instalējama tīmekļa lietotne (PWA)",
+        "description": "Instalē Verkio sākuma ekrānā telefonā vai datorā. Bezsaistes čaula iesūtnei, push paziņojumi un īstas lietotnes sajūta — bez vietējā lietotņu veikala starpniecības."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "VDAR 20. panta datu pārnesamības eksports",
+        "description": "Viena klikšķa eksports visai tavai darbvietai sadarbspējīgos atvērtos formātos — pasts kā standarta mbox, kalendāri kā ICS, kontakti kā vCard, faili oriģinālajos formātos. Aizved tos pie jebkura cita pakalpojumu sniedzēja. Nekādas piesaistes, nekad."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Pilnīgi šifrēts pasts (PGP un S/MIME)",
+        "description": "OpenPGP un S/MIME tīmekļa pastā ar standarta galvenēm, lai šifrēts pasts vienkārši darbojas starp Verkio pastkastītēm un jebkuru citu klientu, kas atbalsta PGP vai S/MIME. Atslēgas kontrolē tu, tās nekad neglabājas pie mums."
       }
     }
   },

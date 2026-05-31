@@ -449,6 +449,31 @@
         "date": "Mai 2026",
         "name": "Ekstern e-postvideresending",
         "description": "Videresend en kopi av hver innkommende melding til en adresse hos en annen leverandør — Gmail, Fastmail, din personlige innboks. Mottakeren må bekrefte ved å klikke på en lenke før videresending starter; opptil 3 videresendinger per personlig postboks; hver endring registreres i revisjonsloggen."
+      },
+      "calendar": {
+        "date": "Juli 2026",
+        "name": "Kalender",
+        "description": "Delte kalendere, invitasjoner, påminnelser og ledig/opptatt på tvers av suiten. Åpen CalDAV under panseret — koble til Apple Calendar, Thunderbird eller DAVx⁵ fra dag én og hold hver hendelse synkronisert."
+      },
+      "contacts": {
+        "date": "Juli 2026",
+        "name": "Kontakter",
+        "description": "Personlige og teamdelte adressebøker, med CardDAV-tilgang fra enhver standardkompatibel klient. Kontakter fylles ut automatisk fra e-post og kalenderinvitasjoner — ingen manuell innføring, ingen plattformlåsing."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Installerbar nettapp (PWA)",
+        "description": "Installer Verkio på startskjermen på mobil eller skrivebord. Frakoblet skall for innboksen, push-varsler og en ekte appfølelse — uten en native appbutikk i mellom."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Eksport av dataportabilitet etter GDPR artikkel 20",
+        "description": "Ettrykks-eksport av hele arbeidsområdet ditt i interoperable åpne formater — e-post som standard mbox, kalendere som ICS, kontakter som vCard, filer i sine opprinnelige formater. Ta det med til en hvilken som helst annen leverandør. Ingen låsing, aldri."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Ende-til-ende-kryptert e-post (PGP og S/MIME)",
+        "description": "OpenPGP og S/MIME i webmailen, med standardhoder slik at kryptert e-post bare virker mellom Verkio-postbokser og enhver annen PGP- eller S/MIME-kompatibel klient. Nøkler du selv kontrollerer, aldri i deponering."
       }
     }
   },

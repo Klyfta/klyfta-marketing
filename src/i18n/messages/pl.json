@@ -449,6 +449,31 @@
         "date": "Maj 2026",
         "name": "Zewnętrzne przekierowanie poczty",
         "description": "Przekazuj kopię każdej przychodzącej wiadomości na adres u innego dostawcy — Gmail, Fastmail, twoją osobistą skrzynkę. Cel musi potwierdzić, klikając w link, zanim przekierowanie się rozpocznie; do 3 przekierowań na osobistą skrzynkę; każda zmiana jest zapisywana w dzienniku audytu."
+      },
+      "calendar": {
+        "date": "Lipiec 2026",
+        "name": "Kalendarz",
+        "description": "Kalendarze współdzielone, zaproszenia, przypomnienia oraz status wolne/zajęte w całym pakiecie. Otwarty CalDAV pod maską — podłącz Apple Calendar, Thunderbird albo DAVx⁵ od pierwszego dnia i utrzymuj każde wydarzenie zsynchronizowane."
+      },
+      "contacts": {
+        "date": "Lipiec 2026",
+        "name": "Kontakty",
+        "description": "Osobiste i współdzielone z zespołem książki adresowe, z dostępem CardDAV z dowolnego klienta zgodnego ze standardami. Kontakty wypełniają się automatycznie z poczty i zaproszeń kalendarza — żadnego ręcznego wpisywania, żadnego uwiązania do platformy."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Instalowalna aplikacja webowa (PWA)",
+        "description": "Zainstaluj Verkio na ekranie głównym telefonu lub komputera. Powłoka offline dla skrzynki, powiadomienia push i wrażenie prawdziwej aplikacji — bez natywnego sklepu z aplikacjami po drodze."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Eksport przenoszenia danych z artykułu 20 RODO",
+        "description": "Eksport całego obszaru roboczego jednym kliknięciem w interoperacyjnych otwartych formatach — poczta jako standardowy mbox, kalendarze jako ICS, kontakty jako vCard, pliki w oryginalnych formatach. Zabierz to do dowolnego innego dostawcy. Żadnego uwiązania, nigdy."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Poczta szyfrowana end-to-end (PGP i S/MIME)",
+        "description": "OpenPGP i S/MIME w poczcie webowej, ze standardowymi nagłówkami, dzięki czemu szyfrowana poczta po prostu działa między skrzynkami Verkio a dowolnym innym klientem obsługującym PGP lub S/MIME. Klucze pod twoją kontrolą, nigdy w depozycie."
       }
     }
   },

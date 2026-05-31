@@ -449,6 +449,31 @@
         "date": "Mai 2026",
         "name": "Redirection d'e-mails externe",
         "description": "Redirigez une copie de chaque message entrant vers une adresse chez un autre fournisseur — Gmail, Fastmail, votre boîte personnelle. La destination doit confirmer en cliquant sur un lien avant le démarrage de la redirection ; jusqu'à 3 redirections par boîte personnelle ; chaque modification est enregistrée dans le journal d'audit."
+      },
+      "calendar": {
+        "date": "Juillet 2026",
+        "name": "Agenda",
+        "description": "Agendas partagés, invitations, rappels et disponibilité sur l'ensemble de la suite. CalDAV ouvert sous le capot — connectez Apple Calendar, Thunderbird ou DAVx⁵ dès le premier jour et gardez chaque événement synchronisé."
+      },
+      "contacts": {
+        "date": "Juillet 2026",
+        "name": "Contacts",
+        "description": "Carnets d'adresses personnels et partagés en équipe, avec accès CardDAV depuis tout client conforme aux standards. Les contacts se remplissent automatiquement à partir des e-mails et des invitations d'agenda — pas de saisie manuelle, pas d'enfermement dans la plateforme."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Application web installable (PWA)",
+        "description": "Installez Verkio sur l'écran d'accueil de votre téléphone ou de votre ordinateur. Coque hors ligne pour la boîte de réception, notifications push et une vraie sensation d'application — sans magasin d'applications natif au milieu."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Export de portabilité au titre de l'article 20 du RGPD",
+        "description": "Export en un clic de tout votre espace de travail dans des formats ouverts interopérables — e-mails en mbox standard, agendas en ICS, contacts en vCard, fichiers dans leurs formats d'origine. Emportez-les chez n'importe quel autre fournisseur. Aucun enfermement, jamais."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "E-mail chiffré de bout en bout (PGP et S/MIME)",
+        "description": "OpenPGP et S/MIME dans le webmail, avec des en-têtes standards pour que le courrier chiffré fonctionne nativement entre les boîtes Verkio et tout autre client compatible PGP ou S/MIME. Des clés que vous contrôlez, jamais en séquestre."
       }
     }
   },

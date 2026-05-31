@@ -449,6 +449,31 @@
         "date": "Mayo 2026",
         "name": "Reenvío externo de correo",
         "description": "Reenvía una copia de cada mensaje entrante a una dirección en otro proveedor — Gmail, Fastmail, tu bandeja personal. El destino debe confirmar haciendo clic en un enlace antes de que comience el reenvío; hasta 3 reenvíos por buzón personal; cada cambio queda registrado en el registro de auditoría."
+      },
+      "calendar": {
+        "date": "Julio 2026",
+        "name": "Calendario",
+        "description": "Calendarios compartidos, invitaciones, recordatorios y disponibilidad en toda la suite. CalDAV abierto bajo el capó — conecta Apple Calendar, Thunderbird o DAVx⁵ desde el primer día y mantén cada evento sincronizado."
+      },
+      "contacts": {
+        "date": "Julio 2026",
+        "name": "Contactos",
+        "description": "Agendas personales y compartidas por equipo, con acceso CardDAV desde cualquier cliente que cumpla los estándares. Los contactos se rellenan automáticamente desde el correo y las invitaciones del calendario — sin entrada manual, sin atadura a la plataforma."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Aplicación web instalable (PWA)",
+        "description": "Instala Verkio en la pantalla de inicio del móvil o del escritorio. Capa offline para la bandeja, notificaciones push y una experiencia de aplicación real — sin una tienda de apps nativa de por medio."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Exportación de portabilidad del artículo 20 del RGPD",
+        "description": "Exportación de un solo clic de todo tu espacio de trabajo en formatos abiertos interoperables — correo como mbox estándar, calendarios como ICS, contactos como vCard, archivos en sus formatos originales. Llévalo a cualquier otro proveedor. Sin atadura, nunca."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Correo cifrado de extremo a extremo (PGP y S/MIME)",
+        "description": "OpenPGP y S/MIME en el webmail, con cabeceras estándar para que el correo cifrado funcione sin más entre buzones Verkio y cualquier otro cliente compatible con PGP o S/MIME. Las claves las controlas tú, nunca en depósito."
       }
     }
   },
