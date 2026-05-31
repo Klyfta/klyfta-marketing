@@ -2,6 +2,8 @@ import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Container, Footer, Header } from "./components/Layout";
+import { ConsoleEasterEgg } from "./components/ConsoleEasterEgg";
+import { RotatingWord } from "./components/RotatingWord";
 import { WaitlistCta } from "./components/WaitlistCta";
 
 async function StructuredData({ locale }: { locale: string }) {
@@ -25,6 +27,7 @@ async function StructuredData({ locale }: { locale: string }) {
 
 function Hero() {
   const t = useTranslations("hero");
+  const words = t.raw("rotatingWords") as string[];
   return (
     <section className="py-16 sm:py-24 lg:py-32">
       <Container>
@@ -34,7 +37,8 @@ function Hero() {
               {t("eyebrow")}
             </p>
             <h1 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-medium tracking-tight text-gray-900 leading-[1.1]">
-              {t("headline")}
+              {t("headlinePrefix")}
+              <RotatingWord words={words} />
             </h1>
             <p className="mt-6 text-base text-gray-600">{t("body1")}</p>
             <p className="mt-4 text-base text-gray-600">{t("body2")}</p>
@@ -106,6 +110,7 @@ export default async function Home({
   return (
     <>
       <StructuredData locale={locale} />
+      <ConsoleEasterEgg />
       <Header />
       <main>
         <Hero />

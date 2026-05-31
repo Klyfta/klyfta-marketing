@@ -21,7 +21,11 @@
     "eyebrow": "Atklāšana 2026. gada jūlijā",
     "headline": "Darba pakete bez trokšņa.",
     "body1": "Pasts, kalendārs, kontakti, faili, wiki un ziņojumi. Viena pakete īstam darbam, bez piepūšanas vai trokšņa.",
-    "body2": "Veidots uz atklātajiem standartiem. Mitināts Eiropā. Tavs, lai pamestu, jebkurā brīdī."
+    "body2": "Veidots uz atklātajiem standartiem. Mitināts Eiropā. Tavs, lai pamestu, jebkurā brīdī.",
+    "headlinePrefix": "Darba pakete bez ",
+    "rotatingWords": [
+      "trokšņa"
+    ]
   },
   "suite": {
     "eyebrow": "Komplekts",
@@ -269,6 +273,10 @@
       "openSource": {
         "question": "Vai Verkio ir atvērtā koda?",
         "answer": "Klienta puse balstīta uz atvērtiem standartiem, tāpēc darbojas jebkurš saderīgs rīks. Vairāk par aizmugurējo daļu pastāstīsim tuvāk atklāšanai."
+      },
+      "ai": {
+        "question": "Do you have AI features?",
+        "answer": "No. We have features."
       }
     }
   },
@@ -441,6 +449,31 @@
         "date": "Maijs 2026",
         "name": "Ārējā e-pasta pārsūtīšana",
         "description": "Pārsūti katras ienākošās ziņas kopiju uz adresi pie cita pakalpojumu sniedzēja — Gmail, Fastmail, tava personīgā iesūtne. Mērķim jāapstiprina, noklikšķinot uz saites, pirms pārsūtīšana sākas; līdz 3 pārsūtīšanām uz personīgo pastkastīti; katras izmaiņas tiek reģistrētas audita žurnālā."
+      },
+      "calendar": {
+        "date": "Jūlijs 2026",
+        "name": "Kalendārs",
+        "description": "Koplietoti kalendāri, ielūgumi, atgādinājumi un brīvs/aizņemts statuss visā komplektā. Atvērts CalDAV zem pārsega — pievieno Apple Calendar, Thunderbird vai DAVx⁵ jau no pirmās dienas un saglabā katru notikumu sinhronizētu."
+      },
+      "contacts": {
+        "date": "Jūlijs 2026",
+        "name": "Kontakti",
+        "description": "Personīgas un komandas koplietotas adrešu grāmatas ar CardDAV piekļuvi no jebkura standartiem atbilstoša klienta. Kontakti automātiski aizpildās no e-pasta un kalendāra ielūgumiem — bez manuālas ievades, bez piesaistes platformai."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Instalējama tīmekļa lietotne (PWA)",
+        "description": "Instalē Verkio sākuma ekrānā telefonā vai datorā. Bezsaistes čaula iesūtnei, push paziņojumi un īstas lietotnes sajūta — bez vietējā lietotņu veikala starpniecības."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "VDAR 20. panta datu pārnesamības eksports",
+        "description": "Viena klikšķa eksports visai tavai darbvietai sadarbspējīgos atvērtos formātos — pasts kā standarta mbox, kalendāri kā ICS, kontakti kā vCard, faili oriģinālajos formātos. Aizved tos pie jebkura cita pakalpojumu sniedzēja. Nekādas piesaistes, nekad."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Pilnīgi šifrēts pasts (PGP un S/MIME)",
+        "description": "OpenPGP un S/MIME tīmekļa pastā ar standarta galvenēm, lai šifrēts pasts vienkārši darbojas starp Verkio pastkastītēm un jebkuru citu klientu, kas atbalsta PGP vai S/MIME. Atslēgas kontrolē tu, tās nekad neglabājas pie mums."
       }
     }
   },
@@ -599,5 +632,29 @@
       "body": "Atklātie standarti, mierīgi noklusējumi, pilns eksports jebkurā brīdī.",
       "link": "Kāpēc komandas izvēlas Verkio"
     }
+  },
+  "whatWeDontHave": {
+    "eyebrow": "Negative space",
+    "headline": "Things we deliberately don't have.",
+    "subhead": "Verkio is defined as much by what we leave out.",
+    "items": [
+      "AI features that quietly read your mail.",
+      "Engagement metrics counting how addicted you are.",
+      "Read receipts that work differently in every client.",
+      "A 'team activity' feed nobody asked for.",
+      "'Smart' inbox categorisation hiding your mail.",
+      "Data brokers anywhere in the subprocessor list."
+    ]
+  },
+  "founderNote": {
+    "eyebrow": "From the founder",
+    "body": "Hi, I'm Benji. I built Verkio because every time Gmail rolled out a new AI feature my IT-admin friends sighed a little harder. I think email should be boring, yours, and built to last decades — and that the only sustainable way to build that is from inside the EU, on open standards, by a small company that doesn't need to grow forever. If that resonates, join the waitlist.",
+    "signature": "— Benji, founder"
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "headline": "You've reached an address that doesn't exist.",
+    "body": "Like a Gmail label, basically. Let's get you back home.",
+    "backLink": "Back to verkio.eu"
   }
 }

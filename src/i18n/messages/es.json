@@ -21,7 +21,11 @@
     "eyebrow": "Lanzamiento en julio de 2026",
     "headline": "La suite de trabajo sin ruido.",
     "body1": "Correo, calendario, contactos, archivos, wikis y mensajería. Una sola suite para el trabajo real, sin sobrecarga ni ruido.",
-    "body2": "Construida sobre estándares abiertos. Alojada en Europa. Tuya para irte, cuando quieras."
+    "body2": "Construida sobre estándares abiertos. Alojada en Europa. Tuya para irte, cuando quieras.",
+    "headlinePrefix": "La suite de trabajo sin ",
+    "rotatingWords": [
+      "ruido"
+    ]
   },
   "suite": {
     "eyebrow": "La suite",
@@ -269,6 +273,10 @@
       "openSource": {
         "question": "¿Verkio es código abierto?",
         "answer": "El lado cliente está construido sobre estándares abiertos, así que cualquier herramienta compatible funciona. Compartiremos más sobre el backend cerca del lanzamiento."
+      },
+      "ai": {
+        "question": "Do you have AI features?",
+        "answer": "No. We have features."
       }
     }
   },
@@ -441,6 +449,31 @@
         "date": "Mayo 2026",
         "name": "Reenvío externo de correo",
         "description": "Reenvía una copia de cada mensaje entrante a una dirección en otro proveedor — Gmail, Fastmail, tu bandeja personal. El destino debe confirmar haciendo clic en un enlace antes de que comience el reenvío; hasta 3 reenvíos por buzón personal; cada cambio queda registrado en el registro de auditoría."
+      },
+      "calendar": {
+        "date": "Julio 2026",
+        "name": "Calendario",
+        "description": "Calendarios compartidos, invitaciones, recordatorios y disponibilidad en toda la suite. CalDAV abierto bajo el capó — conecta Apple Calendar, Thunderbird o DAVx⁵ desde el primer día y mantén cada evento sincronizado."
+      },
+      "contacts": {
+        "date": "Julio 2026",
+        "name": "Contactos",
+        "description": "Agendas personales y compartidas por equipo, con acceso CardDAV desde cualquier cliente que cumpla los estándares. Los contactos se rellenan automáticamente desde el correo y las invitaciones del calendario — sin entrada manual, sin atadura a la plataforma."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Aplicación web instalable (PWA)",
+        "description": "Instala Verkio en la pantalla de inicio del móvil o del escritorio. Capa offline para la bandeja, notificaciones push y una experiencia de aplicación real — sin una tienda de apps nativa de por medio."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Exportación de portabilidad del artículo 20 del RGPD",
+        "description": "Exportación de un solo clic de todo tu espacio de trabajo en formatos abiertos interoperables — correo como mbox estándar, calendarios como ICS, contactos como vCard, archivos en sus formatos originales. Llévalo a cualquier otro proveedor. Sin atadura, nunca."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Correo cifrado de extremo a extremo (PGP y S/MIME)",
+        "description": "OpenPGP y S/MIME en el webmail, con cabeceras estándar para que el correo cifrado funcione sin más entre buzones Verkio y cualquier otro cliente compatible con PGP o S/MIME. Las claves las controlas tú, nunca en depósito."
       }
     }
   },
@@ -599,5 +632,29 @@
       "body": "Estándares abiertos, valores por defecto calmados, exportación completa cuando quieras.",
       "link": "Por qué los equipos eligen Verkio"
     }
+  },
+  "whatWeDontHave": {
+    "eyebrow": "Negative space",
+    "headline": "Things we deliberately don't have.",
+    "subhead": "Verkio is defined as much by what we leave out.",
+    "items": [
+      "AI features that quietly read your mail.",
+      "Engagement metrics counting how addicted you are.",
+      "Read receipts that work differently in every client.",
+      "A 'team activity' feed nobody asked for.",
+      "'Smart' inbox categorisation hiding your mail.",
+      "Data brokers anywhere in the subprocessor list."
+    ]
+  },
+  "founderNote": {
+    "eyebrow": "From the founder",
+    "body": "Hi, I'm Benji. I built Verkio because every time Gmail rolled out a new AI feature my IT-admin friends sighed a little harder. I think email should be boring, yours, and built to last decades — and that the only sustainable way to build that is from inside the EU, on open standards, by a small company that doesn't need to grow forever. If that resonates, join the waitlist.",
+    "signature": "— Benji, founder"
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "headline": "You've reached an address that doesn't exist.",
+    "body": "Like a Gmail label, basically. Let's get you back home.",
+    "backLink": "Back to verkio.eu"
   }
 }

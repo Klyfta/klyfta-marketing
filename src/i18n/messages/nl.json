@@ -21,7 +21,11 @@
     "eyebrow": "Lancering in juli 2026",
     "headline": "De werksuite zonder ruis.",
     "body1": "Mail, agenda, contacten, bestanden, wiki's en berichten. Eén suite voor het echte werk, zonder opgeblazen rommel of ruis.",
-    "body2": "Gebouwd op open standaarden. Gehost in Europa. Van jou om te vertrekken, op elk moment."
+    "body2": "Gebouwd op open standaarden. Gehost in Europa. Van jou om te vertrekken, op elk moment.",
+    "headlinePrefix": "De werksuite zonder ",
+    "rotatingWords": [
+      "ruis"
+    ]
   },
   "suite": {
     "eyebrow": "De suite",
@@ -269,6 +273,10 @@
       "openSource": {
         "question": "Is Verkio open source?",
         "answer": "De client-kant is gebouwd op open standaarden, dus elke compatibele tool werkt. Meer over de backend volgt dichter bij de lancering."
+      },
+      "ai": {
+        "question": "Do you have AI features?",
+        "answer": "No. We have features."
       }
     }
   },
@@ -441,6 +449,31 @@
         "date": "Mei 2026",
         "name": "Externe e-mail doorsturen",
         "description": "Stuur een kopie van elk inkomend bericht door naar een adres bij een andere provider — Gmail, Fastmail, je persoonlijke inbox. De bestemming moet bevestigen door op een link te klikken voordat het doorsturen begint; tot 3 doorzendregels per persoonlijke mailbox; elke wijziging wordt vastgelegd in het auditlog."
+      },
+      "calendar": {
+        "date": "Juli 2026",
+        "name": "Agenda",
+        "description": "Gedeelde agenda's, uitnodigingen, herinneringen en vrij/bezet-status door de hele suite. Open CalDAV onder de motorkap — koppel Apple Calendar, Thunderbird of DAVx⁵ vanaf dag één en houd elke gebeurtenis gesynchroniseerd."
+      },
+      "contacts": {
+        "date": "Juli 2026",
+        "name": "Contacten",
+        "description": "Persoonlijke en met het team gedeelde adresboeken, met CardDAV-toegang vanuit elke standaardconforme client. Contacten worden automatisch gevuld vanuit e-mail en agenda-uitnodigingen — geen handmatige invoer, geen platform-lock-in."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Installeerbare webapp (PWA)",
+        "description": "Installeer Verkio op je startscherm op telefoon of desktop. Offline-shell voor de inbox, pushmeldingen en een echt app-gevoel — zonder een native app store ertussen."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "AVG-artikel 20-portabiliteitsexport",
+        "description": "Eén-klik export van je hele werkruimte in interoperabele open formaten — e-mail als standaard mbox, agenda's als ICS, contacten als vCard, bestanden in hun oorspronkelijke formaten. Neem het mee naar elke andere provider. Geen lock-in, nooit."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "End-to-end-versleutelde e-mail (PGP en S/MIME)",
+        "description": "OpenPGP en S/MIME in de webmail, met standaardheaders zodat versleutelde e-mail probleemloos werkt tussen Verkio-mailboxen en elke andere PGP- of S/MIME-compatibele client. Sleutels die jij beheert, nooit in bewaring."
       }
     }
   },
@@ -599,5 +632,29 @@
       "body": "Open standaarden, kalme standaardinstellingen, volledige export wanneer dan ook.",
       "link": "Waarom teams voor Verkio kiezen"
     }
+  },
+  "whatWeDontHave": {
+    "eyebrow": "Negative space",
+    "headline": "Things we deliberately don't have.",
+    "subhead": "Verkio is defined as much by what we leave out.",
+    "items": [
+      "AI features that quietly read your mail.",
+      "Engagement metrics counting how addicted you are.",
+      "Read receipts that work differently in every client.",
+      "A 'team activity' feed nobody asked for.",
+      "'Smart' inbox categorisation hiding your mail.",
+      "Data brokers anywhere in the subprocessor list."
+    ]
+  },
+  "founderNote": {
+    "eyebrow": "From the founder",
+    "body": "Hi, I'm Benji. I built Verkio because every time Gmail rolled out a new AI feature my IT-admin friends sighed a little harder. I think email should be boring, yours, and built to last decades — and that the only sustainable way to build that is from inside the EU, on open standards, by a small company that doesn't need to grow forever. If that resonates, join the waitlist.",
+    "signature": "— Benji, founder"
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "headline": "You've reached an address that doesn't exist.",
+    "body": "Like a Gmail label, basically. Let's get you back home.",
+    "backLink": "Back to verkio.eu"
   }
 }

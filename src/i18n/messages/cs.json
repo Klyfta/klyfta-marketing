@@ -21,7 +21,11 @@
     "eyebrow": "Spuštění v červenci 2026",
     "headline": "Pracovní sada bez hluku.",
     "body1": "Pošta, kalendář, kontakty, soubory, wiki a zprávy. Jedna sada pro skutečnou práci, bez nafouknutí a hluku.",
-    "body2": "Postaveno na otevřených standardech. Hostováno v Evropě. Vaše k odchodu, kdykoliv."
+    "body2": "Postaveno na otevřených standardech. Hostováno v Evropě. Vaše k odchodu, kdykoliv.",
+    "headlinePrefix": "Pracovní sada bez ",
+    "rotatingWords": [
+      "hluku"
+    ]
   },
   "suite": {
     "eyebrow": "Balíček",
@@ -269,6 +273,10 @@
       "openSource": {
         "question": "Je Verkio open source?",
         "answer": "Klientská strana stojí na otevřených standardech, takže funguje jakýkoli kompatibilní nástroj. Více o backendu povíme blíže ke spuštění."
+      },
+      "ai": {
+        "question": "Do you have AI features?",
+        "answer": "No. We have features."
       }
     }
   },
@@ -441,6 +449,31 @@
         "date": "Květen 2026",
         "name": "Externí přeposílání e-mailů",
         "description": "Přeposílejte kopii každé příchozí zprávy na adresu u jiného poskytovatele — Gmail, Fastmail, vaši osobní schránku. Cíl musí potvrdit kliknutím na odkaz, než přeposílání začne; až 3 přeposlání na osobní schránku; každá změna se zaznamenává do auditního protokolu."
+      },
+      "calendar": {
+        "date": "Červenec 2026",
+        "name": "Kalendář",
+        "description": "Sdílené kalendáře, pozvánky, připomenutí a free/busy napříč balíčkem. Otevřený CalDAV pod kapotou — připojte Apple Calendar, Thunderbird nebo DAVx⁵ od prvního dne a udržujte každou událost v synchronizaci."
+      },
+      "contacts": {
+        "date": "Červenec 2026",
+        "name": "Kontakty",
+        "description": "Osobní a týmově sdílené adresáře s přístupem CardDAV z libovolného klienta odpovídajícího standardům. Kontakty se automaticky doplňují z pošty a kalendářových pozvánek — žádné ruční zadávání, žádné uvíznutí v platformě."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Instalovatelná webová aplikace (PWA)",
+        "description": "Nainstalujte si Verkio na domovskou obrazovku telefonu nebo počítače. Offline obal pro schránku, push notifikace a pocit skutečné aplikace — bez nativního obchodu s aplikacemi mezi vámi a námi."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Export přenositelnosti podle článku 20 GDPR",
+        "description": "Jednokliknutý export celého pracovního prostoru v interoperabilních otevřených formátech — pošta jako standardní mbox, kalendáře jako ICS, kontakty jako vCard, soubory v původních formátech. Vezměte si je k libovolnému jinému poskytovateli. Žádné uvíznutí, nikdy."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "End-to-end šifrovaná pošta (PGP a S/MIME)",
+        "description": "OpenPGP a S/MIME ve webové poště se standardními hlavičkami, takže šifrovaná pošta funguje bez problémů mezi schránkami Verkio a libovolným jiným klientem s podporou PGP nebo S/MIME. Klíče máte pod kontrolou vy, nikdy nejsou v úschově."
       }
     }
   },
@@ -599,5 +632,29 @@
       "body": "Otevřené standardy, klidné výchozí hodnoty, plný export kdykoliv.",
       "link": "Proč si týmy vybírají Verkio"
     }
+  },
+  "whatWeDontHave": {
+    "eyebrow": "Negative space",
+    "headline": "Things we deliberately don't have.",
+    "subhead": "Verkio is defined as much by what we leave out.",
+    "items": [
+      "AI features that quietly read your mail.",
+      "Engagement metrics counting how addicted you are.",
+      "Read receipts that work differently in every client.",
+      "A 'team activity' feed nobody asked for.",
+      "'Smart' inbox categorisation hiding your mail.",
+      "Data brokers anywhere in the subprocessor list."
+    ]
+  },
+  "founderNote": {
+    "eyebrow": "From the founder",
+    "body": "Hi, I'm Benji. I built Verkio because every time Gmail rolled out a new AI feature my IT-admin friends sighed a little harder. I think email should be boring, yours, and built to last decades — and that the only sustainable way to build that is from inside the EU, on open standards, by a small company that doesn't need to grow forever. If that resonates, join the waitlist.",
+    "signature": "— Benji, founder"
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "headline": "You've reached an address that doesn't exist.",
+    "body": "Like a Gmail label, basically. Let's get you back home.",
+    "backLink": "Back to verkio.eu"
   }
 }

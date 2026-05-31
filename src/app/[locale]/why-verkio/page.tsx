@@ -3,9 +3,11 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Footer, Header } from "@/app/[locale]/components/Layout";
 import { Principles } from "@/app/[locale]/components/Principles";
+import { WhatWeDontHave } from "@/app/[locale]/components/WhatWeDontHave";
 import { Residency } from "@/app/[locale]/components/Residency";
 import { Comparison } from "@/app/[locale]/components/Comparison";
 import { Faqs, FaqStructuredData } from "@/app/[locale]/components/Faqs";
+import { FounderNote } from "@/app/[locale]/components/FounderNote";
 import { WaitlistCta } from "@/app/[locale]/components/WaitlistCta";
 
 export function generateStaticParams() {
@@ -49,9 +51,11 @@ export default async function WhyVerkioPage({
       <Header />
       <main>
         <Principles />
+        <WhatWeDontHave />
         <Residency />
         <Comparison />
         <Faqs />
+        <FounderNote />
         <WaitlistCta />
       </main>
       <Footer />

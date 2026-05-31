@@ -21,7 +21,11 @@
     "eyebrow": "Kemur út í júlí 2026",
     "headline": "Vinnusvíta án hávaða.",
     "body1": "Póstur, dagatal, tengiliðir, skrár, wikiar og skilaboð. Ein svíta fyrir alvöru vinnu, án þenslu eða hávaða.",
-    "body2": "Smíðað á opnum stöðlum. Hýst í Evrópu. Þitt að yfirgefa, hvenær sem er."
+    "body2": "Smíðað á opnum stöðlum. Hýst í Evrópu. Þitt að yfirgefa, hvenær sem er.",
+    "headlinePrefix": "Vinnusvíta án ",
+    "rotatingWords": [
+      "hávaða"
+    ]
   },
   "suite": {
     "eyebrow": "Svítan",
@@ -269,6 +273,10 @@
       "openSource": {
         "question": "Er Verkio opinn hugbúnaður?",
         "answer": "Notendahlið byggir á opnum stöðlum, svo öll samhæf tól virka. Við segjum meira frá bakenda nær útgáfu."
+      },
+      "ai": {
+        "question": "Do you have AI features?",
+        "answer": "No. We have features."
       }
     }
   },
@@ -441,6 +449,31 @@
         "date": "Maí 2026",
         "name": "Áframsending tölvupósts út fyrir kerfið",
         "description": "Áframsendu afrit af hverju innkomnu skeyti á netfang hjá öðrum þjónustuveitanda — Gmail, Fastmail, einkapósthólfið þitt. Áfangastaðurinn verður að staðfesta með því að smella á tengil áður en áframsending hefst; allt að 3 áframsendingar á hvert einkapósthólf; hver breyting er skráð í úttektarskrána."
+      },
+      "calendar": {
+        "date": "Júlí 2026",
+        "name": "Dagatal",
+        "description": "Sameiginleg dagatöl, boð, áminningar og laus/upptekinn staða þvert á svítuna. Opið CalDAV undir húddinu — tengdu Apple Calendar, Thunderbird eða DAVx⁵ frá fyrsta degi og haltu öllum atburðum samstilltum."
+      },
+      "contacts": {
+        "date": "Júlí 2026",
+        "name": "Tengiliðir",
+        "description": "Persónulegar og hópdeildar nafnaskrár, með CardDAV-aðgangi frá hvaða stöðluðum biðlara sem er. Tengiliðir fyllast sjálfkrafa út frá pósti og dagatalsboðum — engin handvirk innsláttur, engin læsing við vettvang."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Uppsetjanlegt vefforrit (PWA)",
+        "description": "Settu Verkio upp á heimaskjáinn í síma eða tölvu. Ónettengt skel fyrir innhólfið, ýti-tilkynningar og raunveruleg forritsupplifun — án innfædds forritamarkaðar í miðjunni."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Útflutningur gagnaflytjanleika skv. 20. grein GDPR",
+        "description": "Einsmellsútflutningur á öllu vinnusvæðinu þínu á samvirkum opnum sniðum — póstur sem staðlað mbox, dagatöl sem ICS, tengiliðir sem vCard, skrár á upprunalegu sniði sínu. Taktu þetta með þér til hvaða annars þjónustuveitanda sem er. Engin læsing, nokkurn tíma."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Endi-til-enda dulkóðaður póstur (PGP og S/MIME)",
+        "description": "OpenPGP og S/MIME í vefpóstinum, með stöðluðum hausum þannig að dulkóðaður póstur virkar áreynslulaust milli Verkio-pósthólfa og hvers annars PGP- eða S/MIME-tækra biðlara. Lyklar sem þú stýrir sjálf(ur), aldrei í vörslu þriðja aðila."
       }
     }
   },
@@ -599,5 +632,29 @@
       "body": "Opnir staðlar, róleg sjálfgefin gildi, full útflutningur hvenær sem er.",
       "link": "Hvers vegna teymi velja Verkio"
     }
+  },
+  "whatWeDontHave": {
+    "eyebrow": "Negative space",
+    "headline": "Things we deliberately don't have.",
+    "subhead": "Verkio is defined as much by what we leave out.",
+    "items": [
+      "AI features that quietly read your mail.",
+      "Engagement metrics counting how addicted you are.",
+      "Read receipts that work differently in every client.",
+      "A 'team activity' feed nobody asked for.",
+      "'Smart' inbox categorisation hiding your mail.",
+      "Data brokers anywhere in the subprocessor list."
+    ]
+  },
+  "founderNote": {
+    "eyebrow": "From the founder",
+    "body": "Hi, I'm Benji. I built Verkio because every time Gmail rolled out a new AI feature my IT-admin friends sighed a little harder. I think email should be boring, yours, and built to last decades — and that the only sustainable way to build that is from inside the EU, on open standards, by a small company that doesn't need to grow forever. If that resonates, join the waitlist.",
+    "signature": "— Benji, founder"
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "headline": "You've reached an address that doesn't exist.",
+    "body": "Like a Gmail label, basically. Let's get you back home.",
+    "backLink": "Back to verkio.eu"
   }
 }

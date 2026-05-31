@@ -21,7 +21,11 @@
     "eyebrow": "Lanseres i juli 2026",
     "headline": "Arbeidssuiten uten støy.",
     "body1": "E-post, kalender, kontakter, filer, wikier og meldinger. Én suite for det faktiske arbeidet, uten oppblåsthet eller støy.",
-    "body2": "Bygd på åpne standarder. Driftet i Europa. Ditt å forlate, når som helst."
+    "body2": "Bygd på åpne standarder. Driftet i Europa. Ditt å forlate, når som helst.",
+    "headlinePrefix": "Arbeidssuiten uten ",
+    "rotatingWords": [
+      "støy"
+    ]
   },
   "suite": {
     "eyebrow": "Suiten",
@@ -269,6 +273,10 @@
       "openSource": {
         "question": "Er Verkio åpen kildekode?",
         "answer": "Klientsiden bygger på åpne standarder, så alle kompatible klienter fungerer. Vi deler mer om backend nærmere lansering."
+      },
+      "ai": {
+        "question": "Do you have AI features?",
+        "answer": "No. We have features."
       }
     }
   },
@@ -441,6 +449,31 @@
         "date": "Mai 2026",
         "name": "Ekstern e-postvideresending",
         "description": "Videresend en kopi av hver innkommende melding til en adresse hos en annen leverandør — Gmail, Fastmail, din personlige innboks. Mottakeren må bekrefte ved å klikke på en lenke før videresending starter; opptil 3 videresendinger per personlig postboks; hver endring registreres i revisjonsloggen."
+      },
+      "calendar": {
+        "date": "Juli 2026",
+        "name": "Kalender",
+        "description": "Delte kalendere, invitasjoner, påminnelser og ledig/opptatt på tvers av suiten. Åpen CalDAV under panseret — koble til Apple Calendar, Thunderbird eller DAVx⁵ fra dag én og hold hver hendelse synkronisert."
+      },
+      "contacts": {
+        "date": "Juli 2026",
+        "name": "Kontakter",
+        "description": "Personlige og teamdelte adressebøker, med CardDAV-tilgang fra enhver standardkompatibel klient. Kontakter fylles ut automatisk fra e-post og kalenderinvitasjoner — ingen manuell innføring, ingen plattformlåsing."
+      },
+      "pwaInstall": {
+        "date": "Q3 2027",
+        "name": "Installerbar nettapp (PWA)",
+        "description": "Installer Verkio på startskjermen på mobil eller skrivebord. Frakoblet skall for innboksen, push-varsler og en ekte appfølelse — uten en native appbutikk i mellom."
+      },
+      "gdprPortability": {
+        "date": "Q3 2027",
+        "name": "Eksport av dataportabilitet etter GDPR artikkel 20",
+        "description": "Ettrykks-eksport av hele arbeidsområdet ditt i interoperable åpne formater — e-post som standard mbox, kalendere som ICS, kontakter som vCard, filer i sine opprinnelige formater. Ta det med til en hvilken som helst annen leverandør. Ingen låsing, aldri."
+      },
+      "pgpSmime": {
+        "date": "Q4 2027",
+        "name": "Ende-til-ende-kryptert e-post (PGP og S/MIME)",
+        "description": "OpenPGP og S/MIME i webmailen, med standardhoder slik at kryptert e-post bare virker mellom Verkio-postbokser og enhver annen PGP- eller S/MIME-kompatibel klient. Nøkler du selv kontrollerer, aldri i deponering."
       }
     }
   },
@@ -599,5 +632,29 @@
       "body": "Åpne standarder, rolige defaulter, full eksport når som helst.",
       "link": "Hvorfor team velger Verkio"
     }
+  },
+  "whatWeDontHave": {
+    "eyebrow": "Negative space",
+    "headline": "Things we deliberately don't have.",
+    "subhead": "Verkio is defined as much by what we leave out.",
+    "items": [
+      "AI features that quietly read your mail.",
+      "Engagement metrics counting how addicted you are.",
+      "Read receipts that work differently in every client.",
+      "A 'team activity' feed nobody asked for.",
+      "'Smart' inbox categorisation hiding your mail.",
+      "Data brokers anywhere in the subprocessor list."
+    ]
+  },
+  "founderNote": {
+    "eyebrow": "From the founder",
+    "body": "Hi, I'm Benji. I built Verkio because every time Gmail rolled out a new AI feature my IT-admin friends sighed a little harder. I think email should be boring, yours, and built to last decades — and that the only sustainable way to build that is from inside the EU, on open standards, by a small company that doesn't need to grow forever. If that resonates, join the waitlist.",
+    "signature": "— Benji, founder"
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "headline": "You've reached an address that doesn't exist.",
+    "body": "Like a Gmail label, basically. Let's get you back home.",
+    "backLink": "Back to verkio.eu"
   }
 }
