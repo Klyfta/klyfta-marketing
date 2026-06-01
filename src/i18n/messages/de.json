@@ -474,6 +474,21 @@
         "date": "Q4 2027",
         "name": "Ende-zu-Ende-verschlüsselte E-Mail (PGP und S/MIME)",
         "description": "OpenPGP und S/MIME in der Webmail, mit Standard-Headern, sodass verschlüsselte E-Mail zwischen Verkio-Postfächern und jedem anderen PGP- oder S/MIME-fähigen Client einfach funktioniert. Schlüssel, die Sie kontrollieren, niemals in Verwahrung."
+      },
+      "notifications": {
+        "date": "May 2026",
+        "name": "Notifications & web push",
+        "description": "Bell icon, in-app inbox, and browser push for the moments that matter — new mail, calendar invites, shared mentions, file shares. Per-channel preferences; nothing leaves your control plane."
+      },
+      "discountCodes": {
+        "date": "May 2026",
+        "name": "Discount codes",
+        "description": "Apply a code at signup or mid-subscription. Percent, flat-amount, or free-month comp; per-customer redemption limits; restrict to specific plans or billing periods. Pricing transparency on every invoice."
+      },
+      "universalSearch": {
+        "date": "June 2026",
+        "name": "Universal search",
+        "description": "One input in the top bar searches Email, Calendar, Contacts, Files, Wikis, and Messages. Grouped results, keyboard-first, sharable URLs. Press / from any page to focus; everything in one place."
       }
     }
   },

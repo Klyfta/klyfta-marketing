@@ -474,6 +474,21 @@
         "date": "Q4 2027",
         "name": "Pilnīgi šifrēts pasts (PGP un S/MIME)",
         "description": "OpenPGP un S/MIME tīmekļa pastā ar standarta galvenēm, lai šifrēts pasts vienkārši darbojas starp Verkio pastkastītēm un jebkuru citu klientu, kas atbalsta PGP vai S/MIME. Atslēgas kontrolē tu, tās nekad neglabājas pie mums."
+      },
+      "notifications": {
+        "date": "May 2026",
+        "name": "Notifications & web push",
+        "description": "Bell icon, in-app inbox, and browser push for the moments that matter — new mail, calendar invites, shared mentions, file shares. Per-channel preferences; nothing leaves your control plane."
+      },
+      "discountCodes": {
+        "date": "May 2026",
+        "name": "Discount codes",
+        "description": "Apply a code at signup or mid-subscription. Percent, flat-amount, or free-month comp; per-customer redemption limits; restrict to specific plans or billing periods. Pricing transparency on every invoice."
+      },
+      "universalSearch": {
+        "date": "June 2026",
+        "name": "Universal search",
+        "description": "One input in the top bar searches Email, Calendar, Contacts, Files, Wikis, and Messages. Grouped results, keyboard-first, sharable URLs. Press / from any page to focus; everything in one place."
       }
     }
   },
