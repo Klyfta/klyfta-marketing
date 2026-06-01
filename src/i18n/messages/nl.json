@@ -1051,6 +1051,132 @@
       }
     }
   },
+  "productApi": {
+    "metaTitle": "Publieke API — Verkio",
+    "metaDescription": "Op standaarden gebaseerde REST API met een OpenAPI 3.1-specificatie, ondertekende webhooks, JMAP-passthrough en een streambaar audit log. Koppel Verkio aan de tools die je al hebt.",
+    "eyebrow": "Publieke API",
+    "headline": "Een REST API. JMAP. Ondertekende webhooks. Het audit log.",
+    "body": "Verkio is API-first gebouwd — dezelfde endpoints die de web-app gebruikt, staan voor jou open. REST met een OpenAPI 3.1-specificatie voor codegen. Ondertekende webhooks voor de events die jou interesseren. JMAP voor directe toegang tot het mailprotocol. Het audit log streambaar naar jouw SIEM.",
+    "cta": "Op de wachtlijst",
+    "backLink": "Terug naar productoverzicht",
+    "sections": {
+      "rest": {
+        "eyebrow": "REST",
+        "headline": "REST met een OpenAPI 3.1-specificatie.",
+        "body": "Elk endpoint gedocumenteerd in één OpenAPI 3.1-bestand. Wijs je codegen-tool (openapi-generator, oapi-codegen, OpenAPI TS) naar /api/v1/openapi.json en krijg een getypeerde client in de taal van jouw keuze — of blader door de interactieve referentie op /developers.",
+        "bullets": [
+          "OpenAPI 3.1-specificatie op /api/v1/openapi.json — klaar voor codegen.",
+          "Interactieve referentie op /developers (Swagger UI).",
+          "Bearer-token-authenticatie (RFC 6750). Sleutels gehasht met Argon2id in rust.",
+          "Per-sleutel rate limits met X-RateLimit-*-headers. 429's met Retry-After.",
+          "Idempotency-Key-ondersteuning op mutatie-endpoints — veilig om opnieuw te proberen op wankele netwerken."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Ondertekende webhooks",
+        "headline": "HMAC-ondertekende levering met een dead-letter-wachtrij.",
+        "body": "Abonneer op de events die jou interesseren — nieuwe mail, audit log-entries, accountwijzigingen. Elke payload is HMAC-SHA256-ondertekend zodat je kunt verifiëren dat hij van Verkio komt. Mislukte leveringen worden opnieuw geprobeerd met exponentiële backoff; aanhoudende fouten belanden in een dead-letter-wachtrij die je kunt inspecteren en opnieuw kunt afspelen.",
+        "bullets": [
+          "HMAC-SHA256-handtekening per payload (X-Verkio-Signature-header).",
+          "Exponentiële backoff-pogingen bij 5xx en verbindingsfouten.",
+          "Dead-letter-wachtrij in het dashboard — inspecteren, opnieuw afspelen, verwerpen.",
+          "Elke leveringspoging gelogd in het audit log."
+        ]
+      },
+      "jmap": {
+        "eyebrow": "JMAP-passthrough",
+        "headline": "Spreek het moderne mailprotocol direct.",
+        "body": "De onderliggende mailserver van Verkio spreekt JMAP (RFC 8620 / 8621) — de moderne, op JSON gebaseerde opvolger van IMAP. De publieke API biedt een JMAP-passthrough zodat clientbibliotheken rechtstreeks met je postvakken kunnen praten zonder elk endpoint server-side opnieuw te implementeren.",
+        "bullets": [
+          "JMAP Core (RFC 8620) en JMAP Mail (RFC 8621) via /api/v1/jmap.",
+          "Gebruik elke JMAP-compatibele clientbibliotheek — jmap-client (JS), python-jmap, anderen.",
+          "Push-notificaties via JMAP EventSource — geen polling.",
+          "IMAP en SMTP zijn ook beschikbaar voor clients die ze nodig hebben."
+        ]
+      },
+      "auditLog": {
+        "eyebrow": "Audit log-API",
+        "headline": "Elke admin-actie, streambaar.",
+        "body": "Hetzelfde audit log dat je in het dashboard leest, is beschikbaar als API — gepagineerd, filterbaar, met voor/na-waarden bij elke wijziging. Stream events naar Splunk, Datadog of een SIEM die een webhook accepteert of een gepagineerd endpoint polled. Exporteer naar CSV of JSONL voor forensisch onderzoek.",
+        "bullets": [
+          "Gepagineerd en filterbaar: per gebruiker, per eventtype, per datumbereik.",
+          "Voor/na-waarden bij elke mutatie — volledig forensisch spoor.",
+          "Stream naar jouw SIEM via webhook of pull-endpoint.",
+          "Exporteer naar CSV of JSONL voor offline-analyse. Zeven jaar retentie standaard."
+        ]
+      },
+      "production": {
+        "eyebrow": "Productiegereed",
+        "headline": "Gebouwd voor de langlopende integraties die je écht wilt schrijven.",
+        "body": "Scoped API-sleutels met rotatie. Per-sleutel rate limits. Idempotentie bij schrijfacties. Geversioneerde URL's zodat een deprecation je niet overvalt op een rustige zondag. De saaie garanties die een integratie het schrijven waard maken.",
+        "bullets": [
+          "Scoped API-sleutels — read-only, beperkt tot een postvak, beperkt tot een organisatie.",
+          "Sleutelrotatie in het dashboard — intrekken en opnieuw uitgeven zonder downtime.",
+          "URL-versionering (/api/v1/…) met deprecation-headers maanden vooraf.",
+          "OpenAPI-changelog gepubliceerd; breaking changes alleen bij major-versiesprongen."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Open standaarden",
+      "headline": "RFC's en OpenAPI. Niets proprietairs.",
+      "body": "Elk protocol dat de publieke API spreekt is publiek gedocumenteerd. Neem je codegen-tool mee. Neem je bestaande clientbibliotheek mee. Niets hier is verzonnen voor een verkooppitch.",
+      "items": [
+        "OpenAPI 3.1",
+        "REST",
+        "JMAP Core (RFC 8620)",
+        "JMAP Mail (RFC 8621)",
+        "Bearer auth (RFC 6750)",
+        "HMAC-SHA256 (RFC 6234)",
+        "Argon2id key hashing",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productSignIn": {
+    "metaTitle": "Sign in with Verkio — Verkio",
+    "metaDescription": "Een in de EU gevestigde identity provider voor het open web. Standaard OIDC, geen cross-site profilering, jij hebt de toestemming. Gepland — gedreven door vraag van ontwikkelaars.",
+    "eyebrow": "Sign in with Verkio · Binnenkort",
+    "headline": "Een identity provider die de mensen die hem gebruiken respecteert.",
+    "body": "Sign in with Verkio is een standaard OIDC-knop die elke derde partij kan integreren — je Verkio-account wordt je identiteit voor het open web. In de EU gevestigd, privacyrespecterend, geen cross-site profilering. Gepland, gedreven door vraag van ontwikkelaars: gratis voor eindgebruikers, gratis voor ontwikkelaars in v1. Laat ons weten dat je het wil en we bouwen het eerder.",
+    "cta": "Laat ons weten dat je het wil",
+    "backLink": "Terug naar productoverzicht",
+    "sections": {
+      "euIdentity": {
+        "eyebrow": "Een in de EU gevestigde identiteit",
+        "headline": "Jouw account, jouw identiteit, in de EU.",
+        "body": "Vandaag betekent 'sign in with…' Google, Apple of Microsoft — allemaal hoofdkantoor in de VS, allemaal lezen ze elke site mee waar je op inlogt. Sign in with Verkio geeft het open web een in de EU gevestigd alternatief. Aanmeldingen blijven binnen de EU-infrastructuur van Verkio. Geen cross-site profilering. Geen US CLOUD Act-oppervlak.",
+        "bullets": [
+          "In de EU gevestigde aanmeldflow op Verkio-infrastructuur.",
+          "Geen cross-site tracking — sites krijgen geen profiel dat ze kunnen correleren.",
+          "Buiten de jurisdictie van de US CLOUD Act.",
+          "Eén identiteit voor de apps die je gebruikt; per site intrekbaar wanneer je wil."
+        ]
+      },
+      "openStandard": {
+        "eyebrow": "Standaard OIDC",
+        "headline": "Gewoon OIDC. Werkt met wat je al hebt.",
+        "body": "Sign in with Verkio zal standaard OpenID Connect spreken — hetzelfde protocol dat je bestaande identity broker (Auth0, Clerk, Keycloak, NextAuth) al ondersteunt. Het toevoegen zou een configuratiewijziging moeten zijn, geen code-herschrijving.",
+        "bullets": [
+          "Standaard OpenID Connect (OIDC) — discovery, JWKS, het gebruikelijke.",
+          "Werkt met elke OIDC-bewuste bibliotheek — geen Verkio-SDK vereist.",
+          "Voegt zich toe aan je bestaande IdP-setup naast Sign in with Google of Apple.",
+          "Gratis voor eindgebruikers; gratis voor ontwikkelaars in v1."
+        ]
+      },
+      "consent": {
+        "eyebrow": "Jij hebt de toestemming",
+        "headline": "Per site, intrekbaar, transparant.",
+        "body": "Wanneer een site om aanmelding vraagt, zie je precies welke data ze vragen. Je kan delen weigeren die je niet wil delen. Elke site waar je ooit op hebt ingelogd verschijnt in een dashboard met verbonden apps — trek elke daarvan in met één klik. Geen stille herauthenticatie, geen scope creep.",
+        "bullets": [
+          "Per-site toestemmingsscherm — granulair, geen alles-of-niets.",
+          "Dashboard met verbonden apps die elke site lijst waarop je hebt ingelogd.",
+          "Eén-klik intrekken, op elk moment — de site verliest direct toegang.",
+          "Geen stille herauthenticatie; scope-wijzigingen vereisen verse toestemming."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Waarom Verkio — Verkio",
     "metaDescription": "Waarom teams voor Verkio kiezen: rustige software, open standaarden, EU-residentie, geen vendor lock-in."

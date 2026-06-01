@@ -1051,6 +1051,132 @@
       }
     }
   },
+  "productApi": {
+    "metaTitle": "Offentligt API — Verkio",
+    "metaDescription": "Standardbaseret REST API med en OpenAPI 3.1-spec, signerede webhooks, JMAP-passthrough og en streambar revisionslog. Kobl Verkio ind i de værktøjer, du allerede har.",
+    "eyebrow": "Offentligt API",
+    "headline": "Et REST API. JMAP. Signerede webhooks. Revisionsloggen.",
+    "body": "Verkio er bygget API-first — de samme endpoints, som webappen bruger, er åbne for dig. REST med en OpenAPI 3.1-spec til codegen. Signerede webhooks til de begivenheder, du holder af. JMAP til direkte adgang til mailprotokollen. Revisionsloggen, der kan streames til dit SIEM.",
+    "cta": "Tilmeld venteliste",
+    "backLink": "Tilbage til produktoverblikket",
+    "sections": {
+      "rest": {
+        "eyebrow": "REST",
+        "headline": "REST med en OpenAPI 3.1-spec.",
+        "body": "Hvert endpoint dokumenteret i en enkelt OpenAPI 3.1-fil. Peg dit codegen-værktøj (openapi-generator, oapi-codegen, OpenAPI TS) på /api/v1/openapi.json og få en typet klient i dit foretrukne sprog — eller browse den interaktive reference på /developers.",
+        "bullets": [
+          "OpenAPI 3.1-spec på /api/v1/openapi.json — klar til codegen.",
+          "Interaktiv reference på /developers (Swagger UI).",
+          "Bearer-token-autentificering (RFC 6750). Nøgler hashes med Argon2id i hvile.",
+          "Per-nøgle-ratelimits med X-RateLimit-*-headere. 429'ere med Retry-After.",
+          "Idempotency-Key-understøttelse på muterende endpoints — sikkert at gentage på ustabile netværk."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Signerede webhooks",
+        "headline": "HMAC-signeret levering med en dead-letter-kø.",
+        "body": "Abonnér på de begivenheder, du holder af — ny post, revisionslogsposter, kontoændringer. Hver payload er HMAC-SHA256-signeret, så du kan verificere, at den kom fra Verkio. Fejlede leveringer prøves igen med eksponentiel backoff; vedvarende fejl ender i en dead-letter-kø, du kan inspicere og afspille igen.",
+        "bullets": [
+          "HMAC-SHA256-signatur pr. payload (X-Verkio-Signature-header).",
+          "Eksponentielle backoff-genforsøg ved 5xx- og forbindelsesfejl.",
+          "Dead-letter-kø i dashboardet — inspicér, afspil igen, afvis.",
+          "Hvert leveringsforsøg logges i revisionsloggen."
+        ]
+      },
+      "jmap": {
+        "eyebrow": "JMAP-passthrough",
+        "headline": "Tal den moderne mailprotokol direkte.",
+        "body": "Verkios underliggende mailserver taler JMAP (RFC 8620 / 8621) — den moderne, JSON-baserede efterfølger til IMAP. Det offentlige API tilbyder en JMAP-passthrough, så klientbiblioteker kan tale direkte med dine postkasser uden at skulle genimplementere hvert endpoint på serversiden.",
+        "bullets": [
+          "JMAP Core (RFC 8620) og JMAP Mail (RFC 8621) over /api/v1/jmap.",
+          "Brug ethvert JMAP-kompatibelt klientbibliotek — jmap-client (JS), python-jmap, andre.",
+          "Push-notifikationer via JMAP EventSource — ingen polling.",
+          "IMAP og SMTP er også tilgængelige for klienter, der har brug for dem."
+        ]
+      },
+      "auditLog": {
+        "eyebrow": "Revisionslog-API",
+        "headline": "Hver admin-handling, streambar.",
+        "body": "Den samme revisionslog, som du læser i dashboardet, er tilgængelig som et API — pagineret, filtrerbart, med før/efter-værdier på hver ændring. Stream begivenheder til Splunk, Datadog eller et hvilket som helst SIEM, der accepterer en webhook eller poller et pagineret endpoint. Eksportér til CSV eller JSONL til retsmedicinsk analyse.",
+        "bullets": [
+          "Pagineret og filtrerbart: efter bruger, begivenhedstype, datointerval.",
+          "Før/efter-værdier på hver mutation — fuldt retsmedicinsk spor.",
+          "Stream til dit SIEM via webhook eller pull-endpoint.",
+          "Eksportér til CSV eller JSONL til offlineanalyse. Syv års opbevaring som standard."
+        ]
+      },
+      "production": {
+        "eyebrow": "Produktionsklar",
+        "headline": "Bygget til de langvarige integrationer, du faktisk vil skrive.",
+        "body": "Scoped API-nøgler med rotation. Per-nøgle-ratelimits. Idempotens ved skrivninger. Versionerede URL'er, så en udfasning ikke overrasker dig en stille søndag. De kedelige garantier, der gør en integration værd at skrive.",
+        "bullets": [
+          "Scoped API-nøgler — read-only, scoped til en postkasse, scoped til en organisation.",
+          "Nøglerotation i dashboardet — tilbagekald og udsted nye uden nedetid.",
+          "URL-versioneret (/api/v1/…) med deprecation-headere måneder i forvejen.",
+          "OpenAPI-changelog offentliggjort; brydende ændringer kun ved major-versionsbump."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Åbne standarder",
+      "headline": "RFC'er og OpenAPI. Intet proprietært.",
+      "body": "Hver protokol, det offentlige API taler, er offentligt dokumenteret. Tag dit codegen-værktøj med. Tag dit eksisterende klientbibliotek med. Intet her er opfundet til en vendor-pitch.",
+      "items": [
+        "OpenAPI 3.1",
+        "REST",
+        "JMAP Core (RFC 8620)",
+        "JMAP Mail (RFC 8621)",
+        "Bearer auth (RFC 6750)",
+        "HMAC-SHA256 (RFC 6234)",
+        "Argon2id key hashing",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productSignIn": {
+    "metaTitle": "Sign in with Verkio — Verkio",
+    "metaDescription": "En EU-baseret identitetsudbyder til det åbne web. Standard-OIDC, ingen cross-site-profilering, du ejer samtykket. Planlagt — udviklerefterspørgselsdrevet.",
+    "eyebrow": "Sign in with Verkio · Kommer snart",
+    "headline": "En identitetsudbyder, der respekterer de mennesker, der bruger den.",
+    "body": "Sign in with Verkio er en standard-OIDC-knap, som enhver tredjepartsside kan integrere — din Verkio-konto bliver din identitet til det åbne web. EU-baseret, privatlivsrespekterende, ingen cross-site-profilering. Planlagt, udviklerefterspørgselsdrevet: gratis for slutbrugere, gratis for udviklere i v1. Sig til, at du vil have det, så bygger vi det hurtigere.",
+    "cta": "Sig til, at du vil have det",
+    "backLink": "Tilbage til produktoverblikket",
+    "sections": {
+      "euIdentity": {
+        "eyebrow": "En EU-baseret identitet",
+        "headline": "Din konto, din identitet, i EU.",
+        "body": "I dag betyder 'sign in with…' Google, Apple eller Microsoft — alle med hovedkvarter i USA, alle læser hver side, du logger ind på. Sign in with Verkio giver det åbne web et EU-baseret alternativ. Login forbliver inden for Verkios EU-infrastruktur. Ingen cross-site-profilering. Ingen US CLOUD Act-overflade.",
+        "bullets": [
+          "EU-baseret login-flow på Verkio-infrastruktur.",
+          "Ingen cross-site-sporing — sider får ikke en profil, de kan korrelere.",
+          "Uden for US CLOUD Acts jurisdiktion.",
+          "Én identitet til de apps, du bruger; tilbagekaldelig pr. side, når du vil."
+        ]
+      },
+      "openStandard": {
+        "eyebrow": "Standard-OIDC",
+        "headline": "Bare OIDC. Virker med det, du allerede har.",
+        "body": "Sign in with Verkio vil tale standard OpenID Connect — den samme protokol, som din eksisterende identitetsbroker (Auth0, Clerk, Keycloak, NextAuth) allerede understøtter. At tilføje det bør være en konfigurationsændring, ikke en kodeomskrivning.",
+        "bullets": [
+          "Standard OpenID Connect (OIDC) — discovery, JWKS, det sædvanlige.",
+          "Virker med ethvert OIDC-bevidst bibliotek — intet Verkio-SDK påkrævet.",
+          "Tilføjes til dit eksisterende IdP-opsætning ved siden af Sign in with Google eller Apple.",
+          "Gratis for slutbrugere; gratis for udviklere i v1."
+        ]
+      },
+      "consent": {
+        "eyebrow": "Du ejer samtykket",
+        "headline": "Pr. side, tilbagekaldelig, gennemsigtig.",
+        "body": "Når en side beder om login, ser du præcis hvilke data, de beder om. Du kan afvise dele, du ikke vil dele. Hver side, du nogensinde har logget ind på, vises i et dashboard over forbundne apps — tilbagekald enhver med ét klik. Ingen tavs gentaget autentificering, intet scope creep.",
+        "bullets": [
+          "Pr.-side-samtykkeskærm — granulær, ikke alt-eller-intet.",
+          "Dashboard over forbundne apps med hver side, du har logget ind på.",
+          "Ét-kliks-tilbagekaldelse, når som helst — siden mister adgang øjeblikkeligt.",
+          "Ingen tavs gentaget autentificering; scope-ændringer kræver friskt samtykke."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Hvorfor Verkio — Verkio",
     "metaDescription": "Hvorfor teams vælger Verkio: stille software, åbne standarder, EU-residens, ingen indlåsning."

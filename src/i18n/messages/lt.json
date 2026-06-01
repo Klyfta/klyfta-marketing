@@ -1051,6 +1051,132 @@
       }
     }
   },
+  "productApi": {
+    "metaTitle": "Vieša API — Verkio",
+    "metaDescription": "Standartais paremta REST API su OpenAPI 3.1 specifikacija, pasirašytais webhook'ais, JMAP perdavimu ir transliuojamu audito žurnalu. Įjunkite Verkio į įrankius, kuriuos jau turite.",
+    "eyebrow": "Vieša API",
+    "headline": "REST API. JMAP. Pasirašyti webhook'ai. Audito žurnalas.",
+    "body": "Verkio sukurta API-first principu — tie patys endpoint'ai, kuriuos naudoja web aplikacija, yra atviri jums. REST su OpenAPI 3.1 specifikacija codegen'ui. Pasirašyti webhook'ai įvykiams, kurie jums svarbūs. JMAP tiesioginei prieigai prie pašto protokolo. Audito žurnalas, transliuojamas į jūsų SIEM.",
+    "cta": "Užsiregistruoti",
+    "backLink": "Atgal į produkto apžvalgą",
+    "sections": {
+      "rest": {
+        "eyebrow": "REST",
+        "headline": "REST su OpenAPI 3.1 specifikacija.",
+        "body": "Kiekvienas endpoint'as dokumentuotas viename OpenAPI 3.1 faile. Nukreipkite savo codegen įrankį (openapi-generator, oapi-codegen, OpenAPI TS) į /api/v1/openapi.json ir gaukite tipizuotą klientą norima kalba — arba naršykite interaktyvią nuorodą /developers.",
+        "bullets": [
+          "OpenAPI 3.1 specifikacija /api/v1/openapi.json — paruošta codegen'ui.",
+          "Interaktyvi nuoroda /developers (Swagger UI).",
+          "Bearer token autentifikacija (RFC 6750). Raktai hashinami Argon2id ramybės būsenoje.",
+          "Per-raktas greičio ribos su X-RateLimit-* antraštėmis. 429 su Retry-After.",
+          "Idempotency-Key palaikymas mutuojantiems endpoint'ams — saugu pakartoti nestabiliuose tinkluose."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Pasirašyti webhook'ai",
+        "headline": "HMAC pasirašytas pristatymas su dead-letter eile.",
+        "body": "Užsiprenumeruokite įvykius, kurie jums svarbūs — naujas paštas, audito žurnalo įrašai, paskyros pakeitimai. Kiekvienas payload pasirašytas HMAC-SHA256, todėl galite patvirtinti, kad jis atėjo iš Verkio. Nepavykę pristatymai pakartojami su eksponentiniu backoff'u; nuolatinės klaidos patenka į dead-letter eilę, kurią galite peržiūrėti ir pakartoti.",
+        "bullets": [
+          "HMAC-SHA256 parašas kiekvienam payload (X-Verkio-Signature antraštė).",
+          "Eksponentiniai backoff pakartojimai esant 5xx ir ryšio klaidoms.",
+          "Dead-letter eilė skydelyje — peržiūrėti, pakartoti, atmesti.",
+          "Kiekvienas pristatymo bandymas užregistruotas audito žurnale."
+        ]
+      },
+      "jmap": {
+        "eyebrow": "JMAP perdavimas",
+        "headline": "Kalbėkite šiuolaikiniu pašto protokolu tiesiogiai.",
+        "body": "Pagrindinis Verkio pašto serveris kalba JMAP (RFC 8620 / 8621) — šiuolaikinį, JSON pagrindu sukurtą IMAP įpėdinį. Viešoji API atskleidžia JMAP perdavimą, kad kliento bibliotekos galėtų bendrauti su jūsų pašto dėžutėmis tiesiogiai, nepakartodamos kiekvieno endpoint'o serverio pusėje.",
+        "bullets": [
+          "JMAP Core (RFC 8620) ir JMAP Mail (RFC 8621) per /api/v1/jmap.",
+          "Naudokite bet kokią su JMAP suderinamą kliento biblioteką — jmap-client (JS), python-jmap, kitas.",
+          "Push pranešimai per JMAP EventSource — be polling'o.",
+          "IMAP ir SMTP taip pat prieinami klientams, kuriems jie reikalingi."
+        ]
+      },
+      "auditLog": {
+        "eyebrow": "Audito žurnalo API",
+        "headline": "Kiekvienas administratoriaus veiksmas, transliuojamas.",
+        "body": "Tas pats audito žurnalas, kurį skaitote skydelyje, prieinamas kaip API — su puslapiavimu, filtruojamas, su prieš/po reikšmėmis kiekvienam pakeitimui. Transliuokite įvykius į Splunk, Datadog ar bet kokį SIEM, kuris priima webhook arba apklausia puslapiuojamą endpoint'ą. Eksportuokite į CSV arba JSONL teisminei analizei.",
+        "bullets": [
+          "Su puslapiavimu ir filtruojamas: pagal vartotoją, įvykio tipą, datų intervalą.",
+          "Prieš/po reikšmės kiekvienam pakeitimui — pilnas teisminis pėdsakas.",
+          "Transliuokite į savo SIEM per webhook arba pull endpoint'ą.",
+          "Eksportuokite į CSV arba JSONL atjungtai analizei. Septyneri metai saugojimo pagal nutylėjimą."
+        ]
+      },
+      "production": {
+        "eyebrow": "Paruošta produkcijai",
+        "headline": "Sukurta ilgalaikėms integracijoms, kurias iš tikrųjų norite rašyti.",
+        "body": "Apriboto veikimo srities API raktai su rotacija. Per-raktas greičio ribos. Idempotencija rašymuose. Versijuoti URL, kad pasenimas jūsų nenustebintų ramų sekmadienį. Nuobodžios garantijos, dėl kurių verta rašyti integraciją.",
+        "bullets": [
+          "Apriboto veikimo srities API raktai — read-only, apriboti pašto dėžutei, apriboti organizacijai.",
+          "Raktų rotacija skydelyje — atšaukite ir išduokite naujus be prastovų.",
+          "URL versijavimas (/api/v1/…) su pasenimo antraštėmis mėnesiais į priekį.",
+          "OpenAPI changelog paskelbtas; nesuderinami pakeitimai tik major versijos šuoliuose."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Atviri standartai",
+      "headline": "RFC ir OpenAPI. Nieko nuosavybinio.",
+      "body": "Kiekvienas protokolas, kuriuo kalba viešoji API, yra viešai dokumentuotas. Atsineškite savo codegen įrankį. Atsineškite savo esamą kliento biblioteką. Nieko čia nesugalvota pardavėjo pristatymui.",
+      "items": [
+        "OpenAPI 3.1",
+        "REST",
+        "JMAP Core (RFC 8620)",
+        "JMAP Mail (RFC 8621)",
+        "Bearer auth (RFC 6750)",
+        "HMAC-SHA256 (RFC 6234)",
+        "Argon2id key hashing",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productSignIn": {
+    "metaTitle": "Sign in with Verkio — Verkio",
+    "metaDescription": "ES rezidentas tapatybės teikėjas atvirajam žiniatinkliui. Standartinis OIDC, jokio profiliavimo tarp svetainių, sutikimas priklauso jums. Planuojama — paremta kūrėjų paklausa.",
+    "eyebrow": "Sign in with Verkio · Netrukus",
+    "headline": "Tapatybės teikėjas, kuris gerbia žmones, kurie jį naudoja.",
+    "body": "Sign in with Verkio yra standartinis OIDC mygtukas, kurį gali integruoti bet kokia trečiosios šalies svetainė — jūsų Verkio paskyra tampa jūsų tapatybe atvirajam žiniatinkliui. ES rezidentas, gerbiantis privatumą, jokio profiliavimo tarp svetainių. Planuojama, paremta kūrėjų paklausa: nemokama galutiniams vartotojams, nemokama kūrėjams v1. Pasakykite mums, kad to norite, ir mes sukursime greičiau.",
+    "cta": "Pasakykite mums, kad to norite",
+    "backLink": "Atgal į produkto apžvalgą",
+    "sections": {
+      "euIdentity": {
+        "eyebrow": "ES rezidentas tapatybė",
+        "headline": "Jūsų paskyra, jūsų tapatybė, ES.",
+        "body": "Šiandien 'sign in with…' reiškia Google, Apple arba Microsoft — visi su būstine JAV, visi skaito kiekvieną svetainę, kurioje prisijungiate. Sign in with Verkio suteikia atvirajam žiniatinkliui ES rezidentą alternatyvą. Prisijungimai išlieka Verkio ES infrastruktūroje. Jokio profiliavimo tarp svetainių. Jokio US CLOUD Act paviršiaus.",
+        "bullets": [
+          "ES rezidentas prisijungimo srautas Verkio infrastruktūroje.",
+          "Jokio sekimo tarp svetainių — svetainės negauna profilio, kurį galėtų koreliuoti.",
+          "Už US CLOUD Act jurisdikcijos ribų.",
+          "Viena tapatybė programėlėms, kurias naudojate; atšaukiama per svetainę bet kada."
+        ]
+      },
+      "openStandard": {
+        "eyebrow": "Standartinis OIDC",
+        "headline": "Tik OIDC. Veikia su tuo, ką jau turite.",
+        "body": "Sign in with Verkio kalbės standartinį OpenID Connect — tą patį protokolą, kurį jūsų esamas tapatybės brokeris (Auth0, Clerk, Keycloak, NextAuth) jau palaiko. Jo pridėjimas turėtų būti konfigūracijos pakeitimas, o ne kodo perrašymas.",
+        "bullets": [
+          "Standartinis OpenID Connect (OIDC) — discovery, JWKS, įprasta.",
+          "Veikia su bet kokia OIDC suprantančia biblioteka — Verkio SDK nereikalingas.",
+          "Pridedamas prie esamos IdP konfigūracijos šalia Sign in with Google ar Apple.",
+          "Nemokama galutiniams vartotojams; nemokama kūrėjams v1."
+        ]
+      },
+      "consent": {
+        "eyebrow": "Sutikimas priklauso jums",
+        "headline": "Per svetainę, atšaukiamas, skaidrus.",
+        "body": "Kai svetainė prašys prisijungimo, matysite tiksliai, kokių duomenų prašo. Galite atsisakyti dalių, kurių nenorite dalintis. Kiekviena svetainė, kurioje kada nors prisijungėte, pasirodys prijungtų programėlių skydelyje — atšaukite bet kurią vienu paspaudimu. Jokio tylaus pakartotinio autentifikavimo, jokio scope creep.",
+        "bullets": [
+          "Per-svetainė sutikimo ekranas — detalus, jokio viskas-arba-nieko.",
+          "Prijungtų programėlių skydelis, kuriame išvardintos visos svetainės, kuriose prisijungėte.",
+          "Vieno paspaudimo atšaukimas, bet kada — svetainė nedelsiant praranda prieigą.",
+          "Jokio tylaus pakartotinio autentifikavimo; scope pakeitimai reikalauja naujo sutikimo."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Kodėl Verkio — Verkio",
     "metaDescription": "Kodėl komandos renkasi Verkio: rami programinė įranga, atviri standartai, ES rezidencija, jokio uždarymo."

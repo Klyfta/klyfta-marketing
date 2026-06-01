@@ -1051,6 +1051,132 @@
       }
     }
   },
+  "productApi": {
+    "metaTitle": "Opinber API — Verkio",
+    "metaDescription": "Staðla-byggt REST API með OpenAPI 3.1 skjali, undirrituðum webhookum, JMAP-pössun og straumanlegri úttektarskrá. Tengdu Verkio við verkfærin sem þú átt nú þegar.",
+    "eyebrow": "Opinber API",
+    "headline": "REST API. JMAP. Undirritaðir webhookar. Úttektarskráin.",
+    "body": "Verkio er byggt API-first — sömu endapunktarnir og vefappið notar eru opnir þér. REST með OpenAPI 3.1 skjali fyrir kóða-myndun. Undirritaðir webhookar fyrir atburðina sem þér er annt um. JMAP til beins aðgangs að póstsamskiptareglunni. Úttektarskráin straumanleg yfir í SIEM-ið þitt.",
+    "cta": "Skrá á biðlista",
+    "backLink": "Aftur að yfirliti vöru",
+    "sections": {
+      "rest": {
+        "eyebrow": "REST",
+        "headline": "REST með OpenAPI 3.1 skjali.",
+        "body": "Sérhver endapunktur skjalfestur í einni OpenAPI 3.1 skrá. Beindu kóða-myndunartólinu þínu (openapi-generator, oapi-codegen, OpenAPI TS) að /api/v1/openapi.json og fáðu týpuðum biðlara í tungumálinu sem þú vilt — eða flettu gagnvirku heimildinni á /developers.",
+        "bullets": [
+          "OpenAPI 3.1 skjal á /api/v1/openapi.json — tilbúið fyrir kóða-myndun.",
+          "Gagnvirk heimild á /developers (Swagger UI).",
+          "Bearer-tákns auðkenning (RFC 6750). Lyklar hashaðir með Argon2id í hvíld.",
+          "Per-lykils hraðatakmörk með X-RateLimit-* haus. 429-ir með Retry-After.",
+          "Idempotency-Key stuðningur á breytandi endapunktum — öruggt að reyna aftur á óstöðugum netum."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Undirritaðir webhookar",
+        "headline": "HMAC-undirrituð afhending með dead-letter biðröð.",
+        "body": "Skráðu þig á atburðina sem þér er annt um — nýr póstur, færslur í úttektarskrá, reikningsbreytingar. Hver burður er HMAC-SHA256-undirritaður svo þú getur sannreynt að hann komi frá Verkio. Misheppnaðar afhendingar eru endurteknar með veldisvísis-backoff; viðvarandi villur lenda í dead-letter biðröð sem þú getur skoðað og endurspilað.",
+        "bullets": [
+          "HMAC-SHA256 undirskrift á hvern burð (X-Verkio-Signature haus).",
+          "Veldisvísis backoff-endurtekningar á 5xx og tengingarvillum.",
+          "Dead-letter biðröð í stjórnborði — skoðaðu, endurspilaðu, hafnaðu.",
+          "Sérhver afhendingartilraun skráð í úttektarskrá."
+        ]
+      },
+      "jmap": {
+        "eyebrow": "JMAP pössun",
+        "headline": "Talaðu nútíma póstsamskiptaregluna beint.",
+        "body": "Undirliggjandi póstþjónn Verkio talar JMAP (RFC 8620 / 8621) — nútíma, JSON-byggðan arftaka IMAP. Opinbera API-ið birtir JMAP pössun svo biðlarasöfn geti talað beint við pósthólfin þín án þess að endurútfæra hvern endapunkt á þjóns hliðinni.",
+        "bullets": [
+          "JMAP Core (RFC 8620) og JMAP Mail (RFC 8621) yfir /api/v1/jmap.",
+          "Notaðu hvaða JMAP-samhæfan biðlarasafn sem er — jmap-client (JS), python-jmap, önnur.",
+          "Push-tilkynningar í gegnum JMAP EventSource — engin polling.",
+          "IMAP og SMTP einnig í boði fyrir biðlara sem þurfa þá."
+        ]
+      },
+      "auditLog": {
+        "eyebrow": "API úttektarskrár",
+        "headline": "Sérhver stjórnandaaðgerð, straumanleg.",
+        "body": "Sama úttektarskrá og þú lest í stjórnborði er aðgengileg sem API — síðuskipt, sía-anleg, með fyrir/eftir-gildum á hverri breytingu. Streymdu atburðum til Splunk, Datadog eða hvaða SIEM sem tekur við webhook eða spyr síðuskipt endapunkt. Flyttu út í CSV eða JSONL fyrir réttarrannsóknir.",
+        "bullets": [
+          "Síðuskipt og sía-anleg: eftir notanda, atburðartegund, dagsetningarbili.",
+          "Fyrir/eftir-gildi á hverri stökkbreytingu — fullkomið réttarslóð.",
+          "Streymdu til SIEM þíns í gegnum webhook eða pull endapunkt.",
+          "Flyttu út í CSV eða JSONL fyrir offline greiningu. Sjö ára varðveisla sjálfgefið."
+        ]
+      },
+      "production": {
+        "eyebrow": "Tilbúið fyrir framleiðslu",
+        "headline": "Byggt fyrir langtímasamþættingar sem þú vilt í raun skrifa.",
+        "body": "Sviðstakmarkaðir API-lyklar með snúningi. Per-lykils hraðatakmörk. Idempotenssa á skrifum. Útgáfumerktar URLs svo úrelding komi þér ekki á óvart á rólegum sunnudegi. Leiðinlegu ábyrgðirnar sem gera samþættingu þess virði að skrifa.",
+        "bullets": [
+          "Sviðstakmarkaðir API-lyklar — read-only, takmarkaðir við pósthólf, takmarkaðir við stofnun.",
+          "Lyklasnúningur í stjórnborði — afturkalla og gefa út nýja án niðurítíma.",
+          "URL-útgáfumerkt (/api/v1/…) með úreldingarhausum mánuðum fyrirfram.",
+          "OpenAPI breytingaskrá birt; brjótandi breytingar aðeins á aðalútgáfubreytingum."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Opnir staðlar",
+      "headline": "RFC-ar og OpenAPI. Ekkert lokað.",
+      "body": "Sérhver samskiptaregla sem opinbera API-ið talar er opinberlega skjalfest. Komdu með kóða-myndunartólið þitt. Komdu með núverandi biðlarasafn. Ekkert hér er fundið upp fyrir söluræðu.",
+      "items": [
+        "OpenAPI 3.1",
+        "REST",
+        "JMAP Core (RFC 8620)",
+        "JMAP Mail (RFC 8621)",
+        "Bearer auth (RFC 6750)",
+        "HMAC-SHA256 (RFC 6234)",
+        "Argon2id key hashing",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productSignIn": {
+    "metaTitle": "Sign in with Verkio — Verkio",
+    "metaDescription": "Auðkennisveitandi með búsetu í ESB fyrir opna vefinn. Staðlað OIDC, ekkert vefsíða-til-vefsíða prófíleringar, þú átt samþykkið. Áætlað — drifið áfram af eftirspurn forritara.",
+    "eyebrow": "Sign in with Verkio · Bráðum",
+    "headline": "Auðkennisveitandi sem virðir fólkið sem notar hann.",
+    "body": "Sign in with Verkio er staðlaður OIDC hnappur sem hver þriðja aðila vefsíða getur samþætt — Verkio reikningurinn þinn verður auðkennið þitt fyrir opna vefinn. Með búsetu í ESB, virðir friðhelgi, ekkert vefsíða-til-vefsíða prófíleringar. Áætlað, drifið áfram af eftirspurn forritara: ókeypis fyrir endanotendur, ókeypis fyrir forritara í v1. Segðu okkur að þú viljir það og við byggjum það fyrr.",
+    "cta": "Segðu okkur að þú viljir það",
+    "backLink": "Aftur að yfirliti vöru",
+    "sections": {
+      "euIdentity": {
+        "eyebrow": "Auðkenni með búsetu í ESB",
+        "headline": "Reikningurinn þinn, auðkennið þitt, í ESB.",
+        "body": "Í dag þýðir 'sign in with…' Google, Apple eða Microsoft — öll með höfuðstöðvar í Bandaríkjunum, öll lesa hverja vefsíðu sem þú skráir þig inn á. Sign in with Verkio gefur opna vefnum valkost með búsetu í ESB. Innskráningar haldast inni í ESB-innviðum Verkio. Engin vefsíða-til-vefsíða prófílering. Ekkert US CLOUD Act yfirborð.",
+        "bullets": [
+          "Innskráningarflæði með búsetu í ESB á Verkio-innviðum.",
+          "Engin vefsíða-til-vefsíða rakning — vefsíður fá ekki prófíl sem þær geta tengt saman.",
+          "Utan lögsögu US CLOUD Act.",
+          "Eitt auðkenni fyrir öppin sem þú notar; hægt að afturkalla per vefsíðu hvenær sem þú vilt."
+        ]
+      },
+      "openStandard": {
+        "eyebrow": "Staðlað OIDC",
+        "headline": "Bara OIDC. Virkar með því sem þú átt nú þegar.",
+        "body": "Sign in with Verkio mun tala staðlað OpenID Connect — sömu samskiptareglu og núverandi auðkennismiðlari þinn (Auth0, Clerk, Keycloak, NextAuth) styður nú þegar. Að bæta því við ætti að vera stillingabreyting, ekki kóðauppskrifning.",
+        "bullets": [
+          "Staðlað OpenID Connect (OIDC) — discovery, JWKS, hið venjulega.",
+          "Virkar með hvaða OIDC-meðvitundu safni sem er — ekkert Verkio SDK krafist.",
+          "Bætist við núverandi IdP-uppsetningu þína við hliðina á Sign in with Google eða Apple.",
+          "Ókeypis fyrir endanotendur; ókeypis fyrir forritara í v1."
+        ]
+      },
+      "consent": {
+        "eyebrow": "Þú átt samþykkið",
+        "headline": "Per vefsíðu, hægt að afturkalla, gagnsætt.",
+        "body": "Þegar vefsíða biður um innskráningu muntu sjá nákvæmlega hvaða gögn þeir biðja um. Þú getur hafnað hlutum sem þú vilt ekki deila. Hver vefsíða sem þú hefur einhvern tíma skráð þig inn á birtist í mælaborði tengdra appa — afturkallaðu einhverja þeirra með einum smelli. Engin þögul endurauðkenning, ekkert scope creep.",
+        "bullets": [
+          "Per-vefsíðu samþykkisskjár — fínkornótt, ekkert allt-eða-ekkert.",
+          "Mælaborð tengdra appa sem skráir hverja vefsíðu sem þú hefur skráð þig inn á.",
+          "Einsmells afturköllun, hvenær sem er — vefsíðan missir aðgang strax.",
+          "Engin þögul endurauðkenning; sviðsbreytingar krefjast nýs samþykkis."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Hvers vegna Verkio — Verkio",
     "metaDescription": "Hvers vegna teymi velja Verkio: rólegt hugbúnaður, opnir staðlar, ESB-búseta, engin innilokun."

@@ -1051,6 +1051,132 @@
       }
     }
   },
+  "productApi": {
+    "metaTitle": "API pública — Verkio",
+    "metaDescription": "API REST basada en estándares con una especificación OpenAPI 3.1, webhooks firmados, passthrough JMAP y un registro de auditoría transmisible. Conecta Verkio con las herramientas que ya tienes.",
+    "eyebrow": "API pública",
+    "headline": "Una API REST. JMAP. Webhooks firmados. El registro de auditoría.",
+    "body": "Verkio está construido API-first — los mismos endpoints que usa la web app están abiertos para ti. REST con una especificación OpenAPI 3.1 para codegen. Webhooks firmados para los eventos que te importan. JMAP para acceso directo al protocolo de correo. El registro de auditoría transmisible a tu SIEM.",
+    "cta": "Unirme a la lista",
+    "backLink": "Volver al resumen del producto",
+    "sections": {
+      "rest": {
+        "eyebrow": "REST",
+        "headline": "REST con una especificación OpenAPI 3.1.",
+        "body": "Cada endpoint documentado en un único archivo OpenAPI 3.1. Apunta tu herramienta de codegen (openapi-generator, oapi-codegen, OpenAPI TS) a /api/v1/openapi.json y obtén un cliente tipado en el lenguaje que prefieras — o navega la referencia interactiva en /developers.",
+        "bullets": [
+          "Especificación OpenAPI 3.1 en /api/v1/openapi.json — lista para codegen.",
+          "Referencia interactiva en /developers (Swagger UI).",
+          "Autenticación con Bearer token (RFC 6750). Claves hasheadas con Argon2id en reposo.",
+          "Rate limits por clave con cabeceras X-RateLimit-*. 429 con Retry-After.",
+          "Soporte de Idempotency-Key en endpoints mutantes — seguro reintentar en redes inestables."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Webhooks firmados",
+        "headline": "Entrega firmada con HMAC y cola de mensajes fallidos.",
+        "body": "Suscríbete a los eventos que te importan — correo nuevo, entradas del registro de auditoría, cambios de cuenta. Cada payload está firmado con HMAC-SHA256 para que puedas verificar que viene de Verkio. Las entregas fallidas se reintentan con backoff exponencial; los fallos persistentes acaban en una cola de mensajes fallidos que puedes inspeccionar y reenviar.",
+        "bullets": [
+          "Firma HMAC-SHA256 por payload (cabecera X-Verkio-Signature).",
+          "Reintentos con backoff exponencial en 5xx y errores de conexión.",
+          "Cola de mensajes fallidos en el panel — inspeccionar, reenviar, descartar.",
+          "Cada intento de entrega registrado en el registro de auditoría."
+        ]
+      },
+      "jmap": {
+        "eyebrow": "Passthrough JMAP",
+        "headline": "Habla directamente el protocolo de correo moderno.",
+        "body": "El servidor de correo subyacente de Verkio habla JMAP (RFC 8620 / 8621) — el sucesor moderno de IMAP basado en JSON. La API pública expone un passthrough JMAP para que las bibliotecas cliente puedan hablar con tus buzones directamente sin reimplementar cada endpoint del lado del servidor.",
+        "bullets": [
+          "JMAP Core (RFC 8620) y JMAP Mail (RFC 8621) sobre /api/v1/jmap.",
+          "Usa cualquier biblioteca cliente compatible con JMAP — jmap-client (JS), python-jmap, otras.",
+          "Notificaciones push vía JMAP EventSource — sin polling.",
+          "IMAP y SMTP también disponibles para clientes que los necesiten."
+        ]
+      },
+      "auditLog": {
+        "eyebrow": "API del registro de auditoría",
+        "headline": "Cada acción de admin, transmisible.",
+        "body": "El mismo registro de auditoría que lees en el panel está disponible como API — paginado, filtrable, con valores antes/después en cada cambio. Transmite eventos a Splunk, Datadog o cualquier SIEM que acepte un webhook o consulte un endpoint paginado. Exporta a CSV o JSONL para análisis forense.",
+        "bullets": [
+          "Paginado y filtrable: por usuario, por tipo de evento, por rango de fechas.",
+          "Valores antes/después en cada mutación — rastro forense completo.",
+          "Transmite a tu SIEM vía webhook o endpoint de pull.",
+          "Exporta a CSV o JSONL para análisis offline. Siete años de retención por defecto."
+        ]
+      },
+      "production": {
+        "eyebrow": "Listo para producción",
+        "headline": "Construido para las integraciones de larga duración que realmente quieres escribir.",
+        "body": "Claves API con scope y rotación. Rate limits por clave. Idempotencia en escrituras. URLs versionadas para que una deprecación no te pille por sorpresa un domingo tranquilo. Las garantías aburridas que hacen que una integración merezca la pena.",
+        "bullets": [
+          "Claves API con scope — read-only, limitadas a un buzón, limitadas a una organización.",
+          "Rotación de claves en el panel — revoca y reemite sin caídas.",
+          "Versionado por URL (/api/v1/…) con cabeceras de deprecación con meses de antelación.",
+          "Changelog de OpenAPI publicado; cambios incompatibles solo en saltos de versión mayor."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Estándares abiertos",
+      "headline": "RFCs y OpenAPI. Nada propietario.",
+      "body": "Cada protocolo que habla la API pública está documentado públicamente. Trae tu herramienta de codegen. Trae tu biblioteca cliente existente. Nada aquí está inventado para un pitch de proveedor.",
+      "items": [
+        "OpenAPI 3.1",
+        "REST",
+        "JMAP Core (RFC 8620)",
+        "JMAP Mail (RFC 8621)",
+        "Bearer auth (RFC 6750)",
+        "HMAC-SHA256 (RFC 6234)",
+        "Argon2id key hashing",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productSignIn": {
+    "metaTitle": "Sign in with Verkio — Verkio",
+    "metaDescription": "Un proveedor de identidad residente en la UE para la web abierta. OIDC estándar, sin perfilado entre sitios, tú eres dueño del consentimiento. Planeado — impulsado por la demanda de desarrolladores.",
+    "eyebrow": "Sign in with Verkio · Próximamente",
+    "headline": "Un proveedor de identidad que respeta a las personas que lo usan.",
+    "body": "Sign in with Verkio es un botón OIDC estándar que cualquier sitio de terceros puede integrar — tu cuenta de Verkio se convierte en tu identidad para la web abierta. Residente en la UE, respetuoso con la privacidad, sin perfilado entre sitios. Planeado, impulsado por la demanda de desarrolladores: gratis para usuarios finales, gratis para desarrolladores en v1. Dinos que lo quieres y lo construiremos antes.",
+    "cta": "Dinos que lo quieres",
+    "backLink": "Volver al resumen del producto",
+    "sections": {
+      "euIdentity": {
+        "eyebrow": "Una identidad residente en la UE",
+        "headline": "Tu cuenta, tu identidad, en la UE.",
+        "body": "Hoy 'sign in with…' significa Google, Apple o Microsoft — todos con sede en EE. UU., todos leyendo cada sitio en el que inicias sesión. Sign in with Verkio le da a la web abierta una alternativa residente en la UE. Los inicios de sesión se mantienen dentro de la infraestructura de Verkio en la UE. Sin perfilado entre sitios. Sin superficie para la US CLOUD Act.",
+        "bullets": [
+          "Flujo de inicio de sesión residente en la UE sobre infraestructura de Verkio.",
+          "Sin seguimiento entre sitios — los sitios no obtienen un perfil que puedan correlacionar.",
+          "Fuera de la jurisdicción de la US CLOUD Act.",
+          "Una identidad para las apps que usas; revocable por sitio cuando quieras."
+        ]
+      },
+      "openStandard": {
+        "eyebrow": "OIDC estándar",
+        "headline": "Solo OIDC. Funciona con lo que ya tienes.",
+        "body": "Sign in with Verkio hablará OpenID Connect estándar — el mismo protocolo que tu broker de identidad actual (Auth0, Clerk, Keycloak, NextAuth) ya soporta. Añadirlo debería ser un cambio de configuración, no una reescritura de código.",
+        "bullets": [
+          "OpenID Connect estándar (OIDC) — discovery, JWKS, lo de siempre.",
+          "Funciona con cualquier biblioteca compatible con OIDC — sin SDK de Verkio.",
+          "Se añade a tu configuración de IdP existente junto a Sign in with Google o Apple.",
+          "Gratis para usuarios finales; gratis para desarrolladores en v1."
+        ]
+      },
+      "consent": {
+        "eyebrow": "Tú eres dueño del consentimiento",
+        "headline": "Por sitio, revocable, transparente.",
+        "body": "Cuando un sitio pida iniciar sesión, verás exactamente qué datos están pidiendo. Puedes rechazar partes que no quieras compartir. Cada sitio en el que has iniciado sesión aparece en un panel de apps conectadas — revoca cualquiera con un clic. Sin reautenticación silenciosa, sin scope creep.",
+        "bullets": [
+          "Pantalla de consentimiento por sitio — granular, sin todo-o-nada.",
+          "Panel de apps conectadas con cada sitio en el que has iniciado sesión.",
+          "Revocación de un clic, en cualquier momento — el sitio pierde acceso de inmediato.",
+          "Sin reautenticación silenciosa; los cambios de scope requieren consentimiento nuevo."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Por qué Verkio — Verkio",
     "metaDescription": "Por qué los equipos eligen Verkio: software tranquilo, estándares abiertos, residencia en la UE, sin bloqueos."

@@ -23,8 +23,8 @@ const items: { key: ItemKey; href: string; comingSoon?: boolean }[] = [
   { key: "files", href: "/product/files" },
   { key: "wikis", href: "/product/wikis" },
   { key: "messaging", href: "/product/messaging" },
-  { key: "api", href: "/product" },
-  { key: "signIn", href: "/product", comingSoon: true },
+  { key: "api", href: "/product/api" },
+  { key: "signIn", href: "/product/sign-in-with-verkio", comingSoon: true },
 ];
 
 function strokeProps(props: IconProps) {
