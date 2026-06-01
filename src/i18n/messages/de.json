@@ -649,6 +649,115 @@
     "metaTitle": "Warum Verkio — Verkio",
     "metaDescription": "Warum Teams Verkio wählen: ruhige Software, offene Standards, EU-Residenz, keine Bindung."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "E-Mail",
+      "headline": "E-Mail, die tatsächlich Arbeit erledigt.",
+      "body": "Standardbasierte Mail mit eingebauten Team-Workflows — gemeinsame Postfächer, serverseitige Regeln und Aliasse, die sich nicht wie Aufsätze anfühlen.",
+      "items": {
+        "webmail": {
+          "name": "Webmail",
+          "description": "Tastaturorientierter Posteingang mit Threading, Suche und Labels. Das Webmail, das du dir wünschst, Gmail wäre noch."
+        },
+        "shared": {
+          "name": "Gemeinsame Postfächer",
+          "description": "Team-Postfächer mit Zuweisung, Status, internen Notizen und Zugriffsrechten pro Ordner."
+        },
+        "rules": {
+          "name": "Serverseitige Regeln",
+          "description": "Sieve-Filter, die du im Dashboard baust und die bei der Zustellung greifen — also in jedem Mailclient wirken."
+        },
+        "aliases": {
+          "name": "Aliasse & Weiterleitungen",
+          "description": "Unbegrenzte Aliasse, Catch-all auf deiner Domain, audit-protokollierte externe Weiterleitungen mit Bestätigung."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Kalender & Kontakte",
+      "headline": "Pläne und Menschen, in deiner Suite.",
+      "body": "Kalender und Adressbücher über offenes CalDAV und CardDAV — kein proprietäres Plug-in nötig, keine Doppelerfassung.",
+      "items": {
+        "calendars": {
+          "name": "Gemeinsame Kalender",
+          "description": "Wiederkehrende Termine, Einladungen und Frei/Belegt-Abfrage im gesamten Team."
+        },
+        "contacts": {
+          "name": "Adressbücher",
+          "description": "Persönliche und team-geteilte Kontakte mit vCard-Sync zu Apple Kalender, Thunderbird, DAVx⁵."
+        },
+        "identity": {
+          "name": "Eine Identität",
+          "description": "Kontakte werden automatisch aus Mail und Kalendereinladungen ergänzt. Derselbe Login wie der Rest der Suite."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Dateien & Wikis",
+      "headline": "Dokumente, Wissen, Entscheidungen — bewahrt.",
+      "body": "Private und team-geteilte Dateien neben strukturierten Räumen für die Runbooks, Entscheidungen und das institutionelle Wissen, das dein Team für sich selbst schreibt.",
+      "items": {
+        "files": {
+          "name": "Dateispeicher",
+          "description": "Zugriffsrechte pro Datei, fortsetzbare Multi-GB-Uploads, 30 Tage Papierkorb-Wiederherstellung."
+        },
+        "wikis": {
+          "name": "Wikis",
+          "description": "Durchsuchbare, versionierte Räume für das lebendige Wissen des Teams — keine separate App zum Pflegen."
+        },
+        "encryption": {
+          "name": "EU-verwaltete Schlüssel",
+          "description": "Verschlüsselung im Ruhezustand mit in der EU verwahrten Schlüsseln. Kein US-KMS, kein Hyperscaler."
+        },
+        "openFormats": {
+          "name": "Offene Formate",
+          "description": "Export in Standardformate, wann immer du gehen willst. Keine Bindung, niemals."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Nachrichten",
+      "headline": "Kurze Gespräche, derselbe Login.",
+      "body": "Kanäle, DMs und Threads für das Team — durchsuchbar an derselben Stelle wie deine Mail und Dokumente, kein zusätzlicher Tab zum Mithalten.",
+      "items": {
+        "channels": {
+          "name": "Kanäle & DMs",
+          "description": "Für Ankündigungen, Projektarbeit und Eins-zu-eins-Gespräche."
+        },
+        "threaded": {
+          "name": "Mit Threads",
+          "description": "Damit Gespräche sich nicht gegenseitig übertönen. Stumm, woran du nicht beteiligt bist."
+        },
+        "search": {
+          "name": "Eine Suche",
+          "description": "Eine Nachricht neben einer Kalendereinladung oder einer Wiki-Seite finden — eine Abfrage, alle Oberflächen."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Plattform",
+      "headline": "Eine Suite zum Nutzen und eine Plattform zum Bauen.",
+      "body": "Eine öffentliche REST-API, signierte Webhooks und ein forensisches Audit-Log. Bald: Mit Verkio anmelden — ein in der EU ansässiger Identitätsanbieter für deine Apps und deine Kunden.",
+      "items": {
+        "api": {
+          "name": "Öffentliche API",
+          "description": "REST mit einer OpenAPI-3.1-Spec, Bearer-Tokens, Rate-Limits pro Schlüssel."
+        },
+        "webhooks": {
+          "name": "Signierte Webhooks",
+          "description": "HMAC-verifizierte Zustellung mit Wiederholungen und Dead-Letter-Queue. Audit-protokolliert."
+        },
+        "audit": {
+          "name": "Audit-Log",
+          "description": "Jede Admin-Aktion aufgezeichnet, mit Vorher/Nachher-Werten. Exportierbar in dein SIEM."
+        },
+        "signIn": {
+          "name": "Mit Verkio anmelden",
+          "description": "Die in der EU ansässige Alternative zu Anmelden mit Google oder Apple. Bald verfügbar."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Produkt",

@@ -649,6 +649,115 @@
     "metaTitle": "Perché Verkio — Verkio",
     "metaDescription": "Perché i team scelgono Verkio: software tranquillo, standard aperti, residenza UE, niente lock-in."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Mail",
+      "headline": "La mail che fa davvero il lavoro.",
+      "body": "Posta basata su standard con i flussi di team integrati — caselle condivise, regole lato server e alias che non sembrano un'aggiunta.",
+      "items": {
+        "webmail": {
+          "name": "Webmail",
+          "description": "Casella di posta che parte dalla tastiera, con conversazioni, ricerca ed etichette. La webmail che avresti voluto Gmail rimanesse."
+        },
+        "shared": {
+          "name": "Caselle condivise",
+          "description": "Caselle di team con assegnazione, stato, note interne e controlli di accesso per cartella."
+        },
+        "rules": {
+          "name": "Regole lato server",
+          "description": "Filtri Sieve costruiti dal pannello e applicati alla consegna — quindi attivi in qualsiasi client di posta."
+        },
+        "aliases": {
+          "name": "Alias e inoltri",
+          "description": "Alias illimitati, catch-all sul tuo dominio, inoltri esterni con conferma e registro di audit."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Calendario e contatti",
+      "headline": "Piani e persone, nella tua suite.",
+      "body": "Calendari e rubriche su CalDAV e CardDAV aperti — nessun plug-in proprietario, nessuna doppia immissione.",
+      "items": {
+        "calendars": {
+          "name": "Calendari condivisi",
+          "description": "Eventi ricorrenti, inviti e consultazione libero/occupato in tutto il team."
+        },
+        "contacts": {
+          "name": "Rubriche",
+          "description": "Contatti personali e condivisi con il team, sincronizzati via vCard con Apple Calendar, Thunderbird, DAVx⁵."
+        },
+        "identity": {
+          "name": "Un'unica identità",
+          "description": "I contatti si popolano automaticamente da mail e inviti del calendario. Lo stesso accesso del resto della suite."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "File e wiki",
+      "headline": "Documenti, conoscenza, decisioni — conservati.",
+      "body": "File privati e condivisi con il team accanto a spazi strutturati per i runbook, le decisioni e la conoscenza istituzionale che il tuo team scrive per sé.",
+      "items": {
+        "files": {
+          "name": "Archiviazione file",
+          "description": "Controlli di accesso per file, caricamenti multi-GB ripristinabili, recupero dal Cestino per 30 giorni."
+        },
+        "wikis": {
+          "name": "Wiki",
+          "description": "Spazi versionati e ricercabili per la conoscenza viva del team — non un'app a parte da mantenere."
+        },
+        "encryption": {
+          "name": "Chiavi gestite nell'UE",
+          "description": "Cifratura a riposo con chiavi custodite nell'UE. Non un KMS statunitense, non un hyperscaler."
+        },
+        "openFormats": {
+          "name": "Formati aperti",
+          "description": "Esporta nei formati standard quando vuoi andartene. Niente lock-in, mai."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Messaggi",
+      "headline": "Conversazioni rapide, lo stesso accesso.",
+      "body": "Canali, DM e thread per il team — ricercabili nello stesso posto della mail e dei documenti, non una scheda in più da seguire.",
+      "items": {
+        "channels": {
+          "name": "Canali e DM",
+          "description": "Per annunci, lavoro di progetto e uno-a-uno."
+        },
+        "threaded": {
+          "name": "A thread",
+          "description": "Perché le conversazioni non si coprano a vicenda. Silenzia quelle a cui non partecipi."
+        },
+        "search": {
+          "name": "Un'unica ricerca",
+          "description": "Trova un messaggio accanto a un invito del calendario o a una pagina wiki — una query, tutte le superfici."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Piattaforma",
+      "headline": "Una suite da usare, una piattaforma su cui costruire.",
+      "body": "Un'API REST pubblica, webhook firmati e un registro di audit di grado forense. Prossimamente: Accedi con Verkio — un provider di identità residente nell'UE per le tue app e i tuoi clienti.",
+      "items": {
+        "api": {
+          "name": "API pubblica",
+          "description": "REST con specifica OpenAPI 3.1, token bearer, limiti di rate per chiave."
+        },
+        "webhooks": {
+          "name": "Webhook firmati",
+          "description": "Consegna verificata con HMAC, con tentativi e coda dei messaggi morti. Registrata in audit."
+        },
+        "audit": {
+          "name": "Registro di audit",
+          "description": "Ogni azione admin registrata, con valori prima/dopo. Esportabile nel tuo SIEM."
+        },
+        "signIn": {
+          "name": "Accedi con Verkio",
+          "description": "L'alternativa residente nell'UE ad Accedi con Google o Apple. Prossimamente."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Prodotto",

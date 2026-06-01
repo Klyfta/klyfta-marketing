@@ -649,6 +649,115 @@
     "metaTitle": "Waarom Verkio — Verkio",
     "metaDescription": "Waarom teams voor Verkio kiezen: rustige software, open standaarden, EU-residentie, geen vendor lock-in."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Mail",
+      "headline": "Mail die het echte werk doet.",
+      "body": "Op standaarden gebaseerde mail met teamworkflows ingebouwd — gedeelde mailboxen, server-side regels en aliassen die niet als toevoegingen aanvoelen.",
+      "items": {
+        "webmail": {
+          "name": "Webmail",
+          "description": "Toetsenbord-georiënteerde inbox met threading, zoeken en labels. De webmail die je had gewild dat Gmail nog steeds was."
+        },
+        "shared": {
+          "name": "Gedeelde mailboxen",
+          "description": "Teaminboxen met toewijzing, status, interne notities en toegangsrechten per map."
+        },
+        "rules": {
+          "name": "Server-side regels",
+          "description": "Sieve-filters die je in het dashboard bouwt, toegepast bij aflevering — dus actief in elke mailclient."
+        },
+        "aliases": {
+          "name": "Aliassen & doorsturen",
+          "description": "Onbeperkte aliassen, catch-all op je domein, extern doorsturen met bevestiging en in audit gelogd."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Agenda & contacten",
+      "headline": "Plannen en mensen, in je suite.",
+      "body": "Agenda's en adresboeken via open CalDAV en CardDAV — geen propriëtaire plug-in nodig, geen dubbele invoer.",
+      "items": {
+        "calendars": {
+          "name": "Gedeelde agenda's",
+          "description": "Terugkerende afspraken, uitnodigingen en vrij/bezet-opzoeking in het hele team."
+        },
+        "contacts": {
+          "name": "Adresboeken",
+          "description": "Persoonlijke en met het team gedeelde contacten met vCard-sync naar Apple Calendar, Thunderbird, DAVx⁵."
+        },
+        "identity": {
+          "name": "Eén identiteit",
+          "description": "Contacten worden automatisch aangevuld uit mail en agenda-uitnodigingen. Dezelfde login als de rest van de suite."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Bestanden & wiki's",
+      "headline": "Documenten, kennis, beslissingen — bewaard.",
+      "body": "Privé en met het team gedeelde bestanden naast gestructureerde ruimtes voor de runbooks, beslissingen en institutionele kennis die je team voor zichzelf opschrijft.",
+      "items": {
+        "files": {
+          "name": "Bestandsopslag",
+          "description": "Toegangsrechten per bestand, herstartbare multi-GB uploads, 30 dagen herstel uit de Prullenbak."
+        },
+        "wikis": {
+          "name": "Wiki's",
+          "description": "Doorzoekbare, versiegerichte ruimtes voor de levende kennis van het team — geen losse app om te onderhouden."
+        },
+        "encryption": {
+          "name": "EU-beheerde sleutels",
+          "description": "Versleuteling at rest met sleutels die in de EU bewaard blijven. Geen Amerikaanse KMS, geen hyperscaler."
+        },
+        "openFormats": {
+          "name": "Open formaten",
+          "description": "Exporteer naar standaardformaten wanneer je wilt vertrekken. Geen lock-in, nooit."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Berichten",
+      "headline": "Snelle gesprekken, dezelfde login.",
+      "body": "Kanalen, DM's en threads voor het team — doorzoekbaar op dezelfde plek als je mail en documenten, geen apart tabblad om bij te houden.",
+      "items": {
+        "channels": {
+          "name": "Kanalen & DM's",
+          "description": "Voor mededelingen, projectwerk en één-op-één."
+        },
+        "threaded": {
+          "name": "Met threads",
+          "description": "Zodat gesprekken elkaar niet overstemmen. Demp wat je niet volgt."
+        },
+        "search": {
+          "name": "Eén zoekopdracht",
+          "description": "Vind een bericht naast een agenda-uitnodiging of een wiki-pagina — één zoekopdracht, alle oppervlakken."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Platform",
+      "headline": "Een suite om te gebruiken, en een platform om op te bouwen.",
+      "body": "Een publieke REST-API, ondertekende webhooks en een forensisch auditlogboek. Binnenkort: Inloggen met Verkio — een in de EU gevestigde identiteitsprovider voor je apps en je klanten.",
+      "items": {
+        "api": {
+          "name": "Publieke API",
+          "description": "REST met een OpenAPI 3.1-specificatie, bearer-tokens, rate-limieten per sleutel."
+        },
+        "webhooks": {
+          "name": "Ondertekende webhooks",
+          "description": "HMAC-geverifieerde aflevering met retries en een dead-letter queue. In audit gelogd."
+        },
+        "audit": {
+          "name": "Auditlogboek",
+          "description": "Elke admin-actie vastgelegd, met voor/na-waarden. Exporteerbaar naar je SIEM."
+        },
+        "signIn": {
+          "name": "Inloggen met Verkio",
+          "description": "Het in de EU gevestigde alternatief voor Inloggen met Google of Apple. Binnenkort beschikbaar."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Product",

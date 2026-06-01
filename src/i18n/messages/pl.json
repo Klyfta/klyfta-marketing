@@ -649,6 +649,115 @@
     "metaTitle": "Dlaczego Verkio — Verkio",
     "metaDescription": "Dlaczego zespoły wybierają Verkio: spokojne oprogramowanie, otwarte standardy, rezydencja w UE, brak uwięzienia."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Poczta",
+      "headline": "Poczta, która naprawdę wykonuje pracę.",
+      "body": "Poczta oparta na standardach z wbudowanymi przepływami pracy zespołu — wspólne skrzynki, reguły po stronie serwera i aliasy, które nie wyglądają na dodatki.",
+      "items": {
+        "webmail": {
+          "name": "Webmail",
+          "description": "Skrzynka oparta na klawiaturze z wątkami, wyszukiwaniem i etykietami. Webmail, jakim chciałbyś, żeby Gmail wciąż był."
+        },
+        "shared": {
+          "name": "Wspólne skrzynki",
+          "description": "Skrzynki zespołowe z przypisaniem, statusem, notatkami wewnętrznymi i uprawnieniami per folder."
+        },
+        "rules": {
+          "name": "Reguły po stronie serwera",
+          "description": "Filtry Sieve, które układasz w panelu, stosowane przy doręczeniu — działają więc w każdym kliencie pocztowym."
+        },
+        "aliases": {
+          "name": "Aliasy i przekierowania",
+          "description": "Nieograniczone aliasy, catch-all na twojej domenie, zewnętrzne przekierowania z potwierdzeniem i zapisem w audycie."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Kalendarz i kontakty",
+      "headline": "Plany i ludzie, w twoim pakiecie.",
+      "body": "Kalendarze i książki adresowe po otwartych CalDAV i CardDAV — bez własnościowej wtyczki, bez podwójnego wprowadzania.",
+      "items": {
+        "calendars": {
+          "name": "Współdzielone kalendarze",
+          "description": "Wydarzenia cykliczne, zaproszenia i wyszukiwanie wolny/zajęty w całym zespole."
+        },
+        "contacts": {
+          "name": "Książki adresowe",
+          "description": "Kontakty osobiste i dzielone z zespołem, z synchronizacją vCard do Apple Calendar, Thunderbird, DAVx⁵."
+        },
+        "identity": {
+          "name": "Jedna tożsamość",
+          "description": "Kontakty uzupełniają się automatycznie z poczty i zaproszeń kalendarza. To samo logowanie co reszta pakietu."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Pliki i wiki",
+      "headline": "Dokumenty, wiedza, decyzje — zachowane.",
+      "body": "Prywatne i dzielone z zespołem pliki obok ustrukturyzowanych przestrzeni na runbooki, decyzje i wiedzę instytucjonalną, którą twój zespół spisuje dla siebie.",
+      "items": {
+        "files": {
+          "name": "Przechowywanie plików",
+          "description": "Uprawnienia per plik, wznawialne przesyłania wielogigabajtowe, 30-dniowe odzyskiwanie z Kosza."
+        },
+        "wikis": {
+          "name": "Wiki",
+          "description": "Przeszukiwalne, wersjonowane przestrzenie dla żywej wiedzy zespołu — nie osobna aplikacja do utrzymania."
+        },
+        "encryption": {
+          "name": "Klucze zarządzane w UE",
+          "description": "Szyfrowanie w spoczynku z kluczami trzymanymi w UE. Nie amerykański KMS, nie hyperscaler."
+        },
+        "openFormats": {
+          "name": "Otwarte formaty",
+          "description": "Eksport do standardowych formatów, kiedy tylko chcesz odejść. Bez uwięzienia, nigdy."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Wiadomości",
+      "headline": "Krótkie rozmowy, to samo logowanie.",
+      "body": "Kanały, DM-y i wątki dla zespołu — przeszukiwalne w tym samym miejscu co poczta i dokumenty, nie kolejna karta do śledzenia.",
+      "items": {
+        "channels": {
+          "name": "Kanały i DM-y",
+          "description": "Do ogłoszeń, pracy projektowej i rozmów jeden na jeden."
+        },
+        "threaded": {
+          "name": "W wątkach",
+          "description": "Żeby rozmowy się nawzajem nie zagłuszały. Wycisz to, czego nie śledzisz."
+        },
+        "search": {
+          "name": "Jedno wyszukiwanie",
+          "description": "Znajdź wiadomość obok zaproszenia z kalendarza albo strony wiki — jedno zapytanie, wszystkie powierzchnie."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Platforma",
+      "headline": "Pakiet do używania i platforma, na której można budować.",
+      "body": "Publiczne API REST, podpisane webhooki i dziennik audytu klasy forensycznej. Wkrótce: Zaloguj się przez Verkio — dostawca tożsamości z siedzibą w UE dla twoich aplikacji i klientów.",
+      "items": {
+        "api": {
+          "name": "Publiczne API",
+          "description": "REST ze specyfikacją OpenAPI 3.1, tokeny bearer, limity stawki per klucz."
+        },
+        "webhooks": {
+          "name": "Podpisane webhooki",
+          "description": "Doręczenie weryfikowane HMAC z ponowieniami i kolejką dead-letter. Z zapisem w audycie."
+        },
+        "audit": {
+          "name": "Dziennik audytu",
+          "description": "Każde działanie administratora zarejestrowane, z wartościami przed/po. Eksport do twojego SIEM."
+        },
+        "signIn": {
+          "name": "Zaloguj się przez Verkio",
+          "description": "Alternatywa z siedzibą w UE do Zaloguj się przez Google lub Apple. Wkrótce."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Produkt",

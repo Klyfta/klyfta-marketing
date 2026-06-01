@@ -1,8 +1,8 @@
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Link } from "@/i18n/navigation";
 import { Container, Footer, Header } from "./components/Layout";
 import { ConsoleEasterEgg } from "./components/ConsoleEasterEgg";
+import { HomeNarrative } from "./components/HomeNarrative";
 import { RotatingWord } from "./components/RotatingWord";
 import { WaitlistCta } from "./components/WaitlistCta";
 
@@ -60,46 +60,6 @@ function Hero() {
   );
 }
 
-function HomeTeasers() {
-  const t = useTranslations("homeTeasers");
-  const teasers = [
-    { key: "product", href: "/product" },
-    { key: "whyVerkio", href: "/why-verkio" },
-  ] as const;
-  return (
-    <section className="bg-gray-900 py-20 sm:py-32">
-      <Container>
-        <ul role="list" className="grid grid-cols-1 gap-8 lg:grid-cols-2">
-          {teasers.map(({ key, href }) => (
-            <li key={key}>
-              <Link
-                href={href}
-                className="group block h-full rounded-2xl border border-gray-800 bg-gray-900 p-10 transition-colors hover:border-gray-700"
-              >
-                <p className="text-sm font-semibold text-brand-300">
-                  {t(`${key}.eyebrow`)}
-                </p>
-                <h2 className="mt-4 text-2xl sm:text-3xl font-medium tracking-tight text-white leading-snug">
-                  {t(`${key}.headline`)}
-                </h2>
-                <p className="mt-4 text-base text-gray-400 leading-relaxed">
-                  {t(`${key}.body`)}
-                </p>
-                <p className="mt-8 inline-flex items-center text-sm font-semibold text-brand-300 transition-colors group-hover:text-white">
-                  {t(`${key}.link`)}
-                  <span aria-hidden="true" className="ml-1">
-                    →
-                  </span>
-                </p>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </Container>
-    </section>
-  );
-}
-
 export default async function Home({
   params,
 }: {
@@ -114,7 +74,7 @@ export default async function Home({
       <Header />
       <main>
         <Hero />
-        <HomeTeasers />
+        <HomeNarrative />
         <WaitlistCta />
       </main>
       <Footer />

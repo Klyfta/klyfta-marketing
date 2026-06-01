@@ -649,6 +649,115 @@
     "metaTitle": "Miksi Verkio — Verkio",
     "metaDescription": "Miksi tiimit valitsevat Verkion: hiljainen ohjelmisto, avoimet standardit, EU-asuinpaikka, ei lukitusta."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Sähköposti",
+      "headline": "Sähköposti, joka tekee oikean työn.",
+      "body": "Standardeihin perustuva sähköposti, jossa tiimien työnkulut ovat sisäänrakennettuja — jaetut postilaatikot, palvelinpuolen säännöt ja aliakset, jotka eivät tunnu lisäosilta.",
+      "items": {
+        "webmail": {
+          "name": "Webmail",
+          "description": "Näppäimistölähtöinen postilaatikko, jossa on viestiketjut, haku ja tunnisteet. Sellainen webmail, jollainen toivoit Gmailin yhä olevan."
+        },
+        "shared": {
+          "name": "Jaetut postilaatikot",
+          "description": "Tiimien postilaatikot, joissa on jako vastuuhenkilöille, tila, sisäiset muistiinpanot ja kansiokohtaiset käyttöoikeudet."
+        },
+        "rules": {
+          "name": "Palvelinpuolen säännöt",
+          "description": "Hallintapaneelissa rakentamasi Sieve-suodattimet, jotka toimivat toimitushetkellä — joten ne toimivat kaikissa sähköpostiohjelmissa."
+        },
+        "aliases": {
+          "name": "Aliakset ja edelleenlähetykset",
+          "description": "Rajaton määrä aliaksia, catch-all omalla verkkotunnuksella, ulkoiset edelleenlähetykset vahvistuksella ja auditointiin kirjattuina."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Kalenteri ja yhteystiedot",
+      "headline": "Suunnitelmat ja ihmiset, paketissasi.",
+      "body": "Kalenterit ja osoitekirjat avoimien CalDAV- ja CardDAV-standardien yli — ei omaa plug-iniä, ei kaksinkertaista syöttöä.",
+      "items": {
+        "calendars": {
+          "name": "Jaetut kalenterit",
+          "description": "Toistuvat tapahtumat, kutsut ja vapaa/varattu-haut koko tiimin kesken."
+        },
+        "contacts": {
+          "name": "Osoitekirjat",
+          "description": "Henkilökohtaiset ja tiimin kanssa jaetut yhteystiedot, vCard-synkronointi Apple Calendariin, Thunderbirdiin ja DAVx⁵:een."
+        },
+        "identity": {
+          "name": "Yksi identiteetti",
+          "description": "Yhteystiedot täydentyvät automaattisesti sähköposteista ja kalenterikutsuista. Sama kirjautuminen kuin muussa paketissa."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Tiedostot ja wikit",
+      "headline": "Dokumentit, tieto, päätökset — säilytettyinä.",
+      "body": "Yksityiset ja tiimin kanssa jaetut tiedostot rinnakkain rakenteellisten tilojen kanssa runbookeille, päätöksille ja sille hiljaiselle tiedolle, jota tiimisi kirjoittaa itselleen.",
+      "items": {
+        "files": {
+          "name": "Tiedostojen tallennus",
+          "description": "Tiedostokohtaiset käyttöoikeudet, jatkettavat usean GB:n latauset, 30 päivän palautus Roskakorista."
+        },
+        "wikis": {
+          "name": "Wikit",
+          "description": "Haettavat, versioidut tilat tiimin elävälle tiedolle — ei erillistä sovellusta ylläpidettäväksi."
+        },
+        "encryption": {
+          "name": "EU:ssa hallitut avaimet",
+          "description": "Salaus levossa avaimilla, joita säilytetään EU:ssa. Ei yhdysvaltalaista KMS:ää, ei hyperscaleria."
+        },
+        "openFormats": {
+          "name": "Avoimet formaatit",
+          "description": "Vie standardimuotoihin aina kun haluat lähteä. Ei lukkiutumista, koskaan."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Viestit",
+      "headline": "Nopeat keskustelut, sama kirjautuminen.",
+      "body": "Kanavat, DM:t ja viestiketjut tiimille — haettavissa samasta paikasta kuin sähköposti ja dokumentit, ei erillistä välilehteä seurattavaksi.",
+      "items": {
+        "channels": {
+          "name": "Kanavat ja DM:t",
+          "description": "Ilmoituksiin, projektityöhön ja kahdenkeskisiin."
+        },
+        "threaded": {
+          "name": "Ketjutettuina",
+          "description": "Ettei keskustelu peitä toistaan. Vaimenna ne, joissa et ole mukana."
+        },
+        "search": {
+          "name": "Yksi haku",
+          "description": "Löydä viesti kalenterikutsun tai wiki-sivun vierestä — yksi haku, kaikki pinnat."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Alusta",
+      "headline": "Paketti käytettäväksi ja alusta jonka päälle rakentaa.",
+      "body": "Julkinen REST-rajapinta, allekirjoitetut webhookit ja forensisen tason auditointiloki. Pian: Kirjaudu Verkiolla — EU-asuinpaikkainen identiteettipalvelu sovelluksillesi ja asiakkaillesi.",
+      "items": {
+        "api": {
+          "name": "Julkinen API",
+          "description": "REST OpenAPI 3.1 -spesifikaatiolla, bearer-tokenit, avainkohtaiset nopeusrajat."
+        },
+        "webhooks": {
+          "name": "Allekirjoitetut webhookit",
+          "description": "HMAC-vahvistettu toimitus uudelleenyrityksillä ja dead-letter-jonolla. Auditointiin kirjattuna."
+        },
+        "audit": {
+          "name": "Auditointiloki",
+          "description": "Jokainen ylläpitotoimi kirjattuna, sisältäen ennen/jälkeen-arvot. Vietävissä SIEM-järjestelmääsi."
+        },
+        "signIn": {
+          "name": "Kirjaudu Verkiolla",
+          "description": "EU-asuinpaikkainen vaihtoehto Google- tai Apple-kirjautumiselle. Tulossa pian."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Tuote",

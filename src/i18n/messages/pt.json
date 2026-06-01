@@ -649,6 +649,115 @@
     "metaTitle": "Porquê Verkio — Verkio",
     "metaDescription": "Porque é que as equipas escolhem o Verkio: software tranquilo, padrões abertos, residência na UE, sem bloqueio."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Correio",
+      "headline": "Correio que faz o trabalho a sério.",
+      "body": "Correio baseado em padrões, com fluxos de equipa integrados — caixas partilhadas, regras do lado do servidor e aliases que não parecem acessórios.",
+      "items": {
+        "webmail": {
+          "name": "Webmail",
+          "description": "Caixa de entrada centrada no teclado, com conversas, pesquisa e etiquetas. O webmail que gostarias que o Gmail tivesse continuado a ser."
+        },
+        "shared": {
+          "name": "Caixas partilhadas",
+          "description": "Caixas de equipa com atribuição, estado, notas internas e controlos de acesso por pasta."
+        },
+        "rules": {
+          "name": "Regras do lado do servidor",
+          "description": "Filtros Sieve que construis no painel e que se aplicam na entrega — por isso disparam em qualquer cliente de correio."
+        },
+        "aliases": {
+          "name": "Aliases e reencaminhamentos",
+          "description": "Aliases ilimitados, catch-all no teu domínio, reencaminhamentos externos com confirmação e registo de auditoria."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Calendário e contactos",
+      "headline": "Planos e pessoas, na tua suite.",
+      "body": "Calendários e livros de endereços sobre CalDAV e CardDAV abertos — sem plug-in proprietário, sem dupla introdução.",
+      "items": {
+        "calendars": {
+          "name": "Calendários partilhados",
+          "description": "Eventos recorrentes, convites e consulta livre/ocupado em toda a equipa."
+        },
+        "contacts": {
+          "name": "Livros de endereços",
+          "description": "Contactos pessoais e partilhados com a equipa, com sincronização vCard para Apple Calendar, Thunderbird, DAVx⁵."
+        },
+        "identity": {
+          "name": "Uma única identidade",
+          "description": "Os contactos preenchem-se automaticamente a partir do correio e dos convites. O mesmo acesso que o resto da suite."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Ficheiros e wikis",
+      "headline": "Documentos, conhecimento, decisões — guardados.",
+      "body": "Ficheiros privados e partilhados com a equipa, ao lado de espaços estruturados para os runbooks, decisões e o conhecimento institucional que a tua equipa escreve para si mesma.",
+      "items": {
+        "files": {
+          "name": "Armazenamento de ficheiros",
+          "description": "Controlos de acesso por ficheiro, carregamentos multi-GB retomáveis, recuperação a partir do Lixo durante 30 dias."
+        },
+        "wikis": {
+          "name": "Wikis",
+          "description": "Espaços versionados e pesquisáveis para o conhecimento vivo da equipa — não uma aplicação à parte para manter."
+        },
+        "encryption": {
+          "name": "Chaves geridas na UE",
+          "description": "Cifragem em repouso com chaves custodiadas na UE. Não um KMS norte-americano, não um hyperscaler."
+        },
+        "openFormats": {
+          "name": "Formatos abertos",
+          "description": "Exporta para formatos padrão sempre que quiseres sair. Sem bloqueio, nunca."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Mensagens",
+      "headline": "Conversas rápidas, o mesmo acesso.",
+      "body": "Canais, DMs e tópicos para a equipa — pesquisáveis no mesmo sítio que o teu correio e documentos, não mais um separador para acompanhar.",
+      "items": {
+        "channels": {
+          "name": "Canais e DMs",
+          "description": "Para anúncios, trabalho de projeto e conversas a dois."
+        },
+        "threaded": {
+          "name": "Em tópicos",
+          "description": "Para que as conversas não se sobreponham. Silencia as que não te dizem respeito."
+        },
+        "search": {
+          "name": "Uma só pesquisa",
+          "description": "Encontra uma mensagem ao lado de um convite de calendário ou de uma página de wiki — uma consulta, todas as superfícies."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Plataforma",
+      "headline": "Uma suite para usar, e uma plataforma para construir.",
+      "body": "Uma API REST pública, webhooks assinados e um registo de auditoria de grau forense. Em breve: Iniciar sessão com Verkio — um fornecedor de identidade residente na UE para as tuas aplicações e os teus clientes.",
+      "items": {
+        "api": {
+          "name": "API pública",
+          "description": "REST com especificação OpenAPI 3.1, tokens bearer, limites de taxa por chave."
+        },
+        "webhooks": {
+          "name": "Webhooks assinados",
+          "description": "Entrega verificada por HMAC, com retentativas e fila de mensagens mortas. Em registo de auditoria."
+        },
+        "audit": {
+          "name": "Registo de auditoria",
+          "description": "Cada ação de administração registada, com valores antes/depois. Exportável para o teu SIEM."
+        },
+        "signIn": {
+          "name": "Iniciar sessão com Verkio",
+          "description": "A alternativa residente na UE a Iniciar sessão com Google ou Apple. Em breve."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Produto",

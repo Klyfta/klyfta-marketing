@@ -649,6 +649,115 @@
     "metaTitle": "Kodėl Verkio — Verkio",
     "metaDescription": "Kodėl komandos renkasi Verkio: rami programinė įranga, atviri standartai, ES rezidencija, jokio uždarymo."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Paštas",
+      "headline": "Paštas, kuris iš tiesų atlieka darbą.",
+      "body": "Standartais paremtas paštas su įmontuotais komandos darbo srautais — bendros dėžutės, serverio pusės taisyklės ir aliasai, kurie neatrodo kaip priedai.",
+      "items": {
+        "webmail": {
+          "name": "Webmail",
+          "description": "Klaviatūra paremta gauta dėžutė su gijomis, paieška ir etiketėmis. Tas webmail'as, kurio norėtum, kad Gmail vis dar būtų."
+        },
+        "shared": {
+          "name": "Bendros dėžutės",
+          "description": "Komandos dėžutės su priskyrimu, būsena, vidiniais užrašais ir prieigos teisėmis pagal aplanką."
+        },
+        "rules": {
+          "name": "Serverio pusės taisyklės",
+          "description": "Sieve filtrai, kuriuos statai skydelyje ir kurie veikia pristatymo metu — tad veikia kiekvienoje pašto programoje."
+        },
+        "aliases": {
+          "name": "Aliasai ir persiuntimas",
+          "description": "Neriboti aliasai, catch-all tavo domene, išoriniai persiuntimai su patvirtinimu, fiksuojami audite."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Kalendorius ir kontaktai",
+      "headline": "Planai ir žmonės, tavo rinkinyje.",
+      "body": "Kalendoriai ir adresų knygos per atvirus CalDAV ir CardDAV — nereikia nuosavinio plug-in, jokio dvigubo įvedimo.",
+      "items": {
+        "calendars": {
+          "name": "Bendri kalendoriai",
+          "description": "Pasikartojantys įvykiai, kvietimai ir laisvas/užimtas paieška visoje komandoje."
+        },
+        "contacts": {
+          "name": "Adresų knygos",
+          "description": "Asmeniniai ir komandai bendri kontaktai su vCard sinchronizavimu į Apple Calendar, Thunderbird, DAVx⁵."
+        },
+        "identity": {
+          "name": "Viena tapatybė",
+          "description": "Kontaktai automatiškai užsipildo iš pašto ir kalendoriaus kvietimų. Tas pats prisijungimas, kaip ir likusiame rinkinyje."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Failai ir vikiai",
+      "headline": "Dokumentai, žinios, sprendimai — išsaugoti.",
+      "body": "Asmeniniai ir komandai bendri failai šalia struktūruotų erdvių runbookams, sprendimams ir institucinėms žinioms, kurias tavo komanda užsirašo sau pati.",
+      "items": {
+        "files": {
+          "name": "Failų saugykla",
+          "description": "Prieigos teisės pagal failą, atnaujinami kelių GB įkėlimai, 30 dienų atkūrimas iš Šiukšlinės."
+        },
+        "wikis": {
+          "name": "Vikiai",
+          "description": "Ieškomos, versijuojamos erdvės gyvoms komandos žinioms — ne atskiros programos, kurią reikia prižiūrėti."
+        },
+        "encryption": {
+          "name": "ES valdomi raktai",
+          "description": "Šifravimas ramybėje su ES laikomais raktais. Ne JAV KMS, ne hyperscaler."
+        },
+        "openFormats": {
+          "name": "Atviri formatai",
+          "description": "Eksportas į standartinius formatus, kai tik norėsi išeiti. Jokio užrakinimo, niekada."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Žinutės",
+      "headline": "Trumpi pokalbiai, tas pats prisijungimas.",
+      "body": "Kanalai, DM ir gijos komandai — ieškomi toje pačioje vietoje, kaip ir paštas bei dokumentai, ne atskiras kortelės langas, kurį reikia sekti.",
+      "items": {
+        "channels": {
+          "name": "Kanalai ir DM",
+          "description": "Pranešimams, projekto darbui ir vienas su vienu."
+        },
+        "threaded": {
+          "name": "Gijomis",
+          "description": "Kad pokalbiai vienas kito neužgožtų. Nutildyk tuos, kuriuose nedalyvauji."
+        },
+        "search": {
+          "name": "Viena paieška",
+          "description": "Rask žinutę greta kalendoriaus kvietimo ar viki puslapio — viena užklausa, visi paviršiai."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Platforma",
+      "headline": "Rinkinys naudoti ir platforma, ant kurios statyti.",
+      "body": "Viešas REST API, pasirašyti webhookai ir forensinio lygio audito žurnalas. Netrukus: Prisijungti su Verkio — ES rezidento tapatybės teikėjas tavo programoms ir klientams.",
+      "items": {
+        "api": {
+          "name": "Viešas API",
+          "description": "REST su OpenAPI 3.1 specifikacija, bearer žetonai, dažnio ribos pagal raktą."
+        },
+        "webhooks": {
+          "name": "Pasirašyti webhookai",
+          "description": "HMAC patvirtintas pristatymas su pakartojimais ir dead-letter eile. Fiksuojama audite."
+        },
+        "audit": {
+          "name": "Audito žurnalas",
+          "description": "Kiekvienas administratoriaus veiksmas užregistruotas, su reikšmėmis prieš/po. Eksportuojama į tavo SIEM."
+        },
+        "signIn": {
+          "name": "Prisijungti su Verkio",
+          "description": "ES rezidento alternatyva prisijungimui su Google ar Apple. Netrukus."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Produktas",

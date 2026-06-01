@@ -653,6 +653,115 @@
     "metaTitle": "Why Verkio — Verkio",
     "metaDescription": "Why teams choose Verkio: quiet software, open standards, EU residency, no lock-in."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Mail",
+      "headline": "Email that does the actual work.",
+      "body": "Standards-based mail with team workflows built in — shared mailboxes, server-side rules, and aliases that don't feel like add-ons.",
+      "items": {
+        "webmail": {
+          "name": "Webmail",
+          "description": "Keyboard-first inbox with threading, search, and labels. The webmail you wish Gmail still was."
+        },
+        "shared": {
+          "name": "Shared mailboxes",
+          "description": "Team inboxes with assignment, status, internal notes, and per-folder access controls."
+        },
+        "rules": {
+          "name": "Server-side rules",
+          "description": "Sieve filters you build in the dashboard, applied at delivery — so they fire in every mail client."
+        },
+        "aliases": {
+          "name": "Aliases & forwarding",
+          "description": "Unlimited aliases, catch-all on your domain, audit-logged external forwards with confirmation."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Calendar & Contacts",
+      "headline": "Plans and people, in your suite.",
+      "body": "Calendars and address books over open CalDAV and CardDAV — no proprietary plugin needed, no double entry.",
+      "items": {
+        "calendars": {
+          "name": "Shared calendars",
+          "description": "Recurring events, invitations, and free/busy lookup across your team."
+        },
+        "contacts": {
+          "name": "Address books",
+          "description": "Personal and team-shared contacts with vCard sync to Apple Calendar, Thunderbird, DAVx⁵."
+        },
+        "identity": {
+          "name": "One identity",
+          "description": "Contacts auto-populate from mail and calendar invites. Same login as the rest of the suite."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Files & Wikis",
+      "headline": "Documents, knowledge, decisions — kept.",
+      "body": "Private and team-shared files alongside structured spaces for the runbooks, decisions, and institutional knowledge your team writes for itself.",
+      "items": {
+        "files": {
+          "name": "File storage",
+          "description": "Per-file access controls, resumable multi-GB uploads, 30-day Trash recovery."
+        },
+        "wikis": {
+          "name": "Wikis",
+          "description": "Searchable, versioned spaces for the team's living knowledge — not a separate app to maintain."
+        },
+        "encryption": {
+          "name": "EU-managed keys",
+          "description": "Encryption at rest with keys held in the EU. Not a US KMS, not a hyperscaler."
+        },
+        "openFormats": {
+          "name": "Open formats",
+          "description": "Export to standard formats whenever you want to leave. No lock-in, ever."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Messaging",
+      "headline": "Quick conversations, same login.",
+      "body": "Channels, DMs, and threads for the team — searchable in the same place as your mail and docs, not a separate tab to keep up with.",
+      "items": {
+        "channels": {
+          "name": "Channels & DMs",
+          "description": "For announcements, project work, and one-on-ones."
+        },
+        "threaded": {
+          "name": "Threaded",
+          "description": "So conversations don't drown each other out. Mute what you're not in."
+        },
+        "search": {
+          "name": "One search",
+          "description": "Find a message next to a calendar invite or a wiki page — one query, all surfaces."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Platform",
+      "headline": "A suite to use, and a platform to build on.",
+      "body": "A public REST API, signed webhooks, and a forensic-grade audit log. Soon: Sign in with Verkio — an EU-resident identity provider for your apps and your customers.",
+      "items": {
+        "api": {
+          "name": "Public API",
+          "description": "REST with an OpenAPI 3.1 spec, bearer tokens, per-key rate limits."
+        },
+        "webhooks": {
+          "name": "Signed webhooks",
+          "description": "HMAC-verified delivery with retries and a dead-letter queue. Audit-logged."
+        },
+        "audit": {
+          "name": "Audit log",
+          "description": "Every admin action recorded, with before/after values. Exportable to your SIEM."
+        },
+        "signIn": {
+          "name": "Sign in with Verkio",
+          "description": "The EU-resident alternative to Sign in with Google or Apple. Coming soon."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Product",

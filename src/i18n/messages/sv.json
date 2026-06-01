@@ -649,6 +649,115 @@
     "metaTitle": "Varför Verkio — Verkio",
     "metaDescription": "Varför team väljer Verkio: tyst mjukvara, öppna standarder, EU-residens, ingen inlåsning."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Mail",
+      "headline": "Mail som gör det faktiska jobbet.",
+      "body": "Standardbaserad mail med teamarbetsflöden inbyggda — delade brevlådor, serverside-regler och alias som inte känns som tillägg.",
+      "items": {
+        "webmail": {
+          "name": "Webbmail",
+          "description": "Tangentbordsfokuserad inkorg med trådning, sökning och etiketter. Webbmailen du önskar att Gmail fortfarande var."
+        },
+        "shared": {
+          "name": "Delade brevlådor",
+          "description": "Teaminkorgar med tilldelning, status, interna anteckningar och åtkomstkontroll per mapp."
+        },
+        "rules": {
+          "name": "Serverside-regler",
+          "description": "Sieve-filter du bygger i dashboarden, tillämpade vid leverans — så de slår till i varje mailklient."
+        },
+        "aliases": {
+          "name": "Alias och vidarebefordran",
+          "description": "Obegränsade alias, catch-all på din domän, externa vidarebefordringar med bekräftelse och loggade i revision."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Kalender och kontakter",
+      "headline": "Planer och människor, i din svit.",
+      "body": "Kalendrar och adressböcker över öppna CalDAV och CardDAV — ingen proprietär plug-in behövs, ingen dubbel inmatning.",
+      "items": {
+        "calendars": {
+          "name": "Delade kalendrar",
+          "description": "Återkommande händelser, inbjudningar och uppslag av ledig/upptagen i hela teamet."
+        },
+        "contacts": {
+          "name": "Adressböcker",
+          "description": "Personliga och teamdelade kontakter med vCard-sync till Apple Calendar, Thunderbird, DAVx⁵."
+        },
+        "identity": {
+          "name": "En identitet",
+          "description": "Kontakter fylls i automatiskt från mail och kalenderinbjudningar. Samma inloggning som resten av sviten."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Filer och wikis",
+      "headline": "Dokument, kunskap, beslut — bevarade.",
+      "body": "Privata och teamdelade filer bredvid strukturerade ytor för runbooks, beslut och den institutionella kunskap som ditt team skriver åt sig självt.",
+      "items": {
+        "files": {
+          "name": "Filagring",
+          "description": "Åtkomstkontroll per fil, återupptagbara uppladdningar i flera GB, 30 dagars återställning från Papperskorgen."
+        },
+        "wikis": {
+          "name": "Wikis",
+          "description": "Sökbara, versionshanterade ytor för teamets levande kunskap — inte en separat app att underhålla."
+        },
+        "encryption": {
+          "name": "EU-förvaltade nycklar",
+          "description": "Kryptering i vila med nycklar som hålls i EU. Inte ett amerikanskt KMS, inte en hyperscaler."
+        },
+        "openFormats": {
+          "name": "Öppna format",
+          "description": "Exportera till standardformat när du vill gå. Ingen inlåsning, någonsin."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Meddelanden",
+      "headline": "Snabba samtal, samma inloggning.",
+      "body": "Kanaler, DM och trådar för teamet — sökbara på samma ställe som din mail och dina dokument, inte en separat flik att hänga med i.",
+      "items": {
+        "channels": {
+          "name": "Kanaler och DM",
+          "description": "För meddelanden, projektarbete och en-mot-en."
+        },
+        "threaded": {
+          "name": "I trådar",
+          "description": "Så att samtalen inte överröstar varandra. Tysta det du inte är med i."
+        },
+        "search": {
+          "name": "En sökning",
+          "description": "Hitta ett meddelande bredvid en kalenderinbjudan eller en wiki-sida — en fråga, alla ytor."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Plattform",
+      "headline": "En svit att använda, och en plattform att bygga på.",
+      "body": "Ett publikt REST-API, signerade webhooks och en forensisk revisionslogg. Snart: Logga in med Verkio — en EU-baserad identitetsleverantör för dina appar och dina kunder.",
+      "items": {
+        "api": {
+          "name": "Publikt API",
+          "description": "REST med en OpenAPI 3.1-specifikation, bearer-tokens, rate-limit per nyckel."
+        },
+        "webhooks": {
+          "name": "Signerade webhooks",
+          "description": "HMAC-verifierad leverans med återförsök och en dead-letter-kö. Loggad i revision."
+        },
+        "audit": {
+          "name": "Revisionslogg",
+          "description": "Varje admin-åtgärd registrerad, med före/efter-värden. Exporterbar till ditt SIEM."
+        },
+        "signIn": {
+          "name": "Logga in med Verkio",
+          "description": "Det EU-baserade alternativet till Logga in med Google eller Apple. Kommer snart."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Produkt",
