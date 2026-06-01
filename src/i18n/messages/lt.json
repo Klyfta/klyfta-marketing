@@ -15,7 +15,42 @@
     "roadmap": "Kelias",
     "articles": "Straipsniai",
     "product": "Produktas",
-    "whyVerkio": "Kodėl Verkio"
+    "whyVerkio": "Kodėl Verkio",
+    "productMenu": {
+      "comingSoon": "Netrukus",
+      "mail": {
+        "name": "Paštas",
+        "description": "Žiniatinklio paštas su komandos darbo eigomis."
+      },
+      "calendar": {
+        "name": "Kalendorius",
+        "description": "Bendri kalendoriai per atvirą CalDAV."
+      },
+      "contacts": {
+        "name": "Kontaktai",
+        "description": "Adresų knygos per atvirą CardDAV."
+      },
+      "files": {
+        "name": "Failai",
+        "description": "Failai ir aplankai, prieiga prie kiekvieno failo."
+      },
+      "wikis": {
+        "name": "Vikiai",
+        "description": "Erdvės komandos žinioms."
+      },
+      "messaging": {
+        "name": "Žinutės",
+        "description": "Kanalai ir DM, tas pats prisijungimas."
+      },
+      "api": {
+        "name": "Vieša API",
+        "description": "REST su OpenAPI 3.1 ir webhook."
+      },
+      "signIn": {
+        "name": "Sign in with Verkio",
+        "description": "OIDC Europos internetui."
+      }
+    }
   },
   "hero": {
     "eyebrow": "Pristatymas 2026 m. liepą",
@@ -644,6 +679,96 @@
   "product": {
     "metaTitle": "Produktas — Verkio",
     "metaDescription": "Verkio produktas: paštas, kalendorius, kontaktai, failai, vikiai ir žinutės. Plius galimybės už kiekvieno iš jų."
+  },
+  "productMail": {
+    "metaTitle": "Paštas — Verkio",
+    "metaDescription": "Standartais grįstas paštas su komandos darbo eigomis: bendros pašto dėžutės, taisyklės serverio pusėje, slapyvardžiai, autoconfig — viskas virš IMAP ir SMTP.",
+    "eyebrow": "Paštas",
+    "headline": "Paštas, kuris varo likusį rinkinį.",
+    "body": "Standartais grįstas paštas su įmontuotomis komandos darbo eigomis — bendros pašto dėžutės, taisyklės serverio pusėje ir slapyvardžiai, kurie nesijaučia kaip priedai. Viskas virš IMAP ir SMTP serverio, todėl bet kuris klientas veikia.",
+    "cta": "Užsiregistruoti",
+    "backLink": "Atgal į produkto apžvalgą",
+    "sections": {
+      "webmail": {
+        "eyebrow": "Žiniatinklio paštas",
+        "headline": "Žiniatinklio paštas, kurį tikrai norėtum naudoti.",
+        "body": "Greitas, klaviatūros pirma gautųjų aplankas su gijomis, paieška ir etiketėmis. Trijų skydelių išdėstymas, kurį prisimeni — be AI patarimų, įsitraukimo metrikų ar 'ar kas nors prieinamas?'-teatro.",
+        "bullets": [
+          "Klaviatūros nuorodos, kurias tikrai gali išmokti — jokių komandų, palaidotų penkiais meniu žemiau.",
+          "Pilno teksto paieška per visą gautųjų aplanką ir kiekvieną aplanką.",
+          "Gijos ir etiketės ramaus trijų skydelių išdėstymo.",
+          "Rašyklė su priedais vilkti-ir-numesti ir Markdown.",
+          "Veikia offline-first, kai Verkio įdiegi kaip PWA."
+        ]
+      },
+      "shared": {
+        "eyebrow": "Bendros pašto dėžutės",
+        "headline": "Helpdesk darbo eiga, neperkant helpdesk produkto.",
+        "body": "Komandos gautųjų aplankai support@, hello@, billing@. Priskyrimas, statusas ir vidinės pastabos — atskleisti kaip IMAP raktažodžiai, kad pažangūs naudotojai Thunderbird, Apple Mail ar K-9 matytų tą pačią būseną kaip ir visi kiti.",
+        "bullets": [
+          "Priskirk pokalbį komandos nariui, nuosavybė audito žurnale.",
+          "Nustatyk būseną — atvira, laukiama, uždaryta — ir stebėk, kaip kliento atsakymas ją atveria iš naujo.",
+          "Prieigos kontrolė pagal aplankus (RFC 4314 ACL): skaitytojai, atsakytojai, administratoriai.",
+          "Vidinės pastabos matomos tik komandai.",
+          "Daugelio naudotojų IMAP ir SMTP — prijunk bet kurį standartus atitinkantį klientą.",
+          "Platinimo sąrašai, slapyvardis-į-bendrą maršrutas, saugojimo persiuntimas."
+        ]
+      },
+      "rules": {
+        "eyebrow": "Taisyklės serverio pusėje",
+        "headline": "Filtrai, kurie suveikia, kur tik skaitai paštą.",
+        "body": "Kurk Sieve filtrus skydelyje — perkelk naujienlaiškius į aplanką, nutildyk triukšmingus sąrašus, nukreipk projekto paštą į reikiamą vietą. Taikoma pristatymo metu, ne kliente, todėl veikia visur.",
+        "bullets": [
+          "Vizualus taisyklių kūrėjas, kompiliuojantis į Sieve RFC 5228.",
+          "Penki paruošti šablonai: naujienlaiškių maršrutas, atostogos, archyvavimas pagal siuntėją ir kt.",
+          "Iki 50 taisyklių vienai pašto dėžutei, įrašyta audito žurnale.",
+          "Persiuntimo ciklų ir blogo DNS apsauga įmontuota — jokios katastrofos trečią valandą nakties."
+        ]
+      },
+      "aliases": {
+        "eyebrow": "Slapyvardžiai ir persiuntimas",
+        "headline": "Visi adresai, kurių reikia tavo komandai.",
+        "body": "Neriboti slapyvardžiai vienam naudotojui. Catch-all tavo domene. Išorinis persiuntimas į Gmail, Fastmail, tavo asmeninę gautųjų — su aiškia patvirtinimu. Platinimo sąrašai komandai. Viskas audito žurnale.",
+        "bullets": [
+          "Neriboti slapyvardžiai vienam naudotojui (su pagrįstu naudojimu).",
+          "Catch-all tavo domene, kad neteisingai įvesti adresai vis tiek pasiektų.",
+          "Išorinis persiuntimas su dvigubu opt-in — tikslai patvirtina prieš paštui pradedant tekėti.",
+          "Iki 3 persiuntimų vienai asmeninei pašto dėžutei; kiekvienas pakeitimas audito žurnale.",
+          "Platinimo sąrašai ir saugojimo persiuntimas sklandžiam offboarding."
+        ]
+      },
+      "domains": {
+        "eyebrow": "Standartai ir nustatymas",
+        "headline": "Atsinešk savo domeną. Bet kuris klientas.",
+        "body": "Pridėk domeną, ir mes sukonfigūruosime MX, SPF, DKIM, DMARC bei autoconfig įrašus už tave. Prisijunk iš Apple Mail, Thunderbird, Outlook, K-9 — bet ko, kas kalba IMAP ar SMTP. Mobilūs profiliai sukuriami automatiškai.",
+        "bullets": [
+          "Automatinis domeno nustatymas dešimtyje ES DNS tiekėjų — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys ir kitų.",
+          "Autoconfig per host header pašto kliento nustatymui vienu spustelėjimu.",
+          "Thunderbird XML ir Apple .mobileconfig profiliai sukuriami kiekvienai paskyrai.",
+          "IMAP4rev1, SMTP ir JMAP — pasirink protokolą.",
+          "Išeinantis tik per TLS, MTA-STS supratingas, su ARC parašu persiuntimuose."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Atviri standartai",
+      "headline": "Jokio nuosavybinio protokolo. Jokio pririšimo prie tiekėjo.",
+      "body": "Verkio Mail sukurtas ant tų pačių RFC, kuriuos tavo esami įrankiai jau kalba. Atsinešk savo klientą. Pasiimk pašto dėžutę su savimi, kai išeini.",
+      "items": [
+        "IMAP4rev1",
+        "SMTP",
+        "JMAP",
+        "Sieve (RFC 5228)",
+        "ACLs (RFC 4314)",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "ARC",
+        "MTA-STS",
+        "TLS-RPT",
+        "DNSSEC"
+      ]
+    }
   },
   "whyVerkio": {
     "metaTitle": "Kodėl Verkio — Verkio",

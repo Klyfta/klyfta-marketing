@@ -15,7 +15,42 @@
     "roadmap": "Vegvísir",
     "articles": "Greinar",
     "product": "Vara",
-    "whyVerkio": "Hvers vegna Verkio"
+    "whyVerkio": "Hvers vegna Verkio",
+    "productMenu": {
+      "comingSoon": "Bráðum",
+      "mail": {
+        "name": "Póstur",
+        "description": "Vefpóstur með vinnuferlum fyrir teymi."
+      },
+      "calendar": {
+        "name": "Dagatal",
+        "description": "Sameiginleg dagatöl yfir opið CalDAV."
+      },
+      "contacts": {
+        "name": "Tengiliðir",
+        "description": "Heimilisfangaskrár yfir opið CardDAV."
+      },
+      "files": {
+        "name": "Skrár",
+        "description": "Skrár og möppur, aðgangur per skrá."
+      },
+      "wikis": {
+        "name": "Wikiar",
+        "description": "Svæði fyrir þekkingu teymisins."
+      },
+      "messaging": {
+        "name": "Skilaboð",
+        "description": "Rásir og einkaskilaboð, sama innskráning."
+      },
+      "api": {
+        "name": "Opinber API",
+        "description": "REST með OpenAPI 3.1 og webhooks."
+      },
+      "signIn": {
+        "name": "Sign in with Verkio",
+        "description": "OIDC fyrir evrópska netið."
+      }
+    }
   },
   "hero": {
     "eyebrow": "Kemur út í júlí 2026",
@@ -644,6 +679,96 @@
   "product": {
     "metaTitle": "Vara — Verkio",
     "metaDescription": "Verkio varan: póstur, dagatal, tengiliðir, skrár, wikiar og skilaboð. Auk getunnar á bak við hvert og eitt."
+  },
+  "productMail": {
+    "metaTitle": "Póstur — Verkio",
+    "metaDescription": "Staðlaður póstur með vinnuferlum fyrir teymi: sameiginleg pósthólf, reglur á þjóni, samheiti, autoconfig — allt ofan á IMAP og SMTP.",
+    "eyebrow": "Póstur",
+    "headline": "Pósturinn sem keyrir hina svítuna.",
+    "body": "Staðlaður póstur með innbyggðum vinnuferlum fyrir teymi — sameiginleg pósthólf, reglur á þjóni og samheiti sem líta ekki út eins og viðbætur. Allt ofan á IMAP- og SMTP-þjóni, svo hvaða biðlari sem er virkar.",
+    "cta": "Skrá á biðlista",
+    "backLink": "Aftur að yfirliti vöru",
+    "sections": {
+      "webmail": {
+        "eyebrow": "Vefpóstur",
+        "headline": "Vefpósturinn sem þú myndir í alvöru vilja nota.",
+        "body": "Hröð, lyklaborðs-fyrst innhólf með þráðum, leit og merkjum. Þriggja glugga útlit sem þú manst — án AI-ábendinga, þátttökumælinga eða 'er einhver tiltækur?'-leikrits.",
+        "bullets": [
+          "Lyklaborðsstyttingar sem þú getur í raun lært — engar skipanir grafnar fimm valmyndir niður.",
+          "Heiltextaleit yfir allt innhólfið og hverja möppu.",
+          "Þræðir og merki í rólegu þriggja glugga útliti.",
+          "Ritstjóri með drag-og-sleppa-viðhengjum og Markdown.",
+          "Virkar offline-fyrst þegar þú setur Verkio upp sem PWA."
+        ]
+      },
+      "shared": {
+        "eyebrow": "Sameiginleg pósthólf",
+        "headline": "Helpdesk-vinnuferli án þess að kaupa helpdesk-vöru.",
+        "body": "Teymisinnhólf fyrir support@, hello@, billing@. Úthlutun, staða og innri minnismiðar — birt sem IMAP-lykilorð svo notendur í Thunderbird, Apple Mail eða K-9 sjá sömu stöðu og allir aðrir.",
+        "bullets": [
+          "Úthluta samtali til samstarfsmanns, eignarhald skráð í endurskoðunarlogg.",
+          "Settu stöðu — opin, í bið, lokuð — og sjáðu kúndasvar opna aftur.",
+          "Aðgangsstýringar á möppum (RFC 4314 ACL): lesendur, svarendur, stjórnendur.",
+          "Innri minnismiðar sýnilegir aðeins teyminu.",
+          "Fjölnotenda IMAP og SMTP — tengdu hvaða staðlaða biðlara sem er.",
+          "Dreifilistar, samheiti-til-sameiginlegs-beining, varðveisluáframsending."
+        ]
+      },
+      "rules": {
+        "eyebrow": "Reglur á þjóni",
+        "headline": "Síur sem virka hvar sem þú lest póstinn.",
+        "body": "Byggðu Sieve-síur í stjórnborðinu — færðu fréttabréf í möppu, þaggaðu niður háværa lista, beindu verkefnapósti á réttan stað. Beitt við afhendingu, ekki í biðlaranum, svo þær virka alls staðar.",
+        "bullets": [
+          "Sjónrænt regluverkfæri sem þýðir yfir í Sieve RFC 5228.",
+          "Fimm tilbúin sniðmát: fréttabréfabeining, fjarvera, geymsla eftir sendanda og fleira.",
+          "Allt að 50 reglur á pósthólf, skráðar í endurskoðunarlogg.",
+          "Vörn gegn áframsendingarlykkjum og biluðu DNS innbyggð — engin þrjú-um-nótt katastrófa."
+        ]
+      },
+      "aliases": {
+        "eyebrow": "Samheiti og áframsending",
+        "headline": "Öll heimilisföngin sem teymið þitt þarf.",
+        "body": "Ótakmörkuð samheiti á notanda. Catch-all á léninu þínu. Ytri áframsending á Gmail, Fastmail, persónulegt innhólf þitt — með skýrri staðfestingu. Dreifilistar fyrir teymið. Allt í endurskoðunarlogg.",
+        "bullets": [
+          "Ótakmörkuð samheiti á notanda (háð sanngjarnri notkun).",
+          "Catch-all á léninu þínu svo rangt stafsett heimilisföng komast samt.",
+          "Ytri áframsending með tvöfaldri staðfestingu — áfangastaðir staðfesta áður en póstur fer.",
+          "Allt að 3 áframsendingar á persónulegt pósthólf; hver breyting í endurskoðunarlogg.",
+          "Dreifilistar og varðveisluáframsending fyrir mjúka offboarding."
+        ]
+      },
+      "domains": {
+        "eyebrow": "Staðlar og uppsetning",
+        "headline": "Komdu með þitt lén. Hvaða biðlara sem er.",
+        "body": "Bættu við léni og við stillum MX-, SPF-, DKIM-, DMARC- og autoconfig-færslur fyrir þig. Skráðu þig inn úr Apple Mail, Thunderbird, Outlook, K-9 — öllu sem talar IMAP eða SMTP. Farsímasnið mynduð sjálfkrafa.",
+        "bullets": [
+          "Sjálfvirk lén-uppsetning hjá tíu ESB-DNS-veitendum — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys og fleirum.",
+          "Autoconfig í gegnum host header fyrir eins-smells póstbiðlarauppsetningu.",
+          "Thunderbird XML- og Apple .mobileconfig-snið mynduð fyrir hvern reikning.",
+          "IMAP4rev1, SMTP og JMAP — veldu þína samskiptareglu.",
+          "Útsendingar aðeins um TLS, MTA-STS-meðvitaðar, með ARC-undirritun á áframsendingum."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Opnir staðlar",
+      "headline": "Engin séreignarsamskiptaregla. Engin söluaðilalæsing.",
+      "body": "Verkio Mail er byggt á sömu RFC-um og núverandi tólin þín tala þegar. Komdu með biðlarann þinn. Taktu pósthólfið með þér þegar þú ferð.",
+      "items": [
+        "IMAP4rev1",
+        "SMTP",
+        "JMAP",
+        "Sieve (RFC 5228)",
+        "ACLs (RFC 4314)",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "ARC",
+        "MTA-STS",
+        "TLS-RPT",
+        "DNSSEC"
+      ]
+    }
   },
   "whyVerkio": {
     "metaTitle": "Hvers vegna Verkio — Verkio",

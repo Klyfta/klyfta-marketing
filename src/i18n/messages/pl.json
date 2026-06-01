@@ -15,7 +15,42 @@
     "roadmap": "Plan rozwoju",
     "articles": "Artykuły",
     "product": "Produkt",
-    "whyVerkio": "Dlaczego Verkio"
+    "whyVerkio": "Dlaczego Verkio",
+    "productMenu": {
+      "comingSoon": "Wkrótce",
+      "mail": {
+        "name": "Poczta",
+        "description": "Webmail z przepływami pracy zespołu."
+      },
+      "calendar": {
+        "name": "Kalendarz",
+        "description": "Współdzielone kalendarze przez otwarty CalDAV."
+      },
+      "contacts": {
+        "name": "Kontakty",
+        "description": "Książki adresowe przez otwarty CardDAV."
+      },
+      "files": {
+        "name": "Pliki",
+        "description": "Pliki i foldery, dostęp per plik."
+      },
+      "wikis": {
+        "name": "Wiki",
+        "description": "Przestrzenie dla wiedzy zespołu."
+      },
+      "messaging": {
+        "name": "Wiadomości",
+        "description": "Kanały i DM-y, ten sam login."
+      },
+      "api": {
+        "name": "Publiczne API",
+        "description": "REST z OpenAPI 3.1 i webhookami."
+      },
+      "signIn": {
+        "name": "Sign in with Verkio",
+        "description": "OIDC dla europejskiego internetu."
+      }
+    }
   },
   "hero": {
     "eyebrow": "Premiera w lipcu 2026",
@@ -644,6 +679,96 @@
   "product": {
     "metaTitle": "Produkt — Verkio",
     "metaDescription": "Produkt Verkio: poczta, kalendarz, kontakty, pliki, wiki i wiadomości. Plus możliwości stojące za każdym z nich."
+  },
+  "productMail": {
+    "metaTitle": "Poczta — Verkio",
+    "metaDescription": "Poczta oparta na standardach z przepływami pracy zespołu: współdzielone skrzynki, reguły po stronie serwera, aliasy, autoconfig — wszystko na IMAP i SMTP.",
+    "eyebrow": "Poczta",
+    "headline": "Poczta, która napędza resztę pakietu.",
+    "body": "Poczta oparta na standardach z wbudowanymi przepływami pracy zespołu — współdzielone skrzynki, reguły po stronie serwera i aliasy, które nie wyglądają jak dodatki. Wszystko na serwerze IMAP i SMTP, więc dowolny klient działa.",
+    "cta": "Zapisz się",
+    "backLink": "Powrót do przeglądu produktu",
+    "sections": {
+      "webmail": {
+        "eyebrow": "Webmail",
+        "headline": "Webmail, którego naprawdę chciałbyś używać.",
+        "body": "Szybka skrzynka odbiorcza dla klawiatury z wątkami, wyszukiwaniem i etykietami. Trzypanelowy układ, który pamiętasz — bez podpowiedzi AI, metryk zaangażowania ani teatru 'czy ktoś jest dostępny?'.",
+        "bullets": [
+          "Skróty klawiaturowe, których naprawdę możesz się nauczyć — żadnych komend zakopanych pięć menu w dół.",
+          "Wyszukiwanie pełnotekstowe w całej skrzynce i każdym folderze.",
+          "Wątki i etykiety w spokojnym trzypanelowym układzie.",
+          "Edytor z załącznikami przeciągnij-i-upuść i Markdown.",
+          "Działa offline-first, gdy zainstalujesz Verkio jako PWA."
+        ]
+      },
+      "shared": {
+        "eyebrow": "Współdzielone skrzynki",
+        "headline": "Workflow helpdesku bez kupowania produktu helpdeskowego.",
+        "body": "Skrzynki zespołowe dla support@, hello@, billing@. Przypisanie, status i wewnętrzne notatki — wystawione jako słowa kluczowe IMAP, więc zaawansowani użytkownicy w Thunderbirdzie, Apple Mail czy K-9 widzą ten sam stan co reszta.",
+        "bullets": [
+          "Przypisz konwersację koledze, własność zapisana w audit logu.",
+          "Ustaw status — otwarte, oczekujące, zamknięte — i zobacz, jak odpowiedź klienta ponownie ją otwiera.",
+          "Kontrola dostępu na folder (RFC 4314 ACL): czytelnicy, odpowiadający, administratorzy.",
+          "Wewnętrzne notatki widoczne tylko dla zespołu.",
+          "Wieloużytkownikowy IMAP i SMTP — podłącz dowolnego klienta zgodnego ze standardami.",
+          "Listy dystrybucyjne, routowanie alias-do-współdzielonej, przekierowanie retencyjne."
+        ]
+      },
+      "rules": {
+        "eyebrow": "Reguły po stronie serwera",
+        "headline": "Filtry, które działają wszędzie, gdzie czytasz pocztę.",
+        "body": "Zbuduj filtry Sieve w panelu — przenieś newslettery do folderu, wycisz głośne listy, skieruj pocztę projektową we właściwe miejsce. Stosowane przy dostawie, nie w kliencie, więc działają wszędzie.",
+        "bullets": [
+          "Wizualny kreator reguł kompilujący do Sieve RFC 5228.",
+          "Pięć gotowych szablonów: routowanie newsletterów, nieobecność, archiwizacja po nadawcy i więcej.",
+          "Do 50 reguł na skrzynkę, zapisanych w audit logu.",
+          "Wbudowana ochrona przed pętlami przekierowań i złym DNS — żadnych katastrof o 3 w nocy."
+        ]
+      },
+      "aliases": {
+        "eyebrow": "Aliasy i przekierowania",
+        "headline": "Wszystkie adresy, których potrzebuje twój zespół.",
+        "body": "Nielimitowane aliasy na użytkownika. Catch-all na twojej domenie. Zewnętrzne przekierowanie do Gmaila, Fastmaila, twojej osobistej skrzynki — z wyraźnym potwierdzeniem. Listy dystrybucyjne dla zespołu. Wszystko w audit logu.",
+        "bullets": [
+          "Nielimitowane aliasy na użytkownika (przy rozsądnym użyciu).",
+          "Catch-all na twojej domenie, żeby źle wpisane adresy i tak dotarły.",
+          "Zewnętrzne przekierowanie z podwójnym opt-inem — cele potwierdzają, zanim poczta popłynie.",
+          "Do 3 przekierowań na osobistą skrzynkę; każda zmiana w audit logu.",
+          "Listy dystrybucyjne i przekierowanie retencyjne dla łagodnego offboardingu."
+        ]
+      },
+      "domains": {
+        "eyebrow": "Standardy i konfiguracja",
+        "headline": "Przynieś swoją domenę. Dowolny klient.",
+        "body": "Dodaj domenę, a my skonfigurujemy rekordy MX, SPF, DKIM, DMARC i autoconfig za ciebie. Zaloguj się z Apple Mail, Thunderbirda, Outlooka, K-9 — czegokolwiek, co mówi IMAP lub SMTP. Profile mobilne generowane automatycznie.",
+        "bullets": [
+          "Automatyczna konfiguracja domeny u dziesięciu unijnych dostawców DNS — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys i innych.",
+          "Autoconfig przez host header dla konfiguracji klienta poczty w jednym kliknięciu.",
+          "Profile Thunderbird XML i Apple .mobileconfig generowane dla każdego konta.",
+          "IMAP4rev1, SMTP i JMAP — wybierz swój protokół.",
+          "Wychodzący tylko przez TLS, świadomy MTA-STS, z podpisem ARC na przekierowaniach."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Otwarte standardy",
+      "headline": "Żadnego protokołu właścicielskiego. Żadnego vendor lock-in.",
+      "body": "Verkio Mail jest zbudowane na tych samych RFC, którymi twoje istniejące narzędzia już mówią. Przynieś swojego klienta. Zabierz skrzynkę ze sobą, kiedy odchodzisz.",
+      "items": [
+        "IMAP4rev1",
+        "SMTP",
+        "JMAP",
+        "Sieve (RFC 5228)",
+        "ACLs (RFC 4314)",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "ARC",
+        "MTA-STS",
+        "TLS-RPT",
+        "DNSSEC"
+      ]
+    }
   },
   "whyVerkio": {
     "metaTitle": "Dlaczego Verkio — Verkio",
