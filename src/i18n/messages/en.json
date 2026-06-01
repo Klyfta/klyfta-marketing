@@ -627,6 +627,11 @@
         "date": "June 2026",
         "name": "Universal search",
         "description": "One input in the top bar searches Email, Calendar, Contacts, Files, Wikis, and Messages. Grouped results, keyboard-first, sharable URLs. Press / from any page to focus; everything in one place."
+      },
+      "tier2Encryption": {
+        "date": "June 2026",
+        "name": "Customer-held-key encryption at rest (opt-in)",
+        "description": "Optional per-mailbox upgrade: Verkio configures Stalwart to encrypt every incoming message to YOUR PGP public key before writing to disk. Your private key stays in your mail client (Thunderbird / Apple Mail / K-9 / Outlook+PGP). Verkio physically cannot read those messages at rest. Trades web inbox + search + push previews for the strongest at-rest posture. Free on every plan — no Microsoft/Google-style upsell. Default Verkio-managed-keys posture (every account, every plan) is unchanged."
       }
     }
   },
