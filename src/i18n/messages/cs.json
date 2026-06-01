@@ -15,7 +15,42 @@
     "roadmap": "Plán",
     "articles": "Články",
     "product": "Produkt",
-    "whyVerkio": "Proč Verkio"
+    "whyVerkio": "Proč Verkio",
+    "productMenu": {
+      "comingSoon": "Brzy",
+      "mail": {
+        "name": "Pošta",
+        "description": "Webmail s týmovými pracovními postupy."
+      },
+      "calendar": {
+        "name": "Kalendář",
+        "description": "Sdílené kalendáře přes otevřený CalDAV."
+      },
+      "contacts": {
+        "name": "Kontakty",
+        "description": "Adresáře přes otevřený CardDAV."
+      },
+      "files": {
+        "name": "Soubory",
+        "description": "Soubory a složky, přístup na soubor."
+      },
+      "wikis": {
+        "name": "Wiki",
+        "description": "Prostory pro týmové znalosti."
+      },
+      "messaging": {
+        "name": "Zprávy",
+        "description": "Kanály a DM, stejné přihlášení."
+      },
+      "api": {
+        "name": "Veřejné API",
+        "description": "REST s OpenAPI 3.1 a webhooky."
+      },
+      "signIn": {
+        "name": "Sign in with Verkio",
+        "description": "OIDC pro evropský internet."
+      }
+    }
   },
   "hero": {
     "eyebrow": "Spuštění v červenci 2026",
@@ -644,6 +679,96 @@
   "product": {
     "metaTitle": "Produkt — Verkio",
     "metaDescription": "Produkt Verkio: pošta, kalendář, kontakty, soubory, wiki a zprávy. Plus schopnosti za každým z nich."
+  },
+  "productMail": {
+    "metaTitle": "Pošta — Verkio",
+    "metaDescription": "Pošta na standardech s týmovými pracovními postupy: sdílené schránky, pravidla na serveru, aliasy, autoconfig — vše nad IMAP a SMTP.",
+    "eyebrow": "Pošta",
+    "headline": "Pošta, která pohání zbytek balíčku.",
+    "body": "Pošta na standardech s vestavěnými týmovými pracovními postupy — sdílené schránky, pravidla na serveru a aliasy, které nepůsobí jako přídavky. Vše nad IMAP a SMTP serverem, takže funguje libovolný klient.",
+    "cta": "Přidat se na seznam",
+    "backLink": "Zpět na přehled produktu",
+    "sections": {
+      "webmail": {
+        "eyebrow": "Webmail",
+        "headline": "Webmail, který bys chtěl skutečně používat.",
+        "body": "Rychlá doručená schránka pro klávesnici s vlákny, vyhledáváním a štítky. Třípanelové rozložení, které si pamatuješ — bez AI tipů, metrik zapojení nebo divadla 'je někdo k dispozici?'.",
+        "bullets": [
+          "Klávesové zkratky, které se opravdu naučíš — žádné příkazy zahrabané pět menu hluboko.",
+          "Vyhledávání plného textu napříč celou schránkou a každou složkou.",
+          "Vlákna a štítky v klidném třípanelovém rozložení.",
+          "Editor s přílohami přetažením a Markdownem.",
+          "Funguje offline-first, když si Verkio nainstaluješ jako PWA."
+        ]
+      },
+      "shared": {
+        "eyebrow": "Sdílené schránky",
+        "headline": "Helpdesk workflow bez nákupu helpdesk produktu.",
+        "body": "Týmové schránky pro support@, hello@, billing@. Přiřazení, stav a interní poznámky — vystavené jako klíčová slova IMAP, takže pokročilí uživatelé v Thunderbirdu, Apple Mail nebo K-9 vidí stejný stav jako všichni ostatní.",
+        "bullets": [
+          "Přiřaď konverzaci kolegovi, vlastnictví zapsané v audit logu.",
+          "Nastav stav — otevřeno, čeká, uzavřeno — a sleduj, jak ho odpověď zákazníka znovu otevře.",
+          "Řízení přístupu na složku (RFC 4314 ACL): čtenáři, odpovídající, administrátoři.",
+          "Interní poznámky viditelné jen pro tým.",
+          "Víceuživatelské IMAP a SMTP — připoj libovolného klienta podporujícího standardy.",
+          "Distribuční seznamy, směrování alias-na-sdílenou, retenční přeposílání."
+        ]
+      },
+      "rules": {
+        "eyebrow": "Pravidla na serveru",
+        "headline": "Filtry, které se uplatní, ať čteš poštu kdekoli.",
+        "body": "Postav Sieve filtry v dashboardu — přesuň newslettery do složky, ztiš hlučné seznamy, směruj projektovou poštu na správné místo. Aplikováno při doručení, ne v klientovi, takže fungují všude.",
+        "bullets": [
+          "Vizuální konstruktor pravidel, který kompiluje do Sieve RFC 5228.",
+          "Pět připravených šablon: směrování newsletterů, nepřítomnost, archivace podle odesílatele a další.",
+          "Až 50 pravidel na schránku, zaznamenáno v audit logu.",
+          "Ochrana proti smyčkám přeposílání a špatnému DNS vestavěná — žádná katastrofa ve tři ráno."
+        ]
+      },
+      "aliases": {
+        "eyebrow": "Aliasy a přeposílání",
+        "headline": "Všechny adresy, které tvůj tým potřebuje.",
+        "body": "Neomezené aliasy na uživatele. Catch-all na tvé doméně. Externí přeposílání do Gmailu, Fastmailu, tvé osobní schránky — s výslovným potvrzením. Distribuční seznamy pro tým. Vše v audit logu.",
+        "bullets": [
+          "Neomezené aliasy na uživatele (s rozumným využitím).",
+          "Catch-all na tvé doméně, aby překlepy v adrese stejně dorazily.",
+          "Externí přeposílání s dvojitým opt-inem — cíle potvrzují, než pošta poteče.",
+          "Až 3 přeposlání na osobní schránku; každá změna v audit logu.",
+          "Distribuční seznamy a retenční přeposílání pro klidný offboarding."
+        ]
+      },
+      "domains": {
+        "eyebrow": "Standardy a nastavení",
+        "headline": "Přines svou doménu. Jakýkoliv klient.",
+        "body": "Přidej doménu a my za tebe nastavíme MX, SPF, DKIM, DMARC a autoconfig záznamy. Přihlas se z Apple Mail, Thunderbirdu, Outlooku, K-9 — čehokoli, co mluví IMAP nebo SMTP. Mobilní profily se generují automaticky.",
+        "bullets": [
+          "Automatické nastavení domény u deseti EU DNS poskytovatelů — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys a dalších.",
+          "Autoconfig přes host header pro nastavení mailového klienta na jeden klik.",
+          "Profily Thunderbird XML a Apple .mobileconfig vygenerované pro každý účet.",
+          "IMAP4rev1, SMTP a JMAP — vyber si svůj protokol.",
+          "Odchozí jen přes TLS, s podporou MTA-STS, s ARC podpisem na přeposláních."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Otevřené standardy",
+      "headline": "Žádný proprietární protokol. Žádný vendor lock-in.",
+      "body": "Verkio Mail je postavený na stejných RFC, které tvoje stávající nástroje už znají. Přines svého klienta. Vezmi si schránku s sebou, až odejdeš.",
+      "items": [
+        "IMAP4rev1",
+        "SMTP",
+        "JMAP",
+        "Sieve (RFC 5228)",
+        "ACLs (RFC 4314)",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "ARC",
+        "MTA-STS",
+        "TLS-RPT",
+        "DNSSEC"
+      ]
+    }
   },
   "whyVerkio": {
     "metaTitle": "Proč Verkio — Verkio",

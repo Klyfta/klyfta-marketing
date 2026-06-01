@@ -15,7 +15,42 @@
     "roadmap": "Roadmap",
     "articles": "Artikelen",
     "product": "Product",
-    "whyVerkio": "Waarom Verkio"
+    "whyVerkio": "Waarom Verkio",
+    "productMenu": {
+      "comingSoon": "Binnenkort",
+      "mail": {
+        "name": "Mail",
+        "description": "Webmail met team-workflows."
+      },
+      "calendar": {
+        "name": "Agenda",
+        "description": "Gedeelde agenda's via open CalDAV."
+      },
+      "contacts": {
+        "name": "Contacten",
+        "description": "Adresboeken via open CardDAV."
+      },
+      "files": {
+        "name": "Bestanden",
+        "description": "Bestanden en mappen, toegang per bestand."
+      },
+      "wikis": {
+        "name": "Wiki's",
+        "description": "Ruimtes voor teamkennis."
+      },
+      "messaging": {
+        "name": "Berichten",
+        "description": "Kanalen en DM's, dezelfde login."
+      },
+      "api": {
+        "name": "Publieke API",
+        "description": "REST met OpenAPI 3.1 en webhooks."
+      },
+      "signIn": {
+        "name": "Sign in with Verkio",
+        "description": "OIDC voor het EU-internet."
+      }
+    }
   },
   "hero": {
     "eyebrow": "Lancering in juli 2026",
@@ -644,6 +679,96 @@
   "product": {
     "metaTitle": "Product — Verkio",
     "metaDescription": "Het Verkio-product: mail, agenda, contacten, bestanden, wiki's en berichten. Plus de mogelijkheden achter elk daarvan."
+  },
+  "productMail": {
+    "metaTitle": "Mail — Verkio",
+    "metaDescription": "Standaardgebaseerde mail met team-workflows: gedeelde mailboxen, regels op de server, aliassen, autoconfig — allemaal bovenop IMAP en SMTP.",
+    "eyebrow": "Mail",
+    "headline": "De mail die de rest van de suite draaiend houdt.",
+    "body": "Standaardgebaseerde mail met team-workflows ingebouwd — gedeelde mailboxen, regels op de server en aliassen die niet als add-ons aanvoelen. Allemaal bovenop een IMAP- en SMTP-server, zodat elke client werkt.",
+    "cta": "Inschrijven",
+    "backLink": "Terug naar productoverzicht",
+    "sections": {
+      "webmail": {
+        "eyebrow": "Webmail",
+        "headline": "De webmail die je echt zou willen gebruiken.",
+        "body": "Snelle, toetsenbordgerichte inbox met threads, zoeken en labels. De drie-paneel-indeling die je je herinnert — zonder AI-tips, betrokkenheidsmetingen of het 'is er iemand beschikbaar?'-theater.",
+        "bullets": [
+          "Sneltoetsen die je echt kunt leren — geen commando's vijf menu's diep verstopt.",
+          "Volledige tekstzoekactie over je hele inbox en elke map.",
+          "Threads en labels in een rustige drie-paneel-indeling.",
+          "Opsteller met sleep-en-neerzet-bijlagen en Markdown.",
+          "Werkt offline-first als je Verkio als PWA installeert."
+        ]
+      },
+      "shared": {
+        "eyebrow": "Gedeelde mailboxen",
+        "headline": "Helpdesk-workflow, zonder een helpdesk-product te kopen.",
+        "body": "Team-inboxen voor support@, hello@, billing@. Toewijzing, status en interne notities — als IMAP-trefwoorden blootgesteld, zodat power users in Thunderbird, Apple Mail of K-9 dezelfde status zien als iedereen.",
+        "bullets": [
+          "Wijs een gesprek toe aan een teamgenoot, met eigenaarschap in het audit-log.",
+          "Stel status in — open, in afwachting, gesloten — en zie hoe een klantantwoord die heropent.",
+          "Toegangscontrole per map (RFC 4314 ACL's): lezers, beantwoorders, admins.",
+          "Interne notities alleen zichtbaar voor het team.",
+          "Multi-user IMAP en SMTP — verbind elke standaardconforme client.",
+          "Distributielijsten, alias-naar-gedeeld-routering, retentie-doorsturen."
+        ]
+      },
+      "rules": {
+        "eyebrow": "Regels op de server",
+        "headline": "Filters die werken waar je ook mail leest.",
+        "body": "Bouw Sieve-filters in het dashboard — verplaats nieuwsbrieven naar een map, demp luidruchtige lijsten, leid projectmail naar de juiste plek. Toegepast bij aflevering, niet in de client, dus ze werken overal.",
+        "bullets": [
+          "Visuele regelbouwer die compileert naar Sieve RFC 5228.",
+          "Vijf kant-en-klare sjablonen: nieuwsbrief-routering, afwezigheid, archief-op-afzender en meer.",
+          "Tot 50 regels per mailbox, vastgelegd in het audit-log.",
+          "Bescherming tegen doorstuurloops en kapotte DNS ingebouwd — geen ramp om 3 uur 's nachts."
+        ]
+      },
+      "aliases": {
+        "eyebrow": "Aliassen & doorsturen",
+        "headline": "Alle adressen die je team nodig heeft.",
+        "body": "Onbeperkt aliassen per gebruiker. Catch-all op je domein. Extern doorsturen naar Gmail, Fastmail, je persoonlijke inbox — met expliciete bevestiging. Distributielijsten voor het team. Alles in het audit-log.",
+        "bullets": [
+          "Onbeperkt aliassen per gebruiker (onder voorbehoud van redelijk gebruik).",
+          "Catch-all op je domein zodat verkeerd gespelde adressen toch aankomen.",
+          "Extern doorsturen met dubbele opt-in — bestemmingen bevestigen voordat mail stroomt.",
+          "Tot 3 doorstuurregels per persoonlijke mailbox; elke wijziging in het audit-log.",
+          "Distributielijsten en retentie-doorsturen voor een soepel offboarding."
+        ]
+      },
+      "domains": {
+        "eyebrow": "Standaarden & instellen",
+        "headline": "Breng je domein mee. Elke client.",
+        "body": "Voeg een domein toe en wij configureren MX-, SPF-, DKIM-, DMARC- en autoconfig-records voor je. Log in vanuit Apple Mail, Thunderbird, Outlook, K-9 — alles dat IMAP of SMTP spreekt. Mobiele profielen automatisch gegenereerd.",
+        "bullets": [
+          "Automatische domein-setup bij tien EU-DNS-providers — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys en meer.",
+          "Autoconfig via host header voor mailclient-setup met één klik.",
+          "Thunderbird XML- en Apple .mobileconfig-profielen voor elk account gegenereerd.",
+          "IMAP4rev1, SMTP en JMAP — kies je protocol.",
+          "Uitgaand alleen TLS, MTA-STS-bewust, met ARC-ondertekening bij doorsturen."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Open standaarden",
+      "headline": "Geen propriëtair protocol. Geen vendor lock-in.",
+      "body": "Verkio Mail is gebouwd op dezelfde RFC's die je bestaande tools al spreken. Breng je client mee. Neem je mailbox mee als je vertrekt.",
+      "items": [
+        "IMAP4rev1",
+        "SMTP",
+        "JMAP",
+        "Sieve (RFC 5228)",
+        "ACLs (RFC 4314)",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "ARC",
+        "MTA-STS",
+        "TLS-RPT",
+        "DNSSEC"
+      ]
+    }
   },
   "whyVerkio": {
     "metaTitle": "Waarom Verkio — Verkio",

@@ -15,7 +15,42 @@
     "roadmap": "Ceļvedis",
     "articles": "Raksti",
     "product": "Produkts",
-    "whyVerkio": "Kāpēc Verkio"
+    "whyVerkio": "Kāpēc Verkio",
+    "productMenu": {
+      "comingSoon": "Drīzumā",
+      "mail": {
+        "name": "Pasts",
+        "description": "Tīmekļa pasts ar komandas darbplūsmām."
+      },
+      "calendar": {
+        "name": "Kalendārs",
+        "description": "Koplietoti kalendāri caur atvērto CalDAV."
+      },
+      "contacts": {
+        "name": "Kontakti",
+        "description": "Adrešu grāmatas caur atvērto CardDAV."
+      },
+      "files": {
+        "name": "Faili",
+        "description": "Faili un mapes, piekļuve katram failam."
+      },
+      "wikis": {
+        "name": "Wiki",
+        "description": "Telpas komandas zināšanām."
+      },
+      "messaging": {
+        "name": "Ziņojumi",
+        "description": "Kanāli un DM, viena pieslēgšanās."
+      },
+      "api": {
+        "name": "Publiska API",
+        "description": "REST ar OpenAPI 3.1 un webhook."
+      },
+      "signIn": {
+        "name": "Sign in with Verkio",
+        "description": "OIDC ES internetam."
+      }
+    }
   },
   "hero": {
     "eyebrow": "Atklāšana 2026. gada jūlijā",
@@ -644,6 +679,96 @@
   "product": {
     "metaTitle": "Produkts — Verkio",
     "metaDescription": "Verkio produkts: pasts, kalendārs, kontakti, faili, wiki un ziņojumi. Plus iespējas, kas slēpjas aiz katra."
+  },
+  "productMail": {
+    "metaTitle": "Pasts — Verkio",
+    "metaDescription": "Standartos balstīts pasts ar komandas darbplūsmām: koplietotas pastkastītes, servera puses noteikumi, aizstājvārdi, autoconfig — viss virs IMAP un SMTP.",
+    "eyebrow": "Pasts",
+    "headline": "Pasts, kas darbina pārējo komplektu.",
+    "body": "Standartos balstīts pasts ar iebūvētām komandas darbplūsmām — koplietotas pastkastītes, servera puses noteikumi un aizstājvārdi, kas nešķiet kā papildinājumi. Viss virs IMAP un SMTP servera, tāpēc jebkurš klients strādā.",
+    "cta": "Pievienoties sarakstam",
+    "backLink": "Atpakaļ uz produkta pārskatu",
+    "sections": {
+      "webmail": {
+        "eyebrow": "Tīmekļa pasts",
+        "headline": "Tīmekļa pasts, ko tu patiešām vēlētos lietot.",
+        "body": "Ātra, uz tastatūru orientēta iesūtne ar pavedieniem, meklēšanu un etiķetēm. Trīs paneļu izkārtojums, ko atceries — bez AI ieteikumiem, iesaistes metrikām vai 'vai kāds ir pieejams?'-teātra.",
+        "bullets": [
+          "Tastatūras saīsnes, ko tu patiešām vari iemācīties — bez komandām, kas aprakstas piecu izvēlņu dziļumā.",
+          "Pilnteksta meklēšana visā iesūtnē un katrā mapē.",
+          "Pavedieni un etiķetes mierīgā trīs paneļu izkārtojumā.",
+          "Sastādītājs ar pielikumiem ar vilkšanu-un-nomešanu un Markdown.",
+          "Strādā vispirms bezsaistē, kad uzstādi Verkio kā PWA."
+        ]
+      },
+      "shared": {
+        "eyebrow": "Koplietotas pastkastītes",
+        "headline": "Helpdesk darbplūsma, nepērkot helpdesk produktu.",
+        "body": "Komandas iesūtnes support@, hello@, billing@. Piešķiršana, statuss un iekšējās piezīmes — atklātas kā IMAP atslēgvārdi, lai pieredzējuši lietotāji Thunderbird, Apple Mail vai K-9 redzētu to pašu stāvokli, ko visi citi.",
+        "bullets": [
+          "Piešķir sarunu komandas biedram, īpašumtiesības audita žurnālā.",
+          "Iestati statusu — atvērts, gaida, slēgts — un skaties, kā klienta atbilde to atver no jauna.",
+          "Piekļuves kontrole pa mapēm (RFC 4314 ACL): lasītāji, atbildētāji, administratori.",
+          "Iekšējās piezīmes redzamas tikai komandai.",
+          "Vairāku lietotāju IMAP un SMTP — pievieno jebkuru standartiem atbilstošu klientu.",
+          "Izplatīšanas saraksti, aizstājvārda-uz-koplietotu maršrutēšana, saglabāšanas pārsūtīšana."
+        ]
+      },
+      "rules": {
+        "eyebrow": "Servera puses noteikumi",
+        "headline": "Filtri, kas darbojas, kur vien lasi pastu.",
+        "body": "Veido Sieve filtrus paneļā — pārvieto vēstkopas uz mapi, apklusini trokšņainus sarakstus, virzi projekta pastu uz pareizo vietu. Tiek piemēroti piegādes brīdī, ne klientā, tāpēc strādā visur.",
+        "bullets": [
+          "Vizuāls noteikumu veidotājs, kas kompilējas uz Sieve RFC 5228.",
+          "Piecas gatavas veidnes: vēstkopu maršrutēšana, prombūtne, arhivēšana pēc sūtītāja un vēl.",
+          "Līdz 50 noteikumiem uz pastkastīti, ierakstītiem audita žurnālā.",
+          "Pārsūtīšanas cilpu un bojāta DNS aizsardzība iebūvēta — bez katastrofām pulksten 3 naktī."
+        ]
+      },
+      "aliases": {
+        "eyebrow": "Aizstājvārdi un pārsūtīšana",
+        "headline": "Visas adreses, kas tavai komandai vajadzīgas.",
+        "body": "Neierobežoti aizstājvārdi uz lietotāju. Catch-all uz tava domēna. Ārējā pārsūtīšana uz Gmail, Fastmail, tavu personīgo iesūtni — ar skaidru apstiprinājumu. Izplatīšanas saraksti komandai. Viss audita žurnālā.",
+        "bullets": [
+          "Neierobežoti aizstājvārdi uz lietotāju (ar saprātīgu lietojumu).",
+          "Catch-all uz tava domēna, lai nepareizi uzrakstītas adreses tomēr nokļūtu.",
+          "Ārējā pārsūtīšana ar dubultu opt-in — galamērķi apstiprina, pirms pasts plūst.",
+          "Līdz 3 pārsūtīšanām uz personīgo pastkastīti; katra izmaiņa audita žurnālā.",
+          "Izplatīšanas saraksti un saglabāšanas pārsūtīšana mierīgam offboarding."
+        ]
+      },
+      "domains": {
+        "eyebrow": "Standarti un iestatīšana",
+        "headline": "Atnes savu domēnu. Jebkurš klients.",
+        "body": "Pievieno domēnu, un mēs konfigurējam MX, SPF, DKIM, DMARC un autoconfig ierakstus tavā vietā. Pieslēdzies no Apple Mail, Thunderbird, Outlook, K-9 — jebkā, kas runā IMAP vai SMTP. Mobilo profili tiek ģenerēti automātiski.",
+        "bullets": [
+          "Automātiska domēna iestatīšana desmit ES DNS pakalpojumu sniedzējiem — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys un citiem.",
+          "Autoconfig caur host header viena klikšķa pasta klienta iestatīšanai.",
+          "Thunderbird XML un Apple .mobileconfig profili ģenerēti katram kontam.",
+          "IMAP4rev1, SMTP un JMAP — izvēlies savu protokolu.",
+          "Izejošais tikai caur TLS, MTA-STS apzinīgs, ar ARC parakstu pārsūtījumos."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Atvērtie standarti",
+      "headline": "Nav slēgta protokola. Nav atkarības no pārdevēja.",
+      "body": "Verkio Mail ir veidots uz tiem pašiem RFC, ko tavi esošie rīki jau runā. Atnes savu klientu. Paņem pastkastīti līdzi, kad aizej.",
+      "items": [
+        "IMAP4rev1",
+        "SMTP",
+        "JMAP",
+        "Sieve (RFC 5228)",
+        "ACLs (RFC 4314)",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "ARC",
+        "MTA-STS",
+        "TLS-RPT",
+        "DNSSEC"
+      ]
+    }
   },
   "whyVerkio": {
     "metaTitle": "Kāpēc Verkio — Verkio",

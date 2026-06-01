@@ -14,7 +14,42 @@
     "roadmap": "Roadmap",
     "articles": "Articles",
     "product": "Product",
-    "whyVerkio": "Why Verkio"
+    "whyVerkio": "Why Verkio",
+    "productMenu": {
+      "comingSoon": "Coming soon",
+      "mail": {
+        "name": "Mail",
+        "description": "Webmail with team workflows."
+      },
+      "calendar": {
+        "name": "Calendar",
+        "description": "Shared calendars over open CalDAV."
+      },
+      "contacts": {
+        "name": "Contacts",
+        "description": "Address books over open CardDAV."
+      },
+      "files": {
+        "name": "Files",
+        "description": "Files and folders, per-file access."
+      },
+      "wikis": {
+        "name": "Wikis",
+        "description": "Spaces for team knowledge."
+      },
+      "messaging": {
+        "name": "Messaging",
+        "description": "Channels and DMs, same login."
+      },
+      "api": {
+        "name": "Public API",
+        "description": "REST with OpenAPI 3.1 and webhooks."
+      },
+      "signIn": {
+        "name": "Sign in with Verkio",
+        "description": "OIDC for the EU internet."
+      }
+    }
   },
   "hero": {
     "eyebrow": "Launching July 2026",
@@ -648,6 +683,96 @@
   "product": {
     "metaTitle": "Product — Verkio",
     "metaDescription": "The Verkio product: mail, calendar, contacts, files, wikis, and messaging. Plus the capabilities behind each one."
+  },
+  "productMail": {
+    "metaTitle": "Mail — Verkio",
+    "metaDescription": "Standards-based email with team workflows: shared mailboxes, server-side rules, aliases, autoconfig — all on top of IMAP and SMTP.",
+    "eyebrow": "Mail",
+    "headline": "Mail that runs the rest of the suite.",
+    "body": "Standards-based email with team workflows built in — shared mailboxes, server-side rules, and aliases that don't feel like add-ons. All on top of an IMAP and SMTP server, so any client works.",
+    "cta": "Join waitlist",
+    "backLink": "Back to product overview",
+    "sections": {
+      "webmail": {
+        "eyebrow": "Webmail",
+        "headline": "The webmail you'd want to use.",
+        "body": "Fast, keyboard-first inbox with threading, search, and labels. The three-pane layout you remember — without the AI nudges, engagement metrics, or 'is anyone available?' theatre.",
+        "bullets": [
+          "Keyboard shortcuts you can actually learn — no commands buried five menus deep.",
+          "Full-text search across your whole inbox and every folder.",
+          "Threading and labels in a calm three-pane layout.",
+          "Composer with drag-and-drop attachments and Markdown.",
+          "Works offline-first when you install Verkio as a PWA."
+        ]
+      },
+      "shared": {
+        "eyebrow": "Shared mailboxes",
+        "headline": "Helpdesk workflow, without buying a helpdesk product.",
+        "body": "Team inboxes for support@, hello@, billing@. Assignment, status, and internal notes — exposed as IMAP keywords so power users in Thunderbird, Apple Mail, or K-9 see the same state as everyone else.",
+        "bullets": [
+          "Assign a conversation to a teammate, with audit-logged ownership.",
+          "Set status — open, pending, closed — and watch a customer reply re-open it.",
+          "Per-folder access controls (RFC 4314 ACLs): readers, repliers, admins.",
+          "Internal notes visible only to the team.",
+          "Multi-user IMAP and SMTP — connect any standards-compliant client.",
+          "Distribution lists, alias-to-shared routing, retention forwarding."
+        ]
+      },
+      "rules": {
+        "eyebrow": "Server-side rules",
+        "headline": "Filters that fire wherever you read mail.",
+        "body": "Build Sieve filters in the dashboard — move newsletters to a folder, mute noisy lists, route project mail to the right place. Applied at delivery, not in the client, so they work everywhere.",
+        "bullets": [
+          "Visual rule builder compiling to RFC 5228 Sieve.",
+          "Five pre-built templates: newsletter routing, vacation, archive-by-sender, and more.",
+          "Up to 50 rules per mailbox, audit-logged.",
+          "Forwarding-loop and bad-DNS guards built in — no 3 AM blast radius."
+        ]
+      },
+      "aliases": {
+        "eyebrow": "Aliases & forwarding",
+        "headline": "All the addresses your team needs.",
+        "body": "Unlimited aliases per user. Catch-all on your domain. External forwarding to Gmail, Fastmail, your personal inbox — with explicit confirmation. Distribution lists for the team. All audit-logged.",
+        "bullets": [
+          "Unlimited aliases per user (subject to reasonable use).",
+          "Catch-all on your domain so misspelled addresses still land.",
+          "External forwarding with double opt-in — destinations confirm before mail flows.",
+          "Up to 3 forwards per personal mailbox; every change in the audit log.",
+          "Distribution lists and retention forwarding for graceful offboarding."
+        ]
+      },
+      "domains": {
+        "eyebrow": "Standards & setup",
+        "headline": "Bring your domain. Any client.",
+        "body": "Add a domain and we configure MX, SPF, DKIM, DMARC, and autoconfig records for you. Sign in from Apple Mail, Thunderbird, Outlook, K-9 — anything that speaks IMAP or SMTP. Mobile profiles auto-generated.",
+        "bullets": [
+          "Domain auto-setup across ten EU DNS providers — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, and more.",
+          "Autoconfig via host header for one-click mail-client setup.",
+          "Thunderbird XML and Apple .mobileconfig profiles generated for every account.",
+          "IMAP4rev1, SMTP, and JMAP — pick your protocol.",
+          "Outbound TLS-only, MTA-STS-aware, with ARC signing on forwards."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Open standards",
+      "headline": "No proprietary protocol. No vendor lock-in.",
+      "body": "Verkio Mail is built on the same RFCs your existing tools already speak. Bring your client. Take your mailbox with you when you leave.",
+      "items": [
+        "IMAP4rev1",
+        "SMTP",
+        "JMAP",
+        "Sieve (RFC 5228)",
+        "ACLs (RFC 4314)",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "ARC",
+        "MTA-STS",
+        "TLS-RPT",
+        "DNSSEC"
+      ]
+    }
   },
   "whyVerkio": {
     "metaTitle": "Why Verkio — Verkio",

@@ -15,7 +15,42 @@
     "roadmap": "Roadmap",
     "articles": "Artikel",
     "product": "Produkt",
-    "whyVerkio": "Warum Verkio"
+    "whyVerkio": "Warum Verkio",
+    "productMenu": {
+      "comingSoon": "Bald verfügbar",
+      "mail": {
+        "name": "Mail",
+        "description": "Webmail mit Team-Workflows."
+      },
+      "calendar": {
+        "name": "Kalender",
+        "description": "Geteilte Kalender über offenes CalDAV."
+      },
+      "contacts": {
+        "name": "Kontakte",
+        "description": "Adressbücher über offenes CardDAV."
+      },
+      "files": {
+        "name": "Dateien",
+        "description": "Dateien und Ordner, Zugriff pro Datei."
+      },
+      "wikis": {
+        "name": "Wikis",
+        "description": "Räume für Teamwissen."
+      },
+      "messaging": {
+        "name": "Nachrichten",
+        "description": "Kanäle und DMs, gleicher Login."
+      },
+      "api": {
+        "name": "Öffentliche API",
+        "description": "REST mit OpenAPI 3.1 und Webhooks."
+      },
+      "signIn": {
+        "name": "Sign in with Verkio",
+        "description": "OIDC für das EU-Internet."
+      }
+    }
   },
   "hero": {
     "eyebrow": "Start im Juli 2026",
@@ -644,6 +679,96 @@
   "product": {
     "metaTitle": "Produkt — Verkio",
     "metaDescription": "Das Verkio-Produkt: Mail, Kalender, Kontakte, Dateien, Wikis und Nachrichten. Plus die Funktionen, die hinter jedem stehen."
+  },
+  "productMail": {
+    "metaTitle": "Mail — Verkio",
+    "metaDescription": "Standardbasierte E-Mail mit Team-Workflows: geteilte Postfächer, serverseitige Regeln, Aliase, Autoconfig — alles auf IMAP und SMTP.",
+    "eyebrow": "Mail",
+    "headline": "Mail, die den Rest der Suite trägt.",
+    "body": "Standardbasierte E-Mail mit eingebauten Team-Workflows — geteilte Postfächer, serverseitige Regeln und Aliase, die sich nicht wie Add-ons anfühlen. Alles auf einem IMAP- und SMTP-Server, sodass jeder Client funktioniert.",
+    "cta": "Auf die Warteliste",
+    "backLink": "Zurück zur Produktübersicht",
+    "sections": {
+      "webmail": {
+        "eyebrow": "Webmail",
+        "headline": "Das Webmail, das du wirklich nutzen willst.",
+        "body": "Schneller, tastaturorientierter Posteingang mit Threading, Suche und Labels. Das Drei-Panel-Layout, an das du dich erinnerst — ohne KI-Hinweise, Engagement-Metriken oder „ist jemand verfügbar?\"-Theater.",
+        "bullets": [
+          "Tastaturkürzel, die du wirklich lernen kannst — keine Befehle, die fünf Menüs tief vergraben sind.",
+          "Volltextsuche über deinen gesamten Posteingang und jeden Ordner.",
+          "Threading und Labels in einem ruhigen Drei-Panel-Layout.",
+          "Composer mit Drag-and-Drop-Anhängen und Markdown.",
+          "Funktioniert offline-first, wenn du Verkio als PWA installierst."
+        ]
+      },
+      "shared": {
+        "eyebrow": "Geteilte Postfächer",
+        "headline": "Helpdesk-Workflow, ohne ein Helpdesk-Produkt zu kaufen.",
+        "body": "Team-Postfächer für support@, hello@, billing@. Zuweisung, Status und interne Notizen — als IMAP-Schlüsselwörter exponiert, damit Power-User in Thunderbird, Apple Mail oder K-9 denselben Stand sehen wie alle anderen.",
+        "bullets": [
+          "Konversationen einem Teammitglied zuweisen, mit audit-protokollierter Zuständigkeit.",
+          "Status setzen — offen, wartend, geschlossen — und sehen, wie eine Kundenantwort ihn wieder öffnet.",
+          "Zugriffsrechte pro Ordner (RFC 4314 ACLs): Leser, Antwortende, Admins.",
+          "Interne Notizen, nur für das Team sichtbar.",
+          "Mehrbenutzer-IMAP und -SMTP — jeden standardkonformen Client anbinden.",
+          "Verteilerlisten, Alias-zu-Shared-Routing, Aufbewahrungs-Weiterleitung."
+        ]
+      },
+      "rules": {
+        "eyebrow": "Serverseitige Regeln",
+        "headline": "Filter, die zünden, wo immer du Mail liest.",
+        "body": "Sieve-Filter im Dashboard bauen — Newsletter in einen Ordner verschieben, laute Listen stummschalten, Projekt-Mail an den richtigen Ort lenken. Bei der Zustellung angewendet, nicht im Client, sodass sie überall funktionieren.",
+        "bullets": [
+          "Visueller Regelbuilder, der zu RFC 5228 Sieve kompiliert.",
+          "Fünf vorgefertigte Vorlagen: Newsletter-Routing, Abwesenheit, Archivieren-nach-Absender und mehr.",
+          "Bis zu 50 Regeln pro Postfach, audit-protokolliert.",
+          "Schutz vor Weiterleitungsschleifen und schlechtem DNS eingebaut — kein nächtliches Chaos um 3 Uhr."
+        ]
+      },
+      "aliases": {
+        "eyebrow": "Aliase & Weiterleitung",
+        "headline": "Alle Adressen, die dein Team braucht.",
+        "body": "Unbegrenzte Aliase pro Nutzer. Catch-all auf deiner Domain. Externe Weiterleitung an Gmail, Fastmail, dein persönliches Postfach — mit ausdrücklicher Bestätigung. Verteilerlisten fürs Team. Alles audit-protokolliert.",
+        "bullets": [
+          "Unbegrenzte Aliase pro Nutzer (vorbehaltlich angemessener Nutzung).",
+          "Catch-all auf deiner Domain, damit falsch geschriebene Adressen trotzdem ankommen.",
+          "Externe Weiterleitung mit Double-Opt-in — Ziele bestätigen, bevor Mail fließt.",
+          "Bis zu 3 Weiterleitungen pro persönlichem Postfach; jede Änderung im Audit-Log.",
+          "Verteilerlisten und Aufbewahrungs-Weiterleitung für sauberes Off-boarding."
+        ]
+      },
+      "domains": {
+        "eyebrow": "Standards & Einrichtung",
+        "headline": "Bring deine Domain mit. Jeden Client.",
+        "body": "Domain hinzufügen und wir konfigurieren MX, SPF, DKIM, DMARC und Autoconfig-Einträge für dich. Anmelden mit Apple Mail, Thunderbird, Outlook, K-9 — allem, was IMAP oder SMTP spricht. Mobile Profile werden automatisch generiert.",
+        "bullets": [
+          "Automatische Domain-Einrichtung bei zehn EU-DNS-Anbietern — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys und mehr.",
+          "Autoconfig über Host-Header für die Ein-Klick-Einrichtung von Mail-Clients.",
+          "Thunderbird XML und Apple .mobileconfig-Profile werden für jedes Konto generiert.",
+          "IMAP4rev1, SMTP und JMAP — wähle dein Protokoll.",
+          "Ausgehend nur TLS, MTA-STS-bewusst, mit ARC-Signatur bei Weiterleitungen."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Offene Standards",
+      "headline": "Kein proprietäres Protokoll. Keine Anbieterbindung.",
+      "body": "Verkio Mail baut auf denselben RFCs, die deine bestehenden Tools bereits sprechen. Bring deinen Client mit. Nimm dein Postfach mit, wenn du gehst.",
+      "items": [
+        "IMAP4rev1",
+        "SMTP",
+        "JMAP",
+        "Sieve (RFC 5228)",
+        "ACLs (RFC 4314)",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "ARC",
+        "MTA-STS",
+        "TLS-RPT",
+        "DNSSEC"
+      ]
+    }
   },
   "whyVerkio": {
     "metaTitle": "Warum Verkio — Verkio",

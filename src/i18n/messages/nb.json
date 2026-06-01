@@ -15,7 +15,42 @@
     "roadmap": "Veikart",
     "articles": "Artikler",
     "product": "Produkt",
-    "whyVerkio": "Hvorfor Verkio"
+    "whyVerkio": "Hvorfor Verkio",
+    "productMenu": {
+      "comingSoon": "Kommer snart",
+      "mail": {
+        "name": "E-post",
+        "description": "Webmail med team-arbeidsflyter."
+      },
+      "calendar": {
+        "name": "Kalender",
+        "description": "Delte kalendere via åpen CalDAV."
+      },
+      "contacts": {
+        "name": "Kontakter",
+        "description": "Adressebøker via åpen CardDAV."
+      },
+      "files": {
+        "name": "Filer",
+        "description": "Filer og mapper, tilgang per fil."
+      },
+      "wikis": {
+        "name": "Wikier",
+        "description": "Rom for teamets kunnskap."
+      },
+      "messaging": {
+        "name": "Meldinger",
+        "description": "Kanaler og DM-er, samme innlogging."
+      },
+      "api": {
+        "name": "Offentlig API",
+        "description": "REST med OpenAPI 3.1 og webhooks."
+      },
+      "signIn": {
+        "name": "Sign in with Verkio",
+        "description": "OIDC for det europeiske internett."
+      }
+    }
   },
   "hero": {
     "eyebrow": "Lanseres i juli 2026",
@@ -644,6 +679,96 @@
   "product": {
     "metaTitle": "Produkt — Verkio",
     "metaDescription": "Verkio-produktet: e-post, kalender, kontakter, filer, wikier og meldinger. Pluss kapabilitetene bak hver enkelt."
+  },
+  "productMail": {
+    "metaTitle": "E-post — Verkio",
+    "metaDescription": "Standardbasert e-post med team-arbeidsflyter: delte postkasser, regler på serveren, aliaser, autoconfig — alt på toppen av IMAP og SMTP.",
+    "eyebrow": "E-post",
+    "headline": "E-posten som driver resten av suiten.",
+    "body": "Standardbasert e-post med innebygde team-arbeidsflyter — delte postkasser, regler på serveren og aliaser som ikke føles som tillegg. Alt på toppen av en IMAP- og SMTP-server, så enhver klient fungerer.",
+    "cta": "Bli med på ventelisten",
+    "backLink": "Tilbake til produktoversikten",
+    "sections": {
+      "webmail": {
+        "eyebrow": "Webmail",
+        "headline": "Webmailen du faktisk ville brukt.",
+        "body": "Rask, tastatur-først innboks med tråder, søk og etiketter. Tre-panel-oppsettet du husker — uten AI-puff, engasjementsmål eller 'er noen ledig?'-teater.",
+        "bullets": [
+          "Tastatursnarveier du faktisk kan lære — ingen kommandoer begravd fem menyer ned.",
+          "Fulltekstsøk over hele innboksen og hver mappe.",
+          "Tråder og etiketter i et rolig tre-panel-oppsett.",
+          "Skriver med dra-og-slipp-vedlegg og Markdown.",
+          "Fungerer offline-først når du installerer Verkio som PWA."
+        ]
+      },
+      "shared": {
+        "eyebrow": "Delte postkasser",
+        "headline": "Helpdesk-arbeidsflyt uten å kjøpe et helpdesk-produkt.",
+        "body": "Team-innbokser for support@, hello@, billing@. Tildeling, status og interne notater — eksponert som IMAP-nøkkelord, så avanserte brukere i Thunderbird, Apple Mail eller K-9 ser samme tilstand som alle andre.",
+        "bullets": [
+          "Tildel en samtale til en kollega, med eierskap i revisjonsloggen.",
+          "Sett status — åpen, venter, lukket — og se et kundesvar åpne den igjen.",
+          "Tilgangskontroll per mappe (RFC 4314 ACL-er): lesere, svarere, administratorer.",
+          "Interne notater synlige bare for teamet.",
+          "Flerbruker-IMAP og -SMTP — koble til enhver standardkompatibel klient.",
+          "Distribusjonslister, alias-til-delt-ruting, retensjonsvideresending."
+        ]
+      },
+      "rules": {
+        "eyebrow": "Regler på serveren",
+        "headline": "Filtre som slår til der enn du leser e-posten.",
+        "body": "Bygg Sieve-filtre i dashbordet — flytt nyhetsbrev til en mappe, demp støyende lister, send prosjekt-e-post til rett sted. Brukes ved levering, ikke i klienten, så de virker overalt.",
+        "bullets": [
+          "Visuell regelbygger som kompilerer til Sieve RFC 5228.",
+          "Fem ferdige maler: nyhetsbrevsruting, fravær, arkivér-etter-avsender og mer.",
+          "Opptil 50 regler per postkasse, logget i revisjonsloggen.",
+          "Vern mot videresendingsløkker og dårlig DNS innebygd — ingen katastrofe klokken 3 om natten."
+        ]
+      },
+      "aliases": {
+        "eyebrow": "Aliaser og videresending",
+        "headline": "Alle adressene teamet ditt trenger.",
+        "body": "Ubegrensede aliaser per bruker. Catch-all på domenet ditt. Ekstern videresending til Gmail, Fastmail, din personlige innboks — med eksplisitt bekreftelse. Distribusjonslister for teamet. Alt i revisjonsloggen.",
+        "bullets": [
+          "Ubegrensede aliaser per bruker (forutsatt rimelig bruk).",
+          "Catch-all på domenet ditt så feilstavede adresser likevel lander.",
+          "Ekstern videresending med dobbel opt-in — destinasjoner bekrefter før e-posten flyter.",
+          "Opptil 3 videresendinger per personlig postkasse; hver endring i revisjonsloggen.",
+          "Distribusjonslister og retensjonsvideresending for smidig offboarding."
+        ]
+      },
+      "domains": {
+        "eyebrow": "Standarder og oppsett",
+        "headline": "Ta med ditt domene. Enhver klient.",
+        "body": "Legg til et domene og vi konfigurerer MX-, SPF-, DKIM-, DMARC- og autoconfig-oppføringer for deg. Logg inn fra Apple Mail, Thunderbird, Outlook, K-9 — alt som snakker IMAP eller SMTP. Mobile profiler genereres automatisk.",
+        "bullets": [
+          "Automatisk domeneoppsett hos ti EU-DNS-leverandører — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys og flere.",
+          "Autoconfig via host header for ettklikks mailklientoppsett.",
+          "Thunderbird XML- og Apple .mobileconfig-profiler genereres for hver konto.",
+          "IMAP4rev1, SMTP og JMAP — velg din protokoll.",
+          "Utgående kun via TLS, MTA-STS-bevisst, med ARC-signering ved videresending."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Åpne standarder",
+      "headline": "Ingen proprietær protokoll. Ingen leverandørbinding.",
+      "body": "Verkio Mail er bygget på de samme RFC-ene som dine eksisterende verktøy allerede snakker. Ta med klienten din. Ta med postkassen når du går.",
+      "items": [
+        "IMAP4rev1",
+        "SMTP",
+        "JMAP",
+        "Sieve (RFC 5228)",
+        "ACLs (RFC 4314)",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "ARC",
+        "MTA-STS",
+        "TLS-RPT",
+        "DNSSEC"
+      ]
+    }
   },
   "whyVerkio": {
     "metaTitle": "Hvorfor Verkio — Verkio",

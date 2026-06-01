@@ -15,7 +15,42 @@
     "roadmap": "Teekaart",
     "articles": "Artiklid",
     "product": "Toode",
-    "whyVerkio": "Miks Verkio"
+    "whyVerkio": "Miks Verkio",
+    "productMenu": {
+      "comingSoon": "Peagi",
+      "mail": {
+        "name": "Meil",
+        "description": "Veebimeil meeskonna töövoogudega."
+      },
+      "calendar": {
+        "name": "Kalender",
+        "description": "Jagatud kalendrid avatud CalDAV-i kaudu."
+      },
+      "contacts": {
+        "name": "Kontaktid",
+        "description": "Aadressiraamatud avatud CardDAV-i kaudu."
+      },
+      "files": {
+        "name": "Failid",
+        "description": "Failid ja kaustad, ligipääs failipõhiselt."
+      },
+      "wikis": {
+        "name": "Vikid",
+        "description": "Ruumid meeskonna teadmistele."
+      },
+      "messaging": {
+        "name": "Sõnumid",
+        "description": "Kanalid ja otsesõnumid, sama sisselogimine."
+      },
+      "api": {
+        "name": "Avalik API",
+        "description": "REST OpenAPI 3.1 ja veebihaakidega."
+      },
+      "signIn": {
+        "name": "Sign in with Verkio",
+        "description": "OIDC ELi interneti jaoks."
+      }
+    }
   },
   "hero": {
     "eyebrow": "Avaldame juulis 2026",
@@ -644,6 +679,96 @@
   "product": {
     "metaTitle": "Toode — Verkio",
     "metaDescription": "Verkio toode: meil, kalender, kontaktid, failid, vikid ja sõnumid. Pluss iga taga peituvad võimalused."
+  },
+  "productMail": {
+    "metaTitle": "Meil — Verkio",
+    "metaDescription": "Standarditele tuginev meil meeskonna töövoogudega: jagatud postkastid, serveripoolsed reeglid, aliased, autoconfig — kõik IMAP-i ja SMTP peal.",
+    "eyebrow": "Meil",
+    "headline": "Meil, mis paneb tööle ülejäänud paketi.",
+    "body": "Standarditele tuginev meil sisseehitatud meeskonna töövoogudega — jagatud postkastid, serveripoolsed reeglid ja aliased, mis ei tundu lisaosadena. Kõik IMAP-i ja SMTP-serveri peal, nii et iga klient töötab.",
+    "cta": "Liitu ootejärjekorraga",
+    "backLink": "Tagasi tooteülevaate juurde",
+    "sections": {
+      "webmail": {
+        "eyebrow": "Veebimeil",
+        "headline": "Veebimeil, mida sa tahaksid päriselt kasutada.",
+        "body": "Kiire, klaviatuurile orienteeritud sisendkast lõimede, otsingu ja siltidega. Kolme paneeli paigutus, mida mäletad — ilma AI-vihjete, kaasatuse mõõdikute või 'kas keegi on saadaval?'-teatrita.",
+        "bullets": [
+          "Klaviatuuri otseteed, mida saad päriselt ära õppida — ei ühtegi viie menüü sügavusele maetud käsku.",
+          "Täistekstiotsing üle kogu sisendkasti ja iga kausta.",
+          "Lõimed ja sildid rahulikus kolme paneeli paigutuses.",
+          "Koostaja lohista-ja-kukuta-manustega ja Markdowniga.",
+          "Töötab offline-first, kui paigaldad Verkio PWA-na."
+        ]
+      },
+      "shared": {
+        "eyebrow": "Jagatud postkastid",
+        "headline": "Helpdesk-töövoog ilma helpdesk-toodet ostmata.",
+        "body": "Meeskonna sisendkastid support@, hello@, billing@ jaoks. Määramine, staatus ja sisemised märkmed — eksponeeritud IMAP-i märksõnadena, nii et Thunderbirdi, Apple Maili või K-9 võimsad kasutajad näevad sama olekut kui kõik teised.",
+        "bullets": [
+          "Määra vestlus tiimikaaslasele, omandiõigus auditilogis.",
+          "Sea staatus — avatud, ootel, suletud — ja jälgi, kuidas kliendi vastus selle uuesti avab.",
+          "Kaustapõhine ligipääsukontroll (RFC 4314 ACL-id): lugejad, vastajad, administraatorid.",
+          "Sisemised märkmed nähtavad ainult meeskonnale.",
+          "Mitmekasutaja IMAP ja SMTP — ühenda iga standarditele vastav klient.",
+          "Levitusloendid, alias-jagatusse-marsruutimine, säilitamise edasisuunamine."
+        ]
+      },
+      "rules": {
+        "eyebrow": "Serveripoolsed reeglid",
+        "headline": "Filtrid, mis käivituvad seal, kus meili loed.",
+        "body": "Ehita Sieve-filtreid juhtpaneelis — liiguta uudiskirjad kausta, vaigista lärmakad listid, suuna projekti meil õigesse kohta. Rakendatakse kohaletoimetamisel, mitte kliendis, nii et need töötavad igal pool.",
+        "bullets": [
+          "Visuaalne reegliehitaja, mis kompileerib Sieve RFC 5228-ks.",
+          "Viis valmis malli: uudiskirjade marsruutimine, puudumine, arhiveerimine saatja järgi ja muud.",
+          "Kuni 50 reeglit postkasti kohta, auditilogis.",
+          "Edasisuunamissilmuste ja vigase DNS-i kaitsed sisseehitatud — pole keset ööd kohutavat katastroofi."
+        ]
+      },
+      "aliases": {
+        "eyebrow": "Aliased ja edasisuunamine",
+        "headline": "Kõik aadressid, mida sinu meeskond vajab.",
+        "body": "Piiramatud aliased kasutaja kohta. Catch-all sinu domeenil. Väline edasisuunamine Gmaili, Fastmaili, sinu isiklikku sisendkasti — selge kinnitusega. Levitusloendid meeskonnale. Kõik auditilogis.",
+        "bullets": [
+          "Piiramatud aliased kasutaja kohta (mõistlikku kasutust eeldades).",
+          "Catch-all sinu domeenil, nii et valesti kirjutatud aadressid jõuavad ikka kohale.",
+          "Väline edasisuunamine topelt-opt-in-iga — sihtkohad kinnitavad enne, kui meil hakkab voolama.",
+          "Kuni 3 edasisuunamist isikliku postkasti kohta; iga muudatus auditilogis.",
+          "Levitusloendid ja säilitamise edasisuunamine sujuvaks offboarding-iks."
+        ]
+      },
+      "domains": {
+        "eyebrow": "Standardid ja seadistamine",
+        "headline": "Too oma domeen. Iga klient.",
+        "body": "Lisa domeen ja me seadistame MX-, SPF-, DKIM-, DMARC- ja autoconfig-kirjed sinu eest. Logi sisse Apple Mailist, Thunderbirdist, Outlookist, K-9-st — millest tahes, mis räägib IMAP-i või SMTP-d. Mobiiliprofiilid genereeritakse automaatselt.",
+        "bullets": [
+          "Automaatne domeeni seadistamine kümne ELi DNS-pakkuja juures — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys ja teised.",
+          "Autoconfig host headeri kaudu mailikliendi seadistamiseks ühe klikiga.",
+          "Thunderbird XML- ja Apple .mobileconfig-profiilid genereeritud iga konto jaoks.",
+          "IMAP4rev1, SMTP ja JMAP — vali oma protokoll.",
+          "Väljaminev ainult TLS-iga, MTA-STS-teadlik, ARC-allkirjastusega edasisuunamistel."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Avatud standardid",
+      "headline": "Ei mingit omandiõigusega protokolli. Ei mingit tarnijasõltuvust.",
+      "body": "Verkio Mail on ehitatud samadele RFC-dele, mida sinu olemasolevad tööriistad juba räägivad. Too oma klient. Võta postkast endaga kaasa, kui lahkud.",
+      "items": [
+        "IMAP4rev1",
+        "SMTP",
+        "JMAP",
+        "Sieve (RFC 5228)",
+        "ACLs (RFC 4314)",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "ARC",
+        "MTA-STS",
+        "TLS-RPT",
+        "DNSSEC"
+      ]
+    }
   },
   "whyVerkio": {
     "metaTitle": "Miks Verkio — Verkio",

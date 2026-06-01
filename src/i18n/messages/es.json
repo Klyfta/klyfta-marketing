@@ -15,7 +15,42 @@
     "roadmap": "Hoja de ruta",
     "articles": "Artículos",
     "product": "Producto",
-    "whyVerkio": "Por qué Verkio"
+    "whyVerkio": "Por qué Verkio",
+    "productMenu": {
+      "comingSoon": "Próximamente",
+      "mail": {
+        "name": "Correo",
+        "description": "Webmail con flujos de equipo."
+      },
+      "calendar": {
+        "name": "Calendario",
+        "description": "Calendarios compartidos sobre CalDAV abierto."
+      },
+      "contacts": {
+        "name": "Contactos",
+        "description": "Agendas sobre CardDAV abierto."
+      },
+      "files": {
+        "name": "Archivos",
+        "description": "Archivos y carpetas, acceso por archivo."
+      },
+      "wikis": {
+        "name": "Wikis",
+        "description": "Espacios para el conocimiento del equipo."
+      },
+      "messaging": {
+        "name": "Mensajería",
+        "description": "Canales y DM, mismo inicio de sesión."
+      },
+      "api": {
+        "name": "API pública",
+        "description": "REST con OpenAPI 3.1 y webhooks."
+      },
+      "signIn": {
+        "name": "Sign in with Verkio",
+        "description": "OIDC para la internet europea."
+      }
+    }
   },
   "hero": {
     "eyebrow": "Lanzamiento en julio de 2026",
@@ -644,6 +679,96 @@
   "product": {
     "metaTitle": "Producto — Verkio",
     "metaDescription": "El producto Verkio: correo, calendario, contactos, archivos, wikis y mensajería. Más las capacidades detrás de cada uno."
+  },
+  "productMail": {
+    "metaTitle": "Correo — Verkio",
+    "metaDescription": "Correo basado en estándares con flujos de equipo: buzones compartidos, reglas en el servidor, alias, autoconfig — todo sobre IMAP y SMTP.",
+    "eyebrow": "Correo",
+    "headline": "El correo que mueve el resto de la suite.",
+    "body": "Correo basado en estándares con flujos de equipo integrados — buzones compartidos, reglas en el servidor y alias que no parecen complementos. Todo sobre un servidor IMAP y SMTP, así cualquier cliente funciona.",
+    "cta": "Unirse a la lista",
+    "backLink": "Volver al resumen del producto",
+    "sections": {
+      "webmail": {
+        "eyebrow": "Webmail",
+        "headline": "El webmail que querrías usar.",
+        "body": "Bandeja rápida, pensada para el teclado, con hilos, búsqueda y etiquetas. El diseño de tres paneles que recuerdas — sin sugerencias de IA, métricas de interés ni el teatro de '¿hay alguien disponible?'.",
+        "bullets": [
+          "Atajos de teclado que de verdad puedes aprender — sin comandos enterrados cinco menús abajo.",
+          "Búsqueda de texto completo en toda la bandeja y cada carpeta.",
+          "Hilos y etiquetas en un diseño tranquilo de tres paneles.",
+          "Redactor con adjuntos por arrastrar y soltar, y Markdown.",
+          "Funciona sin conexión cuando instalas Verkio como PWA."
+        ]
+      },
+      "shared": {
+        "eyebrow": "Buzones compartidos",
+        "headline": "Flujo de helpdesk, sin comprar un producto helpdesk.",
+        "body": "Bandejas de equipo para support@, hello@, billing@. Asignación, estado y notas internas — expuestos como palabras clave IMAP para que los usuarios avanzados de Thunderbird, Apple Mail o K-9 vean el mismo estado que el resto.",
+        "bullets": [
+          "Asignar una conversación a un compañero, con propiedad registrada en el audit log.",
+          "Definir estado — abierto, pendiente, cerrado — y ver cómo una respuesta del cliente lo reabre.",
+          "Controles de acceso por carpeta (ACL RFC 4314): lectores, respondedores, admins.",
+          "Notas internas visibles solo para el equipo.",
+          "IMAP y SMTP multi-usuario — conecta cualquier cliente conforme a estándares.",
+          "Listas de distribución, enrutado alias-a-compartido, reenvío de retención."
+        ]
+      },
+      "rules": {
+        "eyebrow": "Reglas en el servidor",
+        "headline": "Filtros que se aplican donde leas el correo.",
+        "body": "Crea filtros Sieve en el panel — mueve newsletters a una carpeta, silencia listas ruidosas, dirige el correo de proyecto al sitio correcto. Aplicados en la entrega, no en el cliente, así funcionan en todas partes.",
+        "bullets": [
+          "Constructor visual de reglas que compila a Sieve RFC 5228.",
+          "Cinco plantillas preconstruidas: enrutado de newsletters, ausencia, archivado por remitente y más.",
+          "Hasta 50 reglas por buzón, registradas en el audit log.",
+          "Protección contra bucles de reenvío y DNS roto — sin desastres a las 3 de la mañana."
+        ]
+      },
+      "aliases": {
+        "eyebrow": "Alias y reenvío",
+        "headline": "Todas las direcciones que tu equipo necesita.",
+        "body": "Alias ilimitados por usuario. Catch-all en tu dominio. Reenvío externo a Gmail, Fastmail, tu bandeja personal — con confirmación explícita. Listas de distribución para el equipo. Todo en el audit log.",
+        "bullets": [
+          "Alias ilimitados por usuario (sujeto a uso razonable).",
+          "Catch-all en tu dominio para que las direcciones mal escritas sigan llegando.",
+          "Reenvío externo con doble opt-in — los destinos confirman antes de que el correo fluya.",
+          "Hasta 3 reenvíos por buzón personal; cada cambio en el audit log.",
+          "Listas de distribución y reenvío de retención para una baja sin sobresaltos."
+        ]
+      },
+      "domains": {
+        "eyebrow": "Estándares y configuración",
+        "headline": "Trae tu dominio. Cualquier cliente.",
+        "body": "Añade un dominio y configuramos los registros MX, SPF, DKIM, DMARC y autoconfig por ti. Inicia sesión desde Apple Mail, Thunderbird, Outlook, K-9 — cualquier cosa que hable IMAP o SMTP. Perfiles móviles generados automáticamente.",
+        "bullets": [
+          "Configuración automática de dominio en diez proveedores DNS de la UE — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys y más.",
+          "Autoconfig por host header para configurar el cliente de correo en un clic.",
+          "Perfiles Thunderbird XML y Apple .mobileconfig generados para cada cuenta.",
+          "IMAP4rev1, SMTP y JMAP — elige tu protocolo.",
+          "Saliente solo por TLS, consciente de MTA-STS, con firma ARC en los reenvíos."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Estándares abiertos",
+      "headline": "Sin protocolo propietario. Sin bloqueo de proveedor.",
+      "body": "Verkio Mail está construido sobre los mismos RFC que tus herramientas actuales ya hablan. Trae tu cliente. Llévate tu buzón cuando te vayas.",
+      "items": [
+        "IMAP4rev1",
+        "SMTP",
+        "JMAP",
+        "Sieve (RFC 5228)",
+        "ACLs (RFC 4314)",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "ARC",
+        "MTA-STS",
+        "TLS-RPT",
+        "DNSSEC"
+      ]
+    }
   },
   "whyVerkio": {
     "metaTitle": "Por qué Verkio — Verkio",

@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { ProductDropdown } from "./ProductDropdown";
 
 export function Container({
   className = "",
@@ -67,10 +68,11 @@ export function Header() {
           <div className="flex items-center gap-x-6 sm:gap-x-8">
             <Link
               href="/product"
-              className="hidden sm:inline text-sm text-gray-600 hover:text-gray-900 transition-colors"
+              className="inline sm:hidden text-sm text-gray-600 hover:text-gray-900 transition-colors"
             >
               {t("product")}
             </Link>
+            <ProductDropdown />
             <Link
               href="/why-verkio"
               className="hidden sm:inline text-sm text-gray-600 hover:text-gray-900 transition-colors"

@@ -15,7 +15,42 @@
     "roadmap": "Tiekartta",
     "articles": "Artikkelit",
     "product": "Tuote",
-    "whyVerkio": "Miksi Verkio"
+    "whyVerkio": "Miksi Verkio",
+    "productMenu": {
+      "comingSoon": "Tulossa pian",
+      "mail": {
+        "name": "Sähköposti",
+        "description": "Verkkosähköposti tiimityövirroilla."
+      },
+      "calendar": {
+        "name": "Kalenteri",
+        "description": "Jaetut kalenterit avoimen CalDAVin yli."
+      },
+      "contacts": {
+        "name": "Yhteystiedot",
+        "description": "Osoitekirjat avoimen CardDAVin yli."
+      },
+      "files": {
+        "name": "Tiedostot",
+        "description": "Tiedostot ja kansiot, käyttöoikeus per tiedosto."
+      },
+      "wikis": {
+        "name": "Wikit",
+        "description": "Tilat tiimin tiedolle."
+      },
+      "messaging": {
+        "name": "Viestit",
+        "description": "Kanavat ja yksityisviestit, sama kirjautuminen."
+      },
+      "api": {
+        "name": "Julkinen API",
+        "description": "REST OpenAPI 3.1:llä ja webhookeilla."
+      },
+      "signIn": {
+        "name": "Sign in with Verkio",
+        "description": "OIDC EU:n internetiä varten."
+      }
+    }
   },
   "hero": {
     "eyebrow": "Julkaistaan heinäkuussa 2026",
@@ -644,6 +679,96 @@
   "product": {
     "metaTitle": "Tuote — Verkio",
     "metaDescription": "Verkio-tuote: sähköposti, kalenteri, yhteystiedot, tiedostot, wikit ja viestit. Plus jokaisen taustalla olevat ominaisuudet."
+  },
+  "productMail": {
+    "metaTitle": "Sähköposti — Verkio",
+    "metaDescription": "Standardeihin pohjautuva sähköposti tiimityövirroilla: jaetut postilaatikot, palvelinpuolen säännöt, aliakset, autoconfig — kaikki IMAPin ja SMTP:n päällä.",
+    "eyebrow": "Sähköposti",
+    "headline": "Sähköposti, joka pyörittää muuta pakettia.",
+    "body": "Standardeihin pohjautuva sähköposti, jossa tiimityövirrat ovat sisäänrakennettuja — jaetut postilaatikot, palvelinpuolen säännöt ja aliakset, jotka eivät tunnu lisäosilta. Kaikki IMAP- ja SMTP-palvelimen päällä, joten mikä tahansa asiakas toimii.",
+    "cta": "Liity jonotuslistalle",
+    "backLink": "Takaisin tuoteyleiskatsaukseen",
+    "sections": {
+      "webmail": {
+        "eyebrow": "Verkkosähköposti",
+        "headline": "Verkkosähköposti, jota haluaisit oikeasti käyttää.",
+        "body": "Nopea, näppäimistöllä toimiva saapuneet-laatikko ketjuilla, haulla ja tunnisteilla. Kolmen paneelin asettelu, jonka muistat — ilman tekoälyvihjeitä, sitoutumismittareita tai 'onko joku tavoitettavissa?'-teatteria.",
+        "bullets": [
+          "Näppäinoikoteitä, jotka voit oikeasti oppia — ei viiden valikon syvyyteen haudattuja komentoja.",
+          "Tekstihaku koko saapuneista ja jokaisesta kansiosta.",
+          "Ketjut ja tunnisteet rauhallisessa kolmen paneelin asettelussa.",
+          "Kirjoituseditori, jossa raahaa-ja-pudota-liitteet ja Markdown.",
+          "Toimii ensisijaisesti offline, kun asennat Verkion PWA:na."
+        ]
+      },
+      "shared": {
+        "eyebrow": "Jaetut postilaatikot",
+        "headline": "Helpdesk-työvirta ilman helpdesk-tuotteen ostamista.",
+        "body": "Tiimien saapuneet support@-, hello@-, billing@-osoitteille. Vastuutus, tila ja sisäiset muistiinpanot — paljastettu IMAP-avainsanoina, joten tehokäyttäjät Thunderbirdissä, Apple Mailissa tai K-9:ssä näkevät saman tilan kuin kaikki muutkin.",
+        "bullets": [
+          "Vastuuta keskustelu tiimiläiselle, omistus kirjattu audit-lokiin.",
+          "Aseta tila — auki, odottava, suljettu — ja katso asiakasvastauksen avaavan sen uudelleen.",
+          "Käyttöoikeudet per kansio (RFC 4314 ACL:t): lukijat, vastaajat, ylläpitäjät.",
+          "Sisäiset muistiinpanot näkyvät vain tiimille.",
+          "Monen käyttäjän IMAP ja SMTP — yhdistä mikä tahansa standardinmukainen asiakas.",
+          "Jakelulistat, alias-jaettuun-reititys, säilytyksen edelleenlähetys."
+        ]
+      },
+      "rules": {
+        "eyebrow": "Palvelinpuolen säännöt",
+        "headline": "Suodattimet, jotka laukeavat siellä missä luet sähköpostiasi.",
+        "body": "Rakenna Sieve-suodattimia kojelaudassa — siirrä uutiskirjeet kansioon, mykistä äänekkäät listat, ohjaa projektiposti oikeaan paikkaan. Sovelletaan toimituksen yhteydessä, ei asiakkaassa, joten ne toimivat kaikkialla.",
+        "bullets": [
+          "Visuaalinen sääntörakentaja, joka kääntyy Sieve RFC 5228:ksi.",
+          "Viisi valmista mallia: uutiskirjeiden reititys, poissaolo, arkistointi lähettäjän mukaan ja muita.",
+          "Enintään 50 sääntöä per postilaatikko, kirjattu audit-lokiin.",
+          "Edelleenlähetyksen silmukka- ja huonon DNS:n suoja sisäänrakennettu — ei kolmen yön katastrofeja."
+        ]
+      },
+      "aliases": {
+        "eyebrow": "Aliakset ja edelleenlähetys",
+        "headline": "Kaikki osoitteet, joita tiimisi tarvitsee.",
+        "body": "Rajattomasti aliaksia per käyttäjä. Catch-all omalla verkkotunnuksellasi. Ulkoinen edelleenlähetys Gmailiin, Fastmailiin, henkilökohtaiseen laatikkoosi — nimenomaisella vahvistuksella. Jakelulistat tiimille. Kaikki audit-lokissa.",
+        "bullets": [
+          "Rajattomasti aliaksia per käyttäjä (kohtuullinen käyttö edellyttäen).",
+          "Catch-all verkkotunnuksellesi, jotta väärin kirjoitetut osoitteet päätyvät silti perille.",
+          "Ulkoinen edelleenlähetys kaksinkertaisella opt-inillä — kohteet vahvistavat ennen kuin posti virtaa.",
+          "Enintään 3 edelleenlähetystä henkilökohtaista postilaatikkoa kohden; jokainen muutos audit-lokissa.",
+          "Jakelulistat ja säilytyksen edelleenlähetys sujuvaan offboardingiin."
+        ]
+      },
+      "domains": {
+        "eyebrow": "Standardit ja käyttöönotto",
+        "headline": "Tuo verkkotunnuksesi. Mikä tahansa asiakas.",
+        "body": "Lisää verkkotunnus, niin määritämme MX-, SPF-, DKIM-, DMARC- ja autoconfig-tietueet puolestasi. Kirjaudu Apple Mailista, Thunderbirdistä, Outlookista, K-9:stä — mistä tahansa, joka puhuu IMAPia tai SMTP:tä. Mobiiliprofiilit luodaan automaattisesti.",
+        "bullets": [
+          "Automaattinen verkkotunnuksen käyttöönotto kymmenellä EU-DNS-tarjoajalla — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys ja muita.",
+          "Autoconfig host headerin kautta yhden napsautuksen mailasiakaskäyttöönottoon.",
+          "Thunderbird XML- ja Apple .mobileconfig-profiilit luodaan jokaiselle tilille.",
+          "IMAP4rev1, SMTP ja JMAP — valitse protokollasi.",
+          "Lähtevä vain TLS:llä, MTA-STS-tietoinen, ARC-allekirjoituksella edelleenlähetyksissä."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Avoimet standardit",
+      "headline": "Ei suljettua protokollaa. Ei toimittajalukkoa.",
+      "body": "Verkio Mail rakentuu samoille RFC:ille, joita olemassa olevat työkalusi jo puhuvat. Tuo asiakkaasi. Vie postilaatikko mukanasi, kun lähdet.",
+      "items": [
+        "IMAP4rev1",
+        "SMTP",
+        "JMAP",
+        "Sieve (RFC 5228)",
+        "ACLs (RFC 4314)",
+        "SPF",
+        "DKIM",
+        "DMARC",
+        "ARC",
+        "MTA-STS",
+        "TLS-RPT",
+        "DNSSEC"
+      ]
+    }
   },
   "whyVerkio": {
     "metaTitle": "Miksi Verkio — Verkio",
