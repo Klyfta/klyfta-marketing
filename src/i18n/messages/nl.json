@@ -770,6 +770,287 @@
       ]
     }
   },
+  "productCalendar": {
+    "metaTitle": "Agenda — Verkio",
+    "metaDescription": "Gedeelde agenda's via open CalDAV. Terugkerende afspraken, iMIP-uitnodigingen, vrij/bezet. Synchronisatie met Apple Calendar, Thunderbird, DAVx⁵ vanaf dag één.",
+    "eyebrow": "Agenda",
+    "headline": "Plannen waar ze horen — in je suite.",
+    "body": "Gedeelde agenda's, uitnodigingen en vrij/bezet-opzoeking — via open CalDAV. Geen propriëtaire plug-in om te installeren. Synchroniseer met Apple Calendar, Thunderbird, DAVx⁵ of je telefoon, en houd elke afspraak in pas.",
+    "cta": "Op de wachtlijst",
+    "backLink": "Terug naar productoverzicht",
+    "sections": {
+      "shared": {
+        "eyebrow": "Gedeelde agenda's",
+        "headline": "Agenda's die passen bij hoe het team echt werkt.",
+        "body": "Persoonlijke agenda's voor je eigen tijd, gedeelde agenda's voor het team, zoveel als je organisatie nodig heeft. Maand-, week- en dagweergave in de web-app — terugkerende afspraken, hele-dagafspraken, tijdzonebewust, de basis netjes gedaan.",
+        "bullets": [
+          "Meerdere agenda's per gebruiker — persoonlijk, project, oproeprotatie, wat je nodig hebt.",
+          "Gedeeld met genoemde teamleden of de hele organisatie, met lees- of schrijfrechten.",
+          "Terugkerende afspraken met alle standaardregels — elke dinsdag, derde vrijdag van de maand, einde van elk kwartaal.",
+          "Hele-dagafspraken en tijdzonebewuste afspraken, beide gerespecteerd door clients.",
+          "Web-app met maand-, week- en dagweergave — sneltoetsen inbegrepen."
+        ]
+      },
+      "open": {
+        "eyebrow": "Open van opzet",
+        "headline": "CalDAV onder de motorkap. De client van je keuze erbovenop.",
+        "body": "Verkio Calendar spreekt CalDAV — hetzelfde protocol dat Apple Calendar, Thunderbird en DAVx⁵ al kennen. Geen propriëtaire connector om te downloaden, geen 'werkt het beste in onze app'-trucje. Gebruik de web-app, de client die je al hebt, of beide.",
+        "bullets": [
+          "Synchroniseer met Apple Calendar op macOS en iOS — directe instelling, geen extensie.",
+          "Synchroniseer met Thunderbird via ingebouwd CalDAV — je bestaande mailclient krijgt je agenda.",
+          "Synchroniseer met DAVx⁵ op Android — volledig tweerichtings op één account.",
+          "iCalendar-import en -export zodat agenda's schoon heen en weer gaan als je verhuist."
+        ]
+      },
+      "invites": {
+        "eyebrow": "Uitnodigingen die werken",
+        "headline": "iMIP-uitnodigingen, geen screenshots.",
+        "body": "Stuur standaardconforme iMIP-uitnodigingen en je gasten kunnen reageren vanuit elke standaard mail- of agendaclient — Gmail inbegrepen. Vrij/bezet-opzoeking in het team, zodat het 'ben je vrij om 14 uur?'-draadje niet eens begint.",
+        "bullets": [
+          "iMIP-uitnodigingen (RFC 6047) die werken in Gmail, Outlook, Apple Calendar en Thunderbird.",
+          "RSVP-statussen (geaccepteerd, voorlopig, afgewezen) in realtime gevolgd en bijgewerkt.",
+          "Vrij/bezet-opzoeking onder teamleden — vind een slot zonder je agenda te schermdelen.",
+          "Agendapolls op de routekaart (Q2 2027) voor als vrij/bezet niet genoeg is."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Open standaarden",
+      "headline": "RFC's van boven tot onder.",
+      "body": "Verkio Calendar is gebouwd op dezelfde open standaarden die je bestaande tools al spreken. Breng je client mee. Neem je agenda mee als je vertrekt.",
+      "items": [
+        "CalDAV (RFC 4791)",
+        "iCalendar (RFC 5545)",
+        "iMIP (RFC 6047)",
+        "iTIP (RFC 5546)",
+        "VTIMEZONE",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productContacts": {
+    "metaTitle": "Contacten — Verkio",
+    "metaDescription": "Persoonlijke en team-gedeelde adresboeken via open CardDAV. vCard-sync. Automatisch gevuld vanuit mail en agenda-uitnodigingen. Geen propriëtair contactformaat.",
+    "eyebrow": "Contacten",
+    "headline": "Een adresboek dat je volgt.",
+    "body": "Persoonlijke en team-gedeelde adresboeken via open CardDAV. vCard-sync naar elke standaardclient. Contacten vullen zich automatisch vanuit mail en agenda-uitnodigingen — zodat je geen adressen overtypt die je al kent.",
+    "cta": "Op de wachtlijst",
+    "backLink": "Terug naar productoverzicht",
+    "sections": {
+      "shared": {
+        "eyebrow": "Persoonlijk en gedeeld",
+        "headline": "Jouw contacten, die van je team, nooit door elkaar.",
+        "body": "Persoonlijke adresboeken voor de mensen in je leven. Gedeelde adresboeken voor het team — verkoop, support, klantaccounts. Toegang per boek zodat de juiste mensen de juiste contacten zien en niet meer.",
+        "bullets": [
+          "Meerdere adresboeken per gebruiker — persoonlijk, werk, projectspecifiek.",
+          "Gedeelde adresboeken met genoemde teamleden of de hele organisatie.",
+          "Contactgroepen voor distributie en bulkbewerkingen.",
+          "vCard-import en -export zodat je contacten schoon binnen kunt halen en mee kunt nemen."
+        ]
+      },
+      "open": {
+        "eyebrow": "Open van opzet",
+        "headline": "CardDAV. Breng elke client mee.",
+        "body": "Verkio Contacts spreekt CardDAV — hetzelfde protocol dat Apple Contacts, Thunderbird en DAVx⁵ al kennen. Je adresboek is van jou: draagbaar, synchroniseerbaar, nooit gevangen in een propriëtair formaat.",
+        "bullets": [
+          "Synchroniseer met Apple Contacts op macOS en iOS via CardDAV — geen plug-in.",
+          "Synchroniseer met Thunderbird en DAVx⁵ op Android.",
+          "vCard 4.0 import en export — heen en terug behoudt foto's, eigen velden en groepen.",
+          "Geen propriëtair contactformaat. Vertrek met je gegevens intact."
+        ]
+      },
+      "integrated": {
+        "eyebrow": "Automatisch gevuld",
+        "headline": "Contacten die opduiken voordat je ze nodig hebt.",
+        "body": "Mail iemand nieuw en zijn adres glipt rustig in je adresboek. Accepteer een agenda-uitnodiging en de organisator staat er ook in. Eén identiteit over mail, agenda en messaging — geen dubbele invoer, geen dubbele kaarten.",
+        "bullets": [
+          "Automatisch toevoegen vanuit verzonden mail (per account uit te zetten).",
+          "Automatisch toevoegen vanuit agenda-uitnodigingen — organisatoren en deelnemers.",
+          "Dedupe-heuristieken zodat dezelfde persoon niet drie keer opduikt.",
+          "Eén identiteit over mail, agenda en messaging — één kaart, overal."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Open standaarden",
+      "headline": "Gebouwd op de standaarden die je tools al spreken.",
+      "body": "Breng je client mee. Neem je contacten mee als je vertrekt. Geen propriëtair formaat waar je later vanaf moet migreren.",
+      "items": [
+        "CardDAV (RFC 6352)",
+        "vCard 4.0 (RFC 6350)",
+        "vCard 3.0 (legacy interop)",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productFiles": {
+    "metaTitle": "Bestanden — Verkio",
+    "metaDescription": "Bestandsopslag met in de EU beheerde sleutels, ACL's per bestand, deellinks met vervaldatum, hervatbare multi-GB-uploads, prullenbak van 30 dagen.",
+    "eyebrow": "Bestanden",
+    "headline": "Bestanden met sleutels die jij beheert.",
+    "body": "Privé en team-gedeelde bestandsopslag met toegangscontrole per bestand, versleuteld in rust met in de EU beheerde sleutels, met hervatbare multi-GB-uploads en een prullenbak van 30 dagen. Geen hoofdsleutel in een Amerikaanse bucket.",
+    "cta": "Op de wachtlijst",
+    "backLink": "Terug naar productoverzicht",
+    "sections": {
+      "privateShared": {
+        "eyebrow": "Privé en gedeeld",
+        "headline": "Mappen die passen bij hoe je team echt werkt.",
+        "body": "Je privéwerkruimte voor concepten. Gedeelde mappen voor het team. Organisatiebrede mappen voor iedereen. Granulaire ACL's per bestand of per map, zodat je een externe tot één project beperkt zonder de rest van de schijf bloot te leggen.",
+        "bullets": [
+          "Privémappen die alleen jij ziet.",
+          "Gedeelde mappen met genoemde teamleden of hele teams.",
+          "Organisatiebrede mappen voor wat iedereen nodig heeft.",
+          "ACL's per bestand — lezers, bewerkers, eigenaren.",
+          "In de audit log: elke deling, elke toekenning, elke intrekking."
+        ]
+      },
+      "encryption": {
+        "eyebrow": "Versleuteld in rust",
+        "headline": "Sleutels per bestand, in de EU gehouden.",
+        "body": "Elk bestand krijgt zijn eigen AES-256-GCM-dataversleutelingssleutel. Die sleutels worden door Vault Transit ingepakt op een in de EU gevestigde sleutelserver — geen Amerikaanse KMS, geen hyperscaler. Loopt een schijf het datacenter uit, dan gaan je bestanden niet mee.",
+        "bullets": [
+          "AES-256-GCM-versleuteling per bestand — elk bestand, elk plan, zonder meerprijs.",
+          "Dataversleutelingssleutels ingepakt door Vault Transit op in de EU gevestigde infrastructuur.",
+          "Opslag op Hetzner EU object storage — geen Amerikaanse bucket houdt je gegevens.",
+          "Encryptie met door de klant gehouden sleutels vanaf juni 2026 — zelfs Verkio kan het niet lezen."
+        ]
+      },
+      "uploads": {
+        "eyebrow": "Uploads",
+        "headline": "Multi-GB-uploads die slecht café-Wi-Fi overleven.",
+        "body": "Hervatbare uploads pakken op waar je gebleven was als de verbinding wegvalt. Een prullenbak van 30 dagen vangt per ongeluk verwijderde bestanden op. Formaatbehoudend: wat je upload komt als dezelfde bits terug als je download.",
+        "bullets": [
+          "Hervatbare uploads — onderbroken op 80%, hervat vanaf 80%, niet vanaf 0.",
+          "Bestanden tot de opslaglimiet van je plan; geen limiet per bestand.",
+          "Prullenbak van 30 dagen — herstel verwijderde bestanden zonder support-ticket.",
+          "Formaatbehoudend — je PDF, video of .docx gaat onveranderd heen en terug."
+        ]
+      },
+      "sharing": {
+        "eyebrow": "Deellinks",
+        "headline": "Deellinks met vangrails.",
+        "body": "Stuur een link naar iedereen, niet alleen naar Verkio-gebruikers. Voeg een wachtwoord toe als het gevoelig is. Stel een vervaldatum in zodat oude links je niet achtervolgen. Elke deling staat in de audit log — wie deelde wat, wanneer, met wie.",
+        "bullets": [
+          "Openbare deellinks om te downloaden zonder account.",
+          "Wachtwoordbescherming per deling — deel de link, deel het wachtwoord apart.",
+          "Vervaldatum — links vernietigen zichzelf na een datum of een aantal weergaven.",
+          "In de audit log zodat je altijd weet wat met wie is gedeeld."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Standaarden",
+      "headline": "Open formaten, standaardcryptografie, EU-infrastructuur.",
+      "body": "Geen propriëtair bestandsformaat. Geen sleutelbewaring bij Amerikaanse hyperscalers. Je bestanden blijven van jou en gaan onveranderd heen en terug.",
+      "items": [
+        "AES-256-GCM",
+        "Vault Transit (KMS)",
+        "TLS 1.3",
+        "Hetzner EU object storage",
+        "Open formats round-trip unchanged"
+      ]
+    }
+  },
+  "productWikis": {
+    "metaTitle": "Wiki's — Verkio",
+    "metaDescription": "Geversioneerde, doorzoekbare kennisruimtes voor het team. Persoonlijke, team-gedeelde en organisatiebrede bereiken. Gebouwd op CommonMark Markdown.",
+    "eyebrow": "Wiki's",
+    "headline": "De kennis die je team voor zichzelf opschrijft.",
+    "body": "Gestructureerde, geversioneerde ruimtes voor runbooks, beslissingen, onboarding en de institutionele kennis die je team anders elke zes maanden opnieuw uitvindt. Doorzoekbaar, koppelbaar, in dezelfde suite als je mail en agenda.",
+    "cta": "Op de wachtlijst",
+    "backLink": "Terug naar productoverzicht",
+    "sections": {
+      "versioned": {
+        "eyebrow": "Geversioneerd",
+        "headline": "Elke bewerking vastgelegd.",
+        "body": "Wiki's zijn niet alleen een plek om te schrijven; het zijn een plek om te volgen hoe beslissingen zich ontwikkelden. Elke wijziging wordt vastgelegd, toegekend en is omkeerbaar — handig voor compliance, en handig om uit te vinden wie het runbook gebroken heeft.",
+        "bullets": [
+          "Volledige bewerkingsgeschiedenis per pagina — zie wat wanneer door wie veranderde.",
+          "Diff-weergave tussen elke twee revisies.",
+          "Herstel een eerdere versie met één klik.",
+          "Geen stille overschrijvingen — detectie van gelijktijdige bewerking houdt werk veilig."
+        ]
+      },
+      "scopes": {
+        "eyebrow": "Drie bereiken",
+        "headline": "Persoonlijk, team-gedeeld, organisatiebreed.",
+        "body": "Sommige pagina's zijn voor jou — concepten, weeknotes. Sommige voor je team — runbooks, projectpagina's. Sommige voor de hele organisatie — onboarding, beleid, het keuken-Wi-Fi-wachtwoord. Drie heldere bereiken, geen speleologie in machtigingen.",
+        "bullets": [
+          "Persoonlijk — concepten en notities die alleen jij ziet.",
+          "Met mij gedeeld — pagina's die je team met je heeft gedeeld.",
+          "Met de organisatie gedeeld — pagina's die iedereen in de organisatie kan lezen.",
+          "Verplaats tussen bereiken met één klik; machtigingen passen zich aan."
+        ]
+      },
+      "linked": {
+        "eyebrow": "Gekoppeld",
+        "headline": "Pagina's die elkaar vinden.",
+        "body": "Wikilinks om pagina's te verbinden, fulltext-zoeken om ze te vinden, hiërarchie om ze te doorbladeren. De kennisgrafiek bouwt zichzelf op terwijl je team schrijft.",
+        "bullets": [
+          "Wikilinks — [[Paginatitel]] wordt overal in je wiki opgelost.",
+          "Fulltext-zoeken over pagina's, met inhoudsfragmenten in de resultaten.",
+          "Hiërarchie en kruimelpaden — mappen en bovenliggende pagina's voor navigatie.",
+          "Backlink-paneel — zie elke pagina die naar de huidige verwijst."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Open formaten",
+      "headline": "CommonMark Markdown. HTML-export. Van jou om mee te nemen.",
+      "body": "Wikipagina's worden opgeslagen als Markdown — hetzelfde formaat waarin je in elke editor, op elk platform zou schrijven. Exporteer alles als HTML of download per pagina Markdown wanneer je wilt.",
+      "items": [
+        "CommonMark Markdown",
+        "GFM tables and task lists",
+        "HTML export (full wiki)",
+        "Per-page Markdown download",
+        "JSON export (structure + metadata)"
+      ]
+    }
+  },
+  "productMessaging": {
+    "metaTitle": "Messaging — Verkio",
+    "metaDescription": "Kanalen, DMs en threads voor teamgesprekken. Zelfde login, zelfde zoekfunctie, zelfde audit log als de rest van je suite.",
+    "eyebrow": "Messaging",
+    "headline": "Snelle gesprekken, zelfde login.",
+    "body": "Kanalen voor teamwerk, DMs voor één-op-één, threads om antwoorden niet door elkaar te halen. Doorzoekbaar naast je mail, agenda en wiki — geen extra tabblad om bij te houden.",
+    "cta": "Op de wachtlijst",
+    "backLink": "Terug naar productoverzicht",
+    "sections": {
+      "channels": {
+        "eyebrow": "Kanalen, DMs, threads",
+        "headline": "De vormen die een echt team nodig heeft.",
+        "body": "Kanalen voor lopend werk — #engineering, #support, #social. DMs voor één-op-één. Threads in beide, zodat een discussie over één ding de rest van de kamer niet platwalst.",
+        "bullets": [
+          "Openbare kanalen voor teambreed werk en aankondigingen.",
+          "Privékanalen voor gevoelige projecten, alleen op uitnodiging.",
+          "Directe berichten, één-op-één of in kleine groepen.",
+          "Antwoorden in threads zodat meerdere gesprekken in één kanaal kunnen lopen."
+        ]
+      },
+      "inSuite": {
+        "eyebrow": "In dezelfde suite",
+        "headline": "Eén login. Eén zoekfunctie. Eén audit log.",
+        "body": "Messaging deelt dezelfde identiteit als je mail en agenda. Zoeken op een klantnaam haalt berichten, e-mails, uitnodigingen en wikipagina's in één keer op. Dezelfde audit log die mailacties registreert, registreert ook messaging-acties.",
+        "bullets": [
+          "Zelfde login als de rest van je Verkio-account — geen Slack-achtige aparte facturering.",
+          "Universele zoekfunctie over berichten, mail, agenda, contacten, bestanden, wiki's.",
+          "Zelfde audit-log-oppervlak voor compliance en operator-review.",
+          "Geen tweede factuurregel — inbegrepen in je suite."
+        ]
+      },
+      "noNoise": {
+        "eyebrow": "Standaard rustig",
+        "headline": "Voor werk gemaakt, niet voor engagement.",
+        "body": "Geen 'iemand is aan het typen'-angst. Geen streaks. Geen 'dit vind je misschien interessant'-zijbalk. Messaging is een gereedschap — het verschijnt als je het nodig hebt en blijft uit de weg als je het niet nodig hebt.",
+        "bullets": [
+          "Geen engagementmetrieken — we tellen niet hoe vaak je de app opent.",
+          "Geen leesbevestigingen die doen alsof ze een contract zijn.",
+          "Geen statusdruk — zet jezelf op bezet zonder streak-schuldgevoel.",
+          "Per-kanaalmeldingen die je echt beheert, geen lapmiddelen voor standaardchaos."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Waarom Verkio — Verkio",
     "metaDescription": "Waarom teams voor Verkio kiezen: rustige software, open standaarden, EU-residentie, geen vendor lock-in."

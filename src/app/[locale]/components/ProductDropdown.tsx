@@ -18,11 +18,11 @@ type IconProps = React.ComponentPropsWithoutRef<"svg">;
 
 const items: { key: ItemKey; href: string; comingSoon?: boolean }[] = [
   { key: "mail", href: "/product/mail" },
-  { key: "calendar", href: "/product" },
-  { key: "contacts", href: "/product" },
-  { key: "files", href: "/product" },
-  { key: "wikis", href: "/product" },
-  { key: "messaging", href: "/product" },
+  { key: "calendar", href: "/product/calendar" },
+  { key: "contacts", href: "/product/contacts" },
+  { key: "files", href: "/product/files" },
+  { key: "wikis", href: "/product/wikis" },
+  { key: "messaging", href: "/product/messaging" },
   { key: "api", href: "/product" },
   { key: "signIn", href: "/product", comingSoon: true },
 ];

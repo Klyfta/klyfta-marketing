@@ -770,6 +770,287 @@
       ]
     }
   },
+  "productCalendar": {
+    "metaTitle": "Kalender — Verkio",
+    "metaDescription": "Jagatud kalendrid avatud CalDAV peal. Korduvad sündmused, iMIP-kutsed, vaba/hõivatud. Sünkroonimine Apple Calendari, Thunderbirdi, DAVx⁵-ga esimesest päevast.",
+    "eyebrow": "Kalender",
+    "headline": "Plaanid sinna, kuhu nad kuuluvad — sinu komplekti.",
+    "body": "Jagatud kalendrid, kutsed ja vaba/hõivatud-päringud — avatud CalDAV peal. Pole vaja paigaldada ühtegi suletud plug-ini. Sünkrooni Apple Calendari, Thunderbirdi, DAVx⁵-ga või oma telefoniga ja hoia iga sündmus samas taktis.",
+    "cta": "Liitu ootejärjekorraga",
+    "backLink": "Tagasi toote ülevaatesse",
+    "sections": {
+      "shared": {
+        "eyebrow": "Jagatud kalendrid",
+        "headline": "Kalendrid, mis sobivad sellega, kuidas meeskond tegelikult töötab.",
+        "body": "Isiklikud kalendrid sinu enda aja jaoks, jagatud kalendrid meeskonna jaoks ja nii palju kui sinu organisatsioon vajab. Kuu, nädala ja päeva vaated veebirakenduses — korduvad sündmused, terve päeva sündmused, ajavööndi teadlikkus, alused korralikult tehtud.",
+        "bullets": [
+          "Mitu kalendrit kasutaja kohta — isiklik, projekt, valvevahetus, mida iganes vajad.",
+          "Jagatud nimeliste meeskonnakaaslaste või terve organisatsiooniga, lugemis- või kirjutamisõigustega.",
+          "Korduvad sündmused kõigi standardreeglitega — iga teisipäev, kuu kolmas reede, iga kvartali lõpp.",
+          "Terve päeva sündmused ja ajavööndi-teadlikud sündmused, mõlemad austatud kõigis klientides.",
+          "Veebirakendus kuu, nädala ja päeva vaadetega — klaviatuuri kiirklahvid kaasas."
+        ]
+      },
+      "open": {
+        "eyebrow": "Avatud kavandi järgi",
+        "headline": "CalDAV kapoti all. Sinu valitud klient peal.",
+        "body": "Verkio Calendar räägib CalDAV-i — sama protokolli, mida Apple Calendar, Thunderbird ja DAVx⁵ juba teavad. Pole suletud konnektorit alla laadida, pole „töötab kõige paremini meie äpis\" trikki. Kasuta veebirakendust, klienti, mis sul juba on, või mõlemat.",
+        "bullets": [
+          "Sünkroonimine Apple Calendariga macOS-is ja iOS-is — otsene seadistus, ilma laienduseta.",
+          "Sünkroonimine Thunderbirdiga sisseehitatud CalDAV-i kaudu — sinu olemasolev meiliklient saab su kalendri.",
+          "Sünkroonimine DAVx⁵-ga Androidis — täielik kahesuunaline ühe konto kaudu.",
+          "iCalendari import ja eksport, et kalendrid liiguksid puhtalt edasi-tagasi, kui kolid."
+        ]
+      },
+      "invites": {
+        "eyebrow": "Kutsed, mis töötavad",
+        "headline": "iMIP-kutsed, mitte ekraanipildid.",
+        "body": "Saada standarditele vastavaid iMIP-kutseid ja kutsutud saavad vastata mis tahes standardsest meili- või kalendrikliendist — Gmail kaasa arvatud. Vaba/hõivatud-päring meeskonnas, et peatada „kas oled kell 2 vaba?\" lõim enne kui see algab.",
+        "bullets": [
+          "iMIP-kutsed (RFC 6047), mis töötavad Gmailis, Outlookis, Apple Calendaris ja Thunderbirdis.",
+          "RSVP-staatused (vastu võetud, esialgne, tagasi lükatud) jälgitud ja reaalajas uuendatud.",
+          "Vaba/hõivatud-päring meeskonnakaaslaste vahel — leia aeg ilma ekraani jagamata.",
+          "Kalendriküsitlused tegevuskavas (Q2 2027) juhuks, kui vaba/hõivatud ei piisa."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Avatud standardid",
+      "headline": "RFC-d ülevalt alla.",
+      "body": "Verkio Calendar on ehitatud samade avatud standardite peale, mida su olemasolevad tööriistad juba räägivad. Too oma klient. Võta oma kalender kaasa, kui lahkud.",
+      "items": [
+        "CalDAV (RFC 4791)",
+        "iCalendar (RFC 5545)",
+        "iMIP (RFC 6047)",
+        "iTIP (RFC 5546)",
+        "VTIMEZONE",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productContacts": {
+    "metaTitle": "Kontaktid — Verkio",
+    "metaDescription": "Isiklikud ja meeskonnaga jagatud aadressiraamatud avatud CardDAV peal. vCard-sünk. Täituvad automaatselt meilist ja kalendrikutsetest. Pole suletud kontaktiformaati.",
+    "eyebrow": "Kontaktid",
+    "headline": "Aadressiraamat, mis järgneb sulle.",
+    "body": "Isiklikud ja meeskonnaga jagatud aadressiraamatud avatud CardDAV peal. vCard-sünk mis tahes standardse kliendiga. Kontaktid täituvad automaatselt meilist ja kalendrikutsetest — et sa ei peaks uuesti sisestama aadresse, mida juba tead.",
+    "cta": "Liitu ootejärjekorraga",
+    "backLink": "Tagasi toote ülevaatesse",
+    "sections": {
+      "shared": {
+        "eyebrow": "Isiklik ja jagatud",
+        "headline": "Sinu kontaktid, meeskonna kontaktid, kunagi ei aja segi.",
+        "body": "Isiklikud aadressiraamatud su elu inimestele. Jagatud aadressiraamatud meeskonnale — müük, tugi, kliendikontod. Juurdepääs raamatu kaupa, et õiged inimesed näeksid õigeid kontakte ja mitte rohkemat.",
+        "bullets": [
+          "Mitu aadressiraamatut kasutaja kohta — isiklik, töö, projektipõhine.",
+          "Jagatud aadressiraamatud nimeliste meeskonnakaaslaste või terve organisatsiooniga.",
+          "Kontaktrühmad jaotamiseks ja masstoiminguteks.",
+          "vCard-import ja -eksport, et saaksid kontakte puhtalt sisse tuua ja välja viia."
+        ]
+      },
+      "open": {
+        "eyebrow": "Avatud kavandi järgi",
+        "headline": "CardDAV. Too ükskõik milline klient.",
+        "body": "Verkio Contacts räägib CardDAV-i — sama protokolli, mida Apple Contacts, Thunderbird ja DAVx⁵ juba teavad. Su aadressiraamat on sinu oma: kaasaskantav, sünkroonitav, mitte kunagi suletud formaadis vangis.",
+        "bullets": [
+          "Sünkroonimine Apple Contactsiga macOS-is ja iOS-is CardDAV-i kaudu — ilma plug-inita.",
+          "Sünkroonimine Thunderbirdi ja DAVx⁵-ga Androidis.",
+          "vCard 4.0 import ja eksport — edasi-tagasi liikumine säilitab fotod, kohandatud väljad, rühmad.",
+          "Pole suletud kontaktiformaati. Lahku oma andmed terveina."
+        ]
+      },
+      "integrated": {
+        "eyebrow": "Automaatselt täidetud",
+        "headline": "Kontaktid, mis ilmuvad enne, kui neid vajad.",
+        "body": "Saada meil kellelegi uuele ja tema aadress libiseb vaikselt su aadressiraamatusse. Võta vastu kalendrikutse ja korraldaja on samuti seal. Üks identiteet meili, kalendri ja sõnumite vahel — pole kahekordset sisestust, pole topeltkaarte.",
+        "bullets": [
+          "Automaatne lisamine saadetud meilist (saab konto kaupa välja lülitada).",
+          "Automaatne lisamine kalendrikutsetest — nii korraldajad kui osalejad.",
+          "Dedup-heuristika, et sama isik ei ilmuks kolm korda.",
+          "Üks identiteet meili, kalendri ja sõnumite vahel — üks kaart, kõikjal."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Avatud standardid",
+      "headline": "Ehitatud standarditele, mida su tööriistad juba räägivad.",
+      "body": "Too oma klient. Võta oma kontaktid kaasa, kui lahkud. Pole suletud formaati, millelt hiljem migreeruma peaksid.",
+      "items": [
+        "CardDAV (RFC 6352)",
+        "vCard 4.0 (RFC 6350)",
+        "vCard 3.0 (legacy interop)",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productFiles": {
+    "metaTitle": "Failid — Verkio",
+    "metaDescription": "Failide salvestamine EL-is hallatud võtmetega, ACL-id faili kohta, jagamislingid aegumisega, jätkatavad mitme-GB-üleslaadimised, 30-päevane prügikast.",
+    "eyebrow": "Failid",
+    "headline": "Failid võtmetega, mida sina kontrollid.",
+    "body": "Privaatne ja meeskonnaga jagatud failide salvestamine juurdepääsukontrollidega faili kohta, krüpteeritud puhkeolekus EL-is hallatud võtmetega, jätkatavate mitme-GB-üleslaadimistega ja 30-päevase prügikastiga. Pole peavõtit USA ämbris.",
+    "cta": "Liitu ootejärjekorraga",
+    "backLink": "Tagasi toote ülevaatesse",
+    "sections": {
+      "privateShared": {
+        "eyebrow": "Privaatne ja jagatud",
+        "headline": "Kaustad, mis sobivad sellega, kuidas su meeskond tegelikult töötab.",
+        "body": "Sinu privaatne tööruum mustanditele. Jagatud kaustad meeskonnale. Organisatsiooniülesed kaustad kõigile. Granulaarsed ACL-id faili või kausta kohta, et saaksid piirata ühe töövõtja ühele projektile ilma ülejäänud ketta paljastamata.",
+        "bullets": [
+          "Privaatsed kaustad, mida ainult sina näed.",
+          "Jagatud kaustad nimeliste meeskonnakaaslaste või tervete meeskondadega.",
+          "Organisatsiooniülesed kaustad selle jaoks, mida kõik vajavad.",
+          "ACL-id faili kohta — lugejad, toimetajad, omanikud.",
+          "Auditipäevikus: iga jagamine, iga andmine, iga tagasivõtmine."
+        ]
+      },
+      "encryption": {
+        "eyebrow": "Krüpteeritud puhkeolekus",
+        "headline": "Faili-põhised võtmed hoitud EL-is.",
+        "body": "Iga fail saab oma AES-256-GCM-andmekrüpteerimisvõtme. Need võtmed mässib Vault Transit EL-is asuvas võtmeserveris — mitte USA KMS, mitte hyperscaler. Kui ketas läheb andmekeskusest välja, su failid ei lähe kaasa.",
+        "bullets": [
+          "Faili-põhine AES-256-GCM krüpteerimine — iga fail, iga plaan, ilma lisatasuta.",
+          "Andmekrüpteerimisvõtmed mässitud Vault Transitiga EL-is asuvas infrastruktuuris.",
+          "Salvestus Hetzner EU object storage'is — ükski USA ämber su andmeid ei hoia.",
+          "Kliendi hoitud võtmega krüpteerimine saabub juunis 2026 — isegi Verkio ei saa seda lugeda."
+        ]
+      },
+      "uploads": {
+        "eyebrow": "Üleslaadimised",
+        "headline": "Mitme-GB-üleslaadimised, mis elavad üle halva kohviku Wi-Fi.",
+        "body": "Jätkatavad üleslaadimised jätkavad sealt, kus pooleli jäid, kui ühendus kaob. 30-päevane prügikast püüab juhuslikud kustutamised. Säilitavad formaati: see, mida üles laadid, tuleb tagasi samade bittidena, kui alla laadid.",
+        "bullets": [
+          "Jätkatavad üleslaadimised — katkestatud 80% juures, jätkub 80%-st, mitte 0-st.",
+          "Failid kuni su plaani salvestuspiirini; pole faili-kohta-suuruspiiri.",
+          "30-päevane prügikast — taasta kustutatud failid ilma tugipiletita.",
+          "Säilitavad formaati — su PDF, video või .docx käib edasi-tagasi muutmata."
+        ]
+      },
+      "sharing": {
+        "eyebrow": "Jagamislingid",
+        "headline": "Jagamislingid piirajatega.",
+        "body": "Saada link ükskõik kellele, mitte ainult Verkio kasutajatele. Lisa parool, kui see on tundlik. Sea aegumine, et vanad lingid sind ei kummitaks. Iga jagamine on auditipäevikus — kes mida millal kellega jagas.",
+        "bullets": [
+          "Avalikud jagamislingid allalaadimiseks ilma kontota.",
+          "Paroolikaitse jagamise kohta — jaga link, jaga parool eraldi.",
+          "Aegumiskuupäev — lingid hävitavad ennast pärast kuupäeva või vaatamiste arvu.",
+          "Auditipäevikus, et sa alati teaksid, mida on kellega jagatud."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Standardid",
+      "headline": "Avatud formaadid, standardne krüptograafia, EL-i infrastruktuur.",
+      "body": "Pole suletud failiformaati. Pole USA-hyperscaleri võtmehoidu. Su failid jäävad sinu omadeks ja käivad edasi-tagasi muutmata.",
+      "items": [
+        "AES-256-GCM",
+        "Vault Transit (KMS)",
+        "TLS 1.3",
+        "Hetzner EU object storage",
+        "Open formats round-trip unchanged"
+      ]
+    }
+  },
+  "productWikis": {
+    "metaTitle": "Wikid — Verkio",
+    "metaDescription": "Versioonitud, otsitavad meeskonna teadmusruumid. Isiklikud, meeskonnaga jagatud ja organisatsiooniülesed alad. Ehitatud CommonMark Markdowni peale.",
+    "eyebrow": "Wikid",
+    "headline": "Teadmised, mida su meeskond endale kirjutab.",
+    "body": "Struktureeritud, versioonitud ruumid runbookide, otsuste, sissejuhatuse ja institutsionaalsete teadmiste jaoks, mida su meeskond muidu iga kuue kuu tagant uuesti leiutaks. Otsitav, lingitav, samas komplektis sinu meili ja kalendriga.",
+    "cta": "Liitu ootejärjekorraga",
+    "backLink": "Tagasi toote ülevaatesse",
+    "sections": {
+      "versioned": {
+        "eyebrow": "Versioonitud",
+        "headline": "Iga muudatus salvestatud.",
+        "body": "Wikid pole lihtsalt koht kirjutamiseks; nad on koht, kus jälgida, kuidas otsused arenesid. Iga muudatus on püütud, omistatud ja ümberpööratav — kasulik vastavuseks ja kasulik selleks, et välja selgitada, kes runbooki katki tegi.",
+        "bullets": [
+          "Täielik muudatuste ajalugu lehe kohta — vaata, mis muutus, millal, kelle poolt.",
+          "Erinevuste vaade kahe suvalise versiooni vahel.",
+          "Taasta varasem versioon ühe klikiga.",
+          "Pole vaikseid ülekirjutusi — samaaegse muutmise tuvastus hoiab töö turvaliselt."
+        ]
+      },
+      "scopes": {
+        "eyebrow": "Kolm ulatust",
+        "headline": "Isiklik, meeskonnaga jagatud, organisatsiooniülene.",
+        "body": "Mõned lehed on sulle — mustandid, nädalamärkmed. Mõned su meeskonnale — runbookid, projektilehed. Mõned tervele organisatsioonile — sissejuhatus, poliitikad, köögi Wi-Fi parool. Kolm selget ulatust, pole loaõiguste koopauurimist.",
+        "bullets": [
+          "Isiklik — mustandid ja märkmed, mida ainult sina näed.",
+          "Minuga jagatud — lehed, mida su meeskond on sinuga jaganud.",
+          "Organisatsiooniga jagatud — lehed, mida kõik organisatsioonis võivad lugeda.",
+          "Liigu ulatuste vahel ühe klikiga; load uuenevad vastavalt."
+        ]
+      },
+      "linked": {
+        "eyebrow": "Lingitud",
+        "headline": "Lehed, mis leiavad üksteist.",
+        "body": "Wikilingid lehtede ühendamiseks, täisteksti-otsing nende leidmiseks ja hierarhia nende sirvimiseks. Teadmusgraaf ehitab end ise, kui su meeskond kirjutab.",
+        "bullets": [
+          "Wikilingid — [[Lehe pealkiri]] laheneb ükskõik kus su wikis.",
+          "Täisteksti-otsing lehtede vahel, sisukatketega tulemustes.",
+          "Hierarhia ja küpsiseraja — kaustad ja vanemlehed navigeerimiseks.",
+          "Tagasilinkide paneel — vaata iga lehte, mis viitab sellele, millel sa oled."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Avatud formaadid",
+      "headline": "CommonMark Markdown. HTML-eksport. Sinu kaasa võtmiseks.",
+      "body": "Wikilehed on salvestatud Markdownis — samas formaadis, milles sa kirjutaksid mis tahes redaktoris, mis tahes platvormil. Ekspordi terve asi HTML-ina või laadi alla lehe-kohta-Markdown, millal soovid.",
+      "items": [
+        "CommonMark Markdown",
+        "GFM tables and task lists",
+        "HTML export (full wiki)",
+        "Per-page Markdown download",
+        "JSON export (structure + metadata)"
+      ]
+    }
+  },
+  "productMessaging": {
+    "metaTitle": "Sõnumid — Verkio",
+    "metaDescription": "Kanalid, DM-id ja lõimed meeskonna vestlusteks. Sama sisselogimine, sama otsing, sama auditipäevik nagu ülejäänud su komplektil.",
+    "eyebrow": "Sõnumid",
+    "headline": "Kiired vestlused, sama sisselogimine.",
+    "body": "Kanalid meeskonnatööks, DM-id üks-ühele jaoks, lõimed vastuste lahushoidmiseks. Otsitav su meili, kalendri ja wiki kõrval — pole eraldi vahekaart, mida jälgida.",
+    "cta": "Liitu ootejärjekorraga",
+    "backLink": "Tagasi toote ülevaatesse",
+    "sections": {
+      "channels": {
+        "eyebrow": "Kanalid, DM-id, lõimed",
+        "headline": "Kujud, mida päris meeskond vajab.",
+        "body": "Kanalid käimasoleva töö jaoks — #engineering, #tugi, #social. DM-id üks-ühele jaoks. Lõimed mõlemas, et üks teemavestlus ei lükkaks üle ülejäänut tuppa.",
+        "bullets": [
+          "Avalikud kanalid meeskonnaülese töö ja teadetestamise jaoks.",
+          "Privaatsed kanalid tundlike projektide jaoks, ainult kutsega.",
+          "Otsesõnumid, üks-ühele või väikestes rühmades.",
+          "Lõimitud vastused, et mitu vestlust saaks toimuda ühes kanalis."
+        ]
+      },
+      "inSuite": {
+        "eyebrow": "Samas komplektis",
+        "headline": "Üks sisselogimine. Üks otsing. Üks auditipäevik.",
+        "body": "Sõnumid jagavad sama identiteeti su meili ja kalendriga. Kliendi nime otsimine toob sõnumid, meilid, kutsed ja wikilehed ühe hoobiga. Sama auditipäevik, mis salvestab meili-tegevusi, salvestab ka sõnumi-tegevusi.",
+        "bullets": [
+          "Sama sisselogimine kui ülejäänud su Verkio kontol — pole Slacki-stiilis eraldi arveldust.",
+          "Universaalne otsing sõnumite, meili, kalendri, kontaktide, failide, wikide vahel.",
+          "Sama auditipäeviku pind vastavuseks ja operaatori ülevaatuseks.",
+          "Pole teist arvelduse rida — sisaldub su komplektis."
+        ]
+      },
+      "noNoise": {
+        "eyebrow": "Vaikne vaikimisi",
+        "headline": "Ehitatud tööks, mitte kaasahaaramiseks.",
+        "body": "Pole „keegi kirjutab\" ärevust. Pole seeriaid. Pole „sind võiks huvitada\" külgriba. Sõnumid on tööriist — see ilmub, kui sa seda vajad, ja jääb tee pealt eemale, kui sa ei vaja.",
+        "bullets": [
+          "Pole kaasahaaramise mõõdikuid — me ei loe, kui tihti sa äppi avad.",
+          "Pole lugemiskinnitusi, mis teesklevad olevat leping.",
+          "Pole staatusepainet — pane end hõivatuks ilma seeria-süütundeta.",
+          "Kanalipõhised teavitused, mida sa tegelikult kontrollid, mitte mööndused vaikimisi kaosele."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Miks Verkio — Verkio",
     "metaDescription": "Miks meeskonnad valivad Verkio: vaikne tarkvara, avatud standardid, EL-i residentsus, ei lukustust."

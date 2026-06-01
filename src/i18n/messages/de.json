@@ -770,6 +770,287 @@
       ]
     }
   },
+  "productCalendar": {
+    "metaTitle": "Kalender — Verkio",
+    "metaDescription": "Geteilte Kalender über offenes CalDAV. Wiederkehrende Termine, iMIP-Einladungen, Frei/Gebucht. Synchronisation mit Apple Calendar, Thunderbird, DAVx⁵ vom ersten Tag an.",
+    "eyebrow": "Kalender",
+    "headline": "Pläne, wo sie hingehören — in eurer Suite.",
+    "body": "Geteilte Kalender, Einladungen und Frei/Gebucht-Abfragen — über offenes CalDAV. Kein proprietäres Plug-in zu installieren. Synchronisiert mit Apple Calendar, Thunderbird, DAVx⁵ oder eurem Telefon, und jeder Termin bleibt im Gleichschritt.",
+    "cta": "Auf die Warteliste",
+    "backLink": "Zurück zur Produktübersicht",
+    "sections": {
+      "shared": {
+        "eyebrow": "Geteilte Kalender",
+        "headline": "Kalender, die so funktionieren, wie das Team wirklich arbeitet.",
+        "body": "Persönliche Kalender für eure eigene Zeit, geteilte Kalender fürs Team und so viele, wie eure Organisation braucht. Monats-, Wochen- und Tagesansicht in der Web-App — wiederkehrende Termine, ganztägige Termine, Zeitzonen-Bewusstsein, die Grundlagen sauber gemacht.",
+        "bullets": [
+          "Mehrere Kalender pro Nutzer — persönlich, Projekt, Rufbereitschaft, was immer ihr braucht.",
+          "Geteilt mit namentlich genannten Teammitgliedern oder der ganzen Organisation, mit Lese- oder Schreibrechten.",
+          "Wiederkehrende Termine mit allen Standardregeln — jeden Dienstag, dritten Freitag im Monat, Ende jedes Quartals.",
+          "Ganztägige Termine und zeitzonenbewusste Termine, beide in allen Clients respektiert.",
+          "Web-App mit Monats-, Wochen- und Tagesansicht — Tastenkürzel inklusive."
+        ]
+      },
+      "open": {
+        "eyebrow": "Offen konzipiert",
+        "headline": "CalDAV unter der Haube. Euer Client der Wahl obendrauf.",
+        "body": "Verkio Calendar spricht CalDAV — dasselbe Protokoll, das Apple Calendar, Thunderbird und DAVx⁵ schon kennen. Kein proprietärer Konnektor zum Herunterladen, kein „Funktioniert am besten in unserer App\"-Trick. Nutzt die Web-App, den Client, den ihr schon habt, oder beides.",
+        "bullets": [
+          "Synchronisation mit Apple Calendar auf macOS und iOS — direkte Einrichtung, keine Erweiterung.",
+          "Synchronisation mit Thunderbird über eingebautes CalDAV — euer bestehender Mail-Client bekommt euren Kalender.",
+          "Synchronisation mit DAVx⁵ auf Android — vollständig bidirektional über ein einziges Konto.",
+          "iCalendar-Import und -Export, damit Kalender sauber hin- und herwandern, wenn ihr umzieht."
+        ]
+      },
+      "invites": {
+        "eyebrow": "Einladungen, die funktionieren",
+        "headline": "iMIP-Einladungen, keine Screenshots.",
+        "body": "Versendet standardkonforme iMIP-Einladungen, und eure Eingeladenen können von jedem Standard-Mail- oder Kalender-Client antworten — Gmail inklusive. Frei/Gebucht-Abfrage im Team, damit der „Hast du um 14 Uhr Zeit?\"-Thread gar nicht erst anfängt.",
+        "bullets": [
+          "iMIP-Einladungen (RFC 6047), die in Gmail, Outlook, Apple Calendar und Thunderbird funktionieren.",
+          "RSVP-Status (zugesagt, vorläufig, abgesagt) in Echtzeit verfolgt und aktualisiert.",
+          "Frei/Gebucht-Abfrage im Team — findet einen Slot, ohne euren Kalender per Bildschirm zu teilen.",
+          "Kalender-Umfragen auf der Roadmap (Q2 2027), wenn Frei/Gebucht nicht reicht."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Offene Standards",
+      "headline": "RFCs von oben bis unten.",
+      "body": "Verkio Calendar ist auf denselben offenen Standards aufgebaut, die eure bestehenden Tools schon sprechen. Bringt euren Client mit. Nehmt euren Kalender mit, wenn ihr geht.",
+      "items": [
+        "CalDAV (RFC 4791)",
+        "iCalendar (RFC 5545)",
+        "iMIP (RFC 6047)",
+        "iTIP (RFC 5546)",
+        "VTIMEZONE",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productContacts": {
+    "metaTitle": "Kontakte — Verkio",
+    "metaDescription": "Persönliche und im Team geteilte Adressbücher über offenes CardDAV. vCard-Sync. Automatisch gefüllt aus Mail und Kalender-Einladungen. Kein proprietäres Kontaktformat.",
+    "eyebrow": "Kontakte",
+    "headline": "Ein Adressbuch, das euch folgt.",
+    "body": "Persönliche und im Team geteilte Adressbücher über offenes CardDAV. vCard-Sync zu jedem Standard-Client. Kontakte füllen sich automatisch aus Mail und Kalender-Einladungen — damit ihr Adressen, die ihr schon kennt, nicht noch einmal abtippt.",
+    "cta": "Auf die Warteliste",
+    "backLink": "Zurück zur Produktübersicht",
+    "sections": {
+      "shared": {
+        "eyebrow": "Persönlich und geteilt",
+        "headline": "Eure Kontakte, die eures Teams, nie verwechselt.",
+        "body": "Persönliche Adressbücher für die Menschen in eurem Leben. Geteilte Adressbücher fürs Team — Vertrieb, Support, Kundenkonten. Zugriff pro Buch, damit die richtigen Leute die richtigen Kontakte sehen und nicht mehr.",
+        "bullets": [
+          "Mehrere Adressbücher pro Nutzer — persönlich, beruflich, projektspezifisch.",
+          "Geteilte Adressbücher mit namentlich genannten Teammitgliedern oder der ganzen Organisation.",
+          "Kontaktgruppen für Verteilung und Massenoperationen.",
+          "vCard-Import und -Export, damit ihr Kontakte sauber hinein- und herausbringt."
+        ]
+      },
+      "open": {
+        "eyebrow": "Offen konzipiert",
+        "headline": "CardDAV. Bringt jeden Client mit.",
+        "body": "Verkio Contacts spricht CardDAV — dasselbe Protokoll, das Apple Contacts, Thunderbird und DAVx⁵ schon kennen. Euer Adressbuch gehört euch: portabel, synchronisierbar, nie in einem proprietären Format gefangen.",
+        "bullets": [
+          "Synchronisation mit Apple Contacts auf macOS und iOS über CardDAV — kein Plug-in.",
+          "Synchronisation mit Thunderbird und DAVx⁵ auf Android.",
+          "vCard 4.0 Import und Export — der Hin- und Rückweg bewahrt Fotos, eigene Felder und Gruppen.",
+          "Kein proprietäres Kontaktformat. Geht mit euren Daten intakt."
+        ]
+      },
+      "integrated": {
+        "eyebrow": "Automatisch gefüllt",
+        "headline": "Kontakte, die auftauchen, bevor ihr sie braucht.",
+        "body": "Schreibt jemand Neuem, und seine Adresse wandert leise in euer Adressbuch. Nehmt eine Kalender-Einladung an, und der Organisator ist auch dort. Eine Identität über Mail, Kalender und Messaging — keine doppelte Erfassung, keine Karteileichen.",
+        "bullets": [
+          "Automatisches Hinzufügen aus gesendeter Mail (pro Konto deaktivierbar).",
+          "Automatisches Hinzufügen aus Kalender-Einladungen — Organisatoren und Teilnehmer.",
+          "Dedup-Heuristiken, damit dieselbe Person nicht dreimal auftaucht.",
+          "Eine Identität über Mail, Kalender und Messaging — eine Karte, überall."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Offene Standards",
+      "headline": "Auf den Standards aufgebaut, die eure Tools schon sprechen.",
+      "body": "Bringt euren Client mit. Nehmt eure Kontakte mit, wenn ihr geht. Kein proprietäres Format, von dem ihr später migrieren müsst.",
+      "items": [
+        "CardDAV (RFC 6352)",
+        "vCard 4.0 (RFC 6350)",
+        "vCard 3.0 (legacy interop)",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productFiles": {
+    "metaTitle": "Dateien — Verkio",
+    "metaDescription": "Dateispeicher mit in der EU verwalteten Schlüsseln, ACLs pro Datei, Freigabe-Links mit Ablauf, fortsetzbare Multi-GB-Uploads, 30-Tage-Papierkorb.",
+    "eyebrow": "Dateien",
+    "headline": "Dateien mit Schlüsseln, die ihr kontrolliert.",
+    "body": "Privater und im Team geteilter Dateispeicher mit Zugriffskontrollen pro Datei, im Ruhezustand verschlüsselt mit in der EU verwalteten Schlüsseln, mit fortsetzbaren Multi-GB-Uploads und einem 30-Tage-Papierkorb. Kein Hauptschlüssel in einem US-Bucket.",
+    "cta": "Auf die Warteliste",
+    "backLink": "Zurück zur Produktübersicht",
+    "sections": {
+      "privateShared": {
+        "eyebrow": "Privat und geteilt",
+        "headline": "Ordner, die so funktionieren, wie euer Team wirklich arbeitet.",
+        "body": "Euer privater Arbeitsbereich für Entwürfe. Geteilte Ordner fürs Team. Organisationsweite Ordner für alle. Granulare ACLs pro Datei oder pro Ordner, damit ihr einen Auftragnehmer auf ein Projekt eingrenzt, ohne den Rest des Laufwerks freizulegen.",
+        "bullets": [
+          "Private Ordner, die nur ihr seht.",
+          "Geteilte Ordner mit namentlich genannten Teammitgliedern oder ganzen Teams.",
+          "Organisationsweite Ordner für das, was alle brauchen.",
+          "ACLs pro Datei — Leser, Bearbeiter, Besitzer.",
+          "Im Audit-Log: jede Freigabe, jede Erteilung, jeder Entzug."
+        ]
+      },
+      "encryption": {
+        "eyebrow": "Im Ruhezustand verschlüsselt",
+        "headline": "Schlüssel pro Datei, in der EU gehalten.",
+        "body": "Jede Datei bekommt ihren eigenen AES-256-GCM-Datenverschlüsselungs-Schlüssel. Diese Schlüssel werden von Vault Transit auf einem in der EU ansässigen Schlüsselserver umhüllt — kein US-KMS, kein Hyperscaler. Wenn eine Platte das Rechenzentrum verlässt, gehen eure Dateien nicht mit.",
+        "bullets": [
+          "AES-256-GCM-Verschlüsselung pro Datei — jede Datei, jeder Tarif, ohne Aufpreis.",
+          "Datenverschlüsselungsschlüssel von Vault Transit auf EU-ansässiger Infrastruktur umhüllt.",
+          "Speicher auf Hetzner EU object storage — kein US-Bucket hält eure Daten.",
+          "Kundengehaltene Schlüsselverschlüsselung ab Juni 2026 — selbst Verkio kann sie nicht lesen."
+        ]
+      },
+      "uploads": {
+        "eyebrow": "Uploads",
+        "headline": "Multi-GB-Uploads, die schlechtes Café-WLAN überleben.",
+        "body": "Fortsetzbare Uploads machen dort weiter, wo ihr aufgehört habt, wenn die Verbindung abbricht. Ein 30-Tage-Papierkorb fängt versehentliche Löschungen ab. Formaterhaltend: was ihr hochladet, kommt als dieselben Bits zurück, wenn ihr es herunterladet.",
+        "bullets": [
+          "Fortsetzbare Uploads — bei 80 % unterbrochen, ab 80 % weiter, nicht ab 0.",
+          "Dateien bis zur Speichergrenze eures Tarifs; keine Größenbegrenzung pro Datei.",
+          "30-Tage-Papierkorb — gelöschte Dateien ohne Support-Ticket wiederherstellen.",
+          "Formaterhaltend — euer PDF, Video oder .docx wandert unverändert hin und her."
+        ]
+      },
+      "sharing": {
+        "eyebrow": "Freigabe-Links",
+        "headline": "Freigabe-Links mit Leitplanken.",
+        "body": "Sendet einen Link an jeden, nicht nur an Verkio-Nutzer. Fügt ein Passwort hinzu, wenn es sensibel ist. Setzt einen Ablauf, damit alte Links euch nicht heimsuchen. Jede Freigabe steht im Audit-Log — wer hat was, wann, mit wem geteilt.",
+        "bullets": [
+          "Öffentliche Freigabe-Links zum Herunterladen ohne Konto.",
+          "Passwortschutz pro Freigabe — teilt den Link, teilt das Passwort separat.",
+          "Ablaufdatum — Links zerstören sich nach einem Datum oder einer Anzahl Aufrufe.",
+          "Im Audit-Log, damit ihr immer wisst, was mit wem geteilt wurde."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Standards",
+      "headline": "Offene Formate, Standard-Kryptographie, EU-Infrastruktur.",
+      "body": "Kein proprietäres Dateiformat. Keine US-Hyperscaler-Schlüsselverwahrung. Eure Dateien bleiben eure und wandern unverändert hin und her.",
+      "items": [
+        "AES-256-GCM",
+        "Vault Transit (KMS)",
+        "TLS 1.3",
+        "Hetzner EU object storage",
+        "Open formats round-trip unchanged"
+      ]
+    }
+  },
+  "productWikis": {
+    "metaTitle": "Wikis — Verkio",
+    "metaDescription": "Versionierte, durchsuchbare Wissensräume fürs Team. Persönliche, im Team geteilte und organisationsweite Bereiche. Auf CommonMark Markdown aufgebaut.",
+    "eyebrow": "Wikis",
+    "headline": "Das Wissen, das euer Team für sich selbst schreibt.",
+    "body": "Strukturierte, versionierte Räume für Runbooks, Entscheidungen, Onboarding und das institutionelle Wissen, das euer Team sonst alle sechs Monate neu erfindet. Durchsuchbar, verlinkbar, in derselben Suite wie Mail und Kalender.",
+    "cta": "Auf die Warteliste",
+    "backLink": "Zurück zur Produktübersicht",
+    "sections": {
+      "versioned": {
+        "eyebrow": "Versioniert",
+        "headline": "Jede Bearbeitung erfasst.",
+        "body": "Wikis sind nicht nur ein Ort zum Schreiben; sie sind ein Ort, an dem ihr nachvollzieht, wie Entscheidungen sich entwickelt haben. Jede Änderung wird erfasst, zugeordnet und ist umkehrbar — nützlich für Compliance, nützlich um herauszufinden, wer das Runbook kaputt gemacht hat.",
+        "bullets": [
+          "Vollständige Bearbeitungs-Historie pro Seite — seht, was wann von wem geändert wurde.",
+          "Diff-Ansicht zwischen zwei beliebigen Revisionen.",
+          "Eine frühere Version mit einem Klick wiederherstellen.",
+          "Keine stillen Überschreibungen — Erkennung paralleler Bearbeitungen schützt die Arbeit."
+        ]
+      },
+      "scopes": {
+        "eyebrow": "Drei Bereiche",
+        "headline": "Persönlich, im Team geteilt, organisationsweit.",
+        "body": "Manche Seiten sind für euch — Entwürfe, Wochennotizen. Manche fürs Team — Runbooks, Projektseiten. Manche für die ganze Organisation — Onboarding, Richtlinien, das WLAN-Passwort der Küche. Drei klare Bereiche, keine Höhlenforschung in Berechtigungen.",
+        "bullets": [
+          "Persönlich — Entwürfe und Notizen, die nur ihr seht.",
+          "Mit mir geteilt — Seiten, die euer Team mit euch geteilt hat.",
+          "Mit der Organisation geteilt — Seiten, die alle in der Organisation lesen können.",
+          "Wechselt mit einem Klick zwischen Bereichen; Berechtigungen passen sich an."
+        ]
+      },
+      "linked": {
+        "eyebrow": "Verbunden",
+        "headline": "Seiten, die sich gegenseitig finden.",
+        "body": "Wikilinks zum Verbinden von Seiten, Volltextsuche zum Finden, Hierarchie zum Durchstöbern. Der Wissensgraph baut sich selbst, während euer Team schreibt.",
+        "bullets": [
+          "Wikilinks — [[Seitentitel]] wird überall in eurem Wiki aufgelöst.",
+          "Volltextsuche über Seiten hinweg, mit Inhalts-Snippets in den Ergebnissen.",
+          "Hierarchie und Brotkrumen — Ordner und Elternseiten zur Navigation.",
+          "Backlink-Panel — seht jede Seite, die auf die aktuelle verweist."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Offene Formate",
+      "headline": "CommonMark Markdown. HTML-Export. Eures zum Mitnehmen.",
+      "body": "Wiki-Seiten werden als Markdown gespeichert — dasselbe Format, in dem ihr in jedem Editor, auf jeder Plattform schreiben würdet. Exportiert das Ganze als HTML oder ladet pro Seite Markdown herunter, wann immer ihr wollt.",
+      "items": [
+        "CommonMark Markdown",
+        "GFM tables and task lists",
+        "HTML export (full wiki)",
+        "Per-page Markdown download",
+        "JSON export (structure + metadata)"
+      ]
+    }
+  },
+  "productMessaging": {
+    "metaTitle": "Messaging — Verkio",
+    "metaDescription": "Kanäle, DMs und Threads für Team-Gespräche. Gleicher Login, gleiche Suche, gleiches Audit-Log wie der Rest eurer Suite.",
+    "eyebrow": "Messaging",
+    "headline": "Schnelle Gespräche, gleicher Login.",
+    "body": "Kanäle für Teamarbeit, DMs für Eins-zu-eins, Threads, damit Antworten nicht durcheinandergeraten. Durchsuchbar neben eurer Mail, eurem Kalender und eurem Wiki — kein zusätzlicher Tab, den ihr im Auge behalten müsst.",
+    "cta": "Auf die Warteliste",
+    "backLink": "Zurück zur Produktübersicht",
+    "sections": {
+      "channels": {
+        "eyebrow": "Kanäle, DMs, Threads",
+        "headline": "Die Formen, die ein echtes Team braucht.",
+        "body": "Kanäle für laufende Arbeit — #engineering, #support, #social. DMs für Eins-zu-eins. Threads in beiden, damit eine Diskussion über eine Sache nicht den Rest des Raums überrollt.",
+        "bullets": [
+          "Öffentliche Kanäle für teamweite Arbeit und Ankündigungen.",
+          "Private Kanäle für sensible Projekte, nur auf Einladung.",
+          "Direktnachrichten, eins zu eins oder in kleinen Gruppen.",
+          "Thread-Antworten, damit mehrere Gespräche in einem Kanal stattfinden können."
+        ]
+      },
+      "inSuite": {
+        "eyebrow": "In derselben Suite",
+        "headline": "Ein Login. Eine Suche. Ein Audit-Log.",
+        "body": "Messaging teilt sich die gleiche Identität wie Mail und Kalender. Die Suche nach einem Kundennamen liefert Nachrichten, E-Mails, Einladungen und Wiki-Seiten in einem Rutsch. Dasselbe Audit-Log, das Mail-Aktionen aufzeichnet, zeichnet auch Messaging-Aktionen auf.",
+        "bullets": [
+          "Gleicher Login wie der Rest eures Verkio-Kontos — keine Slack-artige separate Abrechnung.",
+          "Universelle Suche über Nachrichten, Mail, Kalender, Kontakte, Dateien, Wikis hinweg.",
+          "Dieselbe Audit-Log-Oberfläche für Compliance und Operator-Review.",
+          "Keine zweite Rechnungszeile — in eurer Suite enthalten."
+        ]
+      },
+      "noNoise": {
+        "eyebrow": "Standardmäßig ruhig",
+        "headline": "Für Arbeit gebaut, nicht für Engagement.",
+        "body": "Keine „jemand tippt\"-Angst. Keine Streaks. Keine „Das könnte dich interessieren\"-Seitenleiste. Messaging ist ein Werkzeug — es taucht auf, wenn ihr es braucht, und bleibt aus dem Weg, wenn nicht.",
+        "bullets": [
+          "Keine Engagement-Metriken — wir zählen nicht, wie oft ihr die App öffnet.",
+          "Keine Lesebestätigungen, die so tun, als wären sie ein Vertrag.",
+          "Kein Status-Druck — setzt euch auf beschäftigt ohne Streak-Schuldgefühl.",
+          "Benachrichtigungen pro Kanal, die ihr wirklich kontrolliert, keine Notlösungen für Standard-Chaos."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Warum Verkio — Verkio",
     "metaDescription": "Warum Teams Verkio wählen: ruhige Software, offene Standards, EU-Residenz, keine Bindung."

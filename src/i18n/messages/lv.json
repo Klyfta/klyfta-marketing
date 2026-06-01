@@ -770,6 +770,287 @@
       ]
     }
   },
+  "productCalendar": {
+    "metaTitle": "Kalendārs — Verkio",
+    "metaDescription": "Koplietoti kalendāri virs atklātā CalDAV. Atkārtoti notikumi, iMIP ielūgumi, brīvs/aizņemts. Sinhronizācija ar Apple Calendar, Thunderbird, DAVx⁵ no pirmās dienas.",
+    "eyebrow": "Kalendārs",
+    "headline": "Plāni tur, kur tiem jābūt — tavā komplektā.",
+    "body": "Koplietoti kalendāri, ielūgumi un brīvs/aizņemts meklēšana — virs atklātā CalDAV. Nav jāinstalē neviens patentēts spraudnis. Sinhronizē ar Apple Calendar, Thunderbird, DAVx⁵ vai savu telefonu un saglabā katru notikumu vienā ritmā.",
+    "cta": "Pievienoties gaidīšanas sarakstam",
+    "backLink": "Atpakaļ uz produkta pārskatu",
+    "sections": {
+      "shared": {
+        "eyebrow": "Koplietoti kalendāri",
+        "headline": "Kalendāri, kas atbilst tam, kā komanda patiešām strādā.",
+        "body": "Personīgi kalendāri tavam laikam, koplietoti kalendāri komandai un tik daudz, cik tavai organizācijai nepieciešams. Mēneša, nedēļas un dienas skati tīmekļa lietotnē — atkārtoti notikumi, visas dienas notikumi, laika zonu apziņa, pamati izdarīti pareizi.",
+        "bullets": [
+          "Vairāki kalendāri vienam lietotājam — personīgi, projekta, dežūru rotācija, ko vajag.",
+          "Koplietoti ar nosauktiem komandas locekļiem vai visu organizāciju, ar lasīšanas vai rakstīšanas tiesībām.",
+          "Atkārtoti notikumi ar visiem standarta noteikumiem — katru otrdienu, mēneša trešo piektdienu, katra ceturkšņa beigās.",
+          "Visas dienas notikumi un laika zonu apzinīgi notikumi, abi cienīti visos klientos.",
+          "Tīmekļa lietotne ar mēneša, nedēļas un dienas skatiem — tastatūras saīsnes iekļautas."
+        ]
+      },
+      "open": {
+        "eyebrow": "Atklāts pēc dizaina",
+        "headline": "CalDAV zem motora pārsega. Tava izvēlēta klients virspusē.",
+        "body": "Verkio Calendar runā CalDAV — to pašu protokolu, ko Apple Calendar, Thunderbird un DAVx⁵ jau pārzina. Nav patentēta savienotāja, ko lejupielādēt, nav „darbojas vislabāk mūsu lietotnē\" trika. Izmanto tīmekļa lietotni, klientu, kas tev jau ir, vai abus.",
+        "bullets": [
+          "Sinhronizācija ar Apple Calendar uz macOS un iOS — tieša iestatīšana, bez paplašinājuma.",
+          "Sinhronizācija ar Thunderbird ar iebūvēto CalDAV — tavs esošais pasta klients saņem tavu kalendāru.",
+          "Sinhronizācija ar DAVx⁵ uz Android — pilna divvirzienu pa vienu kontu.",
+          "iCalendar imports un eksports, lai kalendāri pārvietotos tīri turp un atpakaļ, kad pārvāc."
+        ]
+      },
+      "invites": {
+        "eyebrow": "Ielūgumi, kas darbojas",
+        "headline": "iMIP ielūgumi, nevis ekrānuzņēmumi.",
+        "body": "Sūti standartiem atbilstošus iMIP ielūgumus un tavi uzaicinātie var atbildēt no jebkura standarta pasta vai kalendāra klienta — Gmail ieskaitot. Brīvs/aizņemts meklēšana komandā, lai apturētu „vai esi brīvs pulksten 2?\" pavedienu, pirms tas sākas.",
+        "bullets": [
+          "iMIP ielūgumi (RFC 6047), kas darbojas Gmail, Outlook, Apple Calendar un Thunderbird.",
+          "RSVP statusi (pieņemts, provizorisks, noraidīts) izsekoti un atjaunināti reālajā laikā.",
+          "Brīvs/aizņemts meklēšana starp komandas locekļiem — atrodi laiku bez ekrāna kopīgošanas.",
+          "Kalendāra aptaujas ceļvedī (Q2 2027), kad brīvs/aizņemts nepietiek."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Atklātie standarti",
+      "headline": "RFC no augšas līdz apakšai.",
+      "body": "Verkio Calendar ir veidots uz tiem pašiem atklātajiem standartiem, ko tavi esošie rīki jau runā. Atved savu klientu. Paņem savu kalendāru sev līdzi, kad aizej.",
+      "items": [
+        "CalDAV (RFC 4791)",
+        "iCalendar (RFC 5545)",
+        "iMIP (RFC 6047)",
+        "iTIP (RFC 5546)",
+        "VTIMEZONE",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productContacts": {
+    "metaTitle": "Kontakti — Verkio",
+    "metaDescription": "Personīgas un komandai koplietotas adrešu grāmatas virs atklātā CardDAV. vCard sinhronizācija. Automātiski aizpildās no pasta un kalendāra ielūgumiem. Nav patentēta kontakta formāta.",
+    "eyebrow": "Kontakti",
+    "headline": "Adrešu grāmata, kas tev seko.",
+    "body": "Personīgas un komandai koplietotas adrešu grāmatas virs atklātā CardDAV. vCard sinhronizācija ar jebkuru standarta klientu. Kontakti aizpildās automātiski no pasta un kalendāra ielūgumiem — lai tev nevajadzētu pārrakstīt adreses, ko jau zini.",
+    "cta": "Pievienoties gaidīšanas sarakstam",
+    "backLink": "Atpakaļ uz produkta pārskatu",
+    "sections": {
+      "shared": {
+        "eyebrow": "Personīgs un koplietots",
+        "headline": "Tavi kontakti, tavas komandas kontakti, nekad nesamaisītā.",
+        "body": "Personīgas adrešu grāmatas tavas dzīves cilvēkiem. Koplietotas adrešu grāmatas komandai — pārdošana, atbalsts, klientu konti. Pieeja pēc grāmatas, lai pareizie cilvēki redzētu pareizos kontaktus un ne vairāk.",
+        "bullets": [
+          "Vairākas adrešu grāmatas vienam lietotājam — personīga, darba, projektam specifiska.",
+          "Koplietotas adrešu grāmatas ar nosauktiem komandas locekļiem vai visu organizāciju.",
+          "Kontaktu grupas izplatīšanai un masveida darbībām.",
+          "vCard imports un eksports, lai varētu tīri ievest un izvest kontaktus."
+        ]
+      },
+      "open": {
+        "eyebrow": "Atklāts pēc dizaina",
+        "headline": "CardDAV. Atved jebkuru klientu.",
+        "body": "Verkio Contacts runā CardDAV — to pašu protokolu, ko Apple Contacts, Thunderbird un DAVx⁵ jau pārzina. Tava adrešu grāmata ir tava: pārnēsājama, sinhronizējama, nekad nav ieslodzīta patentētā formātā.",
+        "bullets": [
+          "Sinhronizācija ar Apple Contacts uz macOS un iOS virs CardDAV — bez spraudņa.",
+          "Sinhronizācija ar Thunderbird un DAVx⁵ uz Android.",
+          "vCard 4.0 imports un eksports — turp un atpakaļ saglabā fotoattēlus, pielāgotos laukus, grupas.",
+          "Nav patentēta kontakta formāta. Aizej ar saviem datiem neskartiem."
+        ]
+      },
+      "integrated": {
+        "eyebrow": "Automātiski aizpildīti",
+        "headline": "Kontakti, kas parādās, pirms tev tie nepieciešami.",
+        "body": "Sūti pastu kādam jaunam un viņa adrese klusi iekļūst tavā adrešu grāmatā. Pieņem kalendāra ielūgumu un arī organizators ir tur. Viena identitāte pa pastu, kalendāru un ziņapmaiņu — bez dubultas ievades, bez dublikātu kartēm.",
+        "bullets": [
+          "Automātiska pievienošana no nosūtīta pasta (var atspējot pa kontu).",
+          "Automātiska pievienošana no kalendāra ielūgumiem — gan organizatori, gan dalībnieki.",
+          "Dedup heuristika, lai viena un tā pati persona neparādītos trīs reizes.",
+          "Viena identitāte pa pastu, kalendāru un ziņapmaiņu — viena karte, visur."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Atklātie standarti",
+      "headline": "Veidots uz standartiem, ko tavi rīki jau runā.",
+      "body": "Atved savu klientu. Paņem savus kontaktus sev līdzi, kad aizej. Nav patentēta formāta, no kura tev vēlāk būs jāmigrē.",
+      "items": [
+        "CardDAV (RFC 6352)",
+        "vCard 4.0 (RFC 6350)",
+        "vCard 3.0 (legacy interop)",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productFiles": {
+    "metaTitle": "Faili — Verkio",
+    "metaDescription": "Failu glabāšana ar ES pārvaldītām atslēgām, ACL pa failu, koplietošanas saites ar derīguma termiņu, atsākamas vairāku GB augšupielādes, 30 dienu atkritumu tvertne.",
+    "eyebrow": "Faili",
+    "headline": "Faili ar atslēgām, ko tu kontrolē.",
+    "body": "Privāta un komandai koplietota failu glabāšana ar piekļuves kontroli pa failu, šifrēta miera stāvoklī ar ES pārvaldītām atslēgām, ar atsākamām vairāku GB augšupielādēm un 30 dienu atkritumu tvertni. Nav galvenās atslēgas ASV spainī.",
+    "cta": "Pievienoties gaidīšanas sarakstam",
+    "backLink": "Atpakaļ uz produkta pārskatu",
+    "sections": {
+      "privateShared": {
+        "eyebrow": "Privāts un koplietots",
+        "headline": "Mapes, kas atbilst tam, kā tava komanda patiešām strādā.",
+        "body": "Tava privātā darba telpa melnrakstiem. Koplietotas mapes komandai. Visas organizācijas mapes visiem. Smalkas ACL pa failu vai pa mapi, lai varētu ierobežot ārējo darbinieku uz vienu projektu, neatklājot pārējo disku.",
+        "bullets": [
+          "Privātas mapes, ko tikai tu vari redzēt.",
+          "Koplietotas mapes ar nosauktiem komandas locekļiem vai veselām komandām.",
+          "Visas organizācijas mapes tam, kas vajadzīgs visiem.",
+          "ACL pa failu — lasītāji, redaktori, īpašnieki.",
+          "Audita žurnālā: katra koplietošana, katra piešķiršana, katra atsaukšana."
+        ]
+      },
+      "encryption": {
+        "eyebrow": "Šifrēts miera stāvoklī",
+        "headline": "Atslēgas pa failu glabājas ES.",
+        "body": "Katrs fails saņem savu AES-256-GCM datu šifrēšanas atslēgu. Šīs atslēgas ietin Vault Transit uz ES rezidējoša atslēgu servera — ne ASV KMS, ne hyperscaler. Ja disks aiziet no datu centra, tavi faili neaiziet kopā.",
+        "bullets": [
+          "AES-256-GCM šifrēšana pa failu — katrs fails, katrs plāns, bez papildmaksas.",
+          "Datu šifrēšanas atslēgas, ko ietin Vault Transit uz ES rezidējošas infrastruktūras.",
+          "Glabāšana uz Hetzner EU object storage — neviens ASV spainis netur tavus datus.",
+          "Klienta turētās atslēgas šifrēšana pieejama 2026. gada jūnijā — pat Verkio nevar to izlasīt."
+        ]
+      },
+      "uploads": {
+        "eyebrow": "Augšupielādes",
+        "headline": "Vairāku GB augšupielādes, kas izdzīvo sliktu kafejnīcas Wi-Fi.",
+        "body": "Atsākamas augšupielādes turpina no vietas, kur tu apstājies, kad savienojums pārtrūkst. 30 dienu atkritumu tvertne notver nejaušas dzēšanas. Saglabā formātu: tas, ko augšupielādē, atgriežas kā tie paši biti, kad lejupielādē.",
+        "bullets": [
+          "Atsākamas augšupielādes — pārtraukts pie 80%, atsāk no 80%, nevis no 0.",
+          "Faili līdz tava plāna glabāšanas limitam; bez izmēra limita pa failu.",
+          "30 dienu atkritumu tvertne — atjauno dzēstos failus bez atbalsta pieprasījuma.",
+          "Saglabā formātu — tavs PDF, video vai .docx aiziet un atgriežas nemainīts."
+        ]
+      },
+      "sharing": {
+        "eyebrow": "Koplietošanas saites",
+        "headline": "Koplietošanas saites ar drošības barjerām.",
+        "body": "Sūti saiti jebkuram, ne tikai Verkio lietotājiem. Pievieno paroli, ja tas ir sensitīvs. Iestati derīguma termiņu, lai vecās saites tev nevajātu. Katra koplietošana ir audita žurnālā — kas, ko, kad un ar ko koplietoja.",
+        "bullets": [
+          "Publiskas koplietošanas saites lejupielādei bez konta.",
+          "Paroles aizsardzība pa koplietošanu — koplieto saiti, koplieto paroli atsevišķi.",
+          "Derīguma datums — saites pašiznīcinās pēc datuma vai skatījumu skaita.",
+          "Audita žurnālā, lai vienmēr zinātu, kas ir koplietots ar ko."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Standarti",
+      "headline": "Atklāti formāti, standarta kriptogrāfija, ES infrastruktūra.",
+      "body": "Nav patentēta failu formāta. Nav ASV hyperscaler atslēgu glabāšanas. Tavi faili paliek tavi un aiziet un atgriežas nemainīti.",
+      "items": [
+        "AES-256-GCM",
+        "Vault Transit (KMS)",
+        "TLS 1.3",
+        "Hetzner EU object storage",
+        "Open formats round-trip unchanged"
+      ]
+    }
+  },
+  "productWikis": {
+    "metaTitle": "Wiki — Verkio",
+    "metaDescription": "Versijotas, meklējamas komandas zināšanu telpas. Personīgi, komandai koplietoti un visas organizācijas tvērumi. Veidots uz CommonMark Markdown.",
+    "eyebrow": "Wiki",
+    "headline": "Zināšanas, ko tava komanda raksta sev pati.",
+    "body": "Strukturētas, versijotas telpas runbookiem, lēmumiem, ievadkursam un institucionālajām zināšanām, ko tava komanda citādi pārizgudrotu ik pa sešiem mēnešiem. Meklējams, saistāms, tajā pašā komplektā kā tavs pasts un kalendārs.",
+    "cta": "Pievienoties gaidīšanas sarakstam",
+    "backLink": "Atpakaļ uz produkta pārskatu",
+    "sections": {
+      "versioned": {
+        "eyebrow": "Versijots",
+        "headline": "Katra rediģēšana fiksēta.",
+        "body": "Wiki nav tikai vieta, kur rakstīt; tās ir vieta, kur izsekot, kā lēmumi attīstījās. Katrs mainījums tiek notverts, piedēvēts un ir atgriezenisks — noderīgi atbilstībai un noderīgi, lai izdomātu, kas sabojāja runbook.",
+        "bullets": [
+          "Pilna rediģēšanas vēsture pa lapai — redzi, kas mainījās, kad, kā autors.",
+          "Atšķirību skats starp jebkurām divām versijām.",
+          "Atjauno agrāku versiju ar vienu klikšķi.",
+          "Nav klusu pārrakstījumu — vienlaicīgas rediģēšanas atklāšana saglabā darbu drošā stāvoklī."
+        ]
+      },
+      "scopes": {
+        "eyebrow": "Trīs tvērumi",
+        "headline": "Personīgs, komandai koplietots, visas organizācijas.",
+        "body": "Dažas lapas ir tev — melnraksti, nedēļas piezīmes. Dažas tavai komandai — runbooki, projekta lapas. Dažas visai organizācijai — ievadkurss, politikas, virtuves Wi-Fi parole. Trīs skaidri tvērumi, bez atļauju alu pētniecības.",
+        "bullets": [
+          "Personīgs — melnraksti un piezīmes, ko redz tikai tu.",
+          "Koplietots ar mani — lapas, ko tava komanda ir koplietojusi ar tevi.",
+          "Koplietots ar organizāciju — lapas, ko visi organizācijā var lasīt.",
+          "Pārvietojies starp tvērumiem ar vienu klikšķi; atļaujas attiecīgi atjaunojas."
+        ]
+      },
+      "linked": {
+        "eyebrow": "Saistītas",
+        "headline": "Lapas, kas atrod viena otru.",
+        "body": "Wikilinks lapu savienošanai, pilna teksta meklēšana to atrašanai un hierarhija to pārlūkošanai. Zināšanu grafs sevi būvē pats, kamēr tava komanda raksta.",
+        "bullets": [
+          "Wikilinks — [[Lapas nosaukums]] atrisinās jebkur tavā wiki.",
+          "Pilna teksta meklēšana pa lapām, ar satura fragmentiem rezultātos.",
+          "Hierarhija un drupatu pēdas — mapes un vecāklapas navigācijai.",
+          "Atpakaļsaišu panelis — redzi katru lapu, kas saista uz to, kurā esi."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Atklātie formāti",
+      "headline": "CommonMark Markdown. HTML eksports. Tavējais paņemt līdzi.",
+      "body": "Wiki lapas tiek glabātas kā Markdown — tas pats formāts, kurā tu rakstītu jebkurā redaktorā, jebkurā platformā. Eksportē visu kā HTML vai lejupielādē Markdown pa lapām, kad vien vēlies.",
+      "items": [
+        "CommonMark Markdown",
+        "GFM tables and task lists",
+        "HTML export (full wiki)",
+        "Per-page Markdown download",
+        "JSON export (structure + metadata)"
+      ]
+    }
+  },
+  "productMessaging": {
+    "metaTitle": "Ziņapmaiņa — Verkio",
+    "metaDescription": "Kanāli, DM un pavedieni komandas sarunām. Tas pats pieteikšanās, tā pati meklēšana, tas pats audita žurnāls kā pārējam tava komplekta.",
+    "eyebrow": "Ziņapmaiņa",
+    "headline": "Ātras sarunas, tā pati pieteikšanās.",
+    "body": "Kanāli komandas darbam, DM viens-pret-vienu, pavedieni atbildību atdalīšanai. Meklējams blakus tavam pastam, kalendāram un wiki — nav atsevišķa cilne, kas jāseko.",
+    "cta": "Pievienoties gaidīšanas sarakstam",
+    "backLink": "Atpakaļ uz produkta pārskatu",
+    "sections": {
+      "channels": {
+        "eyebrow": "Kanāli, DM, pavedieni",
+        "headline": "Formas, kas vajadzīgas reālai komandai.",
+        "body": "Kanāli pastāvīgam darbam — #engineering, #atbalsts, #social. DM viens-pret-vienu. Pavedieni abos, lai diskusija par vienu lietu nepārsteigtu pārējo telpu.",
+        "bullets": [
+          "Publiski kanāli visas komandas darbam un paziņojumiem.",
+          "Privāti kanāli sensitīviem projektiem, tikai ar ielūgumu.",
+          "Tiešie ziņojumi, viens-pret-vienu vai mazās grupās.",
+          "Pavedienu atbildes, lai vairākas sarunas varētu notikt vienā kanālā."
+        ]
+      },
+      "inSuite": {
+        "eyebrow": "Tajā pašā komplektā",
+        "headline": "Viena pieteikšanās. Viena meklēšana. Viens audita žurnāls.",
+        "body": "Ziņapmaiņa dalās ar to pašu identitāti kā tavs pasts un kalendārs. Klienta vārda meklēšana iznes ziņas, e-pastus, ielūgumus un wiki lapas vienā piegājienā. Tas pats audita žurnāls, kas reģistrē pasta darbības, reģistrē arī ziņapmaiņas darbības.",
+        "bullets": [
+          "Tā pati pieteikšanās kā pārējam tava Verkio konta — bez Slack-tipa atsevišķas rēķinu izrakstīšanas.",
+          "Universāla meklēšana pa ziņām, pastu, kalendāru, kontaktiem, failiem, wiki.",
+          "Tā pati audita žurnāla virsma atbilstībai un operatora pārskatīšanai.",
+          "Bez otras rēķina rindas — iekļauts tavā komplektā."
+        ]
+      },
+      "noNoise": {
+        "eyebrow": "Klusa pēc noklusējuma",
+        "headline": "Veidots darbam, ne iesaistei.",
+        "body": "Nav „kāds raksta\" trauksmes. Nav sēriju. Nav „tev varētu būt interesanti\" sānu joslas. Ziņapmaiņa ir rīks — tā parādās, kad tev tas vajadzīgs, un paliek ārpus ceļa, kad nevajag.",
+        "bullets": [
+          "Bez iesaistes metrikām — mēs neskaitām, cik bieži tu pārbaudi lietotni.",
+          "Bez lasīšanas apstiprinājumiem, kas izliekas par līgumu.",
+          "Bez statusa spiediena — uzstādi sevi kā aizņemtu bez sērijas vainas apziņas.",
+          "Paziņojumi pa kanālu, ko tu patiešām kontrolē, ne risinājumi noklusējuma haosam."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Kāpēc Verkio — Verkio",
     "metaDescription": "Kāpēc komandas izvēlas Verkio: kluss programmatūra, atklātie standarti, ES rezidence, nekādas ieslodzīšanas."

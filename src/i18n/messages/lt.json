@@ -770,6 +770,287 @@
       ]
     }
   },
+  "productCalendar": {
+    "metaTitle": "Kalendorius — Verkio",
+    "metaDescription": "Bendri kalendoriai virš atviro CalDAV. Pasikartojantys įvykiai, iMIP kvietimai, free/busy. Sinchronizacija su Apple Calendar, Thunderbird, DAVx⁵ nuo pirmos dienos.",
+    "eyebrow": "Kalendorius",
+    "headline": "Planai ten, kur jiems vieta — tavo rinkinyje.",
+    "body": "Bendri kalendoriai, kvietimai ir free/busy paieška — virš atviro CalDAV. Jokio nuosavybinio papildinio diegti. Sinchronizuok su Apple Calendar, Thunderbird, DAVx⁵ ar telefonu, ir kiekvienas įvykis lieka vienodame žingsnyje.",
+    "cta": "Užsiregistruoti",
+    "backLink": "Atgal į produkto apžvalgą",
+    "sections": {
+      "shared": {
+        "eyebrow": "Bendri kalendoriai",
+        "headline": "Kalendoriai, atitinkantys tai, kaip komanda iš tikrųjų dirba.",
+        "body": "Asmeniniai kalendoriai tavo paties laikui, bendri kalendoriai komandai, ir tiek, kiek tavo organizacijai reikia. Mėnesio, savaitės ir dienos rodiniai žiniatinklio programėlėje — pasikartojantys įvykiai, visos dienos įvykiai, laiko juostų supratimas, pagrindai padaryti tinkamai.",
+        "bullets": [
+          "Keli kalendoriai vienam naudotojui — asmeninis, projektinis, budėjimo, ko tik reikia.",
+          "Dalijami su įvardytais komandos nariais ar visa organizacija, su skaitymo ar rašymo teisėmis.",
+          "Pasikartojantys įvykiai su visomis standartinėmis taisyklėmis — kiekvieną antradienį, trečią mėnesio penktadienį, kiekvieno ketvirčio pabaigoje.",
+          "Visos dienos įvykiai ir laiko juostas atpažįstantys įvykiai, abu gerbiami visuose klientuose.",
+          "Žiniatinklio programėlė su mėnesio, savaitės ir dienos rodiniais — klaviatūros nuorodos įskaičiuotos."
+        ]
+      },
+      "open": {
+        "eyebrow": "Atvira savo prigimtimi",
+        "headline": "CalDAV po gaubtu. Tavo pasirinktas klientas ant viršaus.",
+        "body": "Verkio Calendar kalba CalDAV — tas pats protokolas, kurį Apple Calendar, Thunderbird ir DAVx⁵ jau moka. Jokio nuosavybinio jungiklio atsisiųsti, jokio triuko 'geriausiai veikia mūsų programėlėje'. Naudok žiniatinklio programėlę, klientą, kurį jau turi, ar abu.",
+        "bullets": [
+          "Sinchronizacija su Apple Calendar macOS ir iOS — tiesioginis nustatymas, jokio plėtinio.",
+          "Sinchronizacija su Thunderbird per įmontuotą CalDAV — tavo esamas pašto klientas gauna tavo kalendorių.",
+          "Sinchronizacija su DAVx⁵ Android — pilnai dvipusė per vieną paskyrą.",
+          "iCalendar importas ir eksportas, kad kalendoriai švariai keliautų pirmyn ir atgal, kai persikeli."
+        ]
+      },
+      "invites": {
+        "eyebrow": "Kvietimai, kurie veikia",
+        "headline": "iMIP kvietimai, ne ekrano nuotraukos.",
+        "body": "Siųsk standartus atitinkančius iMIP kvietimus, ir tavo pakviestieji galės atsakyti iš bet kurio standartinio pašto ar kalendoriaus kliento — Gmail įskaičiuotas. Free/busy paieška komandoje, kad gija 'ar laisvas antrą valandą?' net neprasidėtų.",
+        "bullets": [
+          "iMIP kvietimai (RFC 6047), veikiantys Gmail, Outlook, Apple Calendar ir Thunderbird.",
+          "RSVP statusai (priimta, preliminarus, atmesta) sekami ir atnaujinami realiu laiku.",
+          "Free/busy paieška tarp kolegų — rask laiką nedalindamasis kalendoriaus ekrano vaizdu.",
+          "Kalendoriaus apklausos kelio plane (Q2 2027), kai free/busy neužtenka."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Atviri standartai",
+      "headline": "RFC iš viršaus į apačią.",
+      "body": "Verkio Calendar sukurtas ant tų pačių atvirų standartų, kuriuos tavo esami įrankiai jau kalba. Atsinešk savo klientą. Pasiimk kalendorių su savimi, kai išeini.",
+      "items": [
+        "CalDAV (RFC 4791)",
+        "iCalendar (RFC 5545)",
+        "iMIP (RFC 6047)",
+        "iTIP (RFC 5546)",
+        "VTIMEZONE",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productContacts": {
+    "metaTitle": "Kontaktai — Verkio",
+    "metaDescription": "Asmeninės ir komandai bendros adresų knygos virš atviro CardDAV. vCard sinchronizacija. Automatiškai užpildoma iš pašto ir kalendoriaus kvietimų. Jokio nuosavybinio kontaktų formato.",
+    "eyebrow": "Kontaktai",
+    "headline": "Adresų knyga, kuri tave seka.",
+    "body": "Asmeninės ir komandai bendros adresų knygos virš atviro CardDAV. vCard sinchronizacija su bet kuriuo standartiniu klientu. Kontaktai automatiškai užsipildo iš pašto ir kalendoriaus kvietimų — kad neperrašytum adresų, kuriuos jau žinai.",
+    "cta": "Užsiregistruoti",
+    "backLink": "Atgal į produkto apžvalgą",
+    "sections": {
+      "shared": {
+        "eyebrow": "Asmeniniai ir bendri",
+        "headline": "Tavo kontaktai, komandos kontaktai, niekada nesupainiojami.",
+        "body": "Asmeninės adresų knygos tavo gyvenimo žmonėms. Bendros adresų knygos komandai — pardavimai, palaikymas, klientų paskyros. Prieiga vienai knygai, kad reikiami žmonės matytų reikiamus kontaktus ir nieko daugiau.",
+        "bullets": [
+          "Kelios adresų knygos vienam naudotojui — asmeninė, darbinė, projektinė.",
+          "Bendros adresų knygos su įvardytais komandos nariais ar visa organizacija.",
+          "Kontaktų grupės platinimui ir masinėms operacijoms.",
+          "vCard importas ir eksportas, kad kontaktai švariai įeitų ir išeitų."
+        ]
+      },
+      "open": {
+        "eyebrow": "Atvira savo prigimtimi",
+        "headline": "CardDAV. Atsinešk bet kurį klientą.",
+        "body": "Verkio Contacts kalba CardDAV — tas pats protokolas, kurį Apple Contacts, Thunderbird ir DAVx⁵ jau moka. Tavo adresų knyga yra tavo: nešiojama, sinchronizuojama, niekada įkalinta nuosavybiniame formate.",
+        "bullets": [
+          "Sinchronizacija su Apple Contacts macOS ir iOS per CardDAV — jokio papildinio.",
+          "Sinchronizacija su Thunderbird ir DAVx⁵ Android.",
+          "vCard 4.0 importas ir eksportas — kelionė pirmyn ir atgal išsaugo nuotraukas, pasirinktinius laukus, grupes.",
+          "Jokio nuosavybinio kontaktų formato. Išeik su savo duomenimis nepaliestais."
+        ]
+      },
+      "integrated": {
+        "eyebrow": "Automatiškai užpildoma",
+        "headline": "Kontaktai, kurie pasirodo prieš tau jų prireikiant.",
+        "body": "Parašyk laišką kažkam naujam, ir jo adresas tyliai įeis į tavo adresų knygą. Priimk kalendoriaus kvietimą, ir organizatorius taip pat ten. Viena tapatybė tarp pašto, kalendoriaus ir messaging — jokio dvigubo įvedimo, jokių dubliuotų kortelių.",
+        "bullets": [
+          "Automatinis pridėjimas iš siųsto pašto (galima išjungti pagal paskyrą).",
+          "Automatinis pridėjimas iš kalendoriaus kvietimų — organizatoriai ir dalyviai.",
+          "Deduplikacijos heuristika, kad tas pats žmogus nepasirodytų triskart.",
+          "Viena tapatybė tarp pašto, kalendoriaus ir messaging — viena kortelė, visur."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Atviri standartai",
+      "headline": "Sukurta ant standartų, kuriuos tavo įrankiai jau kalba.",
+      "body": "Atsinešk savo klientą. Pasiimk kontaktus su savimi, kai išeini. Jokio nuosavybinio formato, nuo kurio vėliau reikės migruoti.",
+      "items": [
+        "CardDAV (RFC 6352)",
+        "vCard 4.0 (RFC 6350)",
+        "vCard 3.0 (legacy interop)",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productFiles": {
+    "metaTitle": "Failai — Verkio",
+    "metaDescription": "Failų saugykla su ES valdomais raktais, ACL kiekvienam failui, dalijimosi nuorodos su galiojimo pabaiga, atnaujinami daugiagigabaičiai įkėlimai, 30 dienų Šiukšliadėžė.",
+    "eyebrow": "Failai",
+    "headline": "Failai su raktais, kuriuos valdai tu.",
+    "body": "Privati ir komandai bendra failų saugykla su prieigos kontrole kiekvienam failui, šifruota ramybėje su ES valdomais raktais, su atnaujinamais daugiagigabaičiais įkėlimais ir 30 dienų Šiukšliadėže. Jokio pagrindinio rakto JAV kibire.",
+    "cta": "Užsiregistruoti",
+    "backLink": "Atgal į produkto apžvalgą",
+    "sections": {
+      "privateShared": {
+        "eyebrow": "Privatūs ir bendri",
+        "headline": "Aplankai, atitinkantys tai, kaip tavo komanda iš tikrųjų dirba.",
+        "body": "Tavo privati darbo erdvė juodraščiams. Bendri aplankai komandai. Visos organizacijos aplankai visiems. Granuliarūs ACL kiekvienam failui ar aplankui, kad galėtum apriboti rangovą iki vieno projekto, neatskleisdamas likusios disko dalies.",
+        "bullets": [
+          "Privatūs aplankai, kuriuos matai tik tu.",
+          "Bendri aplankai su įvardytais komandos nariais ar visomis komandomis.",
+          "Visos organizacijos aplankai tam, ko reikia visiems.",
+          "ACL kiekvienam failui — skaitytojai, redaktoriai, savininkai.",
+          "Audito žurnale: kiekvienas dalijimasis, kiekvienas suteikimas, kiekvienas atšaukimas."
+        ]
+      },
+      "encryption": {
+        "eyebrow": "Šifruota ramybėje",
+        "headline": "Raktai kiekvienam failui, laikomi ES.",
+        "body": "Kiekvienas failas gauna savo paties AES-256-GCM duomenų šifravimo raktą. Šie raktai apgaubti Vault Transit ES esančiame raktų serveryje — ne JAV KMS, ne hyperscaleryje. Jei diskas išeis iš duomenų centro, tavo failai su juo nekeliaus.",
+        "bullets": [
+          "AES-256-GCM šifravimas kiekvienam failui — kiekvienas failas, kiekvienas planas, be priemokos.",
+          "Duomenų šifravimo raktai apgaubti Vault Transit ES esančioje infrastruktūroje.",
+          "Saugykla Hetzner EU object storage — jokio JAV kibiro, laikančio tavo duomenis.",
+          "Kliento laikomu raktu šifravimas nuo 2026 m. birželio — net Verkio negali to perskaityti."
+        ]
+      },
+      "uploads": {
+        "eyebrow": "Įkėlimai",
+        "headline": "Daugiagigabaičiai įkėlimai, atlaikantys blogą kavinės Wi-Fi.",
+        "body": "Atnaujinami įkėlimai pratęsia ten, kur sustojai, kai ryšys nutrūksta. 30 dienų Šiukšliadėžė pagauna atsitiktinius ištrynimus. Formatą išsaugantis: ką įkelei, grįžta tais pačiais bitais, kai atsisiunti.",
+        "bullets": [
+          "Atnaujinami įkėlimai — nutrūko ties 80 %, pratęsk nuo 80 %, ne nuo 0.",
+          "Failai iki tavo plano saugyklos ribos; jokio dydžio apribojimo kiekvienam failui.",
+          "30 dienų Šiukšliadėžė — atkurk ištrintus failus be palaikymo bilieto.",
+          "Formatą išsaugantis — tavo PDF, vaizdo įrašas ar .docx grįžta nepakitęs."
+        ]
+      },
+      "sharing": {
+        "eyebrow": "Dalijimosi nuorodos",
+        "headline": "Dalijimosi nuorodos su apsauginiais barjerais.",
+        "body": "Siųsk nuorodą bet kam, ne tik Verkio naudotojams. Pridėk slaptažodį, jei jautru. Nustatyk galiojimo pabaigą, kad senos nuorodos tavęs nekamuotų. Kiekvienas dalijimasis audito žurnale — kas ką kada su kuo dalijosi.",
+        "bullets": [
+          "Viešos dalijimosi nuorodos atsisiuntimui be paskyros.",
+          "Slaptažodžio apsauga vienai nuorodai — dalinkis nuoroda, dalinkis slaptažodžiu atskirai.",
+          "Galiojimo data — nuorodos susinaikina po datos ar peržiūrų skaičiaus.",
+          "Audito žurnale, kad visada žinotum, kas su kuo buvo pasidalinta."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Standartai",
+      "headline": "Atviri formatai, standartinė kriptografija, ES infrastruktūra.",
+      "body": "Jokio nuosavybinio failų formato. Jokios JAV hyperscalerių rakto saugojimo. Tavo failai lieka tavo ir keliauja pirmyn ir atgal nepakitę.",
+      "items": [
+        "AES-256-GCM",
+        "Vault Transit (KMS)",
+        "TLS 1.3",
+        "Hetzner EU object storage",
+        "Open formats round-trip unchanged"
+      ]
+    }
+  },
+  "productWikis": {
+    "metaTitle": "Wikis — Verkio",
+    "metaDescription": "Versijuotos, ieškomos komandos žinių erdvės. Asmeninės, komandai bendros ir visos organizacijos apimtys. Sukurta ant CommonMark Markdown.",
+    "eyebrow": "Wikis",
+    "headline": "Žinios, kurias tavo komanda rašo sau pati.",
+    "body": "Struktūruotos, versijuotos erdvės runbookams, sprendimams, onboardingui ir institucinėms žinioms, kurias tavo komanda kitaip kurtų iš naujo kas šeši mėnesiai. Ieškomos, susiejamos, tame pačiame rinkinyje kaip tavo paštas ir kalendorius.",
+    "cta": "Užsiregistruoti",
+    "backLink": "Atgal į produkto apžvalgą",
+    "sections": {
+      "versioned": {
+        "eyebrow": "Versijuotos",
+        "headline": "Kiekviena redagavimas užfiksuotas.",
+        "body": "Wikis nėra tik vieta rašyti; tai vieta, kur seki, kaip sprendimai vystėsi. Kiekvienas pakeitimas užfiksuotas, priskirtas ir grąžinamas — naudinga compliance, naudinga išsiaiškinti, kas sulaužė runbook.",
+        "bullets": [
+          "Pilna redagavimo istorija vienam puslapiui — matyk, kas pasikeitė, kada, kieno.",
+          "Diff rodinys tarp bet kurių dviejų revizijų.",
+          "Atkurk ankstesnę versiją vienu paspaudimu.",
+          "Jokio tylaus perrašymo — vienalaikių redagavimų aptikimas saugo darbą."
+        ]
+      },
+      "scopes": {
+        "eyebrow": "Trys apimtys",
+        "headline": "Asmeninė, komandai bendra, visos organizacijos.",
+        "body": "Vieni puslapiai skirti tau — juodraščiai, savaitiniai užrašai. Kai kurie tavo komandai — runbookai, projektų puslapiai. Kai kurie visai organizacijai — onboardingas, politika, virtuvės Wi-Fi slaptažodis. Trys aiškios apimtys, jokio leidimų kasinėjimo.",
+        "bullets": [
+          "Asmeninė — juodraščiai ir užrašai, kuriuos matai tik tu.",
+          "Pasidalinta su manimi — puslapiai, kuriais tavo komanda pasidalino su tavimi.",
+          "Pasidalinta su organizacija — puslapiai, kuriuos gali skaityti visi organizacijoje.",
+          "Perkelk tarp apimčių vienu paspaudimu; leidimai atitinkamai atsinaujina."
+        ]
+      },
+      "linked": {
+        "eyebrow": "Susiję",
+        "headline": "Puslapiai, kurie randa vienas kitą.",
+        "body": "Wikilinks puslapiams sujungti, viso teksto paieška jiems rasti ir hierarchija jiems naršyti. Žinių grafikas statosi pats, kol tavo komanda rašo.",
+        "bullets": [
+          "Wikilinks — [[Puslapio pavadinimas]] išsisprendžia bet kur tavo wiki.",
+          "Viso teksto paieška tarp puslapių, su turinio fragmentais rezultatuose.",
+          "Hierarchija ir navigacijos kelias — aplankai ir tėviniai puslapiai naršymui.",
+          "Atvirkštinių nuorodų skydelis — matyk kiekvieną puslapį, kuris siejasi su tuo, kuriame esi."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Atviri formatai",
+      "headline": "CommonMark Markdown. HTML eksportas. Tavo pasiimti.",
+      "body": "Wiki puslapiai saugomi kaip Markdown — tas pats formatas, kuriame rašytum bet kuriame redaktoriuje, bet kurioje platformoje. Eksportuok visą dalyką kaip HTML arba atsisiųsk Markdown vienam puslapiui kada nori.",
+      "items": [
+        "CommonMark Markdown",
+        "GFM tables and task lists",
+        "HTML export (full wiki)",
+        "Per-page Markdown download",
+        "JSON export (structure + metadata)"
+      ]
+    }
+  },
+  "productMessaging": {
+    "metaTitle": "Messaging — Verkio",
+    "metaDescription": "Kanalai, DMs ir gijos komandos pokalbiams. Tas pats prisijungimas, ta pati paieška, tas pats audito žurnalas kaip likusiame rinkinyje.",
+    "eyebrow": "Messaging",
+    "headline": "Greiti pokalbiai, tas pats prisijungimas.",
+    "body": "Kanalai komandos darbui, DMs vienas su vienu, gijos, kad atsakymai nesusipainiotų. Ieškomi šalia tavo pašto, kalendoriaus ir wiki — joks atskiras skirtukas, kurį reikėtų sekti.",
+    "cta": "Užsiregistruoti",
+    "backLink": "Atgal į produkto apžvalgą",
+    "sections": {
+      "channels": {
+        "eyebrow": "Kanalai, DMs, gijos",
+        "headline": "Formos, kurių tikrai komandai reikia.",
+        "body": "Kanalai vykstančiam darbui — #engineering, #support, #social. DMs vienas su vienu. Gijos abiejuose, kad diskusija apie vieną dalyką neuždengtų likusios erdvės.",
+        "bullets": [
+          "Vieši kanalai visos komandos darbui ir skelbimams.",
+          "Privatūs kanalai jautriems projektams, tik pagal kvietimą.",
+          "Tiesioginės žinutės, vienas su vienu ar mažose grupėse.",
+          "Gijiniai atsakymai, kad keli pokalbiai galėtų vykti viename kanale."
+        ]
+      },
+      "inSuite": {
+        "eyebrow": "Tame pačiame rinkinyje",
+        "headline": "Vienas prisijungimas. Viena paieška. Vienas audito žurnalas.",
+        "body": "Messaging dalijasi ta pačia tapatybe kaip tavo paštas ir kalendorius. Kliento vardo paieška ištraukia žinutes, el. laiškus, kvietimus ir wiki puslapius vienu kartu. Tas pats audito žurnalas, kuris fiksuoja pašto veiksmus, fiksuoja ir messaging veiksmus.",
+        "bullets": [
+          "Tas pats prisijungimas kaip likusios tavo Verkio paskyros — jokio atskiro Slack mokesčio.",
+          "Universali paieška tarp žinučių, pašto, kalendoriaus, kontaktų, failų, wikis.",
+          "Tas pats audito žurnalo paviršius compliance ir operatoriaus peržiūrai.",
+          "Jokios antros sąskaitos eilutės — įtraukta į tavo rinkinį."
+        ]
+      },
+      "noNoise": {
+        "eyebrow": "Tylu pagal numatymą",
+        "headline": "Sukurta darbui, ne įsitraukimui.",
+        "body": "Jokio 'kažkas rašo' nerimo. Jokių streakų. Jokio šoninio skydelio 'tave gali sudominti'. Messaging yra įrankis — pasirodo, kai jo reikia, ir lieka iš kelio, kai nereikia.",
+        "bullets": [
+          "Jokių įsitraukimo metrikų — neskaičiuojame, kiek dažnai tikrini programėlę.",
+          "Jokių perskaitymo patvirtinimų, apsimetančių sutartimi.",
+          "Jokio statuso spaudimo — pasižymėk kaip užimtą be streako kaltės.",
+          "Pranešimai pagal kanalą, kuriuos iš tikrųjų valdai, ne apeitis numatytajam chaosui."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Kodėl Verkio — Verkio",
     "metaDescription": "Kodėl komandos renkasi Verkio: rami programinė įranga, atviri standartai, ES rezidencija, jokio uždarymo."

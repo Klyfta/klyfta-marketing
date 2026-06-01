@@ -770,6 +770,287 @@
       ]
     }
   },
+  "productCalendar": {
+    "metaTitle": "Kalenteri — Verkio",
+    "metaDescription": "Jaetut kalenterit avoimen CalDAV:n päällä. Toistuvat tapahtumat, iMIP-kutsut, vapaa/varattu. Synkronointi Apple Calendarin, Thunderbirdin, DAVx⁵:n kanssa ensimmäisestä päivästä lähtien.",
+    "eyebrow": "Kalenteri",
+    "headline": "Suunnitelmat siellä, minne ne kuuluvat — sviitissäsi.",
+    "body": "Jaetut kalenterit, kutsut ja vapaa/varattu-haut — avoimen CalDAV:n päällä. Ei asennettavaa suljettua plug-inia. Synkronoi Apple Calendarin, Thunderbirdin, DAVx⁵:n tai puhelimesi kanssa ja pidä jokainen tapahtuma tahdissa.",
+    "cta": "Liity jonotuslistalle",
+    "backLink": "Takaisin tuotteen yleiskatsaukseen",
+    "sections": {
+      "shared": {
+        "eyebrow": "Jaetut kalenterit",
+        "headline": "Kalenterit, jotka sopivat siihen, miten tiimi todella työskentelee.",
+        "body": "Henkilökohtaiset kalenterit omalle ajallesi, jaetut kalenterit tiimille, ja niin monta kuin organisaatiosi tarvitsee. Kuukausi-, viikko- ja päivänäkymät verkkosovelluksessa — toistuvat tapahtumat, koko päivän tapahtumat, aikavyöhyketietoisuus, perusasiat tehtynä oikein.",
+        "bullets": [
+          "Useita kalentereita käyttäjää kohti — henkilökohtainen, projekti, päivystysvuoro, mitä tarvitset.",
+          "Jaetut nimettyjen tiimiläisten tai koko organisaation kanssa, luku- tai kirjoitusoikeuksilla.",
+          "Toistuvat tapahtumat kaikilla vakiosäännöillä — joka tiistai, kuun kolmas perjantai, jokaisen kvartaalin loppu.",
+          "Koko päivän tapahtumat ja aikavyöhyketietoiset tapahtumat, molemmat kunnioitettuja eri asiakkaissa.",
+          "Verkkosovellus kuukausi-, viikko- ja päivänäkymillä — pikanäppäimet mukana."
+        ]
+      },
+      "open": {
+        "eyebrow": "Avoin suunnittelultaan",
+        "headline": "CalDAV konepellin alla. Valitsemasi asiakas päällä.",
+        "body": "Verkio Calendar puhuu CalDAV:tä — samaa protokollaa, jota Apple Calendar, Thunderbird ja DAVx⁵ jo osaavat. Ei suljettua yhdistäjää ladattavaksi, ei 'toimii parhaiten omassa appimme' -temppua. Käytä verkkosovellusta, asiakasohjelmaa, joka sinulla jo on, tai molempia.",
+        "bullets": [
+          "Synkronointi Apple Calendarin kanssa macOS:llä ja iOS:llä — suora asennus, ei laajennusta.",
+          "Synkronointi Thunderbirdin kanssa sisäänrakennetun CalDAV:n kautta — olemassa oleva sähköpostiasiakkaasi saa kalenterisi.",
+          "Synkronointi DAVx⁵:n kanssa Androidilla — täysi kaksisuuntainen yhdellä tilillä.",
+          "iCalendar-tuonti ja -vienti, jotta kalenterit kulkevat puhtaasti edestakaisin kun siirryt."
+        ]
+      },
+      "invites": {
+        "eyebrow": "Kutsut jotka toimivat",
+        "headline": "iMIP-kutsuja, ei kuvakaappauksia.",
+        "body": "Lähetä standardien mukaisia iMIP-kutsuja, ja kutsutut voivat vastata mistä tahansa vakio sähköposti- tai kalenteriasiakkaasta — Gmail mukaan lukien. Vapaa/varattu-haku tiimissä, jotta 'oletko vapaa kahdelta?' -ketju ei edes ala.",
+        "bullets": [
+          "iMIP-kutsut (RFC 6047), jotka toimivat Gmailissa, Outlookissa, Apple Calendarissa ja Thunderbirdissä.",
+          "RSVP-tilat (hyväksytty, alustava, hylätty) seurattuna ja päivitettynä reaaliajassa.",
+          "Vapaa/varattu-haku tiimiläisten kesken — etsi väli ilman näytön jakamista.",
+          "Kalenterikyselyt tiekartalla (Q2 2027), kun vapaa/varattu ei riitä."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Avoimet standardit",
+      "headline": "RFC:itä koko matkalla.",
+      "body": "Verkio Calendar on rakennettu samoille avoimille standardeille, joita olemassa olevat työkalusi jo puhuvat. Tuo asiakkaasi. Ota kalenterisi mukaan, kun lähdet.",
+      "items": [
+        "CalDAV (RFC 4791)",
+        "iCalendar (RFC 5545)",
+        "iMIP (RFC 6047)",
+        "iTIP (RFC 5546)",
+        "VTIMEZONE",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productContacts": {
+    "metaTitle": "Yhteystiedot — Verkio",
+    "metaDescription": "Henkilökohtaiset ja tiimin jaetut osoitekirjat avoimen CardDAV:n päällä. vCard-synkronointi. Täydentyvät automaattisesti sähköposteista ja kalenterikutsuista. Ei suljettua yhteystietomuotoa.",
+    "eyebrow": "Yhteystiedot",
+    "headline": "Osoitekirja, joka seuraa sinua.",
+    "body": "Henkilökohtaiset ja tiimin jaetut osoitekirjat avoimen CardDAV:n päällä. vCard-synkronointi mihin tahansa vakioasiakkaaseen. Yhteystiedot täydentyvät automaattisesti sähköposteista ja kalenterikutsuista — jotta et joudu kirjoittamaan uudelleen osoitteita, jotka jo tunnet.",
+    "cta": "Liity jonotuslistalle",
+    "backLink": "Takaisin tuotteen yleiskatsaukseen",
+    "sections": {
+      "shared": {
+        "eyebrow": "Henkilökohtainen ja jaettu",
+        "headline": "Sinun yhteystietosi, tiimisi yhteystiedot, ei koskaan sekaisin.",
+        "body": "Henkilökohtaiset osoitekirjat elämäsi ihmisille. Jaetut osoitekirjat tiimille — myynti, tuki, asiakastilit. Käyttöoikeus per kirja, jotta oikeat ihmiset näkevät oikeat yhteystiedot, eikä enempää.",
+        "bullets": [
+          "Useita osoitekirjoja käyttäjää kohti — henkilökohtainen, työ, projektikohtainen.",
+          "Jaetut osoitekirjat nimettyjen tiimiläisten tai koko organisaation kanssa.",
+          "Yhteystietoryhmät jakeluun ja massatoimintoihin.",
+          "vCard-tuonti ja -vienti, jotta yhteystiedot tulevat sisään ja menevät ulos puhtaasti."
+        ]
+      },
+      "open": {
+        "eyebrow": "Avoin suunnittelultaan",
+        "headline": "CardDAV. Tuo mikä tahansa asiakas.",
+        "body": "Verkio Contacts puhuu CardDAV:tä — samaa protokollaa, jota Apple Contacts, Thunderbird ja DAVx⁵ jo osaavat. Osoitekirjasi on sinun: siirrettävissä, synkronoitavissa, ei koskaan vangittuna suljettuun muotoon.",
+        "bullets": [
+          "Synkronointi Apple Contactsin kanssa macOS:llä ja iOS:llä CardDAV:n yli — ei plug-inia.",
+          "Synkronointi Thunderbirdin ja DAVx⁵:n kanssa Androidilla.",
+          "vCard 4.0 -tuonti ja -vienti — edestakainen säilyttää valokuvat, mukautetut kentät, ryhmät.",
+          "Ei suljettua yhteystietomuotoa. Lähde tietosi ehjinä."
+        ]
+      },
+      "integrated": {
+        "eyebrow": "Automaattisesti täytetyt",
+        "headline": "Yhteystiedot, jotka ilmestyvät ennen kuin tarvitset niitä.",
+        "body": "Lähetä sähköpostia uudelle henkilölle, ja hänen osoitteensa lipuu hiljaa osoitekirjaasi. Hyväksy kalenterikutsu, ja järjestäjäkin on siellä. Yksi identiteetti sähköpostissa, kalenterissa ja viesteissä — ei kaksoiskirjausta, ei kaksoiskortteja.",
+        "bullets": [
+          "Automaattinen lisäys lähetetystä sähköpostista (voidaan poistaa käytöstä tileittäin).",
+          "Automaattinen lisäys kalenterikutsuista — sekä järjestäjät että osallistujat.",
+          "Dedup-heuristiikat, jotta sama henkilö ei ilmesty kolme kertaa.",
+          "Yksi identiteetti sähköpostissa, kalenterissa ja viesteissä — yksi kortti, joka paikassa."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Avoimet standardit",
+      "headline": "Rakennettu standardeille, joita työkalusi jo puhuvat.",
+      "body": "Tuo asiakkaasi. Ota yhteystietosi mukaan, kun lähdet. Ei suljettua muotoa, josta sinun pitäisi myöhemmin siirtyä pois.",
+      "items": [
+        "CardDAV (RFC 6352)",
+        "vCard 4.0 (RFC 6350)",
+        "vCard 3.0 (legacy interop)",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productFiles": {
+    "metaTitle": "Tiedostot — Verkio",
+    "metaDescription": "Tiedostotallennus EU-hallinnoiduilla avaimilla, ACL:t per tiedosto, jakolinkit vanhentumisaikoineen, jatkuvat moni-Gt-lataukset, 30 päivän roskakori.",
+    "eyebrow": "Tiedostot",
+    "headline": "Tiedostot, joiden avaimet hallitset itse.",
+    "body": "Yksityinen ja tiimin jaettu tiedostotallennus käyttöoikeuksilla per tiedosto, levossa salattu EU-hallinnoiduilla avaimilla, jatkuvilla moni-Gt-latauksilla ja 30 päivän roskakorilla. Ei pääavainta yhdysvaltalaisessa ämpärissä.",
+    "cta": "Liity jonotuslistalle",
+    "backLink": "Takaisin tuotteen yleiskatsaukseen",
+    "sections": {
+      "privateShared": {
+        "eyebrow": "Yksityinen ja jaettu",
+        "headline": "Kansiot, jotka sopivat siihen, miten tiimisi todella työskentelee.",
+        "body": "Yksityinen työtilasi luonnoksille. Jaetut kansiot tiimille. Organisaation laajuiset kansiot kaikille. Hienojakoiset ACL:t per tiedosto tai per kansio, jotta voit rajata ulkopuolisen yhteen projektiin paljastamatta muuta levyä.",
+        "bullets": [
+          "Yksityiset kansiot, jotka vain sinä näet.",
+          "Jaetut kansiot nimettyjen tiimiläisten tai kokonaisten tiimien kanssa.",
+          "Organisaation laajuiset kansiot sille, mitä kaikki tarvitsevat.",
+          "ACL:t per tiedosto — lukijat, muokkaajat, omistajat.",
+          "Tarkastuslokissa: jokainen jako, jokainen myöntö, jokainen peruutus."
+        ]
+      },
+      "encryption": {
+        "eyebrow": "Levossa salattu",
+        "headline": "Per-tiedosto-avaimet pidettyinä EU:ssa.",
+        "body": "Jokainen tiedosto saa oman AES-256-GCM-datasalausavaimensa. Nämä avaimet käärii Vault Transit EU:ssa sijaitsevalla avainpalvelimella — ei yhdysvaltalainen KMS, ei hyperscaler. Jos levy lähtee datakeskuksesta, tiedostosi eivät lähde mukana.",
+        "bullets": [
+          "Per-tiedosto AES-256-GCM-salaus — jokainen tiedosto, jokainen tilaus, ilman lisämaksua.",
+          "Datasalausavaimet kääritty Vault Transitin toimesta EU:ssa sijaitsevassa infrastruktuurissa.",
+          "Tallennus Hetzner EU object storagessa — yksikään yhdysvaltalainen ämpäri ei säilytä tietojasi.",
+          "Asiakkaan hallitsema avainsalaus saatavilla kesäkuussa 2026 — edes Verkio ei voi lukea sitä."
+        ]
+      },
+      "uploads": {
+        "eyebrow": "Lataukset",
+        "headline": "Moni-Gt-lataukset, jotka kestävät huonon kahvilan Wi-Fin.",
+        "body": "Jatkuvat lataukset jatkavat siitä, mihin jäit, kun yhteys katkeaa. 30 päivän roskakori nappaa vahingossa tehdyt poistot. Säilyttävät muodon: mitä lataat, palaa samana bittinä, kun lataat sen alas.",
+        "bullets": [
+          "Jatkuvat lataukset — keskeytetty 80 %:ssa, jatkuu 80 %:sta, ei 0:sta.",
+          "Tiedostot tilauksesi tallennusrajaan asti; ei kokorajaa per tiedosto.",
+          "30 päivän roskakori — palauta poistetut tiedostot ilman tukipyyntöä.",
+          "Säilyttävät muodon — PDF, video tai .docx kulkee edestakaisin muuttumattomana."
+        ]
+      },
+      "sharing": {
+        "eyebrow": "Jakolinkit",
+        "headline": "Jakolinkit kaitein.",
+        "body": "Lähetä linkki kenelle tahansa, ei vain Verkio-käyttäjille. Lisää salasana, jos se on arkaluonteinen. Aseta vanhentumisaika, jotta vanhat linkit eivät kummittele. Jokainen jako on tarkastuslokissa — kuka jakoi mitä, milloin, kenelle.",
+        "bullets": [
+          "Julkiset jakolinkit lataukseen ilman tiliä.",
+          "Salasanasuojaus per jako — jaa linkki, jaa salasana erikseen.",
+          "Vanhentumispäivä — linkit tuhoutuvat itsestään päivämäärän tai katsomismäärän jälkeen.",
+          "Tarkastuslokissa, jotta tiedät aina mitä on jaettu kenelle."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Standardit",
+      "headline": "Avoimet muodot, vakiokryptografia, EU-infrastruktuuri.",
+      "body": "Ei suljettua tiedostomuotoa. Ei yhdysvaltalaisen hyperscalerin avainten säilytystä. Tiedostosi pysyvät sinun ja kulkevat edestakaisin muuttumattomina.",
+      "items": [
+        "AES-256-GCM",
+        "Vault Transit (KMS)",
+        "TLS 1.3",
+        "Hetzner EU object storage",
+        "Open formats round-trip unchanged"
+      ]
+    }
+  },
+  "productWikis": {
+    "metaTitle": "Wikit — Verkio",
+    "metaDescription": "Versioidut, haettavat tiimin tietotilat. Henkilökohtaiset, tiimin jaetut ja organisaation laajuiset alueet. Rakennettu CommonMark Markdownille.",
+    "eyebrow": "Wikit",
+    "headline": "Tieto, jota tiimisi kirjoittaa itselleen.",
+    "body": "Strukturoidut, versioidut tilat runbookeille, päätöksille, perehdytykselle ja institutionaaliselle tiedolle, jonka tiimisi muuten keksisi uudelleen joka kuudes kuukausi. Haettavissa, linkitettävissä, samassa sviitissä sähköpostisi ja kalenterisi kanssa.",
+    "cta": "Liity jonotuslistalle",
+    "backLink": "Takaisin tuotteen yleiskatsaukseen",
+    "sections": {
+      "versioned": {
+        "eyebrow": "Versioitu",
+        "headline": "Jokainen muokkaus tallennettu.",
+        "body": "Wikit eivät ole vain paikka kirjoittaa; ne ovat paikka seurata, miten päätökset kehittyivät. Jokainen muutos otetaan talteen, attribuoidaan ja on peruutettavissa — hyödyllinen vaatimustenmukaisuudelle ja hyödyllinen sen selvittämiseen, kuka rikkoi runbookin.",
+        "bullets": [
+          "Täysi muokkaushistoria per sivu — näe mikä muuttui, milloin, kenen toimesta.",
+          "Erotusnäkymä minkä tahansa kahden version välillä.",
+          "Palauta aiempi versio yhdellä klikkauksella.",
+          "Ei hiljaisia ylikirjoituksia — samanaikaisen muokkauksen tunnistus pitää työn turvassa."
+        ]
+      },
+      "scopes": {
+        "eyebrow": "Kolme aluetta",
+        "headline": "Henkilökohtainen, tiimin jaettu, organisaation laajuinen.",
+        "body": "Jotkin sivut ovat sinulle — luonnoksia, viikkomuistiinpanoja. Jotkin tiimillesi — runbookeja, projektisivuja. Jotkin koko organisaatiolle — perehdytys, käytännöt, keittiön Wi-Fi-salasana. Kolme selkeää aluetta, ei luolatutkimusta käyttöoikeuksissa.",
+        "bullets": [
+          "Henkilökohtainen — luonnoksia ja muistiinpanoja, jotka vain sinä näet.",
+          "Minulle jaettu — sivut, jotka tiimisi on jakanut kanssasi.",
+          "Organisaatiolle jaettu — sivut, jotka kaikki organisaatiossa voivat lukea.",
+          "Siirry alueiden välillä yhdellä klikkauksella; käyttöoikeudet päivittyvät vastaavasti."
+        ]
+      },
+      "linked": {
+        "eyebrow": "Linkitetyt",
+        "headline": "Sivut, jotka löytävät toisensa.",
+        "body": "Wikilinkit sivujen yhdistämiseen, kokotekstihaku niiden löytämiseen, hierarkia niiden selaamiseen. Tietograafi rakentaa itsensä, kun tiimisi kirjoittaa.",
+        "bullets": [
+          "Wikilinkit — [[Sivun otsikko]] ratkeaa missä tahansa wikissäsi.",
+          "Kokotekstihaku sivujen yli, sisältöotteet hakutuloksissa.",
+          "Hierarkia ja leivänmurupolku — kansiot ja vanhempisivut navigointiin.",
+          "Takaisinlinkit-paneeli — näe jokainen sivu, joka linkittää siihen, jolla olet."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Avoimet muodot",
+      "headline": "CommonMark Markdown. HTML-vienti. Sinun mukaan otettavaksi.",
+      "body": "Wiki-sivut on tallennettu Markdownina — samana muotona, jolla kirjoittaisit missä tahansa editorissa, millä tahansa alustalla. Vie koko homma HTML:nä tai lataa per-sivu-Markdown milloin haluat.",
+      "items": [
+        "CommonMark Markdown",
+        "GFM tables and task lists",
+        "HTML export (full wiki)",
+        "Per-page Markdown download",
+        "JSON export (structure + metadata)"
+      ]
+    }
+  },
+  "productMessaging": {
+    "metaTitle": "Viestit — Verkio",
+    "metaDescription": "Kanavat, DM:t ja säikeet tiimin keskusteluihin. Sama sisäänkirjautuminen, sama haku, sama tarkastusloki kuin muulla sviitilläsi.",
+    "eyebrow": "Viestit",
+    "headline": "Nopeita keskusteluja, sama sisäänkirjautuminen.",
+    "body": "Kanavat tiimityölle, DM:t kahdenkeskisille, säikeet pitämään vastaukset selvinä. Haettavissa sähköpostisi, kalenterisi ja wikisi rinnalla — ei erillinen välilehti seurattavaksi.",
+    "cta": "Liity jonotuslistalle",
+    "backLink": "Takaisin tuotteen yleiskatsaukseen",
+    "sections": {
+      "channels": {
+        "eyebrow": "Kanavat, DM:t, säikeet",
+        "headline": "Muodot, joita oikea tiimi tarvitsee.",
+        "body": "Kanavat jatkuvalle työlle — #engineering, #tuki, #social. DM:t kahdenkeskisille. Säikeet molemmissa, jotta keskustelu yhdestä asiasta ei tukehduta huoneen muuta.",
+        "bullets": [
+          "Julkiset kanavat tiimin laajuiselle työlle ja tiedotuksille.",
+          "Yksityiset kanavat arkaluonteisille projekteille, vain kutsusta.",
+          "Suorat viestit, kahdenkeskiset tai pienet ryhmät.",
+          "Säikeistetyt vastaukset, jotta useita keskusteluja voi käydä yhdessä kanavassa."
+        ]
+      },
+      "inSuite": {
+        "eyebrow": "Samassa sviitissä",
+        "headline": "Yksi sisäänkirjautuminen. Yksi haku. Yksi tarkastusloki.",
+        "body": "Viestit jakavat saman identiteetin sähköpostisi ja kalenterisi kanssa. Asiakkaan nimen hakeminen tuo viestit, sähköpostit, kutsut ja wiki-sivut kerralla. Sama tarkastusloki, joka tallentaa sähköpostitoimet, tallentaa myös viestitoimet.",
+        "bullets": [
+          "Sama sisäänkirjautuminen kuin muulla Verkio-tililläsi — ei Slackin tapaista erillistä laskutusta.",
+          "Universaalihaku viestien, sähköpostin, kalenterin, yhteystietojen, tiedostojen, wikien yli.",
+          "Sama tarkastusloki-pinta vaatimustenmukaisuudelle ja operaattorin tarkastukselle.",
+          "Ei toista laskutusriviä — sisältyy sviittiisi."
+        ]
+      },
+      "noNoise": {
+        "eyebrow": "Hiljainen oletuksena",
+        "headline": "Rakennettu työhön, ei sitouttamiseen.",
+        "body": "Ei 'joku kirjoittaa' -ahdistusta. Ei putkia. Ei 'tämä voisi kiinnostaa sinua' -sivupalkkia. Viestit on työkalu — se ilmestyy, kun tarvitset sitä, ja pysyy poissa tieltä, kun et tarvitse.",
+        "bullets": [
+          "Ei sitoutumismittareita — emme laske, kuinka usein tarkistat sovelluksen.",
+          "Ei lukukuittauksia, jotka esittävät olevansa sopimus.",
+          "Ei statuspainetta — laita itsesi kiireiseksi ilman putken syyllisyyttä.",
+          "Per-kanava-ilmoitukset, joita oikeasti hallitset, ei kiertoteitä oletuskaaokselle."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Miksi Verkio — Verkio",
     "metaDescription": "Miksi tiimit valitsevat Verkion: hiljainen ohjelmisto, avoimet standardit, EU-asuinpaikka, ei lukitusta."
