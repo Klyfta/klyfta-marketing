@@ -474,6 +474,21 @@
         "date": "Q4 2027",
         "name": "Ende-til-ende-kryptert e-post (PGP og S/MIME)",
         "description": "OpenPGP og S/MIME i webmailen, med standardhoder slik at kryptert e-post bare virker mellom Verkio-postbokser og enhver annen PGP- eller S/MIME-kompatibel klient. Nøkler du selv kontrollerer, aldri i deponering."
+      },
+      "notifications": {
+        "date": "May 2026",
+        "name": "Notifications & web push",
+        "description": "Bell icon, in-app inbox, and browser push for the moments that matter — new mail, calendar invites, shared mentions, file shares. Per-channel preferences; nothing leaves your control plane."
+      },
+      "discountCodes": {
+        "date": "May 2026",
+        "name": "Discount codes",
+        "description": "Apply a code at signup or mid-subscription. Percent, flat-amount, or free-month comp; per-customer redemption limits; restrict to specific plans or billing periods. Pricing transparency on every invoice."
+      },
+      "universalSearch": {
+        "date": "June 2026",
+        "name": "Universal search",
+        "description": "One input in the top bar searches Email, Calendar, Contacts, Files, Wikis, and Messages. Grouped results, keyboard-first, sharable URLs. Press / from any page to focus; everything in one place."
       }
     }
   },
