@@ -774,6 +774,287 @@
       ]
     }
   },
+  "productCalendar": {
+    "metaTitle": "Calendar — Verkio",
+    "metaDescription": "Shared calendars over open CalDAV. Recurring events, iMIP invitations, free/busy. Sync to Apple Calendar, Thunderbird, DAVx⁵ from day one.",
+    "eyebrow": "Calendar",
+    "headline": "Plans where they belong — in your suite.",
+    "body": "Shared calendars, invitations, and free/busy lookup — over open CalDAV. No proprietary plug-in to install. Sync to Apple Calendar, Thunderbird, DAVx⁵, or your phone, and keep every event in lockstep.",
+    "cta": "Join waitlist",
+    "backLink": "Back to product overview",
+    "sections": {
+      "shared": {
+        "eyebrow": "Shared calendars",
+        "headline": "Calendars that match how the team actually works.",
+        "body": "Personal calendars for your own time, shared calendars for the team, and as many as your org needs. Month, week, and day views in the web app — recurring events, all-day events, time-zone awareness, the basics done right.",
+        "bullets": [
+          "Multiple calendars per user — personal, project, on-call rotation, whatever you need.",
+          "Shared with named teammates or whole org, with read or write permissions.",
+          "Recurring events with all the standard rules — every Tuesday, third Friday of the month, end of every quarter.",
+          "All-day events and time-zone-aware events, both honoured across clients.",
+          "Web app with month, week, and day views — keyboard shortcuts included."
+        ]
+      },
+      "open": {
+        "eyebrow": "Open by design",
+        "headline": "CalDAV under the hood. Your client of choice on top.",
+        "body": "Verkio Calendar speaks CalDAV — the same protocol Apple Calendar, Thunderbird, and DAVx⁵ already know. No proprietary connector to download, no 'works best in our app' sleight of hand. Use the web app, the client you already have, or both.",
+        "bullets": [
+          "Sync to Apple Calendar on macOS and iOS — drop-in setup, no extension.",
+          "Sync to Thunderbird via built-in CalDAV — your existing mail client gets your calendar.",
+          "Sync to DAVx⁵ on Android — full two-way over a single account.",
+          "iCalendar import and export so calendars round-trip cleanly when you move."
+        ]
+      },
+      "invites": {
+        "eyebrow": "Invites that work",
+        "headline": "iMIP invitations, not screenshots.",
+        "body": "Send standards-compliant iMIP invitations and your invitees can RSVP from any standard mail or calendar client — Gmail included. Free/busy lookup across your team, so you stop the 'are you free at 2?' thread before it starts.",
+        "bullets": [
+          "iMIP invitations (RFC 6047) that work in Gmail, Outlook, Apple Calendar, and Thunderbird.",
+          "RSVP statuses (accepted, tentative, declined) tracked and updated in real time.",
+          "Free/busy lookup across teammates — find a slot without screen-sharing your calendar.",
+          "Calendar polls on the roadmap (Q2 2027) for when free/busy isn't enough."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Open standards",
+      "headline": "RFCs all the way down.",
+      "body": "Verkio Calendar is built on the same open standards your existing tools already speak. Bring your client. Take your calendar with you when you leave.",
+      "items": [
+        "CalDAV (RFC 4791)",
+        "iCalendar (RFC 5545)",
+        "iMIP (RFC 6047)",
+        "iTIP (RFC 5546)",
+        "VTIMEZONE",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productContacts": {
+    "metaTitle": "Contacts — Verkio",
+    "metaDescription": "Personal and team-shared address books over open CardDAV. vCard sync. Auto-populated from mail and calendar invites. No proprietary contact format.",
+    "eyebrow": "Contacts",
+    "headline": "An address book that follows you.",
+    "body": "Personal and team-shared address books over open CardDAV. vCard sync to any standards client. Contacts auto-populate from mail and calendar invites — so you don't end up retyping addresses you already know.",
+    "cta": "Join waitlist",
+    "backLink": "Back to product overview",
+    "sections": {
+      "shared": {
+        "eyebrow": "Personal and shared",
+        "headline": "Your contacts, your team's contacts, never confused.",
+        "body": "Personal address books for the people in your life. Shared address books for the team — sales, support, customer accounts. Per-book access so the right people see the right contacts and no more.",
+        "bullets": [
+          "Multiple address books per user — personal, work, project-specific.",
+          "Shared address books with named teammates or whole org.",
+          "Contact groups for distribution and bulk operations.",
+          "vCard import and export so you can bring contacts in and take them out cleanly."
+        ]
+      },
+      "open": {
+        "eyebrow": "Open by design",
+        "headline": "CardDAV. Bring any client.",
+        "body": "Verkio Contacts speaks CardDAV — the same protocol Apple Contacts, Thunderbird, and DAVx⁵ already know. Your address book is yours: portable, syncable, never trapped in a proprietary format.",
+        "bullets": [
+          "Sync to Apple Contacts on macOS and iOS over CardDAV — no plug-in.",
+          "Sync to Thunderbird and DAVx⁵ on Android.",
+          "vCard 4.0 import and export — round-trip preserves photos, custom fields, groups.",
+          "No proprietary contact format. Leave with your data intact."
+        ]
+      },
+      "integrated": {
+        "eyebrow": "Auto-populated",
+        "headline": "Contacts that show up before you need them.",
+        "body": "Send mail to someone new and their address quietly enters your address book. Accept a calendar invite and the organiser is there too. One identity across mail, calendar, and messaging — no double entry, no duplicate cards.",
+        "bullets": [
+          "Auto-add from sent mail (you can disable per-account).",
+          "Auto-add from calendar invites — organisers and attendees both.",
+          "Dedup heuristics so the same person doesn't show up three times.",
+          "One identity across mail, calendar, and messaging — one card, all surfaces."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Open standards",
+      "headline": "Built on the standards your tools already speak.",
+      "body": "Bring your client. Take your contacts with you when you leave. No proprietary format you'll need to migrate off later.",
+      "items": [
+        "CardDAV (RFC 6352)",
+        "vCard 4.0 (RFC 6350)",
+        "vCard 3.0 (legacy interop)",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productFiles": {
+    "metaTitle": "Files — Verkio",
+    "metaDescription": "File storage with EU-managed keys, per-file ACLs, share links with expiry, multi-GB resumable uploads, 30-day Trash recovery.",
+    "eyebrow": "Files",
+    "headline": "Files with keys you control.",
+    "body": "Private and team-shared file storage with per-file access controls, encrypted at rest with EU-managed keys, with resumable multi-GB uploads and a 30-day Trash. No master key sitting in a US bucket.",
+    "cta": "Join waitlist",
+    "backLink": "Back to product overview",
+    "sections": {
+      "privateShared": {
+        "eyebrow": "Private and shared",
+        "headline": "Folders that match the way your team actually works.",
+        "body": "Your private workspace for drafts. Shared folders for the team. Org-wide folders for everyone. Granular ACLs per file or per folder, so you can scope a contractor to one project without exposing the rest of the drive.",
+        "bullets": [
+          "Private folders that only you can see.",
+          "Shared folders with named teammates or whole teams.",
+          "Org-wide folders for the things everyone needs.",
+          "Per-file ACLs — readers, editors, owners.",
+          "Audit-logged: every share, every grant, every revoke."
+        ]
+      },
+      "encryption": {
+        "eyebrow": "Encrypted at rest",
+        "headline": "Per-file keys held in the EU.",
+        "body": "Every file gets its own AES-256-GCM data-encryption key. Those keys are wrapped by Vault Transit on an EU-resident key server — not a US KMS, not a hyperscaler. If a disk walks out of the data centre, your files don't go with it.",
+        "bullets": [
+          "Per-file AES-256-GCM encryption — every file, every plan, no upcharge.",
+          "Data-encryption keys wrapped by Vault Transit on EU-resident infrastructure.",
+          "Storage on Hetzner EU object storage — no US bucket holds your data.",
+          "Customer-held-key encryption shipping June 2026 — even Verkio can't read it."
+        ]
+      },
+      "uploads": {
+        "eyebrow": "Uploads",
+        "headline": "Multi-GB uploads that survive bad coffee-shop Wi-Fi.",
+        "body": "Resumable uploads pick up where you left off when your connection drops. A 30-day Trash catches accidental deletes. Format-preserving: whatever you upload comes back the same bits when you download it.",
+        "bullets": [
+          "Resumable uploads — interrupted at 80%, resume from 80%, not from 0.",
+          "Files up to the storage cap on your plan; no per-file size limit.",
+          "30-day Trash — recover deleted files without a support ticket.",
+          "Format-preserving — your PDF, video, or .docx round-trips unchanged."
+        ]
+      },
+      "sharing": {
+        "eyebrow": "Share links",
+        "headline": "Share links with guardrails.",
+        "body": "Send a link to anyone, not just Verkio users. Add a password if it's sensitive. Set an expiry so old links don't haunt you. Every share is in the audit log — who shared what, when, with whom.",
+        "bullets": [
+          "Public share links for downloading without an account.",
+          "Password protection per share — share the link, share the password separately.",
+          "Expiry date — links self-destruct after a date or a number of views.",
+          "Audit-logged so you always know what's been shared with whom."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Standards",
+      "headline": "Open formats, standard cryptography, EU infrastructure.",
+      "body": "No proprietary file format. No US-hyperscaler key custody. Your files stay yours and round-trip unchanged.",
+      "items": [
+        "AES-256-GCM",
+        "Vault Transit (KMS)",
+        "TLS 1.3",
+        "Hetzner EU object storage",
+        "Open formats round-trip unchanged"
+      ]
+    }
+  },
+  "productWikis": {
+    "metaTitle": "Wikis — Verkio",
+    "metaDescription": "Versioned, searchable team knowledge spaces. Personal, team-shared, and org-wide scopes. Built on CommonMark Markdown.",
+    "eyebrow": "Wikis",
+    "headline": "The knowledge your team writes for itself.",
+    "body": "Structured, versioned spaces for runbooks, decisions, onboarding, and the institutional knowledge your team would otherwise reinvent every six months. Searchable, linkable, in the same suite as your mail and calendar.",
+    "cta": "Join waitlist",
+    "backLink": "Back to product overview",
+    "sections": {
+      "versioned": {
+        "eyebrow": "Versioned",
+        "headline": "Every edit recorded.",
+        "body": "Wikis aren't just a place to write; they're a place to track how decisions evolved. Every change is captured, attributed, and reversible — useful for compliance, and useful for figuring out who broke the runbook.",
+        "bullets": [
+          "Full edit history per page — see what changed, when, by whom.",
+          "Diff view between any two revisions.",
+          "Restore an earlier version with one click.",
+          "No silent overwrites — concurrent edit detection keeps work safe."
+        ]
+      },
+      "scopes": {
+        "eyebrow": "Three scopes",
+        "headline": "Personal, team-shared, org-wide.",
+        "body": "Some pages are for you — drafts, weekly notes. Some are for your team — runbooks, project pages. Some are for the whole org — onboarding, policies, the kitchen Wi-Fi password. Three clear scopes, no permission spelunking.",
+        "bullets": [
+          "Personal — drafts and notes only you see.",
+          "Shared with me — pages your team has shared with you.",
+          "Shared with org — pages everyone in the org can read.",
+          "Move between scopes with one click; permissions update accordingly."
+        ]
+      },
+      "linked": {
+        "eyebrow": "Linked",
+        "headline": "Pages that find each other.",
+        "body": "Wikilinks for connecting pages, full-text search for finding them, and hierarchy for browsing them. The knowledge graph builds itself as your team writes.",
+        "bullets": [
+          "Wikilinks — [[Page Title]] resolves anywhere in your wiki.",
+          "Full-text search across pages, with content snippets in results.",
+          "Hierarchy and breadcrumbs — folders and parent pages for navigation.",
+          "Backlinks panel — see every page that links to the one you're on."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Open formats",
+      "headline": "CommonMark Markdown. HTML export. Yours to leave.",
+      "body": "Wiki pages are stored as Markdown — the same format you'd write in any editor, on any platform. Export the whole thing as HTML or download per-page Markdown whenever you want.",
+      "items": [
+        "CommonMark Markdown",
+        "GFM tables and task lists",
+        "HTML export (full wiki)",
+        "Per-page Markdown download",
+        "JSON export (structure + metadata)"
+      ]
+    }
+  },
+  "productMessaging": {
+    "metaTitle": "Messaging — Verkio",
+    "metaDescription": "Channels, DMs, and threads for team conversations. Same login, same search, same audit log as the rest of your suite.",
+    "eyebrow": "Messaging",
+    "headline": "Quick conversations, same login.",
+    "body": "Channels for team work, DMs for one-on-ones, threads to keep replies untangled. Searchable next to your mail, calendar, and wiki — not a separate tab to keep up with.",
+    "cta": "Join waitlist",
+    "backLink": "Back to product overview",
+    "sections": {
+      "channels": {
+        "eyebrow": "Channels, DMs, threads",
+        "headline": "The shapes a real team needs.",
+        "body": "Channels for ongoing work — #engineering, #support, #social. DMs for one-on-ones. Threads inside both, so a discussion about a thing doesn't clobber the rest of the room.",
+        "bullets": [
+          "Public channels for team-wide work and announcements.",
+          "Private channels for sensitive projects, invitation-only.",
+          "Direct messages, one-on-one or small groups.",
+          "Threaded replies so multiple conversations can happen in one channel."
+        ]
+      },
+      "inSuite": {
+        "eyebrow": "In the same suite",
+        "headline": "One login. One search. One audit log.",
+        "body": "Messaging shares the same identity as your mail and calendar. Searching for a customer name pulls messages, emails, invites, and wiki pages in one go. The same audit log that records mail actions records messaging actions too.",
+        "bullets": [
+          "Same login as the rest of your Verkio account — no separate Slack tax.",
+          "Universal search across messages, mail, calendar, contacts, files, wikis.",
+          "Same audit log surface for compliance and operator review.",
+          "No second billing line — included in your suite."
+        ]
+      },
+      "noNoise": {
+        "eyebrow": "Quiet by default",
+        "headline": "Built for work, not for engagement.",
+        "body": "No 'someone is typing' anxiety. No streaks. No 'you might be interested in' sidebar. Messaging is a tool — it shows up when you need it and stays out of the way when you don't.",
+        "bullets": [
+          "No engagement metrics — we don't count how often you check the app.",
+          "No read receipts that pretend to be a contract.",
+          "No status pressure — set yourself as busy without a streak guilt-trip.",
+          "Per-channel notifications you actually control, not workarounds for default chaos."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Why Verkio — Verkio",
     "metaDescription": "Why teams choose Verkio: quiet software, open standards, EU residency, no lock-in."

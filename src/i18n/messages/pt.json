@@ -770,6 +770,287 @@
       ]
     }
   },
+  "productCalendar": {
+    "metaTitle": "Calendário — Verkio",
+    "metaDescription": "Calendários partilhados sobre CalDAV aberto. Eventos recorrentes, convites iMIP, disponibilidade. Sincroniza com Apple Calendar, Thunderbird, DAVx⁵ desde o primeiro dia.",
+    "eyebrow": "Calendário",
+    "headline": "Planos onde devem estar — na tua suite.",
+    "body": "Calendários partilhados, convites e consulta de disponibilidade — sobre CalDAV aberto. Sem plug-in proprietário para instalar. Sincroniza com Apple Calendar, Thunderbird, DAVx⁵ ou o teu telefone, e mantém cada evento em sintonia.",
+    "cta": "Entrar na lista",
+    "backLink": "Voltar à visão geral do produto",
+    "sections": {
+      "shared": {
+        "eyebrow": "Calendários partilhados",
+        "headline": "Calendários que se adaptam à forma como a equipa realmente trabalha.",
+        "body": "Calendários pessoais para o teu tempo, calendários partilhados para a equipa, e tantos quantos a tua organização precise. Vistas de mês, semana e dia na aplicação web — eventos recorrentes, eventos de dia inteiro, sensibilidade a fusos horários, o básico bem feito.",
+        "bullets": [
+          "Vários calendários por utilizador — pessoal, projeto, rotação de turno, o que precisares.",
+          "Partilhados com colegas nomeados ou com toda a organização, com leitura ou escrita.",
+          "Eventos recorrentes com todas as regras padrão — todas as terças, terceira sexta do mês, fim de cada trimestre.",
+          "Eventos de dia inteiro e eventos com fuso horário, ambos respeitados pelos clientes.",
+          "Aplicação web com vistas de mês, semana e dia — atalhos de teclado incluídos."
+        ]
+      },
+      "open": {
+        "eyebrow": "Aberto por desenho",
+        "headline": "CalDAV por baixo. O cliente à tua escolha por cima.",
+        "body": "O Verkio Calendar fala CalDAV — o mesmo protocolo que o Apple Calendar, o Thunderbird e o DAVx⁵ já conhecem. Sem conector proprietário para descarregar, sem o truque do «funciona melhor na nossa app». Usa a aplicação web, o cliente que já tens, ou ambos.",
+        "bullets": [
+          "Sincroniza com o Apple Calendar em macOS e iOS — configuração direta, sem extensão.",
+          "Sincroniza com o Thunderbird via CalDAV integrado — o teu cliente de correio recebe o calendário.",
+          "Sincroniza com o DAVx⁵ em Android — bidirecional completo numa única conta.",
+          "Importação e exportação iCalendar para que os calendários andem para a frente e para trás sem perdas."
+        ]
+      },
+      "invites": {
+        "eyebrow": "Convites que funcionam",
+        "headline": "Convites iMIP, não capturas de ecrã.",
+        "body": "Envia convites iMIP conformes com os padrões e os convidados podem responder a partir de qualquer cliente de correio ou calendário padrão — Gmail incluído. Consulta de disponibilidade na equipa, para travar o tópico «estás livre às 14h?» antes de começar.",
+        "bullets": [
+          "Convites iMIP (RFC 6047) que funcionam no Gmail, Outlook, Apple Calendar e Thunderbird.",
+          "Estados de RSVP (aceite, tentativo, recusado) seguidos e atualizados em tempo real.",
+          "Consulta de disponibilidade entre colegas — encontra uma janela sem partilhar ecrã.",
+          "Sondagens de calendário no roteiro (Q2 2027) para quando a disponibilidade não basta."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Padrões abertos",
+      "headline": "RFCs de cima a baixo.",
+      "body": "O Verkio Calendar é construído sobre os mesmos padrões abertos que as tuas ferramentas já falam. Traz o teu cliente. Leva o calendário contigo quando saíres.",
+      "items": [
+        "CalDAV (RFC 4791)",
+        "iCalendar (RFC 5545)",
+        "iMIP (RFC 6047)",
+        "iTIP (RFC 5546)",
+        "VTIMEZONE",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productContacts": {
+    "metaTitle": "Contactos — Verkio",
+    "metaDescription": "Livros de endereços pessoais e partilhados pela equipa sobre CardDAV aberto. Sincronização vCard. Preenchidos automaticamente a partir do correio e convites. Sem formato proprietário.",
+    "eyebrow": "Contactos",
+    "headline": "Um livro de endereços que te acompanha.",
+    "body": "Livros de endereços pessoais e partilhados pela equipa sobre CardDAV aberto. Sincronização vCard com qualquer cliente padrão. Os contactos preenchem-se automaticamente a partir do correio e dos convites — para que não voltes a digitar endereços que já conheces.",
+    "cta": "Entrar na lista",
+    "backLink": "Voltar à visão geral do produto",
+    "sections": {
+      "shared": {
+        "eyebrow": "Pessoal e partilhado",
+        "headline": "Os teus contactos, os da equipa, sem confusão.",
+        "body": "Livros pessoais para as pessoas da tua vida. Livros partilhados para a equipa — vendas, suporte, contas de clientes. Acesso por livro para que as pessoas certas vejam os contactos certos, e nada mais.",
+        "bullets": [
+          "Vários livros por utilizador — pessoal, trabalho, por projeto.",
+          "Livros partilhados com colegas nomeados ou com toda a organização.",
+          "Grupos de contactos para distribuição e operações em massa.",
+          "Importação e exportação vCard para entrar e sair com os contactos sem perdas."
+        ]
+      },
+      "open": {
+        "eyebrow": "Aberto por desenho",
+        "headline": "CardDAV. Traz qualquer cliente.",
+        "body": "O Verkio Contacts fala CardDAV — o mesmo protocolo que o Apple Contacts, o Thunderbird e o DAVx⁵ já conhecem. O teu livro é teu: portátil, sincronizável, nunca preso num formato proprietário.",
+        "bullets": [
+          "Sincroniza com o Apple Contacts em macOS e iOS sobre CardDAV — sem plug-in.",
+          "Sincroniza com o Thunderbird e o DAVx⁵ em Android.",
+          "Importação e exportação vCard 4.0 — a ida e volta preserva fotos, campos personalizados e grupos.",
+          "Sem formato de contacto proprietário. Sai com os teus dados intactos."
+        ]
+      },
+      "integrated": {
+        "eyebrow": "Preenchidos automaticamente",
+        "headline": "Contactos que aparecem antes de precisares deles.",
+        "body": "Escreves a alguém novo e o endereço entra discretamente no teu livro. Aceitas um convite e o organizador também está lá. Uma identidade no correio, calendário e mensagens — sem duplo registo, sem cartões duplicados.",
+        "bullets": [
+          "Adição automática a partir do correio enviado (desativável por conta).",
+          "Adição automática a partir de convites — organizadores e participantes.",
+          "Heurísticas de desduplicação para a mesma pessoa não aparecer três vezes.",
+          "Uma identidade no correio, calendário e mensagens — um cartão, em todo o lado."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Padrões abertos",
+      "headline": "Construído sobre os padrões que as tuas ferramentas já falam.",
+      "body": "Traz o teu cliente. Leva os teus contactos contigo quando saíres. Sem formato proprietário do qual tenhas de migrar mais tarde.",
+      "items": [
+        "CardDAV (RFC 6352)",
+        "vCard 4.0 (RFC 6350)",
+        "vCard 3.0 (legacy interop)",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productFiles": {
+    "metaTitle": "Ficheiros — Verkio",
+    "metaDescription": "Armazenamento de ficheiros com chaves geridas na UE, ACLs por ficheiro, ligações com expiração, uploads multi-GB retomáveis, lixo de 30 dias.",
+    "eyebrow": "Ficheiros",
+    "headline": "Ficheiros com chaves que tu controlas.",
+    "body": "Armazenamento de ficheiros privado e partilhado pela equipa com controlos de acesso por ficheiro, cifrado em repouso com chaves geridas na UE, com uploads multi-GB retomáveis e lixo de 30 dias. Sem chave-mestra num bucket americano.",
+    "cta": "Entrar na lista",
+    "backLink": "Voltar à visão geral do produto",
+    "sections": {
+      "privateShared": {
+        "eyebrow": "Privado e partilhado",
+        "headline": "Pastas que se adaptam à forma como a tua equipa trabalha.",
+        "body": "O teu espaço privado para rascunhos. Pastas partilhadas para a equipa. Pastas a nível de organização para todos. ACLs granulares por ficheiro ou por pasta, para limitar um colaborador externo a um projeto sem expor o resto do disco.",
+        "bullets": [
+          "Pastas privadas que só tu vês.",
+          "Pastas partilhadas com colegas nomeados ou equipas inteiras.",
+          "Pastas a nível de organização para o que toda a gente precisa.",
+          "ACLs por ficheiro — leitores, editores, proprietários.",
+          "Em registo de auditoria: cada partilha, cada concessão, cada revogação."
+        ]
+      },
+      "encryption": {
+        "eyebrow": "Cifrado em repouso",
+        "headline": "Chaves por ficheiro guardadas na UE.",
+        "body": "Cada ficheiro recebe a sua própria chave de cifragem de dados AES-256-GCM. Essas chaves são envolvidas pelo Vault Transit num servidor de chaves residente na UE — não um KMS americano, não um hyperscaler. Se um disco sair do datacenter, os teus ficheiros não vão com ele.",
+        "bullets": [
+          "Cifragem AES-256-GCM por ficheiro — todos os ficheiros, todos os planos, sem custo extra.",
+          "Chaves de cifragem envolvidas pelo Vault Transit em infraestrutura residente na UE.",
+          "Armazenamento em Hetzner EU object storage — nenhum bucket americano guarda os teus dados.",
+          "Cifragem com chave do cliente disponível em junho de 2026 — nem o Verkio consegue ler."
+        ]
+      },
+      "uploads": {
+        "eyebrow": "Uploads",
+        "headline": "Uploads multi-GB que sobrevivem ao mau Wi-Fi do café.",
+        "body": "Os uploads retomáveis continuam onde paraste quando a ligação cai. Um lixo de 30 dias apanha apagamentos acidentais. Preservam o formato: o que envias volta nos mesmos bits quando descarregas.",
+        "bullets": [
+          "Uploads retomáveis — interrompido aos 80%, retoma dos 80%, não do zero.",
+          "Ficheiros até ao limite de armazenamento do teu plano; sem limite por ficheiro.",
+          "Lixo de 30 dias — recupera ficheiros apagados sem ticket de suporte.",
+          "Preservam o formato — o teu PDF, vídeo ou .docx vai e volta inalterado."
+        ]
+      },
+      "sharing": {
+        "eyebrow": "Ligações de partilha",
+        "headline": "Ligações de partilha com guarda-corpos.",
+        "body": "Envia uma ligação a qualquer pessoa, não só a utilizadores Verkio. Adiciona uma palavra-passe se for sensível. Define uma expiração para que as ligações antigas não te persigam. Cada partilha está no registo de auditoria — quem partilhou o quê, quando, com quem.",
+        "bullets": [
+          "Ligações públicas para descarregar sem conta.",
+          "Proteção com palavra-passe por partilha — partilha a ligação, partilha a palavra-passe em separado.",
+          "Data de expiração — as ligações autodestroem-se após uma data ou um número de vistas.",
+          "Em registo de auditoria para saberes sempre o que foi partilhado com quem."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Padrões",
+      "headline": "Formatos abertos, criptografia padrão, infraestrutura UE.",
+      "body": "Sem formato de ficheiro proprietário. Sem custódia de chaves em hyperscaler americano. Os teus ficheiros continuam teus e vão e voltam inalterados.",
+      "items": [
+        "AES-256-GCM",
+        "Vault Transit (KMS)",
+        "TLS 1.3",
+        "Hetzner EU object storage",
+        "Open formats round-trip unchanged"
+      ]
+    }
+  },
+  "productWikis": {
+    "metaTitle": "Wikis — Verkio",
+    "metaDescription": "Espaços de conhecimento da equipa versionados e pesquisáveis. Âmbitos pessoal, partilhado pela equipa e a nível de organização. Construído sobre Markdown CommonMark.",
+    "eyebrow": "Wikis",
+    "headline": "O conhecimento que a tua equipa escreve para si mesma.",
+    "body": "Espaços estruturados e versionados para runbooks, decisões, onboarding e o conhecimento institucional que a tua equipa, de outra forma, reinventaria de seis em seis meses. Pesquisável, ligável, na mesma suite do teu correio e calendário.",
+    "cta": "Entrar na lista",
+    "backLink": "Voltar à visão geral do produto",
+    "sections": {
+      "versioned": {
+        "eyebrow": "Versionado",
+        "headline": "Cada edição registada.",
+        "body": "Os wikis não são apenas um sítio para escrever; são um sítio para acompanhar como as decisões evoluíram. Cada alteração é capturada, atribuída e reversível — útil para conformidade, e útil para perceber quem partiu o runbook.",
+        "bullets": [
+          "Histórico completo de edições por página — vê o que mudou, quando, por quem.",
+          "Vista de diferenças entre duas revisões à escolha.",
+          "Restaura uma versão anterior com um clique.",
+          "Sem sobrescritas silenciosas — a deteção de edição concorrente protege o trabalho."
+        ]
+      },
+      "scopes": {
+        "eyebrow": "Três âmbitos",
+        "headline": "Pessoal, partilhado pela equipa, a nível de organização.",
+        "body": "Algumas páginas são para ti — rascunhos, notas semanais. Algumas para a tua equipa — runbooks, páginas de projeto. Algumas para toda a organização — onboarding, políticas, a palavra-passe Wi-Fi da cozinha. Três âmbitos claros, sem espeleologia de permissões.",
+        "bullets": [
+          "Pessoal — rascunhos e notas que só tu vês.",
+          "Partilhado comigo — páginas que a tua equipa partilhou contigo.",
+          "Partilhado com a organização — páginas que toda a organização pode ler.",
+          "Muda de âmbito com um clique; as permissões atualizam-se em conformidade."
+        ]
+      },
+      "linked": {
+        "eyebrow": "Ligadas",
+        "headline": "Páginas que se encontram umas às outras.",
+        "body": "Wikilinks para ligar páginas, pesquisa de texto completo para as encontrar, hierarquia para as percorrer. O grafo de conhecimento constrói-se sozinho à medida que a tua equipa escreve.",
+        "bullets": [
+          "Wikilinks — [[Título da Página]] resolve em qualquer parte do teu wiki.",
+          "Pesquisa de texto completo entre páginas, com excertos nos resultados.",
+          "Hierarquia e migalhas de pão — pastas e páginas-mãe para navegar.",
+          "Painel de backlinks — vê cada página que aponta para a que estás a ver."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Formatos abertos",
+      "headline": "Markdown CommonMark. Exportação HTML. Teu para levar.",
+      "body": "As páginas wiki são guardadas como Markdown — o mesmo formato em que escreverias em qualquer editor, em qualquer plataforma. Exporta tudo como HTML ou descarrega Markdown página a página quando quiseres.",
+      "items": [
+        "CommonMark Markdown",
+        "GFM tables and task lists",
+        "HTML export (full wiki)",
+        "Per-page Markdown download",
+        "JSON export (structure + metadata)"
+      ]
+    }
+  },
+  "productMessaging": {
+    "metaTitle": "Mensagens — Verkio",
+    "metaDescription": "Canais, DMs e tópicos para conversas de equipa. Mesmo login, mesma pesquisa, mesmo registo de auditoria que o resto da tua suite.",
+    "eyebrow": "Mensagens",
+    "headline": "Conversas rápidas, mesmo login.",
+    "body": "Canais para trabalho de equipa, DMs para um-para-um, tópicos para manter as respostas organizadas. Pesquisável ao lado do teu correio, calendário e wiki — não é mais um separador para acompanhar.",
+    "cta": "Entrar na lista",
+    "backLink": "Voltar à visão geral do produto",
+    "sections": {
+      "channels": {
+        "eyebrow": "Canais, DMs, tópicos",
+        "headline": "As formas que uma equipa real precisa.",
+        "body": "Canais para trabalho contínuo — #engenharia, #suporte, #social. DMs para um-para-um. Tópicos em ambos, para que uma discussão sobre um tema não atropele o resto da sala.",
+        "bullets": [
+          "Canais públicos para trabalho e anúncios em toda a equipa.",
+          "Canais privados para projetos sensíveis, só por convite.",
+          "Mensagens diretas, um-para-um ou em pequenos grupos.",
+          "Respostas em tópico para várias conversas conviverem num canal."
+        ]
+      },
+      "inSuite": {
+        "eyebrow": "Na mesma suite",
+        "headline": "Um login. Uma pesquisa. Um registo de auditoria.",
+        "body": "As mensagens partilham a mesma identidade do teu correio e calendário. Pesquisar o nome de um cliente traz mensagens, emails, convites e páginas de wiki de uma só vez. O mesmo registo de auditoria que regista ações de correio regista também as de mensagens.",
+        "bullets": [
+          "Mesmo login que o resto da tua conta Verkio — sem faturação à parte ao estilo Slack.",
+          "Pesquisa universal sobre mensagens, correio, calendário, contactos, ficheiros, wikis.",
+          "Mesma superfície de registo de auditoria para conformidade e revisão de operadores.",
+          "Sem segunda linha de faturação — incluída na tua suite."
+        ]
+      },
+      "noNoise": {
+        "eyebrow": "Sossegada por defeito",
+        "headline": "Feita para trabalho, não para engagement.",
+        "body": "Sem a ansiedade do «alguém está a escrever». Sem séries para manter. Sem barra lateral «isto pode interessar-te». A mensagem é uma ferramenta — aparece quando precisas e fica fora do caminho quando não precisas.",
+        "bullets": [
+          "Sem métricas de engagement — não contamos quantas vezes abres a app.",
+          "Sem confirmações de leitura que se passam por um contrato.",
+          "Sem pressão sobre o estado — passa a ocupado sem culpa por quebrar uma série.",
+          "Notificações por canal que controlas mesmo, não remendos para o caos por defeito."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Porquê Verkio — Verkio",
     "metaDescription": "Porque é que as equipas escolhem o Verkio: software tranquilo, padrões abertos, residência na UE, sem bloqueio."

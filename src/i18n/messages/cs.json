@@ -770,6 +770,287 @@
       ]
     }
   },
+  "productCalendar": {
+    "metaTitle": "Kalendář — Verkio",
+    "metaDescription": "Sdílené kalendáře nad otevřeným CalDAV. Opakující se události, iMIP pozvánky, free/busy. Synchronizace s Apple Calendar, Thunderbird, DAVx⁵ od prvního dne.",
+    "eyebrow": "Kalendář",
+    "headline": "Plány tam, kam patří — v tvém balíčku.",
+    "body": "Sdílené kalendáře, pozvánky a vyhledávání free/busy — nad otevřeným CalDAV. Žádný proprietární plugin k instalaci. Synchronizace s Apple Calendar, Thunderbirdem, DAVx⁵ nebo tvým telefonem, a každá událost zůstává v souladu.",
+    "cta": "Přidat se na seznam",
+    "backLink": "Zpět na přehled produktu",
+    "sections": {
+      "shared": {
+        "eyebrow": "Sdílené kalendáře",
+        "headline": "Kalendáře, které odpovídají tomu, jak tým doopravdy pracuje.",
+        "body": "Osobní kalendáře pro tvůj vlastní čas, sdílené kalendáře pro tým, a tolik, kolik tvoje organizace potřebuje. Měsíční, týdenní a denní zobrazení ve webové aplikaci — opakující se události, celodenní události, povědomí o časových pásmech, základy provedené správně.",
+        "bullets": [
+          "Více kalendářů na uživatele — osobní, projektový, pohotovostní směny, cokoliv potřebuješ.",
+          "Sdílené s jmenovanými spolupracovníky nebo celou organizací, s právy ke čtení nebo zápisu.",
+          "Opakující se události se všemi standardními pravidly — každé úterý, třetí pátek v měsíci, konec každého kvartálu.",
+          "Celodenní události a události s povědomím o časových pásmech, obojí respektováno napříč klienty.",
+          "Webová aplikace s měsíčním, týdenním a denním zobrazením — klávesové zkratky v ceně."
+        ]
+      },
+      "open": {
+        "eyebrow": "Otevřené už v návrhu",
+        "headline": "CalDAV pod kapotou. Tvůj klient na vrchu.",
+        "body": "Verkio Calendar mluví CalDAV — stejný protokol, který Apple Calendar, Thunderbird a DAVx⁵ už znají. Žádný proprietární konektor ke stažení, žádný trik 'funguje nejlépe v naší aplikaci'. Používej webovou aplikaci, klienta, kterého už máš, nebo obojí.",
+        "bullets": [
+          "Synchronizace s Apple Calendar na macOS a iOS — přímé nastavení, žádné rozšíření.",
+          "Synchronizace s Thunderbirdem přes vestavěné CalDAV — tvůj stávající poštovní klient dostane tvůj kalendář.",
+          "Synchronizace s DAVx⁵ na Androidu — plně obousměrně přes jeden účet.",
+          "Import a export iCalendar, aby kalendáře čistě putovaly tam i zpět, když měníš platformu."
+        ]
+      },
+      "invites": {
+        "eyebrow": "Pozvánky, které fungují",
+        "headline": "iMIP pozvánky, ne screenshoty.",
+        "body": "Odesílej pozvánky iMIP podle standardů a tvoji pozvaní mohou odpovědět z libovolného standardního poštovního nebo kalendářového klienta — Gmail včetně. Vyhledávání free/busy napříč týmem, abys 'jsi volný ve dvě?'-thread vůbec nezačal.",
+        "bullets": [
+          "iMIP pozvánky (RFC 6047), které fungují v Gmailu, Outlooku, Apple Calendaru a Thunderbirdu.",
+          "Stavy RSVP (přijato, předběžně, odmítnuto) sledované a aktualizované v reálném čase.",
+          "Vyhledávání free/busy napříč spolupracovníky — najdi termín bez sdílení obrazovky s kalendářem.",
+          "Hlasování v kalendáři na roadmapě (Q2 2027), když free/busy nestačí."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Otevřené standardy",
+      "headline": "RFC odshora dolů.",
+      "body": "Verkio Calendar je postavený na stejných otevřených standardech, které tvoje stávající nástroje už znají. Přines svého klienta. Vezmi si kalendář s sebou, až odejdeš.",
+      "items": [
+        "CalDAV (RFC 4791)",
+        "iCalendar (RFC 5545)",
+        "iMIP (RFC 6047)",
+        "iTIP (RFC 5546)",
+        "VTIMEZONE",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productContacts": {
+    "metaTitle": "Kontakty — Verkio",
+    "metaDescription": "Osobní a tým-sdílené adresáře nad otevřeným CardDAV. Synchronizace vCard. Automaticky se plní z pošty a kalendářových pozvánek. Žádný proprietární formát kontaktů.",
+    "eyebrow": "Kontakty",
+    "headline": "Adresář, který tě následuje.",
+    "body": "Osobní a tým-sdílené adresáře nad otevřeným CardDAV. Synchronizace vCard do libovolného standardního klienta. Kontakty se automaticky plní z pošty a kalendářových pozvánek — abys nepřepisoval adresy, které už znáš.",
+    "cta": "Přidat se na seznam",
+    "backLink": "Zpět na přehled produktu",
+    "sections": {
+      "shared": {
+        "eyebrow": "Osobní a sdílené",
+        "headline": "Tvoje kontakty, kontakty tvého týmu, nikdy zaměněné.",
+        "body": "Osobní adresáře pro lidi ve tvém životě. Sdílené adresáře pro tým — prodej, podpora, zákaznické účty. Přístup na adresář, aby správní lidé viděli správné kontakty, a nic víc.",
+        "bullets": [
+          "Více adresářů na uživatele — osobní, pracovní, projektově specifický.",
+          "Sdílené adresáře s jmenovanými spolupracovníky nebo celou organizací.",
+          "Kontaktní skupiny pro distribuci a hromadné operace.",
+          "Import a export vCard, abys kontakty čistě dostal dovnitř i ven."
+        ]
+      },
+      "open": {
+        "eyebrow": "Otevřené už v návrhu",
+        "headline": "CardDAV. Přines libovolného klienta.",
+        "body": "Verkio Contacts mluví CardDAV — stejný protokol, který Apple Contacts, Thunderbird a DAVx⁵ už znají. Tvůj adresář patří tobě: přenosný, synchronizovatelný, nikdy uvězněný v proprietárním formátu.",
+        "bullets": [
+          "Synchronizace s Apple Contacts na macOS a iOS přes CardDAV — žádný plugin.",
+          "Synchronizace s Thunderbirdem a DAVx⁵ na Androidu.",
+          "Import a export vCard 4.0 — cesta tam i zpět zachová fotografie, vlastní pole, skupiny.",
+          "Žádný proprietární formát kontaktů. Odejdi se svými daty nedotčenými."
+        ]
+      },
+      "integrated": {
+        "eyebrow": "Automaticky doplněné",
+        "headline": "Kontakty, které se objeví dřív, než je potřebuješ.",
+        "body": "Pošli mail někomu novému a jeho adresa tiše vstoupí do tvého adresáře. Přijmi kalendářovou pozvánku a organizátor je tam taky. Jedna identita napříč poštou, kalendářem a messagingem — žádné dvojí zadávání, žádné duplicitní karty.",
+        "bullets": [
+          "Automatické přidání z odeslané pošty (lze vypnout na účet).",
+          "Automatické přidání z kalendářových pozvánek — organizátoři i účastníci.",
+          "Heuristika deduplikace, aby se stejná osoba neobjevila třikrát.",
+          "Jedna identita napříč poštou, kalendářem a messagingem — jedna karta, všude."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Otevřené standardy",
+      "headline": "Postaveno na standardech, které tvoje nástroje už znají.",
+      "body": "Přines svého klienta. Vezmi si kontakty s sebou, až odejdeš. Žádný proprietární formát, ze kterého bys později musel migrovat.",
+      "items": [
+        "CardDAV (RFC 6352)",
+        "vCard 4.0 (RFC 6350)",
+        "vCard 3.0 (legacy interop)",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productFiles": {
+    "metaTitle": "Soubory — Verkio",
+    "metaDescription": "Úložiště souborů s klíči spravovanými v EU, ACL na soubor, sdílecími odkazy s vypršením, obnovitelnými multi-GB nahráváními, 30denním Košem.",
+    "eyebrow": "Soubory",
+    "headline": "Soubory s klíči, které ovládáš ty.",
+    "body": "Soukromé a tým-sdílené úložiště souborů s přístupovými právy na soubor, šifrované v klidu klíči spravovanými v EU, s obnovitelným multi-GB nahráváním a 30denním Košem. Žádný hlavní klíč v americkém bucketu.",
+    "cta": "Přidat se na seznam",
+    "backLink": "Zpět na přehled produktu",
+    "sections": {
+      "privateShared": {
+        "eyebrow": "Soukromé a sdílené",
+        "headline": "Složky, které odpovídají tomu, jak tvůj tým doopravdy pracuje.",
+        "body": "Tvůj soukromý pracovní prostor pro koncepty. Sdílené složky pro tým. Celoorganizační složky pro všechny. Granulární ACL na soubor nebo na složku, aby ses dokázal omezit kontraktora na jeden projekt bez odhalení zbytku disku.",
+        "bullets": [
+          "Soukromé složky, které vidíš jen ty.",
+          "Sdílené složky s jmenovanými spolupracovníky nebo celými týmy.",
+          "Celoorganizační složky pro věci, které potřebují všichni.",
+          "ACL na soubor — čtenáři, editoři, vlastníci.",
+          "V audit logu: každé sdílení, každé udělení, každé odebrání."
+        ]
+      },
+      "encryption": {
+        "eyebrow": "Šifrované v klidu",
+        "headline": "Klíče na soubor, držené v EU.",
+        "body": "Každý soubor dostane svůj vlastní šifrovací klíč AES-256-GCM. Tyto klíče jsou obaleny Vault Transit na klíčovém serveru se sídlem v EU — žádné americké KMS, žádný hyperscaler. Když disk opustí datové centrum, tvoje soubory s ním neodejdou.",
+        "bullets": [
+          "Šifrování AES-256-GCM na soubor — každý soubor, každý tarif, bez příplatku.",
+          "Datové šifrovací klíče obalené Vault Transit na infrastruktuře se sídlem v EU.",
+          "Úložiště na Hetzner EU object storage — žádný americký bucket nedrží tvoje data.",
+          "Šifrování klíčem drženým zákazníkem od června 2026 — ani Verkio to nepřečte."
+        ]
+      },
+      "uploads": {
+        "eyebrow": "Nahrávání",
+        "headline": "Multi-GB nahrávání, která přežijí špatné Wi-Fi v kavárně.",
+        "body": "Obnovitelná nahrávání pokračují tam, kde jsi přestal, když ti spadne spojení. 30denní Koš zachytí náhodné smazání. Zachovávající formát: cokoliv nahraješ, vrátí se ve stejných bytech, když to stáhneš.",
+        "bullets": [
+          "Obnovitelná nahrávání — přerušeno na 80 %, pokračuj od 80 %, ne od 0.",
+          "Soubory až do limitu úložiště tvého tarifu; žádné omezení velikosti na soubor.",
+          "30denní Koš — obnov smazané soubory bez supportového tiketu.",
+          "Zachovávající formát — tvé PDF, video nebo .docx putuje tam i zpět beze změny."
+        ]
+      },
+      "sharing": {
+        "eyebrow": "Sdílecí odkazy",
+        "headline": "Sdílecí odkazy se zábradlím.",
+        "body": "Pošli odkaz komukoliv, nejen uživatelům Verkio. Přidej heslo, pokud je to citlivé. Nastav vypršení, aby tě staré odkazy nestrašily. Každé sdílení je v audit logu — kdo co kdy s kým sdílel.",
+        "bullets": [
+          "Veřejné sdílecí odkazy pro stahování bez účtu.",
+          "Ochrana heslem na sdílení — sdílej odkaz, sdílej heslo zvlášť.",
+          "Datum vypršení — odkazy se zničí po datu nebo po počtu zhlédnutí.",
+          "V audit logu, abys vždy věděl, co s kým bylo sděleno."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Standardy",
+      "headline": "Otevřené formáty, standardní kryptografie, EU infrastruktura.",
+      "body": "Žádný proprietární formát souborů. Žádné držení klíčů u amerických hyperscalerů. Tvoje soubory zůstávají tvoje a putují tam i zpět beze změny.",
+      "items": [
+        "AES-256-GCM",
+        "Vault Transit (KMS)",
+        "TLS 1.3",
+        "Hetzner EU object storage",
+        "Open formats round-trip unchanged"
+      ]
+    }
+  },
+  "productWikis": {
+    "metaTitle": "Wikis — Verkio",
+    "metaDescription": "Verzované, prohledávatelné týmové znalostní prostory. Osobní, tým-sdílené a celoorganizační rozsahy. Postaveno na CommonMark Markdownu.",
+    "eyebrow": "Wikis",
+    "headline": "Znalosti, které si tvůj tým píše sám pro sebe.",
+    "body": "Strukturované, verzované prostory pro runbooky, rozhodnutí, onboarding a institucionální znalosti, které by tvůj tým jinak vymýšlel znovu každých šest měsíců. Prohledávatelné, propojitelné, ve stejném balíčku jako tvoje pošta a kalendář.",
+    "cta": "Přidat se na seznam",
+    "backLink": "Zpět na přehled produktu",
+    "sections": {
+      "versioned": {
+        "eyebrow": "Verzované",
+        "headline": "Každá úprava zaznamenána.",
+        "body": "Wikis nejsou jen místo k psaní; jsou to místo, kde se sleduje, jak se vyvíjela rozhodnutí. Každá změna je zachycená, přiřazená a vratná — užitečné pro compliance a užitečné pro zjištění, kdo rozbil runbook.",
+        "bullets": [
+          "Plná historie úprav na stránku — vidíš, co se změnilo, kdy a kým.",
+          "Diff zobrazení mezi libovolnými dvěma revizemi.",
+          "Obnov dřívější verzi jedním kliknutím.",
+          "Žádné tiché přepisy — detekce souběžných úprav chrání práci."
+        ]
+      },
+      "scopes": {
+        "eyebrow": "Tři rozsahy",
+        "headline": "Osobní, tým-sdílený, celoorganizační.",
+        "body": "Některé stránky jsou pro tebe — koncepty, týdenní poznámky. Některé jsou pro tvůj tým — runbooky, projektové stránky. Některé jsou pro celou organizaci — onboarding, pravidla, heslo k Wi-Fi v kuchyni. Tři jasné rozsahy, žádné prohrabávání oprávněními.",
+        "bullets": [
+          "Osobní — koncepty a poznámky, které vidíš jen ty.",
+          "Sdíleno se mnou — stránky, které s tebou sdílel tvůj tým.",
+          "Sdíleno s organizací — stránky, které mohou číst všichni v organizaci.",
+          "Přesouvej mezi rozsahy jedním kliknutím; oprávnění se přizpůsobí."
+        ]
+      },
+      "linked": {
+        "eyebrow": "Propojené",
+        "headline": "Stránky, které se navzájem najdou.",
+        "body": "Wikilinky pro propojování stránek, fulltextové vyhledávání pro jejich nacházení a hierarchie pro jejich procházení. Znalostní graf se staví sám, jak tvůj tým píše.",
+        "bullets": [
+          "Wikilinky — [[Název stránky]] se rozliší kdekoliv ve tvém wiki.",
+          "Fulltextové vyhledávání napříč stránkami, s úryvky obsahu ve výsledcích.",
+          "Hierarchie a drobečková navigace — složky a nadřazené stránky pro procházení.",
+          "Panel zpětných odkazů — vidíš každou stránku, která odkazuje na tu, na které jsi."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Otevřené formáty",
+      "headline": "CommonMark Markdown. Export HTML. Tvoje k odnesení.",
+      "body": "Stránky wiki jsou uloženy jako Markdown — stejný formát, ve kterém bys psal v jakémkoli editoru, na jakékoli platformě. Exportuj celou věc jako HTML nebo si stáhni Markdown po stránkách, kdykoliv chceš.",
+      "items": [
+        "CommonMark Markdown",
+        "GFM tables and task lists",
+        "HTML export (full wiki)",
+        "Per-page Markdown download",
+        "JSON export (structure + metadata)"
+      ]
+    }
+  },
+  "productMessaging": {
+    "metaTitle": "Messaging — Verkio",
+    "metaDescription": "Kanály, DMs a vlákna pro týmové konverzace. Stejné přihlášení, stejné vyhledávání, stejný audit log jako zbytek tvého balíčku.",
+    "eyebrow": "Messaging",
+    "headline": "Rychlé konverzace, stejné přihlášení.",
+    "body": "Kanály pro týmovou práci, DMs na jednoho na jednoho, vlákna, aby se odpovědi nezamotaly. Prohledávatelné vedle tvé pošty, kalendáře a wiki — žádná další záložka, kterou je třeba sledovat.",
+    "cta": "Přidat se na seznam",
+    "backLink": "Zpět na přehled produktu",
+    "sections": {
+      "channels": {
+        "eyebrow": "Kanály, DMs, vlákna",
+        "headline": "Tvary, které opravdový tým potřebuje.",
+        "body": "Kanály pro probíhající práci — #engineering, #support, #social. DMs na jednoho na jednoho. Vlákna v obou, aby diskuse o jedné věci nesrazila zbytek místnosti.",
+        "bullets": [
+          "Veřejné kanály pro celotýmovou práci a oznámení.",
+          "Soukromé kanály pro citlivé projekty, jen na pozvání.",
+          "Přímé zprávy, jeden na jednoho nebo v malých skupinách.",
+          "Vláknové odpovědi, aby se v jednom kanále mohlo dít víc konverzací."
+        ]
+      },
+      "inSuite": {
+        "eyebrow": "Ve stejném balíčku",
+        "headline": "Jedno přihlášení. Jedno vyhledávání. Jeden audit log.",
+        "body": "Messaging sdílí stejnou identitu jako tvoje pošta a kalendář. Hledání jména zákazníka vytáhne zprávy, e-maily, pozvánky a stránky wiki najednou. Stejný audit log, který zaznamenává poštovní akce, zaznamenává i akce messagingu.",
+        "bullets": [
+          "Stejné přihlášení jako zbytek tvého účtu Verkio — žádná Slack-daň navíc.",
+          "Univerzální vyhledávání napříč zprávami, poštou, kalendářem, kontakty, soubory, wikis.",
+          "Stejná plocha audit logu pro compliance a operátorský přehled.",
+          "Žádná druhá fakturační položka — součástí tvého balíčku."
+        ]
+      },
+      "noNoise": {
+        "eyebrow": "Tiché ve výchozím nastavení",
+        "headline": "Postavené pro práci, ne pro zapojení.",
+        "body": "Žádná úzkost 'někdo píše'. Žádné streaky. Žádný postranní panel 'mohlo by tě zajímat'. Messaging je nástroj — objeví se, když ho potřebuješ, a uhne, když ne.",
+        "bullets": [
+          "Žádné metriky zapojení — nepočítáme, jak často aplikaci otevíráš.",
+          "Žádné potvrzení o přečtení, které se tváří jako smlouva.",
+          "Žádný tlak na status — nastav se jako zaneprázdněný bez výčitek za streak.",
+          "Notifikace na kanál, které opravdu ovládáš, ne obejití chaosu z výchozího nastavení."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Proč Verkio — Verkio",
     "metaDescription": "Proč si týmy vybírají Verkio: tichý software, otevřené standardy, EU rezidence, žádné uzamčení."

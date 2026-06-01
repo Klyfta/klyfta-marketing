@@ -9,15 +9,14 @@ import {
 } from "@/app/[locale]/components/ProductDeepPage";
 import { WaitlistCta } from "@/app/[locale]/components/WaitlistCta";
 
-const NAMESPACE = "productMail";
-const SLUG = "mail";
+const NAMESPACE = "productFiles";
+const SLUG = "files";
 
 const sections: ProductSection[] = [
-  { key: "webmail", bulletCount: 5 },
-  { key: "shared", bulletCount: 6 },
-  { key: "rules", bulletCount: 4 },
-  { key: "aliases", bulletCount: 5 },
-  { key: "domains", bulletCount: 5 },
+  { key: "privateShared", bulletCount: 5 },
+  { key: "encryption", bulletCount: 4 },
+  { key: "uploads", bulletCount: 4 },
+  { key: "sharing", bulletCount: 4 },
 ];
 
 export function generateStaticParams() {
@@ -37,7 +36,7 @@ export async function generateMetadata({
   });
 }
 
-export default async function ProductMailPage({
+export default async function ProductFilesPage({
   params,
 }: {
   params: Promise<{ locale: string }>;

@@ -770,6 +770,287 @@
       ]
     }
   },
+  "productCalendar": {
+    "metaTitle": "Kalender — Verkio",
+    "metaDescription": "Delte kalendere over åben CalDAV. Gentagne begivenheder, iMIP-invitationer, ledig/optaget. Synkroniser med Apple Calendar, Thunderbird, DAVx⁵ fra dag ét.",
+    "eyebrow": "Kalender",
+    "headline": "Planer, hvor de hører hjemme — i din suite.",
+    "body": "Delte kalendere, invitationer og ledig/optaget-opslag — over åben CalDAV. Intet proprietært plug-in at installere. Synkroniser med Apple Calendar, Thunderbird, DAVx⁵ eller din telefon, og hold hver begivenhed i takt.",
+    "cta": "Tilmeld venteliste",
+    "backLink": "Tilbage til produktoversigt",
+    "sections": {
+      "shared": {
+        "eyebrow": "Delte kalendere",
+        "headline": "Kalendere, der matcher, hvordan teamet faktisk arbejder.",
+        "body": "Personlige kalendere til din egen tid, delte kalendere til teamet, og så mange som din organisation har brug for. Måneds-, uge- og dagsvisninger i web-appen — gentagne begivenheder, heldagsbegivenheder, tidszonebevidsthed, det grundlæggende gjort ordentligt.",
+        "bullets": [
+          "Flere kalendere pr. bruger — personlig, projekt, vagtrotation, hvad du har brug for.",
+          "Delt med navngivne kolleger eller hele organisationen, med læse- eller skriverettigheder.",
+          "Gentagne begivenheder med alle standardregler — hver tirsdag, tredje fredag i måneden, slutningen af hvert kvartal.",
+          "Heldagsbegivenheder og tidszonebevidste begivenheder, begge respekteret på tværs af klienter.",
+          "Web-app med måneds-, uge- og dagsvisninger — tastaturgenveje inkluderet."
+        ]
+      },
+      "open": {
+        "eyebrow": "Åben af design",
+        "headline": "CalDAV under motorhjelmen. Din valgte klient ovenpå.",
+        "body": "Verkio Calendar taler CalDAV — det samme protokol, som Apple Calendar, Thunderbird og DAVx⁵ allerede kender. Ingen proprietær konnektor at downloade, intet 'fungerer bedst i vores app'-trick. Brug web-appen, klienten du allerede har, eller begge dele.",
+        "bullets": [
+          "Synkroniser med Apple Calendar på macOS og iOS — direkte opsætning, ingen udvidelse.",
+          "Synkroniser med Thunderbird via indbygget CalDAV — din eksisterende mailklient får din kalender.",
+          "Synkroniser med DAVx⁵ på Android — fuld to-vejs over en enkelt konto.",
+          "iCalendar-import og -eksport, så kalendere kommer rent frem og tilbage, når du flytter."
+        ]
+      },
+      "invites": {
+        "eyebrow": "Invitationer der virker",
+        "headline": "iMIP-invitationer, ikke skærmbilleder.",
+        "body": "Send standardkonforme iMIP-invitationer, og dine inviterede kan svare fra enhver standard mail- eller kalenderklient — Gmail inkluderet. Ledig/optaget-opslag på tværs af teamet, så du standser 'er du fri kl. 14?'-tråden, før den begynder.",
+        "bullets": [
+          "iMIP-invitationer (RFC 6047), der virker i Gmail, Outlook, Apple Calendar og Thunderbird.",
+          "RSVP-statusser (accepteret, foreløbig, afslået) sporet og opdateret i realtid.",
+          "Ledig/optaget-opslag på tværs af kolleger — find et tidsrum uden at dele skærm.",
+          "Kalenderafstemninger på roadmappet (Q2 2027) til, når ledig/optaget ikke rækker."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Åbne standarder",
+      "headline": "RFC'er hele vejen ned.",
+      "body": "Verkio Calendar er bygget på de samme åbne standarder, som dine eksisterende værktøjer allerede taler. Tag din klient med. Tag din kalender med, når du går.",
+      "items": [
+        "CalDAV (RFC 4791)",
+        "iCalendar (RFC 5545)",
+        "iMIP (RFC 6047)",
+        "iTIP (RFC 5546)",
+        "VTIMEZONE",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productContacts": {
+    "metaTitle": "Kontakter — Verkio",
+    "metaDescription": "Personlige og team-delte adressebøger over åben CardDAV. vCard-sync. Auto-udfyldes fra mail og kalenderinvitationer. Intet proprietært kontaktformat.",
+    "eyebrow": "Kontakter",
+    "headline": "En adressebog, der følger dig.",
+    "body": "Personlige og team-delte adressebøger over åben CardDAV. vCard-sync til enhver standardklient. Kontakter udfyldes automatisk fra mail og kalenderinvitationer — så du ikke ender med at skrive adresser ind, du allerede kender.",
+    "cta": "Tilmeld venteliste",
+    "backLink": "Tilbage til produktoversigt",
+    "sections": {
+      "shared": {
+        "eyebrow": "Personligt og delt",
+        "headline": "Dine kontakter, dit teams kontakter, aldrig forvekslet.",
+        "body": "Personlige adressebøger til menneskene i dit liv. Delte adressebøger til teamet — salg, support, kundekonti. Adgang pr. bog, så de rigtige mennesker ser de rigtige kontakter og ikke mere.",
+        "bullets": [
+          "Flere adressebøger pr. bruger — personlig, arbejde, projektspecifik.",
+          "Delte adressebøger med navngivne kolleger eller hele organisationen.",
+          "Kontaktgrupper til distribution og massehandlinger.",
+          "vCard-import og -eksport, så du kan bringe kontakter ind og ud rent."
+        ]
+      },
+      "open": {
+        "eyebrow": "Åben af design",
+        "headline": "CardDAV. Tag enhver klient med.",
+        "body": "Verkio Contacts taler CardDAV — det samme protokol, som Apple Contacts, Thunderbird og DAVx⁵ allerede kender. Din adressebog er din: bærbar, synkroniserbar, aldrig fanget i et proprietært format.",
+        "bullets": [
+          "Synkroniser med Apple Contacts på macOS og iOS over CardDAV — intet plug-in.",
+          "Synkroniser med Thunderbird og DAVx⁵ på Android.",
+          "vCard 4.0 import og eksport — frem og tilbage bevarer billeder, brugerdefinerede felter, grupper.",
+          "Intet proprietært kontaktformat. Gå med dine data intakte."
+        ]
+      },
+      "integrated": {
+        "eyebrow": "Auto-udfyldt",
+        "headline": "Kontakter, der dukker op, før du har brug for dem.",
+        "body": "Send mail til nogen ny, og deres adresse glider stille ind i din adressebog. Accepter en kalenderinvitation, og arrangøren er der også. Én identitet på tværs af mail, kalender og messaging — ingen dobbeltindtastning, ingen dubletter.",
+        "bullets": [
+          "Automatisk tilføjelse fra sendt mail (kan deaktiveres pr. konto).",
+          "Automatisk tilføjelse fra kalenderinvitationer — både arrangører og deltagere.",
+          "Dedup-heuristik, så samme person ikke dukker op tre gange.",
+          "Én identitet på tværs af mail, kalender og messaging — ét kort, overalt."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Åbne standarder",
+      "headline": "Bygget på de standarder, dine værktøjer allerede taler.",
+      "body": "Tag din klient med. Tag dine kontakter med, når du går. Intet proprietært format, du senere skal migrere fra.",
+      "items": [
+        "CardDAV (RFC 6352)",
+        "vCard 4.0 (RFC 6350)",
+        "vCard 3.0 (legacy interop)",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productFiles": {
+    "metaTitle": "Filer — Verkio",
+    "metaDescription": "Fillagring med EU-administrerede nøgler, ACL'er pr. fil, delelinks med udløb, genoptagelige multi-GB-uploads, 30-dages papirkurv.",
+    "eyebrow": "Filer",
+    "headline": "Filer med nøgler, du kontrollerer.",
+    "body": "Privat og team-delt fillagring med adgangskontrol pr. fil, krypteret i hvile med EU-administrerede nøgler, med genoptagelige multi-GB-uploads og en 30-dages papirkurv. Ingen masternøgle i en amerikansk bucket.",
+    "cta": "Tilmeld venteliste",
+    "backLink": "Tilbage til produktoversigt",
+    "sections": {
+      "privateShared": {
+        "eyebrow": "Privat og delt",
+        "headline": "Mapper, der matcher den måde, dit team faktisk arbejder på.",
+        "body": "Dit private arbejdsområde til kladder. Delte mapper til teamet. Organisationsbrede mapper til alle. Granulære ACL'er pr. fil eller pr. mappe, så du kan afgrænse en ekstern til ét projekt uden at blotte resten af drevet.",
+        "bullets": [
+          "Private mapper, som kun du kan se.",
+          "Delte mapper med navngivne kolleger eller hele teams.",
+          "Organisationsbrede mapper til det, alle har brug for.",
+          "ACL'er pr. fil — læsere, redaktører, ejere.",
+          "Logget i revisionslog: hver deling, hver tildeling, hver tilbagekaldelse."
+        ]
+      },
+      "encryption": {
+        "eyebrow": "Krypteret i hvile",
+        "headline": "Pr.-fil-nøgler holdt i EU.",
+        "body": "Hver fil får sin egen AES-256-GCM-datakrypteringsnøgle. Disse nøgler pakkes af Vault Transit på en EU-bosiddende nøgleserver — ikke et amerikansk KMS, ikke en hyperscaler. Hvis en disk forlader datacentret, går dine filer ikke med.",
+        "bullets": [
+          "Pr.-fil AES-256-GCM-kryptering — hver fil, hver plan, ingen merpris.",
+          "Datakrypteringsnøgler pakket af Vault Transit på EU-bosiddende infrastruktur.",
+          "Lagring på Hetzner EU object storage — ingen amerikansk bucket holder dine data.",
+          "Kunde-holdte nøgler kommer juni 2026 — selv Verkio kan ikke læse det."
+        ]
+      },
+      "uploads": {
+        "eyebrow": "Uploads",
+        "headline": "Multi-GB-uploads, der overlever dårligt café-Wi-Fi.",
+        "body": "Genoptagelige uploads samler op, hvor du slap, når forbindelsen falder. En 30-dages papirkurv fanger utilsigtede sletninger. Formatbevarende: det, du uploader, kommer tilbage som de samme bits, når du downloader det.",
+        "bullets": [
+          "Genoptagelige uploads — afbrudt ved 80 %, genoptag fra 80 %, ikke fra 0.",
+          "Filer op til lagringsgrænsen på din plan; ingen grænse pr. fil.",
+          "30-dages papirkurv — gendan slettede filer uden en supportsag.",
+          "Formatbevarende — din PDF, video eller .docx kommer uændret frem og tilbage."
+        ]
+      },
+      "sharing": {
+        "eyebrow": "Delelinks",
+        "headline": "Delelinks med autoværn.",
+        "body": "Send et link til hvem som helst, ikke kun Verkio-brugere. Tilføj en adgangskode, hvis det er følsomt. Sæt en udløbsdato, så gamle links ikke hjemsøger dig. Hver deling er i revisionsloggen — hvem delte hvad, hvornår, med hvem.",
+        "bullets": [
+          "Offentlige delelinks til download uden konto.",
+          "Adgangskodebeskyttelse pr. deling — del linket, del adgangskoden separat.",
+          "Udløbsdato — links selvdestruerer efter en dato eller et antal visninger.",
+          "Logget i revisionslog, så du altid ved, hvad der er delt med hvem."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Standarder",
+      "headline": "Åbne formater, standardkryptografi, EU-infrastruktur.",
+      "body": "Intet proprietært filformat. Ingen amerikansk-hyperscaler-nøgleforvaltning. Dine filer forbliver dine og kommer uændret frem og tilbage.",
+      "items": [
+        "AES-256-GCM",
+        "Vault Transit (KMS)",
+        "TLS 1.3",
+        "Hetzner EU object storage",
+        "Open formats round-trip unchanged"
+      ]
+    }
+  },
+  "productWikis": {
+    "metaTitle": "Wikier — Verkio",
+    "metaDescription": "Versionerede, søgbare videnssrum til teamet. Personlige, team-delte og organisationsbrede områder. Bygget på CommonMark Markdown.",
+    "eyebrow": "Wikier",
+    "headline": "Den viden, dit team skriver til sig selv.",
+    "body": "Strukturerede, versionerede rum til runbooks, beslutninger, onboarding og den institutionelle viden, dit team ellers genopfinder hver sjette måned. Søgbar, sammenkoblelig, i samme suite som din mail og kalender.",
+    "cta": "Tilmeld venteliste",
+    "backLink": "Tilbage til produktoversigt",
+    "sections": {
+      "versioned": {
+        "eyebrow": "Versioneret",
+        "headline": "Hver redigering registreret.",
+        "body": "Wikier er ikke bare et sted at skrive; det er et sted at spore, hvordan beslutninger udviklede sig. Hver ændring bliver fanget, tilskrevet og er reversibel — nyttigt for compliance, og nyttigt for at finde ud af, hvem der ødelagde runbooken.",
+        "bullets": [
+          "Fuld redigeringshistorik pr. side — se hvad der ændrede sig, hvornår, af hvem.",
+          "Diff-visning mellem to vilkårlige revisioner.",
+          "Gendan en tidligere version med ét klik.",
+          "Ingen tavse overskrivninger — registrering af samtidig redigering holder arbejdet sikkert."
+        ]
+      },
+      "scopes": {
+        "eyebrow": "Tre områder",
+        "headline": "Personligt, team-delt, organisationsbredt.",
+        "body": "Nogle sider er til dig — kladder, ugentlige noter. Nogle er til dit team — runbooks, projektsider. Nogle er til hele organisationen — onboarding, politikker, køkkenets Wi-Fi-adgangskode. Tre klare områder, ingen huleforskning i tilladelser.",
+        "bullets": [
+          "Personligt — kladder og noter kun du ser.",
+          "Delt med mig — sider, dit team har delt med dig.",
+          "Delt med organisationen — sider, alle i organisationen kan læse.",
+          "Skift mellem områder med ét klik; tilladelser opdateres derefter."
+        ]
+      },
+      "linked": {
+        "eyebrow": "Sammenkoblet",
+        "headline": "Sider, der finder hinanden.",
+        "body": "Wikilinks til at forbinde sider, fuldtekstsøgning til at finde dem, hierarki til at gennemse dem. Vidensgrafen bygger sig selv, mens dit team skriver.",
+        "bullets": [
+          "Wikilinks — [[Sidetitel]] løses overalt i din wiki.",
+          "Fuldtekstsøgning på tværs af sider, med indholdsuddrag i resultaterne.",
+          "Hierarki og brødkrummer — mapper og forældresider til navigation.",
+          "Backlink-panel — se hver side, der linker til den, du er på."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Åbne formater",
+      "headline": "CommonMark Markdown. HTML-eksport. Din at tage med.",
+      "body": "Wikisider gemmes som Markdown — det samme format, du ville skrive i i enhver editor, på enhver platform. Eksporter det hele som HTML eller download Markdown pr. side, når du vil.",
+      "items": [
+        "CommonMark Markdown",
+        "GFM tables and task lists",
+        "HTML export (full wiki)",
+        "Per-page Markdown download",
+        "JSON export (structure + metadata)"
+      ]
+    }
+  },
+  "productMessaging": {
+    "metaTitle": "Messaging — Verkio",
+    "metaDescription": "Kanaler, DMs og tråde til teamsamtaler. Samme login, samme søgning, samme revisionslog som resten af din suite.",
+    "eyebrow": "Messaging",
+    "headline": "Hurtige samtaler, samme login.",
+    "body": "Kanaler til teamarbejde, DMs til én-til-én, tråde for at holde svar uadskilte. Søgbar ved siden af din mail, kalender og wiki — ikke en separat fane at holde øje med.",
+    "cta": "Tilmeld venteliste",
+    "backLink": "Tilbage til produktoversigt",
+    "sections": {
+      "channels": {
+        "eyebrow": "Kanaler, DMs, tråde",
+        "headline": "Formerne, et rigtigt team har brug for.",
+        "body": "Kanaler til løbende arbejde — #engineering, #support, #social. DMs til én-til-én. Tråde i begge, så en diskussion om en ting ikke vælter resten af rummet.",
+        "bullets": [
+          "Offentlige kanaler til teamomfattende arbejde og meddelelser.",
+          "Private kanaler til følsomme projekter, kun efter invitation.",
+          "Direkte beskeder, én-til-én eller små grupper.",
+          "Trådede svar, så flere samtaler kan finde sted i én kanal."
+        ]
+      },
+      "inSuite": {
+        "eyebrow": "I samme suite",
+        "headline": "Ét login. Én søgning. Én revisionslog.",
+        "body": "Messaging deler samme identitet som din mail og kalender. Søgning på et kundenavn henter beskeder, mails, invitationer og wikisider på én gang. Den samme revisionslog, der registrerer mailhandlinger, registrerer også messaging-handlinger.",
+        "bullets": [
+          "Samme login som resten af din Verkio-konto — ingen Slack-agtig separat fakturering.",
+          "Universel søgning på tværs af beskeder, mail, kalender, kontakter, filer, wikier.",
+          "Samme revisionslog-overflade til compliance og operatørgennemgang.",
+          "Ingen anden faktureringslinje — inkluderet i din suite."
+        ]
+      },
+      "noNoise": {
+        "eyebrow": "Stille som standard",
+        "headline": "Bygget til arbejde, ikke til engagement.",
+        "body": "Ingen 'nogen skriver'-angst. Ingen streaks. Ingen 'du kunne være interesseret i'-sidebar. Messaging er et værktøj — det dukker op, når du har brug for det, og bliver ude af vejen, når du ikke har.",
+        "bullets": [
+          "Ingen engagementmålinger — vi tæller ikke, hvor ofte du tjekker appen.",
+          "Ingen læsekvitteringer, der lader som om de er en kontrakt.",
+          "Intet statuspres — sæt dig som optaget uden streak-skyldfølelse.",
+          "Notifikationer pr. kanal, som du faktisk styrer, ikke omveje for standardkaos."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Hvorfor Verkio — Verkio",
     "metaDescription": "Hvorfor teams vælger Verkio: stille software, åbne standarder, EU-residens, ingen indlåsning."

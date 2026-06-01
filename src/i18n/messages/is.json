@@ -770,6 +770,287 @@
       ]
     }
   },
+  "productCalendar": {
+    "metaTitle": "Dagatal — Verkio",
+    "metaDescription": "Sameiginleg dagatöl yfir opnu CalDAV. Endurteknir viðburðir, iMIP-boð, free/busy. Samstilling við Apple Calendar, Thunderbird, DAVx⁵ frá fyrsta degi.",
+    "eyebrow": "Dagatal",
+    "headline": "Áætlanir þar sem þær eiga heima — í þinni svítu.",
+    "body": "Sameiginleg dagatöl, boð og free/busy-leit — yfir opnu CalDAV. Engin séreignar-viðbót til að setja upp. Samstilltu við Apple Calendar, Thunderbird, DAVx⁵ eða símann þinn, og hver viðburður helst í takt.",
+    "cta": "Skrá á biðlista",
+    "backLink": "Aftur að yfirliti vöru",
+    "sections": {
+      "shared": {
+        "eyebrow": "Sameiginleg dagatöl",
+        "headline": "Dagatöl sem passa við hvernig teymið vinnur raunverulega.",
+        "body": "Persónuleg dagatöl fyrir þinn eigin tíma, sameiginleg dagatöl fyrir teymið, og eins mörg og fyrirtækið þarf. Mánaðar-, viku- og dagsýn í vefappinu — endurteknir viðburðir, heilsdagsviðburðir, tímabeltavitund, grunnurinn unninn rétt.",
+        "bullets": [
+          "Mörg dagatöl á notanda — persónulegt, verkefni, bakvaktasnúningur, hvað sem þú þarft.",
+          "Deilt með nafngreindum samstarfsmönnum eða öllu fyrirtækinu, með les- eða skrifréttindum.",
+          "Endurteknir viðburðir með öllum stöðluðum reglum — hvern þriðjudag, þriðja föstudag mánaðarins, lok hvers ársfjórðungs.",
+          "Heilsdagsviðburðir og tímabeltavitnir viðburðir, báðir virtir í öllum biðlurum.",
+          "Vefapp með mánaðar-, viku- og dagsýn — lyklaborðsstyttingar innifaldar."
+        ]
+      },
+      "open": {
+        "eyebrow": "Opið að hönnun",
+        "headline": "CalDAV undir vélarhlífinni. Þinn valbiðlari ofan á.",
+        "body": "Verkio Calendar talar CalDAV — sömu samskiptareglu og Apple Calendar, Thunderbird og DAVx⁵ kunna nú þegar. Enginn séreignar-tengill að hlaða niður, engin 'virkar best í appinu okkar'-blekking. Notaðu vefappið, biðlarann sem þú átt nú þegar, eða bæði.",
+        "bullets": [
+          "Samstilling við Apple Calendar á macOS og iOS — bein uppsetning, engin viðbót.",
+          "Samstilling við Thunderbird í gegnum innbyggt CalDAV — núverandi póstbiðlarinn þinn fær dagatalið þitt.",
+          "Samstilling við DAVx⁵ á Android — full tvíhliða um einn reikning.",
+          "iCalendar innflutningur og útflutningur svo dagatöl ferðast hreint fram og til baka þegar þú færir þig."
+        ]
+      },
+      "invites": {
+        "eyebrow": "Boð sem virka",
+        "headline": "iMIP-boð, ekki skjáskot.",
+        "body": "Sendu staðla-samhæf iMIP-boð og boðsgestir þínir geta svarað úr hvaða staðlaða póst- eða dagatals-biðlara sem er — Gmail meðtalið. Free/busy-leit yfir teymið svo 'ertu laus klukkan 14?'-þráðurinn byrji aldrei.",
+        "bullets": [
+          "iMIP-boð (RFC 6047) sem virka í Gmail, Outlook, Apple Calendar og Thunderbird.",
+          "RSVP-stöður (samþykkt, til bráðabirgða, hafnað) raktar og uppfærðar í rauntíma.",
+          "Free/busy-leit yfir samstarfsfólk — finndu glugga án þess að deila dagatalsskjánum þínum.",
+          "Dagatalskannanir á vegvísinum (Q2 2027) þegar free/busy dugar ekki."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Opnir staðlar",
+      "headline": "RFC-ar allt niður.",
+      "body": "Verkio Calendar er byggt á sömu opnu stöðlunum og núverandi tólin þín tala þegar. Komdu með biðlarann þinn. Taktu dagatalið með þér þegar þú ferð.",
+      "items": [
+        "CalDAV (RFC 4791)",
+        "iCalendar (RFC 5545)",
+        "iMIP (RFC 6047)",
+        "iTIP (RFC 5546)",
+        "VTIMEZONE",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productContacts": {
+    "metaTitle": "Tengiliðir — Verkio",
+    "metaDescription": "Persónulegar og teymisdeildar nafnabækur yfir opnu CardDAV. vCard-samstilling. Sjálfvirkt fyllt úr pósti og dagatalsboðum. Engin séreignar-tengiliðasnið.",
+    "eyebrow": "Tengiliðir",
+    "headline": "Nafnabók sem fylgir þér.",
+    "body": "Persónulegar og teymisdeildar nafnabækur yfir opnu CardDAV. vCard-samstilling í hvaða staðlaða biðlara sem er. Tengiliðir fyllast sjálfkrafa úr pósti og dagatalsboðum — svo þú endir ekki á að slá inn aftur heimilisföng sem þú þekkir nú þegar.",
+    "cta": "Skrá á biðlista",
+    "backLink": "Aftur að yfirliti vöru",
+    "sections": {
+      "shared": {
+        "eyebrow": "Persónulegt og deilt",
+        "headline": "Þínir tengiliðir, tengiliðir teymisins, aldrei ruglaðir saman.",
+        "body": "Persónulegar nafnabækur fyrir fólkið í lífi þínu. Deildar nafnabækur fyrir teymið — sala, þjónusta, viðskiptavinareikningar. Aðgangur á bók svo rétta fólkið sjái réttu tengiliðina og ekki meira.",
+        "bullets": [
+          "Margar nafnabækur á notanda — persónulegt, vinnu, verkefnasértækt.",
+          "Deildar nafnabækur með nafngreindum samstarfsmönnum eða öllu fyrirtækinu.",
+          "Tengiliðahópar fyrir dreifingu og fjöldaaðgerðir.",
+          "vCard innflutningur og útflutningur svo þú getir komið með tengiliðum inn og tekið þá hreint út."
+        ]
+      },
+      "open": {
+        "eyebrow": "Opið að hönnun",
+        "headline": "CardDAV. Komdu með hvaða biðlara sem er.",
+        "body": "Verkio Contacts talar CardDAV — sömu samskiptareglu og Apple Contacts, Thunderbird og DAVx⁵ kunna nú þegar. Nafnabókin þín er þín: færanleg, samstillanleg, aldrei föst í séreignar-sniði.",
+        "bullets": [
+          "Samstilling við Apple Contacts á macOS og iOS yfir CardDAV — engin viðbót.",
+          "Samstilling við Thunderbird og DAVx⁵ á Android.",
+          "vCard 4.0 innflutningur og útflutningur — leiðin fram og til baka varðveitir myndir, sérsniðin svið, hópa.",
+          "Engin séreignar-tengiliðasnið. Farðu með gögnin þín heil."
+        ]
+      },
+      "integrated": {
+        "eyebrow": "Sjálfkrafa fyllt",
+        "headline": "Tengiliðir sem birtast áður en þú þarft þá.",
+        "body": "Sendu póst á einhvern nýjan og heimilisfangið hans rennur hljóðlega í nafnabókina þína. Þiggðu dagatalsboð og skipuleggjandinn er þar líka. Eitt sjálf yfir póst, dagatal og messaging — engin tvöföld innsláttur, engin tvítekin spjöld.",
+        "bullets": [
+          "Sjálfvirk viðbót úr sendum pósti (hægt að slökkva á per reikningi).",
+          "Sjálfvirk viðbót úr dagatalsboðum — skipuleggjendur og þátttakendur.",
+          "Tvítekninga-heurístíkur svo sama manneskja birtist ekki þrisvar.",
+          "Eitt sjálf yfir póst, dagatal og messaging — eitt spjald, alls staðar."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Opnir staðlar",
+      "headline": "Byggt á stöðlunum sem tólin þín tala þegar.",
+      "body": "Komdu með biðlarann þinn. Taktu tengiliðina með þér þegar þú ferð. Ekkert séreignar-snið sem þú þarft að flytja af síðar.",
+      "items": [
+        "CardDAV (RFC 6352)",
+        "vCard 4.0 (RFC 6350)",
+        "vCard 3.0 (legacy interop)",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productFiles": {
+    "metaTitle": "Skrár — Verkio",
+    "metaDescription": "Skráageymsla með lyklum stýrðum innan ESB, ACL á hverja skrá, deilihlekkjum með fyrningu, marg-GB upphalum sem hægt er að halda áfram, 30 daga ruslakörfu.",
+    "eyebrow": "Skrár",
+    "headline": "Skrár með lyklum sem þú stjórnar.",
+    "body": "Einkamál og teymisdeild skráageymsla með aðgangsstýringum á hverja skrá, dulkóðuð í hvíld með lyklum stýrðum innan ESB, með marg-GB upphalum sem hægt er að halda áfram og 30 daga ruslakörfu. Enginn aðallykill í bandarísku bucket.",
+    "cta": "Skrá á biðlista",
+    "backLink": "Aftur að yfirliti vöru",
+    "sections": {
+      "privateShared": {
+        "eyebrow": "Einkamál og deilt",
+        "headline": "Möppur sem passa við hvernig teymið þitt vinnur raunverulega.",
+        "body": "Þitt einkavinnusvæði fyrir drög. Deildar möppur fyrir teymið. Fyrirtækisbreiðar möppur fyrir alla. Smáar ACLs á hverja skrá eða möppu, svo þú getir afmarkað verktaka við eitt verkefni án þess að afhjúpa restina af drifinu.",
+        "bullets": [
+          "Einkamöppur sem aðeins þú sérð.",
+          "Deildar möppur með nafngreindum samstarfsmönnum eða heilum teymum.",
+          "Fyrirtækisbreiðar möppur fyrir hluti sem allir þurfa.",
+          "ACLs á hverja skrá — lesendur, ritstjórar, eigendur.",
+          "Skráð í endurskoðunarlogg: hver deiling, hver veiting, hver afturköllun."
+        ]
+      },
+      "encryption": {
+        "eyebrow": "Dulkóðað í hvíld",
+        "headline": "Lyklar á hverja skrá, geymdir innan ESB.",
+        "body": "Hver skrá fær sinn eigin AES-256-GCM gagnadulkóðunarlykil. Þessir lyklar eru pakkaðir af Vault Transit á ESB-staðsettum lyklaþjóni — ekki bandarískt KMS, enginn hyperscaler. Ef diskur gengur út úr gagnaverinu fara skrárnar þínar ekki með.",
+        "bullets": [
+          "AES-256-GCM dulkóðun á hverja skrá — hver skrá, hver áskrift, án aukagjalds.",
+          "Gagnadulkóðunarlyklar pakkaðir af Vault Transit á ESB-staðsettri innviðum.",
+          "Geymsla á Hetzner EU object storage — engin bandarísk bucket heldur gögnunum þínum.",
+          "Dulkóðun með viðskiptavinalykli send út í júní 2026 — jafnvel Verkio getur ekki lesið hana."
+        ]
+      },
+      "uploads": {
+        "eyebrow": "Upphalir",
+        "headline": "Marg-GB upphalir sem lifa af lélegt kaffihús-Wi-Fi.",
+        "body": "Upphalir sem hægt er að halda áfram taka upp þar sem þú hættir þegar tengingin slitnar. 30 daga ruslakarfa grípur óvart-eyðingar. Sniðvarðveitandi: hvað sem þú hleður upp kemur til baka sem sömu bitar þegar þú sækir.",
+        "bullets": [
+          "Upphalir sem hægt er að halda áfram — rofnar á 80 %, haltu áfram frá 80 %, ekki frá 0.",
+          "Skrár upp að geymsluþaki áskriftarinnar; engin stærðartakmörk á hverja skrá.",
+          "30 daga ruslakarfa — endurheimtu eyddar skrár án þjónustubeiðni.",
+          "Sniðvarðveitandi — þitt PDF, vídeó eða .docx ferðast óbreytt fram og til baka."
+        ]
+      },
+      "sharing": {
+        "eyebrow": "Deilihlekkir",
+        "headline": "Deilihlekkir með varnargirðingum.",
+        "body": "Sendu hlekk á hvern sem er, ekki bara Verkio-notendur. Bættu við lykilorði ef það er viðkvæmt. Settu fyrningu svo gamlir hlekkir trufli þig ekki. Hver deiling er í endurskoðunarlogg — hver deildi hverju, hvenær, með hverjum.",
+        "bullets": [
+          "Opinberir deilihlekkir til niðurhals án reiknings.",
+          "Lykilorðsvörn á hverja deilingu — deildu hlekknum, deildu lykilorðinu sér.",
+          "Fyrningardagsetning — hlekkir tortímast eftir dagsetningu eða fjölda skoðana.",
+          "Skráð í endurskoðunarlogg svo þú vitir alltaf hvað hefur verið deilt með hverjum."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Staðlar",
+      "headline": "Opin snið, staðlað dulkóðun, ESB-innviðir.",
+      "body": "Engin séreignar-skrársnið. Engin bandarísk hyperscaler-lyklavarsla. Skrárnar þínar haldast þínar og ferðast óbreyttar fram og til baka.",
+      "items": [
+        "AES-256-GCM",
+        "Vault Transit (KMS)",
+        "TLS 1.3",
+        "Hetzner EU object storage",
+        "Open formats round-trip unchanged"
+      ]
+    }
+  },
+  "productWikis": {
+    "metaTitle": "Wikis — Verkio",
+    "metaDescription": "Útgáfusett, leitanleg teymisþekkingarrými. Persónulegt, teymisdeilt og fyrirtækisbreitt umfang. Byggt á CommonMark Markdown.",
+    "eyebrow": "Wikis",
+    "headline": "Þekkingin sem teymið þitt skrifar fyrir sjálft sig.",
+    "body": "Skipulögð, útgáfusett rými fyrir runbooks, ákvarðanir, onboarding og stofnanaþekkinguna sem teymið þitt myndi annars finna upp aftur á sex mánaða fresti. Leitanleg, tengjanleg, í sömu svítu og pósturinn og dagatalið þitt.",
+    "cta": "Skrá á biðlista",
+    "backLink": "Aftur að yfirliti vöru",
+    "sections": {
+      "versioned": {
+        "eyebrow": "Útgáfusett",
+        "headline": "Hver breyting skráð.",
+        "body": "Wikis eru ekki bara staður til að skrifa; þau eru staður til að rekja hvernig ákvarðanir þróuðust. Hver breyting er skráð, eignuð og afturkræf — gagnlegt fyrir compliance og gagnlegt til að átta sig á hver braut runbookið.",
+        "bullets": [
+          "Full breytingasaga á síðu — sjáðu hvað breyttist, hvenær, af hverjum.",
+          "Diff-sýn milli hvaða tveggja útgáfa sem er.",
+          "Endurheimtu fyrri útgáfu með einum smelli.",
+          "Engin hljóðlát yfirskrift — uppgötvun samhliða breytinga ver vinnuna."
+        ]
+      },
+      "scopes": {
+        "eyebrow": "Þrjú umfang",
+        "headline": "Persónulegt, teymisdeilt, fyrirtækisbreitt.",
+        "body": "Sumar síður eru fyrir þig — drög, vikunótur. Sumar fyrir teymið — runbooks, verkefnasíður. Sumar fyrir allt fyrirtækið — onboarding, stefnur, Wi-Fi-lykilorð eldhússins. Þrjú skýr umfang, engin leyfis-námagröftur.",
+        "bullets": [
+          "Persónulegt — drög og minnismiðar sem aðeins þú sérð.",
+          "Deilt með mér — síður sem teymið þitt hefur deilt með þér.",
+          "Deilt með fyrirtækinu — síður sem allir í fyrirtækinu geta lesið.",
+          "Færðu þig á milli umfanga með einum smelli; leyfin uppfærast samkvæmt því."
+        ]
+      },
+      "linked": {
+        "eyebrow": "Tengt",
+        "headline": "Síður sem finna hver aðra.",
+        "body": "Wikilinks til að tengja síður, heiltextaleit til að finna þær og stigveldi til að vafra um þær. Þekkingargrafið byggist sjálft eftir því sem teymið þitt skrifar.",
+        "bullets": [
+          "Wikilinks — [[Síðuheiti]] leysist hvar sem er í wikinu þínu.",
+          "Heiltextaleit yfir síður, með innihaldssniðum í niðurstöðum.",
+          "Stigveldi og molagangur — möppur og foreldrasíður til siglingar.",
+          "Bakhlekkja-spjald — sjáðu hverja síðu sem tengir í þá sem þú ert á."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Opin snið",
+      "headline": "CommonMark Markdown. HTML-útflutningur. Þitt að taka með.",
+      "body": "Wiki-síður eru geymdar sem Markdown — sama sniðið og þú myndir skrifa í hvaða ritstjóra sem er, á hvaða palli sem er. Flyttu allt út sem HTML eða náðu í Markdown per síðu hvenær sem þú vilt.",
+      "items": [
+        "CommonMark Markdown",
+        "GFM tables and task lists",
+        "HTML export (full wiki)",
+        "Per-page Markdown download",
+        "JSON export (structure + metadata)"
+      ]
+    }
+  },
+  "productMessaging": {
+    "metaTitle": "Messaging — Verkio",
+    "metaDescription": "Rásir, DMs og þræðir fyrir teymissamtöl. Sama innskráning, sama leit, sami endurskoðunarlogg og restin af svítunni þinni.",
+    "eyebrow": "Messaging",
+    "headline": "Snögg samtöl, sama innskráning.",
+    "body": "Rásir fyrir teymisvinnu, DMs fyrir einn-á-einn, þræðir til að halda svörum óflæktum. Leitanleg við hliðina á póstinum, dagatalinu og wikinu þínu — engin sérstök síða til að halda í við.",
+    "cta": "Skrá á biðlista",
+    "backLink": "Aftur að yfirliti vöru",
+    "sections": {
+      "channels": {
+        "eyebrow": "Rásir, DMs, þræðir",
+        "headline": "Formin sem alvöru teymi þarf.",
+        "body": "Rásir fyrir áframhaldandi vinnu — #engineering, #support, #social. DMs fyrir einn-á-einn. Þræðir í báðum, svo umræða um eitt mál troði ekki yfir restina af herberginu.",
+        "bullets": [
+          "Opinberar rásir fyrir teymisbreiða vinnu og tilkynningar.",
+          "Lokaðar rásir fyrir viðkvæm verkefni, aðeins eftir boði.",
+          "Beinskilaboð, einn-á-einn eða í litlum hópum.",
+          "Þráðasvör svo mörg samtöl geta átt sér stað í einni rás."
+        ]
+      },
+      "inSuite": {
+        "eyebrow": "Í sömu svítu",
+        "headline": "Ein innskráning. Ein leit. Einn endurskoðunarlogg.",
+        "body": "Messaging deilir sömu sjálfsmynd og pósturinn og dagatalið þitt. Leit að viðskiptavinarnafni dregur skilaboð, tölvupóst, boð og wiki-síður í einum rykk. Sami endurskoðunarloggur sem skráir póstaðgerðir skráir líka messaging-aðgerðir.",
+        "bullets": [
+          "Sama innskráning og restin af Verkio-reikningnum þínum — enginn sérstakur Slack-skattur.",
+          "Allsherjarleit yfir skilaboð, póst, dagatal, tengiliði, skrár, wikis.",
+          "Sami endurskoðunarlogg-flötur fyrir compliance og rekstraryfirferð.",
+          "Engin önnur reikningslína — innifalin í svítunni þinni."
+        ]
+      },
+      "noNoise": {
+        "eyebrow": "Hljóðlátt sjálfgefið",
+        "headline": "Smíðað fyrir vinnu, ekki fyrir engagement.",
+        "body": "Enginn 'einhver er að skrifa'-kvíði. Engin streaks. Enginn 'þér gæti líkað' hliðarbar. Messaging er tól — það birtist þegar þú þarft og er úr veginum þegar þú þarft ekki.",
+        "bullets": [
+          "Engar engagement-mælingar — við teljum ekki hve oft þú kíkir á appið.",
+          "Engin lesstaðfestingar sem þykjast vera samningur.",
+          "Enginn stöðu-þrýstingur — settu þig á upptekinn án streak-sektarferðar.",
+          "Tilkynningar per rás sem þú stjórnar í raun, ekki útúrsnúningar fyrir sjálfgefnu óreiðuna."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Hvers vegna Verkio — Verkio",
     "metaDescription": "Hvers vegna teymi velja Verkio: rólegt hugbúnaður, opnir staðlar, ESB-búseta, engin innilokun."
