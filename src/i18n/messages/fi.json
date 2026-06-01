@@ -361,8 +361,8 @@
       },
       "ssoScim": {
         "date": "Q1 2027",
-        "name": "SSO ja SCIM-provisiointi",
-        "description": "SAML- ja OIDC-kirjautuminen. SCIM provisioi ja deprovisioi käyttäjät automaattisesti Oktan, Entra ID:n tai minkä tahansa standardin identiteetin tarjoajan kautta."
+        "name": "SCIM and OIDC sign-on",
+        "description": "RFC 7644 SCIM endpoints so Okta / Entra ID / any standard IdP can auto-provision and de-provision users via push, instead of waiting for first sign-in. OIDC sign-on as an alternative to SAML for IdPs that prefer it. SAML SSO already shipped — see above."
       },
       "emailAliases": {
         "date": "Toukokuu 2026",
@@ -494,6 +494,11 @@
         "date": "June 2026",
         "name": "Customer-held-key encryption at rest (opt-in)",
         "description": "Optional per-mailbox upgrade: Verkio configures Stalwart to encrypt every incoming message to YOUR PGP public key before writing to disk. Your private key stays in your mail client (Thunderbird / Apple Mail / K-9 / Outlook+PGP). Verkio physically cannot read those messages at rest. Trades web inbox + search + push previews for the strongest at-rest posture. Free on every plan — no Microsoft/Google-style upsell. Default Verkio-managed-keys posture (every account, every plan) is unchanged."
+      },
+      "samlSso": {
+        "date": "June 2026",
+        "name": "SAML / SSO",
+        "description": "Federated sign-in via Okta, Azure AD, Google Workspace, or any SAML 2.0 IdP. Auto-creates Verkio users on first sign-in (JIT provisioning); group/role claims map to org roles and re-evaluate on every sign-in. SP metadata URL exposed in-app for one-click IdP setup. Owner-only configuration."
       }
     }
   },

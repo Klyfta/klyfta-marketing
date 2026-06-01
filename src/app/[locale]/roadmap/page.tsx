@@ -66,6 +66,7 @@ const roadmapItems: { key: string; size: RoadmapSize; status?: RoadmapStatus }[]
   { key: "pgpSmime", size: "major", status: "implemented" },
   { key: "universalSearch", size: "major", status: "implemented" },
   { key: "tier2Encryption", size: "major", status: "implemented" },
+  { key: "samlSso", size: "major", status: "implemented" },
   { key: "migration", size: "major" },
   { key: "ssoScim", size: "major" },
   { key: "eidasSigning", size: "major" },
