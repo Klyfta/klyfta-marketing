@@ -649,6 +649,115 @@
     "metaTitle": "Hvers vegna Verkio — Verkio",
     "metaDescription": "Hvers vegna teymi velja Verkio: rólegt hugbúnaður, opnir staðlar, ESB-búseta, engin innilokun."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Póstur",
+      "headline": "Póstur sem vinnur raunverulega vinnuna.",
+      "body": "Staðlamiðaður póstur með innbyggðum teymisvinnuferlum — sameiginleg pósthólf, reglur á þjónustuhlið og auðkenni sem virka ekki sem viðbót.",
+      "items": {
+        "webmail": {
+          "name": "Vefpóstur",
+          "description": "Lyklaborðsdrifið innhólf með þráðum, leit og merkimiðum. Vefpósturinn sem þú vildir að Gmail væri enn."
+        },
+        "shared": {
+          "name": "Sameiginleg pósthólf",
+          "description": "Teymispósthólf með úthlutun, stöðu, innri athugasemdum og aðgangsstjórnun eftir möppum."
+        },
+        "rules": {
+          "name": "Reglur á þjónustuhlið",
+          "description": "Sieve-síur sem þú byggir í stjórnborðinu og beitt er við afhendingu — virka því í öllum póstforritum."
+        },
+        "aliases": {
+          "name": "Auðkenni og áframsending",
+          "description": "Ótakmörkuð auðkenni, catch-all á léninu þínu, ytri áframsendingar með staðfestingu og skráðar í úttekt."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Dagatal og tengiliðir",
+      "headline": "Áætlanir og fólk, í svítu þinni.",
+      "body": "Dagatöl og tengiliðabækur yfir opna CalDAV og CardDAV — engin sérvarins viðbót nauðsynleg, engin tvöföld innfærsla.",
+      "items": {
+        "calendars": {
+          "name": "Sameiginleg dagatöl",
+          "description": "Endurtekið atburðir, boðsbréf og laust/upptekið-uppfletting í öllu teyminu."
+        },
+        "contacts": {
+          "name": "Tengiliðabækur",
+          "description": "Persónulegir og teymisdeildir tengiliðir með vCard-samstillingu við Apple Calendar, Thunderbird, DAVx⁵."
+        },
+        "identity": {
+          "name": "Ein auðkenning",
+          "description": "Tengiliðir fyllast sjálfkrafa úr pósti og dagatalsboðum. Sama innskráning og restin af svítunni."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Skrár og wikiar",
+      "headline": "Skjöl, þekking, ákvarðanir — varðveitt.",
+      "body": "Einkaskrár og teymisdeildar skrár við hlið uppbyggðra svæða fyrir runbooks, ákvarðanir og þá stofnanaþekkingu sem teymið þitt skrifar fyrir sjálft sig.",
+      "items": {
+        "files": {
+          "name": "Skráageymsla",
+          "description": "Aðgangsstýring eftir skrá, áframhaldanlegar margra GB upphleðslur, 30 daga endurheimt úr Ruslinu."
+        },
+        "wikis": {
+          "name": "Wikiar",
+          "description": "Leitanleg, útgáfustýrð svæði fyrir lifandi þekkingu teymisins — ekki sérstök forrit til að viðhalda."
+        },
+        "encryption": {
+          "name": "ESB-stýrðir lyklar",
+          "description": "Dulkóðun í hvíld með lyklum sem geymdir eru í ESB. Ekki bandarískt KMS, ekki hyperscaler."
+        },
+        "openFormats": {
+          "name": "Opin snið",
+          "description": "Útflutningur í staðalsnið hvenær sem þú vilt fara. Engin innilokun, aldrei."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Skilaboð",
+      "headline": "Stuttar samræður, sama innskráning.",
+      "body": "Rásir, DM-skilaboð og þræðir fyrir teymið — leitanleg á sama stað og pósturinn þinn og skjölin, ekki sérstakur flipi til að fylgjast með.",
+      "items": {
+        "channels": {
+          "name": "Rásir og DM",
+          "description": "Fyrir tilkynningar, verkefnavinnu og einn á einn."
+        },
+        "threaded": {
+          "name": "Í þráðum",
+          "description": "Svo samtöl drekki ekki hvert öðru. Þagga niður það sem þú ert ekki í."
+        },
+        "search": {
+          "name": "Ein leit",
+          "description": "Finndu skilaboð við hlið dagatalsboða eða wiki-síðu — ein fyrirspurn, allir fletir."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Vettvangur",
+      "headline": "Svíta til að nota, og vettvangur til að byggja á.",
+      "body": "Opið REST API, undirritaðir webhooks og réttarfræðileg úttektarskrá. Senn: Skráðu þig inn með Verkio — ESB-búsettur auðkennisveitandi fyrir forritin þín og viðskiptavinina þína.",
+      "items": {
+        "api": {
+          "name": "Opið API",
+          "description": "REST með OpenAPI 3.1 forskrift, bearer-tákn, hraðamörk eftir lykli."
+        },
+        "webhooks": {
+          "name": "Undirritaðir webhooks",
+          "description": "HMAC-staðfest afhending með endurtekningum og dead-letter-biðröð. Skráð í úttekt."
+        },
+        "audit": {
+          "name": "Úttektarskrá",
+          "description": "Sérhver stjórnandaaðgerð skráð, með gildum fyrir/eftir. Hægt að flytja út í þitt SIEM."
+        },
+        "signIn": {
+          "name": "Skráðu þig inn með Verkio",
+          "description": "ESB-búsetti valkostur við Skráðu þig inn með Google eða Apple. Senn fáanlegt."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Vara",

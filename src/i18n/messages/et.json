@@ -649,6 +649,115 @@
     "metaTitle": "Miks Verkio — Verkio",
     "metaDescription": "Miks meeskonnad valivad Verkio: vaikne tarkvara, avatud standardid, EL-i residentsus, ei lukustust."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Meil",
+      "headline": "Meil, mis tegelikku tööd teeb.",
+      "body": "Standarditele põhinev meil, kus meeskonnatöö on sisse ehitatud — jagatud postkastid, serveripoolsed reeglid ja aliased, mis ei tundu lisanditena.",
+      "items": {
+        "webmail": {
+          "name": "Veebimeil",
+          "description": "Klaviatuurikeskne postkast lõimedega, otsingu ja siltidega. Veebimeil, mida oleksid soovinud Gmaili veel olevat."
+        },
+        "shared": {
+          "name": "Jagatud postkastid",
+          "description": "Meeskonna postkastid määramise, oleku, sisemiste märkmete ja kaustapõhise juurdepääsukontrolliga."
+        },
+        "rules": {
+          "name": "Serveripoolsed reeglid",
+          "description": "Sieve-filtrid, mille ehitad armatuurlaual ja mis rakenduvad kohaletoimetamisel — nii et need toimivad igas meilikliendis."
+        },
+        "aliases": {
+          "name": "Aliased ja edasisuunamine",
+          "description": "Piiramatud aliased, catch-all sinu domeenil, välised edasisuunamised kinnitusega ja auditeeritud."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Kalender ja kontaktid",
+      "headline": "Plaanid ja inimesed, sinu komplektis.",
+      "body": "Kalendrid ja aadressiraamatud avatud CalDAV ja CardDAV peal — pole vaja omandilist pluginat, pole topeltsisestust.",
+      "items": {
+        "calendars": {
+          "name": "Jagatud kalendrid",
+          "description": "Korduvad sündmused, kutsed ja vaba/hõivatud-päringud kogu meeskonnas."
+        },
+        "contacts": {
+          "name": "Aadressiraamatud",
+          "description": "Isiklikud ja meeskonnaga jagatud kontaktid vCard-sünkroonimisega Apple Calendari, Thunderbirdi ja DAVx⁵-iga."
+        },
+        "identity": {
+          "name": "Üks identiteet",
+          "description": "Kontaktid täituvad automaatselt meilidest ja kalendrikutsetest. Sama sisselogimine kui ülejäänud komplektis."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Failid ja vikid",
+      "headline": "Dokumendid, teadmised, otsused — alles hoitud.",
+      "body": "Privaatsed ja meeskonnaga jagatud failid struktureeritud ruumide kõrval, mis on mõeldud runbookidele, otsustele ja institutsioonilisele teadmisele, mida sinu meeskond endale kirjutab.",
+      "items": {
+        "files": {
+          "name": "Failihoidla",
+          "description": "Failipõhine juurdepääsukontroll, jätkatavad mitme GB suurused üleslaadimised, 30-päevane taastamine prügikastist."
+        },
+        "wikis": {
+          "name": "Vikid",
+          "description": "Otsitavad, versioneeritud ruumid meeskonna elavate teadmiste jaoks — mitte eraldi rakendus, mida hooldada."
+        },
+        "encryption": {
+          "name": "EL-is hallatud võtmed",
+          "description": "Krüpteerimine puhkeolekus võtmetega, mida hoitakse EL-is. Mitte USA KMS, mitte hyperscaler."
+        },
+        "openFormats": {
+          "name": "Avatud formaadid",
+          "description": "Ekspordi standardformaatidesse alati, kui tahad lahkuda. Mitte mingit lukustust, kunagi."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Sõnumid",
+      "headline": "Kiired vestlused, sama sisselogimine.",
+      "body": "Kanalid, DM-id ja lõimed meeskonnale — otsitavad samas kohas kui sinu meil ja dokumendid, mitte eraldi vahekaart, mida jälgida.",
+      "items": {
+        "channels": {
+          "name": "Kanalid ja DM-id",
+          "description": "Teadeteks, projektitööks ja üks-ühele vestlusteks."
+        },
+        "threaded": {
+          "name": "Lõimedes",
+          "description": "Et vestlused üksteist ei summutaks. Vaigista need, milles sa ei osale."
+        },
+        "search": {
+          "name": "Üks otsing",
+          "description": "Leia sõnum kalendrikutse või viki-lehe kõrvalt — üks päring, kõik pinnad."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Platvorm",
+      "headline": "Komplekt kasutamiseks ja platvorm, millele ehitada.",
+      "body": "Avalik REST API, allkirjastatud webhookid ja forensilise tasemega auditilogi. Peagi: Logi sisse Verkioga — EL-i residentsiline identiteediteenus sinu rakendustele ja klientidele.",
+      "items": {
+        "api": {
+          "name": "Avalik API",
+          "description": "REST OpenAPI 3.1 spetsifikatsiooniga, bearer-tokenid, võtmepõhised kiiruspiirangud."
+        },
+        "webhooks": {
+          "name": "Allkirjastatud webhookid",
+          "description": "HMAC-iga kinnitatud kohaletoimetamine korduskatsetega ja dead-letter järjekorraga. Auditeeritud."
+        },
+        "audit": {
+          "name": "Auditilogi",
+          "description": "Iga administraatori toiming salvestatud, enne/pärast-väärtustega. Eksporditav sinu SIEM-i."
+        },
+        "signIn": {
+          "name": "Logi sisse Verkioga",
+          "description": "EL-i residentsiline alternatiiv Google'i või Apple'iga sisselogimisele. Peagi saadaval."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Toode",

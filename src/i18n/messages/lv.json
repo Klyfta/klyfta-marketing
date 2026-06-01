@@ -649,6 +649,115 @@
     "metaTitle": "Kāpēc Verkio — Verkio",
     "metaDescription": "Kāpēc komandas izvēlas Verkio: kluss programmatūra, atklātie standarti, ES rezidence, nekādas ieslodzīšanas."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Pasts",
+      "headline": "Pasts, kas patiešām paveic darbu.",
+      "body": "Standartos balstīts pasts ar iebūvētām komandas darbplūsmām — koplietotas pastkastes, servera puses noteikumi un aliasi, kas nešķiet pielikumi.",
+      "items": {
+        "webmail": {
+          "name": "Webmail",
+          "description": "Tastatūrai pielāgota iesūtne ar pavedieniem, meklēšanu un birkām. Tāds webmail'i, kādu vēlētos, lai Gmail joprojām būtu."
+        },
+        "shared": {
+          "name": "Koplietotas pastkastes",
+          "description": "Komandas pastkastes ar piešķiršanu, statusu, iekšējām piezīmēm un piekļuves kontroli pa mapēm."
+        },
+        "rules": {
+          "name": "Servera puses noteikumi",
+          "description": "Sieve filtri, kurus veido informācijas panelī un kas tiek piemēroti piegādes brīdī — tāpēc darbojas jebkurā pasta klientā."
+        },
+        "aliases": {
+          "name": "Aliasi un pārsūtīšana",
+          "description": "Neierobežoti aliasi, catch-all uz tavu domēnu, ārējās pārsūtīšanas ar apstiprinājumu un audita pierakstu."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Kalendārs un kontakti",
+      "headline": "Plāni un cilvēki, tavā komplektā.",
+      "body": "Kalendāri un adrešu grāmatas pa atklātajiem CalDAV un CardDAV — nav vajadzīga patentēta plug-in, nav dubultas ievades.",
+      "items": {
+        "calendars": {
+          "name": "Koplietoti kalendāri",
+          "description": "Atkārtoti notikumi, ielūgumi un brīvs/aizņemts meklēšana visā komandā."
+        },
+        "contacts": {
+          "name": "Adrešu grāmatas",
+          "description": "Personīgie un ar komandu koplietotie kontakti ar vCard sinhronizāciju uz Apple Calendar, Thunderbird, DAVx⁵."
+        },
+        "identity": {
+          "name": "Viena identitāte",
+          "description": "Kontakti automātiski tiek aizpildīti no pasta un kalendāra ielūgumiem. Tāda pati pieteikšanās kā pārējā komplektā."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Faili un wiki",
+      "headline": "Dokumenti, zināšanas, lēmumi — saglabāti.",
+      "body": "Privāti un ar komandu koplietoti faili blakus strukturētām telpām runbookiem, lēmumiem un institucionālajām zināšanām, ko tava komanda pieraksta sev pati.",
+      "items": {
+        "files": {
+          "name": "Failu glabātuve",
+          "description": "Piekļuves kontrole pa failam, atsākamas vairāku GB augšupielādes, 30 dienu atjaunošana no Atkritnes."
+        },
+        "wikis": {
+          "name": "Wiki",
+          "description": "Meklējamas, versionētas telpas komandas dzīvajām zināšanām — ne atsevišķa lietotne, kas jāuztur."
+        },
+        "encryption": {
+          "name": "ES pārvaldītas atslēgas",
+          "description": "Šifrēšana miera stāvoklī ar ES turētām atslēgām. Ne ASV KMS, ne hyperscaler."
+        },
+        "openFormats": {
+          "name": "Atklāti formāti",
+          "description": "Eksports uz standarta formātiem, kad vien gribi aiziet. Nekādas ieslodzīšanas, nekad."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Ziņojumi",
+      "headline": "Ātras sarunas, tāda pati pieteikšanās.",
+      "body": "Kanāli, DM un pavedieni komandai — meklējami tajā pašā vietā, kur pasts un dokumenti, nevis atsevišķa cilne, kas jāseko.",
+      "items": {
+        "channels": {
+          "name": "Kanāli un DM",
+          "description": "Paziņojumiem, projekta darbam un viens pret viens."
+        },
+        "threaded": {
+          "name": "Pavedienos",
+          "description": "Lai sarunas viena otru neapslāpētu. Apklusini tās, kurās tu nepiedalies."
+        },
+        "search": {
+          "name": "Viena meklēšana",
+          "description": "Atrodi ziņojumu blakus kalendāra ielūgumam vai wiki lapai — viens vaicājums, visas virsmas."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Platforma",
+      "headline": "Komplekts lietošanai un platforma, uz kuras būvēt.",
+      "body": "Publiska REST API, parakstīti webhooki un kriminālistiska līmeņa audita žurnāls. Drīzumā: Pieteikties ar Verkio — ES rezidējošs identitātes nodrošinātājs tavām lietotnēm un klientiem.",
+      "items": {
+        "api": {
+          "name": "Publiska API",
+          "description": "REST ar OpenAPI 3.1 specifikāciju, bearer žetoni, ātruma limiti pa atslēgai."
+        },
+        "webhooks": {
+          "name": "Parakstīti webhooki",
+          "description": "HMAC verificēta piegāde ar atkārtotiem mēģinājumiem un dead-letter rindu. Audita pierakstīts."
+        },
+        "audit": {
+          "name": "Audita žurnāls",
+          "description": "Katra administratora darbība reģistrēta, ar vērtībām pirms/pēc. Eksportējams uz tavu SIEM."
+        },
+        "signIn": {
+          "name": "Pieteikties ar Verkio",
+          "description": "ES rezidējoša alternatīva pieteikšanai ar Google vai Apple. Drīzumā."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Produkts",

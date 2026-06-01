@@ -649,6 +649,115 @@
     "metaTitle": "Por qué Verkio — Verkio",
     "metaDescription": "Por qué los equipos eligen Verkio: software tranquilo, estándares abiertos, residencia en la UE, sin bloqueos."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Correo",
+      "headline": "Correo que hace el trabajo de verdad.",
+      "body": "Correo basado en estándares con flujos de equipo integrados — buzones compartidos, reglas del lado del servidor y alias que no parecen añadidos.",
+      "items": {
+        "webmail": {
+          "name": "Webmail",
+          "description": "Bandeja de entrada centrada en el teclado, con hilos, búsqueda y etiquetas. El webmail que desearías que Gmail siguiera siendo."
+        },
+        "shared": {
+          "name": "Buzones compartidos",
+          "description": "Buzones de equipo con asignación, estado, notas internas y control de acceso por carpeta."
+        },
+        "rules": {
+          "name": "Reglas del lado del servidor",
+          "description": "Filtros Sieve que construyes en el panel y se aplican en la entrega — así disparan en cualquier cliente de correo."
+        },
+        "aliases": {
+          "name": "Alias y reenvíos",
+          "description": "Alias ilimitados, catch-all en tu dominio, reenvíos externos con confirmación y registro de auditoría."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Calendario y contactos",
+      "headline": "Planes y personas, en tu suite.",
+      "body": "Calendarios y libretas de direcciones sobre CalDAV y CardDAV abiertos — sin plug-in propietario, sin doble entrada.",
+      "items": {
+        "calendars": {
+          "name": "Calendarios compartidos",
+          "description": "Eventos recurrentes, invitaciones y consulta de libre/ocupado en todo el equipo."
+        },
+        "contacts": {
+          "name": "Libretas de direcciones",
+          "description": "Contactos personales y compartidos en equipo con sincronización vCard a Apple Calendar, Thunderbird, DAVx⁵."
+        },
+        "identity": {
+          "name": "Una identidad",
+          "description": "Los contactos se rellenan automáticamente desde el correo y las invitaciones. El mismo acceso que el resto de la suite."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Archivos y wikis",
+      "headline": "Documentos, conocimiento, decisiones — conservados.",
+      "body": "Archivos privados y compartidos en equipo junto a espacios estructurados para los runbooks, decisiones y el conocimiento institucional que tu equipo escribe para sí mismo.",
+      "items": {
+        "files": {
+          "name": "Almacenamiento de archivos",
+          "description": "Control de acceso por archivo, subidas multi-GB reanudables, recuperación desde Papelera durante 30 días."
+        },
+        "wikis": {
+          "name": "Wikis",
+          "description": "Espacios versionados y con búsqueda para el conocimiento vivo del equipo — no una aplicación aparte que mantener."
+        },
+        "encryption": {
+          "name": "Claves gestionadas en la UE",
+          "description": "Cifrado en reposo con claves custodiadas en la UE. Ni un KMS estadounidense, ni un hiperescalador."
+        },
+        "openFormats": {
+          "name": "Formatos abiertos",
+          "description": "Exporta a formatos estándar cuando quieras irte. Sin bloqueo, nunca."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Mensajería",
+      "headline": "Conversaciones rápidas, el mismo acceso.",
+      "body": "Canales, DMs e hilos para el equipo — buscables en el mismo lugar que tu correo y tus documentos, no una pestaña aparte que seguir.",
+      "items": {
+        "channels": {
+          "name": "Canales y DMs",
+          "description": "Para avisos, trabajo de proyecto y conversaciones uno a uno."
+        },
+        "threaded": {
+          "name": "Con hilos",
+          "description": "Para que las conversaciones no se tapen unas a otras. Silencia las que no te incumben."
+        },
+        "search": {
+          "name": "Una sola búsqueda",
+          "description": "Encuentra un mensaje junto a una invitación de calendario o una página de wiki — una consulta, todas las superficies."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Plataforma",
+      "headline": "Una suite para usar y una plataforma sobre la que construir.",
+      "body": "Una API REST pública, webhooks firmados y un registro de auditoría de grado forense. Próximamente: Iniciar sesión con Verkio — un proveedor de identidad residente en la UE para tus aplicaciones y tus clientes.",
+      "items": {
+        "api": {
+          "name": "API pública",
+          "description": "REST con especificación OpenAPI 3.1, tokens bearer, límites de tasa por clave."
+        },
+        "webhooks": {
+          "name": "Webhooks firmados",
+          "description": "Entrega verificada con HMAC, con reintentos y cola de mensajes muertos. Registrada en auditoría."
+        },
+        "audit": {
+          "name": "Registro de auditoría",
+          "description": "Cada acción de administración registrada, con valores antes/después. Exportable a tu SIEM."
+        },
+        "signIn": {
+          "name": "Iniciar sesión con Verkio",
+          "description": "La alternativa residente en la UE a Iniciar sesión con Google o Apple. Próximamente."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Producto",

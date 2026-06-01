@@ -649,6 +649,115 @@
     "metaTitle": "Proč Verkio — Verkio",
     "metaDescription": "Proč si týmy vybírají Verkio: tichý software, otevřené standardy, EU rezidence, žádné uzamčení."
   },
+  "homeNarrative": {
+    "send": {
+      "eyebrow": "Pošta",
+      "headline": "Pošta, která dělá skutečnou práci.",
+      "body": "Pošta postavená na standardech s týmovými workflow uvnitř — sdílené schránky, serverová pravidla a aliasy, které nepůsobí jako přídavek.",
+      "items": {
+        "webmail": {
+          "name": "Webmail",
+          "description": "Schránka pro práci od klávesnice s vlákny, vyhledáváním a štítky. Webmail, který bys přál Gmailu, aby zůstal."
+        },
+        "shared": {
+          "name": "Sdílené schránky",
+          "description": "Týmové schránky s přiřazením, stavem, interními poznámkami a přístupy podle složky."
+        },
+        "rules": {
+          "name": "Serverová pravidla",
+          "description": "Sieve filtry, které sestavíš v dashboardu a které se uplatní při doručení — takže fungují v každém poštovním klientu."
+        },
+        "aliases": {
+          "name": "Aliasy a přeposílání",
+          "description": "Neomezené aliasy, catch-all na tvé doméně, externí přeposílání s potvrzením a auditem."
+        }
+      }
+    },
+    "plan": {
+      "eyebrow": "Kalendář a kontakty",
+      "headline": "Plány a lidé, ve tvé sadě.",
+      "body": "Kalendáře a adresáře přes otevřené CalDAV a CardDAV — žádný proprietární plug-in, žádné dvojí zadávání.",
+      "items": {
+        "calendars": {
+          "name": "Sdílené kalendáře",
+          "description": "Opakující se události, pozvánky a dotazy na volno/obsazeno napříč týmem."
+        },
+        "contacts": {
+          "name": "Adresáře",
+          "description": "Osobní a týmově sdílené kontakty s vCard synchronizací s Apple Calendar, Thunderbirdem a DAVx⁵."
+        },
+        "identity": {
+          "name": "Jedna identita",
+          "description": "Kontakty se automaticky doplňují z pošty a pozvánek z kalendáře. Stejné přihlášení jako zbytek sady."
+        }
+      }
+    },
+    "keep": {
+      "eyebrow": "Soubory a wiki",
+      "headline": "Dokumenty, znalosti, rozhodnutí — uchované.",
+      "body": "Soukromé a týmově sdílené soubory vedle strukturovaných prostorů pro runbooky, rozhodnutí a institucionální znalosti, které si tvůj tým píše sám pro sebe.",
+      "items": {
+        "files": {
+          "name": "Úložiště souborů",
+          "description": "Přístupy podle souboru, navazatelná nahrání o více GB, 30denní obnovení z Koše."
+        },
+        "wikis": {
+          "name": "Wiki",
+          "description": "Prohledávatelné, verzované prostory pro živé znalosti týmu — ne další samostatná aplikace k údržbě."
+        },
+        "encryption": {
+          "name": "Klíče spravované v EU",
+          "description": "Šifrování v klidu s klíči drženými v EU. Ne americký KMS, ne hyperscaler."
+        },
+        "openFormats": {
+          "name": "Otevřené formáty",
+          "description": "Export do standardních formátů kdykoli budeš chtít odejít. Žádné uzamčení, nikdy."
+        }
+      }
+    },
+    "talk": {
+      "eyebrow": "Zprávy",
+      "headline": "Rychlé konverzace, stejné přihlášení.",
+      "body": "Kanály, DM a vlákna pro tým — prohledávatelné na stejném místě jako pošta a dokumenty, ne další záložka, kterou je třeba sledovat.",
+      "items": {
+        "channels": {
+          "name": "Kanály a DM",
+          "description": "Pro oznámení, projektovou práci a komunikaci jeden na jednoho."
+        },
+        "threaded": {
+          "name": "Ve vláknech",
+          "description": "Aby se konverzace navzájem nepřehlušovaly. Ztiš ty, ve kterých nejsi."
+        },
+        "search": {
+          "name": "Jedno vyhledávání",
+          "description": "Najdi zprávu vedle pozvánky z kalendáře nebo wiki stránky — jeden dotaz, všechny plochy."
+        }
+      }
+    },
+    "build": {
+      "eyebrow": "Platforma",
+      "headline": "Sada k používání a platforma, na které stavět.",
+      "body": "Veřejné REST API, podepsané webhooky a forenzní audit log. Brzy: Přihlášení přes Verkio — poskytovatel identity sídlící v EU pro tvé aplikace i zákazníky.",
+      "items": {
+        "api": {
+          "name": "Veřejné API",
+          "description": "REST se specifikací OpenAPI 3.1, bearer tokeny, limity rychlosti podle klíče."
+        },
+        "webhooks": {
+          "name": "Podepsané webhooky",
+          "description": "Doručování ověřené HMAC s opakováním a dead-letter frontou. S auditem."
+        },
+        "audit": {
+          "name": "Audit log",
+          "description": "Každá administrátorská akce zaznamenaná, s hodnotami před/po. Exportovatelné do tvého SIEM."
+        },
+        "signIn": {
+          "name": "Přihlášení přes Verkio",
+          "description": "EU alternativa k Přihlášení přes Google nebo Apple. Brzy k dispozici."
+        }
+      }
+    }
+  },
   "homeTeasers": {
     "product": {
       "eyebrow": "Produkt",
