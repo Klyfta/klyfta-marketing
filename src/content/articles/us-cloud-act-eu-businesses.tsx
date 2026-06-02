@@ -176,7 +176,7 @@ export default function Article() {
         <li>
           <strong>Sub-processors in the data path are also non-US.</strong>{" "}
           This is the part most &quot;EU-hosted&quot; competitors fail. The
-          mail server can be in Hetzner Frankfurt and still pipe
+          mail server can be in an EU cloud in Frankfurt and still pipe
           transactional email through Sendgrid (US), payments through
           Stripe-US, customer support tickets through Intercom (US), edge
           caching through Cloudflare (US). Each one is a CLOUD Act
