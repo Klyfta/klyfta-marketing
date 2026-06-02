@@ -15,7 +15,26 @@
     "roadmap": "Hoja de ruta",
     "articles": "Artículos",
     "product": "Producto",
+    "for": "Para",
     "whyVerkio": "Por qué Verkio",
+    "audienceMenu": {
+      "individuals": {
+        "name": "Particulares",
+        "description": "Una alternativa tranquila, alojada en la UE."
+      },
+      "teams": {
+        "name": "Equipos",
+        "description": "Bandejas compartidas, calendarios, archivos, wikis."
+      },
+      "itAdmins": {
+        "name": "TI y Compras",
+        "description": "DPA, registro de auditoría, SAML/SSO, residencia UE."
+      },
+      "developers": {
+        "name": "Desarrolladores",
+        "description": "REST, JMAP, webhooks firmados."
+      }
+    },
     "productMenu": {
       "comingSoon": "Próximamente",
       "mail": {
@@ -1173,6 +1192,253 @@
           "Panel de apps conectadas con cada sitio en el que has iniciado sesión.",
           "Revocación de un clic, en cualquier momento — el sitio pierde acceso de inmediato.",
           "Sin reautenticación silenciosa; los cambios de scope requieren consentimiento nuevo."
+        ]
+      }
+    }
+  },
+  "forIndividuals": {
+    "metaTitle": "Verkio para particulares — Suite de trabajo alojada en la UE",
+    "metaDescription": "Una alternativa tranquila y sin IA a Gmail e iCloud. Correo, calendario, contactos, archivos — sobre estándares abiertos, en la UE. Trae tu dominio.",
+    "eyebrow": "Para particulares",
+    "headline": "Una suite de trabajo tranquila que es tuya, no de la plataforma.",
+    "body": "Una alternativa alojada en la UE a Gmail, iCloud y Outlook.com. Correo, calendario, contactos, archivos — sobre estándares abiertos, con lo básico bien hecho y sin IA leyendo tu bandeja. Trae tu propio dominio o usa una dirección verkio.eu.",
+    "cta": "Únete a la lista",
+    "backLink": "Volver al inicio",
+    "sections": {
+      "core": {
+        "eyebrow": "Lo básico, bien hecho",
+        "headline": "Correo, calendario, contactos, archivos. Sin la hinchazón.",
+        "body": "Un webmail rápido y pensado para teclado, un calendario que sincroniza con Apple Calendar y Thunderbird, una libreta de direcciones CardDAV y almacenamiento de archivos con claves gestionadas en la UE. Un único acceso. Una única factura.",
+        "bullets": [
+          "Webmail con hilos, búsqueda y etiquetas — pensado para teclado.",
+          "Calendario sobre CalDAV — sincroniza con Apple Calendar, Thunderbird, DAVx⁵.",
+          "Contactos sobre CardDAV — importación y exportación vCard, sin formato propietario.",
+          "Almacenamiento de archivos con ACL por archivo y recuperación de papelera a 30 días.",
+          "Filtros de correo en el servidor (Sieve) — las reglas se aplican en todos los clientes."
+        ]
+      },
+      "privacy": {
+        "eyebrow": "Tranquilo por diseño",
+        "headline": "Ninguna IA lee tu correo. Sin métricas de engagement.",
+        "body": "Verkio no escanea tu bandeja para segmentar publicidad. No medimos con qué frecuencia abres la app. No vendemos resúmenes a un proveedor de modelos. El producto es la bandeja, no tu atención.",
+        "bullets": [
+          "Sin funciones de IA que lean tu correo.",
+          "Sin métricas de engagement ni notificaciones de racha.",
+          "Datos residentes en la UE — fuera de la jurisdicción del US CLOUD Act.",
+          "Registro de auditoría para cada acción admin (tuyas y nuestras)."
+        ]
+      },
+      "yourDomain": {
+        "eyebrow": "Tu dominio, tus alias",
+        "headline": "Usa tu propio dominio. Alias ilimitados.",
+        "body": "Trae un dominio que ya tengas y configuramos el DNS por ti. Alias ilimitados (sujeto a uso razonable) y un catch-all para que las direcciones mal escritas también lleguen. O empieza con una dirección verkio.eu y migra después — la libreta de direcciones viaja contigo.",
+        "bullets": [
+          "Trae tu propio dominio — configuración DNS automática en diez registradores de la UE.",
+          "Alias ilimitados por usuario (sujeto a uso razonable).",
+          "Catch-all en tu dominio para que los errores tipográficos lleguen.",
+          "O usa una dirección verkio.eu — misma suite, sin dominio que gestionar."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Múdate sin perder el fin de semana",
+        "headline": "Trae tu bandeja contigo.",
+        "body": "Migra desde Gmail, iCloud, Fastmail, Outlook.com — cualquier proveedor IMAP — en un solo flujo. Carpetas, marcas e hilos preservados. Nosotros traemos, tú miras la barra de progreso. Sin el proyecto de fin de semana de «exporta tu mbox y reza».",
+        "bullets": [
+          "Importación con un clic desde Gmail, Outlook, iCloud, Fastmail o cualquier servidor IMAP.",
+          "Carpetas, etiquetas, marcas, hilos — todo preservado.",
+          "Barra de progreso en el panel — sin esperar a ciegas.",
+          "Calendarios y contactos también migran, sobre formatos estándar."
+        ]
+      }
+    }
+  },
+  "forTeams": {
+    "metaTitle": "Verkio para equipos — Suite de trabajo alojada en la UE",
+    "metaDescription": "Bandejas compartidas con flujo de trabajo, calendarios, archivos, wikis, mensajería. Registro de auditoría para dirección. Una suscripción en vez de cinco.",
+    "eyebrow": "Para equipos",
+    "headline": "La suite de equipo donde todo el mundo aparece en el mismo sitio.",
+    "body": "Bandejas compartidas con asignación y ACL por carpeta. Calendarios y archivos compartidos. Wikis para runbooks. Mensajería para el chat. Registro de auditoría para las preguntas. Todo sobre estándares abiertos, todo en la UE, todo en una sola suscripción.",
+    "cta": "Únete a la lista",
+    "backLink": "Volver al inicio",
+    "sections": {
+      "shared": {
+        "eyebrow": "Pensado para el trabajo compartido",
+        "headline": "Bandejas compartidas que no te entorpecen.",
+        "body": "Una bandeja de equipo para support@ o hello@ que gestiona asignación, estado y notas internas — proyectados como palabras clave IMAP para que los power users en Thunderbird o Apple Mail también vean quién está en qué. Flujo de helpdesk sin comprar un producto de helpdesk.",
+        "bullets": [
+          "Bandejas compartidas con asignación, estado y ACL por carpeta.",
+          "Notas internas visibles solo para el equipo.",
+          "Calendarios compartidos y carpetas de archivos compartidas, por equipo.",
+          "Wikis para runbooks, decisiones y cosas que si no se re-explicarían cada trimestre.",
+          "Mensajería en el mismo acceso — canales, DMs, hilos."
+        ]
+      },
+      "onboardOff": {
+        "eyebrow": "Altas y bajas limpias",
+        "headline": "Incorporaciones y salidas sin caer del precipicio.",
+        "body": "Añade a un nuevo miembro y obtiene correo, calendario, contactos, archivos y acceso a bandejas compartidas en un solo flujo. Cuando alguien se va, su bandeja sigue accesible durante treinta días y reenvía a una persona designada — para que una respuesta de cliente al día catorce siga aterrizando en algún sitio útil.",
+        "bullets": [
+          "Añade usuarios con un formulario — correo, calendario, contactos, archivos aprovisionados al instante.",
+          "La bandeja del usuario que se va sigue accesible 30 días, reenvía a un responsable nombrado.",
+          "Protecciones anti-bucle integradas, auditadas, cascada clara si ese responsable también se va.",
+          "Deshacer invitación para el inevitable error tipográfico."
+        ]
+      },
+      "audit": {
+        "eyebrow": "Respuestas cuando dirección pregunta",
+        "headline": "Cada acción admin, registrada.",
+        "body": "Un registro de auditoría visible con búsqueda, valores antes/después y siete años de retención. Cuando alguien pregunta «quién compartió esa carpeta externamente», la respuesta está a una consulta. Envía eventos a Splunk, Datadog o cualquier SIEM si lo necesitas.",
+        "bullets": [
+          "Registro de auditoría con valores antes/después en cada cambio.",
+          "Siete años de retención por defecto — coincide con la bokföringslagen sueca.",
+          "Envío a Splunk, Datadog o cualquier SIEM vía webhook.",
+          "Exportación a CSV o JSONL para cumplimiento o forense."
+        ]
+      },
+      "standards": {
+        "eyebrow": "Estándares abiertos en el equipo",
+        "headline": "La persona del equipo que usa Thunderbird no tiene problema.",
+        "body": "Verkio habla IMAP, SMTP, CalDAV, CardDAV, Sieve. Quien en el equipo prefiera Apple Mail, Thunderbird, Outlook o K-9 solo inicia sesión y trabaja. El estado y las asignaciones de bandeja compartida se proyectan como palabras clave IMAP para que también vea el estado del equipo.",
+        "bullets": [
+          "IMAP y SMTP — funciona en cualquier cliente de correo que cumpla estándares.",
+          "CalDAV y CardDAV — calendarios y contactos sincronizan en todas partes.",
+          "Filtros Sieve se aplican en la entrega — las reglas funcionan en todos los clientes.",
+          "Configuración automática de dominio más perfiles XML de Thunderbird y .mobileconfig de Apple para configurar dispositivos al instante."
+        ]
+      },
+      "oneBill": {
+        "eyebrow": "Una suite, una factura",
+        "headline": "Deja de coser suscripciones.",
+        "body": "Hoy el equipo pequeño medio paga Google Workspace (correo + calendario + Drive), Slack (mensajería), Notion (wiki) y un producto de helpdesk — cinco suscripciones, cinco consolas admin, cinco flujos de ciclo de vida de usuario. Verkio es una suscripción, una consola, un registro de auditoría.",
+        "bullets": [
+          "Una suscripción que reemplaza correo + calendario + archivos + wiki + mensajería + helpdesk.",
+          "Una consola admin para usuarios, facturación, auditoría y gestión de dominio.",
+          "Una identidad — aprovisiona una vez, accede a todo.",
+          "Facturación Mollie en EUR — sin procesador de pagos US en el medio."
+        ]
+      }
+    }
+  },
+  "forItAdmins": {
+    "metaTitle": "Verkio para TI y Compras — Suite de trabajo alojada en la UE",
+    "metaDescription": "Infraestructura UE, sin exposición al US CLOUD Act, RGPD nativo. DPA, registro de auditoría, SAML/SSO, claves API con alcance, claves de cifrado gestionadas en la UE, recuperación ante desastres real.",
+    "eyebrow": "Para TI y Compras",
+    "headline": "Las garantías aburridas que pide compras.",
+    "body": "Infraestructura UE solo. Registro de auditoría real con envío a SIEM. SAML/SSO con aprovisionamiento JIT. Claves de cifrado gestionadas en la UE, no KMS US. Estándares abiertos para que el riesgo de migración sea bajo. Simulacros de recuperación reales, no promesas de marketing.",
+    "cta": "Únete a la lista",
+    "backLink": "Volver al inicio",
+    "sections": {
+      "procurement": {
+        "eyebrow": "Listos para compras",
+        "headline": "El papeleo no trae sorpresas.",
+        "body": "DPA, lista de subprocesadores, registro de auditoría listo para ROPA, flujos del RGPD Artículos 15 / 17 / 20 que de verdad se ejecutan — no «ya te contestaremos». Mollie (neerlandesa) gestiona la facturación en vez de Stripe (EE. UU.), cerrando la mayor objeción de subprocesadores US en revisiones de compras.",
+        "bullets": [
+          "DPA estándar (cumple Artículo 28) disponible antes de firmar.",
+          "Lista pública de subprocesadores — cada dependencia nombrada, de propiedad UE donde importa.",
+          "RGPD Artículo 15 (acceso), Artículo 17 (supresión), Artículo 20 (portabilidad) — todo con un clic.",
+          "Mollie gestiona los pagos en lugar de Stripe — sin procesador de pagos US.",
+          "Siete años de retención del registro de auditoría coinciden con la bokföringslagen sueca."
+        ]
+      },
+      "residency": {
+        "eyebrow": "Residencia UE, hasta el fondo",
+        "headline": "Ningún hiperescala US en ninguna parte de la cadena.",
+        "body": "Servidores Hetzner en Alemania y Finlandia. DNS de Hetzner (no Cloudflare). Vault Transit sobre infraestructura UE para envoltura de claves (no AWS KMS). GlitchTip para seguimiento de errores (no Sentry). Hetzner Storage Box para copias (no S3). Ni una capa externalizada a una nube US.",
+        "bullets": [
+          "Compute en Hetzner Cloud — regiones Alemania y Finlandia.",
+          "DNS autoritativo en Hetzner DNS Console — propiedad UE, no Cloudflare.",
+          "Claves de cifrado en reposo envueltas por Vault Transit sobre infraestructura UE — sin KMS US.",
+          "Copias en Hetzner Storage Box (UE) — sin S3, sin GCS, sin Azure Blob."
+        ]
+      },
+      "identityAndAccess": {
+        "eyebrow": "Identidad y acceso",
+        "headline": "SSO, envío del registro de auditoría, claves con alcance.",
+        "body": "Federación SAML 2.0 con Okta, Azure AD, Google Workspace o cualquier IdP estándar — con aprovisionamiento de usuario just-in-time y mapeo de grupo/rol re-evaluado en cada inicio de sesión. Registro de auditoría enviable a tu SIEM. Claves API con alcance y rotables para cada integración.",
+        "bullets": [
+          "SSO SAML 2.0 con cualquier IdP — Okta, Azure AD, Google Workspace, Keycloak.",
+          "Aprovisionamiento just-in-time en el primer inicio de sesión — sin creación manual de usuarios.",
+          "Mapeo de grupos y roles re-evaluado en cada inicio de sesión — sin permisos obsoletos.",
+          "Claves API con alcance y rotación — solo lectura, por bandeja, por organización.",
+          "Envío del registro de auditoría a Splunk, Datadog o cualquier SIEM vía webhook."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Riesgo de migración: bajo",
+        "headline": "Los estándares hacen que irse siempre sea una opción.",
+        "body": "Cada parte de la suite habla estándares abiertos — IMAP, SMTP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Si Verkio no cumple, tus datos salen igual de limpios que entraron. Sin protocolo propietario, sin proyecto de migración en el año tres.",
+        "bullets": [
+          "Estándares: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
+          "Exportación de portabilidad del Artículo 20 en formatos interoperables — un clic.",
+          "Configuración automática de dominio en diez registradores DNS de la UE (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, más).",
+          "Importación de correo desde Microsoft 365, Google Workspace o cualquier IMAP — carpetas, marcas e hilos preservados."
+        ]
+      },
+      "ops": {
+        "eyebrow": "Operaciones auditables",
+        "headline": "Recuperación ante desastres real. Verificación de copias real.",
+        "body": "Copias horarias de Postgres más snapshots de configuración por host, cifrados con claves gestionadas en la UE, replicados a otra región UE. Los simulacros de restauración corren por calendario — no de manera aspiracional — para que el camino de recuperación esté probado antes de necesitarlo. Página de estado impulsada por heartbeats reales, no a mano.",
+        "bullets": [
+          "Copias horarias cifradas; replicación entre regiones en la UE.",
+          "Simulacros de restauración programados — el camino de recuperación se verifica, no se supone.",
+          "Página de estado en tiempo real impulsada por monitores heartbeat, no por humanos.",
+          "GlitchTip (UE) para seguimiento de errores — sin exposición a Sentry US."
+        ]
+      }
+    }
+  },
+  "forDevelopers": {
+    "metaTitle": "Verkio para desarrolladores — Construye sobre Verkio",
+    "metaDescription": "API REST con OpenAPI 3.1, passthrough JMAP, webhooks firmados, registro de auditoría enviable. Sign in with Verkio (OIDC) en camino. Gratis en v1.",
+    "eyebrow": "Para desarrolladores",
+    "headline": "Construye sobre Verkio. Las garantías aburridas, incluidas.",
+    "body": "Verkio está construida API-first — los mismos endpoints que usa la web app están abiertos a ti. REST con spec OpenAPI 3.1 para codegen, JMAP para acceso directo al protocolo de correo, webhooks firmados con HMAC con cola de mensajes fallidos, y un registro de auditoría enviable para cumplimiento. Gratis en el nivel v1.",
+    "cta": "Únete a la lista",
+    "backLink": "Volver al inicio",
+    "sections": {
+      "restApi": {
+        "eyebrow": "REST + JMAP",
+        "headline": "REST con spec OpenAPI 3.1. Passthrough JMAP para correo.",
+        "body": "Cada endpoint documentado en un único archivo OpenAPI 3.1 en /api/v1/openapi.json — apunta cualquier herramienta de codegen y obtén un cliente tipado en tu lenguaje. Para correo, la API incluye un passthrough JMAP para que cualquier biblioteca compatible JMAP hable directamente con tus bandejas.",
+        "bullets": [
+          "Spec OpenAPI 3.1 en /api/v1/openapi.json — lista para codegen.",
+          "Referencia interactiva en /developers (Swagger UI).",
+          "Autenticación Bearer (RFC 6750). Claves hasheadas con Argon2id en reposo.",
+          "Passthrough JMAP Core y JMAP Mail (RFC 8620 / 8621) — usa cualquier biblioteca JMAP.",
+          "Soporte Idempotency-Key en endpoints mutables — seguro para reintentar."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Webhooks firmados",
+        "headline": "Entrega firmada HMAC. Reintentos. Cola de mensajes fallidos.",
+        "body": "Suscríbete a eventos que importan — correo nuevo, entradas del registro de auditoría, cambios de cuenta. Cada payload está firmada con HMAC-SHA256. Las entregas fallidas reintentan con backoff exponencial; los fallos persistentes acaban en una cola de mensajes fallidos que puedes inspeccionar y reenviar desde el panel.",
+        "bullets": [
+          "Firma HMAC-SHA256 por payload (cabecera X-Verkio-Signature).",
+          "Backoff exponencial en errores 5xx y de conexión.",
+          "Cola de mensajes fallidos en el panel — inspecciona, reenvía, descarta.",
+          "Cada intento de entrega registrado en el registro de auditoría."
+        ]
+      },
+      "auditApi": {
+        "eyebrow": "API del registro de auditoría",
+        "headline": "Cada acción admin, programáticamente.",
+        "body": "El mismo registro de auditoría que lees en el panel está disponible como API. Paginado, filtrable, con valores antes/después en cada cambio. Envía a tu SIEM vía webhook o sondea el endpoint. Exporta a CSV o JSONL para forense. Siete años de retención por defecto.",
+        "bullets": [
+          "Paginado y filtrable: por usuario, por tipo de evento, por rango de fechas.",
+          "Valores antes/después en cada mutación.",
+          "Envía a tu SIEM vía webhook o endpoint pull.",
+          "Siete años de retención por defecto. Exportación CSV o JSONL en cualquier momento."
+        ]
+      },
+      "futureSignIn": {
+        "eyebrow": "Sign in with Verkio · Próximamente",
+        "headline": "Un proveedor de identidad alojado en la UE para tus usuarios.",
+        "body": "Un botón OIDC estándar que integras en cualquier sitio de terceros. Flujo de inicio de sesión alojado en la UE, sin perfilado entre sitios, consentimiento granular por sitio. Planificado, impulsado por la demanda de desarrolladores — gratis para usuarios finales, gratis para desarrolladores en v1. ¿Lo quieres para tu app? Dínoslo.",
+        "bullets": [
+          "OpenID Connect (OIDC) estándar — sin SDK de Verkio necesario.",
+          "Funciona con cualquier broker de identidad OIDC (Auth0, Clerk, Keycloak, NextAuth).",
+          "Consentimiento granular por sitio más panel de apps conectadas para usuarios finales.",
+          "Gratis en v1 — dinos que lo quieres y lo priorizaremos."
         ]
       }
     }

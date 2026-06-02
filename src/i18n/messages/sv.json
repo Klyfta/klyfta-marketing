@@ -15,7 +15,26 @@
     "roadmap": "Färdplan",
     "articles": "Artiklar",
     "product": "Produkt",
+    "for": "För",
     "whyVerkio": "Varför Verkio",
+    "audienceMenu": {
+      "individuals": {
+        "name": "Privatpersoner",
+        "description": "Ett lugnt, EU-hostat alternativ."
+      },
+      "teams": {
+        "name": "Team",
+        "description": "Delade inkorgar, kalendrar, filer, wikis."
+      },
+      "itAdmins": {
+        "name": "IT och inköp",
+        "description": "DPA, granskningslogg, SAML/SSO, EU-hostning."
+      },
+      "developers": {
+        "name": "Utvecklare",
+        "description": "REST, JMAP, signerade webhooks."
+      }
+    },
     "productMenu": {
       "comingSoon": "Kommer snart",
       "mail": {
@@ -1173,6 +1192,253 @@
           "Dashboard för anslutna appar som listar varje sajt du loggat in på.",
           "Ett-kliks återkallning, när som helst — sajten förlorar åtkomst omedelbart.",
           "Ingen tyst återautentisering; scope-ändringar kräver nytt samtycke."
+        ]
+      }
+    }
+  },
+  "forIndividuals": {
+    "metaTitle": "Verkio för privatpersoner — EU-hostat arbetspaket",
+    "metaDescription": "Ett tyst, AI-fritt alternativ till Gmail och iCloud. Mail, kalender, kontakter, filer — över öppna standarder, i EU. Ta med din egen domän.",
+    "eyebrow": "För privatpersoner",
+    "headline": "Ett tyst arbetspaket som är ditt, inte plattformens.",
+    "body": "Ett EU-hostat alternativ till Gmail, iCloud och Outlook.com. Mail, kalender, kontakter, filer — över öppna standarder, med grunderna ordentligt gjorda och ingen AI som läser din inkorg. Ta med din egen domän eller använd en verkio.eu-adress.",
+    "cta": "Gå med i väntelistan",
+    "backLink": "Tillbaka till startsidan",
+    "sections": {
+      "core": {
+        "eyebrow": "Grunderna, ordentligt gjorda",
+        "headline": "Mail, kalender, kontakter, filer. Utan svallande.",
+        "body": "En snabb tangentbordsorienterad webbmail, en kalender som synkar med Apple Calendar och Thunderbird, en CardDAV-adressbok och fillagring med EU-förvaltade nycklar. En inloggning. En faktura.",
+        "bullets": [
+          "Webbmail med trådar, sök, etiketter — tangentbordsorienterad.",
+          "Kalender över CalDAV — synkar med Apple Calendar, Thunderbird, DAVx⁵.",
+          "Kontakter över CardDAV — vCard-import och -export, inget proprietärt format.",
+          "Fillagring med ACL per fil och 30 dagars återställning från Papperskorgen.",
+          "Mailfilter på serversidan (Sieve) — regler gäller i alla klienter."
+        ]
+      },
+      "privacy": {
+        "eyebrow": "Tyst av design",
+        "headline": "Ingen AI som läser din mail. Inga engagemangsmått.",
+        "body": "Verkio skannar inte din inkorg för annonsmål. Vi mäter inte hur ofta du öppnar appen. Vi säljer inte sammanfattningar till en modellleverantör. Produkten är inkorgen, inte din uppmärksamhet.",
+        "bullets": [
+          "Inga AI-funktioner som läser din mail.",
+          "Inga engagemangsmått eller streak-aviseringar.",
+          "EU-hostade data — utanför US CLOUD Act-jurisdiktion.",
+          "Granskningslogg för varje administrativ åtgärd (din och vår)."
+        ]
+      },
+      "yourDomain": {
+        "eyebrow": "Din domän, dina alias",
+        "headline": "Använd din egen domän. Obegränsade alias.",
+        "body": "Ta med en domän du redan äger, så konfigurerar vi DNS åt dig. Få obegränsade alias (med rimlig användning) och en catch-all så att felstavade adresser ändå landar. Eller starta på en verkio.eu-adress och migrera senare — adressboken flyttar med.",
+        "bullets": [
+          "Ta med din egen domän — automatisk DNS-konfiguration hos tio EU-registrarer.",
+          "Obegränsade alias per användare (med rimlig användning).",
+          "Catch-all på din domän så att stavfel ändå landar.",
+          "Eller använd en verkio.eu-adress — samma paket, ingen domän att förvalta."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Flytta in utan helgen",
+        "headline": "Ta med dig din inkorg.",
+        "body": "Migrera från Gmail, iCloud, Fastmail, Outlook.com — vilken IMAP-leverantör som helst — i ett flöde. Mappar, flaggor och trådar bevarade. Vi hämtar, du tittar på framstegsindikatorn. Inget 'exportera din mbox och be' helgprojekt.",
+        "bullets": [
+          "Import med ett klick från Gmail, Outlook, iCloud, Fastmail eller vilken IMAP-server som helst.",
+          "Mappar, etiketter, flaggor, trådar — allt bevarat.",
+          "Framstegsindikator i instrumentpanelen — inget väntande i mörkret.",
+          "Kalendrar och kontakter migrerar också, över standardformat."
+        ]
+      }
+    }
+  },
+  "forTeams": {
+    "metaTitle": "Verkio för team — EU-hostat arbetspaket",
+    "metaDescription": "Delade inkorgar med teamarbetsflöde, kalendrar, filer, wikis, meddelanden. Granskningslogg för ledningen. En prenumeration istället för fem.",
+    "eyebrow": "För team",
+    "headline": "Teampaketet där alla dyker upp på samma plats.",
+    "body": "Delade inkorgar med tilldelning och ACL per mapp. Delade kalendrar och filer. Wikis för runbooks. Meddelanden för pratet. Granskningslogg för frågorna. Allt på öppna standarder, allt i EU, allt i en prenumeration.",
+    "cta": "Gå med i väntelistan",
+    "backLink": "Tillbaka till startsidan",
+    "sections": {
+      "shared": {
+        "eyebrow": "Byggt för delat arbete",
+        "headline": "Delade inkorgar som inte slåss mot dig.",
+        "body": "En teaminkorg för support@ eller hello@ som hanterar tilldelning, status och interna anteckningar — projicerade som IMAP-nyckelord så att avancerade användare i Thunderbird eller Apple Mail fortfarande ser vem som jobbar med vad. Helpdeskarbetsflöde utan att köpa en helpdeskprodukt.",
+        "bullets": [
+          "Delade inkorgar med tilldelning, status och ACL per mapp.",
+          "Interna anteckningar synliga endast för teamet.",
+          "Delade kalendrar och delade filmappar per team.",
+          "Wikis för runbooks, beslut och de saker du annars skulle förklara om varje kvartal.",
+          "Meddelanden i samma inloggning — kanaler, DM, trådar."
+        ]
+      },
+      "onboardOff": {
+        "eyebrow": "Rena introduktioner och avslut",
+        "headline": "Tillkomna och avgångna utan tvärt slut.",
+        "body": "Lägg till en ny kollega så får de mail, kalender, kontakter, filer och åtkomst till delad inkorg i ett flöde. När någon slutar förblir deras inkorg tillgänglig i trettio dagar och vidarebefordrar till en utsedd ägare — så att ett kundsvar på dag fjorton fortfarande landar någonstans användbart.",
+        "bullets": [
+          "Lägg till användare med ett formulär — mail, kalender, kontakter, filer tillhandahållna direkt.",
+          "Avgående användares inkorg förblir tillgänglig 30 dagar, vidarebefordrar till en namngiven ägare.",
+          "Anti-loop-skydd inbyggt, granskningsloggat, kaskad rensar om ägaren också går.",
+          "Ångra inbjudan för det oundvikliga skrivfelet."
+        ]
+      },
+      "audit": {
+        "eyebrow": "Svar när ledningen frågar",
+        "headline": "Varje administrativ åtgärd, på protokollet.",
+        "body": "En kundvänd granskningslogg med sök, före/efter-värden och sju års lagring. När någon frågar 'vem delade den mappen externt', är svaret en sökning bort. Strömma händelser till Splunk, Datadog eller vilken SIEM som helst om du måste.",
+        "bullets": [
+          "Granskningslogg med före/efter-värden på varje ändring.",
+          "Sju års lagring som standard — matchar svenska bokföringslagen.",
+          "Strömma till Splunk, Datadog eller vilken SIEM som helst via webhook.",
+          "Export till CSV eller JSONL för efterlevnad eller forensik."
+        ]
+      },
+      "standards": {
+        "eyebrow": "Öppna standarder i teamet",
+        "headline": "Personen i teamet som använder Thunderbird klarar sig fint.",
+        "body": "Verkio talar IMAP, SMTP, CalDAV, CardDAV, Sieve. Den i teamet som föredrar Apple Mail, Thunderbird, Outlook eller K-9 loggar bara in och jobbar. Status och tilldelningar för delad inkorg projiceras som IMAP-nyckelord så att de också ser teamets tillstånd.",
+        "bullets": [
+          "IMAP och SMTP — fungerar i alla standardkompatibla mailklienter.",
+          "CalDAV och CardDAV — kalendrar och kontakter synkar överallt.",
+          "Sieve-filter körs vid leverans — regler fungerar i alla klienter.",
+          "Automatisk domänkonfiguration plus Thunderbird XML- och Apple .mobileconfig-profiler för omedelbar enhetskonfiguration."
+        ]
+      },
+      "oneBill": {
+        "eyebrow": "Ett paket, en faktura",
+        "headline": "Sluta sy ihop prenumerationer.",
+        "body": "Idag betalar det genomsnittliga lilla teamet för Google Workspace (mail + kalender + Drive), Slack (meddelanden), Notion (wiki) och en helpdeskprodukt — fem prenumerationer, fem adminkonsoler, fem användarlivscykelflöden. Verkio är en prenumeration, en konsol, en granskningslogg.",
+        "bullets": [
+          "En prenumeration som ersätter mail + kalender + filer + wiki + meddelanden + helpdesk.",
+          "En adminkonsol för användare, fakturering, granskning och domänförvaltning.",
+          "En identitet — tillhandahåll en gång, åtkomst till allt.",
+          "Mollie-fakturering i EUR — ingen US-betalningsbehandlare i loopen."
+        ]
+      }
+    }
+  },
+  "forItAdmins": {
+    "metaTitle": "Verkio för IT och inköp — EU-hostat arbetspaket",
+    "metaDescription": "EU-infrastruktur, ingen US CLOUD Act-exponering, GDPR av design. DPA, granskningslogg, SAML/SSO, scope-begränsade API-nycklar, EU-förvaltade krypteringsnycklar, riktig katastrofåterställning.",
+    "eyebrow": "För IT och inköp",
+    "headline": "De tråkiga garantierna som inköp ber om.",
+    "body": "Bara EU-infrastruktur. Riktig granskningslogg med SIEM-strömning. SAML/SSO med JIT-provisionering. EU-förvaltade krypteringsnycklar, inte US KMS. Öppna standarder så att migrationsrisken hålls låg. Riktiga katastrofåterställningsövningar, inte bara marknadsföringspåståenden.",
+    "cta": "Gå med i väntelistan",
+    "backLink": "Tillbaka till startsidan",
+    "sections": {
+      "procurement": {
+        "eyebrow": "Redo för inköp",
+        "headline": "Pappersarbetet har inga överraskningar.",
+        "body": "DPA, underbiträdeslista, ROPA-redo granskningslogg, GDPR Artikel 15 / 17 / 20-flöden som faktiskt fungerar — inte 'vi återkommer'. Mollie (nederländskt) hanterar fakturering istället för Stripe (US), vilket stänger det största US-underbiträdesförbehållet i inköpsgranskningar.",
+        "bullets": [
+          "Standard-DPA (Artikel 28-kompatibel) tillgänglig före underskrift.",
+          "Offentlig underbiträdeslista — varje beroende namngivet, alla EU-ägda där det spelar roll.",
+          "GDPR Artikel 15 (åtkomst), Artikel 17 (radering), Artikel 20 (portabilitet) — allt med ett klick.",
+          "Mollie hanterar betalningar istället för Stripe — ingen US-betalningsbehandlare.",
+          "Sju års lagring av granskningslogg matchar svenska bokföringslagen."
+        ]
+      },
+      "residency": {
+        "eyebrow": "EU-residens, hela vägen ner",
+        "headline": "Ingen US-hyperscaler någonstans i kedjan.",
+        "body": "Hetzner-servrar i Tyskland och Finland. Hetzner DNS (inte Cloudflare). Vault Transit på EU-hostad infrastruktur för nyckelwrapping (inte AWS KMS). GlitchTip för felspårning (inte Sentry). Hetzner Storage Box för backuper (inte S3). Inte ett lager utlagt på ett US-moln.",
+        "bullets": [
+          "Compute på Hetzner Cloud — regionerna Tyskland och Finland.",
+          "Auktoritativa DNS på Hetzner DNS Console — EU-ägt, inte Cloudflare.",
+          "Krypteringsnycklar at-rest inlindade av Vault Transit på EU-hostad infrastruktur — inget US KMS.",
+          "Backuper till Hetzner Storage Box (EU) — inget S3, GCS eller Azure Blob."
+        ]
+      },
+      "identityAndAccess": {
+        "eyebrow": "Identitet och åtkomst",
+        "headline": "SSO, granskningsloggsströmning, scope-begränsade nycklar.",
+        "body": "SAML 2.0-federation till Okta, Azure AD, Google Workspace eller vilken standardkompatibel IdP som helst — med just-in-time användarprovisionering och grupp/roll-mappning omvärderad vid varje inloggning. Granskningslogg strömbar till din SIEM. Scope-begränsade, roterbara API-nycklar för varje integration.",
+        "bullets": [
+          "SAML 2.0 SSO med vilken IdP som helst — Okta, Azure AD, Google Workspace, Keycloak.",
+          "Just-in-time-provisionering vid första inloggning — inget manuellt skapande av användare.",
+          "Grupp- och rollmappning omvärderad vid varje inloggning — inga föråldrade behörigheter.",
+          "Scope-begränsade API-nycklar med rotation — read-only, per inkorg, per organisation.",
+          "Granskningsloggsströmning till Splunk, Datadog eller vilken SIEM som helst via webhook."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Migrationsrisk: låg",
+        "headline": "Standarder betyder att lämna alltid är ett alternativ.",
+        "body": "Varje del av paketet talar öppna standarder — IMAP, SMTP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Om Verkio inte levererar kommer dina data ut lika rent som de kom in. Inget proprietärt protokoll betyder inget migrationsprojekt år tre.",
+        "bullets": [
+          "Standarder: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
+          "Artikel 20 portabilitetsexport i interoperabla format — ett klick.",
+          "Automatisk domänkonfiguration hos tio EU DNS-registrarer (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, fler).",
+          "Mailimport från Microsoft 365, Google Workspace eller vilken IMAP som helst — mappar, flaggor, trådar bevarade."
+        ]
+      },
+      "ops": {
+        "eyebrow": "Drift du kan granska",
+        "headline": "Riktig katastrofåterställning. Riktig backupverifiering.",
+        "body": "Timvisa Postgres-backuper plus konfigurationssnapshots per värd, krypterade med EU-förvaltade nycklar, replikerade till en separat EU-region. Återställningsövningar körs efter kalender — inte aspirerande — så återställningsvägen är övad innan du behöver den. Statussida driven av riktiga heartbeats, inte för hand.",
+        "bullets": [
+          "Timvisa krypterade backuper; korsregional replikering inom EU.",
+          "Återställningsövningar enligt schema — återställningsvägen är verifierad, inte antagen.",
+          "Realtidsstatussida driven av heartbeat-monitorer, inte människor.",
+          "GlitchTip (EU) för felspårning — ingen US Sentry-exponering."
+        ]
+      }
+    }
+  },
+  "forDevelopers": {
+    "metaTitle": "Verkio för utvecklare — Bygg på Verkio",
+    "metaDescription": "REST API med OpenAPI 3.1, JMAP-passthrough, signerade webhooks, strömbar granskningslogg. Sign in with Verkio (OIDC) på väg. Gratis för v1.",
+    "eyebrow": "För utvecklare",
+    "headline": "Bygg på Verkio. De tråkiga garantierna ingår.",
+    "body": "Verkio är byggt API-first — samma endpoints som webbappen använder är öppna för dig. REST med en OpenAPI 3.1-specifikation för codegen, JMAP för direkt åtkomst till mailprotokollet, HMAC-signerade webhooks med en dead-letter-kö, och en strömbar granskningslogg för efterlevnad. Gratis på v1-nivån.",
+    "cta": "Gå med i väntelistan",
+    "backLink": "Tillbaka till startsidan",
+    "sections": {
+      "restApi": {
+        "eyebrow": "REST + JMAP",
+        "headline": "REST med en OpenAPI 3.1-specifikation. JMAP-passthrough för mail.",
+        "body": "Varje endpoint dokumenterat i en enda OpenAPI 3.1-fil på /api/v1/openapi.json — peka vilket codegen-verktyg som helst på den och få en typad klient i ditt språk. För mail inkluderar API:t en JMAP-passthrough så att vilket JMAP-kompatibelt bibliotek som helst pratar direkt med dina inkorgar.",
+        "bullets": [
+          "OpenAPI 3.1-specifikation på /api/v1/openapi.json — codegen-redo.",
+          "Interaktiv referens på /developers (Swagger UI).",
+          "Bearer-token-autentisering (RFC 6750). Nycklar hashade med Argon2id at-rest.",
+          "JMAP Core och JMAP Mail (RFC 8620 / 8621) passthrough — använd vilket JMAP-bibliotek som helst.",
+          "Idempotency-Key-stöd på muterande endpoints — säkert att försöka igen."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Signerade webhooks",
+        "headline": "HMAC-signerad leverans. Återförsök. Dead-letter-kö.",
+        "body": "Prenumerera på händelser som spelar roll — ny mail, granskningsloggsposter, kontoändringar. Varje payload är HMAC-SHA256-signerad. Misslyckade leveranser försöks igen med exponentiell backoff; ihållande fel hamnar i en dead-letter-kö du kan inspektera och spela upp från instrumentpanelen.",
+        "bullets": [
+          "HMAC-SHA256-signatur per payload (X-Verkio-Signature-header).",
+          "Exponentiell backoff vid 5xx- och anslutningsfel.",
+          "Dead-letter-kö i instrumentpanelen — inspektera, spela upp, avfärda.",
+          "Varje leveransförsök loggat i granskningsloggen."
+        ]
+      },
+      "auditApi": {
+        "eyebrow": "Granskningsloggs-API",
+        "headline": "Varje administrativ åtgärd, programmatiskt.",
+        "body": "Samma granskningslogg som du läser i instrumentpanelen är tillgänglig som API. Paginerat, filtrerbart, med före/efter-värden på varje ändring. Strömma till din SIEM via webhook eller polla endpointen. Exportera till CSV eller JSONL för forensik. Sju års lagring som standard.",
+        "bullets": [
+          "Paginerat och filtrerbart: per användare, per händelsetyp, per datumintervall.",
+          "Före/efter-värden på varje mutation.",
+          "Strömma till din SIEM via webhook eller pull-endpoint.",
+          "Sju års lagring som standard. CSV- eller JSONL-export när som helst."
+        ]
+      },
+      "futureSignIn": {
+        "eyebrow": "Sign in with Verkio · Kommer snart",
+        "headline": "En EU-hostad identitetsleverantör för dina användare.",
+        "body": "En standard OIDC-knapp du kan integrera i vilken tredjepartssida som helst. EU-hostat inloggningsflöde, ingen cross-site-profilering, granulärt samtycke per sida. Planerat, utvecklareefterfrågansdrivet — gratis för slutanvändare, gratis för utvecklare på v1. Vill du ha det till din app? Säg till.",
+        "bullets": [
+          "Standard OpenID Connect (OIDC) — ingen Verkio-SDK krävs.",
+          "Fungerar med vilken OIDC-medveten identitetsbroker som helst (Auth0, Clerk, Keycloak, NextAuth).",
+          "Granulärt samtycke per sida plus instrumentpanel för anslutna appar för slutanvändare.",
+          "Gratis i v1 — säg till att du vill ha det så prioriterar vi."
         ]
       }
     }

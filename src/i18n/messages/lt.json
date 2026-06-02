@@ -15,7 +15,26 @@
     "roadmap": "Kelias",
     "articles": "Straipsniai",
     "product": "Produktas",
+    "for": "Kam",
     "whyVerkio": "Kodėl Verkio",
+    "audienceMenu": {
+      "individuals": {
+        "name": "Asmenims",
+        "description": "Tylus ES talpinamas alternatyvus pasirinkimas."
+      },
+      "teams": {
+        "name": "Komandoms",
+        "description": "Bendri pašto dėžutės, kalendoriai, failai, vikiai."
+      },
+      "itAdmins": {
+        "name": "IT ir pirkimams",
+        "description": "DPA, audito žurnalas, SAML/SSO, ES talpinimas."
+      },
+      "developers": {
+        "name": "Kūrėjams",
+        "description": "REST, JMAP, pasirašyti webhook."
+      }
+    },
     "productMenu": {
       "comingSoon": "Netrukus",
       "mail": {
@@ -1173,6 +1192,253 @@
           "Prijungtų programėlių skydelis, kuriame išvardintos visos svetainės, kuriose prisijungėte.",
           "Vieno paspaudimo atšaukimas, bet kada — svetainė nedelsiant praranda prieigą.",
           "Jokio tylaus pakartotinio autentifikavimo; scope pakeitimai reikalauja naujo sutikimo."
+        ]
+      }
+    }
+  },
+  "forIndividuals": {
+    "metaTitle": "Verkio asmenims — ES talpinamas darbo rinkinys",
+    "metaDescription": "Tylus alternatyvus pasirinkimas be DI vietoje Gmail ir iCloud. Paštas, kalendorius, kontaktai, failai — per atvirus standartus, ES. Atsineškite savo domeną.",
+    "eyebrow": "Asmenims",
+    "headline": "Tylus darbo rinkinys, kuris yra jūsų, o ne platformos.",
+    "body": "ES talpinamas alternatyvus pasirinkimas Gmail, iCloud ir Outlook.com. Paštas, kalendorius, kontaktai, failai — per atvirus standartus, su tinkamai sutvarkytais pagrindais ir jokio DI, skaitančio jūsų paštą. Atsineškite savo domeną arba naudokite verkio.eu adresą.",
+    "cta": "Užsiregistruoti",
+    "backLink": "Atgal į pradžią",
+    "sections": {
+      "core": {
+        "eyebrow": "Pagrindai, padaryti gerai",
+        "headline": "Paštas, kalendorius, kontaktai, failai. Be pertekliaus.",
+        "body": "Greitas klaviatūra valdomas žiniatinklio paštas, kalendorius, kuris sinchronizuojasi su Apple Calendar ir Thunderbird, CardDAV adresų knyga ir failų saugykla su ES valdomais raktais. Vienas prisijungimas. Viena sąskaita.",
+        "bullets": [
+          "Žiniatinklio paštas su gijomis, paieška, etiketėmis — orientuotas į klaviatūrą.",
+          "Kalendorius per CalDAV — sinchronizuojasi su Apple Calendar, Thunderbird, DAVx⁵.",
+          "Kontaktai per CardDAV — vCard importas ir eksportas, jokio nuosavo formato.",
+          "Failų saugykla su prieigos kontrole kiekvienam failui ir 30 dienų šiukšlinės atkūrimu.",
+          "Serverio pusės pašto filtrai (Sieve) — taisyklės veikia kiekviename kliente."
+        ]
+      },
+      "privacy": {
+        "eyebrow": "Tylus iš prigimties",
+        "headline": "Jokio DI, skaitančio jūsų paštą. Jokios įsitraukimo metrikos.",
+        "body": "Verkio neskanuoja jūsų pašto dėžutės reklamos taikymui. Mes nematuojame, kaip dažnai tikrinate programą. Mes neparduodame santraukų modelių tiekėjui. Produktas yra pašto dėžutė, o ne jūsų dėmesys.",
+        "bullets": [
+          "Jokių DI funkcijų, skaitančių jūsų paštą.",
+          "Jokios įsitraukimo metrikos ar streak pranešimų.",
+          "ES talpinami duomenys — už US CLOUD Act jurisdikcijos ribų.",
+          "Audito žurnalas kiekvienam administratoriaus veiksmui (jūsų ir mūsų)."
+        ]
+      },
+      "yourDomain": {
+        "eyebrow": "Jūsų domenas, jūsų aliasai",
+        "headline": "Naudokite savo domeną. Neriboti aliasai.",
+        "body": "Atsineškite domeną, kurį jau turite, ir mes sukonfigūruosime DNS už jus. Gaukite neribotus aliasus (su pagrįstu naudojimu) ir catch-all, kad netinkamai parašyti adresai vis tiek pasiektų. Arba pradėkite nuo verkio.eu adreso ir migruokite vėliau — adresų knyga keliauja kartu su jumis.",
+        "bullets": [
+          "Atsineškite savo domeną — automatinis DNS nustatymas dešimtyje ES registratorių.",
+          "Neriboti aliasai vienam vartotojui (su pagrįstu naudojimu).",
+          "Catch-all jūsų domene, kad rašybos klaidos vis tiek pasiektų.",
+          "Arba naudokite verkio.eu adresą — tas pats rinkinys, jokio domeno valdyti."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Persikraustykite be savaitgalio",
+        "headline": "Atsineškite savo pašto dėžutę su savimi.",
+        "body": "Migruokite iš Gmail, iCloud, Fastmail, Outlook.com — bet kurio IMAP tiekėjo — viename sraute. Aplankai, žymos ir gijos išsaugoti. Mes traukiame, jūs žiūrite į progreso juostą. Jokio savaitgalio projekto 'eksportuokite mbox ir melskitės'.",
+        "bullets": [
+          "Importas vienu paspaudimu iš Gmail, Outlook, iCloud, Fastmail ar bet kurio IMAP serverio.",
+          "Aplankai, etiketės, žymos, gijos — viskas išsaugota.",
+          "Progreso juosta skydelyje — jokio laukimo tamsoje.",
+          "Kalendoriai ir kontaktai taip pat migruoja, per standartinius formatus."
+        ]
+      }
+    }
+  },
+  "forTeams": {
+    "metaTitle": "Verkio komandoms — ES talpinamas darbo rinkinys",
+    "metaDescription": "Bendros pašto dėžutės su komandos darbo eiga, kalendoriai, failai, vikiai, žinutės. Audito žurnalas vadovybei. Viena prenumerata vietoje penkių.",
+    "eyebrow": "Komandoms",
+    "headline": "Komandos rinkinys, kuriame visi atsiranda toje pačioje vietoje.",
+    "body": "Bendros pašto dėžutės su priskyrimu ir prieigos teisėmis kiekvienam aplankui. Bendri kalendoriai ir failai. Vikiai runbookams. Žinutės pokalbiams. Audito žurnalas klausimams. Viskas per atvirus standartus, viskas ES, viskas vienoje prenumeratoje.",
+    "cta": "Užsiregistruoti",
+    "backLink": "Atgal į pradžią",
+    "sections": {
+      "shared": {
+        "eyebrow": "Sukurta bendram darbui",
+        "headline": "Bendros pašto dėžutės, kurios nesikauja su jumis.",
+        "body": "Komandos pašto dėžutė support@ ar hello@, kuri tvarko priskyrimą, būseną ir vidines pastabas — projektuojama kaip IMAP raktažodžiai, kad galingieji vartotojai Thunderbird ar Apple Mail vis tiek matytų, kas dirba prie ko. Helpdesk darbo eiga be helpdesk produkto pirkimo.",
+        "bullets": [
+          "Bendros pašto dėžutės su priskyrimu, būsena ir prieigos teisėmis kiekvienam aplankui.",
+          "Vidinės pastabos matomos tik komandai.",
+          "Bendri kalendoriai ir bendri failų aplankai kiekvienai komandai.",
+          "Vikiai runbookams, sprendimams ir dalykams, kuriuos kitu atveju paaiškintumėte kas ketvirtį.",
+          "Žinutės tame pačiame prisijungime — kanalai, DM, gijos."
+        ]
+      },
+      "onboardOff": {
+        "eyebrow": "Švarus įdarbinimas ir atleidimas",
+        "headline": "Atvykimai ir išvykimai be staigaus nutrūkimo.",
+        "body": "Pridėkite naują komandos narį ir jis viename sraute gauna paštą, kalendorių, kontaktus, failus ir prieigą prie bendros pašto dėžutės. Kai kas nors išeina, jo dėžutė lieka pasiekiama trisdešimt dienų ir persiunčia paskirtam savininkui — kad klientų atsakymas keturioliktą dieną vis tiek patektų kažkur naudingai.",
+        "bullets": [
+          "Pridėkite vartotojus vienu formulieriumi — paštas, kalendorius, kontaktai, failai iškart suteikiami.",
+          "Išeinančio vartotojo dėžutė lieka pasiekiama 30 dienų, persiunčia įvardintam savininkui.",
+          "Anti-loop apsaugos integruotos, audito žurnale fiksuojamos, kaskada išsivalo, jei savininkas taip pat išeina.",
+          "Kvietimo atšaukimo undo dėl neišvengiamos rašybos klaidos."
+        ]
+      },
+      "audit": {
+        "eyebrow": "Atsakymai, kai vadovybė klausia",
+        "headline": "Kiekvienas administratoriaus veiksmas — užfiksuotas.",
+        "body": "Klientui matomas audito žurnalas su paieška, reikšmėmis prieš/po ir septynerių metų saugojimu. Kai kas nors klausia 'kas pasidalino tuo aplanku išorėje', atsakymas yra už vienos užklausos. Transliuokite įvykius į Splunk, Datadog ar bet kurią SIEM, jei reikia.",
+        "bullets": [
+          "Audito žurnalas su reikšmėmis prieš/po kiekvienam pakeitimui.",
+          "Septynerių metų saugojimas pagal nutylėjimą — atitinka švedų bokföringslagen.",
+          "Transliacija į Splunk, Datadog ar bet kurią SIEM per webhook.",
+          "Eksportas į CSV ar JSONL atitikčiai ar forenzikai."
+        ]
+      },
+      "standards": {
+        "eyebrow": "Atviri standartai komandoje",
+        "headline": "Komandos žmogus, naudojantis Thunderbird, jaučiasi gerai.",
+        "body": "Verkio kalba IMAP, SMTP, CalDAV, CardDAV, Sieve. Bet kuris komandos narys, mėgstantis Apple Mail, Thunderbird, Outlook ar K-9, tiesiog prisijungia ir dirba. Bendros pašto dėžutės būsena ir priskyrimai projektuojami kaip IMAP raktažodžiai, kad jie taip pat matytų komandos būseną.",
+        "bullets": [
+          "IMAP ir SMTP — veikia kiekviename standartą atitinkančiame pašto kliente.",
+          "CalDAV ir CardDAV — kalendoriai ir kontaktai sinchronizuojasi visur.",
+          "Sieve filtrai veikia pristatant — taisyklės veikia kiekviename kliente.",
+          "Automatinis domeno nustatymas plius Thunderbird XML ir Apple .mobileconfig profiliai momentiniam įrenginių nustatymui."
+        ]
+      },
+      "oneBill": {
+        "eyebrow": "Vienas rinkinys, viena sąskaita",
+        "headline": "Nustokite siuvinėti prenumeratas tarpusavyje.",
+        "body": "Šiandien vidutinė maža komanda moka už Google Workspace (paštas + kalendorius + Drive), Slack (žinutės), Notion (viki) ir helpdesk produktą — penkias prenumeratas, penkias administratoriaus konsoles, penkis vartotojo ciklo srautus. Verkio yra viena prenumerata, viena konsolė, vienas audito žurnalas.",
+        "bullets": [
+          "Viena prenumerata, pakeičianti paštą + kalendorių + failus + viki + žinutes + helpdesk.",
+          "Viena administratoriaus konsolė vartotojams, sąskaitoms, auditui ir domeno valdymui.",
+          "Viena tapatybė — provizionuokite kartą, prieikite prie visko.",
+          "Mollie sąskaitos EUR — jokio US mokėjimų procesoriaus grandinėje."
+        ]
+      }
+    }
+  },
+  "forItAdmins": {
+    "metaTitle": "Verkio IT ir pirkimams — ES talpinamas darbo rinkinys",
+    "metaDescription": "ES infrastruktūra, jokios US CLOUD Act ekspozicijos, BDAR nuo pat pradžių. DPA, audito žurnalas, SAML/SSO, ribotos API raktų teisės, ES valdomi šifravimo raktai, tikras katastrofų atkūrimas.",
+    "eyebrow": "IT ir pirkimams",
+    "headline": "Nuobodžios garantijos, kurių prašo pirkimų skyrius.",
+    "body": "Tik ES infrastruktūra. Tikras audito žurnalas su SIEM transliacija. SAML/SSO su JIT provizionavimu. ES valdomi šifravimo raktai, ne US KMS. Atviri standartai, kad migracijos rizika liktų maža. Tikros katastrofų atkūrimo pratybos, ne tik rinkodaros teiginiai.",
+    "cta": "Užsiregistruoti",
+    "backLink": "Atgal į pradžią",
+    "sections": {
+      "procurement": {
+        "eyebrow": "Pasiruošę pirkimams",
+        "headline": "Dokumentacija neturi staigmenų.",
+        "body": "DPA, subprocesorių sąrašas, ROPA-paruoštas audito žurnalas, BDAR Straipsnio 15 / 17 / 20 srautai, kurie iš tikrųjų veikia — ne 'mes jums grįšime'. Mollie (olandiškas) tvarko sąskaitas vietoj Stripe (US), uždarant didžiausią US subprocesoriaus išlygą pirkimų peržiūrose.",
+        "bullets": [
+          "Standartinė DPA (atitinkanti Straipsnį 28) prieinama prieš pasirašymą.",
+          "Viešas subprocesorių sąrašas — kiekviena priklausomybė įvardinta, visos ES nuosavybės, kur tai svarbu.",
+          "BDAR Straipsnis 15 (prieiga), Straipsnis 17 (ištrynimas), Straipsnis 20 (perkeliamumas) — viskas vienu paspaudimu.",
+          "Mollie tvarko mokėjimus vietoj Stripe — jokio US mokėjimų procesoriaus.",
+          "Septynerių metų audito žurnalo saugojimas atitinka švedų bokföringslagen."
+        ]
+      },
+      "residency": {
+        "eyebrow": "ES rezidencija iki pat apačios",
+        "headline": "Jokio US hyperscaler niekur grandinėje.",
+        "body": "Hetzner serveriai Vokietijoje ir Suomijoje. Hetzner DNS (ne Cloudflare). Vault Transit ES talpinamoje infrastruktūroje raktų wrappinimui (ne AWS KMS). GlitchTip klaidų stebėjimui (ne Sentry). Hetzner Storage Box atsarginėms kopijoms (ne S3). Jokio sluoksnio nepatikėta US debesijai.",
+        "bullets": [
+          "Kompiuterijos resursai Hetzner Cloud — Vokietijos ir Suomijos regionai.",
+          "Autoritetingi DNS Hetzner DNS Console — ES nuosavybės, ne Cloudflare.",
+          "Šifravimo ramybės būsenoje raktai wrappinami Vault Transit ES talpinamoje infrastruktūroje — jokio US KMS.",
+          "Atsarginės kopijos į Hetzner Storage Box (ES) — jokio S3, GCS ar Azure Blob."
+        ]
+      },
+      "identityAndAccess": {
+        "eyebrow": "Tapatybė ir prieiga",
+        "headline": "SSO, audito žurnalo transliacija, riboti raktai.",
+        "body": "SAML 2.0 federacija su Okta, Azure AD, Google Workspace ar bet kuriuo standartą atitinkančiu IdP — su just-in-time vartotojų provizionavimu ir grupių/rolių mapavimu, perskaičiuojamu kiekvieno prisijungimo metu. Audito žurnalas transliuojamas į jūsų SIEM. Ribotų teisių, keičiami API raktai kiekvienai integracijai.",
+        "bullets": [
+          "SAML 2.0 SSO su bet kuriuo IdP — Okta, Azure AD, Google Workspace, Keycloak.",
+          "Just-in-time provizionavimas pirmojo prisijungimo metu — jokio rankinio vartotojų kūrimo.",
+          "Grupių ir rolių mapavimas perskaičiuojamas kiekvieno prisijungimo metu — jokių pasenusių leidimų.",
+          "Riboti API raktai su rotacija — read-only, pagal pašto dėžutę, pagal organizaciją.",
+          "Audito žurnalo transliacija į Splunk, Datadog ar bet kurią SIEM per webhook."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Migracijos rizika: maža",
+        "headline": "Standartai reiškia, kad išėjimas visada yra pasirinkimas.",
+        "body": "Kiekviena rinkinio dalis kalba atvirus standartus — IMAP, SMTP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Jei Verkio neįvykdys pažadų, jūsų duomenys išvyks taip pat švariai, kaip atvyko. Jokio nuosavo protokolo reiškia jokios migracijos projekto trečiaisiais metais.",
+        "bullets": [
+          "Standartai: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
+          "Straipsnio 20 perkeliamumo eksportas tarpusavyje suderintais formatais — vienu paspaudimu.",
+          "Automatinis domeno nustatymas dešimtyje ES DNS registratorių (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys ir kt.).",
+          "Pašto importas iš Microsoft 365, Google Workspace ar bet kurio IMAP — aplankai, žymos, gijos išsaugoti."
+        ]
+      },
+      "ops": {
+        "eyebrow": "Operacijos, kurias galite auditoriškai patikrinti",
+        "headline": "Tikras katastrofų atkūrimas. Tikras atsarginių kopijų patikrinimas.",
+        "body": "Kiekvienos valandos Postgres atsarginės kopijos plius konfigūracijos snapshot'ai pagal serverį, šifruoti ES valdomais raktais, replikuojami į atskirą ES regioną. Atkūrimo pratybos vykdomos pagal grafiką — ne deklaratyviai — kad atkūrimo kelias būtų išbandytas dar prieš jį prireikiant. Būsenos puslapis valdomas tikrais heartbeat, ne rankomis.",
+        "bullets": [
+          "Kiekvienos valandos šifruotos atsarginės kopijos; replikacija tarp regionų ES.",
+          "Atkūrimo pratybos pagal grafiką — atkūrimo kelias patikrintas, ne tariamai veikiantis.",
+          "Realaus laiko būsenos puslapis valdomas heartbeat monitorių, ne žmonių.",
+          "GlitchTip (ES) klaidų stebėjimui — jokios US Sentry ekspozicijos."
+        ]
+      }
+    }
+  },
+  "forDevelopers": {
+    "metaTitle": "Verkio kūrėjams — Statykite ant Verkio",
+    "metaDescription": "REST API su OpenAPI 3.1, JMAP passthrough, pasirašyti webhook, transliuojamas audito žurnalas. Sign in with Verkio (OIDC) artėja. Nemokama v1.",
+    "eyebrow": "Kūrėjams",
+    "headline": "Statykite ant Verkio. Nuobodžios garantijos įskaičiuotos.",
+    "body": "Verkio sukurta API-first — tie patys endpointai, kuriuos naudoja žiniatinklio programa, atviri jums. REST su OpenAPI 3.1 specifikacija kodų generavimui, JMAP tiesioginei prieigai prie pašto protokolo, HMAC pasirašyti webhook su dead-letter queue ir transliuojamas audito žurnalas atitikčiai. Nemokama v1 lygiui.",
+    "cta": "Užsiregistruoti",
+    "backLink": "Atgal į pradžią",
+    "sections": {
+      "restApi": {
+        "eyebrow": "REST + JMAP",
+        "headline": "REST su OpenAPI 3.1 specifikacija. JMAP passthrough paštui.",
+        "body": "Kiekvienas endpointas dokumentuotas viename OpenAPI 3.1 faile /api/v1/openapi.json — nukreipkite bet kurį kodų generavimo įrankį ir gaukite tipizuotą klientą savo kalboje. Paštui API įtraukia JMAP passthrough, kad bet kuri JMAP suderinta biblioteka tiesiogiai kalbėtų su jūsų pašto dėžutėmis.",
+        "bullets": [
+          "OpenAPI 3.1 specifikacija /api/v1/openapi.json — paruošta kodų generavimui.",
+          "Interaktyvi nuoroda /developers (Swagger UI).",
+          "Bearer-token autentifikacija (RFC 6750). Raktai sumaišyti Argon2id ramybės būsenoje.",
+          "JMAP Core ir JMAP Mail (RFC 8620 / 8621) passthrough — naudokite bet kurią JMAP biblioteką.",
+          "Idempotency-Key palaikymas mutuojantiems endpointams — saugu kartoti."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Pasirašyti webhook",
+        "headline": "HMAC pasirašytas pristatymas. Pakartotiniai bandymai. Dead-letter queue.",
+        "body": "Prenumeruokite svarbius įvykius — naują paštą, audito žurnalo įrašus, paskyros pakeitimus. Kiekvienas payload pasirašytas HMAC-SHA256. Nepavykę pristatymai bandomi iš naujo eksponentiniu backoff'u; nuolatinės nesėkmės patenka į dead-letter queue, kurią galite peržiūrėti ir pakartoti iš skydelio.",
+        "bullets": [
+          "HMAC-SHA256 parašas vienam payload (X-Verkio-Signature antraštė).",
+          "Eksponentinis backoff esant 5xx ir ryšio klaidoms.",
+          "Dead-letter queue skydelyje — peržiūrėkite, pakartokite, atmeskite.",
+          "Kiekvienas pristatymo bandymas užfiksuotas audito žurnale."
+        ]
+      },
+      "auditApi": {
+        "eyebrow": "Audito žurnalo API",
+        "headline": "Kiekvienas administratoriaus veiksmas — programiškai.",
+        "body": "Tas pats audito žurnalas, kurį skaitote skydelyje, pasiekiamas kaip API. Puslapiuojamas, filtruojamas, su reikšmėmis prieš/po kiekvienam pakeitimui. Transliuokite į savo SIEM per webhook arba apklauskite endpointą. Eksportuokite į CSV ar JSONL forenzikai. Septynerių metų saugojimas pagal nutylėjimą.",
+        "bullets": [
+          "Puslapiuojamas ir filtruojamas: pagal vartotoją, pagal įvykio tipą, pagal datos intervalą.",
+          "Reikšmės prieš/po kiekvienai mutacijai.",
+          "Transliacija į jūsų SIEM per webhook ar pull endpointą.",
+          "Septynerių metų saugojimas pagal nutylėjimą. CSV ar JSONL eksportas bet kada."
+        ]
+      },
+      "futureSignIn": {
+        "eyebrow": "Sign in with Verkio · Netrukus",
+        "headline": "ES talpinamas tapatybės teikėjas jūsų vartotojams.",
+        "body": "Standartinis OIDC mygtukas, kurį galite integruoti į bet kurį trečiosios šalies puslapį. ES talpinamas prisijungimo srautas, jokios cross-site profiliavimo, smulkus sutikimas pagal puslapį. Planuojama, kūrėjų paklausos vedama — nemokama galutiniams vartotojams, nemokama kūrėjams v1. Norite to savo programai? Pasakykite mums.",
+        "bullets": [
+          "Standartinis OpenID Connect (OIDC) — jokio Verkio SDK reikalavimo.",
+          "Veikia su bet kuriuo OIDC suderintu tapatybės brokeriu (Auth0, Clerk, Keycloak, NextAuth).",
+          "Smulkus sutikimas pagal puslapį plius prijungtų programų skydelis galutiniams vartotojams.",
+          "Nemokama v1 — pasakykite mums, kad norite, ir paskirsime prioritetą."
         ]
       }
     }
