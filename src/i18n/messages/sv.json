@@ -414,9 +414,9 @@
         "description": "Enkelklicksimport av e-post, kalender, kontakter och Drive- eller OneDrive-filer. Med status, omförsök och en parallell övergångsperiod."
       },
       "ssoScim": {
-        "date": "Q1 2027",
+        "date": "June 2026",
         "name": "SCIM and OIDC sign-on",
-        "description": "RFC 7644 SCIM endpoints so Okta / Entra ID / any standard IdP can auto-provision and de-provision users via push, instead of waiting for first sign-in. OIDC sign-on as an alternative to SAML for IdPs that prefer it. SAML SSO already shipped — see above."
+        "description": "RFC 7644 SCIM 2.0 endpoints — Okta / Entra ID / JumpCloud / OneLogin auto-provision Users + Groups via push, instead of waiting for first sign-in. OIDC sign-on as an alternative to SAML for IdPs that prefer it (Auth0, Okta-OIDC, Entra-OIDC, Google Workspace OIDC, Authentik). PATCH parser handles the documented per-IdP payload variations. Owner-only configuration."
       },
       "emailAliases": {
         "date": "Maj 2026",
