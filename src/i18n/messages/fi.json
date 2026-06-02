@@ -548,7 +548,7 @@
     "customerCategories": {
       "dns": {
         "name": "DNS-palveluntarjoajat",
-        "description": "Verkkotunnuksen automaattinen asennus kirjoittaa tietueet palveluntarjoajasi API:in kautta. Annat API-tunnuksen (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 jne.); me julkaisemme pyytämäsi tietueet."
+        "description": "Verkkotunnuksen automaattinen asennus kirjoittaa tietueet palveluntarjoajasi API:in kautta. Annat API-tunnuksen (EU-owned DNS, OVH, IONOS, Cloudflare, Route 53 jne.); me julkaisemme pyytämäsi tietueet."
       },
       "idp": {
         "name": "Identiteettipalvelut (SSO/SCIM)",
@@ -682,7 +682,7 @@
         "headline": "Tuo verkkotunnuksesi. Mikä tahansa asiakas.",
         "body": "Lisää verkkotunnus, niin määritämme MX-, SPF-, DKIM-, DMARC- ja autoconfig-tietueet puolestasi. Kirjaudu Apple Mailista, Thunderbirdistä, Outlookista, K-9:stä — mistä tahansa, joka puhuu IMAPia tai SMTP:tä. Mobiiliprofiilit luodaan automaattisesti.",
         "bullets": [
-          "Automaattinen verkkotunnuksen käyttöönotto kymmenellä EU-DNS-tarjoajalla — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys ja muita.",
+          "Automaattinen verkkotunnuksen käyttöönotto kymmenellä EU-DNS-tarjoajalla — OVH, IONOS, deSEC, Scaleway, Glesys ja muita.",
           "Autoconfig host headerin kautta yhden napsautuksen mailasiakaskäyttöönottoon.",
           "Thunderbird XML- ja Apple .mobileconfig-profiilit luodaan jokaiselle tilille.",
           "IMAP4rev1, SMTP ja JMAP — valitse protokollasi.",
@@ -851,7 +851,7 @@
         "bullets": [
           "Per-tiedosto AES-256-GCM-salaus — jokainen tiedosto, jokainen tilaus, ilman lisämaksua.",
           "Datasalausavaimet kääritty Vault Transitin toimesta EU:ssa sijaitsevassa infrastruktuurissa.",
-          "Tallennus Hetzner EU object storagessa — yksikään yhdysvaltalainen ämpäri ei säilytä tietojasi.",
+          "Tallennus EU-resident object storagessa — yksikään yhdysvaltalainen ämpäri ei säilytä tietojasi.",
           "Asiakkaan hallitsema avainsalaus saatavilla kesäkuussa 2026 — edes Verkio ei voi lukea sitä."
         ]
       },
@@ -886,7 +886,7 @@
         "AES-256-GCM",
         "Vault Transit (KMS)",
         "TLS 1.3",
-        "Hetzner EU object storage",
+        "EU-resident object storage",
         "Open formats round-trip unchanged"
       ]
     }
@@ -1264,12 +1264,12 @@
       "residency": {
         "eyebrow": "EU-asuinpaikka, koko matkan alas",
         "headline": "Ei US-hyperscaleria missään ketjun osassa.",
-        "body": "Hetznerin palvelimet Saksassa ja Suomessa. Hetznerin DNS (ei Cloudflare). Vault Transit EU-isännöidyllä infrastruktuurilla avainten käärimiseen (ei AWS KMS). GlitchTip virheiden seurantaan (ei Sentry). Hetznerin Storage Box varmuuskopioille (ei S3). Ei yksikään kerros ulkoistettuna US-pilveen.",
+        "body": "EU-resident palvelimet Saksassa ja Suomessa. EU-omistettu DNS (ei Cloudflare). Vault Transit EU-isännöidyllä infrastruktuurilla avainten käärimiseen (ei AWS KMS). GlitchTip virheiden seurantaan (ei Sentry). EU-resident object storage varmuuskopioille (ei S3). Ei yksikään kerros ulkoistettuna US-pilveen.",
         "bullets": [
-          "Compute Hetznerin pilvessä — Saksan ja Suomen alueet.",
-          "Autoritatiivinen DNS Hetznerin DNS Consolessa — EU-omisteinen, ei Cloudflare.",
+          "Compute EU-omistetussa pilvessä — Saksan ja Suomen alueet.",
+          "Autoritatiivinen DNS UEin DNS Consolessa — EU-omisteinen, ei Cloudflare.",
           "Salausavaimet levossa kääritty Vault Transitilla EU-isännöidyllä infrastruktuurilla — ei US KMS.",
-          "Varmuuskopiot Hetznerin Storage Boxiin (EU) — ei S3, ei GCS, ei Azure Blob."
+          "Varmuuskopiot EU-resident object storage -palveluun (EU) — ei S3, ei GCS, ei Azure Blob."
         ]
       },
       "identityAndAccess": {
@@ -1291,7 +1291,7 @@
         "bullets": [
           "Standardit: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
           "Artikla 20 -siirrettävyyden vienti yhteentoimivissa muodoissa — yksi klikkaus.",
-          "Verkkotunnuksen automaattinen asennus kymmenellä EU DNS -rekisterinpitäjällä (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, lisää).",
+          "Verkkotunnuksen automaattinen asennus kymmenellä EU DNS -rekisterinpitäjällä (OVH, IONOS, deSEC, Scaleway, Glesys, lisää).",
           "Postin tuonti Microsoft 365:stä, Google Workspacesta tai mistä tahansa IMAP:sta — kansiot, liput, ketjut säilytetty."
         ]
       },
@@ -1380,7 +1380,7 @@
       "items": [
         {
           "name": "EU-asuinpaikan saanut työsviitti.",
-          "body": "Sähköposti, kalenteri, yhteystiedot, tiedostot, wikit ja viestit — kaikki Hetznerin infrastruktuurilla Saksassa ja Suomessa. EU-hallinnoidut salausavaimet, EU-DNS, EU-maksut. Ei amerikkalaista hyperscaleria ketjussa."
+          "body": "Sähköposti, kalenteri, yhteystiedot, tiedostot, wikit ja viestit — kaikki EU-pohjaisella infrastruktuurilla Saksassa ja Suomessa. EU-hallinnoidut salausavaimet, EU-DNS, EU-maksut. Ei amerikkalaista hyperscaleria ketjussa."
         },
         {
           "name": "Rakennettu avoimille standardeille.",

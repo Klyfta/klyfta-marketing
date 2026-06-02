@@ -548,7 +548,7 @@
     "customerCategories": {
       "dns": {
         "name": "DNS-pakkujad",
-        "description": "Domeeni automaatne seadistamine kirjutab kirjeid sinu pakkuja API kaudu. Sina annad API-mandaadi (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 jne); meie avaldame kirjed, mille avaldamist oled palunud."
+        "description": "Domeeni automaatne seadistamine kirjutab kirjeid sinu pakkuja API kaudu. Sina annad API-mandaadi (EU-owned DNS, OVH, IONOS, Cloudflare, Route 53 jne); meie avaldame kirjed, mille avaldamist oled palunud."
       },
       "idp": {
         "name": "Identiteedipakkujad (SSO/SCIM)",
@@ -682,7 +682,7 @@
         "headline": "Too oma domeen. Iga klient.",
         "body": "Lisa domeen ja me seadistame MX-, SPF-, DKIM-, DMARC- ja autoconfig-kirjed sinu eest. Logi sisse Apple Mailist, Thunderbirdist, Outlookist, K-9-st — millest tahes, mis räägib IMAP-i või SMTP-d. Mobiiliprofiilid genereeritakse automaatselt.",
         "bullets": [
-          "Automaatne domeeni seadistamine kümne ELi DNS-pakkuja juures — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys ja teised.",
+          "Automaatne domeeni seadistamine kümne ELi DNS-pakkuja juures — OVH, IONOS, deSEC, Scaleway, Glesys ja teised.",
           "Autoconfig host headeri kaudu mailikliendi seadistamiseks ühe klikiga.",
           "Thunderbird XML- ja Apple .mobileconfig-profiilid genereeritud iga konto jaoks.",
           "IMAP4rev1, SMTP ja JMAP — vali oma protokoll.",
@@ -851,7 +851,7 @@
         "bullets": [
           "Faili-põhine AES-256-GCM krüpteerimine — iga fail, iga plaan, ilma lisatasuta.",
           "Andmekrüpteerimisvõtmed mässitud Vault Transitiga EL-is asuvas infrastruktuuris.",
-          "Salvestus Hetzner EU object storage'is — ükski USA ämber su andmeid ei hoia.",
+          "Salvestus EU-resident object storage'is — ükski USA ämber su andmeid ei hoia.",
           "Kliendi hoitud võtmega krüpteerimine saabub juunis 2026 — isegi Verkio ei saa seda lugeda."
         ]
       },
@@ -886,7 +886,7 @@
         "AES-256-GCM",
         "Vault Transit (KMS)",
         "TLS 1.3",
-        "Hetzner EU object storage",
+        "EU-resident object storage",
         "Open formats round-trip unchanged"
       ]
     }
@@ -1264,12 +1264,12 @@
       "residency": {
         "eyebrow": "EL-i residentsus, lõpuni välja",
         "headline": "Ükski US-i hüperskaleerija ei ole kuskil ahelas.",
-        "body": "Hetzneri serverid Saksamaal ja Soomes. Hetzneri DNS (mitte Cloudflare). Vault Transit EL-i residentsusega infrastruktuuril võtmete pakkimiseks (mitte AWS KMS). GlitchTip vigade jälgimiseks (mitte Sentry). Hetzneri Storage Box varukoopiateks (mitte S3). Mitte ühtegi kihti ei ole US-i pilve outsourcitud.",
+        "body": "EU serverid Saksamaal ja Soomes. EU DNS (mitte Cloudflare). Vault Transit EL-i residentsusega infrastruktuuril võtmete pakkimiseks (mitte AWS KMS). GlitchTip vigade jälgimiseks (mitte Sentry). EU Storage Box varukoopiateks (mitte S3). Mitte ühtegi kihti ei ole US-i pilve outsourcitud.",
         "bullets": [
-          "Compute Hetzneri pilves — Saksamaa ja Soome regioonid.",
-          "Autoriteetne DNS Hetzneri DNS Console'is — EL-i omanduses, mitte Cloudflare.",
+          "Compute EU pilves — Saksamaa ja Soome regioonid.",
+          "Autoriteetne DNS UEi DNS Console'is — EL-i omanduses, mitte Cloudflare.",
           "Krüpteerimisvõtmed puhkeasendis pakitud Vault Transitiga EL-i residentsusega infrastruktuuril — ei mingit US-i KMS-i.",
-          "Varukoopiad Hetzneri Storage Boxis (EL) — ei mingit S3-d, GCS-i ega Azure Blobi."
+          "Varukoopiad EU Storage Boxis (EL) — ei mingit S3-d, GCS-i ega Azure Blobi."
         ]
       },
       "identityAndAccess": {
@@ -1291,7 +1291,7 @@
         "bullets": [
           "Standardid: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
           "Artikkel 20 ülekantavuse eksport koostalitusvõimelistes vormingutes — üks klõps.",
-          "Domeeni automaatne seadistamine kümne EL-i DNS-i registripidaja juures (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, veel).",
+          "Domeeni automaatne seadistamine kümne EL-i DNS-i registripidaja juures (OVH, IONOS, deSEC, Scaleway, Glesys, veel).",
           "Posti import Microsoft 365-st, Google Workspace'ist või ükskõik millisest IMAP-ist — kaustad, lipud, lõimed säilitatud."
         ]
       },
@@ -1380,7 +1380,7 @@
       "items": [
         {
           "name": "ELi territooriumil asuv tööpakett.",
-          "body": "Meil, kalender, kontaktid, failid, vikid ja sõnumivahetus — kõik Hetzneri taristul Saksamaal ja Soomes. ELis hallatavad krüpteerimisvõtmed, EL DNS, EL maksed. Ühtegi USA hüperskaalerit ahelas pole."
+          "body": "Meil, kalender, kontaktid, failid, vikid ja sõnumivahetus — kõik EU taristul Saksamaal ja Soomes. ELis hallatavad krüpteerimisvõtmed, EL DNS, EL maksed. Ühtegi USA hüperskaalerit ahelas pole."
         },
         {
           "name": "Avatud standarditele ehitatud.",

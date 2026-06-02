@@ -548,7 +548,7 @@
     "customerCategories": {
       "dns": {
         "name": "Poskytovatelé DNS",
-        "description": "Automatické nastavení domény zapisuje záznamy přes API vašeho poskytovatele. Poskytnete API token (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 atd.); my publikujeme záznamy, o které jste nás požádali."
+        "description": "Automatické nastavení domény zapisuje záznamy přes API vašeho poskytovatele. Poskytnete API token (EU-owned DNS, OVH, IONOS, Cloudflare, Route 53 atd.); my publikujeme záznamy, o které jste nás požádali."
       },
       "idp": {
         "name": "Poskytovatelé identity (SSO/SCIM)",
@@ -682,7 +682,7 @@
         "headline": "Přines svou doménu. Jakýkoliv klient.",
         "body": "Přidej doménu a my za tebe nastavíme MX, SPF, DKIM, DMARC a autoconfig záznamy. Přihlas se z Apple Mail, Thunderbirdu, Outlooku, K-9 — čehokoli, co mluví IMAP nebo SMTP. Mobilní profily se generují automaticky.",
         "bullets": [
-          "Automatické nastavení domény u deseti EU DNS poskytovatelů — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys a dalších.",
+          "Automatické nastavení domény u deseti EU DNS poskytovatelů — OVH, IONOS, deSEC, Scaleway, Glesys a dalších.",
           "Autoconfig přes host header pro nastavení mailového klienta na jeden klik.",
           "Profily Thunderbird XML a Apple .mobileconfig vygenerované pro každý účet.",
           "IMAP4rev1, SMTP a JMAP — vyber si svůj protokol.",
@@ -851,7 +851,7 @@
         "bullets": [
           "Šifrování AES-256-GCM na soubor — každý soubor, každý tarif, bez příplatku.",
           "Datové šifrovací klíče obalené Vault Transit na infrastruktuře se sídlem v EU.",
-          "Úložiště na Hetzner EU object storage — žádný americký bucket nedrží tvoje data.",
+          "Úložiště na EU-resident object storage — žádný americký bucket nedrží tvoje data.",
           "Šifrování klíčem drženým zákazníkem od června 2026 — ani Verkio to nepřečte."
         ]
       },
@@ -886,7 +886,7 @@
         "AES-256-GCM",
         "Vault Transit (KMS)",
         "TLS 1.3",
-        "Hetzner EU object storage",
+        "EU-resident object storage",
         "Open formats round-trip unchanged"
       ]
     }
@@ -1264,12 +1264,12 @@
       "residency": {
         "eyebrow": "EU rezidence, až na dno",
         "headline": "Žádný US hyperscaler nikde v řetězci.",
-        "body": "Hetzner servery v Německu a Finsku. Hetzner DNS (ne Cloudflare). Vault Transit na EU infrastruktuře pro obalování klíčů (ne AWS KMS). GlitchTip pro sledování chyb (ne Sentry). Hetzner Storage Box pro zálohy (ne S3). Ani jedna vrstva outsourcovaná do US cloudu.",
+        "body": "EU servery v Německu a Finsku. EU-owned DNS (ne Cloudflare). Vault Transit na EU infrastruktuře pro obalování klíčů (ne AWS KMS). GlitchTip pro sledování chyb (ne Sentry). EU-resident object storage pro zálohy (ne S3). Ani jedna vrstva outsourcovaná do US cloudu.",
         "bullets": [
-          "Compute na Hetzner Cloud — regiony Německo a Finsko.",
-          "Autoritativní DNS na Hetzner DNS Console — v EU vlastnictví, ne Cloudflare.",
+          "Compute na EU-owned cloud — regiony Německo a Finsko.",
+          "Autoritativní DNS na an EU-owned DNS provider — v EU vlastnictví, ne Cloudflare.",
           "Klíče šifrování v klidu obaleny Vault Transitem na EU infrastruktuře — žádný US KMS.",
-          "Zálohy na Hetzner Storage Box (EU) — žádné S3, GCS ani Azure Blob."
+          "Zálohy na EU-resident object storage — žádné S3, GCS ani Azure Blob."
         ]
       },
       "identityAndAccess": {
@@ -1291,7 +1291,7 @@
         "bullets": [
           "Standardy: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
           "Export přenositelnosti podle článku 20 v interoperabilních formátech — jedním kliknutím.",
-          "Automatické nastavení domény u deseti EU DNS registrátorů (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys a další).",
+          "Automatické nastavení domény u deseti EU DNS registrátorů (OVH, IONOS, deSEC, Scaleway, Glesys a další).",
           "Import pošty z Microsoft 365, Google Workspace nebo libovolného IMAP — složky, příznaky, vlákna zachovány."
         ]
       },
@@ -1380,7 +1380,7 @@
       "items": [
         {
           "name": "Pracovní sada s rezidencí v EU.",
-          "body": "Pošta, kalendář, kontakty, soubory, wiki a zprávy — vše na infrastruktuře Hetzner v Německu a Finsku. Šifrovací klíče spravované v EU, EU DNS, EU platby. Žádný americký hyperscaler v řetězci."
+          "body": "Pošta, kalendář, kontakty, soubory, wiki a zprávy — vše na infrastruktuře EU v Německu a Finsku. Šifrovací klíče spravované v EU, EU DNS, EU platby. Žádný americký hyperscaler v řetězci."
         },
         {
           "name": "Postaveno na otevřených standardech.",

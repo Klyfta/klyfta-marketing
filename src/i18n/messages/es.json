@@ -548,7 +548,7 @@
     "customerCategories": {
       "dns": {
         "name": "Proveedores de DNS",
-        "description": "La configuración automática de dominio escribe registros mediante la API de tu proveedor. Tú facilitas un token de API (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53, etc.); nosotros publicamos los registros que nos has pedido."
+        "description": "La configuración automática de dominio escribe registros mediante la API de tu proveedor. Tú facilitas un token de API (EU-owned DNS, OVH, IONOS, Cloudflare, Route 53, etc.); nosotros publicamos los registros que nos has pedido."
       },
       "idp": {
         "name": "Proveedores de identidad (SSO/SCIM)",
@@ -682,7 +682,7 @@
         "headline": "Trae tu dominio. Cualquier cliente.",
         "body": "Añade un dominio y configuramos los registros MX, SPF, DKIM, DMARC y autoconfig por ti. Inicia sesión desde Apple Mail, Thunderbird, Outlook, K-9 — cualquier cosa que hable IMAP o SMTP. Perfiles móviles generados automáticamente.",
         "bullets": [
-          "Configuración automática de dominio en diez proveedores DNS de la UE — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys y más.",
+          "Configuración automática de dominio en diez proveedores DNS de la UE — OVH, IONOS, deSEC, Scaleway, Glesys y más.",
           "Autoconfig por host header para configurar el cliente de correo en un clic.",
           "Perfiles Thunderbird XML y Apple .mobileconfig generados para cada cuenta.",
           "IMAP4rev1, SMTP y JMAP — elige tu protocolo.",
@@ -851,7 +851,7 @@
         "bullets": [
           "Cifrado AES-256-GCM por archivo — todos los archivos, todos los planes, sin sobrecoste.",
           "Claves de cifrado de datos envueltas por Vault Transit en infraestructura residente en la UE.",
-          "Almacenamiento en Hetzner EU object storage — ningún bucket estadounidense guarda tus datos.",
+          "Almacenamiento en EU-resident object storage — ningún bucket estadounidense guarda tus datos.",
           "Cifrado con clave del cliente disponible en junio de 2026 — ni siquiera Verkio puede leerlo."
         ]
       },
@@ -886,7 +886,7 @@
         "AES-256-GCM",
         "Vault Transit (KMS)",
         "TLS 1.3",
-        "Hetzner EU object storage",
+        "EU-resident object storage",
         "Open formats round-trip unchanged"
       ]
     }
@@ -1264,12 +1264,12 @@
       "residency": {
         "eyebrow": "Residencia UE, hasta el fondo",
         "headline": "Ningún hiperescala US en ninguna parte de la cadena.",
-        "body": "Servidores Hetzner en Alemania y Finlandia. DNS de Hetzner (no Cloudflare). Vault Transit sobre infraestructura UE para envoltura de claves (no AWS KMS). GlitchTip para seguimiento de errores (no Sentry). Hetzner Storage Box para copias (no S3). Ni una capa externalizada a una nube US.",
+        "body": "Servidores EU en Alemania y Finlandia. DNS de EU (no Cloudflare). Vault Transit sobre infraestructura UE para envoltura de claves (no AWS KMS). GlitchTip para seguimiento de errores (no Sentry). EU-resident object storage para copias (no S3). Ni una capa externalizada a una nube US.",
         "bullets": [
-          "Compute en Hetzner Cloud — regiones Alemania y Finlandia.",
-          "DNS autoritativo en Hetzner DNS Console — propiedad UE, no Cloudflare.",
+          "Compute en EU-owned cloud — regiones Alemania y Finlandia.",
+          "DNS autoritativo en an EU-owned DNS provider — propiedad UE, no Cloudflare.",
           "Claves de cifrado en reposo envueltas por Vault Transit sobre infraestructura UE — sin KMS US.",
-          "Copias en Hetzner Storage Box (UE) — sin S3, sin GCS, sin Azure Blob."
+          "Copias en EU-resident object storage (UE) — sin S3, sin GCS, sin Azure Blob."
         ]
       },
       "identityAndAccess": {
@@ -1291,7 +1291,7 @@
         "bullets": [
           "Estándares: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
           "Exportación de portabilidad del Artículo 20 en formatos interoperables — un clic.",
-          "Configuración automática de dominio en diez registradores DNS de la UE (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, más).",
+          "Configuración automática de dominio en diez registradores DNS de la UE (OVH, IONOS, deSEC, Scaleway, Glesys, más).",
           "Importación de correo desde Microsoft 365, Google Workspace o cualquier IMAP — carpetas, marcas e hilos preservados."
         ]
       },
@@ -1380,7 +1380,7 @@
       "items": [
         {
           "name": "Una suite de trabajo con residencia en la UE.",
-          "body": "Correo, calendario, contactos, archivos, wikis y mensajería — todo sobre infraestructura Hetzner en Alemania y Finlandia. Claves de cifrado gestionadas en la UE, DNS UE, pagos UE. Ningún hyperscaler estadounidense en la cadena."
+          "body": "Correo, calendario, contactos, archivos, wikis y mensajería — todo sobre infraestructura EU en Alemania y Finlandia. Claves de cifrado gestionadas en la UE, DNS UE, pagos UE. Ningún hyperscaler estadounidense en la cadena."
         },
         {
           "name": "Construido sobre estándares abiertos.",
