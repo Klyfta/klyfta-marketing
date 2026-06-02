@@ -1051,6 +1051,132 @@
       }
     }
   },
+  "productApi": {
+    "metaTitle": "Veřejné API — Verkio",
+    "metaDescription": "REST API založené na standardech s OpenAPI 3.1 specifikací, podepsanými webhooky, JMAP průchodem a streamovatelným auditním logem. Propojte Verkio s nástroji, které už máte.",
+    "eyebrow": "Veřejné API",
+    "headline": "REST API. JMAP. Podepsané webhooky. Auditní log.",
+    "body": "Verkio je postavené API-first — stejné endpointy, které používá webová aplikace, jsou otevřené i pro vás. REST s OpenAPI 3.1 specifikací pro codegen. Podepsané webhooky pro události, na kterých vám záleží. JMAP pro přímý přístup k poštovnímu protokolu. Auditní log streamovatelný do vašeho SIEM.",
+    "cta": "Přidat se na seznam",
+    "backLink": "Zpět na přehled produktu",
+    "sections": {
+      "rest": {
+        "eyebrow": "REST",
+        "headline": "REST s OpenAPI 3.1 specifikací.",
+        "body": "Každý endpoint zdokumentovaný v jediném OpenAPI 3.1 souboru. Nasměrujte svůj codegen nástroj (openapi-generator, oapi-codegen, OpenAPI TS) na /api/v1/openapi.json a získejte typovaného klienta v jazyce, který chcete — nebo si projděte interaktivní referenci na /developers.",
+        "bullets": [
+          "OpenAPI 3.1 specifikace na /api/v1/openapi.json — připraveno pro codegen.",
+          "Interaktivní reference na /developers (Swagger UI).",
+          "Autentizace pomocí Bearer tokenu (RFC 6750). Klíče hashované Argon2id v klidovém stavu.",
+          "Per-klíčové rate limity s hlavičkami X-RateLimit-*. 429 s Retry-After.",
+          "Podpora Idempotency-Key na mutujících endpointech — bezpečné opakovat na vrtkavých sítích."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Podepsané webhooky",
+        "headline": "HMAC-podepsané doručení s dead-letter frontou.",
+        "body": "Odebírejte události, na kterých vám záleží — nová pošta, záznamy v auditním logu, změny účtu. Každý payload je podepsán HMAC-SHA256, takže si můžete ověřit, že přišel od Verkio. Neúspěšná doručení se opakují s exponenciálním backoffem; trvalé chyby skončí v dead-letter frontě, kterou si můžete prohlédnout a přehrát znovu.",
+        "bullets": [
+          "Podpis HMAC-SHA256 u každého payloadu (hlavička X-Verkio-Signature).",
+          "Opakování s exponenciálním backoffem při 5xx a chybách spojení.",
+          "Dead-letter fronta v dashboardu — prohlédnout, přehrát znovu, zamítnout.",
+          "Každý pokus o doručení zaznamenán v auditním logu."
+        ]
+      },
+      "jmap": {
+        "eyebrow": "JMAP průchod",
+        "headline": "Mluvte přímo moderním poštovním protokolem.",
+        "body": "Poštovní server, na kterém Verkio běží, mluví JMAP (RFC 8620 / 8621) — moderním nástupcem IMAP založeným na JSON. Veřejné API nabízí JMAP průchod, takže klientské knihovny mohou komunikovat přímo s vašimi schránkami, aniž by bylo nutné znovu implementovat každý endpoint na serveru.",
+        "bullets": [
+          "JMAP Core (RFC 8620) a JMAP Mail (RFC 8621) přes /api/v1/jmap.",
+          "Použijte jakoukoli JMAP-kompatibilní klientskou knihovnu — jmap-client (JS), python-jmap, další.",
+          "Push notifikace přes JMAP EventSource — žádný polling.",
+          "IMAP a SMTP jsou rovněž dostupné pro klienty, kteří je potřebují."
+        ]
+      },
+      "auditLog": {
+        "eyebrow": "API auditního logu",
+        "headline": "Každá akce administrátora, streamovatelná.",
+        "body": "Stejný auditní log, který čtete v dashboardu, je dostupný jako API — stránkovaný, filtrovatelný, s hodnotami před/po u každé změny. Streamujte události do Splunk, Datadog nebo jakéhokoli SIEM, který přijímá webhook nebo pollne stránkovaný endpoint. Exportujte do CSV nebo JSONL pro forenzní analýzu.",
+        "bullets": [
+          "Stránkovaný a filtrovatelný: podle uživatele, typu události, časového rozsahu.",
+          "Hodnoty před/po u každé mutace — kompletní forenzní stopa.",
+          "Streamujte do svého SIEM přes webhook nebo pull endpoint.",
+          "Export do CSV nebo JSONL pro offline analýzu. Sedm let uchování jako výchozí."
+        ]
+      },
+      "production": {
+        "eyebrow": "Připraveno do produkce",
+        "headline": "Postaveno pro dlouhotrvající integrace, které opravdu chcete psát.",
+        "body": "API klíče s rozsahem a rotací. Per-klíčové rate limity. Idempotence u zápisů. Verzované URL, takže vás odebrání nezaskočí v tichou neděli. Nudné záruky, které dělají integraci hodnou napsání.",
+        "bullets": [
+          "API klíče s rozsahem — read-only, omezené na schránku, omezené na organizaci.",
+          "Rotace klíčů v dashboardu — odvolejte a vystavte nové bez výpadku.",
+          "Verzování v URL (/api/v1/…) s deprecation hlavičkami měsíce dopředu.",
+          "Publikovaný OpenAPI changelog; zlomové změny jen při major verzích."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Otevřené standardy",
+      "headline": "RFC a OpenAPI. Nic proprietárního.",
+      "body": "Každý protokol, kterým mluví veřejné API, je veřejně dokumentovaný. Přineste si svůj codegen nástroj. Přineste si svou stávající klientskou knihovnu. Nic tady není vymyšleno pro prodejní prezentaci.",
+      "items": [
+        "OpenAPI 3.1",
+        "REST",
+        "JMAP Core (RFC 8620)",
+        "JMAP Mail (RFC 8621)",
+        "Bearer auth (RFC 6750)",
+        "HMAC-SHA256 (RFC 6234)",
+        "Argon2id key hashing",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productSignIn": {
+    "metaTitle": "Sign in with Verkio — Verkio",
+    "metaDescription": "Identitní poskytovatel se sídlem v EU pro otevřený web. Standardní OIDC, žádné cross-site profilování, souhlas patří vám. Plánováno — řízeno poptávkou vývojářů.",
+    "eyebrow": "Sign in with Verkio · Brzy",
+    "headline": "Poskytovatel identity, který respektuje lidi, kteří ho používají.",
+    "body": "Sign in with Verkio je standardní OIDC tlačítko, které může integrovat jakákoli třetí strana — váš účet Verkio se stává vaší identitou pro otevřený web. Se sídlem v EU, respektující soukromí, žádné cross-site profilování. Plánováno, řízeno poptávkou vývojářů: zdarma pro koncové uživatele, zdarma pro vývojáře ve v1. Řekněte nám, že to chcete, a postavíme to dřív.",
+    "cta": "Řekněte nám, že to chcete",
+    "backLink": "Zpět na přehled produktu",
+    "sections": {
+      "euIdentity": {
+        "eyebrow": "Identita se sídlem v EU",
+        "headline": "Váš účet, vaše identita, v EU.",
+        "body": "Dnes 'sign in with…' znamená Google, Apple nebo Microsoft — všichni se sídlem v USA, všichni čtou každou stránku, kam se přihlásíte. Sign in with Verkio dává otevřenému webu alternativu se sídlem v EU. Přihlášení zůstávají v EU infrastruktuře Verkio. Žádné cross-site profilování. Žádný povrch pro US CLOUD Act.",
+        "bullets": [
+          "Přihlašovací tok se sídlem v EU na infrastruktuře Verkio.",
+          "Žádné cross-site sledování — stránky nedostanou profil, který by mohly korelovat.",
+          "Mimo jurisdikci US CLOUD Act.",
+          "Jedna identita pro aplikace, které používáte; kdykoli odvolatelná pro jednotlivou stránku."
+        ]
+      },
+      "openStandard": {
+        "eyebrow": "Standardní OIDC",
+        "headline": "Jen OIDC. Funguje s tím, co už máte.",
+        "body": "Sign in with Verkio bude mluvit standardním OpenID Connect — stejným protokolem, který už podporuje váš stávající identity broker (Auth0, Clerk, Keycloak, NextAuth). Přidání by mělo být změnou konfigurace, ne přepsáním kódu.",
+        "bullets": [
+          "Standardní OpenID Connect (OIDC) — discovery, JWKS, jak je obvyklé.",
+          "Funguje s jakoukoli OIDC-aware knihovnou — Verkio SDK není potřeba.",
+          "Přidá se ke stávajícímu IdP setupu vedle Sign in with Google nebo Apple.",
+          "Zdarma pro koncové uživatele; zdarma pro vývojáře ve v1."
+        ]
+      },
+      "consent": {
+        "eyebrow": "Souhlas patří vám",
+        "headline": "Pro každou stránku, odvolatelný, transparentní.",
+        "body": "Když si stránka řekne o přihlášení, uvidíte přesně, jaká data chce. Můžete odmítnout části, které sdílet nechcete. Každá stránka, kam jste se kdy přihlásili, se objeví v dashboardu připojených aplikací — kteroukoli odvolejte jedním kliknutím. Žádná tichá re-autentizace, žádné scope creep.",
+        "bullets": [
+          "Per-stránková obrazovka souhlasu — granulární, žádné vše-nebo-nic.",
+          "Dashboard připojených aplikací se seznamem všech stránek, kam jste se přihlásili.",
+          "Odvolání jedním kliknutím, kdykoli — stránka okamžitě ztrácí přístup.",
+          "Žádná tichá re-autentizace; změny scope vyžadují čerstvý souhlas."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Proč Verkio — Verkio",
     "metaDescription": "Proč si týmy vybírají Verkio: tichý software, otevřené standardy, EU rezidence, žádné uzamčení."

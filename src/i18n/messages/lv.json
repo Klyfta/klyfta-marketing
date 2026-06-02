@@ -1051,6 +1051,132 @@
       }
     }
   },
+  "productApi": {
+    "metaTitle": "Publiskā API — Verkio",
+    "metaDescription": "Standartos balstīta REST API ar OpenAPI 3.1 specifikāciju, parakstītām webhook'ām, JMAP caurplūdi un straumējamu audita žurnālu. Pievienojiet Verkio rīkiem, kas jums jau ir.",
+    "eyebrow": "Publiskā API",
+    "headline": "REST API. JMAP. Parakstītas webhook'as. Audita žurnāls.",
+    "body": "Verkio veidots API-first — tie paši endpoint'i, ko izmanto web lietotne, ir atvērti arī jums. REST ar OpenAPI 3.1 specifikāciju koda ģenerēšanai. Parakstītas webhook'as notikumiem, kas jums svarīgi. JMAP tiešai piekļuvei pasta protokolam. Audita žurnāls, straumējams uz jūsu SIEM.",
+    "cta": "Pievienoties gaidīšanas sarakstam",
+    "backLink": "Atpakaļ uz produkta pārskatu",
+    "sections": {
+      "rest": {
+        "eyebrow": "REST",
+        "headline": "REST ar OpenAPI 3.1 specifikāciju.",
+        "body": "Katrs endpoint'as dokumentēts vienā OpenAPI 3.1 failā. Norādiet savu koda ģenerēšanas rīku (openapi-generator, oapi-codegen, OpenAPI TS) uz /api/v1/openapi.json un saņemiet tipētu klientu jūsu izvēlētajā valodā — vai pārlūkojiet interaktīvo atsauci /developers.",
+        "bullets": [
+          "OpenAPI 3.1 specifikācija /api/v1/openapi.json — gatava koda ģenerēšanai.",
+          "Interaktīva atsauce /developers (Swagger UI).",
+          "Bearer-token autentifikācija (RFC 6750). Atslēgas hashotas ar Argon2id miera stāvoklī.",
+          "Per-atslēgas ātruma ierobežojumi ar X-RateLimit-* galvenēm. 429 ar Retry-After.",
+          "Idempotency-Key atbalsts mutējošos endpoint'os — droši atkārtot uz nestabiliem tīkliem."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Parakstītas webhook'as",
+        "headline": "HMAC-parakstīta piegāde ar dead-letter rindu.",
+        "body": "Abonējiet notikumus, kas jums svarīgi — jauna pasta, audita žurnāla ieraksti, konta izmaiņas. Katrs payload ir HMAC-SHA256 parakstīts, lai jūs varētu pārbaudīt, ka tas nāca no Verkio. Neveiksmīgas piegādes tiek atkārtotas ar eksponenciālu backoff; pastāvīgas kļūdas nonāk dead-letter rindā, ko varat pārbaudīt un atkārtot.",
+        "bullets": [
+          "HMAC-SHA256 paraksts katram payload (X-Verkio-Signature galvene).",
+          "Eksponenciāli backoff atkārtojumi 5xx un savienojuma kļūdās.",
+          "Dead-letter rinda paneļa — apskatīt, atkārtot, noraidīt.",
+          "Katrs piegādes mēģinājums reģistrēts audita žurnālā."
+        ]
+      },
+      "jmap": {
+        "eyebrow": "JMAP caurplūde",
+        "headline": "Runājiet modernajā pasta protokolā tieši.",
+        "body": "Verkio pamatā esošais pasta serveris runā JMAP (RFC 8620 / 8621) — moderno, JSON balstīto IMAP pēcteci. Publiskā API atklāj JMAP caurplūdi, lai klientu bibliotēkas varētu tieši runāt ar jūsu pastkastēm, neatkārtojot katru endpoint'u servera pusē.",
+        "bullets": [
+          "JMAP Core (RFC 8620) un JMAP Mail (RFC 8621) caur /api/v1/jmap.",
+          "Izmantojiet jebkuru ar JMAP saderīgu klienta bibliotēku — jmap-client (JS), python-jmap, citas.",
+          "Push paziņojumi caur JMAP EventSource — bez polling.",
+          "IMAP un SMTP arī pieejami klientiem, kuriem tie nepieciešami."
+        ]
+      },
+      "auditLog": {
+        "eyebrow": "Audita žurnāla API",
+        "headline": "Katra administratora darbība, straumējama.",
+        "body": "Tas pats audita žurnāls, ko lasāt panelī, ir pieejams kā API — sadalīts lappusēs, filtrējams, ar pirms/pēc vērtībām katrai izmaiņai. Straumējiet notikumus uz Splunk, Datadog vai jebkuru SIEM, kas pieņem webhook vai pieprasa lappusēs sadalītu endpoint'u. Eksportējiet uz CSV vai JSONL kriminālekspertīzei.",
+        "bullets": [
+          "Sadalīts lappusēs un filtrējams: pēc lietotāja, notikuma veida, datumu intervāla.",
+          "Pirms/pēc vērtības katrai mutācijai — pilna kriminālekspertīzes pēda.",
+          "Straumējiet uz savu SIEM caur webhook vai pull endpoint.",
+          "Eksportējiet uz CSV vai JSONL bezsaistes analīzei. Septiņus gadus saglabāšana pēc noklusējuma."
+        ]
+      },
+      "production": {
+        "eyebrow": "Gatavs ražošanai",
+        "headline": "Veidots ilgtermiņa integrācijām, kuras patiešām vēlaties rakstīt.",
+        "body": "Ierobežota apjoma API atslēgas ar rotāciju. Per-atslēgas ātruma ierobežojumi. Idempotence rakstīšanā. Versionētas URL, lai novecošana jūs nepārsteigtu klusā svētdienā. Garlaicīgās garantijas, kas integrāciju padara rakstīšanas vērtu.",
+        "bullets": [
+          "Ierobežota apjoma API atslēgas — read-only, ierobežotas pastkastei, ierobežotas organizācijai.",
+          "Atslēgu rotācija panelī — atsauciet un izsniedziet jaunas bez dīkstāves.",
+          "URL versionēšana (/api/v1/…) ar novecošanas galvenēm mēnešus iepriekš.",
+          "OpenAPI changelog publicēts; izšķirošas izmaiņas tikai galvenajos versiju lēcienos."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Atklātie standarti",
+      "headline": "RFC un OpenAPI. Nekas patentēts.",
+      "body": "Katrs protokols, ko publiskā API runā, ir publiski dokumentēts. Atnesiet savu koda ģenerēšanas rīku. Atnesiet savu esošo klienta bibliotēku. Nekas šeit nav izgudrots pārdevēja prezentācijai.",
+      "items": [
+        "OpenAPI 3.1",
+        "REST",
+        "JMAP Core (RFC 8620)",
+        "JMAP Mail (RFC 8621)",
+        "Bearer auth (RFC 6750)",
+        "HMAC-SHA256 (RFC 6234)",
+        "Argon2id key hashing",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productSignIn": {
+    "metaTitle": "Sign in with Verkio — Verkio",
+    "metaDescription": "ES rezidenta identitātes pakalpojumu sniedzējs atvērtajam tīklam. Standarta OIDC, bez starpvietņu profilēšanas, jums pieder piekrišana. Plānots — vadīts pēc izstrādātāju pieprasījuma.",
+    "eyebrow": "Sign in with Verkio · Drīzumā",
+    "headline": "Identitātes pakalpojumu sniedzējs, kas ciena cilvēkus, kuri to izmanto.",
+    "body": "Sign in with Verkio ir standarta OIDC poga, ko var integrēt jebkura trešās puses vietne — jūsu Verkio konts kļūst par jūsu identitāti atvērtajam tīklam. ES rezidents, ciena privātumu, bez starpvietņu profilēšanas. Plānots, vadīts pēc izstrādātāju pieprasījuma: bez maksas galalietotājiem, bez maksas izstrādātājiem v1. Pasakiet mums, ka to vēlaties, un mēs to izveidosim ātrāk.",
+    "cta": "Pasakiet mums, ka to vēlaties",
+    "backLink": "Atpakaļ uz produkta pārskatu",
+    "sections": {
+      "euIdentity": {
+        "eyebrow": "ES rezidenta identitāte",
+        "headline": "Jūsu konts, jūsu identitāte, ES.",
+        "body": "Šodien 'sign in with…' nozīmē Google, Apple vai Microsoft — visi ar galveno biroju ASV, visi lasa katru vietni, kur pierakstāties. Sign in with Verkio dod atvērtajam tīklam ES rezidenta alternatīvu. Pierakstīšanās paliek Verkio ES infrastruktūrā. Bez starpvietņu profilēšanas. Bez US CLOUD Act virsmas.",
+        "bullets": [
+          "ES rezidenta pierakstīšanās plūsma uz Verkio infrastruktūras.",
+          "Bez starpvietņu izsekošanas — vietnes nesaņem profilu, ko varētu korelēt.",
+          "Ārpus US CLOUD Act jurisdikcijas.",
+          "Viena identitāte lietotnēm, ko izmantojat; atsaucama pa vietnei jebkurā laikā."
+        ]
+      },
+      "openStandard": {
+        "eyebrow": "Standarta OIDC",
+        "headline": "Tikai OIDC. Darbojas ar to, kas jums jau ir.",
+        "body": "Sign in with Verkio runās standarta OpenID Connect — to pašu protokolu, ko jūsu esošais identitātes brokeris (Auth0, Clerk, Keycloak, NextAuth) jau atbalsta. Tā pievienošanai vajadzētu būt konfigurācijas izmaiņai, nevis koda pārrakstīšanai.",
+        "bullets": [
+          "Standarta OpenID Connect (OIDC) — discovery, JWKS, kā parasti.",
+          "Darbojas ar jebkuru OIDC apzinošu bibliotēku — Verkio SDK nav nepieciešams.",
+          "Pievienojas jūsu esošajai IdP konfigurācijai blakus Sign in with Google vai Apple.",
+          "Bez maksas galalietotājiem; bez maksas izstrādātājiem v1."
+        ]
+      },
+      "consent": {
+        "eyebrow": "Jums pieder piekrišana",
+        "headline": "Pa vietnei, atsaucama, caurspīdīga.",
+        "body": "Kad vietne lūdz pierakstīšanos, jūs redzēsiet tieši, kādus datus tā pieprasa. Varat noraidīt daļas, ko nevēlaties dalīties. Katra vietne, kur kādreiz esat pierakstījies, parādīsies pievienoto lietotņu panelī — atsauciet jebkuru ar vienu klikšķi. Bez klusas atkārtotas autentifikācijas, bez scope creep.",
+        "bullets": [
+          "Pa-vietnei piekrišanas ekrāns — detalizēts, bez visu-vai-neko.",
+          "Pievienoto lietotņu panelis, kas uzskaita katru vietni, kur esat pierakstījies.",
+          "Viena klikšķa atsaukšana, jebkurā laikā — vietne nekavējoties zaudē piekļuvi.",
+          "Bez klusas atkārtotas autentifikācijas; scope izmaiņas prasa svaigu piekrišanu."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Kāpēc Verkio — Verkio",
     "metaDescription": "Kāpēc komandas izvēlas Verkio: kluss programmatūra, atklātie standarti, ES rezidence, nekādas ieslodzīšanas."

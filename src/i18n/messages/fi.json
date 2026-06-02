@@ -1051,6 +1051,132 @@
       }
     }
   },
+  "productApi": {
+    "metaTitle": "Julkinen API — Verkio",
+    "metaDescription": "Standardeihin perustuva REST API, jossa on OpenAPI 3.1 -spesifikaatio, allekirjoitetut webhookit, JMAP-läpivienti ja striimattava auditlokit. Liitä Verkio työkaluihin, jotka sinulla jo on.",
+    "eyebrow": "Julkinen API",
+    "headline": "REST API. JMAP. Allekirjoitetut webhookit. Auditloki.",
+    "body": "Verkio on rakennettu API-first — samat päätepisteet, joita web-sovellus käyttää, ovat sinulle avoimia. REST OpenAPI 3.1 -spesifikaatiolla koodigeneraatiota varten. Allekirjoitetut webhookit tapahtumiin, joista välität. JMAP suoraan sähköpostiprotokollan käyttöön. Auditloki striimattavissa SIEM-järjestelmääsi.",
+    "cta": "Liity jonotuslistalle",
+    "backLink": "Takaisin tuoteyleiskatsaukseen",
+    "sections": {
+      "rest": {
+        "eyebrow": "REST",
+        "headline": "REST OpenAPI 3.1 -spesifikaatiolla.",
+        "body": "Jokainen päätepiste dokumentoitu yhteen OpenAPI 3.1 -tiedostoon. Osoita koodigeneraatiotyökalusi (openapi-generator, oapi-codegen, OpenAPI TS) osoitteeseen /api/v1/openapi.json ja saat tyypitetyn asiakkaan haluamallasi kielellä — tai selaa interaktiivista viittausta osoitteessa /developers.",
+        "bullets": [
+          "OpenAPI 3.1 -spesifikaatio osoitteessa /api/v1/openapi.json — koodigeneraatiovalmis.",
+          "Interaktiivinen viittaus osoitteessa /developers (Swagger UI).",
+          "Bearer-token-autentikointi (RFC 6750). Avaimet hashattu Argon2id:llä levossa.",
+          "Avainkohtaiset rate-limitit X-RateLimit-* -otsikoilla. 429:t Retry-Afterin kanssa.",
+          "Idempotency-Key-tuki muuttavissa päätepisteissä — turvallista yrittää uudelleen epävakailla verkoilla."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Allekirjoitetut webhookit",
+        "headline": "HMAC-allekirjoitettu toimitus dead-letter-jonolla.",
+        "body": "Tilaa tapahtumat, joista välität — uusi posti, auditlokin merkinnät, tilimuutokset. Jokainen payload on HMAC-SHA256-allekirjoitettu, jotta voit varmistaa, että se tuli Verkiosta. Epäonnistuneita toimituksia yritetään uudelleen eksponentiaalisella backoffilla; pysyvät virheet päätyvät dead-letter-jonoon, jonka voit tutkia ja toistaa uudelleen.",
+        "bullets": [
+          "HMAC-SHA256-allekirjoitus per payload (X-Verkio-Signature-otsikko).",
+          "Eksponentiaaliset backoff-uusinnat 5xx:llä ja yhteysvirheillä.",
+          "Dead-letter-jono kojelaudassa — tutki, toista, hylkää.",
+          "Jokainen toimitusyritys kirjataan auditlokiin."
+        ]
+      },
+      "jmap": {
+        "eyebrow": "JMAP-läpivienti",
+        "headline": "Puhu nykyaikaista sähköpostiprotokollaa suoraan.",
+        "body": "Verkion taustalla oleva sähköpostipalvelin puhuu JMAP:ia (RFC 8620 / 8621) — nykyaikaista, JSON-pohjaista IMAP:n seuraajaa. Julkinen API tarjoaa JMAP-läpiviennin, jotta asiakaskirjastot voivat puhua suoraan postilaatikoidesi kanssa ilman, että jokaista päätepistettä tarvitsee toteuttaa uudelleen palvelinpuolella.",
+        "bullets": [
+          "JMAP Core (RFC 8620) ja JMAP Mail (RFC 8621) /api/v1/jmap kautta.",
+          "Käytä mitä tahansa JMAP-yhteensopivaa asiakaskirjastoa — jmap-client (JS), python-jmap, muita.",
+          "Push-ilmoitukset JMAP EventSource -kautta — ei pollausta.",
+          "IMAP ja SMTP myös saatavilla asiakkaille, jotka niitä tarvitsevat."
+        ]
+      },
+      "auditLog": {
+        "eyebrow": "Auditlokin API",
+        "headline": "Jokainen admin-toimi, striimattavissa.",
+        "body": "Sama auditloki, jonka luet kojelaudassa, on saatavilla API:na — sivutettu, suodatettavissa, jokaisessa muutoksessa ennen/jälkeen-arvot. Striimaa tapahtumia Splunkiin, Datadogiin tai mihin tahansa SIEM:iin, joka hyväksyy webhookin tai pollaa sivutettua päätepistettä. Vie CSV:ksi tai JSONL:ksi forensiikkaa varten.",
+        "bullets": [
+          "Sivutettu ja suodatettavissa: käyttäjittäin, tapahtumatyypeittäin, päivämääräväleittäin.",
+          "Ennen/jälkeen-arvot jokaisessa mutaatiossa — täydellinen forensinen jälki.",
+          "Striimaa SIEM:iisi webhookin tai pull-päätepisteen kautta.",
+          "Vie CSV:ksi tai JSONL:ksi offline-analyysiä varten. Seitsemän vuoden säilytys oletuksena."
+        ]
+      },
+      "production": {
+        "eyebrow": "Tuotantovalmis",
+        "headline": "Rakennettu pitkäkestoisille integraatioille, jotka oikeasti haluat kirjoittaa.",
+        "body": "Skoopatut API-avaimet kierrätyksellä. Avainkohtaiset rate-limitit. Idempotenssi kirjoituksissa. Versioidut URL:t, jotta käytöstäpoisto ei yllätä sinua hiljaisena sunnuntaina. Tylsät takeet, jotka tekevät integraatiosta kirjoittamisen arvoisen.",
+        "bullets": [
+          "Skoopatut API-avaimet — read-only, postilaatikkoon rajatut, organisaatioon rajatut.",
+          "Avainkierto kojelaudassa — peruuta ja myönnä uudelleen ilman katkoksia.",
+          "URL-versioitu (/api/v1/…) deprekaatio-otsikoilla kuukausia etukäteen.",
+          "OpenAPI-changelog julkaistu; rikkovat muutokset vain major-versionhypyissä."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Avoimet standardit",
+      "headline": "RFC:t ja OpenAPI. Ei mitään suljettua.",
+      "body": "Jokainen protokolla, jota julkinen API puhuu, on julkisesti dokumentoitu. Tuo koodigeneraatiotyökalusi. Tuo olemassa oleva asiakaskirjastosi. Mitään täällä ei ole keksitty myyntipuhetta varten.",
+      "items": [
+        "OpenAPI 3.1",
+        "REST",
+        "JMAP Core (RFC 8620)",
+        "JMAP Mail (RFC 8621)",
+        "Bearer auth (RFC 6750)",
+        "HMAC-SHA256 (RFC 6234)",
+        "Argon2id key hashing",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productSignIn": {
+    "metaTitle": "Sign in with Verkio — Verkio",
+    "metaDescription": "EU-asuva identiteetintarjoaja avoimelle verkolle. Standardi OIDC, ei sivustojen välistä profilointia, sinä omistat suostumuksen. Suunnitteilla — kehittäjien kysynnän ohjaama.",
+    "eyebrow": "Sign in with Verkio · Tulossa pian",
+    "headline": "Identiteetintarjoaja, joka kunnioittaa sitä käyttäviä ihmisiä.",
+    "body": "Sign in with Verkio on standardi OIDC-painike, jonka mikä tahansa kolmannen osapuolen sivusto voi integroida — Verkio-tilistäsi tulee identiteettisi avoimelle verkolle. EU-asuva, yksityisyyttä kunnioittava, ei sivustojen välistä profilointia. Suunnitteilla, kehittäjien kysynnän ohjaama: ilmainen loppukäyttäjille, ilmainen kehittäjille v1:ssä. Kerro meille, että haluat sen, niin rakennamme sen nopeammin.",
+    "cta": "Kerro meille, että haluat sen",
+    "backLink": "Takaisin tuoteyleiskatsaukseen",
+    "sections": {
+      "euIdentity": {
+        "eyebrow": "EU-asuva identiteetti",
+        "headline": "Tilisi, identiteettisi, EU:ssa.",
+        "body": "Tänään 'sign in with…' tarkoittaa Googlea, Applea tai Microsoftia — kaikilla pääkonttori USA:ssa, kaikki lukevat jokaisen sivuston, jolle kirjaudut. Sign in with Verkio antaa avoimelle verkolle EU-asuvan vaihtoehdon. Kirjautumiset pysyvät Verkion EU-infrastruktuurissa. Ei sivustojen välistä profilointia. Ei US CLOUD Act -pintaa.",
+        "bullets": [
+          "EU-asuva kirjautumisvirta Verkio-infrastruktuurissa.",
+          "Ei sivustojen välistä seurantaa — sivustot eivät saa profiilia, jonka voisivat korreloida.",
+          "US CLOUD Actin lainkäyttövallan ulkopuolella.",
+          "Yksi identiteetti käyttämillesi sovelluksille; peruutettavissa per sivusto milloin tahansa."
+        ]
+      },
+      "openStandard": {
+        "eyebrow": "Standardi OIDC",
+        "headline": "Vain OIDC. Toimii sen kanssa, mitä sinulla jo on.",
+        "body": "Sign in with Verkio puhuu standardia OpenID Connectia — samaa protokollaa, jota nykyinen identiteettivälittäjäsi (Auth0, Clerk, Keycloak, NextAuth) jo tukee. Sen lisäämisen pitäisi olla konfiguraatiomuutos, ei koodin uudelleenkirjoitus.",
+        "bullets": [
+          "Standardi OpenID Connect (OIDC) — discovery, JWKS, tavanomaista.",
+          "Toimii minkä tahansa OIDC-tietoisen kirjaston kanssa — Verkio-SDK:ta ei tarvita.",
+          "Lisätään olemassa olevaan IdP-asetuksellesi Sign in with Googlen tai Applen rinnalle.",
+          "Ilmainen loppukäyttäjille; ilmainen kehittäjille v1:ssä."
+        ]
+      },
+      "consent": {
+        "eyebrow": "Sinä omistat suostumuksen",
+        "headline": "Per sivusto, peruutettavissa, läpinäkyvä.",
+        "body": "Kun sivusto pyytää kirjautumista, näet tarkalleen, mitä tietoja he pyytävät. Voit kieltäytyä osista, joita et halua jakaa. Jokainen sivusto, jolle olet koskaan kirjautunut, näkyy yhdistettyjen sovellusten kojelaudassa — peruuta mikä tahansa yhdellä klikkauksella. Ei hiljaista uudelleentodennusta, ei scope creepiä.",
+        "bullets": [
+          "Sivustokohtainen suostumusnäyttö — yksityiskohtainen, ei kaikki-tai-ei-mitään.",
+          "Yhdistettyjen sovellusten kojelauta, joka listaa jokaisen sivuston, jolle olet kirjautunut.",
+          "Yhden klikkauksen peruutus, milloin tahansa — sivusto menettää pääsyn välittömästi.",
+          "Ei hiljaista uudelleentodennusta; scope-muutokset vaativat tuoreen suostumuksen."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Miksi Verkio — Verkio",
     "metaDescription": "Miksi tiimit valitsevat Verkion: hiljainen ohjelmisto, avoimet standardit, EU-asuinpaikka, ei lukitusta."

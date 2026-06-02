@@ -1051,6 +1051,132 @@
       }
     }
   },
+  "productApi": {
+    "metaTitle": "Avalik API — Verkio",
+    "metaDescription": "Standarditel põhinev REST API koos OpenAPI 3.1 spetsifikatsiooni, allkirjastatud webhookide, JMAP passthrough'i ja voogedastatava audit-logiga. Ühenda Verkio tööriistadega, mis sul juba on.",
+    "eyebrow": "Avalik API",
+    "headline": "REST API. JMAP. Allkirjastatud webhookid. Audit-log.",
+    "body": "Verkio on ehitatud API-first — samad endpoindid, mida veebirakendus kasutab, on avatud ka sulle. REST koos OpenAPI 3.1 spetsifikatsiooniga codegen'i jaoks. Allkirjastatud webhookid sündmuste jaoks, mis sind huvitavad. JMAP otsejuurdepääsuks postiprotokollile. Audit-log, mida saab oma SIEM-i voogedastada.",
+    "cta": "Liitu ootejärjekorraga",
+    "backLink": "Tagasi tooteülevaate juurde",
+    "sections": {
+      "rest": {
+        "eyebrow": "REST",
+        "headline": "REST OpenAPI 3.1 spetsifikatsiooniga.",
+        "body": "Iga endpoint dokumenteeritud ühes OpenAPI 3.1 failis. Suuna oma codegen-tööriist (openapi-generator, oapi-codegen, OpenAPI TS) aadressile /api/v1/openapi.json ja saa tüübitud klient sinu eelistatud keeles — või sirvi interaktiivset viidet aadressil /developers.",
+        "bullets": [
+          "OpenAPI 3.1 spetsifikatsioon aadressil /api/v1/openapi.json — codegen-valmis.",
+          "Interaktiivne viide aadressil /developers (Swagger UI).",
+          "Bearer-tokeni autentimine (RFC 6750). Võtmed hashitud Argon2id-ga puhkeolekus.",
+          "Per-võtme rate-limiidid X-RateLimit-* päistega. 429-d Retry-After-iga.",
+          "Idempotency-Key tugi muteerivatel endpointidel — turvaline korrata ebakindlatel võrkudel."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Allkirjastatud webhookid",
+        "headline": "HMAC-allkirjastatud kohaletoimetamine dead-letter järjekorraga.",
+        "body": "Telli sündmused, mis sind huvitavad — uus post, audit-logi kirjed, kontomuudatused. Iga payload on HMAC-SHA256-ga allkirjastatud, nii et saad kinnitada, et see tuli Verkio'st. Ebaõnnestunud kohaletoimetamisi korratakse eksponentsiaalse backoffiga; püsivad tõrked jõuavad dead-letter järjekorda, mida saad vaadata ja uuesti taasesitada.",
+        "bullets": [
+          "HMAC-SHA256 allkiri payloadi kohta (X-Verkio-Signature päis).",
+          "Eksponentsiaalse backoffiga kordused 5xx ja ühendusvigade korral.",
+          "Dead-letter järjekord töölaual — vaata, taasesita, jäta kõrvale.",
+          "Iga kohaletoimetamiskatse logitud audit-logis."
+        ]
+      },
+      "jmap": {
+        "eyebrow": "JMAP passthrough",
+        "headline": "Räägi otse moodsa postiprotokolliga.",
+        "body": "Verkio aluseks olev postiserver räägib JMAP-i (RFC 8620 / 8621) — moodsat, JSON-põhist IMAP-i järeltulijat. Avalik API pakub JMAP passthrough'i, nii et kliendi raamatukogud saavad rääkida sinu postkastidega otse, ilma et iga endpointi peaks serveri poolel uuesti rakendama.",
+        "bullets": [
+          "JMAP Core (RFC 8620) ja JMAP Mail (RFC 8621) üle /api/v1/jmap.",
+          "Kasuta ükskõik millist JMAP-ühilduvat klienditeeki — jmap-client (JS), python-jmap, teisi.",
+          "Push-teavitused JMAP EventSource kaudu — ilma pollinguta.",
+          "IMAP ja SMTP on samuti saadaval klientidele, kes neid vajavad."
+        ]
+      },
+      "auditLog": {
+        "eyebrow": "Audit-logi API",
+        "headline": "Iga admin-toiming, voogedastatav.",
+        "body": "Sama audit-log, mida loed töölaual, on saadaval API-na — lehekülgedeks jagatud, filtreeritav, iga muudatuse juures enne/pärast väärtustega. Voogedasta sündmusi Splunki, Datadogi või ükskõik millisesse SIEM-i, mis aktsepteerib webhooki või pollib lehekülgedeks jagatud endpointi. Ekspordi CSV-sse või JSONL-i kohtuekspertiisi jaoks.",
+        "bullets": [
+          "Lehekülgedeks jagatud ja filtreeritav: kasutaja, sündmuse tüübi, kuupäevavahemiku järgi.",
+          "Iga mutatsiooni enne/pärast väärtused — täielik kohtuekspertiisi rada.",
+          "Voogedasta oma SIEM-i webhooki või pull-endpointi kaudu.",
+          "Ekspordi CSV-sse või JSONL-i offline-analüüsiks. Vaikimisi seitse aastat säilitamist."
+        ]
+      },
+      "production": {
+        "eyebrow": "Produktsiooniks valmis",
+        "headline": "Ehitatud pikaajaliste integratsioonide jaoks, mida sa tegelikult kirjutada tahad.",
+        "body": "Scope'itud API-võtmed rotatsiooniga. Per-võtme rate-limiidid. Idempotentsus kirjutamisel. Versioonitud URL-id, nii et aegunuks tunnistamine ei taba sind vaiksel pühapäeval. Igavad garantiid, mis teevad integratsiooni kirjutamise vääriliseks.",
+        "bullets": [
+          "Scope'itud API-võtmed — read-only, ühe postkasti, ühe organisatsiooni piires.",
+          "Võtmerotatsioon töölaual — tühista ja anna välja uued ilma seisakuta.",
+          "URL-versioneeritud (/api/v1/…) deprekatsioonipäistega kuude kaupa ette.",
+          "OpenAPI changelog avaldatud; murdvad muudatused ainult suuremate versioonihüpete korral."
+        ]
+      }
+    },
+    "standards": {
+      "eyebrow": "Avatud standardid",
+      "headline": "RFC-d ja OpenAPI. Mitte midagi omandiõigust.",
+      "body": "Iga protokoll, mida avalik API räägib, on avalikult dokumenteeritud. Too oma codegen-tööriist. Too oma olemasolev klienditeek. Mitte midagi siin pole välja mõeldud müügiesitluse jaoks.",
+      "items": [
+        "OpenAPI 3.1",
+        "REST",
+        "JMAP Core (RFC 8620)",
+        "JMAP Mail (RFC 8621)",
+        "Bearer auth (RFC 6750)",
+        "HMAC-SHA256 (RFC 6234)",
+        "Argon2id key hashing",
+        "TLS 1.3"
+      ]
+    }
+  },
+  "productSignIn": {
+    "metaTitle": "Sign in with Verkio — Verkio",
+    "metaDescription": "EL-i residendist identiteediteenuse pakkuja avatud veebi jaoks. Standardne OIDC, mingit cross-site profileerimist, sina omad nõusolekut. Plaanitud — arendajate nõudluse juhitud.",
+    "eyebrow": "Sign in with Verkio · Peagi",
+    "headline": "Identiteediteenuse pakkuja, kes austab inimesi, kes seda kasutavad.",
+    "body": "Sign in with Verkio on standardne OIDC nupp, mida iga kolmanda osapoole sait saab integreerida — sinu Verkio konto saab sinu identiteediks avatud veebi jaoks. EL-i resident, privaatsust austav, mingit cross-site profileerimist. Plaanitud, arendajate nõudluse juhitud: tasuta lõppkasutajatele, tasuta arendajatele v1-s. Ütle meile, et tahad seda, ja ehitame selle varem.",
+    "cta": "Ütle meile, et tahad seda",
+    "backLink": "Tagasi tooteülevaate juurde",
+    "sections": {
+      "euIdentity": {
+        "eyebrow": "EL-i residendist identiteet",
+        "headline": "Sinu konto, sinu identiteet, EL-is.",
+        "body": "Täna 'sign in with…' tähendab Google'it, Apple'it või Microsofti — kõik USA-s peakortega, kõik loevad iga saiti, kuhu sa sisse logid. Sign in with Verkio annab avatud veebile EL-i residendist alternatiivi. Sisselogimised jäävad Verkio EL-i infrastruktuuri sisse. Mingit cross-site profileerimist. Mingit US CLOUD Act pinda.",
+        "bullets": [
+          "EL-i residendist sisselogimisvoog Verkio infrastruktuuril.",
+          "Mingit cross-site jälgimist — saidid ei saa profiili, mida nad saaksid korreleerida.",
+          "Väljaspool US CLOUD Acti jurisdiktsiooni.",
+          "Üks identiteet rakenduste jaoks, mida sa kasutad; iga sait eraldi tühistatav, millal sa tahad."
+        ]
+      },
+      "openStandard": {
+        "eyebrow": "Standardne OIDC",
+        "headline": "Lihtsalt OIDC. Töötab sellega, mis sul juba on.",
+        "body": "Sign in with Verkio räägib standardset OpenID Connecti — sama protokolli, mida sinu olemasolev identiteedimaakler (Auth0, Clerk, Keycloak, NextAuth) juba toetab. Selle lisamine peaks olema konfiguratsioonimuudatus, mitte koodi ümberkirjutamine.",
+        "bullets": [
+          "Standardne OpenID Connect (OIDC) — discovery, JWKS, tavapärane.",
+          "Töötab iga OIDC-teadliku raamatukoguga — Verkio SDK pole vajalik.",
+          "Lisandub sinu olemasolevasse IdP-seadistusse Sign in with Google'i või Apple'i kõrvale.",
+          "Tasuta lõppkasutajatele; tasuta arendajatele v1-s."
+        ]
+      },
+      "consent": {
+        "eyebrow": "Sina omad nõusolekut",
+        "headline": "Saidi kohta, tühistatav, läbipaistev.",
+        "body": "Kui sait küsib sisselogimist, näed täpselt, milliseid andmeid nad küsivad. Saad keelduda osadest, mida sa jagada ei taha. Iga sait, kuhu oled kunagi sisse loginud, ilmub ühendatud rakenduste töölauale — tühista ükskõik milline ühe klõpsuga. Mingit vaikset uuesti autentimist, mingit scope creep'i.",
+        "bullets": [
+          "Saidi kohta nõusolekuekraan — granulaarne, ei kõik-või-mitte-midagi.",
+          "Ühendatud rakenduste töölaud, mis loetleb iga saidi, kuhu oled sisse loginud.",
+          "Ühe klõpsuga tühistamine, igal ajal — sait kaotab juurdepääsu kohe.",
+          "Mingit vaikset uuesti autentimist; scope-muudatused nõuavad värsket nõusolekut."
+        ]
+      }
+    }
+  },
   "whyVerkio": {
     "metaTitle": "Miks Verkio — Verkio",
     "metaDescription": "Miks meeskonnad valivad Verkio: vaikne tarkvara, avatud standardid, EL-i residentsus, ei lukustust."
