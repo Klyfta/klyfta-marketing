@@ -15,7 +15,7 @@ const SLUG = "it-admins";
 const HERO_IMAGE = "Admin console with audit log, DPA, and subprocessor list";
 const sections: ProductSection[] = [
   { key: "procurement", bulletCount: 5, imageCaption: "DPA preview side-by-side with the subprocessor list" },
-  { key: "residency", bulletCount: 4, imageCaption: "EU data residency map highlighting Hetzner regions" },
+  { key: "residency", bulletCount: 4, imageCaption: "EU data residency map highlighting compute regions in Germany and Finland" },
   { key: "identityAndAccess", bulletCount: 5, imageCaption: "SAML configuration screen with Okta as IdP" },
   { key: "migration", bulletCount: 4, imageCaption: "Mail import dashboard showing Microsoft 365 source" },
   { key: "ops", bulletCount: 4, imageCaption: "Restore drill log with the latest verified recovery" },
