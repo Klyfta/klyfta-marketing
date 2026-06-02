@@ -344,6 +344,7 @@
     "privacy": "Privatumo politika",
     "terms": "Naudojimosi sąlygos",
     "subprocessors": "Tvarkytojai",
+    "isAndIsnt": "What Verkio is and isn't",
     "allRightsReserved": "Visos teisės saugomos"
   },
   "waitlist": {
@@ -697,7 +698,13 @@
   },
   "product": {
     "metaTitle": "Produktas — Verkio",
-    "metaDescription": "Verkio produktas: paštas, kalendorius, kontaktai, failai, vikiai ir žinutės. Plius galimybės už kiekvieno iš jų."
+    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+  },
+  "productIndex": {
+    "eyebrow": "Product",
+    "headline": "All of Verkio, in one place.",
+    "body": "Eight surfaces — six suite apps plus the platform layer underneath. Pick one to read the detail, or scroll the homepage for the suite story.",
+    "learnMore": "Read the detail"
   },
   "productMail": {
     "metaTitle": "Paštas — Verkio",
@@ -1446,6 +1453,84 @@
   "whyVerkio": {
     "metaTitle": "Kodėl Verkio — Verkio",
     "metaDescription": "Kodėl komandos renkasi Verkio: rami programinė įranga, atviri standartai, ES rezidencija, jokio uždarymo."
+  },
+  "isAndIsnt": {
+    "metaTitle": "What Verkio is and isn't — Verkio",
+    "metaDescription": "An honest pros-and-cons page. What Verkio commits to, what it deliberately doesn't try to be, and how to tell if it's a fit.",
+    "eyebrow": "Honest tradeoffs",
+    "headline": "What Verkio is. And what it isn't.",
+    "body": "There are work suites we'll never be. There are some we're trying to be. This page is the both-sides version — the things to know before deciding Verkio is right for you.",
+    "is": {
+      "eyebrow": "What Verkio is",
+      "headline": "Things we commit to.",
+      "items": [
+        {
+          "name": "An EU-resident work suite.",
+          "body": "Mail, calendar, contacts, files, wikis, and messaging — all on Hetzner infrastructure in Germany and Finland. EU-managed encryption keys, EU DNS, EU payments. No US hyperscaler in the chain."
+        },
+        {
+          "name": "Built on open standards.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Use Thunderbird, Apple Mail, K-9, DAVx⁵, or our webmail — we don't lock you into one client."
+        },
+        {
+          "name": "For people who want the basics done well.",
+          "body": "No AI features that read your mail, no engagement metrics, no 'you might be interested in' upsell. The product is the mailbox, not your attention."
+        },
+        {
+          "name": "A small EU company.",
+          "body": "Verkio AB, registered in Sweden. Owned by the founder, not a venture portfolio. No 'we got acquired' email is coming."
+        },
+        {
+          "name": "A real platform.",
+          "body": "Public REST API with OpenAPI 3.1, signed webhooks, JMAP passthrough, scoped tokens. Sign in with Verkio (OIDC) is coming if developers want it."
+        },
+        {
+          "name": "Audit-log-native.",
+          "body": "Every admin action recorded with before/after values, seven-year retention by default. Stream to your SIEM. No 'we'll look into the logs' — they're yours to query directly."
+        }
+      ]
+    },
+    "isnt": {
+      "eyebrow": "What Verkio isn't",
+      "headline": "Things we deliberately don't try to be.",
+      "items": [
+        {
+          "name": "An end-to-end encrypted mail service like Proton or Tuta.",
+          "body": "Default at-rest encryption uses Verkio-managed keys held in the EU — strong, but Verkio can technically read your mail. Opt-in customer-held-key encryption ships June 2026 but trades the web inbox, full-text search, and push previews. If true E2EE for every message is your hard requirement, those products fit better."
+        },
+        {
+          "name": "A 50-app bundle like Zoho or Workspace.",
+          "body": "Six suite surfaces plus the platform layer. We're not adding a CRM, an LMS, a video meeting product, or an HR module. Those are solved problems in tools you can integrate via our API."
+        },
+        {
+          "name": "A free service.",
+          "body": "No ad-supported tier. You pay for the suite; we don't sell summaries of your mail to a model vendor. If you're not paying, we're not the right home for your mailbox."
+        },
+        {
+          "name": "A US-headquartered company.",
+          "body": "Sweden-based, outside US CLOUD Act jurisdiction. This is the whole point. If your buying criteria favour a US vendor, we're the wrong shape."
+        },
+        {
+          "name": "A messaging-first platform like Slack.",
+          "body": "Messaging is part of the suite, not the centrepiece. We're not building reactions, custom emoji, or notification-anxiety features. If team chat is your primary tool, a dedicated product will out-feature us for years."
+        },
+        {
+          "name": "A 'no Microsoft / no Google' zealot.",
+          "body": "Use Gmail or Outlook if they work for you. We just think you should have an EU-resident, standards-based option when they don't."
+        },
+        {
+          "name": "A four-week-launch company.",
+          "body": "We're slow. Three-year roadmap, not three-month. We'd rather ship one feature properly than five half-done. If you need a vendor moving at startup speed, that's not us."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Is it a fit?",
+      "headline": "Probably, if you want most of those.",
+      "body": "Read the lists. If most of the 'is' items feel right and most of the 'isn't' items are things you don't need, Verkio is probably a good fit. If a single 'isn't' item is a hard no, save us both the time.",
+      "cta": "Join waitlist",
+      "backLink": "Back to Why Verkio"
+    }
   },
   "homeNarrative": {
     "send": {

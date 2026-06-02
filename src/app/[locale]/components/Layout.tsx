@@ -156,6 +156,14 @@ export function Footer() {
                     {tNav("articles")}
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/what-verkio-is-and-isnt"
+                    className="hover:text-gray-900 transition-colors"
+                  >
+                    {tFooter("isAndIsnt")}
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>

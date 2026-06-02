@@ -344,6 +344,7 @@
     "privacy": "Privatlivspolitik",
     "terms": "Vilkår og betingelser",
     "subprocessors": "Underdatabehandlere",
+    "isAndIsnt": "Hvad Verkio er og ikke er",
     "allRightsReserved": "Alle rettigheder forbeholdes"
   },
   "waitlist": {
@@ -697,7 +698,13 @@
   },
   "product": {
     "metaTitle": "Produkt — Verkio",
-    "metaDescription": "Verkio-produktet: mail, kalender, kontakter, filer, wikier og beskeder. Plus kapabiliteten bag hver enkelt."
+    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+  },
+  "productIndex": {
+    "eyebrow": "Produkt",
+    "headline": "Hele Verkio, samlet ét sted.",
+    "body": "Otte flader — seks suite-apps plus platformlaget under. Vælg en for at læse detaljen, eller scroll forsiden for hele suite-fortællingen.",
+    "learnMore": "Læs detaljen"
   },
   "productMail": {
     "metaTitle": "Mail — Verkio",
@@ -1446,6 +1453,84 @@
   "whyVerkio": {
     "metaTitle": "Hvorfor Verkio — Verkio",
     "metaDescription": "Hvorfor teams vælger Verkio: stille software, åbne standarder, EU-residens, ingen indlåsning."
+  },
+  "isAndIsnt": {
+    "metaTitle": "Hvad Verkio er og ikke er — Verkio",
+    "metaDescription": "En ærlig fordele- og ulemper-side. Hvad Verkio forpligter sig til, hvad det bevidst ikke prøver at være, og hvordan du afgør, om det passer dig.",
+    "eyebrow": "Ærlige afvejninger",
+    "headline": "Hvad Verkio er. Og hvad det ikke er.",
+    "body": "Der er arbejds-suiter, vi aldrig bliver. Der er nogle, vi prøver at være. Denne side viser begge sider — det, du bør vide, før du afgør, om Verkio passer til dig.",
+    "is": {
+      "eyebrow": "Hvad Verkio er",
+      "headline": "Ting, vi forpligter os på.",
+      "items": [
+        {
+          "name": "En EU-baseret arbejds-suite.",
+          "body": "Mail, kalender, kontakter, filer, wikier og beskeder — alt på Hetzner-infrastruktur i Tyskland og Finland. EU-håndterede krypteringsnøgler, EU-DNS, EU-betalinger. Ingen amerikansk hyperscaler i kæden."
+        },
+        {
+          "name": "Bygget på åbne standarder.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Brug Thunderbird, Apple Mail, K-9, DAVx⁵ eller vores webmail — vi låser dig ikke fast på én klient."
+        },
+        {
+          "name": "Til folk, der vil have grundlæggende ting gjort ordentligt.",
+          "body": "Ingen AI-funktioner, der læser din mail, ingen engagement-metrikker, ingen 'du er måske interesseret i'-mersalg. Produktet er postkassen, ikke din opmærksomhed."
+        },
+        {
+          "name": "En lille EU-virksomhed.",
+          "body": "Verkio AB, registreret i Sverige. Ejet af stifteren, ikke af en venture-portefølje. Ingen 'vi er blevet opkøbt'-mail er på vej."
+        },
+        {
+          "name": "En rigtig platform.",
+          "body": "Offentligt REST-API med OpenAPI 3.1, signerede webhooks, JMAP-passthrough, scopede tokens. Sign in with Verkio (OIDC) kommer, hvis udviklere vil have det."
+        },
+        {
+          "name": "Audit-log-nativ.",
+          "body": "Hver admin-handling registreres med før/efter-værdier, syv års opbevaring som standard. Stream til dit SIEM. Ingen 'vi kigger lige i loggene' — de er dine at forespørge direkte."
+        }
+      ]
+    },
+    "isnt": {
+      "eyebrow": "Hvad Verkio ikke er",
+      "headline": "Ting, vi bevidst ikke prøver at være.",
+      "items": [
+        {
+          "name": "En end-to-end-krypteret mailtjeneste som Proton eller Tuta.",
+          "body": "Standard kryptering i hvile bruger Verkio-håndterede nøgler i EU — stærkt, men Verkio kan teknisk læse din mail. Opt-in-kryptering med kundeholdte nøgler kommer i juni 2026, men koster web-indbakken, fuldtekstsøgning og push-previews. Hvis ægte E2EE for hver besked er et absolut krav, passer de produkter bedre."
+        },
+        {
+          "name": "Et bundt på 50 apps som Zoho eller Workspace.",
+          "body": "Seks suite-flader plus platformlaget. Vi tilføjer ikke et CRM, et LMS, et videomødeprodukt eller et HR-modul. Det er løste problemer i værktøjer, du kan integrere via vores API."
+        },
+        {
+          "name": "En gratis tjeneste.",
+          "body": "Intet annoncefinansieret niveau. Du betaler for suiten; vi sælger ikke resuméer af din mail til en modeludbyder. Betaler du ikke, er vi ikke det rette hjem for din postkasse."
+        },
+        {
+          "name": "En USA-baseret virksomhed.",
+          "body": "Baseret i Sverige, uden for amerikansk CLOUD Act-jurisdiktion. Det er hele pointen. Hvis dine indkøbskriterier favoriserer en amerikansk leverandør, er vi den forkerte form."
+        },
+        {
+          "name": "En messaging-first-platform som Slack.",
+          "body": "Beskeder er en del af suiten, ikke omdrejningspunktet. Vi bygger ikke reaktioner, custom emoji eller notifikationsangst-funktioner. Hvis team-chat er dit primære værktøj, vil et dedikeret produkt være foran os på funktioner i årevis."
+        },
+        {
+          "name": "En 'ingen Microsoft / ingen Google'-fanatiker.",
+          "body": "Brug Gmail eller Outlook, hvis de virker for dig. Vi mener bare, du bør have en EU-baseret, standardbaseret mulighed, når de ikke gør."
+        },
+        {
+          "name": "En virksomhed med fire-ugers-launches.",
+          "body": "Vi er langsomme. Treårs-roadmap, ikke tre-måneders. Vi vil hellere levere én funktion ordentligt end fem halvt færdige. Har du brug for en leverandør i startup-tempo, er det ikke os."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Passer det?",
+      "headline": "Sandsynligvis, hvis du vil have det meste af det.",
+      "body": "Læs listerne. Hvis de fleste 'er'-punkter føles rigtige, og de fleste 'er ikke'-punkter er ting, du ikke har brug for, passer Verkio sandsynligvis. Hvis et enkelt 'er ikke'-punkt er et hårdt nej, så spar os begge tiden.",
+      "cta": "Tilmeld venteliste",
+      "backLink": "Tilbage til Hvorfor Verkio"
+    }
   },
   "homeNarrative": {
     "send": {

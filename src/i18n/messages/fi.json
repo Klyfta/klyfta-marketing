@@ -344,6 +344,7 @@
     "privacy": "Tietosuojakäytäntö",
     "terms": "Käyttöehdot",
     "subprocessors": "Alikäsittelijät",
+    "isAndIsnt": "Mitä Verkio on ja mitä ei",
     "allRightsReserved": "Kaikki oikeudet pidätetään"
   },
   "waitlist": {
@@ -697,7 +698,13 @@
   },
   "product": {
     "metaTitle": "Tuote — Verkio",
-    "metaDescription": "Verkio-tuote: sähköposti, kalenteri, yhteystiedot, tiedostot, wikit ja viestit. Plus jokaisen taustalla olevat ominaisuudet."
+    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+  },
+  "productIndex": {
+    "eyebrow": "Tuote",
+    "headline": "Koko Verkio yhdessä paikassa.",
+    "body": "Kahdeksan pintaa — kuusi sviitin sovellusta sekä alla oleva alustakerros. Valitse yksi yksityiskohtia varten tai vieritä etusivua sviitin koko tarinan kohdalta.",
+    "learnMore": "Lue yksityiskohdat"
   },
   "productMail": {
     "metaTitle": "Sähköposti — Verkio",
@@ -1446,6 +1453,84 @@
   "whyVerkio": {
     "metaTitle": "Miksi Verkio — Verkio",
     "metaDescription": "Miksi tiimit valitsevat Verkion: hiljainen ohjelmisto, avoimet standardit, EU-asuinpaikka, ei lukitusta."
+  },
+  "isAndIsnt": {
+    "metaTitle": "Mitä Verkio on ja mitä ei — Verkio",
+    "metaDescription": "Rehellinen puolesta-ja-vastaan-sivu. Mihin Verkio sitoutuu, mitä se tarkoituksella ei yritä olla, ja miten tunnistat sopiiko se sinulle.",
+    "eyebrow": "Rehelliset kompromissit",
+    "headline": "Mitä Verkio on. Ja mitä se ei ole.",
+    "body": "On työsviittejä, joita emme koskaan ole. On joitakin, joita yritämme olla. Tämä sivu näyttää molemmat puolet — sen, mikä on hyvä tietää ennen kuin päätät sopiiko Verkio sinulle.",
+    "is": {
+      "eyebrow": "Mitä Verkio on",
+      "headline": "Asioita, joihin sitoudumme.",
+      "items": [
+        {
+          "name": "EU-asuinpaikan saanut työsviitti.",
+          "body": "Sähköposti, kalenteri, yhteystiedot, tiedostot, wikit ja viestit — kaikki Hetznerin infrastruktuurilla Saksassa ja Suomessa. EU-hallinnoidut salausavaimet, EU-DNS, EU-maksut. Ei amerikkalaista hyperscaleria ketjussa."
+        },
+        {
+          "name": "Rakennettu avoimille standardeille.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Käytä Thunderbirdiä, Apple Mailia, K-9:ää, DAVx⁵:tä tai webmailiamme — emme lukitse sinua yhteen asiakasohjelmaan."
+        },
+        {
+          "name": "Ihmisille, jotka haluavat perusasiat hyvin tehtynä.",
+          "body": "Ei tekoälyominaisuuksia, jotka lukevat sähköpostiasi, ei sitoutumismittareita, ei 'saatat olla kiinnostunut'-lisämyyntiä. Tuote on postilaatikko, ei huomiosi."
+        },
+        {
+          "name": "Pieni EU-yritys.",
+          "body": "Verkio AB, rekisteröity Ruotsissa. Perustajan omistuksessa, ei pääomasijoitussalkussa. Mitään 'meidät ostettiin'-sähköpostia ei ole tulossa."
+        },
+        {
+          "name": "Aito alusta.",
+          "body": "Julkinen REST-API ja OpenAPI 3.1, allekirjoitetut webhookit, JMAP-passthrough, rajatut tokenit. Sign in with Verkio (OIDC) tulee, jos kehittäjät haluavat sitä."
+        },
+        {
+          "name": "Audit-log-natiivi.",
+          "body": "Jokainen ylläpidollinen toimi tallennetaan ennen/jälkeen-arvoineen, seitsemän vuoden säilytys oletuksena. Striimaa SIEM-järjestelmääsi. Ei mitään 'katsomme lokeja' — ne ovat sinun kyseltäväksesi suoraan."
+        }
+      ]
+    },
+    "isnt": {
+      "eyebrow": "Mitä Verkio ei ole",
+      "headline": "Asioita, joita emme tarkoituksella yritä olla.",
+      "items": [
+        {
+          "name": "End-to-end-salattu postipalvelu kuten Proton tai Tuta.",
+          "body": "Oletuksena lepotilan salaus käyttää Verkion hallinnoimia avaimia EU:ssa — vahvaa, mutta Verkio voi teknisesti lukea postisi. Asiakkaan hallussa pidettävillä avaimilla tehtävä valinnainen salaus saapuu kesäkuussa 2026, mutta luopumalla web-postilaatikosta, kokotekstihausta ja push-esikatseluista. Jos aito E2EE jokaiselle viestille on ehdoton vaatimus, nuo tuotteet sopivat paremmin."
+        },
+        {
+          "name": "50 sovelluksen nippu kuten Zoho tai Workspace.",
+          "body": "Kuusi sviitin pintaa sekä alustakerros. Emme lisää CRM:ää, LMS:ää, videoneuvottelutuotetta tai HR-moduulia. Ne ovat ratkaistuja ongelmia työkaluissa, jotka voit yhdistää API:mme kautta."
+        },
+        {
+          "name": "Ilmainen palvelu.",
+          "body": "Ei mainoksilla rahoitettua tasoa. Maksat sviitistä; emme myy postisi yhteenvetoja mallitoimittajalle. Jos et maksa, emme ole oikea koti postilaatikollesi."
+        },
+        {
+          "name": "Yhdysvalloissa toimipaikkansa pitävä yritys.",
+          "body": "Toimipaikka Ruotsissa, Yhdysvaltain CLOUD Act -toimivallan ulkopuolella. Tämä on koko juju. Jos ostokriteerisi suosivat yhdysvaltalaista toimittajaa, emme ole oikean muotoiset."
+        },
+        {
+          "name": "Viestit-ensin-alusta kuten Slack.",
+          "body": "Viestit ovat osa sviittiä, eivät sen ydin. Emme rakenna reaktioita, mukautettuja emojeita tai ilmoitusahdistus-ominaisuuksia. Jos tiimichat on ensisijainen työkalusi, omistautunut tuote ohittaa meidät ominaisuuksissa vuosien ajan."
+        },
+        {
+          "name": "'Ei Microsoftia / ei Googlea'-fanaatikko.",
+          "body": "Käytä Gmailia tai Outlookia, jos ne toimivat sinulle. Mielestämme sinulla pitäisi vain olla EU-asuinpaikkainen, standardeihin pohjautuva vaihtoehto silloin, kun ne eivät toimi."
+        },
+        {
+          "name": "Neljän viikon julkaisuja tekevä yritys.",
+          "body": "Olemme hitaita. Kolmen vuoden tiekartta, ei kolmen kuukauden. Julkaisemme mieluummin yhden ominaisuuden kunnolla kuin viisi puolitiehen. Jos tarvitset toimittajan startup-vauhdilla, se emme ole me."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Sopiiko se?",
+      "headline": "Todennäköisesti, jos haluat suurimman osan näistä.",
+      "body": "Lue listat. Jos suurin osa 'on'-kohdista tuntuu oikealta ja suurin osa 'ei ole'-kohdista on asioita, joita et tarvitse, Verkio sopii sinulle todennäköisesti. Jos yksikin 'ei ole'-kohta on ehdoton ei, säästetään aikaa molemmilta.",
+      "cta": "Liity jonotuslistalle",
+      "backLink": "Takaisin Miksi Verkio -sivulle"
+    }
   },
   "homeNarrative": {
     "send": {

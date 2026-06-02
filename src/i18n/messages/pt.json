@@ -344,6 +344,7 @@
     "privacy": "Política de privacidade",
     "terms": "Termos e condições",
     "subprocessors": "Subcontratantes",
+    "isAndIsnt": "O que o Verkio é e o que não é",
     "allRightsReserved": "Todos os direitos reservados"
   },
   "waitlist": {
@@ -697,7 +698,13 @@
   },
   "product": {
     "metaTitle": "Produto — Verkio",
-    "metaDescription": "O produto Verkio: correio, calendário, contactos, ficheiros, wikis e mensagens. Mais as capacidades por trás de cada um."
+    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+  },
+  "productIndex": {
+    "eyebrow": "Produto",
+    "headline": "Todo o Verkio, num só lugar.",
+    "body": "Oito superfícies — seis apps da suite mais a camada de plataforma por baixo. Escolha uma para ler o detalhe, ou desça pela página inicial para o relato da suite.",
+    "learnMore": "Ler o detalhe"
   },
   "productMail": {
     "metaTitle": "Correio — Verkio",
@@ -1446,6 +1453,84 @@
   "whyVerkio": {
     "metaTitle": "Porquê Verkio — Verkio",
     "metaDescription": "Porque é que as equipas escolhem o Verkio: software tranquilo, padrões abertos, residência na UE, sem bloqueio."
+  },
+  "isAndIsnt": {
+    "metaTitle": "O que o Verkio é e o que não é — Verkio",
+    "metaDescription": "Uma página honesta de prós e contras. A que o Verkio se compromete, o que deliberadamente não procura ser, e como saber se é adequado para si.",
+    "eyebrow": "Compromissos honestos",
+    "headline": "O que o Verkio é. E o que não é.",
+    "body": "Há suites de trabalho que nunca seremos. Há algumas que tentamos ser. Esta página mostra os dois lados — o que deve saber antes de decidir se o Verkio é o certo para si.",
+    "is": {
+      "eyebrow": "O que o Verkio é",
+      "headline": "Coisas a que nos comprometemos.",
+      "items": [
+        {
+          "name": "Uma suite de trabalho residente na UE.",
+          "body": "Correio, calendário, contactos, ficheiros, wikis e mensagens — tudo em infraestrutura Hetzner na Alemanha e Finlândia. Chaves de cifragem geridas na UE, DNS UE, pagamentos UE. Nenhum hyperscaler norte-americano na cadeia."
+        },
+        {
+          "name": "Construído sobre padrões abertos.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Use o Thunderbird, Apple Mail, K-9, DAVx⁵ ou o nosso webmail — não o prendemos a um único cliente."
+        },
+        {
+          "name": "Para quem quer o essencial bem feito.",
+          "body": "Sem funcionalidades de IA a ler o seu correio, sem métricas de engagement, sem 'isto pode interessar-lhe'. O produto é a caixa, não a sua atenção."
+        },
+        {
+          "name": "Uma pequena empresa europeia.",
+          "body": "Verkio AB, registada na Suécia. Detida pelo fundador, não por uma carteira de capital de risco. Nenhum email de 'fomos adquiridos' está a caminho."
+        },
+        {
+          "name": "Uma plataforma a sério.",
+          "body": "API REST pública com OpenAPI 3.1, webhooks assinados, passthrough JMAP, tokens com escopo. Sign in with Verkio (OIDC) chegará se os programadores o quiserem."
+        },
+        {
+          "name": "Pensada para o audit log.",
+          "body": "Cada ação de administração registada com valores antes/depois, sete anos de retenção por defeito. Envie em streaming para o seu SIEM. Nada de 'vamos ver os logs' — são seus para consultar diretamente."
+        }
+      ]
+    },
+    "isnt": {
+      "eyebrow": "O que o Verkio não é",
+      "headline": "Coisas que deliberadamente não tentamos ser.",
+      "items": [
+        {
+          "name": "Um serviço de correio cifrado de ponta a ponta como o Proton ou o Tuta.",
+          "body": "A cifragem em repouso por defeito usa chaves geridas pelo Verkio na UE — forte, mas tecnicamente o Verkio consegue ler o seu correio. A cifragem opcional com chaves detidas pelo cliente chega em junho de 2026, mas em troca da caixa web, da pesquisa em texto integral e das pré-visualizações push. Se precisa de E2EE real para cada mensagem, esses produtos servem melhor."
+        },
+        {
+          "name": "Um pacote de 50 apps como o Zoho ou o Workspace.",
+          "body": "Seis superfícies da suite mais a camada de plataforma. Não vamos acrescentar um CRM, um LMS, um produto de videochamadas ou um módulo de RH. São problemas já resolvidos em ferramentas que pode integrar pela nossa API."
+        },
+        {
+          "name": "Um serviço gratuito.",
+          "body": "Sem um plano financiado por publicidade. Paga pela suite; não vendemos resumos do seu correio a um fornecedor de modelos. Se não está a pagar, não somos o sítio certo para a sua caixa."
+        },
+        {
+          "name": "Uma empresa sediada nos EUA.",
+          "body": "Sediada na Suécia, fora da jurisdição da CLOUD Act dos EUA. É exatamente esse o ponto. Se os seus critérios de compra favorecem um fornecedor dos EUA, não somos a forma certa."
+        },
+        {
+          "name": "Uma plataforma de mensagens em primeiro lugar como o Slack.",
+          "body": "As mensagens fazem parte da suite, não são o centro. Não vamos construir reações, emojis personalizados ou funcionalidades que provoquem ansiedade de notificação. Se o chat de equipa é a sua ferramenta principal, um produto dedicado vai estar à nossa frente em funcionalidades durante anos."
+        },
+        {
+          "name": "Um fanático do 'nada de Microsoft / nada de Google'.",
+          "body": "Use o Gmail ou o Outlook se funcionarem para si. Apenas achamos que deve ter uma opção europeia, baseada em padrões, quando não funcionarem."
+        },
+        {
+          "name": "Uma empresa de lançamentos em quatro semanas.",
+          "body": "Somos lentos. Roadmap a três anos, não a três meses. Preferimos lançar uma funcionalidade bem feita do que cinco a meio. Se precisa de um fornecedor a ritmo de startup, não somos nós."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "É adequado para si?",
+      "headline": "Provavelmente, se quiser a maior parte disso.",
+      "body": "Leia as listas. Se a maior parte dos pontos 'é' lhe fizerem sentido e a maior parte dos pontos 'não é' forem coisas de que não precisa, o Verkio é provavelmente um bom encaixe. Se um único ponto 'não é' for um não absoluto, poupemos o tempo a ambos.",
+      "cta": "Entrar na lista",
+      "backLink": "Voltar a Porquê Verkio"
+    }
   },
   "homeNarrative": {
     "send": {

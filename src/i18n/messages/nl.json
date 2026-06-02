@@ -344,6 +344,7 @@
     "privacy": "Privacybeleid",
     "terms": "Algemene voorwaarden",
     "subprocessors": "Subverwerkers",
+    "isAndIsnt": "Wat Verkio wel en niet is",
     "allRightsReserved": "Alle rechten voorbehouden"
   },
   "waitlist": {
@@ -697,7 +698,13 @@
   },
   "product": {
     "metaTitle": "Product — Verkio",
-    "metaDescription": "Het Verkio-product: mail, agenda, contacten, bestanden, wiki's en berichten. Plus de mogelijkheden achter elk daarvan."
+    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+  },
+  "productIndex": {
+    "eyebrow": "Product",
+    "headline": "Heel Verkio, op één plek.",
+    "body": "Acht vlakken — zes suite-apps plus de platformlaag eronder. Kies er een voor het detail, of scroll de homepage voor het volledige suite-verhaal.",
+    "learnMore": "Lees het detail"
   },
   "productMail": {
     "metaTitle": "Mail — Verkio",
@@ -1446,6 +1453,84 @@
   "whyVerkio": {
     "metaTitle": "Waarom Verkio — Verkio",
     "metaDescription": "Waarom teams voor Verkio kiezen: rustige software, open standaarden, EU-residentie, geen vendor lock-in."
+  },
+  "isAndIsnt": {
+    "metaTitle": "Wat Verkio wel en niet is — Verkio",
+    "metaDescription": "Een eerlijke voor- en nadelen-pagina. Waar Verkio zich aan verbindt, wat het bewust niet probeert te zijn, en hoe je weet of het past.",
+    "eyebrow": "Eerlijke afwegingen",
+    "headline": "Wat Verkio is. En wat het niet is.",
+    "body": "Er zijn werk-suites die we nooit zullen zijn. Er zijn er die we wel proberen te zijn. Deze pagina toont beide kanten — wat je moet weten voordat je beslist of Verkio bij je past.",
+    "is": {
+      "eyebrow": "Wat Verkio is",
+      "headline": "Dingen waar we ons aan verbinden.",
+      "items": [
+        {
+          "name": "Een in de EU gevestigde werk-suite.",
+          "body": "Mail, agenda, contacten, bestanden, wiki's en berichten — allemaal op Hetzner-infrastructuur in Duitsland en Finland. In de EU beheerde encryptiesleutels, EU-DNS, EU-betalingen. Geen Amerikaanse hyperscaler in de keten."
+        },
+        {
+          "name": "Gebouwd op open standaarden.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Gebruik Thunderbird, Apple Mail, K-9, DAVx⁵ of onze webmail — we sluiten je niet op in één client."
+        },
+        {
+          "name": "Voor mensen die de basis goed gedaan willen hebben.",
+          "body": "Geen AI-functies die je mail lezen, geen engagement-metrics, geen 'misschien ben je geïnteresseerd in'-upsell. Het product is de mailbox, niet je aandacht."
+        },
+        {
+          "name": "Een klein EU-bedrijf.",
+          "body": "Verkio AB, geregistreerd in Zweden. Eigendom van de oprichter, niet van een venture-portefeuille. Geen 'we zijn overgenomen'-mail op komst."
+        },
+        {
+          "name": "Een echt platform.",
+          "body": "Publieke REST-API met OpenAPI 3.1, ondertekende webhooks, JMAP-passthrough, gescoopte tokens. Sign in with Verkio (OIDC) komt eraan als ontwikkelaars dat willen."
+        },
+        {
+          "name": "Audit-log-native.",
+          "body": "Elke beheeractie wordt vastgelegd met voor/na-waarden, zeven jaar bewaartermijn standaard. Stream het naar je SIEM. Geen 'we kijken even in de logs' — ze zijn van jou om rechtstreeks te bevragen."
+        }
+      ]
+    },
+    "isnt": {
+      "eyebrow": "Wat Verkio niet is",
+      "headline": "Dingen die we bewust niet proberen te zijn.",
+      "items": [
+        {
+          "name": "Een end-to-end-versleutelde maildienst zoals Proton of Tuta.",
+          "body": "Standaard encryptie in rust gebruikt door Verkio beheerde sleutels in de EU — sterk, maar Verkio kan technisch je mail lezen. Opt-in-encryptie met klantbeheerde sleutels komt in juni 2026, maar dat gaat ten koste van de webinbox, full-text-zoeken en push-previews. Als echt E2EE voor elk bericht een harde eis is, passen die producten beter."
+        },
+        {
+          "name": "Een bundel van 50 apps zoals Zoho of Workspace.",
+          "body": "Zes suite-vlakken plus de platformlaag. We gaan geen CRM, geen LMS, geen videoconferentieproduct en geen HR-module toevoegen. Dat zijn opgeloste problemen in tools die je via onze API kunt koppelen."
+        },
+        {
+          "name": "Een gratis dienst.",
+          "body": "Geen door advertenties betaalde laag. Je betaalt voor de suite; we verkopen geen samenvattingen van je mail aan een modelleverancier. Als je niet betaalt, zijn wij niet het juiste thuis voor je mailbox."
+        },
+        {
+          "name": "Een in de VS gevestigd bedrijf.",
+          "body": "Gevestigd in Zweden, buiten de jurisdictie van de Amerikaanse CLOUD Act. Dat is precies het punt. Als je inkoopcriteria een Amerikaanse leverancier voortrekken, passen wij gewoon niet."
+        },
+        {
+          "name": "Een messaging-first-platform zoals Slack.",
+          "body": "Berichten zijn onderdeel van de suite, niet het hart ervan. We bouwen geen reacties, custom emoji of notificatieangst-functies. Als teamchat je belangrijkste tool is, zal een gespecialiseerd product ons jarenlang qua features verslaan."
+        },
+        {
+          "name": "Een 'geen Microsoft / geen Google'-fanaticus.",
+          "body": "Gebruik Gmail of Outlook als die voor jou werken. Wij vinden alleen dat je een in de EU gevestigde, standaardgebaseerde optie moet hebben wanneer dat niet zo is."
+        },
+        {
+          "name": "Een bedrijf van vier-weken-lanceringen.",
+          "body": "We zijn langzaam. Driejarige roadmap, geen driemaandse. We brengen liever één feature goed uit dan vijf half. Heb je een leverancier nodig die op startup-tempo beweegt, dan zijn wij dat niet."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Past het?",
+      "headline": "Waarschijnlijk, als je het meeste daarvan wilt.",
+      "body": "Lees de lijsten. Als de meeste 'is'-punten goed voelen en de meeste 'is niet'-punten dingen zijn die je niet nodig hebt, past Verkio waarschijnlijk goed. Als één 'is niet'-punt een keihard nee is, bespaar ons allebei de tijd.",
+      "cta": "Inschrijven",
+      "backLink": "Terug naar Waarom Verkio"
+    }
   },
   "homeNarrative": {
     "send": {

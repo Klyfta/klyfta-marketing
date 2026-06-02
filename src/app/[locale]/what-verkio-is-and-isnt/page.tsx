@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Footer, Header } from "@/app/[locale]/components/Layout";
-import { ProductIndex } from "@/app/[locale]/components/ProductIndex";
-import { WaitlistCta } from "@/app/[locale]/components/WaitlistCta";
+import { IsAndIsnt } from "@/app/[locale]/components/IsAndIsnt";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -15,8 +14,8 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "product" });
-  const url = `https://verkio.eu/${locale}/product`;
+  const t = await getTranslations({ locale, namespace: "isAndIsnt" });
+  const url = `https://verkio.eu/${locale}/what-verkio-is-and-isnt`;
 
   return {
     title: t("metaTitle"),
@@ -25,15 +24,18 @@ export async function generateMetadata({
       canonical: url,
       languages: {
         ...Object.fromEntries(
-          routing.locales.map((l) => [l, `https://verkio.eu/${l}/product`]),
+          routing.locales.map((l) => [
+            l,
+            `https://verkio.eu/${l}/what-verkio-is-and-isnt`,
+          ]),
         ),
-        "x-default": `https://verkio.eu/${routing.defaultLocale}/product`,
+        "x-default": `https://verkio.eu/${routing.defaultLocale}/what-verkio-is-and-isnt`,
       },
     },
   };
 }
 
-export default async function ProductPage({
+export default async function WhatVerkioIsAndIsntPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -44,8 +46,7 @@ export default async function ProductPage({
     <>
       <Header />
       <main>
-        <ProductIndex />
-        <WaitlistCta />
+        <IsAndIsnt />
       </main>
       <Footer />
     </>

@@ -344,6 +344,7 @@
     "privacy": "Zásady ochrany osobních údajů",
     "terms": "Smluvní podmínky",
     "subprocessors": "Subzpracovatelé",
+    "isAndIsnt": "Co Verkio je a co není",
     "allRightsReserved": "Všechna práva vyhrazena"
   },
   "waitlist": {
@@ -697,7 +698,13 @@
   },
   "product": {
     "metaTitle": "Produkt — Verkio",
-    "metaDescription": "Produkt Verkio: pošta, kalendář, kontakty, soubory, wiki a zprávy. Plus schopnosti za každým z nich."
+    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+  },
+  "productIndex": {
+    "eyebrow": "Produkt",
+    "headline": "Celé Verkio, na jednom místě.",
+    "body": "Osm ploch — šest aplikací sady plus platformní vrstva pod nimi. Vyberte si jednu pro detail, nebo si projděte domovskou stránku pro celý příběh sady.",
+    "learnMore": "Přečíst detail"
   },
   "productMail": {
     "metaTitle": "Pošta — Verkio",
@@ -1446,6 +1453,84 @@
   "whyVerkio": {
     "metaTitle": "Proč Verkio — Verkio",
     "metaDescription": "Proč si týmy vybírají Verkio: tichý software, otevřené standardy, EU rezidence, žádné uzamčení."
+  },
+  "isAndIsnt": {
+    "metaTitle": "Co Verkio je a co není — Verkio",
+    "metaDescription": "Upřímná stránka pro a proti. K čemu se Verkio zavazuje, čím se záměrně nesnaží být, a jak poznáte, jestli vám sedne.",
+    "eyebrow": "Upřímné kompromisy",
+    "headline": "Co Verkio je. A co není.",
+    "body": "Existují pracovní sady, kterými nikdy nebudeme. Jsou některé, jimiž se snažíme být. Tato stránka ukazuje obě strany — to, co byste měli vědět, než se rozhodnete, zda je Verkio pro vás.",
+    "is": {
+      "eyebrow": "Co Verkio je",
+      "headline": "Věci, ke kterým se zavazujeme.",
+      "items": [
+        {
+          "name": "Pracovní sada s rezidencí v EU.",
+          "body": "Pošta, kalendář, kontakty, soubory, wiki a zprávy — vše na infrastruktuře Hetzner v Německu a Finsku. Šifrovací klíče spravované v EU, EU DNS, EU platby. Žádný americký hyperscaler v řetězci."
+        },
+        {
+          "name": "Postaveno na otevřených standardech.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Použijte Thunderbird, Apple Mail, K-9, DAVx⁵ nebo náš webmail — nepřivazujeme vás k jednomu klientovi."
+        },
+        {
+          "name": "Pro ty, kdo chtějí mít základy pořádně udělané.",
+          "body": "Žádné AI funkce, které čtou vaši poštu, žádné metriky zaujetí, žádné 'mohlo by vás zajímat'-upsell. Produktem je schránka, ne vaše pozornost."
+        },
+        {
+          "name": "Malá evropská firma.",
+          "body": "Verkio AB, registrovaná ve Švédsku. Ve vlastnictví zakladatele, ne portfolia rizikového kapitálu. Žádný e-mail 'byli jsme akvírováni' nepřichází."
+        },
+        {
+          "name": "Skutečná platforma.",
+          "body": "Veřejné REST API s OpenAPI 3.1, podepsané webhooky, JMAP passthrough, tokeny s rozsahem. Sign in with Verkio (OIDC) přijde, pokud o ně vývojáři budou stát."
+        },
+        {
+          "name": "Audit-log-nativní.",
+          "body": "Každá administrátorská akce zaznamenaná s hodnotami před/po, sedmiletá retence ve výchozím nastavení. Streamujte do svého SIEM. Žádné 'podíváme se do logů' — jsou vaše a můžete je přímo dotazovat."
+        }
+      ]
+    },
+    "isnt": {
+      "eyebrow": "Co Verkio není",
+      "headline": "Věci, kterými se záměrně nesnažíme být.",
+      "items": [
+        {
+          "name": "Poštovní služba se šifrováním end-to-end jako Proton nebo Tuta.",
+          "body": "Výchozí šifrování v klidu používá klíče spravované Verkiem v EU — silné, ale Verkio technicky může číst vaši poštu. Volitelné šifrování s klíči v rukou zákazníka přichází v červnu 2026, ale za cenu webové schránky, fulltextového vyhledávání a push náhledů. Pokud je pravé E2EE pro každou zprávu vaším tvrdým požadavkem, ony produkty vám sednou lépe."
+        },
+        {
+          "name": "Balík 50 aplikací jako Zoho nebo Workspace.",
+          "body": "Šest ploch sady plus platformní vrstva. Nepřidáváme CRM, LMS, produkt pro videohovory ani HR modul. To jsou vyřešené problémy v nástrojích, které můžete integrovat přes naše API."
+        },
+        {
+          "name": "Bezplatná služba.",
+          "body": "Žádná vrstva financovaná reklamou. Platíte za sadu; neprodáváme shrnutí vaší pošty dodavateli modelů. Pokud neplatíte, nejsme správným domovem pro vaši schránku."
+        },
+        {
+          "name": "Firma se sídlem v USA.",
+          "body": "Sídlo ve Švédsku, mimo jurisdikci amerického CLOUD Actu. Právě o to jde. Pokud vaše nákupní kritéria upřednostňují amerického dodavatele, nesedíme do vašeho rámce."
+        },
+        {
+          "name": "Platforma postavená v první řadě na zprávách jako Slack.",
+          "body": "Zprávy jsou součástí sady, ne jejím středobodem. Nestavíme reakce, vlastní emoji ani funkce vyvolávající úzkost z notifikací. Pokud je týmový chat váš hlavní nástroj, dedikovaný produkt nás bude na funkcích dohánět roky."
+        },
+        {
+          "name": "Fanatik typu 'žádný Microsoft / žádný Google'.",
+          "body": "Používejte Gmail nebo Outlook, pokud vám fungují. My si jen myslíme, že byste měli mít evropskou možnost postavenou na standardech, když nefungují."
+        },
+        {
+          "name": "Firma s čtyřtýdenními uvedeními.",
+          "body": "Jsme pomalí. Tříletá roadmapa, ne tříměsíční. Raději vydáme jednu věc pořádně než pět napůl. Pokud potřebujete dodavatele s tempem startupu, to nejsme my."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Sedne to?",
+      "headline": "Asi ano, pokud chcete většinu z toho.",
+      "body": "Přečtěte si seznamy. Pokud vám většina bodů 'je' dává smysl a většina bodů 'není' jsou věci, které nepotřebujete, Verkio vám pravděpodobně sedne. Pokud je byť jediný bod 'není' tvrdé ne, ušetřme oba čas.",
+      "cta": "Přidat se na seznam",
+      "backLink": "Zpět na Proč Verkio"
+    }
   },
   "homeNarrative": {
     "send": {
