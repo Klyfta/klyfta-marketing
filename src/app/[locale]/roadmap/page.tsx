@@ -68,7 +68,7 @@ const roadmapItems: { key: string; size: RoadmapSize; status?: RoadmapStatus }[]
   { key: "tier2Encryption", size: "major", status: "implemented" },
   { key: "samlSso", size: "major", status: "implemented" },
   { key: "migration", size: "major" },
-  { key: "ssoScim", size: "major" },
+  { key: "ssoScim", size: "major", status: "implemented" },
   { key: "signInWithVerkio", size: "major" },
   { key: "eidasSigning", size: "major" },
   { key: "calendarPolls", size: "minor" },
