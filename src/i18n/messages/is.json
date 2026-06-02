@@ -81,92 +81,6 @@
       "hávaða"
     ]
   },
-  "suite": {
-    "eyebrow": "Svítan",
-    "headline": "Allt sem teymið þitt notar, á einum stað.",
-    "subhead": "Ein innskráning, ein nafnaskrá, einn reikningur. Smíðað á opnum stöðlum svo þú sért aldrei læstur inni.",
-    "items": {
-      "mail": {
-        "name": "Tölvupóstur",
-        "description": "Persónulegir og samnýttir pósthólf. Notaðu vefviðmótið eða hvern sem er IMAP-biðlara. Notaðu þitt eigið lén."
-      },
-      "calendar": {
-        "name": "Dagatal",
-        "description": "Persónuleg og sameiginleg dagatöl. Staðlað (CalDAV) — virkar með forritunum sem þú notar nú þegar."
-      },
-      "contacts": {
-        "name": "Tengiliðir",
-        "description": "Persónulegar og samnýttar tengiliðabækur um CardDAV. Samstilling alls staðar, engin innilokun."
-      },
-      "documents": {
-        "name": "Skjalageymsla",
-        "description": "Skrár og möppur með deilingu, útgáfusögu og fínstilltum aðgangsréttindum."
-      },
-      "wikis": {
-        "name": "Wikis",
-        "description": "Skipulagðar síður fyrir þekkingu teymisins, með fullri breytingasögu og tengingum."
-      },
-      "messaging": {
-        "name": "Skilaboð",
-        "description": "Rásir, DM og þræðir fyrir teymisspjall. Leitarbært, í sömu svítu og pósturinn þinn."
-      }
-    }
-  },
-  "capabilities": {
-    "eyebrow": "Eiginleikar",
-    "headline": "Smíðað fyrir alvöru vinnu.",
-    "subhead": "Eiginleikarnir sem teymi þurfa raunverulega — ekki listi hannaður til að líta langur út á glæru.",
-    "items": {
-      "webmail": {
-        "name": "Vefpóstur sem heldur sig til hlés.",
-        "description": "Hraður, lyklaborðs-fyrst vefþjónn — þræðir, leit, merkimiðar, þriggja-spjalda útlit. Smíðaður til að lesa, skrifa og geyma án þenslu. Vefpósturinn sem þú vildir að Gmail væri enn."
-      },
-      "files": {
-        "name": "Skrár með lyklum sem þú stjórnar.",
-        "description": "Einkamöppur og samnýttar möppur, fínkornótt ACL, deilingartenglar varðir með lykilorði og fyrningardegi. Hver skrá er dulkóðuð í hvíld með eigin AES-256-GCM lykli á ESB hlutargeymslu — enginn aðallykill í bandarískum bucket."
-      },
-      "calendar": {
-        "name": "Dagatal sem passar við hvernig þú vinnur nú þegar.",
-        "description": "Fullt CalDAV undir hlífinni, með vefappi sem styður mánaðar-, viku- og dagsýni, endurteknar færslur, iMIP boð og laus/upptekinn flettingu á milli teyma. Samstilltu við Apple Dagatal, Thunderbird eða símann þinn — engin sérvarin plug-in til að setja upp."
-      },
-      "contacts": {
-        "name": "Tengiliðir sem fylgja þér.",
-        "description": "Persónulegar og samnýttar póstskrár yfir CardDAV. vCard inn- og útflutningur, hópastuðningur, ekkert sérvarið tengiliðasnið sem þú þarft að flytja síðar. Póstskráin þín er þín."
-      },
-      "filters": {
-        "name": "Póstsíur án handbókar.",
-        "description": "Sjónrænn reglubyggjari sem þýðir í staðlað Sieve undir hlífinni. Tilbúin sniðmát fyrir reglurnar sem þú raunverulega vilt, auk varnargrinda sem hindra þig í að byggja áframsendingarlykkju klukkan 2 að nóttu."
-      },
-      "sharedMailbox": {
-        "name": "Samnýtt pósthólf fyrir alvöru teymi.",
-        "description": "Teymisinnhólf með úthlutuðum, stöðu og innri athugasemdum — varpað sem IMAP lyklum, þannig að það virkar áfram í hverjum póstbiðlara án sérvarinnar app. Helpdesk verkflæði án þess að kaupa helpdesk vöru."
-      },
-      "messaging": {
-        "name": "Teymisskilaboð án hávaða.",
-        "description": "Rásir fyrir áframhaldandi vinnu, DM fyrir einn-á-einn þræði, leit yfir bæði. Í sömu svítu og pósturinn og skjölin þín — ein innskráning, ein leit, einn staður til að leita. Engar þátttökumælingar, engin uppsala, ekkert 'er einhver tiltækur?' leikhús."
-      },
-      "api": {
-        "name": "Opinbert API og undirritaðir webhooks.",
-        "description": "Bearer-tokens með umfangi, HMAC-undirrituð webhook-afhending með dead-letter biðröð, OpenAPI lýsing og JMAP passthrough. Tengdu Verkio við CRM, CI eða back-office sem þú hefur þegar — án screen-scraping."
-      },
-      "auditLog": {
-        "name": "Hver kerfisstjóraaðgerð, skráð.",
-        "description": "Endurskoðunarlog sem snýr að viðskiptavinum með leit, gildum fyrir/eftir og sjö ára varðveislu sjálfgefið — í samræmi við sænska bokföringslag. Streymdu atburðum í Splunk, Datadog eða hvaða SIEM sem er, eða fluttu út í CSV eða JSONL."
-      },
-      "offboarding": {
-        "name": "Brottfararferli án klettsbrúnar.",
-        "description": "Þegar einhver yfirgefur fyrirtækið helst pósthólfið hans aðgengilegt í þrjátíu daga og getur áframsent á tilnefndan eiganda — svo svar viðskiptavinar á degi fjórtán lendi enn einhvers staðar gagnlegt. Anti-lykkjuvörn innbyggð, skráð í endurskoðun, kaskaða-hreinsun ef eigandinn fer líka."
-      },
-      "domains": {
-        "name": "Lén og tæki stillt á mínútum.",
-        "description": "Bættu við léni, staðfestu DNS, stilltu catch-all. Við myndum Thunderbird XML og Apple .mobileconfig snið, og autoconfig um host-header bara virkar. DNS staðfesting styður tíu ESB veitur þar á meðal Hetzner, OVH, IONOS, deSEC, Scaleway og Glesys."
-      },
-      "migration": {
-        "name": "Taktu innhólfið með þér.",
-        "description": "Fluttu frá Gmail, Outlook eða hvaða IMAP-veitu sem er í einu flæði — möppur, fánar og þræðir varðveitt. Við sækjum, þú horfir á framvinduslá. Engin 'flyttu út mbox og biðjið' helgarverkefni."
-      }
-    }
-  },
   "principles": {
     "eyebrow": "Af hverju Verkio",
     "headline": "Kyrrð að hönnun.",
@@ -344,7 +258,7 @@
     "privacy": "Persónuverndarstefna",
     "terms": "Skilmálar",
     "subprocessors": "Undirvinnsluaðilar",
-    "isAndIsnt": "What Verkio is and isn't",
+    "isAndIsnt": "Hvað Verkio er og hvað ekki",
     "allRightsReserved": "Allur réttur áskilinn"
   },
   "waitlist": {
@@ -698,13 +612,13 @@
   },
   "product": {
     "metaTitle": "Vara — Verkio",
-    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+    "metaDescription": "Sérhvert yfirborð í Verkio-svítunni: póstur, dagatal, tengiliðir, skrár, wikis, skilaboð, opna API-ið og Sign in with Verkio. Veldu eitt og kafaðu ofan í."
   },
   "productIndex": {
-    "eyebrow": "Product",
-    "headline": "All of Verkio, in one place.",
-    "body": "Eight surfaces — six suite apps plus the platform layer underneath. Pick one to read the detail, or scroll the homepage for the suite story.",
-    "learnMore": "Read the detail"
+    "eyebrow": "Vara",
+    "headline": "Allt Verkio, á einum stað.",
+    "body": "Átta yfirborð — sex svítu-forrit auk vettvangslagsins undir. Veldu eitt til að lesa smáatriðin, eða skrunaðu forsíðuna fyrir söguna um svítuna.",
+    "learnMore": "Lestu smáatriðin"
   },
   "productMail": {
     "metaTitle": "Póstur — Verkio",
@@ -1455,81 +1369,81 @@
     "metaDescription": "Hvers vegna teymi velja Verkio: rólegt hugbúnaður, opnir staðlar, ESB-búseta, engin innilokun."
   },
   "isAndIsnt": {
-    "metaTitle": "What Verkio is and isn't — Verkio",
-    "metaDescription": "An honest pros-and-cons page. What Verkio commits to, what it deliberately doesn't try to be, and how to tell if it's a fit.",
-    "eyebrow": "Honest tradeoffs",
-    "headline": "What Verkio is. And what it isn't.",
-    "body": "There are work suites we'll never be. There are some we're trying to be. This page is the both-sides version — the things to know before deciding Verkio is right for you.",
+    "metaTitle": "Hvað Verkio er og hvað ekki — Verkio",
+    "metaDescription": "Heiðarleg síða með kostum og göllum. Hverju Verkio skuldbindur sig til, hvað það reynir vísvitandi ekki að vera, og hvernig þú sérð hvort það passi.",
+    "eyebrow": "Heiðarlegar málamiðlanir",
+    "headline": "Hvað Verkio er. Og hvað það er ekki.",
+    "body": "Það eru vinnusvítur sem við verðum aldrei. Það eru aðrar sem við erum að reyna að vera. Þessi síða er útgáfan með báðum hliðum — það sem þú þarft að vita áður en þú ákveður hvort Verkio sé rétt fyrir þig.",
     "is": {
-      "eyebrow": "What Verkio is",
-      "headline": "Things we commit to.",
+      "eyebrow": "Hvað Verkio er",
+      "headline": "Það sem við skuldbindum okkur til.",
       "items": [
         {
-          "name": "An EU-resident work suite.",
-          "body": "Mail, calendar, contacts, files, wikis, and messaging — all on Hetzner infrastructure in Germany and Finland. EU-managed encryption keys, EU DNS, EU payments. No US hyperscaler in the chain."
+          "name": "Vinnusvíta með heimilisfesti í ESB.",
+          "body": "Póstur, dagatal, tengiliðir, skrár, wikis og skilaboð — allt á Hetzner-innviðum í Þýskalandi og Finnlandi. Dulkóðunarlyklar undir stjórn ESB, ESB-DNS, ESB-greiðslur. Enginn bandarískur stór-skýjarisi í keðjunni."
         },
         {
-          "name": "Built on open standards.",
-          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Use Thunderbird, Apple Mail, K-9, DAVx⁵, or our webmail — we don't lock you into one client."
+          "name": "Byggt á opnum stöðlum.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Notaðu Thunderbird, Apple Mail, K-9, DAVx⁵ eða vefpóstinn okkar — við læsum þig ekki inni í einum biðlara."
         },
         {
-          "name": "For people who want the basics done well.",
-          "body": "No AI features that read your mail, no engagement metrics, no 'you might be interested in' upsell. The product is the mailbox, not your attention."
+          "name": "Fyrir fólk sem vill grunnatriðin vel gerð.",
+          "body": "Engin gervigreind sem les póstinn þinn, engar þátttökumælingar, engin „þetta gæti vakið áhuga þinn“ uppselning. Varan er pósthólfið, ekki athygli þín."
         },
         {
-          "name": "A small EU company.",
-          "body": "Verkio AB, registered in Sweden. Owned by the founder, not a venture portfolio. No 'we got acquired' email is coming."
+          "name": "Lítið fyrirtæki í ESB.",
+          "body": "Verkio AB, skráð í Svíþjóð. Í eigu stofnandans, ekki vogunarsafns. Enginn „við vorum keypt upp“-póstur er á leiðinni."
         },
         {
-          "name": "A real platform.",
-          "body": "Public REST API with OpenAPI 3.1, signed webhooks, JMAP passthrough, scoped tokens. Sign in with Verkio (OIDC) is coming if developers want it."
+          "name": "Raunverulegur vettvangur.",
+          "body": "Opinbert REST API með OpenAPI 3.1, undirrituð webhooks, JMAP-passthrough, afmarkaðir aðgangslyklar. Sign in with Verkio (OIDC) er á leiðinni ef þróunaraðilar vilja það."
         },
         {
-          "name": "Audit-log-native.",
-          "body": "Every admin action recorded with before/after values, seven-year retention by default. Stream to your SIEM. No 'we'll look into the logs' — they're yours to query directly."
+          "name": "Endurskoðunarskrár frá grunni.",
+          "body": "Hver einasta stjórnandaaðgerð er skráð með fyrir/eftir-gildum, sjö ára varðveisla sjálfgefin. Streymdu í þitt SIEM. Ekkert „við skulum líta í skrárnar“ — þær eru þínar til að senda fyrirspurnir í beint."
         }
       ]
     },
     "isnt": {
-      "eyebrow": "What Verkio isn't",
-      "headline": "Things we deliberately don't try to be.",
+      "eyebrow": "Hvað Verkio er ekki",
+      "headline": "Það sem við reynum vísvitandi ekki að vera.",
       "items": [
         {
-          "name": "An end-to-end encrypted mail service like Proton or Tuta.",
-          "body": "Default at-rest encryption uses Verkio-managed keys held in the EU — strong, but Verkio can technically read your mail. Opt-in customer-held-key encryption ships June 2026 but trades the web inbox, full-text search, and push previews. If true E2EE for every message is your hard requirement, those products fit better."
+          "name": "End-til-end dulkóðuð póstþjónusta eins og Proton eða Tuta.",
+          "body": "Sjálfgefin dulkóðun í hvíld notar lykla undir stjórn Verkio sem geymdir eru í ESB — sterkt, en Verkio getur tæknilega lesið póstinn þinn. Valfrjáls dulkóðun með lyklum hjá viðskiptavini kemur í júní 2026 en kostar vefpósthólfið, fulltextaleit og push-forskoðanir. Ef raunverulegt E2EE fyrir hver skilaboð er ófrávíkjanleg krafa hjá þér passa þær vörur betur."
         },
         {
-          "name": "A 50-app bundle like Zoho or Workspace.",
-          "body": "Six suite surfaces plus the platform layer. We're not adding a CRM, an LMS, a video meeting product, or an HR module. Those are solved problems in tools you can integrate via our API."
+          "name": "50-forrita-pakki eins og Zoho eða Workspace.",
+          "body": "Sex svítu-yfirborð auk vettvangslagsins. Við bætum ekki við CRM, LMS, myndfundavöru eða HR-einingu. Þau vandamál eru leyst í verkfærum sem þú getur tengt í gegnum API-ið okkar."
         },
         {
-          "name": "A free service.",
-          "body": "No ad-supported tier. You pay for the suite; we don't sell summaries of your mail to a model vendor. If you're not paying, we're not the right home for your mailbox."
+          "name": "Ókeypis þjónusta.",
+          "body": "Ekkert auglýsingakostað þrep. Þú borgar fyrir svítuna; við seljum ekki samantektir af póstinum þínum til líkanasala. Ef þú borgar ekki erum við ekki rétti staðurinn fyrir pósthólfið þitt."
         },
         {
-          "name": "A US-headquartered company.",
-          "body": "Sweden-based, outside US CLOUD Act jurisdiction. This is the whole point. If your buying criteria favour a US vendor, we're the wrong shape."
+          "name": "Bandarískt fyrirtæki með höfuðstöðvar í Bandaríkjunum.",
+          "body": "Staðsett í Svíþjóð, utan lögsögu bandaríska CLOUD Act. Það er einmitt málið. Ef innkaupaviðmið þín kjósa bandarískan söluaðila erum við ekki í réttri lögun."
         },
         {
-          "name": "A messaging-first platform like Slack.",
-          "body": "Messaging is part of the suite, not the centrepiece. We're not building reactions, custom emoji, or notification-anxiety features. If team chat is your primary tool, a dedicated product will out-feature us for years."
+          "name": "Skilaboðamiðaður vettvangur eins og Slack.",
+          "body": "Skilaboð eru hluti af svítunni, ekki miðpunkturinn. Við byggjum ekki viðbrögð, sérsniðin emoji eða tilkynningakvíða-eiginleika. Ef hópspjall er aðalverkfærið þitt mun sérhæfð vara vera okkur fremri í eiginleikum í mörg ár."
         },
         {
-          "name": "A 'no Microsoft / no Google' zealot.",
-          "body": "Use Gmail or Outlook if they work for you. We just think you should have an EU-resident, standards-based option when they don't."
+          "name": "„Ekkert Microsoft / ekkert Google“-ofstækismaður.",
+          "body": "Notaðu Gmail eða Outlook ef þau virka fyrir þig. Okkur finnst bara að þú eigir að eiga valkost með heimilisfesti í ESB, byggðan á stöðlum, þegar þau virka ekki."
         },
         {
-          "name": "A four-week-launch company.",
-          "body": "We're slow. Three-year roadmap, not three-month. We'd rather ship one feature properly than five half-done. If you need a vendor moving at startup speed, that's not us."
+          "name": "Fjögurra-vikna-útgáfu-fyrirtæki.",
+          "body": "Við erum hægfara. Þriggja ára vegvísir, ekki þriggja mánaða. Við viljum frekar gera einn eiginleika almennilega en fimm hálfkláraða. Ef þú þarft söluaðila á sprotahraða erum það ekki við."
         }
       ]
     },
     "fit": {
-      "eyebrow": "Is it a fit?",
-      "headline": "Probably, if you want most of those.",
-      "body": "Read the lists. If most of the 'is' items feel right and most of the 'isn't' items are things you don't need, Verkio is probably a good fit. If a single 'isn't' item is a hard no, save us both the time.",
-      "cta": "Join waitlist",
-      "backLink": "Back to Why Verkio"
+      "eyebrow": "Passar þetta?",
+      "headline": "Líklega, ef þú vilt flest af þessu.",
+      "body": "Lestu listana. Ef flest „er“-atriðin hljóma rétt og flest „er ekki“-atriðin eru hlutir sem þú þarft ekki á að halda, þá hentar Verkio þér líklega vel. Ef eitt einasta „er ekki“-atriði er afgerandi nei, sparum við bæði tímann.",
+      "cta": "Komdu á biðlistann",
+      "backLink": "Til baka á Af hverju Verkio"
     }
   },
   "homeNarrative": {

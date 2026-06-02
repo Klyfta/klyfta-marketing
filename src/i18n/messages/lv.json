@@ -81,92 +81,6 @@
       "trokšņa"
     ]
   },
-  "suite": {
-    "eyebrow": "Komplekts",
-    "headline": "Viss, ko tava komanda izmanto, vienā vietā.",
-    "subhead": "Viena pieteikšanās, viena adrešu grāmata, viens rēķins. Veidots uz atklātajiem standartiem, lai tu nekad nebūtu ieslodzīts.",
-    "items": {
-      "mail": {
-        "name": "E-pasts",
-        "description": "Personīgās un kopīgās iesūtnes. Izmantojiet tīmekļa lietotni vai jebkuru IMAP klientu. Ņemiet līdzi savu domēnu."
-      },
-      "calendar": {
-        "name": "Kalendārs",
-        "description": "Personīgie un komandas kalendāri. Standartos balstīts (CalDAV) — darbojas ar lietotnēm, ko jau izmantojat."
-      },
-      "contacts": {
-        "name": "Kontakti",
-        "description": "Personīgās un kopīgās adrešu grāmatas caur CardDAV. Sinhronizācija visur, bez piesaistes."
-      },
-      "documents": {
-        "name": "Dokumentu glabātava",
-        "description": "Faili un mapes ar koplietošanu, versiju vēsturi un detalizētām piekļuves tiesībām."
-      },
-      "wikis": {
-        "name": "Viki",
-        "description": "Strukturētas lapas komandas zināšanām ar pilnu rediģēšanas vēsturi un saitēm."
-      },
-      "messaging": {
-        "name": "Ziņojumi",
-        "description": "Kanāli, DM un pavedieni komandas sarunām. Meklējams, tajā pašā paketē kā tavs pasts."
-      }
-    }
-  },
-  "capabilities": {
-    "eyebrow": "Iespējas",
-    "headline": "Veidots īstam darbam.",
-    "subhead": "Funkcijas, kas komandām patiešām vajadzīgas — nevis saraksts, kas veidots, lai izskatītos garš slaidā.",
-    "items": {
-      "webmail": {
-        "name": "Webmail, kas neuzbāžas.",
-        "description": "Ātrs, ar tastatūru darbināms tīmekļa klients — pavedieni, meklēšana, etiķetes, trīs paneļu izkārtojums. Veidots, lai lasītu, rakstītu un arhivētu bez piepūšanas. Webmail, kas tev gribētos, lai Gmail vēl būtu."
-      },
-      "files": {
-        "name": "Faili ar atslēgām, kuras tu kontrolē.",
-        "description": "Privātās un kopīgotās mapes, smalkgraudaina ACL, ar paroli un derīguma termiņu aizsargātas dalīšanās saites. Katrs fails miera stāvoklī tiek šifrēts ar savu AES-256-GCM atslēgu ES objektu krātuvē — bez galvenās atslēgas ASV bucket'ā."
-      },
-      "calendar": {
-        "name": "Kalendārs, kas der tam, kā tu jau strādā.",
-        "description": "Pilns CalDAV zem motora, ar tīmekļa lietotni, kas atbalsta mēneša, nedēļas un dienas skatus, atkārtotus notikumus, iMIP ielūgumus un brīvs/aizņemts meklēšanu komandu starpā. Sinhronizē ar Apple Kalendāru, Thunderbird vai telefonu — nekāda patentēta spraudņa instalēšanai."
-      },
-      "contacts": {
-        "name": "Kontakti, kas ceļo līdzi tev.",
-        "description": "Personīgās un kopīgotās adrešu grāmatas caur CardDAV. vCard imports un eksports, grupu atbalsts, nekāda patentēta kontaktu formāta, no kura vēlāk jāmigrē. Tava adrešu grāmata pieder tev."
-      },
-      "filters": {
-        "name": "Pasta filtri bez rokasgrāmatas.",
-        "description": "Vizuāls noteikumu veidotājs, kas zem motora pārveidojas par standarta Sieve. Iepriekš sagatavotas veidnes noteikumiem, kurus patiešām vēlies, plus drošības margas, kas neļauj tev būvēt pārsūtīšanas cilpu pulksten 2 naktī."
-      },
-      "sharedMailbox": {
-        "name": "Kopīgotas pastkastītes īstām komandām.",
-        "description": "Komandas iesūtne ar piešķirtajiem, statusu un iekšējām piezīmēm — projektēta kā IMAP atslēgvārdi, tāpēc tā joprojām darbojas katrā pasta klientā bez patentētas lietotnes. Helpdesk darbplūsma bez helpdesk produkta iegādes."
-      },
-      "messaging": {
-        "name": "Komandas ziņojumi bez trokšņa.",
-        "description": "Kanāli notiekošajam darbam, DM viens-pret-vienu pavedieniem, meklēšana abos. Tajā pašā paketē kā tavs pasts un dokumenti — viena pieteikšanās, viena meklēšana, viena vieta, kur meklēt. Nekādu iesaistes rādītāju, nekādas papildu pārdošanas, nekāda 'vai kāds ir pieejams?' teātra."
-      },
-      "api": {
-        "name": "Publisks API un parakstīti webhooks.",
-        "description": "Tvēruma bearer tokeni, HMAC-parakstīta webhook piegāde ar dead-letter rindu, OpenAPI specifikācija un JMAP passthrough. Pievieno Verkio CRM, CI vai back-office, kas tev jau ir — bez screen-scraping."
-      },
-      "auditLog": {
-        "name": "Katra administratora darbība, ierakstā.",
-        "description": "Klientam pieejams audita žurnāls ar meklēšanu, vērtībām pirms/pēc un septiņu gadu glabāšanu pēc noklusējuma — saskaņā ar Zviedrijas bokföringslag. Straumē notikumus uz Splunk, Datadog vai jebkuru SIEM, vai eksportē uz CSV vai JSONL."
-      },
-      "offboarding": {
-        "name": "Atvadīšanās bez stāvas nokrišanas.",
-        "description": "Kad kāds pamet organizāciju, viņa iesūtne paliek pieejama trīsdesmit dienas un var pārsūtīt uz norādītu īpašnieku — tā klienta atbilde četrpadsmitajā dienā joprojām nokļūst kaut kur noderīgi. Anti-cilpas aizsardzība iebūvēta, audita žurnālā, kaskāde tīrīšana, ja īpašnieks arī aiziet."
-      },
-      "domains": {
-        "name": "Domēni un ierīces konfigurēti dažās minūtēs.",
-        "description": "Pievieno domēnu, pārbaudi DNS, iestati catch-all. Mēs ģenerējam Thunderbird XML un Apple .mobileconfig profilus, un host-header autoconfig vienkārši darbojas. DNS pārbaude atbalsta desmit ES piegādātājus, ieskaitot Hetzner, OVH, IONOS, deSEC, Scaleway un Glesys."
-      },
-      "migration": {
-        "name": "Paņem savu iesūtni līdzi.",
-        "description": "Migrē no Gmail, Outlook vai jebkura IMAP piegādātāja vienā plūsmā — mapes, karodziņi un pavedieni saglabāti. Mēs velkam, tu skatās uz progresa joslu. Nekāda nedēļas nogales projekta veidā 'eksportē mbox un lūdz'."
-      }
-    }
-  },
   "principles": {
     "eyebrow": "Kāpēc Verkio",
     "headline": "Klusums pēc dizaina.",
@@ -344,7 +258,7 @@
     "privacy": "Privātuma politika",
     "terms": "Lietošanas noteikumi",
     "subprocessors": "Apakšapstrādātāji",
-    "isAndIsnt": "What Verkio is and isn't",
+    "isAndIsnt": "Kas Verkio ir un kas nav",
     "allRightsReserved": "Visas tiesības aizsargātas"
   },
   "waitlist": {
@@ -698,13 +612,13 @@
   },
   "product": {
     "metaTitle": "Produkts — Verkio",
-    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+    "metaDescription": "Katra Verkio komplekta virsma: pasts, kalendārs, kontakti, faili, viki, ziņojumapmaiņa, publiskais API un Sign in with Verkio. Izvēlieties vienu un ienirstiet."
   },
   "productIndex": {
-    "eyebrow": "Product",
-    "headline": "All of Verkio, in one place.",
-    "body": "Eight surfaces — six suite apps plus the platform layer underneath. Pick one to read the detail, or scroll the homepage for the suite story.",
-    "learnMore": "Read the detail"
+    "eyebrow": "Produkts",
+    "headline": "Viss Verkio, vienuviet.",
+    "body": "Astoņas virsmas — sešas komplekta lietotnes plus platformas slānis zem tām. Izvēlieties vienu, lai izlasītu detaļas, vai ritiniet sākumlapu, lai uzzinātu komplekta stāstu.",
+    "learnMore": "Lasīt detaļas"
   },
   "productMail": {
     "metaTitle": "Pasts — Verkio",
@@ -1455,81 +1369,81 @@
     "metaDescription": "Kāpēc komandas izvēlas Verkio: kluss programmatūra, atklātie standarti, ES rezidence, nekādas ieslodzīšanas."
   },
   "isAndIsnt": {
-    "metaTitle": "What Verkio is and isn't — Verkio",
-    "metaDescription": "An honest pros-and-cons page. What Verkio commits to, what it deliberately doesn't try to be, and how to tell if it's a fit.",
-    "eyebrow": "Honest tradeoffs",
-    "headline": "What Verkio is. And what it isn't.",
-    "body": "There are work suites we'll never be. There are some we're trying to be. This page is the both-sides version — the things to know before deciding Verkio is right for you.",
+    "metaTitle": "Kas Verkio ir un kas nav — Verkio",
+    "metaDescription": "Godīga plusu un mīnusu lapa. Pie kā Verkio apņemas, kas tas apzināti nemēģina būt un kā saprast, vai tas der.",
+    "eyebrow": "Godīgi kompromisi",
+    "headline": "Kas Verkio ir. Un kas tas nav.",
+    "body": "Ir darba komplekti, kuri mēs nekad nebūsim. Ir tādi, par kuriem mēs cenšamies kļūt. Šī lapa ir abu pušu versija — lietas, kas jāzina pirms izlemjat, vai Verkio jums der.",
     "is": {
-      "eyebrow": "What Verkio is",
-      "headline": "Things we commit to.",
+      "eyebrow": "Kas Verkio ir",
+      "headline": "Lietas, pie kurām apņemamies.",
       "items": [
         {
-          "name": "An EU-resident work suite.",
-          "body": "Mail, calendar, contacts, files, wikis, and messaging — all on Hetzner infrastructure in Germany and Finland. EU-managed encryption keys, EU DNS, EU payments. No US hyperscaler in the chain."
+          "name": "ES bāzēts darba komplekts.",
+          "body": "Pasts, kalendārs, kontakti, faili, viki un ziņojumapmaiņa — viss uz Hetzner infrastruktūras Vācijā un Somijā. ES pārvaldītas šifrēšanas atslēgas, ES DNS, ES maksājumi. Nevienas ASV milzu mākoņpakalpojumu firmas ķēdē."
         },
         {
-          "name": "Built on open standards.",
-          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Use Thunderbird, Apple Mail, K-9, DAVx⁵, or our webmail — we don't lock you into one client."
+          "name": "Būvēts uz atvērtiem standartiem.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Lietojiet Thunderbird, Apple Mail, K-9, DAVx⁵ vai mūsu tīmekļa pastu — mēs nepiesaistām jūs vienam klientam."
         },
         {
-          "name": "For people who want the basics done well.",
-          "body": "No AI features that read your mail, no engagement metrics, no 'you might be interested in' upsell. The product is the mailbox, not your attention."
+          "name": "Tiem, kas grib, lai pamati būtu labi izdarīti.",
+          "body": "Nekāda MI, kas lasa jūsu pastu, nekādu iesaistes metriku, nekāda „jums varētu interesēt“ pārdošana. Produkts ir pastkaste, ne jūsu uzmanība."
         },
         {
-          "name": "A small EU company.",
-          "body": "Verkio AB, registered in Sweden. Owned by the founder, not a venture portfolio. No 'we got acquired' email is coming."
+          "name": "Mazs ES uzņēmums.",
+          "body": "Verkio AB, reģistrēts Zviedrijā. Pieder dibinātājam, ne riska kapitāla portfelim. Neviena „mūs nopirka“ e-pasta nebūs."
         },
         {
-          "name": "A real platform.",
-          "body": "Public REST API with OpenAPI 3.1, signed webhooks, JMAP passthrough, scoped tokens. Sign in with Verkio (OIDC) is coming if developers want it."
+          "name": "Reāla platforma.",
+          "body": "Publisks REST API ar OpenAPI 3.1, parakstīti webhook-i, JMAP-passthrough, ierobežoti piekļuves marķieri. Sign in with Verkio (OIDC) tuvojas, ja izstrādātāji to vēlas."
         },
         {
-          "name": "Audit-log-native.",
-          "body": "Every admin action recorded with before/after values, seven-year retention by default. Stream to your SIEM. No 'we'll look into the logs' — they're yours to query directly."
+          "name": "Revīzijas žurnāli pamatā.",
+          "body": "Katra administratora darbība fiksēta ar pirms/pēc vērtībām, septiņu gadu uzglabāšana pēc noklusējuma. Straumējiet uz savu SIEM. Nekāda „mēs pieskatīsim žurnālos“ — tie ir jūsējie, lai jūs tieši veiktu vaicājumus."
         }
       ]
     },
     "isnt": {
-      "eyebrow": "What Verkio isn't",
-      "headline": "Things we deliberately don't try to be.",
+      "eyebrow": "Kas Verkio nav",
+      "headline": "Lietas, ko mēs apzināti nemēģinām būt.",
       "items": [
         {
-          "name": "An end-to-end encrypted mail service like Proton or Tuta.",
-          "body": "Default at-rest encryption uses Verkio-managed keys held in the EU — strong, but Verkio can technically read your mail. Opt-in customer-held-key encryption ships June 2026 but trades the web inbox, full-text search, and push previews. If true E2EE for every message is your hard requirement, those products fit better."
+          "name": "End-to-end šifrēts pasta pakalpojums kā Proton vai Tuta.",
+          "body": "Noklusējuma šifrēšana miera stāvoklī izmanto Verkio pārvaldītas atslēgas, kas tiek glabātas ES — spēcīgi, bet tehniski Verkio var izlasīt jūsu pastu. Brīvprātīga klienta-atslēgu šifrēšana ienāks 2026. gada jūnijā, bet tās maksā par to ir tīmekļa iesūtne, pilnteksta meklēšana un push priekšskatījumi. Ja patiess E2EE katrai ziņai ir jūsu absolūtā prasība, šie produkti der labāk."
         },
         {
-          "name": "A 50-app bundle like Zoho or Workspace.",
-          "body": "Six suite surfaces plus the platform layer. We're not adding a CRM, an LMS, a video meeting product, or an HR module. Those are solved problems in tools you can integrate via our API."
+          "name": "50 lietotņu komplekts kā Zoho vai Workspace.",
+          "body": "Sešas komplekta virsmas plus platformas slānis. Mēs nepievienojam CRM, LMS, video sapulču produktu vai HR moduli. Tās ir atrisinātas problēmas rīkos, kurus varat integrēt caur mūsu API."
         },
         {
-          "name": "A free service.",
-          "body": "No ad-supported tier. You pay for the suite; we don't sell summaries of your mail to a model vendor. If you're not paying, we're not the right home for your mailbox."
+          "name": "Bezmaksas pakalpojums.",
+          "body": "Nekāda reklāmu atbalstīta līmeņa. Jūs maksājat par komplektu; mēs nepārdodam jūsu pasta kopsavilkumus modeļa piegādātājam. Ja jūs nemaksājat, mēs neesam īstās mājas jūsu pastkastei."
         },
         {
-          "name": "A US-headquartered company.",
-          "body": "Sweden-based, outside US CLOUD Act jurisdiction. This is the whole point. If your buying criteria favour a US vendor, we're the wrong shape."
+          "name": "ASV bāzēts uzņēmums.",
+          "body": "Atrodas Zviedrijā, ārpus ASV CLOUD Act jurisdikcijas. Tieši tā ir visa būtība. Ja jūsu pirkuma kritēriji dod priekšroku ASV piegādātājam, mēs neesam īstā forma."
         },
         {
-          "name": "A messaging-first platform like Slack.",
-          "body": "Messaging is part of the suite, not the centrepiece. We're not building reactions, custom emoji, or notification-anxiety features. If team chat is your primary tool, a dedicated product will out-feature us for years."
+          "name": "Ziņojumapmaiņas-centriska platforma kā Slack.",
+          "body": "Ziņojumapmaiņa ir komplekta daļa, ne centrālais elements. Mēs neveidojam reakcijas, pielāgotus emocijzīmes vai paziņojumu trauksmes funkcijas. Ja komandas tērzēšana ir jūsu galvenais rīks, specializēts produkts mūs pārspēs funkcijās vēl gadiem."
         },
         {
-          "name": "A 'no Microsoft / no Google' zealot.",
-          "body": "Use Gmail or Outlook if they work for you. We just think you should have an EU-resident, standards-based option when they don't."
+          "name": "„Nekāda Microsoft / nekāda Google“ fanātiķis.",
+          "body": "Lietojiet Gmail vai Outlook, ja tie jums der. Mēs vienkārši domājam, ka jums būtu jābūt ES bāzētai, uz standartiem balstītai alternatīvai, kad tie neder."
         },
         {
-          "name": "A four-week-launch company.",
-          "body": "We're slow. Three-year roadmap, not three-month. We'd rather ship one feature properly than five half-done. If you need a vendor moving at startup speed, that's not us."
+          "name": "Četru nedēļu izlaidumu uzņēmums.",
+          "body": "Mēs esam lēni. Trīs gadu ceļa karte, ne trīs mēnešu. Mēs labāk izlaidīsim vienu funkciju kārtīgi nekā piecas pusgatavas. Ja jums vajag piegādātāju, kas kustas startup ātrumā, tas neesam mēs."
         }
       ]
     },
     "fit": {
-      "eyebrow": "Is it a fit?",
-      "headline": "Probably, if you want most of those.",
-      "body": "Read the lists. If most of the 'is' items feel right and most of the 'isn't' items are things you don't need, Verkio is probably a good fit. If a single 'isn't' item is a hard no, save us both the time.",
-      "cta": "Join waitlist",
-      "backLink": "Back to Why Verkio"
+      "eyebrow": "Vai der?",
+      "headline": "Visticamāk jā, ja gribat lielāko daļu no tā.",
+      "body": "Izlasiet sarakstus. Ja vairums „ir“ punktu jūtas pareizi un vairums „nav“ punktu ir lietas, kas jums nav vajadzīgas, Verkio jums, visticamāk, der. Ja kaut viens „nav“ punkts ir absolūts nē, ietaupīsim abi laiku.",
+      "cta": "Pievienoties gaidīšanas sarakstam",
+      "backLink": "Atpakaļ uz Kāpēc Verkio"
     }
   },
   "homeNarrative": {
