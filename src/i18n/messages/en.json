@@ -351,7 +351,7 @@
     "customerCategories": {
       "dns": {
         "name": "DNS providers",
-        "description": "Domain auto-setup writes records via your provider's API. You supply an API token (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53, etc.); we publish the records you've asked us to."
+        "description": "Domain auto-setup writes records via your provider's API. You supply an API token (OVH, IONOS, deSEC, Cloudflare, Route 53, etc.); we publish the records you've asked us to."
       },
       "idp": {
         "name": "Identity providers (SSO/SCIM)",
@@ -686,7 +686,7 @@
         "headline": "Bring your domain. Any client.",
         "body": "Add a domain and we configure MX, SPF, DKIM, DMARC, and autoconfig records for you. Sign in from Apple Mail, Thunderbird, Outlook, K-9 — anything that speaks IMAP or SMTP. Mobile profiles auto-generated.",
         "bullets": [
-          "Domain auto-setup across ten EU DNS providers — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, and more.",
+          "Domain auto-setup across ten EU DNS providers — OVH, IONOS, deSEC, Scaleway, Glesys, and more.",
           "Autoconfig via host header for one-click mail-client setup.",
           "Thunderbird XML and Apple .mobileconfig profiles generated for every account.",
           "IMAP4rev1, SMTP, and JMAP — pick your protocol.",
@@ -855,7 +855,7 @@
         "bullets": [
           "Per-file AES-256-GCM encryption — every file, every plan, no upcharge.",
           "Data-encryption keys wrapped by Vault Transit on EU-resident infrastructure.",
-          "Storage on Hetzner EU object storage — no US bucket holds your data.",
+          "Storage on EU-resident object storage — no US bucket holds your data.",
           "Customer-held-key encryption shipping June 2026 — even Verkio can't read it."
         ]
       },
@@ -890,7 +890,7 @@
         "AES-256-GCM",
         "Vault Transit (KMS)",
         "TLS 1.3",
-        "Hetzner EU object storage",
+        "EU-resident object storage",
         "Open formats round-trip unchanged"
       ]
     }
@@ -1268,12 +1268,12 @@
       "residency": {
         "eyebrow": "EU residency, all the way down",
         "headline": "No US hyperscaler anywhere in the chain.",
-        "body": "Hetzner servers in Germany and Finland. Hetzner DNS (not Cloudflare). Vault Transit on EU-resident infrastructure for key wrapping (not AWS KMS). GlitchTip for error tracking (not Sentry). Hetzner Storage Box for backups (not S3). Not a layer outsourced to a US cloud.",
+        "body": "EU-resident compute in Germany and Finland. EU-owned authoritative DNS (not Cloudflare). Vault Transit on EU-resident infrastructure for key wrapping (not AWS KMS). GlitchTip for error tracking (not Sentry). EU-resident object storage for backups (not S3). Not a layer outsourced to a US cloud.",
         "bullets": [
-          "Compute on Hetzner Cloud — Germany and Finland regions.",
-          "Authoritative DNS on Hetzner DNS Console — EU-owned, not Cloudflare.",
+          "Compute on EU-owned cloud — Germany and Finland regions.",
+          "Authoritative DNS on an EU-owned provider — not Cloudflare.",
           "Encryption-at-rest keys wrapped by Vault Transit on EU-resident infrastructure — no US KMS.",
-          "Backups to Hetzner Storage Box (EU) — no S3, no GCS, no Azure Blob."
+          "Backups to EU-resident object storage — no S3, no GCS, no Azure Blob."
         ]
       },
       "identityAndAccess": {
@@ -1295,7 +1295,7 @@
         "bullets": [
           "Standards: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
           "Article 20 portability export in interoperable formats — one click.",
-          "Domain auto-setup across ten EU DNS registrars (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, more).",
+          "Domain auto-setup across ten EU DNS registrars (OVH, IONOS, deSEC, Scaleway, Glesys, more).",
           "Mail import from Microsoft 365, Google Workspace, or any IMAP — folders, flags, threads preserved."
         ]
       },
@@ -1384,7 +1384,7 @@
       "items": [
         {
           "name": "An EU-resident work suite.",
-          "body": "Mail, calendar, contacts, files, wikis, and messaging — all on Hetzner infrastructure in Germany and Finland. EU-managed encryption keys, EU DNS, EU payments. No US hyperscaler in the chain."
+          "body": "Mail, calendar, contacts, files, wikis, and messaging — all on EU-resident infrastructure in Germany and Finland. EU-managed encryption keys, EU DNS, EU payments. No US hyperscaler in the chain."
         },
         {
           "name": "Built on open standards.",

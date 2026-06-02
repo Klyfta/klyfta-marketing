@@ -548,7 +548,7 @@
     "customerCategories": {
       "dns": {
         "name": "DNS-leverandører",
-        "description": "Domene-autooppsett skriver oppføringer via leverandørens API. Du oppgir et API-token (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 osv.); vi publiserer oppføringene du har bedt oss om."
+        "description": "Domene-autooppsett skriver oppføringer via leverandørens API. Du oppgir et API-token (EU-owned DNS, OVH, IONOS, Cloudflare, Route 53 osv.); vi publiserer oppføringene du har bedt oss om."
       },
       "idp": {
         "name": "Identitetsleverandører (SSO/SCIM)",
@@ -682,7 +682,7 @@
         "headline": "Ta med ditt domene. Enhver klient.",
         "body": "Legg til et domene og vi konfigurerer MX-, SPF-, DKIM-, DMARC- og autoconfig-oppføringer for deg. Logg inn fra Apple Mail, Thunderbird, Outlook, K-9 — alt som snakker IMAP eller SMTP. Mobile profiler genereres automatisk.",
         "bullets": [
-          "Automatisk domeneoppsett hos ti EU-DNS-leverandører — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys og flere.",
+          "Automatisk domeneoppsett hos ti EU-DNS-leverandører — OVH, IONOS, deSEC, Scaleway, Glesys og flere.",
           "Autoconfig via host header for ettklikks mailklientoppsett.",
           "Thunderbird XML- og Apple .mobileconfig-profiler genereres for hver konto.",
           "IMAP4rev1, SMTP og JMAP — velg din protokoll.",
@@ -851,7 +851,7 @@
         "bullets": [
           "AES-256-GCM-kryptering per fil — hver fil, hver plan, uten tillegg.",
           "Datakrypteringsnøkler pakket av Vault Transit på EU-bosatt infrastruktur.",
-          "Lagring på Hetzner EU object storage — ingen amerikansk bucket holder dataene dine.",
+          "Lagring på EU-resident object storage — ingen amerikansk bucket holder dataene dine.",
           "Kundeholdte nøkler kommer juni 2026 — selv ikke Verkio kan lese det."
         ]
       },
@@ -886,7 +886,7 @@
         "AES-256-GCM",
         "Vault Transit (KMS)",
         "TLS 1.3",
-        "Hetzner EU object storage",
+        "EU-resident object storage",
         "Open formats round-trip unchanged"
       ]
     }
@@ -1264,12 +1264,12 @@
       "residency": {
         "eyebrow": "EU-residens, helt ned",
         "headline": "Ingen US-hyperscaler noe sted i kjeden.",
-        "body": "Hetzner-servere i Tyskland og Finland. Hetzner DNS (ikke Cloudflare). Vault Transit på EU-driftet infrastruktur for nøkkelwrapping (ikke AWS KMS). GlitchTip for feilsporing (ikke Sentry). Hetzner Storage Box for backuper (ikke S3). Ikke et lag satt ut til en US-sky.",
+        "body": "EU-servere i Tyskland og Finland. EU-owned DNS (ikke Cloudflare). Vault Transit på EU-driftet infrastruktur for nøkkelwrapping (ikke AWS KMS). GlitchTip for feilsporing (ikke Sentry). EU-resident object storage for backuper (ikke S3). Ikke et lag satt ut til en US-sky.",
         "bullets": [
-          "Compute på Hetzner Cloud — regioner i Tyskland og Finland.",
-          "Autoritative DNS på Hetzner DNS Console — EU-eid, ikke Cloudflare.",
+          "Compute på EU-owned cloud — regioner i Tyskland og Finland.",
+          "Autoritative DNS på an EU-owned DNS provider — EU-eid, ikke Cloudflare.",
           "Krypteringsnøkler at-rest wrappet av Vault Transit på EU-driftet infrastruktur — ingen US KMS.",
-          "Backuper til Hetzner Storage Box (EU) — ingen S3, GCS eller Azure Blob."
+          "Backuper til EU-resident object storage — ingen S3, GCS eller Azure Blob."
         ]
       },
       "identityAndAccess": {
@@ -1291,7 +1291,7 @@
         "bullets": [
           "Standarder: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
           "Artikkel 20 portabilitetseksport i interoperable formater — ett klikk.",
-          "Automatisk domeneoppsett hos ti EU DNS-registrarer (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, flere).",
+          "Automatisk domeneoppsett hos ti EU DNS-registrarer (OVH, IONOS, deSEC, Scaleway, Glesys, flere).",
           "E-postimport fra Microsoft 365, Google Workspace eller hvilken som helst IMAP — mapper, flagg, tråder bevart."
         ]
       },
@@ -1380,7 +1380,7 @@
       "items": [
         {
           "name": "En EU-basert arbeids-suite.",
-          "body": "E-post, kalender, kontakter, filer, wikier og meldinger — alt på Hetzner-infrastruktur i Tyskland og Finland. EU-håndterte krypteringsnøkler, EU-DNS, EU-betalinger. Ingen amerikansk hyperscaler i kjeden."
+          "body": "E-post, kalender, kontakter, filer, wikier og meldinger — alt på EU-resident infrastruktur i Tyskland og Finland. EU-håndterte krypteringsnøkler, EU-DNS, EU-betalinger. Ingen amerikansk hyperscaler i kjeden."
         },
         {
           "name": "Bygd på åpne standarder.",

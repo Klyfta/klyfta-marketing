@@ -548,7 +548,7 @@
     "customerCategories": {
       "dns": {
         "name": "DNS-þjónustuveitendur",
-        "description": "Sjálfvirk uppsetning léns skrifar færslur í gegnum API þjónustuveitanda þíns. Þú leggur til API-aðgangslykil (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 o.s.frv.); við birtum þær færslur sem þú hefur beðið um."
+        "description": "Sjálfvirk uppsetning léns skrifar færslur í gegnum API þjónustuveitanda þíns. Þú leggur til API-aðgangslykil (EU-owned DNS, OVH, IONOS, Cloudflare, Route 53 o.s.frv.); við birtum þær færslur sem þú hefur beðið um."
       },
       "idp": {
         "name": "Auðkennisveitendur (SSO/SCIM)",
@@ -682,7 +682,7 @@
         "headline": "Komdu með þitt lén. Hvaða biðlara sem er.",
         "body": "Bættu við léni og við stillum MX-, SPF-, DKIM-, DMARC- og autoconfig-færslur fyrir þig. Skráðu þig inn úr Apple Mail, Thunderbird, Outlook, K-9 — öllu sem talar IMAP eða SMTP. Farsímasnið mynduð sjálfkrafa.",
         "bullets": [
-          "Sjálfvirk lén-uppsetning hjá tíu ESB-DNS-veitendum — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys og fleirum.",
+          "Sjálfvirk lén-uppsetning hjá tíu ESB-DNS-veitendum — OVH, IONOS, deSEC, Scaleway, Glesys og fleirum.",
           "Autoconfig í gegnum host header fyrir eins-smells póstbiðlarauppsetningu.",
           "Thunderbird XML- og Apple .mobileconfig-snið mynduð fyrir hvern reikning.",
           "IMAP4rev1, SMTP og JMAP — veldu þína samskiptareglu.",
@@ -851,7 +851,7 @@
         "bullets": [
           "AES-256-GCM dulkóðun á hverja skrá — hver skrá, hver áskrift, án aukagjalds.",
           "Gagnadulkóðunarlyklar pakkaðir af Vault Transit á ESB-staðsettri innviðum.",
-          "Geymsla á Hetzner EU object storage — engin bandarísk bucket heldur gögnunum þínum.",
+          "Geymsla á EU-resident object storage — engin bandarísk bucket heldur gögnunum þínum.",
           "Dulkóðun með viðskiptavinalykli send út í júní 2026 — jafnvel Verkio getur ekki lesið hana."
         ]
       },
@@ -886,7 +886,7 @@
         "AES-256-GCM",
         "Vault Transit (KMS)",
         "TLS 1.3",
-        "Hetzner EU object storage",
+        "EU-resident object storage",
         "Open formats round-trip unchanged"
       ]
     }
@@ -1264,12 +1264,12 @@
       "residency": {
         "eyebrow": "ESB-búseta, alla leið niður",
         "headline": "Enginn US hyperscaler nokkurs staðar í keðjunni.",
-        "body": "Hetzner-miðlarar í Þýskalandi og Finnlandi. Hetzner DNS (ekki Cloudflare). Vault Transit á innviðum með ESB-búsetu fyrir lyklavafningu (ekki AWS KMS). GlitchTip fyrir villueftirlit (ekki Sentry). Hetzner Storage Box fyrir afrit (ekki S3). Ekki eitt lag útvistað til US skýs.",
+        "body": "EU-miðlarar í Þýskalandi og Finnlandi. EU-owned DNS (ekki Cloudflare). Vault Transit á innviðum með ESB-búsetu fyrir lyklavafningu (ekki AWS KMS). GlitchTip fyrir villueftirlit (ekki Sentry). EU-resident object storage fyrir afrit (ekki S3). Ekki eitt lag útvistað til US skýs.",
         "bullets": [
-          "Compute á Hetzner Cloud — svæðin Þýskaland og Finnland.",
-          "Heimildarlegt DNS á Hetzner DNS Console — í ESB-eigu, ekki Cloudflare.",
+          "Compute á EU-owned cloud — svæðin Þýskaland og Finnland.",
+          "Heimildarlegt DNS á an EU-owned DNS provider — í ESB-eigu, ekki Cloudflare.",
           "Dulkóðunarlyklar í hvíld vafðir af Vault Transit á innviðum með ESB-búsetu — engin US KMS.",
-          "Afrit á Hetzner Storage Box (ESB) — engin S3, engin GCS, engin Azure Blob."
+          "Afrit á EU-resident object storage (ESB) — engin S3, engin GCS, engin Azure Blob."
         ]
       },
       "identityAndAccess": {
@@ -1291,7 +1291,7 @@
         "bullets": [
           "Staðlar: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
           "Útflutningur flytjanleika samkvæmt Grein 20 í samvirkum sniðum — einn smellur.",
-          "Sjálfvirk lénsuppsetning hjá tíu ESB DNS skráningarstofum (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, fleiri).",
+          "Sjálfvirk lénsuppsetning hjá tíu ESB DNS skráningarstofum (OVH, IONOS, deSEC, Scaleway, Glesys, fleiri).",
           "Innflutningur pósts frá Microsoft 365, Google Workspace eða hvaða IMAP sem er — möppur, fánar, þræðir varðveittir."
         ]
       },
@@ -1380,7 +1380,7 @@
       "items": [
         {
           "name": "Vinnusvíta með heimilisfesti í ESB.",
-          "body": "Póstur, dagatal, tengiliðir, skrár, wikis og skilaboð — allt á Hetzner-innviðum í Þýskalandi og Finnlandi. Dulkóðunarlyklar undir stjórn ESB, ESB-DNS, ESB-greiðslur. Enginn bandarískur stór-skýjarisi í keðjunni."
+          "body": "Póstur, dagatal, tengiliðir, skrár, wikis og skilaboð — allt á EU-innviðum í Þýskalandi og Finnlandi. Dulkóðunarlyklar undir stjórn ESB, ESB-DNS, ESB-greiðslur. Enginn bandarískur stór-skýjarisi í keðjunni."
         },
         {
           "name": "Byggt á opnum stöðlum.",

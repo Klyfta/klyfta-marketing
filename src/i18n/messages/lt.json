@@ -548,7 +548,7 @@
     "customerCategories": {
       "dns": {
         "name": "DNS tiekėjai",
-        "description": "Automatinis domeno nustatymas rašo įrašus per jūsų tiekėjo API. Jūs pateikiate API tokenį (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 ir t. t.); mes paskelbiame įrašus, kurių paprašėte."
+        "description": "Automatinis domeno nustatymas rašo įrašus per jūsų tiekėjo API. Jūs pateikiate API tokenį (EU-owned DNS, OVH, IONOS, Cloudflare, Route 53 ir t. t.); mes paskelbiame įrašus, kurių paprašėte."
       },
       "idp": {
         "name": "Tapatybės tiekėjai (SSO/SCIM)",
@@ -682,7 +682,7 @@
         "headline": "Atsinešk savo domeną. Bet kuris klientas.",
         "body": "Pridėk domeną, ir mes sukonfigūruosime MX, SPF, DKIM, DMARC bei autoconfig įrašus už tave. Prisijunk iš Apple Mail, Thunderbird, Outlook, K-9 — bet ko, kas kalba IMAP ar SMTP. Mobilūs profiliai sukuriami automatiškai.",
         "bullets": [
-          "Automatinis domeno nustatymas dešimtyje ES DNS tiekėjų — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys ir kitų.",
+          "Automatinis domeno nustatymas dešimtyje ES DNS tiekėjų — OVH, IONOS, deSEC, Scaleway, Glesys ir kitų.",
           "Autoconfig per host header pašto kliento nustatymui vienu spustelėjimu.",
           "Thunderbird XML ir Apple .mobileconfig profiliai sukuriami kiekvienai paskyrai.",
           "IMAP4rev1, SMTP ir JMAP — pasirink protokolą.",
@@ -851,7 +851,7 @@
         "bullets": [
           "AES-256-GCM šifravimas kiekvienam failui — kiekvienas failas, kiekvienas planas, be priemokos.",
           "Duomenų šifravimo raktai apgaubti Vault Transit ES esančioje infrastruktūroje.",
-          "Saugykla Hetzner EU object storage — jokio JAV kibiro, laikančio tavo duomenis.",
+          "Saugykla EU-resident object storage — jokio JAV kibiro, laikančio tavo duomenis.",
           "Kliento laikomu raktu šifravimas nuo 2026 m. birželio — net Verkio negali to perskaityti."
         ]
       },
@@ -886,7 +886,7 @@
         "AES-256-GCM",
         "Vault Transit (KMS)",
         "TLS 1.3",
-        "Hetzner EU object storage",
+        "EU-resident object storage",
         "Open formats round-trip unchanged"
       ]
     }
@@ -1264,12 +1264,12 @@
       "residency": {
         "eyebrow": "ES rezidencija iki pat apačios",
         "headline": "Jokio US hyperscaler niekur grandinėje.",
-        "body": "Hetzner serveriai Vokietijoje ir Suomijoje. Hetzner DNS (ne Cloudflare). Vault Transit ES talpinamoje infrastruktūroje raktų wrappinimui (ne AWS KMS). GlitchTip klaidų stebėjimui (ne Sentry). Hetzner Storage Box atsarginėms kopijoms (ne S3). Jokio sluoksnio nepatikėta US debesijai.",
+        "body": "EU serveriai Vokietijoje ir Suomijoje. EU-owned DNS (ne Cloudflare). Vault Transit ES talpinamoje infrastruktūroje raktų wrappinimui (ne AWS KMS). GlitchTip klaidų stebėjimui (ne Sentry). EU-resident object storage atsarginėms kopijoms (ne S3). Jokio sluoksnio nepatikėta US debesijai.",
         "bullets": [
-          "Kompiuterijos resursai Hetzner Cloud — Vokietijos ir Suomijos regionai.",
-          "Autoritetingi DNS Hetzner DNS Console — ES nuosavybės, ne Cloudflare.",
+          "Kompiuterijos resursai EU-owned cloud — Vokietijos ir Suomijos regionai.",
+          "Autoritetingi DNS an EU-owned DNS provider — ES nuosavybės, ne Cloudflare.",
           "Šifravimo ramybės būsenoje raktai wrappinami Vault Transit ES talpinamoje infrastruktūroje — jokio US KMS.",
-          "Atsarginės kopijos į Hetzner Storage Box (ES) — jokio S3, GCS ar Azure Blob."
+          "Atsarginės kopijos į EU-resident object storage (ES) — jokio S3, GCS ar Azure Blob."
         ]
       },
       "identityAndAccess": {
@@ -1291,7 +1291,7 @@
         "bullets": [
           "Standartai: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
           "Straipsnio 20 perkeliamumo eksportas tarpusavyje suderintais formatais — vienu paspaudimu.",
-          "Automatinis domeno nustatymas dešimtyje ES DNS registratorių (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys ir kt.).",
+          "Automatinis domeno nustatymas dešimtyje ES DNS registratorių (OVH, IONOS, deSEC, Scaleway, Glesys ir kt.).",
           "Pašto importas iš Microsoft 365, Google Workspace ar bet kurio IMAP — aplankai, žymos, gijos išsaugoti."
         ]
       },
@@ -1380,7 +1380,7 @@
       "items": [
         {
           "name": "Darbo rinkinys, gyvenantis ES.",
-          "body": "Paštas, kalendorius, kontaktai, failai, viki ir žinutės — viskas Hetzner infrastruktūroje Vokietijoje ir Suomijoje. ES valdomi šifravimo raktai, ES DNS, ES mokėjimai. Jokio JAV didžiojo debesijos žaidėjo grandinėje."
+          "body": "Paštas, kalendorius, kontaktai, failai, viki ir žinutės — viskas EU infrastruktūroje Vokietijoje ir Suomijoje. ES valdomi šifravimo raktai, ES DNS, ES mokėjimai. Jokio JAV didžiojo debesijos žaidėjo grandinėje."
         },
         {
           "name": "Pastatytas ant atvirų standartų.",

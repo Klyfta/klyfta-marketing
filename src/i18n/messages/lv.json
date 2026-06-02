@@ -548,7 +548,7 @@
     "customerCategories": {
       "dns": {
         "name": "DNS pakalpojumu sniedzēji",
-        "description": "Domēna automātiskā iestatīšana raksta ierakstus caur jūsu pakalpojumu sniedzēja API. Jūs piegādājat API tokenu (Hetzner DNS, OVH, IONOS, Cloudflare, Route 53 utt.); mēs publicējam ierakstus, ko esat lūdzis."
+        "description": "Domēna automātiskā iestatīšana raksta ierakstus caur jūsu pakalpojumu sniedzēja API. Jūs piegādājat API tokenu (EU-owned DNS, OVH, IONOS, Cloudflare, Route 53 utt.); mēs publicējam ierakstus, ko esat lūdzis."
       },
       "idp": {
         "name": "Identitātes pakalpojumu sniedzēji (SSO/SCIM)",
@@ -682,7 +682,7 @@
         "headline": "Atnes savu domēnu. Jebkurš klients.",
         "body": "Pievieno domēnu, un mēs konfigurējam MX, SPF, DKIM, DMARC un autoconfig ierakstus tavā vietā. Pieslēdzies no Apple Mail, Thunderbird, Outlook, K-9 — jebkā, kas runā IMAP vai SMTP. Mobilo profili tiek ģenerēti automātiski.",
         "bullets": [
-          "Automātiska domēna iestatīšana desmit ES DNS pakalpojumu sniedzējiem — Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys un citiem.",
+          "Automātiska domēna iestatīšana desmit ES DNS pakalpojumu sniedzējiem — OVH, IONOS, deSEC, Scaleway, Glesys un citiem.",
           "Autoconfig caur host header viena klikšķa pasta klienta iestatīšanai.",
           "Thunderbird XML un Apple .mobileconfig profili ģenerēti katram kontam.",
           "IMAP4rev1, SMTP un JMAP — izvēlies savu protokolu.",
@@ -851,7 +851,7 @@
         "bullets": [
           "AES-256-GCM šifrēšana pa failu — katrs fails, katrs plāns, bez papildmaksas.",
           "Datu šifrēšanas atslēgas, ko ietin Vault Transit uz ES rezidējošas infrastruktūras.",
-          "Glabāšana uz Hetzner EU object storage — neviens ASV spainis netur tavus datus.",
+          "Glabāšana uz EU-resident object storage — neviens ASV spainis netur tavus datus.",
           "Klienta turētās atslēgas šifrēšana pieejama 2026. gada jūnijā — pat Verkio nevar to izlasīt."
         ]
       },
@@ -886,7 +886,7 @@
         "AES-256-GCM",
         "Vault Transit (KMS)",
         "TLS 1.3",
-        "Hetzner EU object storage",
+        "EU-resident object storage",
         "Open formats round-trip unchanged"
       ]
     }
@@ -1264,12 +1264,12 @@
       "residency": {
         "eyebrow": "ES rezidence līdz pašai apakšai",
         "headline": "Nekāda ASV hyperscaler nekur ķēdē.",
-        "body": "Hetzner serveri Vācijā un Somijā. Hetzner DNS (nevis Cloudflare). Vault Transit ES mitinātā infrastruktūrā atslēgu wrappingam (nevis AWS KMS). GlitchTip kļūdu izsekošanai (nevis Sentry). Hetzner Storage Box rezerves kopijām (nevis S3). Nekāds slānis nav nodots ASV mākonim.",
+        "body": "EU serveri Vācijā un Somijā. EU-owned DNS (nevis Cloudflare). Vault Transit ES mitinātā infrastruktūrā atslēgu wrappingam (nevis AWS KMS). GlitchTip kļūdu izsekošanai (nevis Sentry). EU-resident object storage rezerves kopijām (nevis S3). Nekāds slānis nav nodots ASV mākonim.",
         "bullets": [
-          "Skaitļošana Hetzner Cloud — Vācijas un Somijas reģioni.",
-          "Autoritatīvs DNS Hetzner DNS Console — ES īpašumā, nevis Cloudflare.",
+          "Skaitļošana EU-owned cloud — Vācijas un Somijas reģioni.",
+          "Autoritatīvs DNS an EU-owned DNS provider — ES īpašumā, nevis Cloudflare.",
           "Šifrēšanas atslēgas miera stāvoklī wrappinātas ar Vault Transit ES mitinātā infrastruktūrā — bez ASV KMS.",
-          "Rezerves kopijas uz Hetzner Storage Box (ES) — bez S3, GCS vai Azure Blob."
+          "Rezerves kopijas uz EU-resident object storage (ES) — bez S3, GCS vai Azure Blob."
         ]
       },
       "identityAndAccess": {
@@ -1291,7 +1291,7 @@
         "bullets": [
           "Standarti: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
           "Panta 20 pārnesamības eksports savstarpēji savietojamos formātos — vienā klikšķī.",
-          "Automātiska domēna iestatīšana desmit ES DNS reģistratoros (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys un citi).",
+          "Automātiska domēna iestatīšana desmit ES DNS reģistratoros (OVH, IONOS, deSEC, Scaleway, Glesys un citi).",
           "Pasta imports no Microsoft 365, Google Workspace vai jebkura IMAP — mapes, karodziņi, pavedieni saglabāti."
         ]
       },
@@ -1380,7 +1380,7 @@
       "items": [
         {
           "name": "ES bāzēts darba komplekts.",
-          "body": "Pasts, kalendārs, kontakti, faili, viki un ziņojumapmaiņa — viss uz Hetzner infrastruktūras Vācijā un Somijā. ES pārvaldītas šifrēšanas atslēgas, ES DNS, ES maksājumi. Nevienas ASV milzu mākoņpakalpojumu firmas ķēdē."
+          "body": "Pasts, kalendārs, kontakti, faili, viki un ziņojumapmaiņa — viss uz EU infrastruktūras Vācijā un Somijā. ES pārvaldītas šifrēšanas atslēgas, ES DNS, ES maksājumi. Nevienas ASV milzu mākoņpakalpojumu firmas ķēdē."
         },
         {
           "name": "Būvēts uz atvērtiem standartiem.",
