@@ -344,6 +344,7 @@
     "privacy": "Personvern",
     "terms": "Vilkår",
     "subprocessors": "Underdatabehandlere",
+    "isAndIsnt": "Hva Verkio er og ikke er",
     "allRightsReserved": "Alle rettigheter reservert"
   },
   "waitlist": {
@@ -697,7 +698,13 @@
   },
   "product": {
     "metaTitle": "Produkt — Verkio",
-    "metaDescription": "Verkio-produktet: e-post, kalender, kontakter, filer, wikier og meldinger. Pluss kapabilitetene bak hver enkelt."
+    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+  },
+  "productIndex": {
+    "eyebrow": "Produkt",
+    "headline": "Hele Verkio, på ett sted.",
+    "body": "Åtte flater — seks suite-apper pluss plattformlaget under. Velg én for å lese detaljen, eller scroll forsiden for hele suite-fortellingen.",
+    "learnMore": "Les detaljen"
   },
   "productMail": {
     "metaTitle": "E-post — Verkio",
@@ -1446,6 +1453,84 @@
   "whyVerkio": {
     "metaTitle": "Hvorfor Verkio — Verkio",
     "metaDescription": "Hvorfor team velger Verkio: rolig programvare, åpne standarder, EU-residens, ingen innlåsing."
+  },
+  "isAndIsnt": {
+    "metaTitle": "Hva Verkio er og ikke er — Verkio",
+    "metaDescription": "En ærlig fordeler-og-ulemper-side. Hva Verkio forplikter seg til, hva det bevisst ikke prøver å være, og hvordan du avgjør om det passer.",
+    "eyebrow": "Ærlige avveininger",
+    "headline": "Hva Verkio er. Og hva det ikke er.",
+    "body": "Det finnes arbeids-suiter vi aldri kommer til å være. Det finnes noen vi prøver å være. Denne siden viser begge sider — det du bør vite før du bestemmer om Verkio passer for deg.",
+    "is": {
+      "eyebrow": "Hva Verkio er",
+      "headline": "Ting vi forplikter oss på.",
+      "items": [
+        {
+          "name": "En EU-basert arbeids-suite.",
+          "body": "E-post, kalender, kontakter, filer, wikier og meldinger — alt på Hetzner-infrastruktur i Tyskland og Finland. EU-håndterte krypteringsnøkler, EU-DNS, EU-betalinger. Ingen amerikansk hyperscaler i kjeden."
+        },
+        {
+          "name": "Bygd på åpne standarder.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Bruk Thunderbird, Apple Mail, K-9, DAVx⁵ eller webmailen vår — vi låser deg ikke til én klient."
+        },
+        {
+          "name": "For folk som vil ha det grunnleggende skikkelig gjort.",
+          "body": "Ingen AI-funksjoner som leser e-posten din, ingen engasjements-metrikker, ingen 'du kan være interessert i'-mersalg. Produktet er postkassen, ikke oppmerksomheten din."
+        },
+        {
+          "name": "Et lite EU-selskap.",
+          "body": "Verkio AB, registrert i Sverige. Eid av grunnleggeren, ikke av en venture-portefølje. Ingen 'vi har blitt kjøpt opp'-e-post er på vei."
+        },
+        {
+          "name": "En reell plattform.",
+          "body": "Offentlig REST-API med OpenAPI 3.1, signerte webhooks, JMAP-passthrough, scopede tokens. Sign in with Verkio (OIDC) kommer hvis utviklere vil ha det."
+        },
+        {
+          "name": "Audit-log-nativ.",
+          "body": "Hver admin-handling logges med før/etter-verdier, syv års oppbevaring som standard. Strøm til SIEM-en din. Ingen 'vi ser i loggene' — de er dine å spørre direkte."
+        }
+      ]
+    },
+    "isnt": {
+      "eyebrow": "Hva Verkio ikke er",
+      "headline": "Ting vi bevisst ikke prøver å være.",
+      "items": [
+        {
+          "name": "En ende-til-ende-kryptert e-posttjeneste som Proton eller Tuta.",
+          "body": "Standard kryptering i ro bruker Verkio-håndterte nøkler i EU — sterkt, men Verkio kan teknisk lese e-posten din. Opt-in-kryptering med kundeholdte nøkler kommer i juni 2026, men koster web-innboksen, fulltekstsøk og push-forhåndsvisninger. Hvis ekte E2EE for hver melding er et ufravikelig krav, passer de produktene bedre."
+        },
+        {
+          "name": "En 50-app-pakke som Zoho eller Workspace.",
+          "body": "Seks suite-flater pluss plattformlaget. Vi legger ikke til et CRM, et LMS, et videomøteprodukt eller en HR-modul. Det er løste problemer i verktøy du kan integrere via API-et vårt."
+        },
+        {
+          "name": "En gratistjeneste.",
+          "body": "Ingen annonsefinansiert nivå. Du betaler for suiten; vi selger ikke sammendrag av e-posten din til en modellleverandør. Hvis du ikke betaler, er vi ikke rett hjem for postkassen din."
+        },
+        {
+          "name": "Et USA-basert selskap.",
+          "body": "Basert i Sverige, utenfor amerikansk CLOUD Act-jurisdiksjon. Det er hele poenget. Hvis innkjøpskriteriene dine favoriserer en amerikansk leverandør, er vi feil form."
+        },
+        {
+          "name": "En meldinger-først-plattform som Slack.",
+          "body": "Meldinger er del av suiten, ikke midtpunktet. Vi bygger ikke reaksjoner, egendefinerte emoji eller varselangst-funksjoner. Hvis team-chat er det primære verktøyet ditt, vil et dedikert produkt slå oss på funksjonalitet i årevis."
+        },
+        {
+          "name": "En 'ingen Microsoft / ingen Google'-fanatiker.",
+          "body": "Bruk Gmail eller Outlook hvis de fungerer for deg. Vi mener bare at du bør ha et EU-basert, standardbasert alternativ når de ikke gjør det."
+        },
+        {
+          "name": "Et selskap med fire-ukers-lanseringer.",
+          "body": "Vi er trege. Treårsplan, ikke tremåneders. Vi leverer heller én funksjon skikkelig enn fem halvferdige. Trenger du en leverandør i startup-tempo, er det ikke oss."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Passer det?",
+      "headline": "Sannsynligvis, hvis du vil ha det meste av det.",
+      "body": "Les listene. Hvis de fleste 'er'-punktene føles riktige, og de fleste 'er ikke'-punktene er ting du ikke trenger, passer Verkio sannsynligvis bra. Hvis et eneste 'er ikke'-punkt er et tvert nei, spar oss begge tiden.",
+      "cta": "Bli med på ventelisten",
+      "backLink": "Tilbake til Hvorfor Verkio"
+    }
   },
   "homeNarrative": {
     "send": {

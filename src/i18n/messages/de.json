@@ -344,6 +344,7 @@
     "privacy": "Datenschutz",
     "terms": "AGB",
     "subprocessors": "Auftragsverarbeiter",
+    "isAndIsnt": "Was Verkio ist und nicht ist",
     "allRightsReserved": "Alle Rechte vorbehalten"
   },
   "waitlist": {
@@ -697,7 +698,13 @@
   },
   "product": {
     "metaTitle": "Produkt — Verkio",
-    "metaDescription": "Das Verkio-Produkt: Mail, Kalender, Kontakte, Dateien, Wikis und Nachrichten. Plus die Funktionen, die hinter jedem stehen."
+    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+  },
+  "productIndex": {
+    "eyebrow": "Produkt",
+    "headline": "Ganz Verkio, an einem Ort.",
+    "body": "Acht Oberflächen — sechs Suite-Apps plus die Plattformschicht darunter. Wählt eine für die Details, oder scrollt die Startseite für die Suite-Geschichte.",
+    "learnMore": "Details lesen"
   },
   "productMail": {
     "metaTitle": "Mail — Verkio",
@@ -1446,6 +1453,84 @@
   "whyVerkio": {
     "metaTitle": "Warum Verkio — Verkio",
     "metaDescription": "Warum Teams Verkio wählen: ruhige Software, offene Standards, EU-Residenz, keine Bindung."
+  },
+  "isAndIsnt": {
+    "metaTitle": "Was Verkio ist und nicht ist — Verkio",
+    "metaDescription": "Eine ehrliche Pro-und-Contra-Seite. Wozu sich Verkio verpflichtet, was es bewusst nicht sein will, und wie ihr erkennt, ob es passt.",
+    "eyebrow": "Ehrliche Abwägungen",
+    "headline": "Was Verkio ist. Und was es nicht ist.",
+    "body": "Es gibt Arbeits-Suites, die wir nie sein werden. Es gibt welche, die wir zu sein versuchen. Diese Seite zeigt beide Seiten — die Dinge, die ihr wissen solltet, bevor ihr entscheidet, ob Verkio das Richtige für euch ist.",
+    "is": {
+      "eyebrow": "Was Verkio ist",
+      "headline": "Wozu wir uns verpflichten.",
+      "items": [
+        {
+          "name": "Eine in der EU ansässige Arbeits-Suite.",
+          "body": "Mail, Kalender, Kontakte, Dateien, Wikis und Nachrichten — alles auf Hetzner-Infrastruktur in Deutschland und Finnland. In der EU verwaltete Schlüssel, EU-DNS, EU-Zahlungen. Kein US-Hyperscaler in der Kette."
+        },
+        {
+          "name": "Auf offenen Standards aufgebaut.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Nutzt Thunderbird, Apple Mail, K-9, DAVx⁵ oder unser Webmail — wir binden euch nicht an einen Client."
+        },
+        {
+          "name": "Für Menschen, die das Wesentliche gut gemacht haben wollen.",
+          "body": "Keine KI-Funktionen, die eure Mails lesen, keine Engagement-Metriken, kein 'Das könnte Sie interessieren'-Upsell. Das Produkt ist das Postfach, nicht eure Aufmerksamkeit."
+        },
+        {
+          "name": "Ein kleines EU-Unternehmen.",
+          "body": "Verkio AB, in Schweden registriert. Im Besitz des Gründers, nicht eines Risikokapital-Portfolios. Keine 'Wir wurden übernommen'-E-Mail steht bevor."
+        },
+        {
+          "name": "Eine echte Plattform.",
+          "body": "Öffentliche REST-API mit OpenAPI 3.1, signierte Webhooks, JMAP-Passthrough, gescopte Tokens. Sign in with Verkio (OIDC) kommt, falls Entwickler es wollen."
+        },
+        {
+          "name": "Audit-Log-nativ.",
+          "body": "Jede Admin-Aktion wird mit Vorher/Nachher-Werten aufgezeichnet, standardmäßig sieben Jahre Aufbewahrung. Streamt es in euer SIEM. Kein 'Wir schauen mal in die Logs' — sie gehören euch zur direkten Abfrage."
+        }
+      ]
+    },
+    "isnt": {
+      "eyebrow": "Was Verkio nicht ist",
+      "headline": "Dinge, die wir bewusst nicht sein wollen.",
+      "items": [
+        {
+          "name": "Ein Ende-zu-Ende-verschlüsselter Maildienst wie Proton oder Tuta.",
+          "body": "Die Standard-Verschlüsselung im Ruhezustand nutzt von Verkio verwaltete Schlüssel in der EU — stark, aber Verkio kann eure Mail technisch lesen. Opt-in-Verschlüsselung mit kundenseitigen Schlüsseln kommt im Juni 2026, geht aber zulasten des Web-Posteingangs, der Volltextsuche und der Push-Vorschauen. Wenn echtes E2EE für jede Nachricht euer Muss ist, passen jene Produkte besser."
+        },
+        {
+          "name": "Ein 50-Apps-Bundle wie Zoho oder Workspace.",
+          "body": "Sechs Suite-Oberflächen plus die Plattformschicht. Wir fügen kein CRM, kein LMS, kein Videomeeting-Produkt und kein HR-Modul hinzu. Das sind gelöste Probleme in Tools, die ihr über unsere API einbinden könnt."
+        },
+        {
+          "name": "Ein kostenloser Dienst.",
+          "body": "Keine werbefinanzierte Stufe. Ihr zahlt für die Suite; wir verkaufen keine Zusammenfassungen eurer Mails an einen Modell-Anbieter. Wenn ihr nicht zahlt, sind wir nicht der richtige Ort für euer Postfach."
+        },
+        {
+          "name": "Ein US-Unternehmen mit Sitz in den USA.",
+          "body": "Sitz in Schweden, außerhalb der US-CLOUD-Act-Zuständigkeit. Genau das ist der Punkt. Wenn eure Kaufkriterien einen US-Anbieter bevorzugen, sind wir nicht euer Format."
+        },
+        {
+          "name": "Eine messaging-first-Plattform wie Slack.",
+          "body": "Nachrichten sind Teil der Suite, nicht ihr Mittelpunkt. Wir bauen keine Reaktionen, keine Custom-Emojis, keine Benachrichtigungsangst-Funktionen. Wenn Team-Chat euer Hauptwerkzeug ist, wird euch ein spezialisiertes Produkt noch jahrelang funktional überlegen sein."
+        },
+        {
+          "name": "Ein 'kein Microsoft / kein Google'-Eiferer.",
+          "body": "Nutzt Gmail oder Outlook, wenn sie für euch funktionieren. Wir finden nur, dass ihr eine in der EU ansässige, standardbasierte Option haben solltet, wenn sie es nicht tun."
+        },
+        {
+          "name": "Ein Unternehmen mit Vier-Wochen-Launches.",
+          "body": "Wir sind langsam. Drei-Jahres-Roadmap, nicht drei Monate. Wir liefern lieber ein Feature richtig als fünf halbfertig. Wenn ihr einen Anbieter im Startup-Tempo braucht, sind das nicht wir."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Passt es?",
+      "headline": "Wahrscheinlich, wenn ihr das Meiste davon wollt.",
+      "body": "Lest die Listen. Wenn sich die meisten 'ist'-Punkte richtig anfühlen und die meisten 'ist nicht'-Punkte Dinge sind, die ihr nicht braucht, ist Verkio wahrscheinlich passend. Wenn ein einziger 'ist nicht'-Punkt ein klares Nein ist, spart euch und uns die Zeit.",
+      "cta": "Auf die Warteliste",
+      "backLink": "Zurück zu Warum Verkio"
+    }
   },
   "homeNarrative": {
     "send": {

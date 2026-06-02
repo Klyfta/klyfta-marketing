@@ -344,6 +344,7 @@
     "privacy": "Integritetspolicy",
     "terms": "Användarvillkor",
     "subprocessors": "Underbiträden",
+    "isAndIsnt": "Vad Verkio är och inte är",
     "allRightsReserved": "Alla rättigheter förbehållna"
   },
   "waitlist": {
@@ -697,7 +698,13 @@
   },
   "product": {
     "metaTitle": "Produkt — Verkio",
-    "metaDescription": "Verkio-produkten: mail, kalender, kontakter, filer, wikis och meddelanden. Plus kapabiliteten bakom varje del."
+    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+  },
+  "productIndex": {
+    "eyebrow": "Produkt",
+    "headline": "Hela Verkio, på ett ställe.",
+    "body": "Åtta ytor — sex sviten-appar plus plattformsskiktet under. Välj en för detaljerna, eller skrolla startsidan för svit-berättelsen.",
+    "learnMore": "Läs detaljerna"
   },
   "productMail": {
     "metaTitle": "Mail — Verkio",
@@ -1446,6 +1453,84 @@
   "whyVerkio": {
     "metaTitle": "Varför Verkio — Verkio",
     "metaDescription": "Varför team väljer Verkio: tyst mjukvara, öppna standarder, EU-residens, ingen inlåsning."
+  },
+  "isAndIsnt": {
+    "metaTitle": "Vad Verkio är och inte är — Verkio",
+    "metaDescription": "En ärlig för- och nackdelar-sida. Vad Verkio förbinder sig till, vad det medvetet inte försöker vara, och hur du avgör om det passar.",
+    "eyebrow": "Ärliga avvägningar",
+    "headline": "Vad Verkio är. Och vad det inte är.",
+    "body": "Det finns arbetssviter vi aldrig kommer att vara. Det finns några vi försöker vara. Den här sidan visar båda sidor — det du bör veta innan du bestämmer om Verkio är rätt för dig.",
+    "is": {
+      "eyebrow": "Vad Verkio är",
+      "headline": "Saker vi förbinder oss till.",
+      "items": [
+        {
+          "name": "En EU-baserad arbetssvit.",
+          "body": "Mail, kalender, kontakter, filer, wikis och meddelanden — allt på Hetzner-infrastruktur i Tyskland och Finland. EU-hanterade krypteringsnycklar, EU-DNS, EU-betalningar. Ingen amerikansk hyperscaler i kedjan."
+        },
+        {
+          "name": "Byggd på öppna standarder.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Använd Thunderbird, Apple Mail, K-9, DAVx⁵ eller vår webmail — vi låser dig inte till en klient."
+        },
+        {
+          "name": "För människor som vill ha grunderna ordentligt gjorda.",
+          "body": "Inga AI-funktioner som läser din mail, inga engagemangsmått, inget 'du kanske är intresserad av'-merförsäljning. Produkten är brevlådan, inte din uppmärksamhet."
+        },
+        {
+          "name": "Ett litet EU-företag.",
+          "body": "Verkio AB, registrerat i Sverige. Ägs av grundaren, inte av en riskkapitalportfölj. Inget 'vi blev uppköpta'-mejl är på väg."
+        },
+        {
+          "name": "En riktig plattform.",
+          "body": "Publikt REST-API med OpenAPI 3.1, signerade webhooks, JMAP-passthrough, scopade tokens. Sign in with Verkio (OIDC) kommer om utvecklare vill ha det."
+        },
+        {
+          "name": "Audit-log-nativ.",
+          "body": "Varje admin-åtgärd loggas med före/efter-värden, sju års retention som standard. Strömma till ditt SIEM. Inget 'vi tittar i loggarna' — de är dina att fråga direkt."
+        }
+      ]
+    },
+    "isnt": {
+      "eyebrow": "Vad Verkio inte är",
+      "headline": "Saker vi medvetet inte försöker vara.",
+      "items": [
+        {
+          "name": "En totalsträckskrypterad mailtjänst som Proton eller Tuta.",
+          "body": "Standardkryptering i vila använder Verkio-hanterade nycklar i EU — starkt, men Verkio kan tekniskt läsa din mail. Opt-in-kryptering med kundägda nycklar lanseras i juni 2026 men offrar webb-inkorgen, fulltextsökningen och push-förhandsvisningarna. Om äkta E2EE för varje meddelande är ett absolut krav passar de produkterna bättre."
+        },
+        {
+          "name": "En 50-appars-bunt som Zoho eller Workspace.",
+          "body": "Sex sviten-ytor plus plattformsskiktet. Vi lägger inte till ett CRM, ett LMS, en videomötesprodukt eller en HR-modul. Det är lösta problem i verktyg du kan integrera via vårt API."
+        },
+        {
+          "name": "En gratistjänst.",
+          "body": "Ingen annonsfinansierad nivå. Du betalar för sviten; vi säljer inte sammanfattningar av din mail till en modell-leverantör. Om du inte betalar är vi inte rätt hem för din brevlåda."
+        },
+        {
+          "name": "Ett USA-baserat företag.",
+          "body": "Sverige-baserat, utanför amerikansk CLOUD Act-jurisdiktion. Det är hela poängen. Om dina inköpskriterier favoriserar en amerikansk leverantör är vi fel form."
+        },
+        {
+          "name": "En meddelande-först-plattform som Slack.",
+          "body": "Meddelanden är en del av sviten, inte mittpunkten. Vi bygger inte reaktioner, anpassade emoji eller notisångest-funktioner. Om team-chatt är ditt primära verktyg kommer en dedikerad produkt att slå oss på funktioner i flera år."
+        },
+        {
+          "name": "En 'inget Microsoft / inget Google'-fanatiker.",
+          "body": "Använd Gmail eller Outlook om de fungerar för dig. Vi tycker bara att du borde ha ett EU-baserat, standardbaserat alternativ när de inte gör det."
+        },
+        {
+          "name": "Ett företag med fyra-veckors-lanseringar.",
+          "body": "Vi är långsamma. Treårs-roadmap, inte tre-månaders. Vi släpper hellre en funktion ordentligt än fem halvfärdiga. Om du behöver en leverantör som rör sig i startup-tempo är det inte vi."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Passar det?",
+      "headline": "Förmodligen, om du vill ha det mesta av det.",
+      "body": "Läs listorna. Om de flesta 'är'-punkterna känns rätt och de flesta 'är inte'-punkterna är saker du inte behöver är Verkio förmodligen en bra passform. Om en enda 'är inte'-punkt är ett tvärt nej, bespara oss båda tiden.",
+      "cta": "Gå med i väntelistan",
+      "backLink": "Tillbaka till Varför Verkio"
+    }
   },
   "homeNarrative": {
     "send": {

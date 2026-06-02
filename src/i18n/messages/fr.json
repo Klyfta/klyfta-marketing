@@ -344,6 +344,7 @@
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "subprocessors": "Sous-traitants",
+    "isAndIsnt": "Ce que Verkio est et n'est pas",
     "allRightsReserved": "Tous droits réservés"
   },
   "waitlist": {
@@ -697,7 +698,13 @@
   },
   "product": {
     "metaTitle": "Produit — Verkio",
-    "metaDescription": "Le produit Verkio : mail, calendrier, contacts, fichiers, wikis et messagerie. Plus les fonctionnalités derrière chacun."
+    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+  },
+  "productIndex": {
+    "eyebrow": "Produit",
+    "headline": "Tout Verkio, au même endroit.",
+    "body": "Huit surfaces — six applications de la suite plus la couche plateforme en dessous. Choisissez-en une pour le détail, ou faites défiler la page d'accueil pour le récit complet de la suite.",
+    "learnMore": "Lire le détail"
   },
   "productMail": {
     "metaTitle": "Mail — Verkio",
@@ -1446,6 +1453,84 @@
   "whyVerkio": {
     "metaTitle": "Pourquoi Verkio — Verkio",
     "metaDescription": "Pourquoi les équipes choisissent Verkio : logiciel calme, standards ouverts, résidence UE, pas de verrouillage."
+  },
+  "isAndIsnt": {
+    "metaTitle": "Ce que Verkio est et n'est pas — Verkio",
+    "metaDescription": "Une page honnête sur les pour et les contre. Ce à quoi Verkio s'engage, ce qu'il ne cherche délibérément pas à être, et comment savoir si ça vous correspond.",
+    "eyebrow": "Compromis assumés",
+    "headline": "Ce que Verkio est. Et ce qu'il n'est pas.",
+    "body": "Il y a des suites de travail que nous ne serons jamais. Il y en a que nous essayons d'être. Cette page présente les deux faces — ce qu'il faut savoir avant de décider si Verkio vous convient.",
+    "is": {
+      "eyebrow": "Ce que Verkio est",
+      "headline": "Ce à quoi nous nous engageons.",
+      "items": [
+        {
+          "name": "Une suite de travail hébergée dans l'UE.",
+          "body": "Mail, calendrier, contacts, fichiers, wikis et messagerie — le tout sur l'infrastructure Hetzner en Allemagne et en Finlande. Clés de chiffrement gérées dans l'UE, DNS UE, paiements UE. Aucun hyperscaler américain dans la chaîne."
+        },
+        {
+          "name": "Construit sur des standards ouverts.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Utilisez Thunderbird, Apple Mail, K-9, DAVx⁵ ou notre webmail — nous ne vous enfermons pas dans un seul client."
+        },
+        {
+          "name": "Pour celles et ceux qui veulent les fondamentaux bien faits.",
+          "body": "Pas de fonctions IA qui lisent vos mails, pas de métriques d'engagement, pas de relance 'cela pourrait vous intéresser'. Le produit, c'est la boîte mail, pas votre attention."
+        },
+        {
+          "name": "Une petite entreprise européenne.",
+          "body": "Verkio AB, immatriculée en Suède. Détenue par le fondateur, pas par un portefeuille de capital-risque. Aucun mail 'nous avons été rachetés' à venir."
+        },
+        {
+          "name": "Une vraie plateforme.",
+          "body": "API REST publique avec OpenAPI 3.1, webhooks signés, passthrough JMAP, jetons à portée limitée. Sign in with Verkio (OIDC) arrive si les développeurs le souhaitent."
+        },
+        {
+          "name": "Pensé pour l'audit-log.",
+          "body": "Chaque action admin enregistrée avec valeurs avant/après, sept ans de rétention par défaut. À streamer vers votre SIEM. Pas de 'nous regarderons dans les logs' — ils vous appartiennent, à interroger directement."
+        }
+      ]
+    },
+    "isnt": {
+      "eyebrow": "Ce que Verkio n'est pas",
+      "headline": "Ce que nous ne cherchons délibérément pas à être.",
+      "items": [
+        {
+          "name": "Un service de mail chiffré de bout en bout comme Proton ou Tuta.",
+          "body": "Le chiffrement au repos par défaut utilise des clés gérées par Verkio dans l'UE — solide, mais Verkio peut techniquement lire vos mails. Le chiffrement opt-in avec clés détenues par le client arrive en juin 2026, mais au prix de la boîte web, de la recherche plein texte et des aperçus push. Si le véritable E2EE pour chaque message est votre exigence absolue, ces produits conviennent mieux."
+        },
+        {
+          "name": "Un bouquet de 50 applis comme Zoho ou Workspace.",
+          "body": "Six surfaces de suite plus la couche plateforme. Nous n'ajouterons ni CRM, ni LMS, ni produit de visioconférence, ni module RH. Ce sont des problèmes résolus dans des outils que vous pouvez intégrer via notre API."
+        },
+        {
+          "name": "Un service gratuit.",
+          "body": "Pas d'offre financée par la publicité. Vous payez pour la suite ; nous ne vendons pas de résumés de vos mails à un fournisseur de modèle. Si vous ne payez pas, nous ne sommes pas le bon endroit pour votre boîte mail."
+        },
+        {
+          "name": "Une entreprise basée aux États-Unis.",
+          "body": "Basée en Suède, hors juridiction du CLOUD Act américain. C'est tout le propos. Si vos critères d'achat privilégient un fournisseur américain, nous ne sommes pas la bonne forme."
+        },
+        {
+          "name": "Une plateforme centrée sur la messagerie instantanée comme Slack.",
+          "body": "La messagerie fait partie de la suite, ce n'en est pas le cœur. Nous ne construisons pas de réactions, d'emojis personnalisés ni de fonctions à anxiété de notification. Si le chat d'équipe est votre outil principal, un produit dédié nous surpassera côté fonctionnalités pendant des années."
+        },
+        {
+          "name": "Un zélote du 'pas de Microsoft / pas de Google'.",
+          "body": "Utilisez Gmail ou Outlook s'ils vous conviennent. Nous pensons simplement que vous devriez avoir une option européenne, basée sur des standards, quand ils ne conviennent pas."
+        },
+        {
+          "name": "Une entreprise qui lance en quatre semaines.",
+          "body": "Nous sommes lents. Feuille de route sur trois ans, pas trois mois. Nous préférons livrer une fonctionnalité correctement plutôt que cinq à moitié faites. Si vous avez besoin d'un fournisseur au rythme d'une startup, ce n'est pas nous."
+        }
+      ]
+    },
+    "fit": {
+      "eyebrow": "Est-ce que ça correspond ?",
+      "headline": "Probablement, si vous voulez la plupart de ces points.",
+      "body": "Lisez les listes. Si la plupart des points 'est' vous parlent et que la plupart des points 'n'est pas' sont des choses dont vous n'avez pas besoin, Verkio vous correspond probablement. Si un seul point 'n'est pas' est rédhibitoire, épargnons-nous le temps à tous les deux.",
+      "cta": "Rejoindre la liste",
+      "backLink": "Retour à Pourquoi Verkio"
+    }
   },
   "homeNarrative": {
     "send": {
