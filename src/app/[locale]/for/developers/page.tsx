@@ -12,11 +12,12 @@ import { WaitlistCta } from "@/app/[locale]/components/WaitlistCta";
 const NAMESPACE = "forDevelopers";
 const SLUG = "developers";
 
+const HERO_IMAGE = "Code editor with a generated Verkio API client";
 const sections: ProductSection[] = [
-  { key: "restApi", bulletCount: 5 },
-  { key: "webhooks", bulletCount: 4 },
-  { key: "auditApi", bulletCount: 4 },
-  { key: "futureSignIn", bulletCount: 4 },
+  { key: "restApi", bulletCount: 5, imageCaption: "Swagger UI for /api/v1 with example responses" },
+  { key: "webhooks", bulletCount: 4, imageCaption: "Webhook delivery log with HMAC verification check" },
+  { key: "auditApi", bulletCount: 4, imageCaption: "SIEM dashboard receiving Verkio audit events live" },
+  { key: "futureSignIn", bulletCount: 4, imageCaption: "Sign in with Verkio button on a developer demo site" },
 ];
 
 export function generateStaticParams() {
@@ -52,6 +53,7 @@ export default async function ForDevelopersPage({
           sections={sections}
           hasStandards={false}
           backLinkHref="/"
+          heroImageCaption={HERO_IMAGE}
         />
         <WaitlistCta />
       </main>

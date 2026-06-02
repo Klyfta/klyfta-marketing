@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Container } from "./Layout";
+import { ImagePlaceholder } from "./ImagePlaceholder";
 
 const isCount = 6;
 const isntCount = 7;
@@ -10,14 +11,22 @@ function Hero() {
   return (
     <section className="py-16 sm:py-24 lg:py-28">
       <Container>
-        <div className="max-w-3xl">
-          <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>
-          <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-medium tracking-tight text-gray-900 leading-[1.05]">
-            {t("headline")}
-          </h1>
-          <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-            {t("body")}
-          </p>
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center">
+          <div className="lg:col-span-7">
+            <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>
+            <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-medium tracking-tight text-gray-900 leading-[1.05]">
+              {t("headline")}
+            </h1>
+            <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+              {t("body")}
+            </p>
+          </div>
+          <div className="lg:col-span-5">
+            <ImagePlaceholder
+              caption="Editorial split graphic — &quot;is&quot; on one side, &quot;isn't&quot; on the other"
+              aspect="4-3"
+            />
+          </div>
         </div>
       </Container>
     </section>

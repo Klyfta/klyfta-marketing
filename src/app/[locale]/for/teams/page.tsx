@@ -12,12 +12,13 @@ import { WaitlistCta } from "@/app/[locale]/components/WaitlistCta";
 const NAMESPACE = "forTeams";
 const SLUG = "teams";
 
+const HERO_IMAGE = "Team dashboard with shared mailbox, calendar, and wiki tiles";
 const sections: ProductSection[] = [
-  { key: "shared", bulletCount: 5 },
-  { key: "onboardOff", bulletCount: 4 },
-  { key: "audit", bulletCount: 4 },
-  { key: "standards", bulletCount: 4 },
-  { key: "oneBill", bulletCount: 4 },
+  { key: "shared", bulletCount: 5, imageCaption: "Shared inbox with team assignment and internal notes panel" },
+  { key: "onboardOff", bulletCount: 4, imageCaption: "Member offboarding flow with 30-day forwarding setup" },
+  { key: "audit", bulletCount: 4, imageCaption: "Audit log filter view with SIEM webhook destinations" },
+  { key: "standards", bulletCount: 4, imageCaption: "Thunderbird configured against Verkio over IMAP" },
+  { key: "oneBill", bulletCount: 4, imageCaption: "Subscription dashboard showing one suite replacing five tools" },
 ];
 
 export function generateStaticParams() {
@@ -53,6 +54,7 @@ export default async function ForTeamsPage({
           sections={sections}
           hasStandards={false}
           backLinkHref="/"
+          heroImageCaption={HERO_IMAGE}
         />
         <WaitlistCta />
       </main>

@@ -12,10 +12,11 @@ import { WaitlistCta } from "@/app/[locale]/components/WaitlistCta";
 const NAMESPACE = "productSignIn";
 const SLUG = "sign-in-with-verkio";
 
+const HERO_IMAGE = "Sign in with Verkio button rendered on a third-party site";
 const sections: ProductSection[] = [
-  { key: "euIdentity", bulletCount: 4 },
-  { key: "openStandard", bulletCount: 4 },
-  { key: "consent", bulletCount: 4 },
+  { key: "euIdentity", bulletCount: 4, imageCaption: "OIDC consent screen with per-scope toggles" },
+  { key: "openStandard", bulletCount: 4, imageCaption: "Identity broker config showing Verkio alongside Google and Apple" },
+  { key: "consent", bulletCount: 4, imageCaption: "Connected apps dashboard with one-click revoke buttons" },
 ];
 
 export function generateStaticParams() {
@@ -50,6 +51,7 @@ export default async function ProductSignInPage({
           namespace={NAMESPACE}
           sections={sections}
           hasStandards={false}
+          heroImageCaption={HERO_IMAGE}
         />
         <WaitlistCta />
       </main>

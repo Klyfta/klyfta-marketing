@@ -12,10 +12,11 @@ import { WaitlistCta } from "@/app/[locale]/components/WaitlistCta";
 const NAMESPACE = "productCalendar";
 const SLUG = "calendar";
 
+const HERO_IMAGE = "Calendar week view with overlaid events from multiple shared calendars";
 const sections: ProductSection[] = [
-  { key: "shared", bulletCount: 5 },
-  { key: "open", bulletCount: 4 },
-  { key: "invites", bulletCount: 4 },
+  { key: "shared", bulletCount: 5, imageCaption: "Multi-calendar week view with team availability shading" },
+  { key: "open", bulletCount: 4, imageCaption: "Apple Calendar showing a Verkio calendar synced over CalDAV" },
+  { key: "invites", bulletCount: 4, imageCaption: "iMIP invitation rendered in Gmail with RSVP buttons" },
 ];
 
 export function generateStaticParams() {
@@ -50,6 +51,7 @@ export default async function ProductCalendarPage({
           namespace={NAMESPACE}
           sections={sections}
           hasStandards={true}
+          heroImageCaption={HERO_IMAGE}
         />
         <WaitlistCta />
       </main>

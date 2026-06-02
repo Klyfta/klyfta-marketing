@@ -12,10 +12,11 @@ import { WaitlistCta } from "@/app/[locale]/components/WaitlistCta";
 const NAMESPACE = "productContacts";
 const SLUG = "contacts";
 
+const HERO_IMAGE = "Address book contact card with vCard fields";
 const sections: ProductSection[] = [
-  { key: "shared", bulletCount: 4 },
-  { key: "open", bulletCount: 4 },
-  { key: "integrated", bulletCount: 4 },
+  { key: "shared", bulletCount: 4, imageCaption: "Shared address book browsing screen with group filters" },
+  { key: "open", bulletCount: 4, imageCaption: "Apple Contacts showing Verkio contacts synced over CardDAV" },
+  { key: "integrated", bulletCount: 4, imageCaption: "Compose window with auto-suggested recipients from contacts" },
 ];
 
 export function generateStaticParams() {
@@ -50,6 +51,7 @@ export default async function ProductContactsPage({
           namespace={NAMESPACE}
           sections={sections}
           hasStandards={true}
+          heroImageCaption={HERO_IMAGE}
         />
         <WaitlistCta />
       </main>

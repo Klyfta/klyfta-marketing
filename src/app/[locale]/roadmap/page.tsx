@@ -8,6 +8,7 @@ import {
   Footer,
   Header,
 } from "@/app/[locale]/components/Layout";
+import { ImagePlaceholder } from "@/app/[locale]/components/ImagePlaceholder";
 import { RoadmapRequestModal } from "@/app/components/RoadmapRequestModal";
 
 export function generateStaticParams() {
@@ -83,16 +84,24 @@ function RoadmapList() {
   return (
     <section className="py-16 sm:py-24 lg:py-32">
       <Container>
-        <div className="max-w-2xl">
-          <p className="text-sm font-semibold text-brand-600">
-            {t("eyebrow")}
-          </p>
-          <h1 className="mt-3 text-4xl sm:text-5xl font-medium tracking-tight text-gray-900 leading-tight">
-            {t("headline")}
-          </h1>
-          <p className="mt-4 text-lg text-gray-600">{t("subhead")}</p>
-          <div className="mt-8">
-            <RoadmapRequestModal />
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center">
+          <div className="lg:col-span-7 max-w-2xl">
+            <p className="text-sm font-semibold text-brand-600">
+              {t("eyebrow")}
+            </p>
+            <h1 className="mt-3 text-4xl sm:text-5xl font-medium tracking-tight text-gray-900 leading-tight">
+              {t("headline")}
+            </h1>
+            <p className="mt-4 text-lg text-gray-600">{t("subhead")}</p>
+            <div className="mt-8">
+              <RoadmapRequestModal />
+            </div>
+          </div>
+          <div className="lg:col-span-5">
+            <ImagePlaceholder
+              caption="Visual roadmap timeline — shipped milestones on one side, upcoming on the other"
+              aspect="4-3"
+            />
           </div>
         </div>
 
