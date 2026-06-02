@@ -81,92 +81,6 @@
       "triukšmo"
     ]
   },
-  "suite": {
-    "eyebrow": "Rinkinys",
-    "headline": "Viskas, ką tavo komanda naudoja, vienoje vietoje.",
-    "subhead": "Vienas prisijungimas, viena adresų knyga, viena sąskaita. Sukurta atvirais standartais, kad niekada nebūtum uždarytas.",
-    "items": {
-      "mail": {
-        "name": "El. paštas",
-        "description": "Asmeniniai ir bendri pašto dėžutės. Naudokite žiniatinklio programą arba bet kurį IMAP klientą. Atsineškite savo domeną."
-      },
-      "calendar": {
-        "name": "Kalendorius",
-        "description": "Asmeniniai ir komandos kalendoriai. Pagrįsta standartais (CalDAV) — veikia su programomis, kurias jau naudojate."
-      },
-      "contacts": {
-        "name": "Kontaktai",
-        "description": "Asmeninės ir bendros adresų knygos per CardDAV. Sinchronizacija visur, be priklausomybės."
-      },
-      "documents": {
-        "name": "Dokumentų saugykla",
-        "description": "Failai ir aplankai su dalijimusi, versijų istorija ir detalia prieigos kontrole."
-      },
-      "wikis": {
-        "name": "Viki",
-        "description": "Struktūrizuoti puslapiai komandos žinioms su pilna redagavimo istorija ir nuorodomis."
-      },
-      "messaging": {
-        "name": "Žinutės",
-        "description": "Kanalai, asmeninės žinutės ir gijos komandos pokalbiams. Ieškoma, tame pačiame rinkinyje kaip tavo paštas."
-      }
-    }
-  },
-  "capabilities": {
-    "eyebrow": "Galimybės",
-    "headline": "Sukurta tikram darbui.",
-    "subhead": "Funkcijos, kurių komandoms iš tikrųjų reikia — ne sąrašas, sukurtas atrodyti ilgas skaidrėje.",
-    "items": {
-      "webmail": {
-        "name": "Webmail, kuris nepainioja po kojomis.",
-        "description": "Greitas, klaviatūra valdomas žiniatinklio klientas — gijos, paieška, etiketės, trijų skydelių išdėstymas. Sukurtas skaityti, rašyti ir archyvuoti be išpūtimo. Webmail, kuriuo norėtumei, kad Gmail vis dar būtų."
-      },
-      "files": {
-        "name": "Failai su raktais, kuriuos kontroliuoji.",
-        "description": "Privatūs ir bendrinami aplankai, smulkios ACL, slaptažodžiu ir galiojimu apsaugotos bendrinimo nuorodos. Kiekvienas failas šifruojamas ramybės būsenoje savo AES-256-GCM raktu ES objektų saugykloje — jokio pagrindinio rakto JAV bucket'e."
-      },
-      "calendar": {
-        "name": "Kalendorius, kuris dera su tuo, kaip jau dirbi.",
-        "description": "Pilnas CalDAV po gaubtu, su žiniatinklio programa, palaikančia mėnesio, savaitės ir dienos rodinius, pasikartojančius įvykius, iMIP kvietimus ir laisvas/užimtas paiešką tarp komandų. Sinchronizuok su Apple Kalendoriumi, Thunderbird ar telefonu — jokio nuosavybinio įskiepio diegti."
-      },
-      "contacts": {
-        "name": "Kontaktai, kurie keliauja su tavimi.",
-        "description": "Asmeniniai ir bendrinami adresų sąrašai per CardDAV. vCard importas ir eksportas, grupių palaikymas, jokio nuosavybinio kontaktų formato, nuo kurio vėliau reikėtų migruoti. Tavo adresų sąrašas yra tavo."
-      },
-      "filters": {
-        "name": "Pašto filtrai be vadovo.",
-        "description": "Vizualus taisyklių kūrėjas, kuris po gaubtu kompiliuoja į standartinį Sieve. Iš anksto paruošti šablonai taisyklėms, kurių iš tikrųjų nori, plius apsauginiai turėklai, kurie neleis tau sukurti persiuntimo kilpos 2 nakties."
-      },
-      "sharedMailbox": {
-        "name": "Bendrinamos pašto dėžutės tikroms komandoms.",
-        "description": "Komandos gautųjų dėžutė su priskirtaisiais, būsena ir vidinėmis pastabomis — projektuojama kaip IMAP raktažodžiai, taigi vis dar veikia kiekviename pašto kliente be nuosavybinės programėlės. Helpdesk darbo eiga be helpdesk produkto pirkimo."
-      },
-      "messaging": {
-        "name": "Komandos žinutės be triukšmo.",
-        "description": "Kanalai vykstančiam darbui, asmeninės žinutės dviese pokalbiams, paieška abiejuose. Tame pačiame rinkinyje kaip tavo paštas ir dokumentai — vienas prisijungimas, viena paieška, viena vieta ieškoti. Jokių įsitraukimo rodiklių, jokio papildomo pardavimo, jokio teatro 'ar kas nors laisvas?'."
-      },
-      "api": {
-        "name": "Vieša API ir pasirašyti webhooks.",
-        "description": "Apriboti bearer tokenai, HMAC-pasirašytas webhook'ų pristatymas su dead-letter eile, OpenAPI specifikacija ir JMAP passthrough. Prijunk Verkio prie CRM, CI ar back-office, kuriuos jau turi — be screen-scrapingo."
-      },
-      "auditLog": {
-        "name": "Kiekvienas administratoriaus veiksmas, užfiksuotas.",
-        "description": "Klientui skirtas audito žurnalas su paieška, reikšmėmis prieš/po ir septynerių metų saugojimo trukme pagal numatytuosius nustatymus — atitinka Švedijos bokföringslag. Transliuok įvykius į Splunk, Datadog ar bet kokią SIEM, arba eksportuok į CSV ar JSONL."
-      },
-      "offboarding": {
-        "name": "Atleidimas be skardžio.",
-        "description": "Kai kažkas išeina iš organizacijos, jo pašto dėžutė lieka prieinama trisdešimt dienų ir gali būti persiunčiama paskirtam savininkui — kad kliento atsakymas keturioliktą dieną vis dar nukristų į ką nors naudingo. Anti-kilpos apsaugos įdiegtos, audituojama, kaskadinis valymas, jei ir savininkas išeina."
-      },
-      "domains": {
-        "name": "Domenai ir įrenginiai sukonfigūruoti per minutes.",
-        "description": "Pridėk domeną, patikrink DNS, nustatyk catch-all. Generuojame Thunderbird XML ir Apple .mobileconfig profilius, o host-header autoconfig tiesiog veikia. DNS patikrinimas palaiko dešimt ES tiekėjų, įskaitant Hetzner, OVH, IONOS, deSEC, Scaleway ir Glesys."
-      },
-      "migration": {
-        "name": "Pasiimk savo gautas su savimi.",
-        "description": "Migruok iš Gmail, Outlook ar bet kokio IMAP tiekėjo vienu srautu — aplankai, vėliavėlės ir gijos išsaugomos. Mes traukiame, tu žiūri į progreso juostą. Jokio savaitgalio projekto tipo 'eksportuok mbox ir melskis'."
-      }
-    }
-  },
   "principles": {
     "eyebrow": "Kodėl Verkio",
     "headline": "Tyla iš principo.",
@@ -344,7 +258,7 @@
     "privacy": "Privatumo politika",
     "terms": "Naudojimosi sąlygos",
     "subprocessors": "Tvarkytojai",
-    "isAndIsnt": "What Verkio is and isn't",
+    "isAndIsnt": "Kas Verkio yra ir kas ne",
     "allRightsReserved": "Visos teisės saugomos"
   },
   "waitlist": {
@@ -698,13 +612,13 @@
   },
   "product": {
     "metaTitle": "Produktas — Verkio",
-    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+    "metaDescription": "Kiekvienas Verkio rinkinio paviršius: paštas, kalendorius, kontaktai, failai, viki, žinutės, viešasis API ir Sign in with Verkio. Pasirinkite vieną ir pasinerkite."
   },
   "productIndex": {
-    "eyebrow": "Product",
-    "headline": "All of Verkio, in one place.",
-    "body": "Eight surfaces — six suite apps plus the platform layer underneath. Pick one to read the detail, or scroll the homepage for the suite story.",
-    "learnMore": "Read the detail"
+    "eyebrow": "Produktas",
+    "headline": "Visas Verkio vienoje vietoje.",
+    "body": "Aštuoni paviršiai — šešios rinkinio programos plius platformos sluoksnis po jomis. Pasirinkite vieną ir skaitykite detales arba slinkite pradinį puslapį, kad pamatytumėte rinkinio istoriją.",
+    "learnMore": "Skaityti detales"
   },
   "productMail": {
     "metaTitle": "Paštas — Verkio",
@@ -1455,81 +1369,81 @@
     "metaDescription": "Kodėl komandos renkasi Verkio: rami programinė įranga, atviri standartai, ES rezidencija, jokio uždarymo."
   },
   "isAndIsnt": {
-    "metaTitle": "What Verkio is and isn't — Verkio",
-    "metaDescription": "An honest pros-and-cons page. What Verkio commits to, what it deliberately doesn't try to be, and how to tell if it's a fit.",
-    "eyebrow": "Honest tradeoffs",
-    "headline": "What Verkio is. And what it isn't.",
-    "body": "There are work suites we'll never be. There are some we're trying to be. This page is the both-sides version — the things to know before deciding Verkio is right for you.",
+    "metaTitle": "Kas Verkio yra ir kas ne — Verkio",
+    "metaDescription": "Sąžiningas privalumų ir trūkumų puslapis. Ko Verkio įsipareigoja, kuo sąmoningai nesistengia būti ir kaip suprasti, ar jis jums tinka.",
+    "eyebrow": "Sąžiningi kompromisai",
+    "headline": "Kas Verkio yra. Ir kas jis nėra.",
+    "body": "Yra darbo rinkinių, kuriais niekada netapsime. Yra tokių, kuriais stengiamės būti. Šis puslapis yra abiejų pusių versija — dalykai, kuriuos verta žinoti prieš nusprendžiant, ar Verkio jums tinka.",
     "is": {
-      "eyebrow": "What Verkio is",
-      "headline": "Things we commit to.",
+      "eyebrow": "Kas Verkio yra",
+      "headline": "Tai, ko įsipareigojame.",
       "items": [
         {
-          "name": "An EU-resident work suite.",
-          "body": "Mail, calendar, contacts, files, wikis, and messaging — all on Hetzner infrastructure in Germany and Finland. EU-managed encryption keys, EU DNS, EU payments. No US hyperscaler in the chain."
+          "name": "Darbo rinkinys, gyvenantis ES.",
+          "body": "Paštas, kalendorius, kontaktai, failai, viki ir žinutės — viskas Hetzner infrastruktūroje Vokietijoje ir Suomijoje. ES valdomi šifravimo raktai, ES DNS, ES mokėjimai. Jokio JAV didžiojo debesijos žaidėjo grandinėje."
         },
         {
-          "name": "Built on open standards.",
-          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Use Thunderbird, Apple Mail, K-9, DAVx⁵, or our webmail — we don't lock you into one client."
+          "name": "Pastatytas ant atvirų standartų.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Naudokite Thunderbird, Apple Mail, K-9, DAVx⁵ arba mūsų žiniatinklio paštą — mes neuždarome jūsų viename kliente."
         },
         {
-          "name": "For people who want the basics done well.",
-          "body": "No AI features that read your mail, no engagement metrics, no 'you might be interested in' upsell. The product is the mailbox, not your attention."
+          "name": "Tiems, kas nori, kad pagrindai būtų padaryti gerai.",
+          "body": "Jokio DI, kuris skaitytų jūsų paštą, jokių įsitraukimo rodiklių, jokio „jus galėtų sudominti“ pardavimo. Produktas yra pašto dėžutė, o ne jūsų dėmesys."
         },
         {
-          "name": "A small EU company.",
-          "body": "Verkio AB, registered in Sweden. Owned by the founder, not a venture portfolio. No 'we got acquired' email is coming."
+          "name": "Maža ES įmonė.",
+          "body": "Verkio AB, registruota Švedijoje. Priklauso steigėjui, ne rizikos kapitalo portfeliui. Joks „mus įsigijo“ laiškas neateis."
         },
         {
-          "name": "A real platform.",
-          "body": "Public REST API with OpenAPI 3.1, signed webhooks, JMAP passthrough, scoped tokens. Sign in with Verkio (OIDC) is coming if developers want it."
+          "name": "Tikra platforma.",
+          "body": "Viešas REST API su OpenAPI 3.1, pasirašyti webhook'ai, JMAP-passthrough, apriboti prieigos raktai. Sign in with Verkio (OIDC) ateina, jei kūrėjai to nori."
         },
         {
-          "name": "Audit-log-native.",
-          "body": "Every admin action recorded with before/after values, seven-year retention by default. Stream to your SIEM. No 'we'll look into the logs' — they're yours to query directly."
+          "name": "Audito žurnalas iš pagrindų.",
+          "body": "Kiekvienas administratoriaus veiksmas užfiksuojamas su prieš/po reikšmėmis, septynerių metų saugojimas pagal nutylėjimą. Srautu siųskite į savo SIEM. Jokio „pažiūrėsime į žurnalus“ — jie yra jūsų, kad galėtumėte tiesiogiai užklausti."
         }
       ]
     },
     "isnt": {
-      "eyebrow": "What Verkio isn't",
-      "headline": "Things we deliberately don't try to be.",
+      "eyebrow": "Kas Verkio nėra",
+      "headline": "Dalykai, kuriais sąmoningai nesistengiame būti.",
       "items": [
         {
-          "name": "An end-to-end encrypted mail service like Proton or Tuta.",
-          "body": "Default at-rest encryption uses Verkio-managed keys held in the EU — strong, but Verkio can technically read your mail. Opt-in customer-held-key encryption ships June 2026 but trades the web inbox, full-text search, and push previews. If true E2EE for every message is your hard requirement, those products fit better."
+          "name": "Visapusiško end-to-end šifravimo pašto paslauga kaip Proton ar Tuta.",
+          "body": "Numatytasis šifravimas ramybės būsenoje naudoja Verkio valdomus raktus, laikomus ES — stiprus, tačiau techniškai Verkio gali perskaityti jūsų paštą. Pasirinktinis kliento-raktais šifravimas pasirodys 2026 m. birželį, bet juo aukojate žiniatinklio pašto dėžutę, viso teksto paiešką ir push peržiūras. Jei tikras E2EE kiekvienai žinutei yra jūsų besąlygiškas reikalavimas, tie produktai labiau tinka."
         },
         {
-          "name": "A 50-app bundle like Zoho or Workspace.",
-          "body": "Six suite surfaces plus the platform layer. We're not adding a CRM, an LMS, a video meeting product, or an HR module. Those are solved problems in tools you can integrate via our API."
+          "name": "50 programų rinkinys kaip Zoho ar Workspace.",
+          "body": "Šeši rinkinio paviršiai plius platformos sluoksnis. Mes nepridedame CRM, LMS, vaizdo susitikimų produkto ar HR modulio. Tai išspręstos problemos įrankiuose, kuriuos galite integruoti per mūsų API."
         },
         {
-          "name": "A free service.",
-          "body": "No ad-supported tier. You pay for the suite; we don't sell summaries of your mail to a model vendor. If you're not paying, we're not the right home for your mailbox."
+          "name": "Nemokama paslauga.",
+          "body": "Jokio reklamos remiamo lygio. Jūs mokate už rinkinį; mes neparduodame jūsų pašto santraukų modelio tiekėjui. Jei nemokate, mes nesame tinkami namai jūsų pašto dėžutei."
         },
         {
-          "name": "A US-headquartered company.",
-          "body": "Sweden-based, outside US CLOUD Act jurisdiction. This is the whole point. If your buying criteria favour a US vendor, we're the wrong shape."
+          "name": "JAV būstinę turinti įmonė.",
+          "body": "Įsikūrusi Švedijoje, už JAV CLOUD Act jurisdikcijos ribų. Tai ir yra esmė. Jei jūsų pirkimo kriterijai atiduoda pirmenybę JAV tiekėjui, mes ne tos formos."
         },
         {
-          "name": "A messaging-first platform like Slack.",
-          "body": "Messaging is part of the suite, not the centrepiece. We're not building reactions, custom emoji, or notification-anxiety features. If team chat is your primary tool, a dedicated product will out-feature us for years."
+          "name": "Žinutėmis paremta platforma kaip Slack.",
+          "body": "Žinutės yra rinkinio dalis, o ne centrinė ašis. Mes nekuriame reakcijų, individualių jaustukų ar pranešimų nerimo funkcijų. Jei komandinis pokalbis yra jūsų pagrindinis įrankis, specializuotas produktas dar metų metus mus pralenks funkcijomis."
         },
         {
-          "name": "A 'no Microsoft / no Google' zealot.",
-          "body": "Use Gmail or Outlook if they work for you. We just think you should have an EU-resident, standards-based option when they don't."
+          "name": "„Jokio Microsoft / jokio Google“ fanatikas.",
+          "body": "Naudokite Gmail ar Outlook, jei jie jums tinka. Mes tiesiog manome, kad turėtumėte turėti ES, standartais paremtą galimybę tada, kai netinka."
         },
         {
-          "name": "A four-week-launch company.",
-          "body": "We're slow. Three-year roadmap, not three-month. We'd rather ship one feature properly than five half-done. If you need a vendor moving at startup speed, that's not us."
+          "name": "Keturių savaičių išleidimų įmonė.",
+          "body": "Mes lėti. Trejų metų gairės, ne trijų mėnesių. Verčiau išleisime vieną funkciją kaip reikiant nei penkias pusiau padarytas. Jei jums reikia tiekėjo, judančio startuolio greičiu, tai ne mes."
         }
       ]
     },
     "fit": {
-      "eyebrow": "Is it a fit?",
-      "headline": "Probably, if you want most of those.",
-      "body": "Read the lists. If most of the 'is' items feel right and most of the 'isn't' items are things you don't need, Verkio is probably a good fit. If a single 'isn't' item is a hard no, save us both the time.",
-      "cta": "Join waitlist",
-      "backLink": "Back to Why Verkio"
+      "eyebrow": "Ar tinka?",
+      "headline": "Tikriausiai taip, jei norite daugumos to.",
+      "body": "Perskaitykite sąrašus. Jei dauguma „yra“ punktų skamba teisingai ir dauguma „nėra“ punktų yra dalykai, kurių jums nereikia, Verkio greičiausiai tinka. Jei nors vienas „nėra“ punktas yra absoliutus „ne“, nešvaistykime vienas kito laiko.",
+      "cta": "Prisijungti prie laukimo sąrašo",
+      "backLink": "Atgal į Kodėl Verkio"
     }
   },
   "homeNarrative": {

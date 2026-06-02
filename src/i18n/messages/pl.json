@@ -81,92 +81,6 @@
       "hałasu"
     ]
   },
-  "suite": {
-    "eyebrow": "Pakiet",
-    "headline": "Wszystko, czego używa twój zespół, w jednym miejscu.",
-    "subhead": "Jedno logowanie, jedna książka adresowa, jeden rachunek. Zbudowane na otwartych standardach, więc nigdy nie jesteś uwięziony.",
-    "items": {
-      "mail": {
-        "name": "Poczta",
-        "description": "Osobiste i współdzielone skrzynki. Korzystaj z aplikacji webowej lub dowolnego klienta IMAP. Przynieś własną domenę."
-      },
-      "calendar": {
-        "name": "Kalendarz",
-        "description": "Kalendarze osobiste i zespołowe. Oparty na standardach (CalDAV), działa z aplikacjami, których już używasz."
-      },
-      "contacts": {
-        "name": "Kontakty",
-        "description": "Osobiste i współdzielone książki adresowe przez CardDAV. Synchronizacja wszędzie, bez blokady dostawcy."
-      },
-      "documents": {
-        "name": "Magazyn dokumentów",
-        "description": "Pliki i foldery z udostępnianiem, historią wersji i szczegółowymi uprawnieniami."
-      },
-      "wikis": {
-        "name": "Wiki",
-        "description": "Strukturyzowane strony dla wiedzy zespołu, z pełną historią edycji i odsyłaczami."
-      },
-      "messaging": {
-        "name": "Wiadomości",
-        "description": "Kanały, wiadomości prywatne i wątki do rozmów zespołowych. Wyszukiwalne, w tym samym pakiecie co twoja poczta."
-      }
-    }
-  },
-  "capabilities": {
-    "eyebrow": "Możliwości",
-    "headline": "Zbudowane do prawdziwej pracy.",
-    "subhead": "Funkcje, których zespoły naprawdę potrzebują — nie lista zaprojektowana, by wyglądać długo na slajdzie.",
-    "items": {
-      "webmail": {
-        "name": "Webmail, który schodzi z drogi.",
-        "description": "Szybki, sterowany klawiaturą klient webowy — wątkowanie, wyszukiwanie, etykiety, układ trzypanelowy. Zbudowany do czytania, pisania i archiwizowania bez puchnięcia. Webmail, jakim chciałbyś, żeby Gmail nadal był."
-      },
-      "files": {
-        "name": "Pliki z kluczami, które kontrolujesz.",
-        "description": "Foldery prywatne i współdzielone, drobnoziarniste ACL, linki udostępniania chronione hasłem i datą wygaśnięcia. Każdy plik jest szyfrowany w spoczynku własnym kluczem AES-256-GCM w pamięci obiektowej w UE — żadnego klucza głównego w amerykańskim buckecie."
-      },
-      "calendar": {
-        "name": "Kalendarz dopasowany do tego, jak już pracujesz.",
-        "description": "Pełne CalDAV pod maską, z aplikacją webową obsługującą widoki miesiąca, tygodnia i dnia, zdarzenia cykliczne, zaproszenia iMIP i wyszukiwanie wolny/zajęty między zespołami. Synchronizuj z Apple Kalendarzem, Thunderbirdem lub telefonem — bez własnościowej wtyczki do instalacji."
-      },
-      "contacts": {
-        "name": "Kontakty, które chodzą za tobą.",
-        "description": "Osobiste i współdzielone książki adresowe przez CardDAV. Import i eksport vCard, wsparcie grup, żadnego własnościowego formatu kontaktów, od którego musisz później migrować. Twoja książka jest twoja."
-      },
-      "filters": {
-        "name": "Filtry poczty bez instrukcji.",
-        "description": "Wizualny kreator reguł, który pod maską kompiluje się do standardowego Sieve. Gotowe szablony dla reguł, których naprawdę chcesz, plus zabezpieczenia, które uniemożliwią ci zbudowanie pętli przekierowania o 2 w nocy."
-      },
-      "sharedMailbox": {
-        "name": "Współdzielone skrzynki dla prawdziwych zespołów.",
-        "description": "Skrzynka zespołowa z osobami przypisanymi, statusem i notatkami wewnętrznymi — projektowana jako słowa kluczowe IMAP, więc nadal działa w każdym kliencie pocztowym bez aplikacji własnościowej. Przepływ helpdesku bez kupowania produktu helpdeskowego."
-      },
-      "messaging": {
-        "name": "Wiadomości zespołowe bez hałasu.",
-        "description": "Kanały do bieżącej pracy, prywatne wiadomości do rozmów jeden-na-jeden, wyszukiwanie w obu. W tym samym pakiecie co twoja poczta i dokumenty — jedno logowanie, jedno wyszukiwanie, jedno miejsce do sprawdzenia. Bez metryk zaangażowania, bez sprzedaży dodatkowej, bez teatru 'czy ktoś dostępny?'."
-      },
-      "api": {
-        "name": "Publiczne API i podpisane webhooki.",
-        "description": "Tokeny bearer z zakresem, dostarczanie webhooków podpisanych HMAC z kolejką dead-letter, specyfikacja OpenAPI i passthrough JMAP. Podłącz Verkio do CRM, CI lub back-office, które już masz — bez screen-scrapingu."
-      },
-      "auditLog": {
-        "name": "Każda akcja administratora, na protokole.",
-        "description": "Klient-skierowany dziennik audytu z wyszukiwaniem, wartościami przed/po i siedmioletnią retencją domyślnie — zgodnie ze szwedzkim bokföringslag. Strumieniuj zdarzenia do Splunk, Datadog lub dowolnego SIEM, lub eksportuj do CSV lub JSONL."
-      },
-      "offboarding": {
-        "name": "Offboarding bez urwiska.",
-        "description": "Gdy ktoś opuszcza organizację, jego skrzynka pozostaje dostępna przez trzydzieści dni i może być przekierowana do wyznaczonego właściciela — żeby odpowiedź klienta czternastego dnia nadal trafiała gdzieś użytecznie. Zabezpieczenia anti-loop wbudowane, zapisane w audycie, kaskadowe czyszczenie jeśli właściciel też odejdzie."
-      },
-      "domains": {
-        "name": "Domeny i urządzenia skonfigurowane w kilka minut.",
-        "description": "Dodaj domenę, zweryfikuj DNS, ustaw catch-all. Generujemy profile Thunderbird XML i Apple .mobileconfig, a autoconfig przez host-header po prostu działa. Weryfikacja DNS obsługuje dziesięciu dostawców UE, w tym Hetzner, OVH, IONOS, deSEC, Scaleway i Glesys."
-      },
-      "migration": {
-        "name": "Weź swoją skrzynkę ze sobą.",
-        "description": "Migruj z Gmaila, Outlooka lub dowolnego dostawcy IMAP w jednym przepływie — foldery, flagi i wątki zachowane. My pobieramy, ty patrzysz na pasek postępu. Żadnego weekendowego projektu typu 'eksportuj mbox i módl się'."
-      }
-    }
-  },
   "principles": {
     "eyebrow": "Dlaczego Verkio",
     "headline": "Spokój w domyśle.",
@@ -344,7 +258,7 @@
     "privacy": "Polityka prywatności",
     "terms": "Regulamin",
     "subprocessors": "Podwykonawcy",
-    "isAndIsnt": "What Verkio is and isn't",
+    "isAndIsnt": "Czym Verkio jest, a czym nie",
     "allRightsReserved": "Wszelkie prawa zastrzeżone"
   },
   "waitlist": {
@@ -698,13 +612,13 @@
   },
   "product": {
     "metaTitle": "Produkt — Verkio",
-    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+    "metaDescription": "Każda powierzchnia pakietu Verkio: poczta, kalendarz, kontakty, pliki, wiki, komunikator, publiczne API i Sign in with Verkio. Wybierz jedną i zanurz się."
   },
   "productIndex": {
-    "eyebrow": "Product",
-    "headline": "All of Verkio, in one place.",
-    "body": "Eight surfaces — six suite apps plus the platform layer underneath. Pick one to read the detail, or scroll the homepage for the suite story.",
-    "learnMore": "Read the detail"
+    "eyebrow": "Produkt",
+    "headline": "Całe Verkio w jednym miejscu.",
+    "body": "Osiem powierzchni — sześć aplikacji pakietu plus warstwa platformy pod spodem. Wybierz jedną, by przeczytać szczegóły, albo przewiń stronę główną, by poznać historię całego pakietu.",
+    "learnMore": "Przeczytaj szczegóły"
   },
   "productMail": {
     "metaTitle": "Poczta — Verkio",
@@ -1455,81 +1369,81 @@
     "metaDescription": "Dlaczego zespoły wybierają Verkio: spokojne oprogramowanie, otwarte standardy, rezydencja w UE, brak uwięzienia."
   },
   "isAndIsnt": {
-    "metaTitle": "What Verkio is and isn't — Verkio",
-    "metaDescription": "An honest pros-and-cons page. What Verkio commits to, what it deliberately doesn't try to be, and how to tell if it's a fit.",
-    "eyebrow": "Honest tradeoffs",
-    "headline": "What Verkio is. And what it isn't.",
-    "body": "There are work suites we'll never be. There are some we're trying to be. This page is the both-sides version — the things to know before deciding Verkio is right for you.",
+    "metaTitle": "Czym Verkio jest, a czym nie — Verkio",
+    "metaDescription": "Uczciwa strona za i przeciw. Do czego Verkio się zobowiązuje, czym świadomie nie próbuje być i jak rozpoznać, czy pasuje.",
+    "eyebrow": "Uczciwe kompromisy",
+    "headline": "Czym Verkio jest. A czym nie.",
+    "body": "Są pakiety biurowe, którymi nigdy nie będziemy. Są takie, którymi próbujemy być. Ta strona to wersja z obu stron — rzeczy, które warto wiedzieć przed decyzją, czy Verkio jest dla was odpowiednie.",
     "is": {
-      "eyebrow": "What Verkio is",
-      "headline": "Things we commit to.",
+      "eyebrow": "Czym Verkio jest",
+      "headline": "Do czego się zobowiązujemy.",
       "items": [
         {
-          "name": "An EU-resident work suite.",
-          "body": "Mail, calendar, contacts, files, wikis, and messaging — all on Hetzner infrastructure in Germany and Finland. EU-managed encryption keys, EU DNS, EU payments. No US hyperscaler in the chain."
+          "name": "Pakietem biurowym zlokalizowanym w UE.",
+          "body": "Poczta, kalendarz, kontakty, pliki, wiki i komunikator — wszystko na infrastrukturze Hetznera w Niemczech i Finlandii. Klucze szyfrujące zarządzane w UE, DNS w UE, płatności w UE. Żadnego amerykańskiego hyperscalera w łańcuchu."
         },
         {
-          "name": "Built on open standards.",
-          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Use Thunderbird, Apple Mail, K-9, DAVx⁵, or our webmail — we don't lock you into one client."
+          "name": "Zbudowanym na otwartych standardach.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Używajcie Thunderbirda, Apple Mail, K-9, DAVx⁵ albo naszego webmaila — nie zamykamy was w jednym kliencie."
         },
         {
-          "name": "For people who want the basics done well.",
-          "body": "No AI features that read your mail, no engagement metrics, no 'you might be interested in' upsell. The product is the mailbox, not your attention."
+          "name": "Dla ludzi, którzy chcą, by podstawy były zrobione dobrze.",
+          "body": "Żadnej AI, która czyta waszą pocztę, żadnych metryk zaangażowania, żadnego „to może was zainteresować“. Produktem jest skrzynka, nie wasza uwaga."
         },
         {
-          "name": "A small EU company.",
-          "body": "Verkio AB, registered in Sweden. Owned by the founder, not a venture portfolio. No 'we got acquired' email is coming."
+          "name": "Małą firmą z UE.",
+          "body": "Verkio AB, zarejestrowana w Szwecji. Należy do założyciela, nie do portfela funduszu venture. Żaden e-mail w stylu „zostaliśmy przejęci“ nie nadejdzie."
         },
         {
-          "name": "A real platform.",
-          "body": "Public REST API with OpenAPI 3.1, signed webhooks, JMAP passthrough, scoped tokens. Sign in with Verkio (OIDC) is coming if developers want it."
+          "name": "Prawdziwą platformą.",
+          "body": "Publiczne REST API z OpenAPI 3.1, podpisane webhooki, JMAP-passthrough, ograniczone tokeny. Sign in with Verkio (OIDC) nadchodzi, jeśli będą tego chcieli deweloperzy."
         },
         {
-          "name": "Audit-log-native.",
-          "body": "Every admin action recorded with before/after values, seven-year retention by default. Stream to your SIEM. No 'we'll look into the logs' — they're yours to query directly."
+          "name": "Z dziennikiem audytu od podstaw.",
+          "body": "Każda akcja administratora rejestrowana z wartościami przed/po, domyślnie siedem lat przechowywania. Strumieniujcie do swojego SIEM. Żadnego „przyjrzymy się logom“ — są wasze, do bezpośredniego odpytywania."
         }
       ]
     },
     "isnt": {
-      "eyebrow": "What Verkio isn't",
-      "headline": "Things we deliberately don't try to be.",
+      "eyebrow": "Czym Verkio nie jest",
+      "headline": "Rzeczy, którymi świadomie nie próbujemy być.",
       "items": [
         {
-          "name": "An end-to-end encrypted mail service like Proton or Tuta.",
-          "body": "Default at-rest encryption uses Verkio-managed keys held in the EU — strong, but Verkio can technically read your mail. Opt-in customer-held-key encryption ships June 2026 but trades the web inbox, full-text search, and push previews. If true E2EE for every message is your hard requirement, those products fit better."
+          "name": "Usługą poczty z szyfrowaniem end-to-end jak Proton czy Tuta.",
+          "body": "Domyślne szyfrowanie w spoczynku korzysta z kluczy zarządzanych przez Verkio, przechowywanych w UE — silne, ale technicznie Verkio może odczytać waszą pocztę. Opcjonalne szyfrowanie kluczami trzymanymi przez klienta pojawi się w czerwcu 2026, ale jego ceną są: skrzynka w przeglądarce, wyszukiwanie pełnotekstowe i podglądy push. Jeśli prawdziwe E2EE dla każdej wiadomości jest waszym bezwzględnym wymogiem, tamte produkty pasują lepiej."
         },
         {
-          "name": "A 50-app bundle like Zoho or Workspace.",
-          "body": "Six suite surfaces plus the platform layer. We're not adding a CRM, an LMS, a video meeting product, or an HR module. Those are solved problems in tools you can integrate via our API."
+          "name": "Pakietem 50 aplikacji jak Zoho czy Workspace.",
+          "body": "Sześć powierzchni pakietu plus warstwa platformy. Nie dokładamy CRM-u, LMS-u, produktu do wideokonferencji ani modułu HR. To rozwiązane problemy w narzędziach, które możecie zintegrować przez nasze API."
         },
         {
-          "name": "A free service.",
-          "body": "No ad-supported tier. You pay for the suite; we don't sell summaries of your mail to a model vendor. If you're not paying, we're not the right home for your mailbox."
+          "name": "Darmową usługą.",
+          "body": "Żadnego poziomu finansowanego reklamami. Wy płacicie za pakiet; my nie sprzedajemy podsumowań waszej poczty dostawcy modelu. Jeśli nie płacicie, nie jesteśmy właściwym domem dla waszej skrzynki."
         },
         {
-          "name": "A US-headquartered company.",
-          "body": "Sweden-based, outside US CLOUD Act jurisdiction. This is the whole point. If your buying criteria favour a US vendor, we're the wrong shape."
+          "name": "Firmą z siedzibą w USA.",
+          "body": "Mamy siedzibę w Szwecji, poza jurysdykcją amerykańskiego CLOUD Act. W tym właśnie rzecz. Jeśli wasze kryteria zakupowe faworyzują dostawcę z USA, nie jesteśmy w odpowiednim kształcie."
         },
         {
-          "name": "A messaging-first platform like Slack.",
-          "body": "Messaging is part of the suite, not the centrepiece. We're not building reactions, custom emoji, or notification-anxiety features. If team chat is your primary tool, a dedicated product will out-feature us for years."
+          "name": "Platformą skoncentrowaną na komunikacji jak Slack.",
+          "body": "Komunikator jest częścią pakietu, nie jego centralnym punktem. Nie budujemy reakcji, niestandardowych emoji ani funkcji napędzających lęk powiadomień. Jeśli czat zespołowy jest waszym głównym narzędziem, wyspecjalizowany produkt będzie nas wyprzedzał funkcjami jeszcze latami."
         },
         {
-          "name": "A 'no Microsoft / no Google' zealot.",
-          "body": "Use Gmail or Outlook if they work for you. We just think you should have an EU-resident, standards-based option when they don't."
+          "name": "Fanatykiem „żadnego Microsoftu / żadnego Google“.",
+          "body": "Używajcie Gmaila albo Outlooka, jeśli się sprawdzają. My po prostu uważamy, że powinniście mieć opcję zlokalizowaną w UE, opartą na standardach, na wypadek, gdy się nie sprawdzą."
         },
         {
-          "name": "A four-week-launch company.",
-          "body": "We're slow. Three-year roadmap, not three-month. We'd rather ship one feature properly than five half-done. If you need a vendor moving at startup speed, that's not us."
+          "name": "Firmą wydającą co cztery tygodnie.",
+          "body": "Jesteśmy powolni. Trzyletnia mapa drogowa, nie trzymiesięczna. Wolimy wydać jedną funkcję porządnie niż pięć po połowie. Jeśli potrzebujecie dostawcy poruszającego się w tempie startupu, to nie my."
         }
       ]
     },
     "fit": {
-      "eyebrow": "Is it a fit?",
-      "headline": "Probably, if you want most of those.",
-      "body": "Read the lists. If most of the 'is' items feel right and most of the 'isn't' items are things you don't need, Verkio is probably a good fit. If a single 'isn't' item is a hard no, save us both the time.",
-      "cta": "Join waitlist",
-      "backLink": "Back to Why Verkio"
+      "eyebrow": "Czy pasuje?",
+      "headline": "Najpewniej tak, jeśli chcecie większości z tego.",
+      "body": "Przeczytajcie listy. Jeśli większość punktów „jest“ brzmi dobrze, a większość punktów „nie jest“ to rzeczy, których nie potrzebujecie, Verkio prawdopodobnie wam pasuje. Jeśli choć jeden punkt „nie jest“ to bezwzględne nie, nie marnujmy nawzajem czasu.",
+      "cta": "Dołącz do listy oczekujących",
+      "backLink": "Wróć do Dlaczego Verkio"
     }
   },
   "homeNarrative": {

@@ -81,92 +81,6 @@
       "müraita"
     ]
   },
-  "suite": {
-    "eyebrow": "Pakett",
-    "headline": "Kõik, mida sinu meeskond kasutab, ühes kohas.",
-    "subhead": "Üks sisselogimine, üks aadressiraamat, üks arve. Ehitatud avatud standarditele, et sa kunagi ei oleks lukus.",
-    "items": {
-      "mail": {
-        "name": "E-post",
-        "description": "Isiklikud ja jagatud postkastid. Kasuta veebirakendust või suvalist IMAP-klienti. Too kaasa oma domeen."
-      },
-      "calendar": {
-        "name": "Kalender",
-        "description": "Isiklikud ja tiimi kalendrid. Standardipõhine (CalDAV) — töötab rakendustega, mida juba kasutate."
-      },
-      "contacts": {
-        "name": "Kontaktid",
-        "description": "Isiklikud ja jagatud aadressiraamatud CardDAV-i kaudu. Sünkroniseeri kõikjal, ilma lukustuseta."
-      },
-      "documents": {
-        "name": "Dokumendihoidla",
-        "description": "Failid ja kaustad jagamise, versiooniajaloo ja täpsete õigustega."
-      },
-      "wikis": {
-        "name": "Vikid",
-        "description": "Struktureeritud lehed tiimi teadmiste jaoks, täieliku muutmislooga ja linkidega."
-      },
-      "messaging": {
-        "name": "Sõnumid",
-        "description": "Kanalid, DM-id ja lõimed meeskonna vestlusteks. Otsitav, samas paketis nagu sinu meil."
-      }
-    }
-  },
-  "capabilities": {
-    "eyebrow": "Võimalused",
-    "headline": "Ehitatud päris töö jaoks.",
-    "subhead": "Funktsioonid, mida meeskonnad tegelikult vajavad — mitte loend, mis on disainitud nägema slaididel pikk välja.",
-    "items": {
-      "webmail": {
-        "name": "Veebimeil, mis ei jää jalgu.",
-        "description": "Kiire, klaviatuuripõhine veebiklient — lõimed, otsing, sildid, kolmepaneeline paigutus. Ehitatud lugemiseks, kirjutamiseks ja arhiveerimiseks ilma paisutamiseta. Veebimeil, mille tahaksid, et Gmail oleks veel."
-      },
-      "files": {
-        "name": "Failid võtmetega, mida sa juhid.",
-        "description": "Privaatsed ja jagatud kaustad, peenetasandiline ACL, parooli- ja aegumiskaitstud jagamislingid. Iga fail krüpteeritakse puhkeolekus oma AES-256-GCM-võtmega EL-i objektsalvestuses — ühtegi peavõtit ei ole USA bucketis."
-      },
-      "calendar": {
-        "name": "Kalender, mis sobib viisiga, kuidas sa juba töötad.",
-        "description": "Täielik CalDAV kapoti all, koos veebirakendusega, mis toetab kuu-, nädala- ja päevavaateid, korduvaid sündmusi, iMIP-kutseid ja vaba/hõivatud otsinguid meeskondade vahel. Sünkroniseeri Apple Calendarisse, Thunderbirdi või telefoni — pole omandiõiguslikku pistikprogrammi paigaldada."
-      },
-      "contacts": {
-        "name": "Kontaktid, mis liiguvad sinuga kaasa.",
-        "description": "Isiklikud ja jagatud aadressiraamatud CardDAV-i kaudu. vCardi import ja eksport, gruppide tugi, ei mingit omandiõiguslikku kontaktiformaati, millest hiljem migreeruda. Sinu aadressiraamat on sinu oma."
-      },
-      "filters": {
-        "name": "Meilifiltrid ilma juhendita.",
-        "description": "Visuaalne reegliehitaja, mis kompileerib standardseks Sieveks. Eelvalmistatud mallid reeglite jaoks, mida sa tegelikult tahad, pluss kaitsmed, mis takistavad edasisaatmise tsükli ehitamist kell 02.00."
-      },
-      "sharedMailbox": {
-        "name": "Jagatud postkastid päris meeskondadele.",
-        "description": "Meeskonna postkast määratud isikute, oleku ja sisemiste märkmetega — projitseeritud IMAP-märksõnadeks, nii et see töötab igas meilikliendis ilma omandiõigusliku rakenduseta. Kasutajatoe töövoog ilma kasutajatoe toodet ostmata."
-      },
-      "messaging": {
-        "name": "Meeskonna sõnumside ilma müraita.",
-        "description": "Kanalid jooksvaks tööks, vahetussõnumid üks-ühele lõimedeks, otsing mõlema vahel. Samas paketis nagu sinu meil ja dokumendid — üks sisselogimine, üks otsing, üks koht otsida. Mitte mingeid kaasamise mõõdikuid, mitte mingit lisamüüki, mitte mingit 'kas keegi on vaba?' teatrit."
-      },
-      "api": {
-        "name": "Avalik API ja allkirjastatud veebihaakid.",
-        "description": "Piiratud bearer-tokenid, HMAC-allkirjastatud veebihaakide kohaletoimetamine dead-letter järjekorraga, OpenAPI spetsifikatsioon ja JMAP läbiviik. Ühenda Verkio CRM-i, CI-i või back-office'iga, mis sul juba on — ilma ekraani kraapimiseta."
-      },
-      "auditLog": {
-        "name": "Iga administraatori toiming, dokumenteeritud.",
-        "description": "Kliendile suunatud auditilogi otsinguga, enne/pärast-väärtustega ja seitsme aasta säilitusajaga vaikimisi — vastavalt Rootsi bokföringslagile. Voota sündmusi Splunki, Datadogi või mis tahes SIEM-i, või ekspordi CSV-sse või JSONL-i."
-      },
-      "offboarding": {
-        "name": "Lahkumisprotsess ilma järsku languseta.",
-        "description": "Kui keegi lahkub organisatsioonist, jääb tema postkast kättesaadavaks kolmkümmend päeva ja saab edastada määratud omanikule — nii et kliendi vastus neljateistkümnendal päeval ikkagi jõuab kuhugi kasulikku kohta. Anti-loop kaitsmed sisseehitatud, auditeeritud, kaskaad-tühjendamine, kui omanik samuti lahkub."
-      },
-      "domains": {
-        "name": "Domeenid ja seadmed konfigureeritud minutitega.",
-        "description": "Lisa domeen, kinnita DNS, määra catch-all. Genereerime Thunderbirdi XML-i ja Apple'i .mobileconfig profiile, ja host-päise autoconfig lihtsalt töötab. DNS-i kinnitamine toetab kümmet EL teenusepakkujat, sealhulgas Hetzner, OVH, IONOS, deSEC, Scaleway ja Glesys."
-      },
-      "migration": {
-        "name": "Võta oma postkast endaga kaasa.",
-        "description": "Migreeri Gmailist, Outlookist või mis tahes IMAP-pakkujalt ühe vooluga — kaustad, lipud ja lõimed säilivad. Meie tõmbame, sina vaatad edenemisriba. Ei mingit 'ekspordi mbox ja loota parimat' nädalavahetuse projekti."
-      }
-    }
-  },
   "principles": {
     "eyebrow": "Miks Verkio",
     "headline": "Vaikus on kavandatud.",
@@ -698,7 +612,7 @@
   },
   "product": {
     "metaTitle": "Toode — Verkio",
-    "metaDescription": "Every surface in the Verkio suite: mail, calendar, contacts, files, wikis, messaging, the public API, and Sign in with Verkio. Pick one to dive in."
+    "metaDescription": "Iga pind Verkio paketis: meil, kalender, kontaktid, failid, vikid, sõnumivahetus, avalik API ja Sign in with Verkio. Vali üks ja sukeldu sisse."
   },
   "productIndex": {
     "eyebrow": "Toode",
@@ -1455,81 +1369,81 @@
     "metaDescription": "Miks meeskonnad valivad Verkio: vaikne tarkvara, avatud standardid, EL-i residentsus, ei lukustust."
   },
   "isAndIsnt": {
-    "metaTitle": "What Verkio is and isn't — Verkio",
-    "metaDescription": "An honest pros-and-cons page. What Verkio commits to, what it deliberately doesn't try to be, and how to tell if it's a fit.",
-    "eyebrow": "Honest tradeoffs",
-    "headline": "What Verkio is. And what it isn't.",
-    "body": "There are work suites we'll never be. There are some we're trying to be. This page is the both-sides version — the things to know before deciding Verkio is right for you.",
+    "metaTitle": "Mis Verkio on ja mis ei ole — Verkio",
+    "metaDescription": "Aus plussidest ja miinustest. Mille eest Verkio seisab, mis ta sihilikult ei püüa olla ja kuidas aru saada, kas ta sulle sobib.",
+    "eyebrow": "Ausad kompromissid",
+    "headline": "Mis Verkio on. Ja mis ta ei ole.",
+    "body": "On tööpakette, milleks me kunagi ei saa. On mõned, milleks me püüame saada. See leht on mõlema poole versioon — asjad, mida tasub teada enne, kui otsustad, kas Verkio sulle sobib.",
     "is": {
-      "eyebrow": "What Verkio is",
-      "headline": "Things we commit to.",
+      "eyebrow": "Mis Verkio on",
+      "headline": "Asjad, mille eest me seisame.",
       "items": [
         {
-          "name": "An EU-resident work suite.",
-          "body": "Mail, calendar, contacts, files, wikis, and messaging — all on Hetzner infrastructure in Germany and Finland. EU-managed encryption keys, EU DNS, EU payments. No US hyperscaler in the chain."
+          "name": "ELi territooriumil asuv tööpakett.",
+          "body": "Meil, kalender, kontaktid, failid, vikid ja sõnumivahetus — kõik Hetzneri taristul Saksamaal ja Soomes. ELis hallatavad krüpteerimisvõtmed, EL DNS, EL maksed. Ühtegi USA hüperskaalerit ahelas pole."
         },
         {
-          "name": "Built on open standards.",
-          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Use Thunderbird, Apple Mail, K-9, DAVx⁵, or our webmail — we don't lock you into one client."
+          "name": "Avatud standarditele ehitatud.",
+          "body": "IMAP, SMTP, JMAP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Kasuta Thunderbirdi, Apple Maili, K-9, DAVx⁵ või meie webmaili — me ei seo sind ühe kliendi külge."
         },
         {
-          "name": "For people who want the basics done well.",
-          "body": "No AI features that read your mail, no engagement metrics, no 'you might be interested in' upsell. The product is the mailbox, not your attention."
+          "name": "Neile, kes tahavad põhilisi asju hästi tehtuna.",
+          "body": "Ei mingit tehisintellekti, mis sinu meile loeb, ei mingit kaasatuse mõõdikut, ei mingit „see võiks sind huvitada“ pealemüüki. Toode on postkast, mitte sinu tähelepanu."
         },
         {
-          "name": "A small EU company.",
-          "body": "Verkio AB, registered in Sweden. Owned by the founder, not a venture portfolio. No 'we got acquired' email is coming."
+          "name": "Väike ELi ettevõte.",
+          "body": "Verkio AB, registreeritud Rootsis. Asutaja, mitte riskikapitali portfelli omandis. Ühtegi „meid osteti ära“ kirja ei ole tulemas."
         },
         {
-          "name": "A real platform.",
-          "body": "Public REST API with OpenAPI 3.1, signed webhooks, JMAP passthrough, scoped tokens. Sign in with Verkio (OIDC) is coming if developers want it."
+          "name": "Päris platvorm.",
+          "body": "Avalik REST API koos OpenAPI 3.1-ga, allkirjastatud veebihookid, JMAP-passthrough, piiratud ulatusega võtmed. Sign in with Verkio (OIDC) tuleb, kui arendajad seda soovivad."
         },
         {
-          "name": "Audit-log-native.",
-          "body": "Every admin action recorded with before/after values, seven-year retention by default. Stream to your SIEM. No 'we'll look into the logs' — they're yours to query directly."
+          "name": "Auditilogi-keskne.",
+          "body": "Iga administraatori toiming salvestatakse vanade ja uute väärtustega, vaikimisi seitsmeaastane säilitamine. Suuna oma SIEM-i. Mitte mingit „vaatame logidesse“ — need on sinu omad, otse päringuks valmis."
         }
       ]
     },
     "isnt": {
-      "eyebrow": "What Verkio isn't",
-      "headline": "Things we deliberately don't try to be.",
+      "eyebrow": "Mis Verkio ei ole",
+      "headline": "Asjad, milleks me sihilikult ei püüa olla.",
       "items": [
         {
-          "name": "An end-to-end encrypted mail service like Proton or Tuta.",
-          "body": "Default at-rest encryption uses Verkio-managed keys held in the EU — strong, but Verkio can technically read your mail. Opt-in customer-held-key encryption ships June 2026 but trades the web inbox, full-text search, and push previews. If true E2EE for every message is your hard requirement, those products fit better."
+          "name": "Otspunkt-krüpteeritud meiliteenus nagu Proton või Tuta.",
+          "body": "Vaikimisi puhkeoleku krüpteerimine kasutab Verkio hallatavaid võtmeid ELis — tugev, kuid tehniliselt suudab Verkio sinu meili lugeda. Valikuline kliendipoolsete võtmetega krüpteerimine ilmub juunis 2026, aga selle hinnaks on veebipostkast, täisteksti otsing ja push-eelvaated. Kui tõeline E2EE iga sõnumi jaoks on sinu vältimatu nõue, sobivad need tooted paremini."
         },
         {
-          "name": "A 50-app bundle like Zoho or Workspace.",
-          "body": "Six suite surfaces plus the platform layer. We're not adding a CRM, an LMS, a video meeting product, or an HR module. Those are solved problems in tools you can integrate via our API."
+          "name": "50 rakendusega kogumik nagu Zoho või Workspace.",
+          "body": "Kuus paketi pinda pluss platvormi kiht. Me ei lisa CRM-i, LMS-i, videokoosolekutoodet ega HR-moodulit. Need on lahendatud probleemid tööriistades, mida saad meie API kaudu integreerida."
         },
         {
-          "name": "A free service.",
-          "body": "No ad-supported tier. You pay for the suite; we don't sell summaries of your mail to a model vendor. If you're not paying, we're not the right home for your mailbox."
+          "name": "Tasuta teenus.",
+          "body": "Ei mingit reklaamiga toetatud taset. Sina maksad paketi eest; meie ei müü sinu meili kokkuvõtteid mudelitarnijale. Kui sa ei maksa, pole me sinu postkastile õige kodu."
         },
         {
-          "name": "A US-headquartered company.",
-          "body": "Sweden-based, outside US CLOUD Act jurisdiction. This is the whole point. If your buying criteria favour a US vendor, we're the wrong shape."
+          "name": "USA-s asuv ettevõte.",
+          "body": "Asume Rootsis, väljaspool USA CLOUD Acti jurisdiktsiooni. Just selles ongi mõte. Kui sinu ostukriteeriumid eelistavad USA tarnijat, ei ole me õige kuju."
         },
         {
-          "name": "A messaging-first platform like Slack.",
-          "body": "Messaging is part of the suite, not the centrepiece. We're not building reactions, custom emoji, or notification-anxiety features. If team chat is your primary tool, a dedicated product will out-feature us for years."
+          "name": "Sõnumitekeskne platvorm nagu Slack.",
+          "body": "Sõnumivahetus on osa paketist, mitte selle keskpunkt. Me ei ehita reaktsioone, oma emoji-sid ega teavituste ärevuse funktsioone. Kui meeskonnavestlus on sinu peamine tööriist, on spetsialiseeritud toode meist veel aastaid funktsionaalsem."
         },
         {
-          "name": "A 'no Microsoft / no Google' zealot.",
-          "body": "Use Gmail or Outlook if they work for you. We just think you should have an EU-resident, standards-based option when they don't."
+          "name": "„Ei mingit Microsofti / ei mingit Google’it“ usufanaatik.",
+          "body": "Kasuta Gmaili või Outlooki, kui need sulle sobivad. Meie arvame lihtsalt, et sul peaks olema ELi territooriumil asuv, standarditel põhinev valik siis, kui need ei sobi."
         },
         {
-          "name": "A four-week-launch company.",
-          "body": "We're slow. Three-year roadmap, not three-month. We'd rather ship one feature properly than five half-done. If you need a vendor moving at startup speed, that's not us."
+          "name": "Neljanädalaste väljalasete ettevõte.",
+          "body": "Me oleme aeglased. Kolme aasta tegevuskava, mitte kolme kuu. Pigem viime ühe funktsiooni korralikult lõpuni kui viis poolikut. Kui vajad tarnijat, kes liigub idufirma kiirusel, ei ole see meie."
         }
       ]
     },
     "fit": {
-      "eyebrow": "Is it a fit?",
-      "headline": "Probably, if you want most of those.",
-      "body": "Read the lists. If most of the 'is' items feel right and most of the 'isn't' items are things you don't need, Verkio is probably a good fit. If a single 'isn't' item is a hard no, save us both the time.",
-      "cta": "Join waitlist",
-      "backLink": "Back to Why Verkio"
+      "eyebrow": "Kas sobib?",
+      "headline": "Tõenäoliselt jah, kui tahad enamikku neist.",
+      "body": "Loe nimekirjad läbi. Kui enamik „on“-punkte tundub õige ja enamik „ei ole“-punkte on asjad, mida sa ei vaja, on Verkio tõenäoliselt sobiv. Kui ainuski „ei ole“-punkt on välistav, säästame mõlemad aega.",
+      "cta": "Liitu ootejärjekorraga",
+      "backLink": "Tagasi „Miks Verkio“ juurde"
     }
   },
   "homeNarrative": {
