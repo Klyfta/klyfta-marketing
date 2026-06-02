@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { AudienceDropdown } from "./AudienceDropdown";
 import { ProductDropdown } from "./ProductDropdown";
 
 export function Container({
@@ -73,6 +74,7 @@ export function Header() {
               {t("product")}
             </Link>
             <ProductDropdown />
+            <AudienceDropdown />
             <Link
               href="/why-verkio"
               className="hidden sm:inline text-sm text-gray-600 hover:text-gray-900 transition-colors"

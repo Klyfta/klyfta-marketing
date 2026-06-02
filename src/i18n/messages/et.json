@@ -15,7 +15,26 @@
     "roadmap": "Teekaart",
     "articles": "Artiklid",
     "product": "Toode",
+    "for": "Kellele",
     "whyVerkio": "Miks Verkio",
+    "audienceMenu": {
+      "individuals": {
+        "name": "Eraisikud",
+        "description": "Vaikne, EL-i residentsusega alternatiiv."
+      },
+      "teams": {
+        "name": "Meeskonnad",
+        "description": "Jagatud kastid, kalendrid, failid, vikid."
+      },
+      "itAdmins": {
+        "name": "IT ja hanked",
+        "description": "DPA, audit-logi, SAML/SSO, EL-i residentsus."
+      },
+      "developers": {
+        "name": "Arendajad",
+        "description": "REST, JMAP, allkirjastatud webhookid."
+      }
+    },
     "productMenu": {
       "comingSoon": "Peagi",
       "mail": {
@@ -1173,6 +1192,253 @@
           "Ühendatud rakenduste töölaud, mis loetleb iga saidi, kuhu oled sisse loginud.",
           "Ühe klõpsuga tühistamine, igal ajal — sait kaotab juurdepääsu kohe.",
           "Mingit vaikset uuesti autentimist; scope-muudatused nõuavad värsket nõusolekut."
+        ]
+      }
+    }
+  },
+  "forIndividuals": {
+    "metaTitle": "Verkio eraisikutele — EL-i residentsusega töökomplekt",
+    "metaDescription": "Vaikne, KT-vaba alternatiiv Gmailile ja iCloudile. Post, kalender, kontaktid, failid — avatud standardite peal, EL-is. Too oma domeen.",
+    "eyebrow": "Eraisikutele",
+    "headline": "Vaikne töökomplekt, mis kuulub sinule — mitte platvormile.",
+    "body": "EL-i residentsusega alternatiiv Gmailile, iCloudile ja Outlook.com-ile. Post, kalender, kontaktid, failid — avatud standardite peal, alustega korralikult tehtud ja ilma KT-ta, mis sinu postkasti loeks. Too oma domeen või kasuta verkio.eu aadressi.",
+    "cta": "Liitu ootenimekirjaga",
+    "backLink": "Tagasi avalehele",
+    "sections": {
+      "core": {
+        "eyebrow": "Alused, õigesti tehtud",
+        "headline": "Post, kalender, kontaktid, failid. Ilma pummelduseta.",
+        "body": "Kiire klaviatuuri-keskne veebipost, kalender, mis sünkroniseerub Apple Calendari ja Thunderbirdiga, CardDAV aadressiraamat ja faili-salvestus EL-is hallatavate võtmetega. Üks sisselogimine. Üks arve.",
+        "bullets": [
+          "Veebipost lõimedega, otsinguga, siltidega — klaviatuuri-keskne.",
+          "Kalender üle CalDAV-i — sünk Apple Calendari, Thunderbirdi, DAVx⁵-iga.",
+          "Kontaktid üle CardDAV-i — vCard import ja eksport, ei mingit erivormingut.",
+          "Failide salvestus failipõhiste ACL-idega ja 30 päeva prügikasti taastamisega.",
+          "Serveripoolsed posti filtrid (Sieve) — reeglid käivituvad igas kliendis."
+        ]
+      },
+      "privacy": {
+        "eyebrow": "Vaikne juba kavandi järgi",
+        "headline": "Ükski KT ei loe sinu posti. Ei mingeid kaasatuse meetrikaid.",
+        "body": "Verkio ei skaneeri sinu postkasti reklaami sihtimiseks. Me ei mõõda, kui sageli sa rakendust avad. Me ei müü kokkuvõtteid mudelitarnijale. Toode on postkast, mitte sinu tähelepanu.",
+        "bullets": [
+          "Ei mingeid KT funktsioone, mis sinu posti loeksid.",
+          "Ei mingeid kaasatuse meetrikaid ega seeria-teateid.",
+          "EL-i residentsusega andmed — väljaspool US CLOUD Act-i jurisdiktsiooni.",
+          "Audit-logi iga administraatori toimingu kohta (sinu ja meie)."
+        ]
+      },
+      "yourDomain": {
+        "eyebrow": "Sinu domeen, sinu aliased",
+        "headline": "Kasuta oma domeeni. Piiramatud aliased.",
+        "body": "Too domeen, mis sul juba on, ja me konfigureerime DNS-i sinu eest. Piiramatud aliased (mõistliku kasutuse piires) ja catch-all, et ka valesti kirjutatud aadressid kohale jõuaksid. Või alusta verkio.eu aadressiga ja kolib hiljem — aadressiraamat tuleb kaasa.",
+        "bullets": [
+          "Too oma domeen — DNS-i automaatne seadistamine kümne EL-i registripidaja juures.",
+          "Piiramatud aliased kasutaja kohta (mõistliku kasutuse piires).",
+          "Catch-all sinu domeenil, et trükivead kohale jõuaksid.",
+          "Või kasuta verkio.eu aadressi — sama komplekt, ei mingit domeeni hallata."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Koli sisse ilma nädalavahetust kulutamata",
+        "headline": "Võta oma postkast kaasa.",
+        "body": "Migreeri Gmailist, iCloudist, Fastmailist, Outlook.com-ist — ükskõik millisest IMAP teenusepakkujast — ühe vooluga. Kaustad, lipud ja lõimed säilivad. Meie tõmbame, sina vaatad edenemisriba. Ei mingit „ekspordi oma mbox ja palveta“ nädalavahetuse projekti.",
+        "bullets": [
+          "Ühe klõpsu import Gmailist, Outlookist, iCloudist, Fastmailist või ükskõik millisest IMAP serverist.",
+          "Kaustad, sildid, lipud, lõimed — kõik säilib.",
+          "Edenemisriba töölaual — ei mingit pimedat ootamist.",
+          "Kalendrid ja kontaktid migreeruvad samuti, standardvormingute kaudu."
+        ]
+      }
+    }
+  },
+  "forTeams": {
+    "metaTitle": "Verkio meeskondadele — EL-i residentsusega töökomplekt",
+    "metaDescription": "Jagatud postkastid meeskonna töövooluga, kalendrid, failid, vikid, sõnumid. Audit-logi juhtkonnale. Üks tellimus viie asemel.",
+    "eyebrow": "Meeskondadele",
+    "headline": "Meeskonna komplekt, kus kõik on samas kohas.",
+    "body": "Jagatud postkastid määramise ja kaustapõhiste ACL-idega. Jagatud kalendrid ja failid. Vikid juhendite jaoks. Sõnumid vestluseks. Audit-logi küsimuste jaoks. Kõik avatud standardite peal, kõik EL-is, kõik ühes tellimuses.",
+    "cta": "Liitu ootenimekirjaga",
+    "backLink": "Tagasi avalehele",
+    "sections": {
+      "shared": {
+        "eyebrow": "Ehitatud jagatud tööks",
+        "headline": "Jagatud postkastid, mis sinu vastu ei võitle.",
+        "body": "Meeskonna postkast support@ või hello@ jaoks, mis haldab määramist, staatust ja sisemisi märkmeid — projekteeritud IMAP võtmesõnadena, et Thunderbirdi või Apple Maili kasutajad näeksid samuti, kes mida teeb. Helpdeski töövoog ilma helpdeski toodet ostmata.",
+        "bullets": [
+          "Jagatud postkastid määramise, staatuse ja kaustapõhiste ACL-idega.",
+          "Sisemised märkmed, nähtavad ainult meeskonnale.",
+          "Jagatud kalendrid ja jagatud failikaustad, meeskondade kaupa.",
+          "Vikid juhendite, otsuste ja asjade jaoks, mida muidu kvartalis uuesti seletaksid.",
+          "Sõnumid samas sisselogimises — kanalid, DM-id, lõimed."
+        ]
+      },
+      "onboardOff": {
+        "eyebrow": "Sisseelamine ja lahkumine puhtalt",
+        "headline": "Tulijad ja lahkujad ilma järsu lõputa.",
+        "body": "Lisa uus kolleeg ja ta saab posti, kalendri, kontaktid, failid ja juurdepääsu jagatud postkastidele ühes vooluga. Kui keegi lahkub, jääb tema postkast kolmkümmend päeva kättesaadavaks ja edastab määratud omanikule — et kliendi vastus neljateistkümnendal päeval ikka kuhugi kasulikku jõuaks.",
+        "bullets": [
+          "Lisa kasutajaid ühe vormiga — post, kalender, kontaktid, failid kohe valmis.",
+          "Lahkuva kasutaja postkast jääb 30 päeva kättesaadavaks, edastab nimetatud omanikule.",
+          "Sisseehitatud silmuste vastane kaitse, audit-logitud, kaskaad-puhastus, kui omanik samuti lahkub.",
+          "Kutsete tühistamise undo paratamatu trükivea jaoks."
+        ]
+      },
+      "audit": {
+        "eyebrow": "Vastused, kui juhtkond küsib",
+        "headline": "Iga administraatori toiming, protokollis.",
+        "body": "Kliendile suunatud audit-logi otsingu, enne/pärast väärtuste ja seitsme aasta säilitusega. Kui keegi küsib „kes jagas seda kausta väljapoole“, on vastus ühe päringu kaugusel. Saada sündmused Splunki, Datadogi või ükskõik millisesse SIEM-i, kui vaja.",
+        "bullets": [
+          "Audit-logi enne/pärast väärtustega iga muudatuse juures.",
+          "Seitse aastat säilitust vaikimisi — vastab Rootsi bokföringslagen-ile.",
+          "Saada Splunki, Datadogi või ükskõik millisesse SIEM-i webhookiga.",
+          "Eksport CSV või JSONL kujul vastavuse või forensika jaoks."
+        ]
+      },
+      "standards": {
+        "eyebrow": "Avatud standardid meeskonnas",
+        "headline": "Meeskonnaliige, kes kasutab Thunderbirdi, on hästi.",
+        "body": "Verkio räägib IMAP-i, SMTP-d, CalDAV-i, CardDAV-i, Sieve-i. Kes meeskonnas eelistab Apple Maili, Thunderbirdi, Outlooki või K-9-t, lihtsalt logib sisse ja töötab. Jagatud postkasti staatus ja määrangud projekteeritakse IMAP võtmesõnadena, et nad näeksid ka meeskonna olekut.",
+        "bullets": [
+          "IMAP ja SMTP — töötab igas standardile vastavas posti kliendis.",
+          "CalDAV ja CardDAV — kalendrid ja kontaktid sünkroniseeruvad igal pool.",
+          "Sieve filtrid käivituvad kohaletoimetamisel — reeglid töötavad igas kliendis.",
+          "Domeeni automaatne seadistamine pluss Thunderbird XML ja Apple .mobileconfig profiilid seadmete koheseks seadistamiseks."
+        ]
+      },
+      "oneBill": {
+        "eyebrow": "Üks komplekt, üks arve",
+        "headline": "Lõpeta tellimuste kokkuõmblemine.",
+        "body": "Täna maksab keskmine väike meeskond Google Workspace'i (post + kalender + Drive), Slacki (sõnumid), Notioni (viki) ja helpdeski toote eest — viis tellimust, viis admin konsooli, viis kasutaja elutsükli voolu. Verkio on üks tellimus, üks konsool, üks audit-logi.",
+        "bullets": [
+          "Üks tellimus asendab post + kalender + failid + viki + sõnumid + helpdesk.",
+          "Üks admin konsool kasutajatele, arveldamiseks, auditiks ja domeeni halduseks.",
+          "Üks identiteet — provisi korra, kasuta kõike.",
+          "Mollie arveldus EUR-is — ei mingit US-i makseteenusepakkujat ahelas."
+        ]
+      }
+    }
+  },
+  "forItAdmins": {
+    "metaTitle": "Verkio IT-le ja hangetele — EL-i residentsusega töökomplekt",
+    "metaDescription": "EL-i infrastruktuur, ei mingit US CLOUD Act-i kokkupuudet, GDPR-natiivne. DPA, audit-logi, SAML/SSO, ulatusega API võtmed, EL-is hallatavad krüpteerimisvõtmed, päris õnnetuste taastamine.",
+    "eyebrow": "IT-le ja hangetele",
+    "headline": "Tüütud garantiid, mida hanked küsivad.",
+    "body": "Ainult EL-i infrastruktuur. Päris audit-logi SIEM-i voogedastusega. SAML/SSO JIT-i ettevalmistamisega. EL-is hallatavad krüpteerimisvõtmed, mitte US KMS. Avatud standardid, et migreerimisrisk jääks madalaks. Päris õnnetuste taastamise õppused, mitte turundusväited.",
+    "cta": "Liitu ootenimekirjaga",
+    "backLink": "Tagasi avalehele",
+    "sections": {
+      "procurement": {
+        "eyebrow": "Hangete jaoks valmis",
+        "headline": "Paberitööl pole üllatusi.",
+        "body": "DPA, alltöövõtjate nimekiri, ROPA-valmis audit-logi, GDPR artikli 15 / 17 / 20 töövood, mis tegelikult töötavad — mitte „võtame ühendust“. Mollie (Hollandi) tegeleb arveldusega Stripe'i (US) asemel, mis sulgeb suurima US-i alltöövõtja reservatsiooni hangete ülevaatustel.",
+        "bullets": [
+          "Standardne DPA (artikkel 28-le vastav) saadaval enne allkirjastamist.",
+          "Avalik alltöövõtjate nimekiri — iga sõltuvus nimetatud, EL-i omanduses, kus see tähtsust omab.",
+          "GDPR artikkel 15 (juurdepääs), artikkel 17 (kustutamine), artikkel 20 (ülekantavus) — kõik ühe klõpsuga.",
+          "Mollie tegeleb maksetega Stripe'i asemel — ei mingit US-i makseteenusepakkujat.",
+          "Seitsme aasta audit-logi säilitus vastab Rootsi bokföringslagen-ile."
+        ]
+      },
+      "residency": {
+        "eyebrow": "EL-i residentsus, lõpuni välja",
+        "headline": "Ükski US-i hüperskaleerija ei ole kuskil ahelas.",
+        "body": "Hetzneri serverid Saksamaal ja Soomes. Hetzneri DNS (mitte Cloudflare). Vault Transit EL-i residentsusega infrastruktuuril võtmete pakkimiseks (mitte AWS KMS). GlitchTip vigade jälgimiseks (mitte Sentry). Hetzneri Storage Box varukoopiateks (mitte S3). Mitte ühtegi kihti ei ole US-i pilve outsourcitud.",
+        "bullets": [
+          "Compute Hetzneri pilves — Saksamaa ja Soome regioonid.",
+          "Autoriteetne DNS Hetzneri DNS Console'is — EL-i omanduses, mitte Cloudflare.",
+          "Krüpteerimisvõtmed puhkeasendis pakitud Vault Transitiga EL-i residentsusega infrastruktuuril — ei mingit US-i KMS-i.",
+          "Varukoopiad Hetzneri Storage Boxis (EL) — ei mingit S3-d, GCS-i ega Azure Blobi."
+        ]
+      },
+      "identityAndAccess": {
+        "eyebrow": "Identiteet ja juurdepääs",
+        "headline": "SSO, audit-logi voogedastus, ulatusega võtmed.",
+        "body": "SAML 2.0 föderatsioon Okta, Azure AD, Google Workspace'i või ükskõik millise standardile vastava IdP-ga — just-in-time kasutaja ettevalmistamise ja grupi/rolli kaardistuse uuesti hindamisega iga sisselogimise korral. Audit-logi voogedastatav sinu SIEM-i. Ulatusega, pööratavad API võtmed iga integratsiooni jaoks.",
+        "bullets": [
+          "SAML 2.0 SSO ükskõik millise IdP-ga — Okta, Azure AD, Google Workspace, Keycloak.",
+          "Just-in-time ettevalmistamine esimesel sisselogimisel — ei mingit käsitsi kasutaja loomist.",
+          "Grupi ja rolli kaardistus uuesti hinnatud iga sisselogimisel — ei mingeid aegunud õigusi.",
+          "Ulatusega API võtmed pööramisega — read-only, postkasti kohta, organisatsiooni kohta.",
+          "Audit-logi voogedastus Splunki, Datadogi või ükskõik millisesse SIEM-i webhookiga."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Migreerimisrisk: madal",
+        "headline": "Standardid tähendavad, et lahkumine on alati võimalus.",
+        "body": "Iga komplekti osa räägib avatud standardeid — IMAP, SMTP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Kui Verkio ei pea sõna, lähevad sinu andmed välja sama puhtalt, kui nad sisse tulid. Ei mingit erivormingut tähendab ei mingit migreerimisprojekti kolmandal aastal.",
+        "bullets": [
+          "Standardid: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
+          "Artikkel 20 ülekantavuse eksport koostalitusvõimelistes vormingutes — üks klõps.",
+          "Domeeni automaatne seadistamine kümne EL-i DNS-i registripidaja juures (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, veel).",
+          "Posti import Microsoft 365-st, Google Workspace'ist või ükskõik millisest IMAP-ist — kaustad, lipud, lõimed säilitatud."
+        ]
+      },
+      "ops": {
+        "eyebrow": "Operatsioonid, mida saad auditeerida",
+        "headline": "Päris õnnetuste taastamine. Päris varukoopiate verifitseerimine.",
+        "body": "Iga tund Postgresi varukoopiad pluss hostipõhised konfiguratsiooni hetktõmmised, krüpteeritud EL-is hallatavate võtmetega, replikeeritud eraldi EL-i regiooni. Taastamise õppused jooksevad kalendri järgi — mitte aspiratsiooniliselt — et taastamise tee oleks läbi mängitud enne, kui seda vajad. Statusleht juhitud päris pulsilöökidest, mitte käsitsi.",
+        "bullets": [
+          "Tunnipõhised krüpteeritud varukoopiad; regioonide vaheline replikatsioon EL-is.",
+          "Taastamise õppused graafiku järgi — taastamise tee on kontrollitud, mitte oletatud.",
+          "Reaalaja statusleht juhitud pulsilöögimonitoridest, mitte inimestest.",
+          "GlitchTip (EL) vigade jälgimiseks — ei mingit US-i Sentry kokkupuudet."
+        ]
+      }
+    }
+  },
+  "forDevelopers": {
+    "metaTitle": "Verkio arendajatele — Ehita Verkio peale",
+    "metaDescription": "REST API OpenAPI 3.1-ga, JMAP passthrough, allkirjastatud webhookid, voogedastatav audit-logi. Sign in with Verkio (OIDC) tulemas. Tasuta v1-s.",
+    "eyebrow": "Arendajatele",
+    "headline": "Ehita Verkio peale. Tüütud garantiid kaasas.",
+    "body": "Verkio on ehitatud API-esmane — samad otspunktid, mida veebirakendus kasutab, on sulle avatud. REST OpenAPI 3.1 spec-iga koodi genereerimiseks, JMAP otseseks juurdepääsuks posti protokollile, HMAC-allkirjastatud webhookid surnud kirjade järjekorraga ja voogedastatav audit-logi vastavuseks. Tasuta v1 tasemel.",
+    "cta": "Liitu ootenimekirjaga",
+    "backLink": "Tagasi avalehele",
+    "sections": {
+      "restApi": {
+        "eyebrow": "REST + JMAP",
+        "headline": "REST OpenAPI 3.1 spec-iga. JMAP passthrough posti jaoks.",
+        "body": "Iga otspunkt dokumenteeritud ühes OpenAPI 3.1 failis aadressil /api/v1/openapi.json — suuna sinna ükskõik milline koodi generaator ja saa tüpiseeritud klient oma keeles. Posti jaoks sisaldab API JMAP passthroughi, et iga JMAP-iga ühilduv teek räägiks otse sinu postkastidega.",
+        "bullets": [
+          "OpenAPI 3.1 spec aadressil /api/v1/openapi.json — koodi genereerimiseks valmis.",
+          "Interaktiivne viide aadressil /developers (Swagger UI).",
+          "Bearer-tokeni autentimine (RFC 6750). Võtmed puhkeasendis räsitud Argon2id-ga.",
+          "JMAP Core ja JMAP Mail (RFC 8620 / 8621) passthrough — kasuta ükskõik millist JMAP teeki.",
+          "Idempotency-Key tugi muteerivatel otspunktidel — turvaline uuesti proovida."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Allkirjastatud webhookid",
+        "headline": "HMAC-allkirjastatud kohaletoimetamine. Korduskatsed. Surnud kirjade järjekord.",
+        "body": "Telli sündmused, mis tähtsust omavad — uus post, audit-logi kanded, konto muudatused. Iga koorem on HMAC-SHA256 allkirjastatud. Ebaõnnestunud kohaletoimetamised proovitakse uuesti eksponentsiaalse tagasitõmbamisega; püsivad ebaõnnestumised satuvad surnud kirjade järjekorda, mida saad töölaualt vaadata ja uuesti mängida.",
+        "bullets": [
+          "HMAC-SHA256 allkiri koormaga (X-Verkio-Signature päis).",
+          "Eksponentsiaalne tagasitõmbamine 5xx ja ühendusvigade puhul.",
+          "Surnud kirjade järjekord töölaual — vaata, mängi uuesti, lükka tagasi.",
+          "Iga kohaletoimetamise katse logitud audit-logis."
+        ]
+      },
+      "auditApi": {
+        "eyebrow": "Audit-logi API",
+        "headline": "Iga administraatori toiming, programmiliselt.",
+        "body": "Sama audit-logi, mida loed töölaual, on saadaval ka API-na. Lehekülgedeks jaotatud, filtreeritav, enne/pärast väärtustega iga muudatuse juures. Saada oma SIEM-i webhookiga või küsi otspunktilt. Eksport CSV või JSONL kujul forensika jaoks. Seitse aastat säilitust vaikimisi.",
+        "bullets": [
+          "Lehekülgedeks jaotatud ja filtreeritav: kasutaja järgi, sündmuse tüübi järgi, kuupäevavahemiku järgi.",
+          "Enne/pärast väärtused iga mutatsiooni juures.",
+          "Saada oma SIEM-i webhookiga või küsi otspunktilt.",
+          "Seitse aastat säilitust vaikimisi. CSV või JSONL eksport igal ajal."
+        ]
+      },
+      "futureSignIn": {
+        "eyebrow": "Sign in with Verkio · Peagi",
+        "headline": "EL-i residentsusega identiteediteenuse pakkuja sinu kasutajatele.",
+        "body": "Standardne OIDC nupp, mida saad integreerida ükskõik millisele kolmanda osapoole saidile. EL-i residentsusega sisselogimise voog, ei mingit cross-site profileerimist, granulaarne nõusolek saidi kohta. Plaanitud, arendajate nõudluse juhitud — tasuta lõppkasutajatele, tasuta arendajatele v1-s. Tahad seda oma rakenduse jaoks? Ütle meile.",
+        "bullets": [
+          "Standardne OpenID Connect (OIDC) — ei mingit Verkio SDK-d ei nõuta.",
+          "Töötab ükskõik millise OIDC-teadliku identiteedimaakleriga (Auth0, Clerk, Keycloak, NextAuth).",
+          "Granulaarne nõusolek saidi kohta pluss ühendatud rakenduste töölaud lõppkasutajatele.",
+          "Tasuta v1-s — ütle meile, et tahad seda, ja me prioriseerime."
         ]
       }
     }

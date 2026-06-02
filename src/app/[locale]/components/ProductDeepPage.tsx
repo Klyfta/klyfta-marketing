@@ -11,6 +11,7 @@ export type ProductDeepPageProps = {
   namespace: string;
   sections: ProductSection[];
   hasStandards: boolean;
+  backLinkHref?: string;
 };
 
 export async function buildProductDeepPageMetadata({
@@ -39,7 +40,13 @@ export async function buildProductDeepPageMetadata({
   };
 }
 
-function Hero({ namespace }: { namespace: string }) {
+function Hero({
+  namespace,
+  backLinkHref,
+}: {
+  namespace: string;
+  backLinkHref: string;
+}) {
   const t = useTranslations(namespace);
   return (
     <section className="py-16 sm:py-24 lg:py-28">
@@ -60,7 +67,7 @@ function Hero({ namespace }: { namespace: string }) {
               {t("cta")}
             </Link>
             <Link
-              href="/product"
+              href={backLinkHref}
               className="text-sm font-semibold text-gray-600 hover:text-gray-900 transition-colors"
             >
               {t("backLink")} <span aria-hidden="true">→</span>
@@ -154,10 +161,11 @@ export function ProductDeepPage({
   namespace,
   sections,
   hasStandards,
+  backLinkHref = "/product",
 }: ProductDeepPageProps) {
   return (
     <>
-      <Hero namespace={namespace} />
+      <Hero namespace={namespace} backLinkHref={backLinkHref} />
       {sections.map((s, idx) => (
         <CapabilitySection
           key={s.key}

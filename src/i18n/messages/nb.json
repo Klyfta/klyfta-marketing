@@ -15,7 +15,26 @@
     "roadmap": "Veikart",
     "articles": "Artikler",
     "product": "Produkt",
+    "for": "For",
     "whyVerkio": "Hvorfor Verkio",
+    "audienceMenu": {
+      "individuals": {
+        "name": "Privatpersoner",
+        "description": "Et stille, EU-driftet alternativ."
+      },
+      "teams": {
+        "name": "Team",
+        "description": "Delte innbokser, kalendere, filer, wikier."
+      },
+      "itAdmins": {
+        "name": "IT og innkjøp",
+        "description": "DPA, revisjonslogg, SAML/SSO, EU-drift."
+      },
+      "developers": {
+        "name": "Utviklere",
+        "description": "REST, JMAP, signerte webhooks."
+      }
+    },
     "productMenu": {
       "comingSoon": "Kommer snart",
       "mail": {
@@ -1173,6 +1192,253 @@
           "Dashbord over tilkoblede apper som lister hvert nettsted du har logget inn på.",
           "Ett-klikks tilbakekalling, når som helst — nettstedet mister tilgangen umiddelbart.",
           "Ingen stille reautentisering; scope-endringer krever ferskt samtykke."
+        ]
+      }
+    }
+  },
+  "forIndividuals": {
+    "metaTitle": "Verkio for privatpersoner — EU-driftet arbeidssuite",
+    "metaDescription": "Et stille, AI-fritt alternativ til Gmail og iCloud. E-post, kalender, kontakter, filer — over åpne standarder, i EU. Ta med ditt eget domene.",
+    "eyebrow": "For privatpersoner",
+    "headline": "En stille arbeidssuite som er din, ikke plattformens.",
+    "body": "Et EU-driftet alternativ til Gmail, iCloud og Outlook.com. E-post, kalender, kontakter, filer — over åpne standarder, med basisen gjort skikkelig og ingen AI som leser innboksen din. Ta med ditt eget domene eller bruk en verkio.eu-adresse.",
+    "cta": "Bli med på ventelisten",
+    "backLink": "Tilbake til forsiden",
+    "sections": {
+      "core": {
+        "eyebrow": "Det grunnleggende, gjort skikkelig",
+        "headline": "E-post, kalender, kontakter, filer. Uten oppblåsthet.",
+        "body": "En rask, tastaturvennlig webmail, en kalender som synker med Apple Calendar og Thunderbird, en CardDAV-adressebok og fillagring med EU-forvaltede nøkler. Én innlogging. Én faktura.",
+        "bullets": [
+          "Webmail med tråder, søk, etiketter — tastaturvennlig.",
+          "Kalender over CalDAV — synker med Apple Calendar, Thunderbird, DAVx⁵.",
+          "Kontakter over CardDAV — vCard-import og -eksport, ingen proprietære formater.",
+          "Fillagring med ACL per fil og 30 dagers gjenoppretting fra Papirkurv.",
+          "E-postfiltre på serversiden (Sieve) — regler virker i alle klienter."
+        ]
+      },
+      "privacy": {
+        "eyebrow": "Stille av natur",
+        "headline": "Ingen AI som leser e-posten din. Ingen engasjementsmål.",
+        "body": "Verkio skanner ikke innboksen din for annonsemålretting. Vi måler ikke hvor ofte du sjekker appen. Vi selger ikke sammendrag til en modellleverandør. Produktet er postkassen, ikke oppmerksomheten din.",
+        "bullets": [
+          "Ingen AI-funksjoner som leser e-posten din.",
+          "Ingen engasjementsmål eller streak-varsler.",
+          "EU-driftede data — utenfor US CLOUD Act-jurisdiksjon.",
+          "Revisjonslogg for hver administrativ handling (din og vår)."
+        ]
+      },
+      "yourDomain": {
+        "eyebrow": "Ditt domene, dine aliaser",
+        "headline": "Bruk ditt eget domene. Ubegrensede aliaser.",
+        "body": "Ta med et domene du allerede eier, så konfigurerer vi DNS for deg. Få ubegrensede aliaser (med rimelig bruk) og en catch-all så feilstavede adresser fortsatt lander. Eller start på en verkio.eu-adresse og migrer senere — adresseboken følger med.",
+        "bullets": [
+          "Ta med ditt eget domene — automatisk DNS-oppsett hos ti EU-registrarer.",
+          "Ubegrensede aliaser per bruker (med rimelig bruk).",
+          "Catch-all på domenet ditt så feilstaving fortsatt lander.",
+          "Eller bruk en verkio.eu-adresse — samme suite, ingen domene å forvalte."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Flytt inn uten helga",
+        "headline": "Ta med innboksen din.",
+        "body": "Migrer fra Gmail, iCloud, Fastmail, Outlook.com — enhver IMAP-leverandør — i én flyt. Mapper, flagg og tråder bevart. Vi henter, du ser på fremdriftslinjen. Ingen 'eksporter mbox-en din og be' helgeprosjekt.",
+        "bullets": [
+          "Ettrykksimport fra Gmail, Outlook, iCloud, Fastmail eller enhver IMAP-server.",
+          "Mapper, etiketter, flagg, tråder — alt bevart.",
+          "Fremdriftslinje i dashbordet — ingen venting i mørket.",
+          "Kalendere og kontakter migrerer også, over standardformater."
+        ]
+      }
+    }
+  },
+  "forTeams": {
+    "metaTitle": "Verkio for team — EU-driftet arbeidssuite",
+    "metaDescription": "Delte postkasser med teamarbeidsflyt, kalendere, filer, wikier, meldinger. Revisjonslogg for ledelsen. Ett abonnement i stedet for fem.",
+    "eyebrow": "For team",
+    "headline": "Teamsuiten der alle møter opp samme sted.",
+    "body": "Delte postkasser med tildeling og ACL per mappe. Delte kalendere og filer. Wikier for runbooks. Meldinger for praten. Revisjonslogg for spørsmålene. Alt på åpne standarder, alt i EU, alt i ett abonnement.",
+    "cta": "Bli med på ventelisten",
+    "backLink": "Tilbake til forsiden",
+    "sections": {
+      "shared": {
+        "eyebrow": "Bygd for delt arbeid",
+        "headline": "Delte innbokser som ikke kjemper mot deg.",
+        "body": "En teaminnboks for support@ eller hello@ som håndterer tildeling, status og interne notater — projisert som IMAP-nøkkelord så power-brukere i Thunderbird eller Apple Mail fortsatt ser hvem som jobber med hva. Helpdesk-arbeidsflyt uten å kjøpe et helpdesk-produkt.",
+        "bullets": [
+          "Delte postkasser med tildeling, status og ACL per mappe.",
+          "Interne notater synlige kun for teamet.",
+          "Delte kalendere og delte filmapper per team.",
+          "Wikier for runbooks, beslutninger og det du ellers ville forklart om igjen hvert kvartal.",
+          "Meldinger i samme innlogging — kanaler, DM-er, tråder."
+        ]
+      },
+      "onboardOff": {
+        "eyebrow": "Onboarding og offboarding på en ryddig måte",
+        "headline": "Nyansatte og avgangne uten brå brudd.",
+        "body": "Legg til en ny kollega så får de e-post, kalender, kontakter, filer og tilgang til delt postkasse i én flyt. Når noen slutter, forblir innboksen tilgjengelig i tretti dager og videresendes til en utpekt eier — så et kundesvar dag fjorten fortsatt lander et nyttig sted.",
+        "bullets": [
+          "Legg til brukere med ett skjema — e-post, kalender, kontakter, filer klargjort umiddelbart.",
+          "Avgangen brukers innboks forblir tilgjengelig i 30 dager, videresendes til en navngitt eier.",
+          "Anti-loop-vern innebygd, revisjonslogget, kaskade tømmer hvis eieren også slutter.",
+          "Angre-invitasjon for den uunngåelige skrivefeilen."
+        ]
+      },
+      "audit": {
+        "eyebrow": "Svar når ledelsen spør",
+        "headline": "Hver administrativ handling, på protokollen.",
+        "body": "En kunderettet revisjonslogg med søk, før/etter-verdier og syv års oppbevaring. Når noen spør 'hvem delte den mappen eksternt', er svaret én spørring unna. Strøm hendelser til Splunk, Datadog eller hvilken som helst SIEM hvis du må.",
+        "bullets": [
+          "Revisjonslogg med før/etter-verdier på hver endring.",
+          "Syv års oppbevaring som standard — samsvarer med svensk bokföringslagen.",
+          "Strøm til Splunk, Datadog eller hvilken som helst SIEM via webhook.",
+          "Eksport til CSV eller JSONL for compliance eller etterforskning."
+        ]
+      },
+      "standards": {
+        "eyebrow": "Åpne standarder i teamet",
+        "headline": "Personen i teamet som bruker Thunderbird, klarer seg fint.",
+        "body": "Verkio snakker IMAP, SMTP, CalDAV, CardDAV, Sieve. Den i teamet som foretrekker Apple Mail, Thunderbird, Outlook eller K-9, logger bare på og jobber. Status og tildelinger på delt postkasse projisert som IMAP-nøkkelord så de også ser teamets tilstand.",
+        "bullets": [
+          "IMAP og SMTP — virker i alle standardkonforme e-postklienter.",
+          "CalDAV og CardDAV — kalendere og kontakter synker overalt.",
+          "Sieve-filtre kjører ved levering — regler virker i alle klienter.",
+          "Automatisk domeneoppsett pluss Thunderbird XML- og Apple .mobileconfig-profiler for umiddelbart enhetsoppsett."
+        ]
+      },
+      "oneBill": {
+        "eyebrow": "Én suite, én faktura",
+        "headline": "Slutt å sy sammen abonnementer.",
+        "body": "I dag betaler det gjennomsnittlige lille teamet for Google Workspace (e-post + kalender + Drive), Slack (meldinger), Notion (wiki) og et helpdesk-produkt — fem abonnementer, fem administratorkonsoller, fem brukerlivssyklusflyter. Verkio er ett abonnement, én konsoll, én revisjonslogg.",
+        "bullets": [
+          "Ett abonnement som erstatter e-post + kalender + filer + wiki + meldinger + helpdesk.",
+          "Én administratorkonsoll for brukere, fakturering, revisjon og domeneforvaltning.",
+          "Én identitet — klargjør én gang, tilgang til alt.",
+          "Mollie-fakturering i EUR — ingen US-betalingsbehandler i loopen."
+        ]
+      }
+    }
+  },
+  "forItAdmins": {
+    "metaTitle": "Verkio for IT og innkjøp — EU-driftet arbeidssuite",
+    "metaDescription": "EU-infrastruktur, ingen US CLOUD Act-eksponering, GDPR av natur. DPA, revisjonslogg, SAML/SSO, scopede API-nøkler, EU-forvaltede krypteringsnøkler, ekte katastrofegjenoppretting.",
+    "eyebrow": "For IT og innkjøp",
+    "headline": "De kjedelige garantiene innkjøp ber om.",
+    "body": "Bare EU-infrastruktur. Ekte revisjonslogg med SIEM-streaming. SAML/SSO med JIT-provisjonering. EU-forvaltede krypteringsnøkler, ikke US KMS. Åpne standarder så migrasjonsrisikoen holder seg lav. Ekte katastrofegjenopprettingsøvelser, ikke bare markedsføringspåstander.",
+    "cta": "Bli med på ventelisten",
+    "backLink": "Tilbake til forsiden",
+    "sections": {
+      "procurement": {
+        "eyebrow": "Klar for innkjøp",
+        "headline": "Papirarbeidet har ingen overraskelser.",
+        "body": "DPA, underleverandørliste, ROPA-klar revisjonslogg, GDPR-artikkel 15 / 17 / 20-flyter som faktisk virker — ikke 'vi kommer tilbake til deg'. Mollie (nederlandsk) håndterer fakturering i stedet for Stripe (US), og lukker det største US-underleverandørforbeholdet i innkjøpsgjennomganger.",
+        "bullets": [
+          "Standard DPA (Artikkel 28-konform) tilgjengelig før signering.",
+          "Offentlig underleverandørliste — hver avhengighet navngitt, alle EU-eide der det betyr noe.",
+          "GDPR artikkel 15 (innsyn), artikkel 17 (sletting), artikkel 20 (portabilitet) — alt med ett klikk.",
+          "Mollie håndterer betalinger i stedet for Stripe — ingen US-betalingsbehandler.",
+          "Syv års oppbevaring av revisjonslogg samsvarer med svensk bokföringslagen."
+        ]
+      },
+      "residency": {
+        "eyebrow": "EU-residens, helt ned",
+        "headline": "Ingen US-hyperscaler noe sted i kjeden.",
+        "body": "Hetzner-servere i Tyskland og Finland. Hetzner DNS (ikke Cloudflare). Vault Transit på EU-driftet infrastruktur for nøkkelwrapping (ikke AWS KMS). GlitchTip for feilsporing (ikke Sentry). Hetzner Storage Box for backuper (ikke S3). Ikke et lag satt ut til en US-sky.",
+        "bullets": [
+          "Compute på Hetzner Cloud — regioner i Tyskland og Finland.",
+          "Autoritative DNS på Hetzner DNS Console — EU-eid, ikke Cloudflare.",
+          "Krypteringsnøkler at-rest wrappet av Vault Transit på EU-driftet infrastruktur — ingen US KMS.",
+          "Backuper til Hetzner Storage Box (EU) — ingen S3, GCS eller Azure Blob."
+        ]
+      },
+      "identityAndAccess": {
+        "eyebrow": "Identitet og tilgang",
+        "headline": "SSO, revisjonsloggstreaming, scopede nøkler.",
+        "body": "SAML 2.0-føderasjon til Okta, Azure AD, Google Workspace eller hvilken som helst standardkonform IdP — med just-in-time brukerprovisjonering og gruppe/rolle-mapping reevaluert ved hver innlogging. Revisjonslogg strømbar til din SIEM. Scopede, roterbare API-nøkler for hver integrasjon.",
+        "bullets": [
+          "SAML 2.0 SSO med hvilken som helst IdP — Okta, Azure AD, Google Workspace, Keycloak.",
+          "Just-in-time-provisjonering ved første innlogging — ingen manuell brukeropprettelse.",
+          "Gruppe- og rolle-mapping reevaluert ved hver innlogging — ingen utdaterte tillatelser.",
+          "Scopede API-nøkler med rotasjon — read-only, per postkasse, per organisasjon.",
+          "Revisjonsloggstreaming til Splunk, Datadog eller hvilken som helst SIEM via webhook."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Migrasjonsrisiko: lav",
+        "headline": "Standarder betyr at å forlate alltid er et alternativ.",
+        "body": "Hver del av suiten snakker åpne standarder — IMAP, SMTP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Hvis Verkio ikke leverer, kommer dataene dine like rent ut som de kom inn. Ingen proprietær protokoll betyr ingen migrasjonsprosjekt på år tre.",
+        "bullets": [
+          "Standarder: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
+          "Artikkel 20 portabilitetseksport i interoperable formater — ett klikk.",
+          "Automatisk domeneoppsett hos ti EU DNS-registrarer (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, flere).",
+          "E-postimport fra Microsoft 365, Google Workspace eller hvilken som helst IMAP — mapper, flagg, tråder bevart."
+        ]
+      },
+      "ops": {
+        "eyebrow": "Drift du kan revidere",
+        "headline": "Ekte katastrofegjenoppretting. Ekte backupverifisering.",
+        "body": "Timesvise Postgres-backuper pluss konfigurasjonssnapshots per vert, kryptert med EU-forvaltede nøkler, replikert til en separat EU-region. Gjenopprettingsøvelser kjøres på kalender — ikke aspirerende — så gjenopprettingsstien er øvd på før du trenger den. Statussiden drevet av ekte heartbeats, ikke for hånd.",
+        "bullets": [
+          "Timesvise krypterte backuper; krysregional replikering i EU.",
+          "Gjenopprettingsøvelser etter plan — gjenopprettingsstien er verifisert, ikke antatt.",
+          "Sanntidsstatusside drevet av heartbeat-monitorer, ikke mennesker.",
+          "GlitchTip (EU) for feilsporing — ingen US Sentry-eksponering."
+        ]
+      }
+    }
+  },
+  "forDevelopers": {
+    "metaTitle": "Verkio for utviklere — Bygg på Verkio",
+    "metaDescription": "REST API med OpenAPI 3.1, JMAP-passthrough, signerte webhooks, strømbar revisjonslogg. Sign in with Verkio (OIDC) kommer. Gratis for v1.",
+    "eyebrow": "For utviklere",
+    "headline": "Bygg på Verkio. De kjedelige garantiene inkludert.",
+    "body": "Verkio er bygd API-first — de samme endepunktene webappen bruker er åpne for deg. REST med en OpenAPI 3.1-spesifikasjon for codegen, JMAP for direkte tilgang til e-postprotokollen, HMAC-signerte webhooks med en dead-letter-kø, og en strømbar revisjonslogg for compliance. Gratis på v1-nivået.",
+    "cta": "Bli med på ventelisten",
+    "backLink": "Tilbake til forsiden",
+    "sections": {
+      "restApi": {
+        "eyebrow": "REST + JMAP",
+        "headline": "REST med en OpenAPI 3.1-spesifikasjon. JMAP-passthrough for e-post.",
+        "body": "Hvert endepunkt dokumentert i én OpenAPI 3.1-fil på /api/v1/openapi.json — pek hvilket som helst codegen-verktøy på den og få en typet klient i ditt språk. For e-post inkluderer API-et en JMAP-passthrough så hvilket som helst JMAP-kompatibelt bibliotek snakker direkte med postkassene dine.",
+        "bullets": [
+          "OpenAPI 3.1-spesifikasjon på /api/v1/openapi.json — klar for codegen.",
+          "Interaktiv referanse på /developers (Swagger UI).",
+          "Bearer-token-autentisering (RFC 6750). Nøkler hashet med Argon2id at-rest.",
+          "JMAP Core og JMAP Mail (RFC 8620 / 8621) passthrough — bruk hvilket som helst JMAP-bibliotek.",
+          "Idempotency-Key-støtte på mutasjonsendepunkter — trygt å prøve på nytt."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Signerte webhooks",
+        "headline": "HMAC-signert levering. Reforsøk. Dead-letter-kø.",
+        "body": "Abonner på hendelser som betyr noe — ny e-post, revisjonsloggoppføringer, kontoendringer. Hver payload er HMAC-SHA256-signert. Mislykkede leveranser prøves på nytt med eksponentiell backoff; vedvarende feil havner i en dead-letter-kø du kan inspisere og spille av igjen fra dashbordet.",
+        "bullets": [
+          "HMAC-SHA256-signatur per payload (X-Verkio-Signature-header).",
+          "Eksponentiell backoff ved 5xx- og tilkoblingsfeil.",
+          "Dead-letter-kø i dashbordet — inspiser, spill av igjen, avvis.",
+          "Hvert leveringsforsøk logget i revisjonsloggen."
+        ]
+      },
+      "auditApi": {
+        "eyebrow": "Revisjonslogg-API",
+        "headline": "Hver administrativ handling, programmatisk.",
+        "body": "Samme revisjonslogg du leser i dashbordet er tilgjengelig som et API. Paginert, filtrerbart, med før/etter-verdier på hver endring. Strøm til din SIEM via webhook eller poll endepunktet. Eksporter til CSV eller JSONL for etterforskning. Syv års oppbevaring som standard.",
+        "bullets": [
+          "Paginert og filtrerbart: per bruker, per hendelsestype, per datointervall.",
+          "Før/etter-verdier på hver mutasjon.",
+          "Strøm til din SIEM via webhook eller pull-endepunkt.",
+          "Syv års oppbevaring som standard. CSV- eller JSONL-eksport når som helst."
+        ]
+      },
+      "futureSignIn": {
+        "eyebrow": "Sign in with Verkio · Kommer snart",
+        "headline": "En EU-driftet identitetsleverandør for brukerne dine.",
+        "body": "En standard OIDC-knapp du kan integrere i hvilken som helst tredjeparts side. EU-driftet innloggingsflyt, ingen cross-site-profilering, granulær samtykke per side. Planlagt, drevet av utvikleretterspørsel — gratis for sluttbrukere, gratis for utviklere på v1. Vil du ha det til appen din? Si fra til oss.",
+        "bullets": [
+          "Standard OpenID Connect (OIDC) — ingen Verkio-SDK kreves.",
+          "Virker med hvilken som helst OIDC-bevisst identitetsbroker (Auth0, Clerk, Keycloak, NextAuth).",
+          "Granulær samtykke per side pluss dashbord for tilkoblede apper for sluttbrukere.",
+          "Gratis på v1 — si fra til oss at du vil ha det, så prioriterer vi det."
         ]
       }
     }

@@ -15,7 +15,26 @@
     "roadmap": "Vegvísir",
     "articles": "Greinar",
     "product": "Vara",
+    "for": "Fyrir",
     "whyVerkio": "Hvers vegna Verkio",
+    "audienceMenu": {
+      "individuals": {
+        "name": "Einstaklingar",
+        "description": "Rólegur valkostur með ESB-búsetu."
+      },
+      "teams": {
+        "name": "Teymi",
+        "description": "Sameiginleg pósthólf, dagatöl, skrár, wikis."
+      },
+      "itAdmins": {
+        "name": "Upplýsingatækni og innkaup",
+        "description": "DPA, eftirlitsskrá, SAML/SSO, ESB-búseta."
+      },
+      "developers": {
+        "name": "Forritarar",
+        "description": "REST, JMAP, undirritaðir webhooks."
+      }
+    },
     "productMenu": {
       "comingSoon": "Bráðum",
       "mail": {
@@ -1173,6 +1192,253 @@
           "Mælaborð tengdra appa sem skráir hverja vefsíðu sem þú hefur skráð þig inn á.",
           "Einsmells afturköllun, hvenær sem er — vefsíðan missir aðgang strax.",
           "Engin þögul endurauðkenning; sviðsbreytingar krefjast nýs samþykkis."
+        ]
+      }
+    }
+  },
+  "forIndividuals": {
+    "metaTitle": "Verkio fyrir einstaklinga — Vinnusvíta með ESB-búsetu",
+    "metaDescription": "Rólegur, gervigreindarlaus valkostur við Gmail og iCloud. Póstur, dagatal, tengiliðir, skrár — yfir opna staðla, í ESB. Komdu með þitt eigið lén.",
+    "eyebrow": "Fyrir einstaklinga",
+    "headline": "Róleg vinnusvíta sem er þín — ekki pallsins.",
+    "body": "Valkostur með ESB-búsetu við Gmail, iCloud og Outlook.com. Póstur, dagatal, tengiliðir, skrár — yfir opna staðla, með grunninn rétt gerðan og engin gervigreind sem les pósthólfið þitt. Komdu með þitt eigið lén eða notaðu verkio.eu netfang.",
+    "cta": "Skráðu þig á biðlista",
+    "backLink": "Til baka á forsíðu",
+    "sections": {
+      "core": {
+        "eyebrow": "Grunnurinn, rétt gerður",
+        "headline": "Póstur, dagatal, tengiliðir, skrár. Án uppbólgu.",
+        "body": "Hraður lyklaborðsmiðaður vefpóstur, dagatal sem samstillir við Apple Calendar og Thunderbird, CardDAV netfangaskrá og skráageymsla með lyklum stýrðum í ESB. Ein innskráning. Einn reikningur.",
+        "bullets": [
+          "Vefpóstur með þráðum, leit, merkjum — lyklaborðsmiðaður.",
+          "Dagatal yfir CalDAV — samstilling við Apple Calendar, Thunderbird, DAVx⁵.",
+          "Tengiliðir yfir CardDAV — vCard inn- og útflutningur, engin séreignarsnið.",
+          "Skráageymsla með ACL á hverri skrá og 30 daga rusla-endurheimt.",
+          "Pósthýsingar-síur (Sieve) — reglur virkjast í hverjum biðlara."
+        ]
+      },
+      "privacy": {
+        "eyebrow": "Rólegt frá grunni",
+        "headline": "Engin gervigreind les póstinn þinn. Engar þátttökumælingar.",
+        "body": "Verkio skannar ekki pósthólfið þitt fyrir auglýsingamörkun. Við mælum ekki hve oft þú opnar appið. Við seljum ekki samantektir til líkanaframleiðanda. Varan er pósthólfið, ekki athygli þín.",
+        "bullets": [
+          "Engin gervigreindar-aðgerðir sem lesa póstinn þinn.",
+          "Engar þátttökumælingar eða röðunartilkynningar.",
+          "Gögn með ESB-búsetu — utan lögsögu US CLOUD Act.",
+          "Eftirlitsskrá fyrir hverja stjórnunaraðgerð (þína og okkar)."
+        ]
+      },
+      "yourDomain": {
+        "eyebrow": "Þitt lén, þín samheiti",
+        "headline": "Notaðu þitt eigið lén. Ótakmörkuð samheiti.",
+        "body": "Komdu með lén sem þú átt nú þegar og við stillum DNS fyrir þig. Ótakmörkuð samheiti (innan skynsamlegrar notkunar) og catch-all svo rangt skrifuð netföng komist samt á áfangastað. Eða byrjaðu með verkio.eu netfangi og flyttu seinna — netfangaskráin fylgir með.",
+        "bullets": [
+          "Komdu með þitt eigið lén — sjálfvirk DNS-uppsetning hjá tíu ESB-skráningarstofum.",
+          "Ótakmörkuð samheiti á notanda (innan skynsamlegrar notkunar).",
+          "Catch-all á léninu þínu svo innsláttarvillur komist samt á áfangastað.",
+          "Eða notaðu verkio.eu netfang — sama svíta, ekkert lén til að stjórna."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Flyttu inn án þess að eyða helginni",
+        "headline": "Komdu með pósthólfið með þér.",
+        "body": "Fluttu frá Gmail, iCloud, Fastmail, Outlook.com — hvaða IMAP veitanda sem er — í einu flæði. Möppur, fánar og þræðir varðveittir. Við sækjum, þú horfir á framvinduslána. Engin „flyttu mboxið þitt út og biddu“-helgarvinna.",
+        "bullets": [
+          "Eins smells innflutningur frá Gmail, Outlook, iCloud, Fastmail eða hvaða IMAP miðlara sem er.",
+          "Möppur, merki, fánar, þræðir — allt varðveitt.",
+          "Framvindusláin í mælaborðinu — engin blind bið.",
+          "Dagatöl og tengiliðir flytjast líka, yfir staðlað snið."
+        ]
+      }
+    }
+  },
+  "forTeams": {
+    "metaTitle": "Verkio fyrir teymi — Vinnusvíta með ESB-búsetu",
+    "metaDescription": "Sameiginleg pósthólf með teymisvinnuferli, dagatöl, skrár, wikis, skilaboð. Eftirlitsskrá fyrir stjórnendur. Eitt áskrift í stað fimm.",
+    "eyebrow": "Fyrir teymi",
+    "headline": "Teymissvítan þar sem allir hittast á sama stað.",
+    "body": "Sameiginleg pósthólf með úthlutun og ACL á hverri möppu. Sameiginleg dagatöl og skrár. Wikis fyrir handbækur. Skilaboð fyrir spjall. Eftirlitsskrá fyrir spurningarnar. Allt á opnum stöðlum, allt í ESB, allt í einni áskrift.",
+    "cta": "Skráðu þig á biðlista",
+    "backLink": "Til baka á forsíðu",
+    "sections": {
+      "shared": {
+        "eyebrow": "Byggt fyrir sameiginlegt starf",
+        "headline": "Sameiginleg pósthólf sem berjast ekki á móti þér.",
+        "body": "Teymis-pósthólf fyrir support@ eða hello@ sem ræður við úthlutun, stöðu og innri minnispunkta — varpað sem IMAP-lykilorð svo aðalnotendur í Thunderbird eða Apple Mail sjá líka hver er að vinna í hverju. Helpdesk-vinnuferli án þess að kaupa helpdesk-vöru.",
+        "bullets": [
+          "Sameiginleg pósthólf með úthlutun, stöðu og ACL á hverri möppu.",
+          "Innri minnispunktar, sýnilegir aðeins teyminu.",
+          "Sameiginleg dagatöl og sameiginlegar skráamöppur, eftir teymum.",
+          "Wikis fyrir handbækur, ákvarðanir og hluti sem þú myndir annars útskýra á hverju ársfjórðungi.",
+          "Skilaboð í sömu innskráningu — rásir, einkaskilaboð, þræðir."
+        ]
+      },
+      "onboardOff": {
+        "eyebrow": "Innleiðing og útleiðing hreinlega",
+        "headline": "Nýir og hættandi án hörðum brotum.",
+        "body": "Bættu við nýjum samstarfsfélaga og hann fær póst, dagatal, tengiliði, skrár og aðgang að sameiginlegum pósthólfum í einu flæði. Þegar einhver hættir helst pósthólfið aðgengilegt í þrjátíu daga og áframsendir til tilnefnds eiganda — svo viðskiptavinasvar á degi fjórtán lendir samt einhvers staðar nytsamlegu.",
+        "bullets": [
+          "Bættu við notendum með einu eyðublaði — póstur, dagatal, tengiliðir, skrár tilbúin samstundis.",
+          "Pósthólf þess sem fer er aðgengilegt í 30 daga, áframsendir til nafngreindrar persónu.",
+          "Innbyggðar vörn gegn lykkjum, eftirlitsskráð, skýr keðjuvirkjun ef sá eigandi fer líka.",
+          "Afturkalla-boð fyrir óhjákvæmilegu innsláttarvilluna."
+        ]
+      },
+      "audit": {
+        "eyebrow": "Svör þegar stjórnendur spyrja",
+        "headline": "Hver stjórnunaraðgerð, skráð.",
+        "body": "Eftirlitsskrá sýnileg viðskiptavini með leit, fyrir/eftir gildum og sjö ára geymslu. Þegar einhver spyr „hver deildi þeirri möppu utanaðkomandi“ er svarið ein fyrirspurn í burtu. Streymdu atburðum til Splunk, Datadog eða hvaða SIEM sem er ef þú þarft.",
+        "bullets": [
+          "Eftirlitsskrá með fyrir/eftir gildum við hverja breytingu.",
+          "Sjö ára geymsla sjálfgefið — passar við sænska bokföringslagen.",
+          "Streymdu til Splunk, Datadog eða hvaða SIEM sem er gegnum webhook.",
+          "Flyttu út í CSV eða JSONL fyrir reglufylgni eða réttarrannsóknir."
+        ]
+      },
+      "standards": {
+        "eyebrow": "Opnir staðlar í teyminu",
+        "headline": "Sá í teyminu sem notar Thunderbird er í lagi.",
+        "body": "Verkio talar IMAP, SMTP, CalDAV, CardDAV, Sieve. Hver sem í teyminu velur Apple Mail, Thunderbird, Outlook eða K-9 skráir sig bara inn og vinnur. Staða og úthlutun sameiginlegra pósthólfa er varpað sem IMAP-lykilorð svo þeir sjá líka stöðu teymisins.",
+        "bullets": [
+          "IMAP og SMTP — virkar í hverjum póstbiðlara sem fylgir stöðlum.",
+          "CalDAV og CardDAV — dagatöl og tengiliðir samstillast alls staðar.",
+          "Sieve-síur virkjast við afhendingu — reglur virka í hverjum biðlara.",
+          "Sjálfvirk lénsuppsetning ásamt Thunderbird XML og Apple .mobileconfig sniðum fyrir tafarlausa tækjauppsetningu."
+        ]
+      },
+      "oneBill": {
+        "eyebrow": "Ein svíta, einn reikningur",
+        "headline": "Hættu að sauma saman áskriftir.",
+        "body": "Í dag borgar meðal lítið teymi fyrir Google Workspace (póst + dagatal + Drive), Slack (skilaboð), Notion (wiki) og helpdesk-vöru — fimm áskriftir, fimm stjórnborð, fimm flæði notendalífsferils. Verkio er ein áskrift, eitt borð, ein eftirlitsskrá.",
+        "bullets": [
+          "Ein áskrift kemur í stað pósts + dagatals + skráa + wikis + skilaboða + helpdesk.",
+          "Eitt stjórnborð fyrir notendur, reikningagerð, eftirlit og lénastjórnun.",
+          "Eitt auðkenni — leyfðu einu sinni, fáðu aðgang að öllu.",
+          "Mollie reikningagerð í EUR — enginn US greiðsluvinnsluaðili í keðjunni."
+        ]
+      }
+    }
+  },
+  "forItAdmins": {
+    "metaTitle": "Verkio fyrir upplýsingatækni og innkaup — Vinnusvíta með ESB-búsetu",
+    "metaDescription": "ESB-innviðir, engin útsetning fyrir US CLOUD Act, GDPR-innfætt. DPA, eftirlitsskrá, SAML/SSO, afmarkaðir API-lyklar, dulkóðunarlyklar stýrðir í ESB, raunveruleg endurheimt eftir áföll.",
+    "eyebrow": "Fyrir upplýsingatækni og innkaup",
+    "headline": "Leiðinlegu ábyrgðirnar sem innkaup spyrja um.",
+    "body": "Aðeins ESB-innviðir. Raunveruleg eftirlitsskrá með SIEM-streymi. SAML/SSO með JIT-úthlutun. Dulkóðunarlyklar stýrðir í ESB, ekki US KMS. Opnir staðlar svo flutningsáhætta haldist lág. Raunverulegar endurheimtaræfingar, ekki markaðsfullyrðingar.",
+    "cta": "Skráðu þig á biðlista",
+    "backLink": "Til baka á forsíðu",
+    "sections": {
+      "procurement": {
+        "eyebrow": "Tilbúið fyrir innkaup",
+        "headline": "Pappírsvinnan kemur ekki á óvart.",
+        "body": "DPA, undirvinnsluaðilalisti, ROPA-tilbúin eftirlitsskrá, GDPR Grein 15 / 17 / 20 vinnuferli sem raunverulega keyra — ekki „við svörum“. Mollie (hollensk) sér um reikningagerð í stað Stripe (US) og lokar þannig stærsta US-undirvinnsluaðila-fyrirvaranum í innkaupayfirferðum.",
+        "bullets": [
+          "Stöðluð DPA (samkvæmt Grein 28) í boði fyrir undirritun.",
+          "Opinber undirvinnsluaðilalisti — hver háðsemd nafngreind, í ESB-eigu þar sem það skiptir máli.",
+          "GDPR Grein 15 (aðgangur), Grein 17 (eyðing), Grein 20 (flytjanleiki) — allt með einum smelli.",
+          "Mollie sér um greiðslur í stað Stripe — enginn US greiðsluvinnsluaðili.",
+          "Sjö ára geymsla eftirlitsskráar passar við sænska bokföringslagen."
+        ]
+      },
+      "residency": {
+        "eyebrow": "ESB-búseta, alla leið niður",
+        "headline": "Enginn US hyperscaler nokkurs staðar í keðjunni.",
+        "body": "Hetzner-miðlarar í Þýskalandi og Finnlandi. Hetzner DNS (ekki Cloudflare). Vault Transit á innviðum með ESB-búsetu fyrir lyklavafningu (ekki AWS KMS). GlitchTip fyrir villueftirlit (ekki Sentry). Hetzner Storage Box fyrir afrit (ekki S3). Ekki eitt lag útvistað til US skýs.",
+        "bullets": [
+          "Compute á Hetzner Cloud — svæðin Þýskaland og Finnland.",
+          "Heimildarlegt DNS á Hetzner DNS Console — í ESB-eigu, ekki Cloudflare.",
+          "Dulkóðunarlyklar í hvíld vafðir af Vault Transit á innviðum með ESB-búsetu — engin US KMS.",
+          "Afrit á Hetzner Storage Box (ESB) — engin S3, engin GCS, engin Azure Blob."
+        ]
+      },
+      "identityAndAccess": {
+        "eyebrow": "Auðkenni og aðgangur",
+        "headline": "SSO, streymi eftirlitsskráar, afmarkaðir lyklar.",
+        "body": "SAML 2.0 sambandsstofnun við Okta, Azure AD, Google Workspace eða hvaða stöðlum samhæfða IdP sem er — með just-in-time notendaúthlutun og hópa/hlutverka-vörpun endurmetinn við hverja innskráningu. Eftirlitsskrá streymanleg til SIEM þíns. Afmarkaðir, snúanlegir API-lyklar fyrir hverja samþættingu.",
+        "bullets": [
+          "SAML 2.0 SSO við hvaða IdP sem er — Okta, Azure AD, Google Workspace, Keycloak.",
+          "Just-in-time úthlutun við fyrstu innskráningu — engin handvirk notendastofnun.",
+          "Hópa- og hlutverka-vörpun endurmetinn við hverja innskráningu — engar gamlar heimildir.",
+          "Afmarkaðir API-lyklar með snúningi — aðeins lesa, á pósthólf, á samtök.",
+          "Streymi eftirlitsskráar til Splunk, Datadog eða hvaða SIEM sem er gegnum webhook."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Flutningsáhætta: lág",
+        "headline": "Staðlar þýða að fara er alltaf valkostur.",
+        "body": "Hver hluti svítunnar talar opna staðla — IMAP, SMTP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Ef Verkio bregst, fara gögnin þín út jafn hreinlega og þau komu inn. Engin séreignar-samskiptaregla þýðir ekkert flutningsverkefni á þriðja ári.",
+        "bullets": [
+          "Staðlar: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
+          "Útflutningur flytjanleika samkvæmt Grein 20 í samvirkum sniðum — einn smellur.",
+          "Sjálfvirk lénsuppsetning hjá tíu ESB DNS skráningarstofum (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, fleiri).",
+          "Innflutningur pósts frá Microsoft 365, Google Workspace eða hvaða IMAP sem er — möppur, fánar, þræðir varðveittir."
+        ]
+      },
+      "ops": {
+        "eyebrow": "Rekstur sem þú getur endurskoðað",
+        "headline": "Raunveruleg endurheimt eftir áföll. Raunveruleg sannprófun afrita.",
+        "body": "Klukkutíma Postgres afrit auk vélar-stillingarsneiðmynda, dulkóðað með lyklum stýrðum í ESB, eftirritað til aðskilins ESB-svæðis. Endurheimtaræfingar keyra eftir dagatali — ekki von — svo endurheimtaleiðin er æfð áður en þú þarft á henni að halda. Stöðusíða knúin af raunverulegum hjartslætti, ekki handvirkt.",
+        "bullets": [
+          "Klukkutíma dulkóðuð afrit; eftirritun milli svæða innan ESB.",
+          "Endurheimtaræfingar samkvæmt áætlun — endurheimtaleið staðfest, ekki gefin sem sjálfsögð.",
+          "Rauntíma stöðusíða knúin af hjartslátarvöktum, ekki mönnum.",
+          "GlitchTip (ESB) fyrir villueftirlit — engin US Sentry útsetning."
+        ]
+      }
+    }
+  },
+  "forDevelopers": {
+    "metaTitle": "Verkio fyrir forritara — Byggðu á Verkio",
+    "metaDescription": "REST API með OpenAPI 3.1, JMAP passthrough, undirritaðir webhooks, streymanleg eftirlitsskrá. Sign in with Verkio (OIDC) væntanlegt. Ókeypis í v1.",
+    "eyebrow": "Fyrir forritara",
+    "headline": "Byggðu á Verkio. Leiðinlegu ábyrgðirnar fylgja með.",
+    "body": "Verkio er byggt API-fyrst — sömu endapunktar og vefappið notar eru opnir þér. REST með OpenAPI 3.1 forskrift fyrir kóðagerð, JMAP fyrir beinan aðgang að póstreglu, HMAC-undirritaðir webhooks með dauðabréfaröð og streymanleg eftirlitsskrá fyrir reglufylgni. Ókeypis á v1 stigi.",
+    "cta": "Skráðu þig á biðlista",
+    "backLink": "Til baka á forsíðu",
+    "sections": {
+      "restApi": {
+        "eyebrow": "REST + JMAP",
+        "headline": "REST með OpenAPI 3.1 forskrift. JMAP passthrough fyrir póst.",
+        "body": "Hver endapunktur skjalfestur í einni OpenAPI 3.1 skrá á /api/v1/openapi.json — bentu hvaða kóðagerðarverkfæri sem er á hana og fáðu týpaðan biðlara á þínu máli. Fyrir póst inniheldur API JMAP passthrough svo hvaða JMAP-samhæft bókasafn sem er talar beint við pósthólfin þín.",
+        "bullets": [
+          "OpenAPI 3.1 forskrift á /api/v1/openapi.json — tilbúin fyrir kóðagerð.",
+          "Gagnvirk tilvísun á /developers (Swagger UI).",
+          "Bearer-tákn auðkenning (RFC 6750). Lyklar hashaðir með Argon2id í hvíld.",
+          "JMAP Core og JMAP Mail (RFC 8620 / 8621) passthrough — notaðu hvaða JMAP bókasafn sem er.",
+          "Idempotency-Key stuðningur á breytandi endapunktum — öruggt að endurtaka."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Undirritaðir webhooks",
+        "headline": "HMAC-undirrituð afhending. Endurteknar tilraunir. Dauðabréfaröð.",
+        "body": "Skráðu þig á viðburði sem skipta máli — nýr póstur, eftirlitsskráarfærslur, reikningabreytingar. Hver burður er HMAC-SHA256 undirritaður. Misheppnaðar afhendingar reynast aftur með veldislegri hopun; viðvarandi mistök lenda í dauðabréfaröð sem þú getur skoðað og endurspilað úr mælaborðinu.",
+        "bullets": [
+          "HMAC-SHA256 undirskrift á burði (X-Verkio-Signature haus).",
+          "Veldisleg hopun við 5xx og tengingarvillur.",
+          "Dauðabréfaröð í mælaborðinu — skoða, endurspila, hafna.",
+          "Hver afhendingartilraun skráð í eftirlitsskrá."
+        ]
+      },
+      "auditApi": {
+        "eyebrow": "Eftirlitsskráar-API",
+        "headline": "Hver stjórnunaraðgerð, forritunarlega.",
+        "body": "Sama eftirlitsskrá og þú lest í mælaborðinu er aðgengileg sem API. Síðuskipt, síanleg, með fyrir/eftir gildum við hverja breytingu. Streymdu til SIEM þíns gegnum webhook eða pollaðu endapunktinn. Flyttu út í CSV eða JSONL fyrir réttarrannsóknir. Sjö ára geymsla sjálfgefið.",
+        "bullets": [
+          "Síðuskipt og síanleg: eftir notanda, eftir viðburðagerð, eftir dagsetningasviði.",
+          "Fyrir/eftir gildi við hverja breytingu.",
+          "Streymdu til SIEM þíns gegnum webhook eða pull endapunkt.",
+          "Sjö ára geymsla sjálfgefið. CSV eða JSONL útflutningur hvenær sem er."
+        ]
+      },
+      "futureSignIn": {
+        "eyebrow": "Sign in with Verkio · Bráðum",
+        "headline": "Auðkennisveitandi með ESB-búsetu fyrir notendur þína.",
+        "body": "Stöðluð OIDC hnappur sem þú getur samþætt á hvaða þriðja aðila vefsíðu sem er. Innskráningarflæði með ESB-búsetu, engin þvermilluvefssíða-prófílgerð, fínkornótt samþykki á hverri vefsíðu. Skipulagt, knúið af eftirspurn forritara — ókeypis fyrir endanotendur, ókeypis fyrir forritara í v1. Viltu það fyrir appið þitt? Segðu okkur.",
+        "bullets": [
+          "Staðlað OpenID Connect (OIDC) — ekkert Verkio SDK krafist.",
+          "Virkar með hvaða OIDC-meðvituðu auðkennismiðlara sem er (Auth0, Clerk, Keycloak, NextAuth).",
+          "Fínkornótt samþykki á hverri vefsíðu auk mælaborðs tengdra appa fyrir endanotendur.",
+          "Ókeypis í v1 — segðu okkur að þú viljir það og við forgangsröðum."
         ]
       }
     }

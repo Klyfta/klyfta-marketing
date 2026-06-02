@@ -14,7 +14,26 @@
     "roadmap": "Roadmap",
     "articles": "Articles",
     "product": "Product",
+    "for": "For",
     "whyVerkio": "Why Verkio",
+    "audienceMenu": {
+      "individuals": {
+        "name": "Individuals",
+        "description": "A quiet, EU-resident alternative."
+      },
+      "teams": {
+        "name": "Teams",
+        "description": "Shared inboxes, calendars, files, wikis."
+      },
+      "itAdmins": {
+        "name": "IT & Procurement",
+        "description": "DPA, audit log, SAML/SSO, EU residency."
+      },
+      "developers": {
+        "name": "Developers",
+        "description": "REST, JMAP, signed webhooks."
+      }
+    },
     "productMenu": {
       "comingSoon": "Coming soon",
       "mail": {
@@ -1177,6 +1196,253 @@
           "Connected-apps dashboard listing every site you've signed into.",
           "One-click revoke, anytime — site loses access immediately.",
           "No silent re-authentication; scope changes require fresh consent."
+        ]
+      }
+    }
+  },
+  "forIndividuals": {
+    "metaTitle": "Verkio for Individuals — EU-resident work suite",
+    "metaDescription": "A quiet, AI-free alternative to Gmail and iCloud. Mail, calendar, contacts, files — over open standards, in the EU. Bring your domain.",
+    "eyebrow": "For Individuals",
+    "headline": "A quiet work suite that's yours, not the platform's.",
+    "body": "An EU-resident alternative to Gmail, iCloud, and Outlook.com. Mail, calendar, contacts, files — over open standards, with the basics done right and no AI reading your inbox. Bring your own domain or use a verkio.eu address.",
+    "cta": "Join waitlist",
+    "backLink": "Back to home",
+    "sections": {
+      "core": {
+        "eyebrow": "The basics, done right",
+        "headline": "Mail, calendar, contacts, files. Without the bloat.",
+        "body": "A fast keyboard-first webmail, a calendar that syncs to Apple Calendar and Thunderbird, a CardDAV address book, and file storage with EU-managed keys. One login. One bill.",
+        "bullets": [
+          "Webmail with threading, search, labels — keyboard-first.",
+          "Calendar over CalDAV — sync to Apple Calendar, Thunderbird, DAVx⁵.",
+          "Contacts over CardDAV — vCard import and export, no proprietary format.",
+          "File storage with per-file ACLs and 30-day Trash recovery.",
+          "Server-side mail filters (Sieve) — rules fire in every client."
+        ]
+      },
+      "privacy": {
+        "eyebrow": "Quiet by design",
+        "headline": "No AI reading your mail. No engagement metrics.",
+        "body": "Verkio doesn't scan your inbox for ad targeting. We don't measure how often you check the app. We don't sell summaries to a model vendor. The product is the mailbox, not your attention.",
+        "bullets": [
+          "No AI features that read your mail.",
+          "No engagement metrics or streak notifications.",
+          "EU-resident data — outside US CLOUD Act jurisdiction.",
+          "Audit log for every admin action (yours and ours)."
+        ]
+      },
+      "yourDomain": {
+        "eyebrow": "Your domain, your aliases",
+        "headline": "Use your own domain. Unlimited aliases.",
+        "body": "Bring a domain you already own and we configure the DNS for you. Get unlimited aliases (subject to reasonable use) and a catch-all so misspelled addresses still land. Or start on a verkio.eu address and migrate later — the address book moves with you.",
+        "bullets": [
+          "Bring your own domain — DNS auto-setup across ten EU registrars.",
+          "Unlimited aliases per user (subject to reasonable use).",
+          "Catch-all on your domain so misspellings still land.",
+          "Or use a verkio.eu address — same suite, no domain to manage."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Move in without the weekend",
+        "headline": "Bring your inbox with you.",
+        "body": "Migrate from Gmail, iCloud, Fastmail, Outlook.com — any IMAP provider — in one flow. Folders, flags, and threads preserved. We pull, you watch the progress bar. No 'export your mbox and pray' weekend project.",
+        "bullets": [
+          "One-click import from Gmail, Outlook, iCloud, Fastmail, or any IMAP server.",
+          "Folders, labels, flags, threads — all preserved.",
+          "Progress bar in the dashboard — no waiting in the dark.",
+          "Calendars and contacts migrate too, over standard formats."
+        ]
+      }
+    }
+  },
+  "forTeams": {
+    "metaTitle": "Verkio for Teams — EU-resident work suite",
+    "metaDescription": "Shared mailboxes with team workflow, calendars, files, wikis, messaging. Audit log for management. One subscription instead of five.",
+    "eyebrow": "For Teams",
+    "headline": "The team suite where everyone shows up in the same place.",
+    "body": "Shared mailboxes with assignment and per-folder ACLs. Shared calendars and files. Wikis for runbooks. Messaging for the chat. Audit log for the questions. All on open standards, all in the EU, all in one subscription.",
+    "cta": "Join waitlist",
+    "backLink": "Back to home",
+    "sections": {
+      "shared": {
+        "eyebrow": "Built for shared work",
+        "headline": "Shared inboxes that don't fight you.",
+        "body": "A team inbox for support@ or hello@ that handles assignment, status, and internal notes — projected as IMAP keywords so power users in Thunderbird or Apple Mail still see who's working on what. Helpdesk workflow without buying a helpdesk product.",
+        "bullets": [
+          "Shared mailboxes with assignment, status, and per-folder ACLs.",
+          "Internal notes visible only to the team.",
+          "Shared calendars and shared file folders, per team.",
+          "Wikis for runbooks, decisions, and the things you'd otherwise re-explain quarterly.",
+          "Messaging in the same login — channels, DMs, threads."
+        ]
+      },
+      "onboardOff": {
+        "eyebrow": "Onboard and offboard cleanly",
+        "headline": "Joiners and leavers without the cliff edge.",
+        "body": "Add a new teammate and they get mail, calendar, contacts, files, and shared-mailbox access in one flow. When someone leaves, their inbox stays accessible for thirty days and forwards to a designated owner — so a customer reply on day fourteen still lands somewhere useful.",
+        "bullets": [
+          "Add users with one form — mail, calendar, contacts, files provisioned immediately.",
+          "Departing user's inbox stays accessible 30 days, forwards to a named owner.",
+          "Anti-loop guards built in, audit-logged, cascade-clear if the owner moves on too.",
+          "Cancel-invitation undo for the inevitable typo."
+        ]
+      },
+      "audit": {
+        "eyebrow": "Answers when management asks",
+        "headline": "Every admin action, on the record.",
+        "body": "A customer-facing audit log with search, before/after values, and seven-year retention. When someone asks 'who shared that folder externally', the answer is one query away. Stream events to Splunk, Datadog, or any SIEM if you need to.",
+        "bullets": [
+          "Audit log with before/after values on every change.",
+          "Seven-year retention by default — matches Swedish bokföringslagen.",
+          "Stream to Splunk, Datadog, or any SIEM via webhook.",
+          "Export to CSV or JSONL for compliance or forensics."
+        ]
+      },
+      "standards": {
+        "eyebrow": "Open standards on the team",
+        "headline": "The person on the team using Thunderbird is fine.",
+        "body": "Verkio speaks IMAP, SMTP, CalDAV, CardDAV, Sieve. Whoever on the team prefers Apple Mail, Thunderbird, Outlook, or K-9 just signs in and works. Shared-mailbox status and assignments project as IMAP keywords so they see the team state too.",
+        "bullets": [
+          "IMAP and SMTP — works in every standards-compliant mail client.",
+          "CalDAV and CardDAV — calendars and contacts sync everywhere.",
+          "Sieve filters fire at delivery — rules work in every client.",
+          "Domain auto-setup plus Thunderbird XML and Apple .mobileconfig profiles for instant device setup."
+        ]
+      },
+      "oneBill": {
+        "eyebrow": "One suite, one bill",
+        "headline": "Stop stitching subscriptions together.",
+        "body": "Today the average small team pays for Google Workspace (mail + calendar + Drive), Slack (messaging), Notion (wiki), and a helpdesk product — five subscriptions, five admin consoles, five user lifecycle flows. Verkio is one subscription, one console, one audit log.",
+        "bullets": [
+          "One subscription replacing mail + calendar + files + wiki + messaging + helpdesk.",
+          "One admin console for users, billing, audit, and domain management.",
+          "One identity — provision once, access everything.",
+          "Mollie billing in EUR — no US payment processor in the loop."
+        ]
+      }
+    }
+  },
+  "forItAdmins": {
+    "metaTitle": "Verkio for IT & Procurement — EU-resident work suite",
+    "metaDescription": "EU infrastructure, no US CLOUD Act exposure, GDPR-native. DPA, audit log, SAML/SSO, scoped API keys, EU-managed encryption keys, real disaster recovery.",
+    "eyebrow": "For IT & Procurement",
+    "headline": "The boring guarantees procurement asks for.",
+    "body": "EU-only infrastructure. Real audit log with SIEM streaming. SAML/SSO with JIT provisioning. EU-managed encryption keys, not US KMS. Open standards so migration risk stays low. Real disaster-recovery drills, not just marketing claims.",
+    "cta": "Join waitlist",
+    "backLink": "Back to home",
+    "sections": {
+      "procurement": {
+        "eyebrow": "Procurement-ready",
+        "headline": "The paperwork doesn't have surprises.",
+        "body": "DPA, subprocessor list, ROPA-ready audit log, GDPR Article 15 / 17 / 20 workflows that actually run — not 'we'll get back to you'. Mollie (Dutch) handles billing instead of Stripe (US), closing the largest US-subprocessor caveat on procurement reviews.",
+        "bullets": [
+          "Standard DPA (Article 28-compliant) available before signature.",
+          "Public subprocessor list — every dependency named, all EU-owned where it matters.",
+          "GDPR Article 15 (subject access), Article 17 (erasure), Article 20 (portability) — all one-click.",
+          "Mollie handles payments instead of Stripe — no US payment processor.",
+          "Seven-year audit log retention matches Swedish bokföringslagen."
+        ]
+      },
+      "residency": {
+        "eyebrow": "EU residency, all the way down",
+        "headline": "No US hyperscaler anywhere in the chain.",
+        "body": "Hetzner servers in Germany and Finland. Hetzner DNS (not Cloudflare). Vault Transit on EU-resident infrastructure for key wrapping (not AWS KMS). GlitchTip for error tracking (not Sentry). Hetzner Storage Box for backups (not S3). Not a layer outsourced to a US cloud.",
+        "bullets": [
+          "Compute on Hetzner Cloud — Germany and Finland regions.",
+          "Authoritative DNS on Hetzner DNS Console — EU-owned, not Cloudflare.",
+          "Encryption-at-rest keys wrapped by Vault Transit on EU-resident infrastructure — no US KMS.",
+          "Backups to Hetzner Storage Box (EU) — no S3, no GCS, no Azure Blob."
+        ]
+      },
+      "identityAndAccess": {
+        "eyebrow": "Identity and access",
+        "headline": "SSO, audit log streaming, scoped keys.",
+        "body": "SAML 2.0 federation to Okta, Azure AD, Google Workspace, or any standards-compliant IdP — with just-in-time user provisioning and group/role mapping re-evaluated every sign-in. Audit log streamable to your SIEM. Scoped, rotatable API keys for every integration.",
+        "bullets": [
+          "SAML 2.0 SSO with any IdP — Okta, Azure AD, Google Workspace, Keycloak.",
+          "Just-in-time provisioning on first sign-in — no manual user creation.",
+          "Group and role mapping re-evaluated every sign-in — no stale permissions.",
+          "Scoped API keys with rotation — read-only, per-mailbox, per-org scopes.",
+          "Audit log streaming to Splunk, Datadog, or any SIEM via webhook."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Migration risk: low",
+        "headline": "Standards mean leaving is always an option.",
+        "body": "Every part of the suite speaks open standards — IMAP, SMTP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. If Verkio fails to deliver, your data round-trips out as cleanly as it round-trips in. No proprietary protocol means no migration project on year three.",
+        "bullets": [
+          "Standards: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
+          "Article 20 portability export in interoperable formats — one click.",
+          "Domain auto-setup across ten EU DNS registrars (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, more).",
+          "Mail import from Microsoft 365, Google Workspace, or any IMAP — folders, flags, threads preserved."
+        ]
+      },
+      "ops": {
+        "eyebrow": "Operations you can audit",
+        "headline": "Real disaster recovery. Real backup verification.",
+        "body": "Hourly Postgres backups plus per-host config snapshots, encrypted with EU-managed keys, replicated to a separate EU region. Restore drills run on a calendar — not aspirationally — so the recovery path is exercised before you need it. Status page driven by real heartbeats, not by hand.",
+        "bullets": [
+          "Hourly encrypted backups; cross-region replication in the EU.",
+          "Restore drills run on schedule — recovery path is verified, not assumed.",
+          "Real-time status page driven by heartbeat monitors, not by humans.",
+          "GlitchTip (EU) for error tracking — no US Sentry exposure."
+        ]
+      }
+    }
+  },
+  "forDevelopers": {
+    "metaTitle": "Verkio for Developers — Build on Verkio",
+    "metaDescription": "REST API with OpenAPI 3.1, JMAP passthrough, signed webhooks, streamable audit log. Sign in with Verkio (OIDC) coming. Free for v1.",
+    "eyebrow": "For Developers",
+    "headline": "Build on Verkio. The boring guarantees included.",
+    "body": "Verkio is built API-first — the same endpoints the web app uses are open to you. REST with an OpenAPI 3.1 spec for codegen, JMAP for direct mail-protocol access, HMAC-signed webhooks with a dead-letter queue, and a streamable audit log for compliance. Free for the v1 tier.",
+    "cta": "Join waitlist",
+    "backLink": "Back to home",
+    "sections": {
+      "restApi": {
+        "eyebrow": "REST + JMAP",
+        "headline": "REST with an OpenAPI 3.1 spec. JMAP passthrough for mail.",
+        "body": "Every endpoint documented in a single OpenAPI 3.1 file at /api/v1/openapi.json — point any codegen tool at it and get a typed client in your language. For mail, the API includes a JMAP passthrough so any JMAP-compatible library talks directly to your mailboxes.",
+        "bullets": [
+          "OpenAPI 3.1 spec at /api/v1/openapi.json — codegen-ready.",
+          "Interactive reference at /developers (Swagger UI).",
+          "Bearer-token auth (RFC 6750). Keys hashed with Argon2id at rest.",
+          "JMAP Core and JMAP Mail (RFC 8620 / 8621) passthrough — use any JMAP library.",
+          "Idempotency-Key support on mutating endpoints — safe to retry."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Signed webhooks",
+        "headline": "HMAC-signed delivery. Retries. Dead-letter queue.",
+        "body": "Subscribe to events that matter — new mail, audit log entries, account changes. Every payload is HMAC-SHA256 signed. Failed deliveries retry with exponential backoff; persistent failures land in a dead-letter queue you can inspect and replay from the dashboard.",
+        "bullets": [
+          "HMAC-SHA256 signature per payload (X-Verkio-Signature header).",
+          "Exponential backoff on 5xx and connection errors.",
+          "Dead-letter queue in the dashboard — inspect, replay, dismiss.",
+          "Every delivery attempt logged in the audit log."
+        ]
+      },
+      "auditApi": {
+        "eyebrow": "Audit log API",
+        "headline": "Every admin action, programmatically.",
+        "body": "The same audit log you read in the dashboard is available as an API. Paginated, filterable, with before/after values on every change. Stream to your SIEM via webhook or poll the endpoint. Export to CSV or JSONL for forensics. Seven-year retention by default.",
+        "bullets": [
+          "Paginated and filterable: by user, by event type, by date range.",
+          "Before/after values on every mutation.",
+          "Stream to your SIEM via webhook or pull endpoint.",
+          "Seven-year retention default. CSV or JSONL export anytime."
+        ]
+      },
+      "futureSignIn": {
+        "eyebrow": "Sign in with Verkio · Coming soon",
+        "headline": "An EU-resident identity provider for your users.",
+        "body": "A standard OIDC button you can integrate into any third-party site. EU-resident sign-in flow, no cross-site profiling, per-site granular consent. Planned, developer demand-led — free for end users, free for developers in v1. Want it for your app? Tell us.",
+        "bullets": [
+          "Standard OpenID Connect (OIDC) — no Verkio SDK required.",
+          "Works with any OIDC-aware identity broker (Auth0, Clerk, Keycloak, NextAuth).",
+          "Per-site granular consent plus connected-apps dashboard for end users.",
+          "Free in v1 — tell us you want it and we'll prioritise."
         ]
       }
     }

@@ -15,7 +15,26 @@
     "roadmap": "Roadmap",
     "articles": "Artikelen",
     "product": "Product",
+    "for": "Voor",
     "whyVerkio": "Waarom Verkio",
+    "audienceMenu": {
+      "individuals": {
+        "name": "Individuen",
+        "description": "Een rustig, EU-gehost alternatief."
+      },
+      "teams": {
+        "name": "Teams",
+        "description": "Gedeelde inboxen, agenda's, bestanden, wiki's."
+      },
+      "itAdmins": {
+        "name": "IT en inkoop",
+        "description": "DPA, auditlog, SAML/SSO, EU-residentie."
+      },
+      "developers": {
+        "name": "Ontwikkelaars",
+        "description": "REST, JMAP, ondertekende webhooks."
+      }
+    },
     "productMenu": {
       "comingSoon": "Binnenkort",
       "mail": {
@@ -1173,6 +1192,253 @@
           "Dashboard met verbonden apps die elke site lijst waarop je hebt ingelogd.",
           "Eén-klik intrekken, op elk moment — de site verliest direct toegang.",
           "Geen stille herauthenticatie; scope-wijzigingen vereisen verse toestemming."
+        ]
+      }
+    }
+  },
+  "forIndividuals": {
+    "metaTitle": "Verkio voor individuen — EU-gehoste werksuite",
+    "metaDescription": "Een rustig, AI-vrij alternatief voor Gmail en iCloud. Mail, agenda, contacten, bestanden — via open standaarden, in de EU. Neem je eigen domein mee.",
+    "eyebrow": "Voor individuen",
+    "headline": "Een rustige werksuite die van jou is, niet van het platform.",
+    "body": "Een EU-gehost alternatief voor Gmail, iCloud en Outlook.com. Mail, agenda, contacten, bestanden — via open standaarden, met de basis goed gedaan en geen AI die je inbox leest. Neem je eigen domein mee of gebruik een verkio.eu-adres.",
+    "cta": "Inschrijven",
+    "backLink": "Terug naar de startpagina",
+    "sections": {
+      "core": {
+        "eyebrow": "De basis, goed gedaan",
+        "headline": "Mail, agenda, contacten, bestanden. Zonder opgeblazen rommel.",
+        "body": "Een snelle, toetsenbordgerichte webmail, een agenda die synchroniseert met Apple Calendar en Thunderbird, een CardDAV-adresboek en bestandsopslag met EU-beheerde sleutels. Eén login. Eén factuur.",
+        "bullets": [
+          "Webmail met threads, zoeken, labels — toetsenbordgericht.",
+          "Agenda via CalDAV — synchroniseert met Apple Calendar, Thunderbird, DAVx⁵.",
+          "Contacten via CardDAV — vCard-import en -export, geen proprietair formaat.",
+          "Bestandsopslag met ACL's per bestand en 30 dagen herstel uit de Prullenbak.",
+          "Mailfilters aan de serverkant (Sieve) — regels gelden in elke client."
+        ]
+      },
+      "privacy": {
+        "eyebrow": "Rustig van nature",
+        "headline": "Geen AI die je mail leest. Geen engagement-metingen.",
+        "body": "Verkio scant je inbox niet voor advertentietargeting. We meten niet hoe vaak je de app opent. We verkopen geen samenvattingen aan een modelleverancier. Het product is de mailbox, niet je aandacht.",
+        "bullets": [
+          "Geen AI-functies die je mail lezen.",
+          "Geen engagement-metingen of streakmeldingen.",
+          "EU-gehoste data — buiten de US CLOUD Act-jurisdictie.",
+          "Auditlog voor elke beheerdersactie (de jouwe en de onze)."
+        ]
+      },
+      "yourDomain": {
+        "eyebrow": "Jouw domein, jouw aliassen",
+        "headline": "Gebruik je eigen domein. Onbeperkte aliassen.",
+        "body": "Neem een domein mee dat je al bezit, en we configureren de DNS voor je. Krijg onbeperkte aliassen (binnen redelijk gebruik) en een catch-all zodat verkeerd gespelde adressen toch aankomen. Of begin op een verkio.eu-adres en migreer later — het adresboek verhuist mee.",
+        "bullets": [
+          "Neem je eigen domein mee — automatische DNS-instelling bij tien EU-registrars.",
+          "Onbeperkte aliassen per gebruiker (binnen redelijk gebruik).",
+          "Catch-all op je domein zodat tikfouten toch aankomen.",
+          "Of gebruik een verkio.eu-adres — dezelfde suite, geen domein om te beheren."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Verhuis zonder weekendwerk",
+        "headline": "Neem je inbox mee.",
+        "body": "Migreer vanaf Gmail, iCloud, Fastmail, Outlook.com — elke IMAP-provider — in één stroom. Mappen, vlaggen en threads behouden. Wij halen op, jij kijkt naar de voortgangsbalk. Geen 'exporteer je mbox en hoop op het beste' weekendproject.",
+        "bullets": [
+          "Eén-klik-import vanaf Gmail, Outlook, iCloud, Fastmail of elke IMAP-server.",
+          "Mappen, labels, vlaggen, threads — alles behouden.",
+          "Voortgangsbalk in het dashboard — geen wachten in het ongewisse.",
+          "Agenda's en contacten migreren ook, via standaardformaten."
+        ]
+      }
+    }
+  },
+  "forTeams": {
+    "metaTitle": "Verkio voor teams — EU-gehoste werksuite",
+    "metaDescription": "Gedeelde inboxen met teamworkflow, agenda's, bestanden, wiki's, berichten. Auditlog voor het management. Eén abonnement in plaats van vijf.",
+    "eyebrow": "Voor teams",
+    "headline": "De teamsuite waar iedereen op dezelfde plek opduikt.",
+    "body": "Gedeelde inboxen met toewijzing en ACL's per map. Gedeelde agenda's en bestanden. Wiki's voor runbooks. Berichten voor de chat. Auditlog voor de vragen. Allemaal op open standaarden, allemaal in de EU, allemaal in één abonnement.",
+    "cta": "Inschrijven",
+    "backLink": "Terug naar de startpagina",
+    "sections": {
+      "shared": {
+        "eyebrow": "Gebouwd voor gedeeld werk",
+        "headline": "Gedeelde inboxen die je niet tegenwerken.",
+        "body": "Een teaminbox voor support@ of hello@ die toewijzing, status en interne notities afhandelt — geprojecteerd als IMAP-trefwoorden zodat poweruser in Thunderbird of Apple Mail toch zien wie waar aan werkt. Helpdeskworkflow zonder een helpdeskproduct te kopen.",
+        "bullets": [
+          "Gedeelde mailboxen met toewijzing, status en ACL's per map.",
+          "Interne notities alleen zichtbaar voor het team.",
+          "Gedeelde agenda's en gedeelde bestandsmappen per team.",
+          "Wiki's voor runbooks, beslissingen en de dingen die je anders elk kwartaal opnieuw zou uitleggen.",
+          "Berichten in dezelfde login — kanalen, DM's, threads."
+        ]
+      },
+      "onboardOff": {
+        "eyebrow": "Schone onboarding en offboarding",
+        "headline": "Nieuwkomers en vertrekkers zonder abrupte breuk.",
+        "body": "Voeg een nieuwe collega toe en ze krijgen in één stroom mail, agenda, contacten, bestanden en toegang tot gedeelde mailboxen. Wanneer iemand vertrekt, blijft hun inbox dertig dagen toegankelijk en stuurt door naar een aangewezen eigenaar — zodat een klantantwoord op dag veertien toch ergens nuttigs aankomt.",
+        "bullets": [
+          "Voeg gebruikers toe met één formulier — mail, agenda, contacten, bestanden direct uitgerold.",
+          "Inbox van vertrekkende gebruiker blijft 30 dagen toegankelijk, stuurt door naar een benoemde eigenaar.",
+          "Anti-loop-bescherming ingebouwd, auditgelogd, cascade ruimt op als de eigenaar ook vertrekt.",
+          "Uitnodigingsannulering met undo voor de onvermijdelijke tikfout."
+        ]
+      },
+      "audit": {
+        "eyebrow": "Antwoorden als het management vraagt",
+        "headline": "Elke beheerdersactie, vastgelegd.",
+        "body": "Een klantgericht auditlog met zoeken, voor/na-waarden en zeven jaar bewaring. Als iemand vraagt 'wie heeft die map extern gedeeld', is het antwoord één query verwijderd. Stream gebeurtenissen naar Splunk, Datadog of elke SIEM als je moet.",
+        "bullets": [
+          "Auditlog met voor/na-waarden bij elke wijziging.",
+          "Zeven jaar bewaring standaard — komt overeen met de Zweedse bokföringslagen.",
+          "Stream naar Splunk, Datadog of elke SIEM via webhook.",
+          "Export naar CSV of JSONL voor compliance of forensisch onderzoek."
+        ]
+      },
+      "standards": {
+        "eyebrow": "Open standaarden in het team",
+        "headline": "De persoon in het team die Thunderbird gebruikt, redt zich prima.",
+        "body": "Verkio spreekt IMAP, SMTP, CalDAV, CardDAV, Sieve. Wie in het team Apple Mail, Thunderbird, Outlook of K-9 prefereert, logt gewoon in en werkt. Status en toewijzingen van gedeelde mailboxen worden geprojecteerd als IMAP-trefwoorden zodat ze ook de teamstatus zien.",
+        "bullets": [
+          "IMAP en SMTP — werkt in elke standaardcompatibele mailclient.",
+          "CalDAV en CardDAV — agenda's en contacten synchroniseren overal.",
+          "Sieve-filters draaien bij aflevering — regels werken in elke client.",
+          "Automatische domeininstelling plus Thunderbird XML- en Apple .mobileconfig-profielen voor directe apparaatinstelling."
+        ]
+      },
+      "oneBill": {
+        "eyebrow": "Eén suite, één factuur",
+        "headline": "Stop met abonnementen aan elkaar te naaien.",
+        "body": "Vandaag betaalt het gemiddelde kleine team voor Google Workspace (mail + agenda + Drive), Slack (berichten), Notion (wiki) en een helpdeskproduct — vijf abonnementen, vijf adminconsoles, vijf gebruikerslevenscyclusstromen. Verkio is één abonnement, één console, één auditlog.",
+        "bullets": [
+          "Eén abonnement dat mail + agenda + bestanden + wiki + berichten + helpdesk vervangt.",
+          "Eén adminconsole voor gebruikers, facturering, audit en domeinbeheer.",
+          "Eén identiteit — uitrollen één keer, toegang tot alles.",
+          "Mollie-facturering in EUR — geen US-betalingsverwerker in de loop."
+        ]
+      }
+    }
+  },
+  "forItAdmins": {
+    "metaTitle": "Verkio voor IT en inkoop — EU-gehoste werksuite",
+    "metaDescription": "EU-infrastructuur, geen US CLOUD Act-blootstelling, GDPR van nature. DPA, auditlog, SAML/SSO, scoped API-sleutels, EU-beheerde encryptiesleutels, echte disaster recovery.",
+    "eyebrow": "Voor IT en inkoop",
+    "headline": "De saaie garanties waar inkoop om vraagt.",
+    "body": "Alleen EU-infrastructuur. Echt auditlog met SIEM-streaming. SAML/SSO met JIT-provisioning. EU-beheerde encryptiesleutels, geen US KMS. Open standaarden zodat het migratierisico laag blijft. Echte disaster recovery-oefeningen, niet alleen marketingclaims.",
+    "cta": "Inschrijven",
+    "backLink": "Terug naar de startpagina",
+    "sections": {
+      "procurement": {
+        "eyebrow": "Klaar voor inkoop",
+        "headline": "Het papierwerk bevat geen verrassingen.",
+        "body": "DPA, subverwerkerslijst, ROPA-klaar auditlog, GDPR-artikel 15 / 17 / 20-stromen die echt werken — geen 'we komen er op terug'. Mollie (Nederlands) handelt de facturering af in plaats van Stripe (US), waarmee het grootste US-subverwerkerbezwaar in inkoopreviews is afgesloten.",
+        "bullets": [
+          "Standaard DPA (Artikel 28-conform) beschikbaar voor ondertekening.",
+          "Publieke subverwerkerslijst — elke afhankelijkheid genoemd, allemaal EU-eigendom waar het ertoe doet.",
+          "GDPR-artikel 15 (inzage), artikel 17 (vergetelheid), artikel 20 (portabiliteit) — alles met één klik.",
+          "Mollie verwerkt betalingen in plaats van Stripe — geen US-betalingsverwerker.",
+          "Zeven jaar auditlogbewaring komt overeen met de Zweedse bokföringslagen."
+        ]
+      },
+      "residency": {
+        "eyebrow": "EU-residentie, helemaal naar beneden",
+        "headline": "Geen US-hyperscaler ergens in de keten.",
+        "body": "Hetzner-servers in Duitsland en Finland. Hetzner DNS (niet Cloudflare). Vault Transit op EU-gehoste infrastructuur voor sleutelwrapping (niet AWS KMS). GlitchTip voor errortracking (niet Sentry). Hetzner Storage Box voor backups (niet S3). Geen enkele laag uitbesteed aan een US-cloud.",
+        "bullets": [
+          "Compute op Hetzner Cloud — regio's Duitsland en Finland.",
+          "Authoritatieve DNS op Hetzner DNS Console — EU-eigendom, niet Cloudflare.",
+          "Encryptiesleutels at-rest gewrapt door Vault Transit op EU-gehoste infrastructuur — geen US KMS.",
+          "Backups naar Hetzner Storage Box (EU) — geen S3, GCS of Azure Blob."
+        ]
+      },
+      "identityAndAccess": {
+        "eyebrow": "Identiteit en toegang",
+        "headline": "SSO, auditlogstreaming, scoped sleutels.",
+        "body": "SAML 2.0-federatie naar Okta, Azure AD, Google Workspace of elke standaardcompatibele IdP — met just-in-time gebruikersprovisioning en groep/rolmapping die bij elke inlog opnieuw wordt geëvalueerd. Auditlog streambaar naar je SIEM. Scoped, roteerbare API-sleutels voor elke integratie.",
+        "bullets": [
+          "SAML 2.0 SSO met elke IdP — Okta, Azure AD, Google Workspace, Keycloak.",
+          "Just-in-time-provisioning bij eerste inlog — geen handmatige gebruikersaanmaak.",
+          "Groep- en rolmapping herzien bij elke inlog — geen verouderde rechten.",
+          "Scoped API-sleutels met rotatie — read-only, per mailbox, per organisatie.",
+          "Auditlog-streaming naar Splunk, Datadog of elke SIEM via webhook."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Migratierisico: laag",
+        "headline": "Standaarden betekenen dat vertrekken altijd een optie is.",
+        "body": "Elk deel van de suite spreekt open standaarden — IMAP, SMTP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Als Verkio niet levert, komen je data er net zo schoon uit als ze erin kwamen. Geen proprietair protocol betekent geen migratieproject in jaar drie.",
+        "bullets": [
+          "Standaarden: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
+          "Artikel 20-portabiliteitexport in interoperabele formaten — één klik.",
+          "Automatische domeininstelling bij tien EU DNS-registrars (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys en meer).",
+          "Mailimport vanaf Microsoft 365, Google Workspace of elke IMAP — mappen, vlaggen, threads behouden."
+        ]
+      },
+      "ops": {
+        "eyebrow": "Operatie die je kunt auditen",
+        "headline": "Echte disaster recovery. Echte backupverificatie.",
+        "body": "Postgres-backups per uur plus configuratiesnapshots per host, versleuteld met EU-beheerde sleutels, gerepliceerd naar een aparte EU-regio. Restore-oefeningen draaien volgens een agenda — niet aspirationeel — zodat het herstelpad geoefend is voordat je het nodig hebt. Statuspagina aangestuurd door echte heartbeats, niet met de hand.",
+        "bullets": [
+          "Versleutelde backups per uur; cross-region replicatie binnen de EU.",
+          "Restore-oefeningen volgens schema — herstelpad is geverifieerd, niet aangenomen.",
+          "Realtime statuspagina aangestuurd door heartbeat-monitors, niet door mensen.",
+          "GlitchTip (EU) voor errortracking — geen US Sentry-blootstelling."
+        ]
+      }
+    }
+  },
+  "forDevelopers": {
+    "metaTitle": "Verkio voor ontwikkelaars — Bouw op Verkio",
+    "metaDescription": "REST API met OpenAPI 3.1, JMAP-passthrough, ondertekende webhooks, streambaar auditlog. Sign in with Verkio (OIDC) komt eraan. Gratis voor v1.",
+    "eyebrow": "Voor ontwikkelaars",
+    "headline": "Bouw op Verkio. De saaie garanties inbegrepen.",
+    "body": "Verkio is API-first gebouwd — dezelfde endpoints die de webapp gebruikt staan voor jou open. REST met een OpenAPI 3.1-specificatie voor codegen, JMAP voor directe toegang tot het mailprotocol, HMAC-ondertekende webhooks met een dead-letter-queue, en een streambaar auditlog voor compliance. Gratis voor het v1-niveau.",
+    "cta": "Inschrijven",
+    "backLink": "Terug naar de startpagina",
+    "sections": {
+      "restApi": {
+        "eyebrow": "REST + JMAP",
+        "headline": "REST met een OpenAPI 3.1-spec. JMAP-passthrough voor mail.",
+        "body": "Elk endpoint gedocumenteerd in één OpenAPI 3.1-bestand op /api/v1/openapi.json — wijs elk codegen-tool erop en krijg een getypeerde client in je taal. Voor mail bevat de API een JMAP-passthrough zodat elke JMAP-compatibele bibliotheek direct met je mailboxen praat.",
+        "bullets": [
+          "OpenAPI 3.1-specificatie op /api/v1/openapi.json — klaar voor codegen.",
+          "Interactieve referentie op /developers (Swagger UI).",
+          "Bearer-token-authenticatie (RFC 6750). Sleutels gehasht met Argon2id at-rest.",
+          "JMAP Core en JMAP Mail (RFC 8620 / 8621) passthrough — gebruik elke JMAP-bibliotheek.",
+          "Idempotency-Key-ondersteuning op muterende endpoints — veilig om opnieuw te proberen."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Ondertekende webhooks",
+        "headline": "HMAC-ondertekende aflevering. Retries. Dead-letter-queue.",
+        "body": "Abonneer op gebeurtenissen die ertoe doen — nieuwe mail, auditlog-vermeldingen, accountwijzigingen. Elke payload is HMAC-SHA256-ondertekend. Mislukte afleveringen worden opnieuw geprobeerd met exponentiële backoff; aanhoudende fouten belanden in een dead-letter-queue die je kunt inspecteren en opnieuw afspelen vanuit het dashboard.",
+        "bullets": [
+          "HMAC-SHA256-handtekening per payload (X-Verkio-Signature header).",
+          "Exponentiële backoff bij 5xx- en verbindingsfouten.",
+          "Dead-letter-queue in het dashboard — inspecteren, opnieuw afspelen, weggooien.",
+          "Elke afleverpoging gelogd in het auditlog."
+        ]
+      },
+      "auditApi": {
+        "eyebrow": "Auditlog-API",
+        "headline": "Elke beheerdersactie, programmatisch.",
+        "body": "Hetzelfde auditlog dat je in het dashboard leest is beschikbaar als API. Gepagineerd, filterbaar, met voor/na-waarden bij elke wijziging. Stream naar je SIEM via webhook of poll het endpoint. Export naar CSV of JSONL voor forensisch onderzoek. Zeven jaar bewaring standaard.",
+        "bullets": [
+          "Gepagineerd en filterbaar: per gebruiker, per gebeurtenistype, per datumbereik.",
+          "Voor/na-waarden bij elke mutatie.",
+          "Stream naar je SIEM via webhook of pull-endpoint.",
+          "Zeven jaar bewaring standaard. CSV- of JSONL-export op elk moment."
+        ]
+      },
+      "futureSignIn": {
+        "eyebrow": "Sign in with Verkio · Binnenkort",
+        "headline": "Een EU-gehoste identiteitsprovider voor je gebruikers.",
+        "body": "Een standaard OIDC-knop die je in elke derde-partijsite kunt integreren. EU-gehoste inlogflow, geen cross-site profiling, granulair toestemming per site. Gepland, ontwikkelaarsvraag-gedreven — gratis voor eindgebruikers, gratis voor ontwikkelaars in v1. Wil je het voor je app? Laat het ons weten.",
+        "bullets": [
+          "Standaard OpenID Connect (OIDC) — geen Verkio-SDK vereist.",
+          "Werkt met elke OIDC-bewuste identiteitsbroker (Auth0, Clerk, Keycloak, NextAuth).",
+          "Granulair toestemming per site plus dashboard voor verbonden apps voor eindgebruikers.",
+          "Gratis in v1 — laat het ons weten en we geven het prioriteit."
         ]
       }
     }

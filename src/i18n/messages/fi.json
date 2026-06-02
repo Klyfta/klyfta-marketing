@@ -15,7 +15,26 @@
     "roadmap": "Tiekartta",
     "articles": "Artikkelit",
     "product": "Tuote",
+    "for": "Kenelle",
     "whyVerkio": "Miksi Verkio",
+    "audienceMenu": {
+      "individuals": {
+        "name": "Yksityishenkilöt",
+        "description": "Hiljainen, EU-isännöity vaihtoehto."
+      },
+      "teams": {
+        "name": "Tiimit",
+        "description": "Jaetut postilaatikot, kalenterit, tiedostot, wikit."
+      },
+      "itAdmins": {
+        "name": "IT ja hankinta",
+        "description": "DPA, audit-loki, SAML/SSO, EU-asuinpaikka."
+      },
+      "developers": {
+        "name": "Kehittäjät",
+        "description": "REST, JMAP, allekirjoitetut webhookit."
+      }
+    },
     "productMenu": {
       "comingSoon": "Tulossa pian",
       "mail": {
@@ -1173,6 +1192,253 @@
           "Yhdistettyjen sovellusten kojelauta, joka listaa jokaisen sivuston, jolle olet kirjautunut.",
           "Yhden klikkauksen peruutus, milloin tahansa — sivusto menettää pääsyn välittömästi.",
           "Ei hiljaista uudelleentodennusta; scope-muutokset vaativat tuoreen suostumuksen."
+        ]
+      }
+    }
+  },
+  "forIndividuals": {
+    "metaTitle": "Verkio yksityishenkilöille — EU-isännöity työsuite",
+    "metaDescription": "Hiljainen, AI-vapaa vaihtoehto Gmailille ja iCloudille. Posti, kalenteri, kontaktit, tiedostot — avoimien standardien päällä, EU:ssa. Tuo oma verkkotunnus.",
+    "eyebrow": "Yksityishenkilöille",
+    "headline": "Hiljainen työsuite, joka on sinun — ei alustan.",
+    "body": "EU-isännöity vaihtoehto Gmailille, iCloudille ja Outlook.comille. Posti, kalenteri, kontaktit, tiedostot — avoimien standardien päällä, perusasiat hoidettu kunnolla eikä AI:ta lukemassa postilaatikkoasi. Tuo oma verkkotunnuksesi tai käytä verkio.eu-osoitetta.",
+    "cta": "Liity jonoon",
+    "backLink": "Takaisin etusivulle",
+    "sections": {
+      "core": {
+        "eyebrow": "Perusasiat, kunnolla tehtynä",
+        "headline": "Posti, kalenteri, kontaktit, tiedostot. Ilman pöhötystä.",
+        "body": "Nopea näppäimistökeskeinen webmail, kalenteri joka synkronoituu Apple Calendarin ja Thunderbirdin kanssa, CardDAV-osoitekirja ja tiedostotallennus EU:ssa hallinnoiduilla avaimilla. Yksi kirjautuminen. Yksi lasku.",
+        "bullets": [
+          "Webmail keskusteluketjuilla, haulla, tunnisteilla — näppäimistökeskeinen.",
+          "Kalenteri CalDAV:n yli — synkronointi Apple Calendarin, Thunderbirdin, DAVx⁵:n kanssa.",
+          "Kontaktit CardDAV:n yli — vCard-tuonti ja -vienti, ei omistettua muotoa.",
+          "Tiedostotallennus tiedostokohtaisilla ACL:illä ja 30 päivän roskakori-palautuksella.",
+          "Palvelinpuolen postisuodattimet (Sieve) — säännöt laukeavat jokaisessa asiakkaassa."
+        ]
+      },
+      "privacy": {
+        "eyebrow": "Hiljainen suunnittelultaan",
+        "headline": "Mikään AI ei lue postiasi. Ei sitoutumismittareita.",
+        "body": "Verkio ei skannaa postilaatikkoasi mainoskohdistusta varten. Emme mittaa kuinka usein avaat sovelluksen. Emme myy yhteenvetoja malli­toimittajalle. Tuote on postilaatikko, ei huomiosi.",
+        "bullets": [
+          "Ei AI-ominaisuuksia, jotka lukisivat postiasi.",
+          "Ei sitoutumismittareita tai putki-ilmoituksia.",
+          "EU-isännöity data — US CLOUD Act -lainkäyttöalueen ulkopuolella.",
+          "Audit-loki jokaisesta admin-toiminnosta (sinun ja meidän)."
+        ]
+      },
+      "yourDomain": {
+        "eyebrow": "Sinun verkkotunnuksesi, sinun aliaksesi",
+        "headline": "Käytä omaa verkkotunnustasi. Rajattomat aliakset.",
+        "body": "Tuo verkkotunnus, jonka jo omistat, ja me konfiguroimme DNS:n puolestasi. Rajattomat aliakset (kohtuullisen käytön puitteissa) ja catch-all, jotta myös väärin kirjoitetut osoitteet päätyvät perille. Tai aloita verkio.eu-osoitteella ja siirry myöhemmin — osoitekirja seuraa mukana.",
+        "bullets": [
+          "Tuo oma verkkotunnuksesi — DNS:n automaattinen asennus kymmenellä EU-rekisterinpitäjällä.",
+          "Rajattomat aliakset käyttäjää kohti (kohtuullisen käytön puitteissa).",
+          "Catch-all verkkotunnuksessasi, jotta kirjoitusvirheet päätyvät perille.",
+          "Tai käytä verkio.eu-osoitetta — sama suite, ei verkkotunnusta hallittavana."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Muuta sisään ilman viikonlopun menettämistä",
+        "headline": "Tuo postilaatikkosi mukanasi.",
+        "body": "Siirry Gmailista, iCloudista, Fastmailista, Outlook.comista — mistä tahansa IMAP-palveluntarjoajasta — yhdessä virrassa. Kansiot, liput ja keskustelut säilyvät. Me haemme, sinä katsot edistymispalkkia. Ei viikonlopun projektia tyyliin 'vie mboxisi ja rukoile'.",
+        "bullets": [
+          "Yhden klikkauksen tuonti Gmailista, Outlookista, iCloudista, Fastmailista tai miltä tahansa IMAP-palvelimelta.",
+          "Kansiot, tunnisteet, liput, keskustelut — kaikki säilyy.",
+          "Edistymispalkki kojelaudalla — ei sokeaa odotusta.",
+          "Kalenterit ja kontaktit siirtyvät myös, vakiomuotojen kautta."
+        ]
+      }
+    }
+  },
+  "forTeams": {
+    "metaTitle": "Verkio tiimeille — EU-isännöity työsuite",
+    "metaDescription": "Jaetut postilaatikot tiimityökulun kanssa, kalenterit, tiedostot, wikit, viestit. Audit-loki johdolle. Yksi tilaus viiden sijaan.",
+    "eyebrow": "Tiimeille",
+    "headline": "Tiimisuite, jossa kaikki kohtaavat samassa paikassa.",
+    "body": "Jaetut postilaatikot määräyksellä ja kansiokohtaisilla ACL:illä. Jaetut kalenterit ja tiedostot. Wikit runbookkeille. Viestit chatille. Audit-loki kysymyksiin. Kaikki avoimien standardien päällä, kaikki EU:ssa, kaikki yhdessä tilauksessa.",
+    "cta": "Liity jonoon",
+    "backLink": "Takaisin etusivulle",
+    "sections": {
+      "shared": {
+        "eyebrow": "Rakennettu jaettuun työhön",
+        "headline": "Jaetut postilaatikot, jotka eivät taistele vastaasi.",
+        "body": "Tiimin postilaatikko support@ tai hello@ -osoitteelle, joka käsittelee määräyksen, tilan ja sisäiset muistiinpanot — projisoituna IMAP-avainsanoiksi, jotta Thunderbirdin tai Apple Mailin tehokäyttäjät näkevät edelleen kuka työskentelee minkä kanssa. Helpdesk-työkulku ilman helpdesk-tuotteen ostamista.",
+        "bullets": [
+          "Jaetut postilaatikot määräyksellä, tilalla ja kansiokohtaisilla ACL:illä.",
+          "Sisäiset muistiinpanot, näkyvät vain tiimille.",
+          "Jaetut kalenterit ja jaetut tiedostokansiot, tiimeittäin.",
+          "Wikit runbookkeille, päätöksille ja asioille, jotka muuten selittäisit uudelleen joka neljännes.",
+          "Viestit samassa kirjautumisessa — kanavat, DM:t, ketjut."
+        ]
+      },
+      "onboardOff": {
+        "eyebrow": "Sisään- ja ulosotot siististi",
+        "headline": "Tulijat ja lähtijät ilman jyrkkää reunaa.",
+        "body": "Lisää uusi tiimiläinen, ja hän saa postin, kalenterin, kontaktit, tiedostot ja pääsyn jaettuihin postilaatikoihin yhdessä virrassa. Kun joku lähtee, hänen postilaatikkonsa säilyy käytettävissä kolmekymmentä päivää ja edelleenlähetetään nimetylle omistajalle — jotta asiakkaan vastaus päivänä neljätoista päätyy edelleen jonnekin hyödylliseen.",
+        "bullets": [
+          "Lisää käyttäjiä yhdellä lomakkeella — posti, kalenteri, kontaktit, tiedostot välittömästi käytössä.",
+          "Lähtevän käyttäjän postilaatikko säilyy 30 päivää käytettävissä, edelleenlähetetään nimetylle omistajalle.",
+          "Sisäänrakennetut silmukan estimet, audit-lokitettu, kaskadi-puhdistus jos omistajakin lähtee.",
+          "Kutsun peruuta-toiminto vääjäämättömälle kirjoitusvirheelle."
+        ]
+      },
+      "audit": {
+        "eyebrow": "Vastauksia kun johto kysyy",
+        "headline": "Jokainen admin-toiminto, kirjattuna.",
+        "body": "Asiakaspuolen audit-loki haulla, ennen/jälkeen-arvoilla ja seitsemän vuoden säilytyksellä. Kun joku kysyy 'kuka jakoi tuon kansion ulkopuolelle', vastaus on yhden kyselyn päässä. Striimaa tapahtumat Splunkiin, Datadogiin tai mihin tahansa SIEM:iin tarvittaessa.",
+        "bullets": [
+          "Audit-loki ennen/jälkeen-arvoilla jokaisesta muutoksesta.",
+          "Seitsemän vuoden säilytys oletuksena — vastaa ruotsalaista bokföringslagenia.",
+          "Striimaus Splunkiin, Datadogiin tai mihin tahansa SIEM:iin webhookin kautta.",
+          "Vienti CSV:ksi tai JSONL:ksi vaatimustenmukaisuutta tai forensiikkaa varten."
+        ]
+      },
+      "standards": {
+        "eyebrow": "Avoimet standardit tiimissä",
+        "headline": "Tiimissä Thunderbirdiä käyttävä henkilö pärjää hyvin.",
+        "body": "Verkio puhuu IMAPia, SMTP:tä, CalDAV:ia, CardDAV:ia, Sieveä. Kuka tahansa tiimissä, joka suosii Apple Mailia, Thunderbirdiä, Outlookia tai K-9:ää, vain kirjautuu sisään ja työskentelee. Jaettujen postilaatikkojen tila ja määräykset projisoidaan IMAP-avainsanoiksi, jotta he näkevät myös tiimin tilan.",
+        "bullets": [
+          "IMAP ja SMTP — toimii jokaisessa standardienmukaisessa postiasiakkaassa.",
+          "CalDAV ja CardDAV — kalenterit ja kontaktit synkronoituvat kaikkialla.",
+          "Sieve-suodattimet laukeavat toimituksessa — säännöt toimivat jokaisessa asiakkaassa.",
+          "Verkkotunnuksen automaattinen asennus sekä Thunderbird XML- ja Apple .mobileconfig -profiilit laitteen välittömään asentamiseen."
+        ]
+      },
+      "oneBill": {
+        "eyebrow": "Yksi suite, yksi lasku",
+        "headline": "Lopeta tilausten yhteen­ompeleminen.",
+        "body": "Tänään keskimääräinen pieni tiimi maksaa Google Workspacesta (posti + kalenteri + Drive), Slackistä (viestit), Notionista (wiki) ja helpdesk-tuotteesta — viisi tilausta, viisi adminkonsolia, viisi käyttäjän elinkaaren virtaa. Verkio on yksi tilaus, yksi konsoli, yksi audit-loki.",
+        "bullets": [
+          "Yksi tilaus korvaa postin + kalenterin + tiedostot + wikin + viestit + helpdeskin.",
+          "Yksi adminkonsoli käyttäjille, laskutukseen, auditoimiseen ja verkkotunnusten hallintaan.",
+          "Yksi identiteetti — provisioi kerran, käytä kaikkea.",
+          "Mollie-laskutus EUR:ssa — ei US-maksukäsittelijää ketjussa."
+        ]
+      }
+    }
+  },
+  "forItAdmins": {
+    "metaTitle": "Verkio IT:lle ja hankinnalle — EU-isännöity työsuite",
+    "metaDescription": "EU-infrastruktuuri, ei US CLOUD Act -altistusta, GDPR-natiivi. DPA, audit-loki, SAML/SSO, rajatut API-avaimet, EU:ssa hallinnoidut salausavaimet, oikea palautuminen katastrofeista.",
+    "eyebrow": "IT:lle ja hankinnalle",
+    "headline": "Tylsät takuut, joita hankinta kysyy.",
+    "body": "Vain EU-infrastruktuuri. Oikea audit-loki SIEM-striimauksella. SAML/SSO JIT-provisioinnilla. EU:ssa hallinnoidut salausavaimet, ei US KMS. Avoimet standardit, jotta migraatioriski pysyy matalana. Oikeat katastrofipalautusharjoitukset, ei markkinointiväitteitä.",
+    "cta": "Liity jonoon",
+    "backLink": "Takaisin etusivulle",
+    "sections": {
+      "procurement": {
+        "eyebrow": "Hankintavalmis",
+        "headline": "Paperityössä ei ole yllätyksiä.",
+        "body": "DPA, alihankkijaluettelo, ROPA-valmis audit-loki, GDPR Artikla 15 / 17 / 20 -työkulut, jotka oikeasti pyörivät — ei 'palaamme asiaan'. Mollie (hollantilainen) hoitaa laskutuksen Stripen (US) sijaan, sulkien suurimman US-alihankkija-varauksen hankinta-arvioinneissa.",
+        "bullets": [
+          "Standardi DPA (Artiklan 28 mukainen) saatavilla ennen allekirjoitusta.",
+          "Julkinen alihankkijaluettelo — jokainen riippuvuus nimettynä, EU-omisteinen siellä missä on väliä.",
+          "GDPR Artikla 15 (tiedonsaanti), Artikla 17 (poisto), Artikla 20 (siirrettävyys) — kaikki yhdellä klikkauksella.",
+          "Mollie hoitaa maksut Stripen sijaan — ei US-maksukäsittelijää.",
+          "Seitsemän vuoden audit-lokin säilytys vastaa ruotsalaista bokföringslagenia."
+        ]
+      },
+      "residency": {
+        "eyebrow": "EU-asuinpaikka, koko matkan alas",
+        "headline": "Ei US-hyperscaleria missään ketjun osassa.",
+        "body": "Hetznerin palvelimet Saksassa ja Suomessa. Hetznerin DNS (ei Cloudflare). Vault Transit EU-isännöidyllä infrastruktuurilla avainten käärimiseen (ei AWS KMS). GlitchTip virheiden seurantaan (ei Sentry). Hetznerin Storage Box varmuuskopioille (ei S3). Ei yksikään kerros ulkoistettuna US-pilveen.",
+        "bullets": [
+          "Compute Hetznerin pilvessä — Saksan ja Suomen alueet.",
+          "Autoritatiivinen DNS Hetznerin DNS Consolessa — EU-omisteinen, ei Cloudflare.",
+          "Salausavaimet levossa kääritty Vault Transitilla EU-isännöidyllä infrastruktuurilla — ei US KMS.",
+          "Varmuuskopiot Hetznerin Storage Boxiin (EU) — ei S3, ei GCS, ei Azure Blob."
+        ]
+      },
+      "identityAndAccess": {
+        "eyebrow": "Identiteetti ja pääsy",
+        "headline": "SSO, audit-lokin striimaus, rajatut avaimet.",
+        "body": "SAML 2.0 -federointi Oktaan, Azure AD:hen, Google Workspaceen tai mihin tahansa standardienmukaiseen IdP:hen — just-in-time -käyttäjäprovisiointi ja ryhmä-/roolimäppäys uudelleen arvioituna jokaisessa kirjautumisessa. Audit-loki striimattavissa SIEM:iisi. Rajatut, vaihdettavat API-avaimet jokaiselle integraatiolle.",
+        "bullets": [
+          "SAML 2.0 SSO minkä tahansa IdP:n kanssa — Okta, Azure AD, Google Workspace, Keycloak.",
+          "Just-in-time -provisiointi ensimmäisessä kirjautumisessa — ei manuaalista käyttäjän luomista.",
+          "Ryhmä- ja roolimäppäys uudelleen arvioituna jokaisessa kirjautumisessa — ei vanhentuneita oikeuksia.",
+          "Rajatut API-avaimet vaihdolla — vain luku, postilaatikkokohtaiset, organisaatiokohtaiset.",
+          "Audit-lokin striimaus Splunkiin, Datadogiin tai mihin tahansa SIEM:iin webhookin kautta."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Migraatioriski: matala",
+        "headline": "Standardit tarkoittavat, että lähteminen on aina vaihtoehto.",
+        "body": "Jokainen suiten osa puhuu avoimia standardeja — IMAP, SMTP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Jos Verkio ei kykene toimittamaan, tietosi lähtevät ulos yhtä siististi kuin ne tulivat sisään. Ei omistettua protokollaa tarkoittaa ei migraatioprojektia kolmantena vuonna.",
+        "bullets": [
+          "Standardit: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
+          "Artikla 20 -siirrettävyyden vienti yhteentoimivissa muodoissa — yksi klikkaus.",
+          "Verkkotunnuksen automaattinen asennus kymmenellä EU DNS -rekisterinpitäjällä (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys, lisää).",
+          "Postin tuonti Microsoft 365:stä, Google Workspacesta tai mistä tahansa IMAP:sta — kansiot, liput, ketjut säilytetty."
+        ]
+      },
+      "ops": {
+        "eyebrow": "Operaatioita, joita voit auditoida",
+        "headline": "Oikea katastrofipalautus. Oikea varmuuskopion verifiointi.",
+        "body": "Tunnittaiset Postgres-varmuuskopiot sekä host-kohtaiset konfiguraatio-tilannekuvat, salattuina EU:ssa hallinnoiduilla avaimilla, replikoituna erilliseen EU-alueeseen. Palautusharjoitukset pyörivät kalenterin mukaan — ei aspiratiivisesti — jotta palautusreitti on harjoiteltu ennen kuin sitä tarvitset. Tilasivu vetämänä oikeista sykäyksistä, ei käsin.",
+        "bullets": [
+          "Tunnittaiset salatut varmuuskopiot; alueidenvälinen replikointi EU:ssa.",
+          "Palautusharjoitukset aikataulun mukaan — palautusreitti on verifioitu, ei oletettu.",
+          "Reaaliaikainen tilasivu vetämänä sykäysmonitoreista, ei ihmisistä.",
+          "GlitchTip (EU) virheiden seurantaan — ei US Sentry -altistusta."
+        ]
+      }
+    }
+  },
+  "forDevelopers": {
+    "metaTitle": "Verkio kehittäjille — Rakenna Verkion päälle",
+    "metaDescription": "REST API OpenAPI 3.1:llä, JMAP-passthrough, allekirjoitetut webhookit, striimattava audit-loki. Sign in with Verkio (OIDC) tulossa. Ilmainen v1:ssä.",
+    "eyebrow": "Kehittäjille",
+    "headline": "Rakenna Verkion päälle. Tylsät takuut mukana.",
+    "body": "Verkio on rakennettu API-ensimmäiseksi — samat päätepisteet, joita web-sovellus käyttää, ovat avoinna sinulle. REST OpenAPI 3.1 -määrittelyllä koodigenerointia varten, JMAP suoraan postiprotokollan käyttöön, HMAC-allekirjoitetut webhookit kuolleen kirjeen jonolla ja striimattava audit-loki vaatimustenmukaisuuteen. Ilmainen v1-tasolla.",
+    "cta": "Liity jonoon",
+    "backLink": "Takaisin etusivulle",
+    "sections": {
+      "restApi": {
+        "eyebrow": "REST + JMAP",
+        "headline": "REST OpenAPI 3.1 -määrittelyllä. JMAP-passthrough postille.",
+        "body": "Jokainen päätepiste dokumentoitu yhdessä OpenAPI 3.1 -tiedostossa osoitteessa /api/v1/openapi.json — osoita mikä tahansa koodigeneraattori siihen ja saat tyypitetyn asiakkaan kielelläsi. Postin osalta API sisältää JMAP-passthroughin, jotta mikä tahansa JMAP-yhteensopiva kirjasto puhuu suoraan postilaatikoidesi kanssa.",
+        "bullets": [
+          "OpenAPI 3.1 -määrittely osoitteessa /api/v1/openapi.json — koodigenerointivalmis.",
+          "Vuorovaikutteinen viite osoitteessa /developers (Swagger UI).",
+          "Bearer-tokenin todennus (RFC 6750). Avaimet tiivistettynä Argon2id:lla levossa.",
+          "JMAP Core ja JMAP Mail (RFC 8620 / 8621) passthrough — käytä mitä tahansa JMAP-kirjastoa.",
+          "Idempotency-Key-tuki muuttavilla päätepisteillä — turvallista yrittää uudelleen."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Allekirjoitetut webhookit",
+        "headline": "HMAC-allekirjoitettu toimitus. Uudelleenyritykset. Kuolleen kirjeen jono.",
+        "body": "Tilaa tapahtumat, joilla on merkitystä — uusi posti, audit-lokin merkinnät, tilimuutokset. Jokainen kuorma on HMAC-SHA256-allekirjoitettu. Epäonnistuneet toimitukset yritetään uudelleen eksponentiaalisella perääntymisellä; jatkuvat epäonnistumiset päätyvät kuolleen kirjeen jonoon, jota voit tarkastella ja toistaa kojelaudalta.",
+        "bullets": [
+          "HMAC-SHA256-allekirjoitus per kuorma (X-Verkio-Signature-otsake).",
+          "Eksponentiaalinen perääntyminen 5xx- ja yhteysvirheissä.",
+          "Kuolleen kirjeen jono kojelaudalla — tarkasta, toista, hylkää.",
+          "Jokainen toimitusyritys kirjattu audit-lokiin."
+        ]
+      },
+      "auditApi": {
+        "eyebrow": "Audit-lokin API",
+        "headline": "Jokainen admin-toiminto, ohjelmallisesti.",
+        "body": "Sama audit-loki, jota luet kojelaudalta, on saatavilla API:na. Sivutettu, suodatettavissa, ennen/jälkeen-arvoilla jokaisesta muutoksesta. Striimaa SIEM:iisi webhookin kautta tai pollaa päätepistettä. Vienti CSV:ksi tai JSONL:ksi forensiikkaa varten. Seitsemän vuoden säilytys oletuksena.",
+        "bullets": [
+          "Sivutettu ja suodatettavissa: käyttäjän mukaan, tapahtumatyypin mukaan, päivämäärävälin mukaan.",
+          "Ennen/jälkeen-arvot jokaisesta muutoksesta.",
+          "Striimaa SIEM:iisi webhookin kautta tai pull-päätepisteellä.",
+          "Seitsemän vuoden säilytys oletuksena. CSV- tai JSONL-vienti milloin tahansa."
+        ]
+      },
+      "futureSignIn": {
+        "eyebrow": "Sign in with Verkio · Tulossa pian",
+        "headline": "EU-isännöity identiteetin tarjoaja käyttäjillesi.",
+        "body": "Standardi OIDC-painike, jonka voit integroida mihin tahansa kolmannen osapuolen sivustoon. EU-isännöity kirjautumisvirta, ei sivustojenvälistä profilointia, sivustokohtainen yksityiskohtainen suostumus. Suunnitteilla, kehittäjien kysynnän vetämänä — ilmainen loppukäyttäjille, ilmainen kehittäjille v1:ssä. Haluatko sen sovelluksellesi? Kerro meille.",
+        "bullets": [
+          "Standardi OpenID Connect (OIDC) — Verkion SDK:ta ei vaadita.",
+          "Toimii minkä tahansa OIDC-tietoisen identiteetin välittäjän kanssa (Auth0, Clerk, Keycloak, NextAuth).",
+          "Sivustokohtainen yksityiskohtainen suostumus sekä yhdistettyjen sovellusten kojelauta loppukäyttäjille.",
+          "Ilmainen v1:ssä — kerro meille, että haluat sen, ja priorisoimme."
         ]
       }
     }

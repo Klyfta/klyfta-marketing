@@ -15,7 +15,26 @@
     "roadmap": "Plán",
     "articles": "Články",
     "product": "Produkt",
+    "for": "Pro",
     "whyVerkio": "Proč Verkio",
+    "audienceMenu": {
+      "individuals": {
+        "name": "Jednotlivci",
+        "description": "Tichá alternativa s EU rezidencí."
+      },
+      "teams": {
+        "name": "Týmy",
+        "description": "Sdílené schránky, kalendáře, soubory, wiki."
+      },
+      "itAdmins": {
+        "name": "IT a nákup",
+        "description": "DPA, audit log, SAML/SSO, EU rezidence."
+      },
+      "developers": {
+        "name": "Vývojáři",
+        "description": "REST, JMAP, podepsané webhooky."
+      }
+    },
     "productMenu": {
       "comingSoon": "Brzy",
       "mail": {
@@ -1173,6 +1192,253 @@
           "Dashboard připojených aplikací se seznamem všech stránek, kam jste se přihlásili.",
           "Odvolání jedním kliknutím, kdykoli — stránka okamžitě ztrácí přístup.",
           "Žádná tichá re-autentizace; změny scope vyžadují čerstvý souhlas."
+        ]
+      }
+    }
+  },
+  "forIndividuals": {
+    "metaTitle": "Verkio pro jednotlivce — Pracovní sada s EU rezidencí",
+    "metaDescription": "Tichá alternativa bez AI ke Gmailu a iCloudu. Mail, kalendář, kontakty, soubory — přes otevřené standardy, v EU. Přines si vlastní doménu.",
+    "eyebrow": "Pro jednotlivce",
+    "headline": "Tichá pracovní sada, která patří tobě — ne platformě.",
+    "body": "Alternativa s EU rezidencí ke Gmailu, iCloudu a Outlook.com. Mail, kalendář, kontakty, soubory — přes otevřené standardy, se základy udělanými pořádně a bez AI, která ti čte schránku. Přines si vlastní doménu nebo použij adresu verkio.eu.",
+    "cta": "Na čekací listinu",
+    "backLink": "Zpět na úvod",
+    "sections": {
+      "core": {
+        "eyebrow": "Základy, udělané pořádně",
+        "headline": "Mail, kalendář, kontakty, soubory. Bez bobtnání.",
+        "body": "Rychlý webmail ovládaný klávesnicí, kalendář, který se synchronizuje s Apple Calendar a Thunderbirdem, CardDAV adresář a úložiště souborů s klíči spravovanými v EU. Jedno přihlášení. Jedna faktura.",
+        "bullets": [
+          "Webmail s vlákny, vyhledáváním, štítky — primárně z klávesnice.",
+          "Kalendář přes CalDAV — synchronizace s Apple Calendar, Thunderbirdem, DAVx⁵.",
+          "Kontakty přes CardDAV — import a export vCard, žádný proprietární formát.",
+          "Úložiště souborů s ACL po souborech a obnovou z koše do 30 dnů.",
+          "Serverové mailové filtry (Sieve) — pravidla se spouští v každém klientovi."
+        ]
+      },
+      "privacy": {
+        "eyebrow": "Tichý už od návrhu",
+        "headline": "Žádná AI nečte tvou poštu. Žádné metriky zapojení.",
+        "body": "Verkio neskenuje tvou schránku pro cílení reklam. Neměříme, jak často aplikaci otevíráš. Neprodáváme souhrny dodavateli modelu. Produktem je schránka, ne tvá pozornost.",
+        "bullets": [
+          "Žádné AI funkce, které by ti četly poštu.",
+          "Žádné metriky zapojení ani upozornění na série.",
+          "Data s EU rezidencí — mimo jurisdikci US CLOUD Act.",
+          "Audit log pro každou administrátorskou akci (tvou i naši)."
+        ]
+      },
+      "yourDomain": {
+        "eyebrow": "Tvá doména, tvé aliasy",
+        "headline": "Použij vlastní doménu. Neomezené aliasy.",
+        "body": "Přines doménu, kterou už vlastníš, a my za tebe nastavíme DNS. Neomezené aliasy (v rozumné míře) a catch-all, aby překlepy v adresách také doputovaly. Nebo začni s adresou verkio.eu a migruj později — adresář si bere s sebou.",
+        "bullets": [
+          "Přines vlastní doménu — automatické nastavení DNS u deseti EU registrátorů.",
+          "Neomezené aliasy na uživatele (v rozumné míře).",
+          "Catch-all na tvé doméně, aby překlepy doputovaly.",
+          "Nebo použij adresu verkio.eu — stejná sada, žádná doména ke správě."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Přestěhuj se bez víkendové akce",
+        "headline": "Přines si schránku s sebou.",
+        "body": "Migruj z Gmailu, iCloudu, Fastmailu, Outlook.com — z libovolného IMAP poskytovatele — v jednom toku. Složky, příznaky a vlákna zachovány. My to taháme, ty sleduješ progress bar. Žádné víkendové „exportuj si mbox a modli se“.",
+        "bullets": [
+          "Import jedním kliknutím z Gmailu, Outlooku, iCloudu, Fastmailu nebo libovolného IMAP serveru.",
+          "Složky, štítky, příznaky, vlákna — vše zachováno.",
+          "Progress bar v dashboardu — žádné čekání ve tmě.",
+          "Migrují i kalendáře a kontakty, přes standardní formáty."
+        ]
+      }
+    }
+  },
+  "forTeams": {
+    "metaTitle": "Verkio pro týmy — Pracovní sada s EU rezidencí",
+    "metaDescription": "Sdílené schránky s týmovým workflow, kalendáře, soubory, wiki, zprávy. Audit log pro vedení. Jedno předplatné místo pěti.",
+    "eyebrow": "Pro týmy",
+    "headline": "Týmová sada, kde se všichni potkávají na jednom místě.",
+    "body": "Sdílené schránky s přiřazováním a ACL po složkách. Sdílené kalendáře a soubory. Wiki na runbooky. Zprávy pro chat. Audit log pro dotazy. Vše na otevřených standardech, vše v EU, vše v jednom předplatném.",
+    "cta": "Na čekací listinu",
+    "backLink": "Zpět na úvod",
+    "sections": {
+      "shared": {
+        "eyebrow": "Postaveno pro společnou práci",
+        "headline": "Sdílené schránky, které ti nepřekáží.",
+        "body": "Týmová schránka pro support@ nebo hello@, která zvládá přiřazení, stav a interní poznámky — promítané jako IMAP keywords, takže power useři v Thunderbirdu nebo Apple Mailu pořád vidí, kdo na čem dělá. Workflow helpdesku bez kupování helpdesk produktu.",
+        "bullets": [
+          "Sdílené schránky s přiřazováním, stavy a ACL po složkách.",
+          "Interní poznámky viditelné jen pro tým.",
+          "Sdílené kalendáře a sdílené složky souborů, po týmech.",
+          "Wiki na runbooky, rozhodnutí a věci, které bys jinak vysvětloval každé čtvrtletí.",
+          "Zprávy ve stejném přihlášení — kanály, DM, vlákna."
+        ]
+      },
+      "onboardOff": {
+        "eyebrow": "Příchody i odchody čistě",
+        "headline": "Nástupy a odchody bez ostrého střihu.",
+        "body": "Přidej nového kolegu a hned dostane mail, kalendář, kontakty, soubory a přístup ke sdíleným schránkám — v jednom toku. Když někdo odchází, jeho schránka zůstává přístupná třicet dní a přesměrovává určené osobě — aby zákaznická odpověď čtrnáctého dne přistála někde užitečně.",
+        "bullets": [
+          "Přidání uživatele jedním formulářem — mail, kalendář, kontakty, soubory hned zřízeny.",
+          "Schránka odcházejícího je 30 dní přístupná, přesměrovává na pojmenovaného vlastníka.",
+          "Vestavěná ochrana proti smyčkám, vše auditováno, kaskádové vyčištění, pokud vlastník také odejde.",
+          "Zrušení pozvánky pro nevyhnutelný překlep."
+        ]
+      },
+      "audit": {
+        "eyebrow": "Odpovědi, když se vedení ptá",
+        "headline": "Každá administrátorská akce na záznam.",
+        "body": "Zákaznicky přístupný audit log s vyhledáváním, hodnotami před/po a sedmiletou retencí. Když se někdo zeptá „kdo sdílel tu složku externě“, odpověď je jeden dotaz daleko. Streamuj události do Splunku, Datadogu nebo libovolného SIEM, pokud potřebuješ.",
+        "bullets": [
+          "Audit log s hodnotami před/po u každé změny.",
+          "Sedmiletá retence ve výchozím nastavení — odpovídá švédskému bokföringslagen.",
+          "Stream do Splunku, Datadogu nebo libovolného SIEM přes webhook.",
+          "Export do CSV nebo JSONL pro compliance nebo forenzní účely."
+        ]
+      },
+      "standards": {
+        "eyebrow": "Otevřené standardy v týmu",
+        "headline": "Kolega, co používá Thunderbird, to má v pohodě.",
+        "body": "Verkio mluví IMAP, SMTP, CalDAV, CardDAV, Sieve. Kdokoli v týmu, kdo preferuje Apple Mail, Thunderbird, Outlook nebo K-9, se prostě přihlásí a pracuje. Stavy a přiřazení sdílených schránek se promítají jako IMAP keywords, takže vidí i stav týmu.",
+        "bullets": [
+          "IMAP a SMTP — funguje v každém klientovi, který dodržuje standardy.",
+          "CalDAV a CardDAV — kalendáře a kontakty se synchronizují všude.",
+          "Sieve filtry se aplikují při doručení — pravidla fungují v každém klientovi.",
+          "Automatické nastavení domény plus Thunderbird XML a Apple .mobileconfig profily pro okamžitou konfiguraci zařízení."
+        ]
+      },
+      "oneBill": {
+        "eyebrow": "Jedna sada, jedna faktura",
+        "headline": "Přestaň skládat předplatné dohromady.",
+        "body": "Dnes průměrný malý tým platí za Google Workspace (mail + kalendář + Drive), Slack (zprávy), Notion (wiki) a helpdesk produkt — pět předplatných, pět admin konzolí, pět toků životního cyklu uživatele. Verkio je jedno předplatné, jedna konzole, jeden audit log.",
+        "bullets": [
+          "Jedno předplatné nahrazuje mail + kalendář + soubory + wiki + zprávy + helpdesk.",
+          "Jedna admin konzole pro uživatele, fakturaci, audit a správu domén.",
+          "Jedna identita — provisionuj jednou, používej všude.",
+          "Mollie fakturace v EUR — žádný US platební procesor v řetězci."
+        ]
+      }
+    }
+  },
+  "forItAdmins": {
+    "metaTitle": "Verkio pro IT a nákup — Pracovní sada s EU rezidencí",
+    "metaDescription": "EU infrastruktura, žádná expozice US CLOUD Act, GDPR-nativní. DPA, audit log, SAML/SSO, scoped API klíče, klíče šifrování spravované v EU, skutečné disaster recovery.",
+    "eyebrow": "Pro IT a nákup",
+    "headline": "Nudné záruky, na které se nákup ptá.",
+    "body": "Pouze EU infrastruktura. Skutečný audit log se streamováním do SIEM. SAML/SSO s JIT provisioningem. Klíče šifrování spravované v EU, ne US KMS. Otevřené standardy, aby riziko migrace zůstalo nízké. Skutečné cvičení obnovy, ne marketingové sliby.",
+    "cta": "Na čekací listinu",
+    "backLink": "Zpět na úvod",
+    "sections": {
+      "procurement": {
+        "eyebrow": "Připraveno na nákup",
+        "headline": "Papírování bez překvapení.",
+        "body": "DPA, seznam subdodavatelů, audit log připravený pro ROPA, GDPR workflow podle článku 15 / 17 / 20, který opravdu běží — ne „ozveme se“. Mollie (nizozemská) řeší fakturaci místo Stripe (US), což zavírá největší výhradu k US subdodavatelům při nákupních revizích.",
+        "bullets": [
+          "Standardní DPA (podle článku 28) k dispozici před podpisem.",
+          "Veřejný seznam subdodavatelů — každá závislost jmenovitě, kde záleží, v EU vlastnictví.",
+          "GDPR článek 15 (přístup), článek 17 (výmaz), článek 20 (přenositelnost) — vše jedním kliknutím.",
+          "Mollie řeší platby místo Stripe — žádný US platební procesor.",
+          "Sedmiletá retence audit logu odpovídá švédskému bokföringslagen."
+        ]
+      },
+      "residency": {
+        "eyebrow": "EU rezidence, až na dno",
+        "headline": "Žádný US hyperscaler nikde v řetězci.",
+        "body": "Hetzner servery v Německu a Finsku. Hetzner DNS (ne Cloudflare). Vault Transit na EU infrastruktuře pro obalování klíčů (ne AWS KMS). GlitchTip pro sledování chyb (ne Sentry). Hetzner Storage Box pro zálohy (ne S3). Ani jedna vrstva outsourcovaná do US cloudu.",
+        "bullets": [
+          "Compute na Hetzner Cloud — regiony Německo a Finsko.",
+          "Autoritativní DNS na Hetzner DNS Console — v EU vlastnictví, ne Cloudflare.",
+          "Klíče šifrování v klidu obaleny Vault Transitem na EU infrastruktuře — žádný US KMS.",
+          "Zálohy na Hetzner Storage Box (EU) — žádné S3, GCS ani Azure Blob."
+        ]
+      },
+      "identityAndAccess": {
+        "eyebrow": "Identita a přístup",
+        "headline": "SSO, streamování audit logu, scoped klíče.",
+        "body": "SAML 2.0 federace na Okta, Azure AD, Google Workspace nebo libovolný standardní IdP — s just-in-time provisioningem uživatelů a opětovným vyhodnocením skupin/rolí při každém přihlášení. Audit log streamovatelný do tvého SIEM. Scoped, rotovatelné API klíče pro každou integraci.",
+        "bullets": [
+          "SAML 2.0 SSO s libovolným IdP — Okta, Azure AD, Google Workspace, Keycloak.",
+          "Just-in-time provisioning při prvním přihlášení — žádné ruční zakládání uživatelů.",
+          "Mapování skupin a rolí znovu vyhodnoceno při každém přihlášení — žádná zastaralá oprávnění.",
+          "Scoped API klíče s rotací — read-only, na schránku, na organizaci.",
+          "Streamování audit logu do Splunku, Datadogu nebo libovolného SIEM přes webhook."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Migrační riziko: nízké",
+        "headline": "Standardy znamenají, že odejít je vždy možnost.",
+        "body": "Každá část sady mluví otevřené standardy — IMAP, SMTP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Pokud Verkio selže v doručení, tvá data vyjdou ven stejně čistě, jako přišla dovnitř. Žádný proprietární protokol znamená žádný migrační projekt ve třetím roce.",
+        "bullets": [
+          "Standardy: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
+          "Export přenositelnosti podle článku 20 v interoperabilních formátech — jedním kliknutím.",
+          "Automatické nastavení domény u deseti EU DNS registrátorů (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys a další).",
+          "Import pošty z Microsoft 365, Google Workspace nebo libovolného IMAP — složky, příznaky, vlákna zachovány."
+        ]
+      },
+      "ops": {
+        "eyebrow": "Provoz, který si můžeš ověřit",
+        "headline": "Skutečné disaster recovery. Skutečné ověření záloh.",
+        "body": "Hodinové Postgres zálohy plus konfigurační snapshoty po hostech, šifrované klíči spravovanými v EU, replikované do oddělené EU regionu. Cvičení obnovy běží podle kalendáře — ne aspiračně — takže cesta obnovy je vyzkoušená, než ji potřebuješ. Status stránka pohaněna skutečnými heartbeaty, ne ručně.",
+        "bullets": [
+          "Hodinové šifrované zálohy; replikace mezi regiony v EU.",
+          "Cvičení obnovy běží podle plánu — cesta obnovy je ověřená, ne předpokládaná.",
+          "Status stránka v reálném čase pohaněna heartbeat monitory, ne lidmi.",
+          "GlitchTip (EU) pro sledování chyb — žádná expozice US Sentry."
+        ]
+      }
+    }
+  },
+  "forDevelopers": {
+    "metaTitle": "Verkio pro vývojáře — Stavějte na Verkio",
+    "metaDescription": "REST API s OpenAPI 3.1, JMAP passthrough, podepsané webhooky, streamovatelný audit log. Sign in with Verkio (OIDC) přichází. Zdarma v1.",
+    "eyebrow": "Pro vývojáře",
+    "headline": "Stavějte na Verkio. Nudné záruky v ceně.",
+    "body": "Verkio je postavené API-first — stejné endpointy, které používá web app, jsou otevřené vám. REST s OpenAPI 3.1 specifikací pro codegen, JMAP pro přímý přístup k mailovému protokolu, webhooky podepsané HMAC s dead-letter queue a streamovatelný audit log pro compliance. Zdarma v rámci v1 tieru.",
+    "cta": "Na čekací listinu",
+    "backLink": "Zpět na úvod",
+    "sections": {
+      "restApi": {
+        "eyebrow": "REST + JMAP",
+        "headline": "REST s OpenAPI 3.1 specifikací. JMAP passthrough pro mail.",
+        "body": "Každý endpoint dokumentován v jednom OpenAPI 3.1 souboru na /api/v1/openapi.json — namiř na něj libovolný codegen nástroj a získej typovaného klienta ve svém jazyce. Pro mail API obsahuje JMAP passthrough, aby libovolná JMAP-kompatibilní knihovna mluvila přímo s tvými schránkami.",
+        "bullets": [
+          "OpenAPI 3.1 specifikace na /api/v1/openapi.json — připraveno pro codegen.",
+          "Interaktivní reference na /developers (Swagger UI).",
+          "Bearer-token autentizace (RFC 6750). Klíče v klidu hashovány Argon2id.",
+          "JMAP Core a JMAP Mail (RFC 8620 / 8621) passthrough — použij libovolnou JMAP knihovnu.",
+          "Podpora Idempotency-Key na mutujících endpointech — bezpečné opakování."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Podepsané webhooky",
+        "headline": "Doručení podepsané HMAC. Opakování. Dead-letter queue.",
+        "body": "Přihlas se k odběru událostí, na kterých záleží — nová pošta, položky audit logu, změny účtu. Každý payload je podepsán HMAC-SHA256. Neúspěšná doručení se opakují s exponenciálním backoffem; trvalé chyby končí v dead-letter queue, kterou si můžeš prohlédnout a přehrát z dashboardu.",
+        "bullets": [
+          "HMAC-SHA256 podpis na payload (hlavička X-Verkio-Signature).",
+          "Exponenciální backoff při 5xx a chybách spojení.",
+          "Dead-letter queue v dashboardu — prohlédni, přehraj, zahoď.",
+          "Každý pokus o doručení zaznamenán v audit logu."
+        ]
+      },
+      "auditApi": {
+        "eyebrow": "Audit log API",
+        "headline": "Každá administrátorská akce, programaticky.",
+        "body": "Stejný audit log, který čteš v dashboardu, je dostupný jako API. Stránkovaný, filtrovatelný, s hodnotami před/po u každé změny. Streamuj do svého SIEM přes webhook nebo polluj endpoint. Export do CSV nebo JSONL pro forenzní účely. Sedmiletá retence ve výchozím nastavení.",
+        "bullets": [
+          "Stránkováno a filtrovatelné: podle uživatele, typu události, časového rozsahu.",
+          "Hodnoty před/po u každé mutace.",
+          "Streamuj do svého SIEM přes webhook nebo pull endpoint.",
+          "Sedmiletá retence ve výchozím nastavení. Export do CSV nebo JSONL kdykoli."
+        ]
+      },
+      "futureSignIn": {
+        "eyebrow": "Sign in with Verkio · Brzy",
+        "headline": "Poskytovatel identity s EU rezidencí pro vaše uživatele.",
+        "body": "Standardní OIDC tlačítko, které integrujete na libovolnou stránku třetí strany. Přihlašovací tok s EU rezidencí, žádné cross-site profilování, granulární souhlas per stránka. Plánováno, řízeno poptávkou vývojářů — zdarma pro koncové uživatele, zdarma pro vývojáře v rámci v1. Chcete to pro svou aplikaci? Řekněte nám.",
+        "bullets": [
+          "Standardní OpenID Connect (OIDC) — žádné Verkio SDK není potřeba.",
+          "Funguje s libovolným OIDC-aware identity brokerem (Auth0, Clerk, Keycloak, NextAuth).",
+          "Granulární souhlas per stránka plus dashboard připojených aplikací pro koncové uživatele.",
+          "Zdarma v rámci v1 — řekněte nám, že to chcete, a my to upřednostníme."
         ]
       }
     }

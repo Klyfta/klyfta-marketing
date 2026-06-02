@@ -15,7 +15,26 @@
     "roadmap": "Ceļvedis",
     "articles": "Raksti",
     "product": "Produkts",
+    "for": "Kam",
     "whyVerkio": "Kāpēc Verkio",
+    "audienceMenu": {
+      "individuals": {
+        "name": "Privātpersonām",
+        "description": "Klusa, ES mitināta alternatīva."
+      },
+      "teams": {
+        "name": "Komandām",
+        "description": "Koplietotas iesūtnes, kalendāri, faili, wiki."
+      },
+      "itAdmins": {
+        "name": "IT un iepirkumiem",
+        "description": "DPA, audita žurnāls, SAML/SSO, ES mitināšana."
+      },
+      "developers": {
+        "name": "Izstrādātājiem",
+        "description": "REST, JMAP, parakstīti webhook."
+      }
+    },
     "productMenu": {
       "comingSoon": "Drīzumā",
       "mail": {
@@ -1173,6 +1192,253 @@
           "Pievienoto lietotņu panelis, kas uzskaita katru vietni, kur esat pierakstījies.",
           "Viena klikšķa atsaukšana, jebkurā laikā — vietne nekavējoties zaudē piekļuvi.",
           "Bez klusas atkārtotas autentifikācijas; scope izmaiņas prasa svaigu piekrišanu."
+        ]
+      }
+    }
+  },
+  "forIndividuals": {
+    "metaTitle": "Verkio privātpersonām — ES mitināta darba pakete",
+    "metaDescription": "Klusa, bez MI alternatīva Gmail un iCloud. Pasts, kalendārs, kontakti, faili — caur atklātajiem standartiem, ES. Atved savu domēnu.",
+    "eyebrow": "Privātpersonām",
+    "headline": "Klusa darba pakete, kas ir tava, nevis platformas.",
+    "body": "ES mitināta alternatīva Gmail, iCloud un Outlook.com. Pasts, kalendārs, kontakti, faili — caur atklātajiem standartiem, ar pareizi izveidotiem pamatiem un bez MI, kas lasa tavu iesūtni. Atved savu domēnu vai izmanto verkio.eu adresi.",
+    "cta": "Pievienoties sarakstam",
+    "backLink": "Atpakaļ uz sākumu",
+    "sections": {
+      "core": {
+        "eyebrow": "Pamati, labi izdarīti",
+        "headline": "Pasts, kalendārs, kontakti, faili. Bez piepūšanas.",
+        "body": "Ātrs tastatūrai paredzēts tīmekļa pasts, kalendārs, kas sinhronizējas ar Apple Calendar un Thunderbird, CardDAV adrešu grāmata un failu krātuve ar ES pārvaldītām atslēgām. Viena pieslēgšanās. Viens rēķins.",
+        "bullets": [
+          "Tīmekļa pasts ar pavedieniem, meklēšanu, etiķetēm — tastatūrai paredzēts.",
+          "Kalendārs caur CalDAV — sinhronizējas ar Apple Calendar, Thunderbird, DAVx⁵.",
+          "Kontakti caur CardDAV — vCard imports un eksports, bez patentētiem formātiem.",
+          "Failu krātuve ar piekļuves kontroli katram failam un 30 dienu atjaunošanu no Atkritumiem.",
+          "Servera puses pasta filtri (Sieve) — noteikumi darbojas katrā klientā."
+        ]
+      },
+      "privacy": {
+        "eyebrow": "Kluss pēc dizaina",
+        "headline": "Nekāds MI nelasīs tavu pastu. Nekādu iesaistes metriku.",
+        "body": "Verkio neskenē tavu iesūtni reklāmu mērķēšanai. Mēs nemērām, cik bieži tu pārbaudi lietotni. Mēs nepārdodam kopsavilkumus modeļu pārdevējam. Produkts ir pastkastīte, nevis tava uzmanība.",
+        "bullets": [
+          "Nekādu MI funkciju, kas lasa tavu pastu.",
+          "Nekādu iesaistes metriku vai streak paziņojumu.",
+          "ES mitināti dati — ārpus ASV CLOUD Act jurisdikcijas.",
+          "Audita žurnāls katrai administratora darbībai (tavai un mūsu)."
+        ]
+      },
+      "yourDomain": {
+        "eyebrow": "Tavs domēns, tavi aizstājējvārdi",
+        "headline": "Izmanto savu domēnu. Neierobežoti aizstājējvārdi.",
+        "body": "Atved domēnu, kas tev jau pieder, un mēs konfigurēsim DNS tavā vietā. Iegūsti neierobežotus aizstājējvārdus (saprātīgas izmantošanas robežās) un catch-all, lai nepareizi rakstītas adreses tomēr nonāktu. Vai sāc ar verkio.eu adresi un migrē vēlāk — adrešu grāmata ceļo līdzi.",
+        "bullets": [
+          "Atved savu domēnu — automātiska DNS iestatīšana desmit ES reģistratoros.",
+          "Neierobežoti aizstājējvārdi katram lietotājam (saprātīgas izmantošanas robežās).",
+          "Catch-all uz tava domēna, lai pārrakstīšanās tomēr nonāktu.",
+          "Vai izmanto verkio.eu adresi — tā pati pakete, bez domēna pārvaldīšanas."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Pārcelies bez nedēļas nogales projekta",
+        "headline": "Paņem savu iesūtni līdzi.",
+        "body": "Migrē no Gmail, iCloud, Fastmail, Outlook.com — jebkura IMAP pakalpojuma sniedzēja — vienā plūsmā. Mapes, karodziņi un pavedieni saglabāti. Mēs vilksim, tu vērosi progresa joslu. Nekāds 'eksportē savu mbox un lūdzies' nedēļas nogales projekts.",
+        "bullets": [
+          "Imports ar vienu klikšķi no Gmail, Outlook, iCloud, Fastmail vai jebkura IMAP servera.",
+          "Mapes, etiķetes, karodziņi, pavedieni — viss saglabāts.",
+          "Progresa josla informācijas panelī — bez gaidīšanas tumsā.",
+          "Arī kalendāri un kontakti migrē, izmantojot standarta formātus."
+        ]
+      }
+    }
+  },
+  "forTeams": {
+    "metaTitle": "Verkio komandām — ES mitināta darba pakete",
+    "metaDescription": "Koplietotas pastkastītes ar komandas darbplūsmu, kalendāri, faili, wiki, ziņojumi. Audita žurnāls vadībai. Viena abonēšana piecu vietā.",
+    "eyebrow": "Komandām",
+    "headline": "Komandas pakete, kur visi parādās vienā vietā.",
+    "body": "Koplietotas pastkastītes ar piešķiršanu un piekļuves tiesībām katrai mapei. Koplietoti kalendāri un faili. Wiki runbookiem. Ziņojumi sarunām. Audita žurnāls jautājumiem. Viss caur atklātajiem standartiem, viss ES, viss vienā abonēšanā.",
+    "cta": "Pievienoties sarakstam",
+    "backLink": "Atpakaļ uz sākumu",
+    "sections": {
+      "shared": {
+        "eyebrow": "Veidots koplietotam darbam",
+        "headline": "Koplietotas iesūtnes, kas nestrīdas ar tevi.",
+        "body": "Komandas iesūtne support@ vai hello@, kas apstrādā piešķiršanu, statusu un iekšējās piezīmes — projicētas kā IMAP atslēgvārdi, lai pieredzējušie lietotāji Thunderbird vai Apple Mail tomēr redzētu, kas pie kā strādā. Helpdesk darbplūsma bez helpdesk produkta iegādes.",
+        "bullets": [
+          "Koplietotas pastkastītes ar piešķiršanu, statusu un piekļuves tiesībām katrai mapei.",
+          "Iekšējās piezīmes redzamas tikai komandai.",
+          "Koplietoti kalendāri un koplietotas failu mapes katrai komandai.",
+          "Wiki runbookiem, lēmumiem un lietām, ko citādi būtu jāpaskaidro katru ceturksni.",
+          "Ziņojumi tajā pašā pieslēgšanās — kanāli, DM, pavedieni."
+        ]
+      },
+      "onboardOff": {
+        "eyebrow": "Tīra uzņemšana un atvadīšanās",
+        "headline": "Pievienošanās un aiziešana bez asas robežas.",
+        "body": "Pievieno jaunu kolēģi, un viņš vienā plūsmā saņem pastu, kalendāru, kontaktus, failus un piekļuvi koplietotai pastkastītei. Kad kāds aiziet, viņa iesūtne paliek pieejama trīsdesmit dienas un pārsūta uz nozīmētu īpašnieku — lai klienta atbilde četrpadsmitajā dienā tomēr nonāktu kaut kur noderīgi.",
+        "bullets": [
+          "Pievieno lietotājus ar vienu formu — pasts, kalendārs, kontakti, faili tiek nodrošināti uzreiz.",
+          "Aizejošā lietotāja iesūtne paliek pieejama 30 dienas, pārsūta uz nosauktu īpašnieku.",
+          "Iebūvēta anti-loop aizsardzība, audita žurnālā fiksēta, kaskāde noskaidrojas, ja arī īpašnieks aiziet.",
+          "Uzaicinājuma atcelšanas atsaukšana neizbēgamajai pārrakstīšanās kļūdai."
+        ]
+      },
+      "audit": {
+        "eyebrow": "Atbildes, kad vadība jautā",
+        "headline": "Katra administratora darbība — protokolā.",
+        "body": "Klientam redzams audita žurnāls ar meklēšanu, vērtībām pirms/pēc un septiņu gadu glabāšanu. Kad kāds jautā 'kas dalījās ar šo mapi ārēji', atbilde ir viena vaicājuma attālumā. Straumē notikumus uz Splunk, Datadog vai jebkuru SIEM, ja vajag.",
+        "bullets": [
+          "Audita žurnāls ar vērtībām pirms/pēc katrai izmaiņai.",
+          "Septiņu gadu glabāšana pēc noklusējuma — atbilst zviedru bokföringslagen.",
+          "Straumēšana uz Splunk, Datadog vai jebkuru SIEM caur webhook.",
+          "Eksports uz CSV vai JSONL atbilstībai vai forensikai."
+        ]
+      },
+      "standards": {
+        "eyebrow": "Atklātie standarti komandā",
+        "headline": "Komandas cilvēks, kas izmanto Thunderbird, jūtas labi.",
+        "body": "Verkio runā IMAP, SMTP, CalDAV, CardDAV, Sieve. Jebkurš komandā, kas dod priekšroku Apple Mail, Thunderbird, Outlook vai K-9, vienkārši pieslēdzas un strādā. Koplietotās pastkastītes statuss un piešķīrumi projicējas kā IMAP atslēgvārdi, lai viņi arī redzētu komandas stāvokli.",
+        "bullets": [
+          "IMAP un SMTP — darbojas katrā standartiem atbilstošā pasta klientā.",
+          "CalDAV un CardDAV — kalendāri un kontakti sinhronizējas visur.",
+          "Sieve filtri darbojas piegādes brīdī — noteikumi darbojas katrā klientā.",
+          "Automātiska domēna iestatīšana plus Thunderbird XML un Apple .mobileconfig profili tūlītējai ierīču iestatīšanai."
+        ]
+      },
+      "oneBill": {
+        "eyebrow": "Viena pakete, viens rēķins",
+        "headline": "Pārtrauc šūt kopā abonementus.",
+        "body": "Šodien vidējā maza komanda maksā par Google Workspace (pasts + kalendārs + Drive), Slack (ziņojumi), Notion (wiki) un helpdesk produktu — pieci abonementi, piecas administratoru konsoles, pieci lietotāju dzīves cikla procesi. Verkio ir viens abonements, viena konsole, viens audita žurnāls.",
+        "bullets": [
+          "Viens abonements, kas aizvieto pastu + kalendāru + failus + wiki + ziņojumus + helpdesk.",
+          "Viena administratora konsole lietotājiem, rēķiniem, auditam un domēna pārvaldībai.",
+          "Viena identitāte — nodrošini vienreiz, piekļūsti visam.",
+          "Mollie rēķini EUR — bez ASV maksājumu apstrādātāja ķēdē."
+        ]
+      }
+    }
+  },
+  "forItAdmins": {
+    "metaTitle": "Verkio IT un iepirkumiem — ES mitināta darba pakete",
+    "metaDescription": "ES infrastruktūra, bez ASV CLOUD Act ekspozīcijas, GDPR pēc dizaina. DPA, audita žurnāls, SAML/SSO, ierobežoti API atslēgu tvērumi, ES pārvaldītas šifrēšanas atslēgas, īsts katastrofu atjaunošanas process.",
+    "eyebrow": "IT un iepirkumiem",
+    "headline": "Garlaicīgās garantijas, ko iepirkumu nodaļa prasa.",
+    "body": "Tikai ES infrastruktūra. Īsts audita žurnāls ar SIEM straumēšanu. SAML/SSO ar JIT nodrošinājumu. ES pārvaldītas šifrēšanas atslēgas, nevis ASV KMS. Atklātie standarti, lai migrācijas risks paliek zems. Īstas katastrofu atjaunošanas mācības, ne tikai mārketinga apgalvojumi.",
+    "cta": "Pievienoties sarakstam",
+    "backLink": "Atpakaļ uz sākumu",
+    "sections": {
+      "procurement": {
+        "eyebrow": "Gatavi iepirkumiem",
+        "headline": "Dokumentos nav pārsteigumu.",
+        "body": "DPA, apakšapstrādātāju saraksts, ROPA gatavs audita žurnāls, GDPR Panta 15 / 17 / 20 procesi, kas patiesi darbojas — nevis 'mēs jums atbildēsim'. Mollie (nīderlandiešu) apstrādā rēķinus Stripe (ASV) vietā, slēdzot lielāko ASV apakšapstrādātāja iebildi iepirkumu pārbaudēs.",
+        "bullets": [
+          "Standarta DPA (atbilstoša Pantam 28) pieejama pirms parakstīšanas.",
+          "Publisks apakšapstrādātāju saraksts — katra atkarība nosaukta, visas ES īpašumā, kur tas ir svarīgi.",
+          "GDPR Pants 15 (piekļuve), Pants 17 (dzēšana), Pants 20 (pārnesamība) — viss ar vienu klikšķi.",
+          "Mollie apstrādā maksājumus Stripe vietā — bez ASV maksājumu apstrādātāja.",
+          "Septiņu gadu audita žurnāla glabāšana atbilst zviedru bokföringslagen."
+        ]
+      },
+      "residency": {
+        "eyebrow": "ES rezidence līdz pašai apakšai",
+        "headline": "Nekāda ASV hyperscaler nekur ķēdē.",
+        "body": "Hetzner serveri Vācijā un Somijā. Hetzner DNS (nevis Cloudflare). Vault Transit ES mitinātā infrastruktūrā atslēgu wrappingam (nevis AWS KMS). GlitchTip kļūdu izsekošanai (nevis Sentry). Hetzner Storage Box rezerves kopijām (nevis S3). Nekāds slānis nav nodots ASV mākonim.",
+        "bullets": [
+          "Skaitļošana Hetzner Cloud — Vācijas un Somijas reģioni.",
+          "Autoritatīvs DNS Hetzner DNS Console — ES īpašumā, nevis Cloudflare.",
+          "Šifrēšanas atslēgas miera stāvoklī wrappinātas ar Vault Transit ES mitinātā infrastruktūrā — bez ASV KMS.",
+          "Rezerves kopijas uz Hetzner Storage Box (ES) — bez S3, GCS vai Azure Blob."
+        ]
+      },
+      "identityAndAccess": {
+        "eyebrow": "Identitāte un piekļuve",
+        "headline": "SSO, audita žurnāla straumēšana, ierobežotas atslēgas.",
+        "body": "SAML 2.0 federācija ar Okta, Azure AD, Google Workspace vai jebkuru standartiem atbilstošu IdP — ar just-in-time lietotāju nodrošināšanu un grupu/lomu kartēšanu, pārvērtētu katrā pieslēgšanās reizē. Audita žurnāls straumējams uz tavu SIEM. Ierobežoti, rotējami API atslēgas katrai integrācijai.",
+        "bullets": [
+          "SAML 2.0 SSO ar jebkuru IdP — Okta, Azure AD, Google Workspace, Keycloak.",
+          "Just-in-time nodrošināšana pirmajā pieslēgšanās reizē — bez manuālas lietotāju izveides.",
+          "Grupu un lomu kartēšana pārvērtēta katrā pieslēgšanās reizē — bez novecojušām atļaujām.",
+          "Ierobežotas API atslēgas ar rotāciju — read-only, katrai pastkastītei, katrai organizācijai.",
+          "Audita žurnāla straumēšana uz Splunk, Datadog vai jebkuru SIEM caur webhook."
+        ]
+      },
+      "migration": {
+        "eyebrow": "Migrācijas risks: zems",
+        "headline": "Standarti nozīmē, ka aiziešana vienmēr ir iespēja.",
+        "body": "Katra paketes daļa runā atklātajos standartos — IMAP, SMTP, CalDAV, CardDAV, Sieve, vCard, iCalendar, Markdown. Ja Verkio nespēj piepildīt, tavi dati iziet tikpat tīri, cik ienāca. Bez patentēta protokola nozīmē, ka trešajā gadā nav migrācijas projekta.",
+        "bullets": [
+          "Standarti: IMAP / SMTP / JMAP / CalDAV / CardDAV / Sieve / vCard / iCalendar / Markdown.",
+          "Panta 20 pārnesamības eksports savstarpēji savietojamos formātos — vienā klikšķī.",
+          "Automātiska domēna iestatīšana desmit ES DNS reģistratoros (Hetzner, OVH, IONOS, deSEC, Scaleway, Glesys un citi).",
+          "Pasta imports no Microsoft 365, Google Workspace vai jebkura IMAP — mapes, karodziņi, pavedieni saglabāti."
+        ]
+      },
+      "ops": {
+        "eyebrow": "Darbības, ko vari auditēt",
+        "headline": "Īsts katastrofu atjaunošanas process. Īsta rezerves kopiju pārbaude.",
+        "body": "Postgres rezerves kopijas katru stundu plus konfigurācijas momentuzņēmumi katram resursdatoram, šifrēti ar ES pārvaldītām atslēgām, replicēti uz atsevišķu ES reģionu. Atjaunošanas mācības notiek pēc kalendāra — nevis tikai vēlamā veidā — lai atjaunošanas ceļš tiktu izvingrināts pirms tas vajadzīgs. Statusa lapu darbina īsti heartbeat, nevis cilvēki.",
+        "bullets": [
+          "Šifrētas rezerves kopijas katru stundu; replikācija starp reģioniem ES.",
+          "Atjaunošanas mācības pēc grafika — atjaunošanas ceļš ir pārbaudīts, nevis pieņemts.",
+          "Reāllaika statusa lapa, ko darbina heartbeat monitori, nevis cilvēki.",
+          "GlitchTip (ES) kļūdu izsekošanai — bez ASV Sentry ekspozīcijas."
+        ]
+      }
+    }
+  },
+  "forDevelopers": {
+    "metaTitle": "Verkio izstrādātājiem — Veido uz Verkio",
+    "metaDescription": "REST API ar OpenAPI 3.1, JMAP passthrough, parakstīti webhook, straumējams audita žurnāls. Sign in with Verkio (OIDC) drīzumā. Bezmaksas v1.",
+    "eyebrow": "Izstrādātājiem",
+    "headline": "Veido uz Verkio. Garlaicīgās garantijas iekļautas.",
+    "body": "Verkio ir veidots API-first — tie paši galapunkti, ko izmanto tīmekļa lietotne, ir atvērti tev. REST ar OpenAPI 3.1 specifikāciju kodu ģenerēšanai, JMAP tiešai piekļuvei pasta protokolam, HMAC parakstīti webhook ar dead-letter rindu un straumējams audita žurnāls atbilstībai. Bezmaksas v1 līmenim.",
+    "cta": "Pievienoties sarakstam",
+    "backLink": "Atpakaļ uz sākumu",
+    "sections": {
+      "restApi": {
+        "eyebrow": "REST + JMAP",
+        "headline": "REST ar OpenAPI 3.1 specifikāciju. JMAP passthrough pastam.",
+        "body": "Katrs galapunkts dokumentēts vienā OpenAPI 3.1 failā /api/v1/openapi.json — nosūti jebkuru kodu ģenerēšanas rīku uz to un saņem tipētu klientu savā valodā. Pastam API ietver JMAP passthrough, lai jebkura JMAP-saderīga bibliotēka tieši runātu ar tavām pastkastītēm.",
+        "bullets": [
+          "OpenAPI 3.1 specifikācija /api/v1/openapi.json — gatava kodu ģenerēšanai.",
+          "Interaktīvā atsauce /developers (Swagger UI).",
+          "Bearer-token autentifikācija (RFC 6750). Atslēgas hešētas ar Argon2id miera stāvoklī.",
+          "JMAP Core un JMAP Mail (RFC 8620 / 8621) passthrough — izmanto jebkuru JMAP bibliotēku.",
+          "Idempotency-Key atbalsts mutācijas galapunktiem — droši atkārtot."
+        ]
+      },
+      "webhooks": {
+        "eyebrow": "Parakstīti webhook",
+        "headline": "HMAC parakstīta piegāde. Atkārtojumi. Dead-letter rinda.",
+        "body": "Abonē notikumus, kas ir svarīgi — jaunu pastu, audita žurnāla ierakstus, konta izmaiņas. Katrs payload ir HMAC-SHA256 parakstīts. Neveiksmīgas piegādes tiek atkārtotas ar eksponenciālu backoff; pastāvīgas neveiksmes nonāk dead-letter rindā, ko tu vari pārbaudīt un atkārtoti palaist no informācijas paneļa.",
+        "bullets": [
+          "HMAC-SHA256 paraksts katram payload (X-Verkio-Signature galvene).",
+          "Eksponenciāls backoff pie 5xx un savienojuma kļūdām.",
+          "Dead-letter rinda informācijas panelī — pārbaudi, atkārto, noraidi.",
+          "Katrs piegādes mēģinājums fiksēts audita žurnālā."
+        ]
+      },
+      "auditApi": {
+        "eyebrow": "Audita žurnāla API",
+        "headline": "Katra administratora darbība — programmatiski.",
+        "body": "Tas pats audita žurnāls, ko lasi informācijas panelī, pieejams kā API. Paginēts, filtrējams, ar vērtībām pirms/pēc katrai izmaiņai. Straumē uz savu SIEM caur webhook vai aptaujā galapunktu. Eksportē uz CSV vai JSONL forensikai. Septiņu gadu glabāšana pēc noklusējuma.",
+        "bullets": [
+          "Paginēts un filtrējams: pēc lietotāja, pēc notikuma veida, pēc datuma intervāla.",
+          "Vērtības pirms/pēc katrai mutācijai.",
+          "Straumē uz savu SIEM caur webhook vai pull galapunktu.",
+          "Septiņu gadu glabāšana pēc noklusējuma. CSV vai JSONL eksports jebkurā laikā."
+        ]
+      },
+      "futureSignIn": {
+        "eyebrow": "Sign in with Verkio · Drīzumā",
+        "headline": "ES mitināts identitātes nodrošinātājs taviem lietotājiem.",
+        "body": "Standarta OIDC poga, ko tu vari integrēt jebkurā trešās puses vietnē. ES mitināta pieslēgšanās plūsma, bez cross-site profilēšanas, sīka piekrišana katrai vietnei. Plānots, izstrādātāju pieprasījuma vadīts — bezmaksas galalietotājiem, bezmaksas izstrādātājiem v1. Vēlies to savai lietotnei? Pasaki mums.",
+        "bullets": [
+          "Standarta OpenID Connect (OIDC) — Verkio SDK nav nepieciešams.",
+          "Darbojas ar jebkuru OIDC-zinošu identitātes brokeri (Auth0, Clerk, Keycloak, NextAuth).",
+          "Sīka piekrišana katrai vietnei plus pievienoto lietotņu informācijas panelis galalietotājiem.",
+          "Bezmaksas v1 — pasaki mums, ka vēlies, un mēs piešķirsim prioritāti."
         ]
       }
     }
