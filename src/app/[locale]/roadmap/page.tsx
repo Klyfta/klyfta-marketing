@@ -69,7 +69,7 @@ const roadmapItems: { key: string; size: RoadmapSize; status?: RoadmapStatus }[]
   { key: "samlSso", size: "major", status: "implemented" },
   { key: "migration", size: "major" },
   { key: "ssoScim", size: "major", status: "implemented" },
-  { key: "signInWithVerkio", size: "major" },
+  { key: "signInWithVerkio", size: "major", status: "implemented" },
   { key: "eidasSigning", size: "major" },
   { key: "calendarPolls", size: "minor" },
   { key: "compliance", size: "major" },
@@ -136,11 +136,12 @@ function RoadmapList() {
                     isMajor ? "text-xs text-brand-600" : "text-[10px] text-gray-400"
                   }`}
                 >
-                  <span>{t(`items.${key}.date`)}</span>
-                  {isImplemented && (
+                  {isImplemented ? (
                     <span className="text-[10px] text-green-700">
-                      · {t("statusImplemented")}
+                      {t("statusImplemented")}
                     </span>
+                  ) : (
+                    <span>{t(`items.${key}.date`)}</span>
                   )}
                 </div>
                 <h2
