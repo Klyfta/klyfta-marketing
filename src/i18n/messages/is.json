@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Borð",
+        "date": "June 2026",
+        "description": "Innbyggð Kanban-borð — skipuleggðu og fylgstu með verkefnum án þess að yfirgefa Verkio. Sérsniðnir dálkar, korttegundir, ábyrgðaraðilar, fylgjendur og full aðgerðasaga."
+      },
+      "forms": {
+        "name": "Eyðublöð",
+        "date": "June 2026",
+        "description": "Sérsniðin eyðublöð sem beina hverri innsendingu í pósthólf, möppu, wiki, borð eða webhook — með ruslpóstsvörn og GDPR-samþykki."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Létt CRM ofan á tengiliðina þína: sölurásir, samningar, vegin spá og athugasemdir — alfarið hýst í ESB."
+      },
+      "autoTranslate": {
+        "name": "Sjálfvirk þýðing",
+        "date": "June 2026",
+        "description": "Samstundis þýðing á inn- og útsendum pósti á ESB-tungumál — hýst í ESB, án Google eða DeepL, ókeypis í öllum áskriftum."
+      },
+      "transparencyLog": {
+        "name": "Gagnsæisskrá",
+        "date": "June 2026",
+        "description": "Opinber, dulritunarlega sannreynanleg skrá yfir breytingar á undirvinnsluaðilum, atvik og innviðauppfærslur."
+      },
+      "dsrPortal": {
+        "name": "Gátt fyrir beiðnir skráðra einstaklinga",
+        "date": "June 2026",
+        "description": "Sjálfsafgreiðslugátt fyrir GDPR þar sem notendur þínir leggja fram beiðnir skv. 15.–21. gr., með úrvinnslu persónuverndarfulltrúa innan lögbundins frests."
       }
     }
   },

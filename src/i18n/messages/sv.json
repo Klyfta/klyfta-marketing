@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Boards",
+        "date": "June 2026",
+        "description": "Inbyggda Kanban-tavlor — planera och följ arbetet utan att lämna Verkio. Egna kolumner, korttyper, ansvariga, bevakare och fullständig aktivitetshistorik."
+      },
+      "forms": {
+        "name": "Formulär",
+        "date": "June 2026",
+        "description": "Egna formulär som skickar varje svar till en brevlåda, mapp, wiki, tavla eller webhook — med skräppostskydd och GDPR-samtycke."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Ett lätt CRM på dina kontakter: pipelines, affärer, viktad prognos och anteckningar — helt EU-baserat."
+      },
+      "autoTranslate": {
+        "name": "Automatisk översättning",
+        "date": "June 2026",
+        "description": "Direkt översättning av inkommande och utgående e-post på EU-språk — EU-baserad, utan Google eller DeepL, gratis i alla abonnemang."
+      },
+      "transparencyLog": {
+        "name": "Transparenslogg",
+        "date": "June 2026",
+        "description": "En offentlig, kryptografiskt verifierbar logg över ändringar av underbiträden, incidenter och infrastrukturuppdateringar."
+      },
+      "dsrPortal": {
+        "name": "Portal för registrerades begäranden",
+        "date": "June 2026",
+        "description": "En självbetjäningsportal för GDPR där dina slutanvändare lämnar begäranden enligt artikel 15–21, med hantering av dataskyddsombudet inom lagstadgad tid."
       }
     }
   },

@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Tahvlid",
+        "date": "June 2026",
+        "description": "Sisseehitatud Kanban-tahvlid — planeeri ja jälgi tööd Verkiost lahkumata. Kohandatud veerud, kaarditüübid, vastutajad, jälgijad ja täielik tegevuste ajalugu."
+      },
+      "forms": {
+        "name": "Vormid",
+        "date": "June 2026",
+        "description": "Kohandatud vormid, mis suunavad iga esituse postkasti, kausta, wikisse, tahvlile või webhooki — rämpsposti kaitse ja GDPR-nõusolekuga."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Kerge CRM teie kontaktide peal: müügitorud, tehingud, kaalutud prognoos ja märkmed — täielikult ELis majutatud."
+      },
+      "autoTranslate": {
+        "name": "Automaatne tõlge",
+        "date": "June 2026",
+        "description": "Sissetuleva ja väljamineva posti kohene tõlge ELi keeltesse — majutatud ELis, ilma Google'i või DeepLita, tasuta igas paketis."
+      },
+      "transparencyLog": {
+        "name": "Läbipaistvuse logi",
+        "date": "June 2026",
+        "description": "Avalik, krüptograafiliselt kontrollitav logi alltöötlejate muudatustest, intsidentidest ja taristu uuendustest."
+      },
+      "dsrPortal": {
+        "name": "Andmesubjekti taotluste portaal",
+        "date": "June 2026",
+        "description": "Iseteeninduslik GDPR-portaal teie lõppkasutajate artiklite 15–21 taotluste jaoks, andmekaitsespetsialisti menetlusega seadusliku tähtaja jooksul."
       }
     }
   },

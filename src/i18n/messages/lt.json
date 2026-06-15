@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Lentos",
+        "date": "June 2026",
+        "description": "Integruotos Kanban lentos — planuokite ir stebėkite darbą neišeidami iš Verkio. Pasirenkami stulpeliai, kortelių tipai, atsakingi asmenys, stebėtojai ir visa veiklos istorija."
+      },
+      "forms": {
+        "name": "Formos",
+        "date": "June 2026",
+        "description": "Pritaikomos formos, nukreipiančios kiekvieną pateikimą į pašto dėžutę, aplanką, wiki, lentą ar webhook — su apsauga nuo šlamšto ir BDAR sutikimu."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Lengvas CRM jūsų kontaktams: kanalai, sandoriai, svertinė prognozė ir užrašai — visiškai talpinama ES."
+      },
+      "autoTranslate": {
+        "name": "Automatinis vertimas",
+        "date": "June 2026",
+        "description": "Tiesioginis gaunamų ir siunčiamų laiškų vertimas į ES kalbas — talpinama ES, be Google ar DeepL, nemokama kiekviename plane."
+      },
+      "transparencyLog": {
+        "name": "Skaidrumo žurnalas",
+        "date": "June 2026",
+        "description": "Viešas, kriptografiškai patikrinamas subtvarkytojų pakeitimų, incidentų ir infrastruktūros atnaujinimų žurnalas."
+      },
+      "dsrPortal": {
+        "name": "Duomenų subjektų prašymų portalas",
+        "date": "June 2026",
+        "description": "Savitarnos BDAR portalas jūsų galutinių naudotojų prašymams pagal 15–21 straipsnius, su duomenų apsaugos pareigūno nagrinėjimu per teisės aktų nustatytą terminą."
       }
     }
   },

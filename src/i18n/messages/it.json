@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Boards",
+        "date": "June 2026",
+        "description": "Bacheche Kanban integrate: pianifica e monitora il lavoro senza uscire da Verkio. Colonne personalizzate, tipi di scheda, assegnatari, osservatori e cronologia completa."
+      },
+      "forms": {
+        "name": "Moduli",
+        "date": "June 2026",
+        "description": "Moduli personalizzati che inoltrano ogni invio a una casella, una cartella, un wiki, una bacheca o un webhook — con antispam e consenso GDPR."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Un CRM leggero sui tuoi contatti: pipeline, trattative, previsioni ponderate e note — interamente ospitato nell'UE."
+      },
+      "autoTranslate": {
+        "name": "Traduzione automatica",
+        "date": "June 2026",
+        "description": "Traduzione immediata della posta in entrata e in uscita nelle lingue dell'UE — ospitata nell'UE, senza Google o DeepL, gratis in ogni piano."
+      },
+      "transparencyLog": {
+        "name": "Registro di trasparenza",
+        "date": "June 2026",
+        "description": "Un registro pubblico e verificabile crittograficamente di modifiche ai subresponsabili, incidenti e aggiornamenti dell'infrastruttura."
+      },
+      "dsrPortal": {
+        "name": "Portale richieste degli interessati",
+        "date": "June 2026",
+        "description": "Un portale GDPR self-service per le richieste dei tuoi utenti ai sensi degli articoli 15–21, con gestione del DPO entro il termine di legge."
       }
     }
   },

@@ -611,6 +611,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Boards",
+        "date": "June 2026",
+        "description": "Built-in Kanban boards — plan and track work without leaving Verkio. Custom columns, card types, assignees, watchers, and a full activity history."
+      },
+      "forms": {
+        "name": "Forms",
+        "date": "June 2026",
+        "description": "Custom forms that route each submission to a mailbox, folder, wiki, board, or webhook — with anti-spam and GDPR consent built in."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "A light CRM on your contacts: pipelines, deals, a weighted forecast, and notes — all EU-resident."
+      },
+      "autoTranslate": {
+        "name": "Auto-translate",
+        "date": "June 2026",
+        "description": "On-the-fly translation of incoming and outgoing mail across EU languages — EU-resident, no Google or DeepL, free on every plan."
+      },
+      "transparencyLog": {
+        "name": "Transparency log",
+        "date": "June 2026",
+        "description": "A public, cryptographically verifiable log of subprocessor changes, incidents, and infrastructure updates you can audit independently."
+      },
+      "dsrPortal": {
+        "name": "Data subject request portal",
+        "date": "June 2026",
+        "description": "A self-serve GDPR portal for your end-users' Article 15–21 requests, with DPO triage against the statutory deadline."
       }
     }
   },

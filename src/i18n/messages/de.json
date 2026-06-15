@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Boards",
+        "date": "June 2026",
+        "description": "Integrierte Kanban-Boards — Arbeit planen und verfolgen, ohne Verkio zu verlassen. Eigene Spalten, Kartentypen, Zuständige, Beobachter und vollständige Aktivitätshistorie."
+      },
+      "forms": {
+        "name": "Formulare",
+        "date": "June 2026",
+        "description": "Eigene Formulare, die jede Einsendung an ein Postfach, einen Ordner, ein Wiki, ein Board oder einen Webhook weiterleiten — mit Spamschutz und DSGVO-Einwilligung."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Ein schlankes CRM auf Basis Ihrer Kontakte: Pipelines, Deals, gewichtete Prognose und Notizen — vollständig in der EU gehostet."
+      },
+      "autoTranslate": {
+        "name": "Automatische Übersetzung",
+        "date": "June 2026",
+        "description": "Sofortige Übersetzung ein- und ausgehender E-Mails in EU-Sprachen — in der EU gehostet, ohne Google oder DeepL, in jedem Tarif kostenlos."
+      },
+      "transparencyLog": {
+        "name": "Transparenzprotokoll",
+        "date": "June 2026",
+        "description": "Ein öffentliches, kryptografisch überprüfbares Protokoll über Änderungen bei Unterauftragsverarbeitern, Vorfälle und Infrastruktur-Updates."
+      },
+      "dsrPortal": {
+        "name": "Portal für Betroffenenanfragen",
+        "date": "June 2026",
+        "description": "Ein Self-Service-DSGVO-Portal für Anfragen Ihrer Endnutzer nach Art. 15–21, mit Bearbeitung durch den Datenschutzbeauftragten innerhalb der gesetzlichen Frist."
       }
     }
   },

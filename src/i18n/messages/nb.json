@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Boards",
+        "date": "June 2026",
+        "description": "Innebygde Kanban-tavler — planlegg og følg arbeidet uten å forlate Verkio. Egne kolonner, korttyper, ansvarlige, følgere og full aktivitetshistorikk."
+      },
+      "forms": {
+        "name": "Skjemaer",
+        "date": "June 2026",
+        "description": "Egendefinerte skjemaer som sender hver innsending til en postboks, mappe, wiki, tavle eller webhook — med spamfilter og GDPR-samtykke."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Et lett CRM på kontaktene dine: pipelines, avtaler, vektet prognose og notater — fullt hostet i EU."
+      },
+      "autoTranslate": {
+        "name": "Automatisk oversettelse",
+        "date": "June 2026",
+        "description": "Umiddelbar oversettelse av inn- og utgående e-post på EU-språk — hostet i EU, uten Google eller DeepL, gratis i alle abonnementer."
+      },
+      "transparencyLog": {
+        "name": "Åpenhetslogg",
+        "date": "June 2026",
+        "description": "En offentlig, kryptografisk verifiserbar logg over endringer hos underleverandører, hendelser og infrastrukturoppdateringer."
+      },
+      "dsrPortal": {
+        "name": "Portal for registrertes forespørsler",
+        "date": "June 2026",
+        "description": "En selvbetjent GDPR-portal for sluttbrukernes forespørsler etter artikkel 15–21, med behandling av personvernombudet innen lovpålagt frist."
       }
     }
   },

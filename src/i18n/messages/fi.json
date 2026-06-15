@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Boards",
+        "date": "June 2026",
+        "description": "Sisäänrakennetut Kanban-taulut — suunnittele ja seuraa työtä poistumatta Verkiosta. Mukautetut sarakkeet, korttityypit, vastuuhenkilöt, seuraajat ja täysi tapahtumahistoria."
+      },
+      "forms": {
+        "name": "Lomakkeet",
+        "date": "June 2026",
+        "description": "Mukautetut lomakkeet, jotka ohjaavat jokaisen vastauksen postilaatikkoon, kansioon, wikiin, tauluun tai webhookiin — roskapostisuojalla ja GDPR-suostumuksella."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Kevyt CRM yhteystietojesi päälle: putket, kaupat, painotettu ennuste ja muistiinpanot — kokonaan EU:ssa sijaitseva."
+      },
+      "autoTranslate": {
+        "name": "Automaattinen käännös",
+        "date": "June 2026",
+        "description": "Saapuvan ja lähtevän postin välitön käännös EU-kielille — EU:ssa sijaitseva, ilman Googlea tai DeepLiä, ilmainen kaikissa tilauksissa."
+      },
+      "transparencyLog": {
+        "name": "Läpinäkyvyysloki",
+        "date": "June 2026",
+        "description": "Julkinen, kryptografisesti todennettava loki alihankkijoiden muutoksista, häiriöistä ja infrastruktuuripäivityksistä."
+      },
+      "dsrPortal": {
+        "name": "Rekisteröidyn pyyntöjen portaali",
+        "date": "June 2026",
+        "description": "Itsepalvelullinen GDPR-portaali loppukäyttäjiesi artiklojen 15–21 pyynnöille, tietosuojavastaavan käsittelyllä lakisääteisessä määräajassa."
       }
     }
   },

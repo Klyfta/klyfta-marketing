@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Boards",
+        "date": "June 2026",
+        "description": "Indbyggede Kanban-tavler — planlæg og følg arbejdet uden at forlade Verkio. Egne kolonner, korttyper, ansvarlige, følgere og fuld aktivitetshistorik."
+      },
+      "forms": {
+        "name": "Formularer",
+        "date": "June 2026",
+        "description": "Brugerdefinerede formularer, der sender hver indsendelse til en postkasse, mappe, wiki, tavle eller webhook — med spamfilter og GDPR-samtykke."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Et let CRM på dine kontakter: pipelines, aftaler, vægtet prognose og noter — fuldt hostet i EU."
+      },
+      "autoTranslate": {
+        "name": "Automatisk oversættelse",
+        "date": "June 2026",
+        "description": "Øjeblikkelig oversættelse af indgående og udgående mail på EU-sprog — hostet i EU, uden Google eller DeepL, gratis i alle abonnementer."
+      },
+      "transparencyLog": {
+        "name": "Transparenslog",
+        "date": "June 2026",
+        "description": "En offentlig, kryptografisk verificerbar log over ændringer af underdatabehandlere, hændelser og infrastrukturopdateringer."
+      },
+      "dsrPortal": {
+        "name": "Portal til registreredes anmodninger",
+        "date": "June 2026",
+        "description": "En selvbetjent GDPR-portal til dine slutbrugeres anmodninger efter artikel 15-21, med håndtering af databeskyttelsesrådgiveren inden for den lovbestemte frist."
       }
     }
   },
