@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Nástěnky",
+        "date": "June 2026",
+        "description": "Vestavěné Kanban nástěnky — plánujte a sledujte práci bez opuštění Verkia. Vlastní sloupce, typy karet, řešitelé, sledující a úplná historie aktivit."
+      },
+      "forms": {
+        "name": "Formuláře",
+        "date": "June 2026",
+        "description": "Vlastní formuláře, které směrují každé odeslání do schránky, složky, wiki, nástěnky nebo webhooku — s ochranou proti spamu a souhlasem GDPR."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Odlehčené CRM nad vašimi kontakty: pipeline, obchody, vážená predikce a poznámky — plně hostováno v EU."
+      },
+      "autoTranslate": {
+        "name": "Automatický překlad",
+        "date": "June 2026",
+        "description": "Okamžitý překlad příchozí i odchozí pošty do jazyků EU — hostováno v EU, bez Googlu či DeepL, zdarma v každém tarifu."
+      },
+      "transparencyLog": {
+        "name": "Protokol transparentnosti",
+        "date": "June 2026",
+        "description": "Veřejný, kryptograficky ověřitelný protokol změn dílčích zpracovatelů, incidentů a aktualizací infrastruktury."
+      },
+      "dsrPortal": {
+        "name": "Portál žádostí subjektů údajů",
+        "date": "June 2026",
+        "description": "Samoobslužný portál GDPR pro žádosti vašich koncových uživatelů dle článků 15–21, se zpracováním pověřencem pro ochranu osobních údajů v zákonné lhůtě."
       }
     }
   },

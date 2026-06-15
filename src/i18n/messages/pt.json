@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Boards",
+        "date": "June 2026",
+        "description": "Quadros Kanban integrados — planeie e acompanhe o trabalho sem sair do Verkio. Colunas personalizadas, tipos de cartão, responsáveis, observadores e histórico completo."
+      },
+      "forms": {
+        "name": "Formulários",
+        "date": "June 2026",
+        "description": "Formulários personalizados que encaminham cada submissão para uma caixa de correio, pasta, wiki, quadro ou webhook — com antispam e consentimento RGPD."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Um CRM leve sobre os seus contactos: pipelines, negócios, previsão ponderada e notas — totalmente alojado na UE."
+      },
+      "autoTranslate": {
+        "name": "Tradução automática",
+        "date": "June 2026",
+        "description": "Tradução instantânea de e-mails recebidos e enviados em línguas da UE — alojada na UE, sem Google ou DeepL, gratuita em todos os planos."
+      },
+      "transparencyLog": {
+        "name": "Registo de transparência",
+        "date": "June 2026",
+        "description": "Um registo público e criptograficamente verificável de alterações de subcontratantes, incidentes e atualizações da infraestrutura."
+      },
+      "dsrPortal": {
+        "name": "Portal de pedidos dos titulares",
+        "date": "June 2026",
+        "description": "Um portal RGPD de autosserviço para os pedidos dos seus utilizadores ao abrigo dos artigos 15.º a 21.º, com triagem do EPD dentro do prazo legal."
       }
     }
   },

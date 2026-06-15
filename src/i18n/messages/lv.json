@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Tāfeles",
+        "date": "June 2026",
+        "description": "Iebūvētas Kanban tāfeles — plāno un seko darbam, nepametot Verkio. Pielāgotas kolonnas, kartīšu veidi, atbildīgie, sekotāji un pilna darbību vēsture."
+      },
+      "forms": {
+        "name": "Veidlapas",
+        "date": "June 2026",
+        "description": "Pielāgotas veidlapas, kas novirza katru iesniegumu uz pastkasti, mapi, wiki, tāfeli vai webhook — ar aizsardzību pret mēstulēm un GDPR piekrišanu."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Viegls CRM uz jūsu kontaktiem: piltuves, darījumi, svērta prognoze un piezīmes — pilnībā mitināts ES."
+      },
+      "autoTranslate": {
+        "name": "Automātiskā tulkošana",
+        "date": "June 2026",
+        "description": "Tūlītēja ienākošā un izejošā pasta tulkošana ES valodās — mitināta ES, bez Google vai DeepL, bez maksas katrā plānā."
+      },
+      "transparencyLog": {
+        "name": "Caurspīdīguma žurnāls",
+        "date": "June 2026",
+        "description": "Publisks, kriptogrāfiski pārbaudāms žurnāls par apakšapstrādātāju izmaiņām, incidentiem un infrastruktūras atjauninājumiem."
+      },
+      "dsrPortal": {
+        "name": "Datu subjektu pieprasījumu portāls",
+        "date": "June 2026",
+        "description": "Pašapkalpošanās GDPR portāls jūsu galalietotāju pieprasījumiem saskaņā ar 15.–21. pantu, ar datu aizsardzības speciālista izskatīšanu likumā noteiktajā termiņā."
       }
     }
   },

@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Boards",
+        "date": "June 2026",
+        "description": "Ingebouwde kanbanborden — werk plannen en volgen zonder Verkio te verlaten. Eigen kolommen, kaarttypes, toegewezen personen, volgers en volledige activiteitsgeschiedenis."
+      },
+      "forms": {
+        "name": "Formulieren",
+        "date": "June 2026",
+        "description": "Aangepaste formulieren die elke inzending naar een mailbox, map, wiki, board of webhook sturen — met antispam en AVG-toestemming."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Een licht CRM op je contacten: pijplijnen, deals, een gewogen prognose en notities — volledig in de EU gehost."
+      },
+      "autoTranslate": {
+        "name": "Automatisch vertalen",
+        "date": "June 2026",
+        "description": "Directe vertaling van inkomende en uitgaande e-mail in EU-talen — in de EU gehost, zonder Google of DeepL, gratis in elk abonnement."
+      },
+      "transparencyLog": {
+        "name": "Transparantielogboek",
+        "date": "June 2026",
+        "description": "Een openbaar, cryptografisch verifieerbaar logboek van wijzigingen bij subverwerkers, incidenten en infrastructuurupdates."
+      },
+      "dsrPortal": {
+        "name": "Portaal voor verzoeken van betrokkenen",
+        "date": "June 2026",
+        "description": "Een AVG-zelfbedieningsportaal voor verzoeken van je eindgebruikers op grond van artikel 15–21, met afhandeling door de FG binnen de wettelijke termijn."
       }
     }
   },

@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Boards",
+        "date": "June 2026",
+        "description": "Tableaux Kanban intégrés — planifiez et suivez le travail sans quitter Verkio. Colonnes personnalisées, types de cartes, responsables, observateurs et historique complet."
+      },
+      "forms": {
+        "name": "Formulaires",
+        "date": "June 2026",
+        "description": "Des formulaires personnalisés qui acheminent chaque réponse vers une boîte mail, un dossier, un wiki, un tableau ou un webhook — anti-spam et consentement RGPD inclus."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Un CRM léger basé sur vos contacts : pipelines, opportunités, prévisions pondérées et notes — entièrement hébergé dans l'UE."
+      },
+      "autoTranslate": {
+        "name": "Traduction automatique",
+        "date": "June 2026",
+        "description": "Traduction instantanée des e-mails entrants et sortants dans les langues de l'UE — hébergée dans l'UE, sans Google ni DeepL, gratuite dans toutes les formules."
+      },
+      "transparencyLog": {
+        "name": "Journal de transparence",
+        "date": "June 2026",
+        "description": "Un journal public et vérifiable cryptographiquement des changements de sous-traitants, des incidents et des mises à jour de l'infrastructure."
+      },
+      "dsrPortal": {
+        "name": "Portail de demandes des personnes concernées",
+        "date": "June 2026",
+        "description": "Un portail RGPD en libre-service pour les demandes de vos utilisateurs au titre des articles 15 à 21, avec traitement par le DPO dans le délai légal."
       }
     }
   },

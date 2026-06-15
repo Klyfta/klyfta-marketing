@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Tablice",
+        "date": "June 2026",
+        "description": "Wbudowane tablice Kanban — planuj i śledź pracę bez opuszczania Verkio. Własne kolumny, typy kart, osoby przypisane, obserwatorzy i pełna historia aktywności."
+      },
+      "forms": {
+        "name": "Formularze",
+        "date": "June 2026",
+        "description": "Niestandardowe formularze, które kierują każde zgłoszenie do skrzynki, folderu, wiki, tablicy lub webhooka — z ochroną przed spamem i zgodą RODO."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Lekki CRM oparty na kontaktach: lejki, szanse sprzedaży, ważona prognoza i notatki — w całości hostowany w UE."
+      },
+      "autoTranslate": {
+        "name": "Automatyczne tłumaczenie",
+        "date": "June 2026",
+        "description": "Błyskawiczne tłumaczenie poczty przychodzącej i wychodzącej na języki UE — hostowane w UE, bez Google i DeepL, za darmo w każdym planie."
+      },
+      "transparencyLog": {
+        "name": "Dziennik przejrzystości",
+        "date": "June 2026",
+        "description": "Publiczny, kryptograficznie weryfikowalny dziennik zmian podprocesorów, incydentów i aktualizacji infrastruktury."
+      },
+      "dsrPortal": {
+        "name": "Portal żądań osób, których dane dotyczą",
+        "date": "June 2026",
+        "description": "Samoobsługowy portal RODO dla żądań użytkowników z art. 15–21, z obsługą przez inspektora ochrony danych w ustawowym terminie."
       }
     }
   },

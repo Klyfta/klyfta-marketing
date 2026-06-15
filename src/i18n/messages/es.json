@@ -473,6 +473,36 @@
         "date": "TBD — developer demand-led",
         "name": "Sign in with Verkio",
         "description": "Privacy-respecting alternative to “Sign in with Google / Apple / Microsoft”. A standard OIDC button any third-party site can integrate — your Verkio account becomes your identity for the open web. EU-resident sign-in flow; no cross-site profiling. Per-site granular consent + a connected-apps dashboard where you revoke any third-party with one click. Free for end users; free for developers in v1."
+      },
+      "boards": {
+        "name": "Tableros",
+        "date": "June 2026",
+        "description": "Tableros Kanban integrados: planifica y haz seguimiento del trabajo sin salir de Verkio. Columnas personalizadas, tipos de tarjeta, responsables, seguidores e historial completo."
+      },
+      "forms": {
+        "name": "Formularios",
+        "date": "June 2026",
+        "description": "Formularios personalizados que envían cada respuesta a un buzón, una carpeta, un wiki, un tablero o un webhook, con antispam y consentimiento RGPD."
+      },
+      "crm": {
+        "name": "CRM",
+        "date": "June 2026",
+        "description": "Un CRM ligero sobre tus contactos: embudos, oportunidades, previsión ponderada y notas, alojado íntegramente en la UE."
+      },
+      "autoTranslate": {
+        "name": "Traducción automática",
+        "date": "June 2026",
+        "description": "Traducción instantánea del correo entrante y saliente en idiomas de la UE: alojada en la UE, sin Google ni DeepL, gratis en todos los planes."
+      },
+      "transparencyLog": {
+        "name": "Registro de transparencia",
+        "date": "June 2026",
+        "description": "Un registro público y verificable criptográficamente de cambios de subencargados, incidentes y actualizaciones de la infraestructura."
+      },
+      "dsrPortal": {
+        "name": "Portal de solicitudes de interesados",
+        "date": "June 2026",
+        "description": "Un portal RGPD de autoservicio para las solicitudes de tus usuarios según los artículos 15 a 21, con gestión del DPD dentro del plazo legal."
       }
     }
   },
