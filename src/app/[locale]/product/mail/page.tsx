@@ -12,12 +12,13 @@ import { WaitlistCta } from "@/app/[locale]/components/WaitlistCta";
 const NAMESPACE = "productMail";
 const SLUG = "mail";
 
+const HERO_IMAGE = "Webmail with the three-pane inbox view";
 const sections: ProductSection[] = [
-  { key: "webmail", bulletCount: 5 },
-  { key: "shared", bulletCount: 6 },
-  { key: "rules", bulletCount: 4 },
-  { key: "aliases", bulletCount: 5 },
-  { key: "domains", bulletCount: 5 },
+  { key: "webmail", bulletCount: 5, imageCaption: "Keyboard shortcut overlay open over the inbox" },
+  { key: "shared", bulletCount: 6, imageCaption: "Shared mailbox with assignment panel and status badges" },
+  { key: "rules", bulletCount: 4, imageCaption: "Visual rule builder editor with a Sieve preview" },
+  { key: "aliases", bulletCount: 5, imageCaption: "Alias and forwarding settings screen" },
+  { key: "domains", bulletCount: 5, imageCaption: "Domain auto-setup wizard with DNS record list" },
 ];
 
 export function generateStaticParams() {
@@ -52,6 +53,7 @@ export default async function ProductMailPage({
           namespace={NAMESPACE}
           sections={sections}
           hasStandards={true}
+          heroImageCaption={HERO_IMAGE}
         />
         <WaitlistCta />
       </main>

@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Container } from "./Layout";
+import { ImagePlaceholder } from "./ImagePlaceholder";
 
 const principleKeys = ["standards", "quiet", "unified", "leave"] as const;
 
@@ -8,12 +9,20 @@ export function Principles() {
   return (
     <section className="py-20 sm:py-32">
       <Container>
-        <div>
-          <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>
-          <h2 className="mt-3 text-3xl font-medium tracking-tight text-gray-900">
-            {t("headline")}
-          </h2>
-          <p className="mt-4 text-lg text-gray-600">{t("subhead")}</p>
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center">
+          <div className="lg:col-span-7">
+            <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>
+            <h2 className="mt-3 text-3xl sm:text-4xl font-medium tracking-tight text-gray-900">
+              {t("headline")}
+            </h2>
+            <p className="mt-4 text-lg text-gray-600">{t("subhead")}</p>
+          </div>
+          <div className="lg:col-span-5">
+            <ImagePlaceholder
+              caption="Editorial composition expressing the four principles — standards, quiet, unified, leave"
+              aspect="4-3"
+            />
+          </div>
         </div>
         <dl className="mt-16 grid grid-cols-1 gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
           {principleKeys.map((key, idx) => (

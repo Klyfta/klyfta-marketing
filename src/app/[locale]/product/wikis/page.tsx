@@ -12,10 +12,11 @@ import { WaitlistCta } from "@/app/[locale]/components/WaitlistCta";
 const NAMESPACE = "productWikis";
 const SLUG = "wikis";
 
+const HERO_IMAGE = "Wiki page in edit mode with wikilink suggestions";
 const sections: ProductSection[] = [
-  { key: "versioned", bulletCount: 4 },
-  { key: "scopes", bulletCount: 4 },
-  { key: "linked", bulletCount: 4 },
+  { key: "versioned", bulletCount: 4, imageCaption: "Side-by-side diff view between two wiki page revisions" },
+  { key: "scopes", bulletCount: 4, imageCaption: "Wiki sidebar showing personal, team, and org scopes" },
+  { key: "linked", bulletCount: 4, imageCaption: "Backlinks panel showing every page linking to the current one" },
 ];
 
 export function generateStaticParams() {
@@ -50,6 +51,7 @@ export default async function ProductWikisPage({
           namespace={NAMESPACE}
           sections={sections}
           hasStandards={true}
+          heroImageCaption={HERO_IMAGE}
         />
         <WaitlistCta />
       </main>

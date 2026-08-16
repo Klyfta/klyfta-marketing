@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Container } from "./Layout";
+import { ImagePlaceholder } from "./ImagePlaceholder";
 import { productIcons, type ProductIconKey } from "./ProductIcons";
 
 const items: { key: ProductIconKey; href: string; comingSoon?: boolean }[] = [
@@ -20,14 +21,22 @@ export function ProductIndex() {
   return (
     <section className="py-20 sm:py-28">
       <Container>
-        <div className="max-w-3xl">
-          <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>
-          <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-medium tracking-tight text-gray-900 leading-[1.05]">
-            {t("headline")}
-          </h1>
-          <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-            {t("body")}
-          </p>
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center">
+          <div className="lg:col-span-6">
+            <p className="text-sm font-semibold text-brand-600">{t("eyebrow")}</p>
+            <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-medium tracking-tight text-gray-900 leading-[1.05]">
+              {t("headline")}
+            </h1>
+            <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+              {t("body")}
+            </p>
+          </div>
+          <div className="lg:col-span-6">
+            <ImagePlaceholder
+              caption="Overview composition showing the full Verkio suite — mail, calendar, contacts, files, wiki, messaging"
+              aspect="4-3"
+            />
+          </div>
         </div>
         <ul
           role="list"

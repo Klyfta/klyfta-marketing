@@ -12,11 +12,12 @@ import { WaitlistCta } from "@/app/[locale]/components/WaitlistCta";
 const NAMESPACE = "productFiles";
 const SLUG = "files";
 
+const HERO_IMAGE = "File browser with a public share dialog open";
 const sections: ProductSection[] = [
-  { key: "privateShared", bulletCount: 5 },
-  { key: "encryption", bulletCount: 4 },
-  { key: "uploads", bulletCount: 4 },
-  { key: "sharing", bulletCount: 4 },
+  { key: "privateShared", bulletCount: 5, imageCaption: "Folder tree showing private and shared folders side by side" },
+  { key: "encryption", bulletCount: 4, imageCaption: "Per-file key wrapping flow with Vault Transit annotated" },
+  { key: "uploads", bulletCount: 4, imageCaption: "Multi-GB upload with resumable progress indicator" },
+  { key: "sharing", bulletCount: 4, imageCaption: "Share link creation dialog with password and expiry options" },
 ];
 
 export function generateStaticParams() {
@@ -51,6 +52,7 @@ export default async function ProductFilesPage({
           namespace={NAMESPACE}
           sections={sections}
           hasStandards={true}
+          heroImageCaption={HERO_IMAGE}
         />
         <WaitlistCta />
       </main>
